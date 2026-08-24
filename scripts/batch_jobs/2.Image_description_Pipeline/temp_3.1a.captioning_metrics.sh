@@ -20,6 +20,9 @@ for FOLDER in "${FOLDERS[@]}"; do
 #SBATCH --time=04:00:00
 #SBATCH --output=/home2020/home/icube/janil/clip_pacs_${FOLDER}_%j.out
 
+export RHINE_PROJECT_ROOT="${RHINE_PROJECT_ROOT:-/home2020/home/icube/janil/Rhine_proj}"
+
+
 source /home2020/home/icube/janil/miniforge3/etc/profile.d/conda.sh
 conda activate vlm_env
 
@@ -32,11 +35,11 @@ echo "===== Job node: \$(hostname) ====="
 echo "===== Allocated GPU: \$CUDA_VISIBLE_DEVICES ====="
 nvidia-smi --query-gpu=name,memory.total,driver_version --format=csv,noheader
 
-mkdir -p /home2020/home/icube/janil/Rhine_proj/outputs/live_logs/3.Metrics_output
-python -u /home2020/home/icube/janil/Rhine_proj/scripts/code/2.Image_description_Pipeline/temp_3.Image_captions_metrics.py ${FOLDER} > /home2020/home/icube/janil/Rhine_proj/outputs/live_logs/3.Metrics_output/Context_OCR_ablation/${FOLDER}_clip_pacs.txt 2>&1
-# python -u /home2020/home/icube/janil/Rhine_proj/scripts/code/2.Image_description_Pipeline/temp_3.Image_captions_metrics.py ${FOLDER} > /home2020/home/icube/janil/Rhine_proj/outputs/live_logs/3.Metrics_output/${FOLDER}_ablation_clip_pacs.txt 2>&1
-# python -u /home2020/home/icube/janil/Rhine_proj/scripts/code/2.Image_description_Pipeline/temp_3.Image_captions_metrics.py ${FOLDER} > /home2020/home/icube/janil/Rhine_proj/outputs/live_logs/3.Metrics_output/Summary_ablation/${FOLDER}_summary_clip_pacs.txt 2>&1
-# python -u /home2020/home/icube/janil/Rhine_proj/scripts/code/2.Image_description_Pipeline/temp_3.Image_captions_metrics.py ${FOLDER} > /home2020/home/icube/janil/Rhine_proj/outputs/live_logs/3.Metrics_output/Weighted_blended_summary/${FOLDER}_weighted_summary_clip_pacs.txt 2>&1
+mkdir -p $RHINE_PROJECT_ROOT/outputs/live_logs/3.Metrics_output
+python -u $RHINE_PROJECT_ROOT/scripts/code/2.Image_description_Pipeline/temp_3.Image_captions_metrics.py ${FOLDER} > $RHINE_PROJECT_ROOT/outputs/live_logs/3.Metrics_output/Context_OCR_ablation/${FOLDER}_clip_pacs.txt 2>&1
+# python -u $RHINE_PROJECT_ROOT/scripts/code/2.Image_description_Pipeline/temp_3.Image_captions_metrics.py ${FOLDER} > $RHINE_PROJECT_ROOT/outputs/live_logs/3.Metrics_output/${FOLDER}_ablation_clip_pacs.txt 2>&1
+# python -u $RHINE_PROJECT_ROOT/scripts/code/2.Image_description_Pipeline/temp_3.Image_captions_metrics.py ${FOLDER} > $RHINE_PROJECT_ROOT/outputs/live_logs/3.Metrics_output/Summary_ablation/${FOLDER}_summary_clip_pacs.txt 2>&1
+# python -u $RHINE_PROJECT_ROOT/scripts/code/2.Image_description_Pipeline/temp_3.Image_captions_metrics.py ${FOLDER} > $RHINE_PROJECT_ROOT/outputs/live_logs/3.Metrics_output/Weighted_blended_summary/${FOLDER}_weighted_summary_clip_pacs.txt 2>&1
 ENDJOB
 
     sbatch $JOBSCRIPT

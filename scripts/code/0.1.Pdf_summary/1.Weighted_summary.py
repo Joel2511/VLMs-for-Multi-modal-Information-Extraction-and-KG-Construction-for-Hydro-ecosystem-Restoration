@@ -7,15 +7,18 @@ import warnings
 from pathlib import Path
 from transformers import AutoTokenizer, Qwen2VLForConditionalGeneration, BitsAndBytesConfig
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 warnings.filterwarnings("ignore")
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
 MODEL_NAME     = "qwen2vl-7b-sum"
-MODEL_PATH     = "/home2020/home/icube/janil/Rhine_proj/hf_models/Qwen2-VL-7B-Instruct"
-JSON_ROOT      = "/home2020/home/icube/janil/Rhine_proj/outputs/json_results"
-SUMMARY_ROOT   = "/home2020/home/icube/janil/Rhine_proj/outputs/Summarized_pdfs"
-RETRIEVAL_ROOT = "/home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching"
-OUTPUT_ROOT    = "/home2020/home/icube/janil/Rhine_proj/outputs/Weighted_summary"
+MODEL_PATH     = os.path.join(PROJECT_ROOT, "hf_models/Qwen2-VL-7B-Instruct")
+JSON_ROOT      = os.path.join(PROJECT_ROOT, "outputs/json_results")
+SUMMARY_ROOT   = os.path.join(PROJECT_ROOT, "outputs/Summarized_pdfs")
+RETRIEVAL_ROOT = os.path.join(PROJECT_ROOT, "outputs/Image_text_matching")
+OUTPUT_ROOT    = os.path.join(PROJECT_ROOT, "outputs/Weighted_summary")
 
 RETRIEVERS     = ["vidore"]
 MAX_NEW_TOKENS = 300

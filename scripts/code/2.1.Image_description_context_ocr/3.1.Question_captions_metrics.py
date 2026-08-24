@@ -13,6 +13,9 @@ from transformers import (
 )
 from qwen_vl_utils import process_vision_info
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 # --- 1. PATHS ---
 PROJECT_ROOT = os.path.join(os.path.expanduser("~"), "Rhine_proj")
 BASE_IMAGE_FOLDER = os.path.join(PROJECT_ROOT, "data", "extracted_images")
@@ -74,7 +77,7 @@ def load_eval_models(device):
 # --- NLI MODEL ---
 # The 'MoritzLaurer/mDeBERTa-v3-base-mnli-xnli' is the standard for French NLI.
 
-    nli_model = "/home2020/home/icube/janil/Rhine_proj/hf_models/mDeBERTa-v3-mnli-xnli"
+    nli_model = os.path.join(PROJECT_ROOT, "hf_models/mDeBERTa-v3-mnli-xnli")
 
     nli_pipe = pipeline(
         "text-classification",
@@ -91,7 +94,7 @@ def load_eval_models(device):
     )
 
     qwen_model = Qwen2VLForConditionalGeneration.from_pretrained(
-        "/home2020/home/icube/janil/Rhine_proj/hf_models/Qwen2-VL-7B-Instruct",
+        os.path.join(PROJECT_ROOT, "hf_models/Qwen2-VL-7B-Instruct"),
         quantization_config=bnb_config,
         device_map="auto",
         torch_dtype=torch.float16,
@@ -99,7 +102,7 @@ def load_eval_models(device):
     )
 
     qwen_processor = AutoProcessor.from_pretrained(
-        "/home2020/home/icube/janil/Rhine_proj/hf_models/Qwen2-VL-7B-Instruct",
+        os.path.join(PROJECT_ROOT, "hf_models/Qwen2-VL-7B-Instruct"),
         trust_remote_code=True,
         model_max_length=2048,
         min_pixels=256 * 28 * 28,   # minimum visual token budget

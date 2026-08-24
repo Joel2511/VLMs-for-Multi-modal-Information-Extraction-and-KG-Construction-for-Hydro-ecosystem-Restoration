@@ -9,6 +9,9 @@
 #SBATCH --mem=32G
 #SBATCH --time=00:30:00
 
+export RHINE_PROJECT_ROOT="${RHINE_PROJECT_ROOT:-/home2020/home/icube/janil/Rhine_proj}"
+
+
 
 # 1. Activate Conda
 source ~/miniforge3/etc/profile.d/conda.sh
@@ -19,7 +22,7 @@ export HF_HOME=~/Rhine_proj/hf_models
 export TRANSFORMERS_OFFLINE=1
 export HF_DATASETS_OFFLINE=1
 
-# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'openai/clip-vit-base-patch32', '--local-dir', '/home2020/home/icube/janil/Rhine_proj/hf_models/clip-vit-base-patch32', '--token', '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'], env=env)"
+# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'openai/clip-vit-base-patch32', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/clip-vit-base-patch32', '--token', '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'], env=env)"
 
 # 3. Run
 echo "CLIP Experiment"

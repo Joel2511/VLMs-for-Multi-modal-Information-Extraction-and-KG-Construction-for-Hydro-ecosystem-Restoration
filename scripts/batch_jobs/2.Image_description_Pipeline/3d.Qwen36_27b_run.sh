@@ -10,6 +10,9 @@
 #SBATCH --time=08:00:00
 #SBATCH --output=qwen36_job_%j.out
 
+export RHINE_PROJECT_ROOT="${RHINE_PROJECT_ROOT:-/home2020/home/icube/janil/Rhine_proj}"
+
+
 # 1. Activate Conda
 source ~/miniforge3/etc/profile.d/conda.sh
 conda activate qwen36_env
@@ -17,7 +20,7 @@ unset CUDA_VISIBLE_DEVICES
 export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
 export HF_HUB_ENABLE_HF_TRANSFER=1
 
-# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'Qwen/Qwen3.6-27B', '--local-dir', '/home2020/home/icube/janil/Rhine_proj/hf_models/Qwen3.6-27B', '--token', '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'], env=env)"
+# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'Qwen/Qwen3.6-27B', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/Qwen3.6-27B', '--token', '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'], env=env)"
 
 # Run Inference
 export TRANSFORMERS_OFFLINE=1
@@ -33,4 +36,4 @@ python -u ~/Rhine_proj/scripts/code/2.0.Image_description_ablation_no_prompt/2.Q
 # python -u ~/Rhine_proj/scripts/code/2.5.Decoding_ablation/3.Qwen3.6_27b_captioner_icd.py --cd_alpha 0.5 > ~/Rhine_proj/outputs/live_logs/2.5.Decoding_ablation_output/qwen36_icd_mild.txt 2>&1
 # python -u ~/Rhine_proj/scripts/code/2.5.Decoding_ablation/3.Qwen3.6_27b_captioner_icd.py --cd_alpha 1.0 > ~/Rhine_proj/outputs/live_logs/2.5.Decoding_ablation_output/qwen36_icd_strong.txt 2>&1
 # Cleanup Model to free space
-# rm -rf /home2020/home/icube/janil/Rhine_proj/hf_models/Qwen3.6-27B
+# rm -rf $RHINE_PROJECT_ROOT/hf_models/Qwen3.6-27B

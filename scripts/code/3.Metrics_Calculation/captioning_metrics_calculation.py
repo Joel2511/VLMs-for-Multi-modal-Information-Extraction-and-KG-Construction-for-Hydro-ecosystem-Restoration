@@ -15,6 +15,9 @@ from transformers import (
 from qwen_vl_utils import process_vision_info
 import spacy
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 _nlp = spacy.load("fr_core_news_sm", disable=["ner", "tagger", "parser"])
 _nlp.add_pipe("sentencizer")
 
@@ -166,7 +169,7 @@ def summac_zs_score(
 # --- 4. MODELS ---
 def load_eval_models(device):
     print("--- Loading NLI Model (SummaC-ZS sentence scorer) ---")
-    nli_model_path = "/home2020/home/icube/janil/Rhine_proj/hf_models/mDeBERTa-v3-mnli-xnli"
+    nli_model_path = os.path.join(PROJECT_ROOT, "hf_models/mDeBERTa-v3-mnli-xnli")
     nli_tokenizer, nli_model, entailment_id = load_nli_model(nli_model_path, device)
 
     print("--- Loading Qwen2-VL-7B (8-bit) ---")
@@ -177,14 +180,14 @@ def load_eval_models(device):
         llm_int8_enable_fp32_cpu_offload=True,
     )
     qwen_model = Qwen2VLForConditionalGeneration.from_pretrained(
-        "/home2020/home/icube/janil/Rhine_proj/hf_models/Qwen2-VL-7B-Instruct",
+        os.path.join(PROJECT_ROOT, "hf_models/Qwen2-VL-7B-Instruct"),
         quantization_config=bnb_config,
         device_map="auto",
         torch_dtype=torch.float16,
         trust_remote_code=True
     )
     qwen_processor = AutoProcessor.from_pretrained(
-        "/home2020/home/icube/janil/Rhine_proj/hf_models/Qwen2-VL-7B-Instruct",
+        os.path.join(PROJECT_ROOT, "hf_models/Qwen2-VL-7B-Instruct"),
         trust_remote_code=True,
         model_max_length=2048,
         min_pixels=256 * 28 * 28,

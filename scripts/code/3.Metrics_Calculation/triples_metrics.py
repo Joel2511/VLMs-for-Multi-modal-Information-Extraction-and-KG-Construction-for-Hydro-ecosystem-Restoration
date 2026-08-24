@@ -3,6 +3,9 @@ import json
 import random
 from rdflib import Graph, URIRef, Literal
 from rdflib.namespace import RDF, OWL, SKOS
+
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
 random.seed(42)
 
 # ─────────────────────────────────────────────
@@ -11,8 +14,8 @@ random.seed(42)
 RUN_LABEL        = "finetuned"   # change to "baseline"/"finetuned" for the second run
 MERGED_FILENAME  = "merged_knowledge_graph.ttl" if RUN_LABEL == "baseline" else "ft_merged_knowledge_graph.ttl"
 
-BASE_TTL_OUTPUT  = "/home2020/home/icube/janil/Rhine_proj/outputs/triples_baseline" if RUN_LABEL == "baseline" \
-                   else "/home2020/home/icube/janil/Rhine_proj/outputs/triples_fine_tuned"
+BASE_TTL_OUTPUT  = os.path.join(PROJECT_ROOT, "outputs/triples_baseline") if RUN_LABEL == "baseline" \
+                   else os.path.join(PROJECT_ROOT, "outputs/triples_fine_tuned")
 METRICS_OUT_JSON = os.path.join(BASE_TTL_OUTPUT, f"kg_metrics_{RUN_LABEL}.json")
 METRICS_OUT_TXT  = os.path.join(BASE_TTL_OUTPUT, f"kg_metrics_{RUN_LABEL}.txt")
 PRECISION_SAMPLE = os.path.join(BASE_TTL_OUTPUT, f"precision_sample_{RUN_LABEL}.txt")

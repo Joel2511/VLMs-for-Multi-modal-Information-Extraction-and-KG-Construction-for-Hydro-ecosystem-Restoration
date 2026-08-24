@@ -8,6 +8,9 @@ from transformers import ColQwen2ForRetrieval, ColQwen2Processor
 import numpy as np
 import re
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 # --- PATHS ---
 PROJECT_ROOT = os.path.join(os.path.expanduser("~"), "Rhine_proj")
 PDF_FOLDER = os.path.join(PROJECT_ROOT, "data", "raw_pdfs")
@@ -45,7 +48,7 @@ def run_colqwen_matching():
     print(f"Running on device: {device.upper()}")
 
     # model_id points to the locally cached vidore/colqwen2-v1.0-hf checkpoint
-    model_id = "/home2020/home/icube/janil/Rhine_proj/hf_models/colqwen2-v1.0-hf"
+    model_id = os.path.join(PROJECT_ROOT, "hf_models/colqwen2-v1.0-hf")
 
     model = ColQwen2ForRetrieval.from_pretrained(
         model_id,

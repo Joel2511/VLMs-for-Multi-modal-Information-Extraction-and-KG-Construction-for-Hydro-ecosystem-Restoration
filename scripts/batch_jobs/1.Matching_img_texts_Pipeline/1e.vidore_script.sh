@@ -9,8 +9,11 @@
 #SBATCH --time=02:00:00         
 #SBATCH --output=/home2020/home/icube/janil/Rhine_proj/logs/vidore_matching_%j.out
 
+export RHINE_PROJECT_ROOT="${RHINE_PROJECT_ROOT:-/home2020/home/icube/janil/Rhine_proj}"
 
-# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'llamaindex/vdr-2b-multi-v1', '--local-dir', '/home2020/home/icube/janil/Rhine_proj/hf_models/vdr-2b-multi-v1', '--token', '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'], env=env)"
+
+
+# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'llamaindex/vdr-2b-multi-v1', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/vdr-2b-multi-v1', '--token', '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'], env=env)"
 
 {
     echo "--- CHECKING GPU ALLOCATION ---"

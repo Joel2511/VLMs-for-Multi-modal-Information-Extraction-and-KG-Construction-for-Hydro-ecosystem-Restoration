@@ -21,6 +21,9 @@ import warnings
 from pathlib import Path
 from transformers import AutoTokenizer, Qwen2VLForConditionalGeneration, BitsAndBytesConfig
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 warnings.filterwarnings("ignore")
 
 def count_words(text: str) -> int:
@@ -29,9 +32,9 @@ def count_words(text: str) -> int:
 
 # ─── CONFIG ───────────────────────────────────────────────────────────────────
 MODEL_NAME   = "qwen2vl-7b-sum"
-MODEL_PATH   = "/home2020/home/icube/janil/Rhine_proj/hf_models/Qwen2-VL-7B-Instruct"
-JSON_ROOT    = "/home2020/home/icube/janil/Rhine_proj/outputs/json_results"
-OUTPUT_ROOT  = "/home2020/home/icube/janil/Rhine_proj/outputs/Summarized_pdfs"
+MODEL_PATH   = os.path.join(PROJECT_ROOT, "hf_models/Qwen2-VL-7B-Instruct")
+JSON_ROOT    = os.path.join(PROJECT_ROOT, "outputs/json_results")
+OUTPUT_ROOT  = os.path.join(PROJECT_ROOT, "outputs/Summarized_pdfs")
 
 MAX_NEW_TOKENS   = 300
 

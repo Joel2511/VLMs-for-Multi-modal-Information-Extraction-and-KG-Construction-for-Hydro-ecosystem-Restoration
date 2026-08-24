@@ -9,17 +9,20 @@ from rdflib import Graph, Namespace, URIRef, Literal
 from rdflib.namespace import RDF, RDFS, OWL, XSD, SKOS
 from collections import defaultdict
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 
 # --- PATHS ---
 HF_TOKEN = os.environ.get("HF_TOKEN")
 if HF_TOKEN is None:
     raise EnvironmentError("HF_TOKEN environment variable not set. Run 'export HF_TOKEN=...' before executing this script.")
-BASE_IMAGE_CAPTIONS = "/home2020/home/icube/janil/Rhine_proj/outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p3_contrast_captions"
-BASE_TEXT_JSON      = "/home2020/home/icube/janil/Rhine_proj/outputs/json_results"
+BASE_IMAGE_CAPTIONS = os.path.join(PROJECT_ROOT, "outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p3_contrast_captions")
+BASE_TEXT_JSON      = os.path.join(PROJECT_ROOT, "outputs/json_results")
 
 
-BASE_TTL_OUTPUT = "/home2020/home/icube/janil/Rhine_proj/outputs/triples_baseline"
-ONTOLOGY_TTL_PATH = "/home2020/home/icube/janil/Rhine_proj/data/ontology/TetraOnto_compact.txt"
+BASE_TTL_OUTPUT = os.path.join(PROJECT_ROOT, "outputs/triples_baseline")
+ONTOLOGY_TTL_PATH = os.path.join(PROJECT_ROOT, "data/ontology/TetraOnto_compact.txt")
 
 
 TETRA_NS = "http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#"
@@ -249,7 +252,7 @@ Exemple de sortie valide :
 ]"""
 
 
-MODEL_ID = "/home2020/home/icube/janil/Rhine_proj/hf_models/Qwen2.5-14B-Instruct"
+MODEL_ID = os.path.join(PROJECT_ROOT, "hf_models/Qwen2.5-14B-Instruct")
 
 
 

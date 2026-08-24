@@ -7,6 +7,9 @@ from PIL import Image
 from transformers import CLIPProcessor, CLIPModel
 import numpy as np
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 # --- PATHS ---
 PROJECT_ROOT = os.path.join(os.path.expanduser("~"), "Rhine_proj")
 PDF_FOLDER = os.path.join(PROJECT_ROOT, "data", "raw_pdfs")
@@ -21,10 +24,10 @@ def run_clip_matching():
     print(f"Running on device: {device.upper()}")
 
     model = CLIPModel.from_pretrained(
-        "/home2020/home/icube/janil/Rhine_proj/hf_models/clip-vit-base-patch32"
+        os.path.join(PROJECT_ROOT, "hf_models/clip-vit-base-patch32")
     ).to(device)
     processor = CLIPProcessor.from_pretrained(
-        "/home2020/home/icube/janil/Rhine_proj/hf_models/clip-vit-base-patch32"
+        os.path.join(PROJECT_ROOT, "hf_models/clip-vit-base-patch32")
     )
 
     if not os.path.exists(PDF_FOLDER):

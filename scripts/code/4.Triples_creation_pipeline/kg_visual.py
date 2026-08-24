@@ -6,37 +6,40 @@ import matplotlib.patheffects as pe
 import textwrap
 import os
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 EXAMPLES = [
     {
         "id": "ex1",
-        "ttl_dir": "/home2020/home/icube/janil/Rhine_proj/outputs/ttl_results_qwen3vl_ft_merged/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7",
+        "ttl_dir": os.path.join(PROJECT_ROOT, "outputs/ttl_results_qwen3vl_ft_merged/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7"),
         "anchor": "Rhin",
         "focus": "Projet_Kembs",
         "title": "Example 1 — Dense Hub: 'Rhin' (fine-tuned run)"
     },
     {
         "id": "ex2",
-        "ttl_dir": "/home2020/home/icube/janil/Rhine_proj/outputs/ttl_results_qwen3vl_ft_merged/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7",
+        "ttl_dir": os.path.join(PROJECT_ROOT, "outputs/ttl_results_qwen3vl_ft_merged/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7"),
         "anchor": "Projet_Kembs",
         "focus": "Rhin",
         "title": "Example 2 — Named Project: 'Projet Kembs' (fine-tuned run)"
     },
     {
         "id": "ex3",
-        "ttl_dir": "/home2020/home/icube/janil/Rhine_proj/outputs/ttl_results_qwen3vl_ft_merged/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7",
+        "ttl_dir": os.path.join(PROJECT_ROOT, "outputs/ttl_results_qwen3vl_ft_merged/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7"),
         "anchor": "Edf",
         "focus": "Rhin",
         "title": "Example 3 — Cross-Modal Bridge: 'EDF' links Text and Image evidence"
     },
     {
         "id": "ex4",
-        "ttl_dir": "/home2020/home/icube/janil/Rhine_proj/outputs/ttl_results_qwen3vl_ft_merged/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7",
+        "ttl_dir": os.path.join(PROJECT_ROOT, "outputs/ttl_results_qwen3vl_ft_merged/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7"),
         "anchor": "Rocher_Distein",
         "focus": "Rhin",
         "title": "Example 4 — Pure Image Extraction: 'Rocher d'Istein' (Figure 5 caption only)"
     }
 ]
-OUT_DIR = "/home2020/home/icube/janil/Rhine_proj/outputs/ttl_results_qwen3vl_ft_merged/visual_proof"
+OUT_DIR = os.path.join(PROJECT_ROOT, "outputs/ttl_results_qwen3vl_ft_merged/visual_proof")
 
 FILES = {
     "texts": "texts.gexf",
@@ -300,8 +303,8 @@ EXAMPLES = [
         "anchor": "Etang",
         "relation": "isLocatedOn",
         "target": "Geographiczone",
-        "merged_gexf": "/home2020/home/icube/janil/Rhine_proj/outputs/ttl_results_qwen3vl/fichier/merged_knowledge_graph.gexf",
-        "predicted_ttl": "/home2020/home/icube/janil/Rhine_proj/outputs/ttl_results_qwen3vl/tagged/fichier/merged_knowledge_graph_predicted.ttl",
+        "merged_gexf": os.path.join(PROJECT_ROOT, "outputs/ttl_results_qwen3vl/fichier/merged_knowledge_graph.gexf"),
+        "predicted_ttl": os.path.join(PROJECT_ROOT, "outputs/ttl_results_qwen3vl/tagged/fichier/merged_knowledge_graph_predicted.ttl"),
         "title": "Example 1 — proof of new predicted edge"
     },
     {
@@ -309,13 +312,13 @@ EXAMPLES = [
         "anchor": "Cours_Deau",
         "relation": "isLocatedIn",
         "target": "Paysage_Agricole",
-        "merged_gexf": "/home2020/home/icube/janil/Rhine_proj/outputs/ttl_results_qwen3vl/Rapport-stage-M2-Floriane/merged_knowledge_graph.gexf",
-        "predicted_ttl": "/home2020/home/icube/janil/Rhine_proj/outputs/ttl_results_qwen3vl/tagged/Rapport-stage-M2-Floriane/merged_knowledge_graph_predicted.ttl",
+        "merged_gexf": os.path.join(PROJECT_ROOT, "outputs/ttl_results_qwen3vl/Rapport-stage-M2-Floriane/merged_knowledge_graph.gexf"),
+        "predicted_ttl": os.path.join(PROJECT_ROOT, "outputs/ttl_results_qwen3vl/tagged/Rapport-stage-M2-Floriane/merged_knowledge_graph_predicted.ttl"),
         "title": "Example 2 — proof of new predicted edge"
     }
 ]
 
-OUT_DIR = "/home2020/home/icube/janil/Rhine_proj/outputs/ttl_results_qwen3vl_ft_merged/visual_proof_reconstituer"
+OUT_DIR = os.path.join(PROJECT_ROOT, "outputs/ttl_results_qwen3vl_ft_merged/visual_proof_reconstituer")
 os.makedirs(OUT_DIR, exist_ok=True)
 
 NS = Namespace("http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#")

@@ -14,6 +14,9 @@ import matplotlib.pyplot as plt
 from PIL import Image
 from transformers import AutoModel, AutoProcessor
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 
 # --- PATHS ---
 PROJECT_ROOT = os.path.join(os.path.expanduser("~"), "Rhine_proj")
@@ -66,7 +69,7 @@ def load_nemotron_model(device: str):
       - forward_images(...)
       - colbert_score(qs, ps)
     """
-    model_id = "/home2020/home/icube/janil/Rhine_proj/hf_models/nemotron-colembed-vl-4b-v2"
+    model_id = os.path.join(PROJECT_ROOT, "hf_models/nemotron-colembed-vl-4b-v2")
 
     # trust_remote_code=True is required to load Qwen3VLNemotronEmbedForConditionalGeneration
     # with EmbeddingMixin + ColBERTScoringMixin.

@@ -9,9 +9,12 @@
 #SBATCH --time=02:00:00         
 #SBATCH --output=/home2020/home/icube/janil/Rhine_proj/logs/colpali_%j.log
 
-# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'vidore/colpali-v1.2', '--local-dir', '/home2020/home/icube/janil/Rhine_proj/hf_models/colpali-v1.2', '--token', 'YOUR_HF_TOKEN'], env=env)"
+export RHINE_PROJECT_ROOT="${RHINE_PROJECT_ROOT:-/home2020/home/icube/janil/Rhine_proj}"
 
-# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'vidore/colpaligemma-3b-pt-448-base', '--local-dir', '/home2020/home/icube/janil/Rhine_proj/hf_models/colpaligemma-3b-pt-448-base', '--token', 'YOUR_HF_TOKEN'], env=env)"
+
+# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'vidore/colpali-v1.2', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/colpali-v1.2', '--token', 'YOUR_HF_TOKEN'], env=env)"
+
+# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'vidore/colpaligemma-3b-pt-448-base', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/colpaligemma-3b-pt-448-base', '--token', 'YOUR_HF_TOKEN'], env=env)"
 
 {
     echo "--- CHECKING GPU ALLOCATION ---"

@@ -3,6 +3,9 @@
 
 import math
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 
 # ══════════════════════════════════════════════════════════════
 # CONFIGURATION — Edit this block for each ablation
@@ -30,9 +33,9 @@ CONFIG        = SCENARIOS[ACTIVE_MODE]
 ABLATION_NAME = CONFIG["name"]
 WEIGHTS       = CONFIG["weights"]
 SUB_WEIGHTS   = CONFIG["sub_weights"]
-CAPTIONING_ROOT = "/home2020/home/icube/janil/Rhine_proj/outputs/Global_pareto_comparison_captions"
+CAPTIONING_ROOT = os.path.join(PROJECT_ROOT, "outputs/Global_pareto_comparison_captions")
 METRICS_JSON    = "vqa_results.json"
-LOG_ROOT        = "/home2020/home/icube/janil/Rhine_proj/outputs/live_logs/2.Global_output"
+LOG_ROOT        = os.path.join(PROJECT_ROOT, "outputs/live_logs/2.Global_output")
 
 # grep -E "Model size|Total runtime" /home2020/home/icube/janil/Rhine_proj/outputs/live_logs/2.0.Global_output/*.txt
 OVERRIDES       = {

@@ -3,6 +3,9 @@
 
 import math
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 
 # ══════════════════════════════════════════════════════════════
 # CONFIGURATION — Edit this block for each ablation
@@ -30,9 +33,9 @@ CONFIG        = SCENARIOS[ACTIVE_MODE]
 ABLATION_NAME = CONFIG["name"]
 WEIGHTS       = CONFIG["weights"]
 SUB_WEIGHTS   = CONFIG["sub_weights"]
-CAPTIONING_ROOT = "/home2020/home/icube/janil/Rhine_proj/outputs/2nd_ablation_Image_captioning"
+CAPTIONING_ROOT = os.path.join(PROJECT_ROOT, "outputs/2nd_ablation_Image_captioning")
 METRICS_JSON    = "2nd_ablation_vqa_nli_results.json"
-LOG_ROOT        = "/home2020/home/icube/janil/Rhine_proj/outputs/live_logs/2.Image_captioning_output"
+LOG_ROOT        = os.path.join(PROJECT_ROOT, "outputs/live_logs/2.Image_captioning_output")
 OVERRIDES       = {}
 
 

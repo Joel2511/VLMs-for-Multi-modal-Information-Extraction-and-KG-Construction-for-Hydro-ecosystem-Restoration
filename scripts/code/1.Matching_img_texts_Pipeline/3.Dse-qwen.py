@@ -10,6 +10,9 @@ from torch.nn.functional import cosine_similarity
 import numpy as np
 import re
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 PROJECT_ROOT = os.path.join(os.path.expanduser("~"), "Rhine_proj")
 PDF_FOLDER = os.path.join(PROJECT_ROOT, "data", "raw_pdfs")
 BASE_IMAGE_FOLDER = os.path.join(PROJECT_ROOT, "data", "extracted_images")
@@ -105,7 +108,7 @@ def run_dse_matching():
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Running on device: {device.upper()}")
 
-    model_id = "/home2020/home/icube/janil/Rhine_proj/hf_models/dse-qwen2-2b"
+    model_id = os.path.join(PROJECT_ROOT, "hf_models/dse-qwen2-2b")
 
     min_pixels = 1 * 28 * 28
     max_pixels = 2560 * 28 * 28

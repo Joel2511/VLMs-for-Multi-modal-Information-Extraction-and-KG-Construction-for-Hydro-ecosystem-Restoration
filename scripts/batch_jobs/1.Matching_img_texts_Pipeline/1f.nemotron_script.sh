@@ -11,7 +11,10 @@
 #SBATCH --time=08:00:00         
 #SBATCH --exclude=hpc-n967
 
-# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'nvidia/nemotron-colembed-vl-4b-v2', '--local-dir', '/home2020/home/icube/janil/Rhine_proj/hf_models/nemotron-colembed-vl-4b-v2', '--token', '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'], env=env)"
+export RHINE_PROJECT_ROOT="${RHINE_PROJECT_ROOT:-/home2020/home/icube/janil/Rhine_proj}"
+
+
+# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'nvidia/nemotron-colembed-vl-4b-v2', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/nemotron-colembed-vl-4b-v2', '--token', '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'], env=env)"
 
 {
     echo "--- CHECKING GPU ALLOCATION ---"

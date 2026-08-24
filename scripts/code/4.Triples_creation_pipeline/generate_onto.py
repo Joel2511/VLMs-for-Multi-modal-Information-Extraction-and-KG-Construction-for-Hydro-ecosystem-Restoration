@@ -3,9 +3,12 @@ from rdflib import Graph, Namespace, RDF, RDFS, OWL
 from rdflib.namespace import SKOS
 from collections import defaultdict
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
 
-ONTOLOGY_TTL_PATH = "/home2020/home/icube/janil/Rhine_proj/data/ontology/TetraOnto.ttl"
-OUTPUT_PATH = "/home2020/home/icube/janil/Rhine_proj/data/ontology/TetraOnto_compact.txt"
+
+ONTOLOGY_TTL_PATH = os.path.join(PROJECT_ROOT, "data/ontology/TetraOnto.ttl")
+OUTPUT_PATH = os.path.join(PROJECT_ROOT, "data/ontology/TetraOnto_compact.txt")
 
 
 g = Graph()

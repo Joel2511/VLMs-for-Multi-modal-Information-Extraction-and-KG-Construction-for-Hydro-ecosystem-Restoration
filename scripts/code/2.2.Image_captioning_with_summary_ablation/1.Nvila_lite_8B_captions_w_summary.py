@@ -8,6 +8,9 @@ from transformers import AutoProcessor, AutoModel
 import time
 from datetime import datetime
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 
 
 
@@ -25,7 +28,7 @@ JUNK_FOLDER = os.path.join(PROJECT_ROOT, "data", "junk_images")
 
 
 HF_TOKEN = "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"
-MODEL_ID = "/home2020/home/icube/janil/Rhine_proj/hf_models/NVILA-Lite-8B-hf"
+MODEL_ID = os.path.join(PROJECT_ROOT, "hf_models/NVILA-Lite-8B-hf")
 
 
 

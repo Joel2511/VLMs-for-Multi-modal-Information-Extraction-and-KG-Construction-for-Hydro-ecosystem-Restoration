@@ -9,6 +9,9 @@ from PIL import Image
 from datetime import datetime
 from transformers import AutoProcessor, AutoModelForImageTextToText, BitsAndBytesConfig
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 
 # --- CONFIGURATION ---
 GENERATOR_MODEL_NAME = "mistral-small-31-24b"
@@ -22,7 +25,7 @@ BASE_OUTPUT_FOLDER  = os.path.join(PROJECT_ROOT, "outputs", "3rd_ablation_Image_
 JUNK_FOLDER = os.path.join(PROJECT_ROOT, "data", "junk_images")
 
 HF_TOKEN  = "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"
-MODEL_ID  = "/home2020/home/icube/janil/Rhine_proj/hf_models/Mistral-Small-3.1-24B-Instruct-2503"
+MODEL_ID  = os.path.join(PROJECT_ROOT, "hf_models/Mistral-Small-3.1-24B-Instruct-2503")
 
 GPU_MAX_MEMORY = {0: "28GiB", 1: "28GiB"}
 

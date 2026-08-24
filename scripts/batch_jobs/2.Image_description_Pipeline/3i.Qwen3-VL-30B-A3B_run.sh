@@ -9,6 +9,9 @@
 #SBATCH --gres=gpu:3
 #SBATCH --time=04:00:00
 
+export RHINE_PROJECT_ROOT="${RHINE_PROJECT_ROOT:-/home2020/home/icube/janil/Rhine_proj}"
+
+
 # CANDIDATES where EVERY individual GPU >= 24000MB: hpc-n863 hpc-n875 hpc-n878 hpc-n983
 # 1. Activate Conda
 source ~/miniforge3/etc/profile.d/conda.sh
@@ -17,7 +20,7 @@ conda activate qwen3vl_env
 export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
 export HF_HUB_ENABLE_HF_TRANSFER=1
 
-# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'Qwen/Qwen3-VL-30B-A3B-Instruct', '--local-dir', '/home2020/home/icube/janil/Rhine_proj/hf_models/Qwen3-VL-30B-A3B-Instruct', '--token', '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'], env=env)"
+# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'Qwen/Qwen3-VL-30B-A3B-Instruct', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/Qwen3-VL-30B-A3B-Instruct', '--token', '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'], env=env)"
 
 # Run Inference
 export TRANSFORMERS_OFFLINE=1
@@ -31,4 +34,4 @@ python -u ~/Rhine_proj/scripts/code/2.0.Image_description_ablation_no_prompt/6.Q
 # python -u ~/Rhine_proj/scripts/code/2.3.Weighted_context_captioning_ablation/3.Qwen3_VL_blended_summary.py > ~/Rhine_proj/outputs/live_logs/2.3.Weighted_summary_captioning_output/qwen3vl__with_weighted_summary.txt 2>&1
 
 # Cleanup Model to free space
-# rm -rf /home2020/home/icube/janil/Rhine_proj/hf_models/Qwen3-VL-30B-A3B-Instruct
+# rm -rf $RHINE_PROJECT_ROOT/hf_models/Qwen3-VL-30B-A3B-Instruct

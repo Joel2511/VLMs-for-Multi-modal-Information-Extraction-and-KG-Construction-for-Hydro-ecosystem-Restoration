@@ -1,8 +1,11 @@
 import json
 from datasets import Dataset
 
-INPUT_JSONL = "/home2020/home/icube/janil/Rhine_proj/scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/2.validation/synthetic_dataset_clean.jsonl"
-OUTPUT_DATASET_DIR = "/home2020/home/icube/janil/Rhine_proj/scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/3.dataset_prep/hf_dataset"
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
+INPUT_JSONL = os.path.join(PROJECT_ROOT, "scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/2.validation/synthetic_dataset_clean.jsonl")
+OUTPUT_DATASET_DIR = os.path.join(PROJECT_ROOT, "scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/3.dataset_prep/hf_dataset")
 
 
 def main():

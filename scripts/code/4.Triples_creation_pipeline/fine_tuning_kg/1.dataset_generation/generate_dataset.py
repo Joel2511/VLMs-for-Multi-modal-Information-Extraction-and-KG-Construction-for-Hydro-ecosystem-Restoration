@@ -5,10 +5,13 @@ import random
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
-ONTOLOGY_TTL_PATH = "/home2020/home/icube/janil/Rhine_proj/data/ontology/TetraOnto_compact.txt"
-SEED_TEXT_PATH = "/home2020/home/icube/janil/Rhine_proj/outputs/json_results/fichier/extracted_content.json"
-OUTPUT_JSONL = "/home2020/home/icube/janil/Rhine_proj/scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/1.dataset_generation/synthetic_dataset.jsonl"
-MODEL_ID = "/home2020/home/icube/janil/Rhine_proj/hf_models/Qwen2.5-14B-Instruct"
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
+ONTOLOGY_TTL_PATH = os.path.join(PROJECT_ROOT, "data/ontology/TetraOnto_compact.txt")
+SEED_TEXT_PATH = os.path.join(PROJECT_ROOT, "outputs/json_results/fichier/extracted_content.json")
+OUTPUT_JSONL = os.path.join(PROJECT_ROOT, "scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/1.dataset_generation/synthetic_dataset.jsonl")
+MODEL_ID = os.path.join(PROJECT_ROOT, "hf_models/Qwen2.5-14B-Instruct")
 
 N_GENERAL_EXAMPLES = 130
 N_CONSISTENCY_PAIRS = 25  # -> 50 examples total (2 per pair)

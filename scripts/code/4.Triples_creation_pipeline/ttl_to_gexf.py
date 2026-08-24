@@ -4,15 +4,18 @@ import networkx as nx
 import re
 from collections import Counter
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 # ─────────────────────────────────────────────
 # PATHS — change PDF for other documents
 # ─────────────────────────────────────────────
-# TTL_DIR = "/home2020/home/icube/janil/Rhine_proj/outputs/triples_fine_tuned/fichier"
-# TTL_DIR = "/home2020/home/icube/janil/Rhine_proj/outputs/triples_fine_tuned/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7"
-# TTL_DIR = "/home2020/home/icube/janil/Rhine_proj/outputs/triples_fine_tuned/Rapport-stage-M2-Floriane"
-# TTL_DIR = "/home2020/home/icube/janil/Rhine_proj/outputs/triples_fine_tuned/2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire"
-# TTL_DIR = "/home2020/home/icube/janil/Rhine_proj/outputs/triples_fine_tuned/dossier_unio_crassus_zorn_v4_19_11_2024"
-TTL_DIR = "/home2020/home/icube/janil/Rhine_proj/outputs/triples_fine_tuned/test_dataset_1"
+# TTL_DIR = os.path.join(PROJECT_ROOT, "outputs/triples_fine_tuned/fichier")
+# TTL_DIR = os.path.join(PROJECT_ROOT, "outputs/triples_fine_tuned/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7")
+# TTL_DIR = os.path.join(PROJECT_ROOT, "outputs/triples_fine_tuned/Rapport-stage-M2-Floriane")
+# TTL_DIR = os.path.join(PROJECT_ROOT, "outputs/triples_fine_tuned/2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire")
+# TTL_DIR = os.path.join(PROJECT_ROOT, "outputs/triples_fine_tuned/dossier_unio_crassus_zorn_v4_19_11_2024")
+TTL_DIR = os.path.join(PROJECT_ROOT, "outputs/triples_fine_tuned/test_dataset_1")
 
 TTL_FILES = {
     "texts":                     "texts.ttl",

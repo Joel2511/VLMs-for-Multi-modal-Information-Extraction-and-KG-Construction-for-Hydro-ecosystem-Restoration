@@ -3,6 +3,9 @@ import json
 import math
 import os
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 pdf_bases = [
     "fichier",
     "2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire",
@@ -198,7 +201,7 @@ def compute_and_print_macro_averages(aggregated_data):
 
 
 def main():
-    base_output = "/home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching"
+    base_output = os.path.join(PROJECT_ROOT, "outputs/Image_text_matching")
     
     macro_registry = {
         "CLIP": [], "COLPALI": [], "COLQWEN": [], 
@@ -206,7 +209,7 @@ def main():
     }
 
     for pdf_base in pdf_bases:
-        gt_json_path = f"/home2020/home/icube/janil/Rhine_proj/outputs/json_results/{pdf_base}/GT_Img_text_matching_{pdf_base}.json"
+        gt_json_path = fos.path.join(PROJECT_ROOT, "outputs/json_results/{pdf_base}/GT_Img_text_matching_{pdf_base}.json")
         clip_results_csv_path    = os.path.join(base_output, "clip_results",         pdf_base, "clip_raw_matrix.csv")
         colpali_results_csv_path = os.path.join(base_output, "colpali_results",      pdf_base, "colpali_raw_matrix.csv")
         colqwen_results_csv_path = os.path.join(base_output, "colqwen_results",      pdf_base, "colqwen_raw_matrix.csv")

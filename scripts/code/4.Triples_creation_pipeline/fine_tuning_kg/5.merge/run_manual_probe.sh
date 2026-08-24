@@ -1,14 +1,17 @@
 #!/usr/bin/env bash
+
+export RHINE_PROJECT_ROOT="${RHINE_PROJECT_ROOT:-/home2020/home/icube/janil/Rhine_proj}"
+
 set -euo pipefail
 
 # EDIT: confirm this is your real merged model path
-# MODEL_DIR="/home2020/home/icube/janil/Rhine_proj/hf_models/Qwen2.5-14B-Instruct" #baseline
-MODEL_DIR="/home2020/home/icube/janil/Rhine_proj/scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/5.merge/Qwen2.5-14B-populate-ontology-merged" #finetuned
+# MODEL_DIR="$RHINE_PROJECT_ROOT/hf_models/Qwen2.5-14B-Instruct" #baseline
+MODEL_DIR="$RHINE_PROJECT_ROOT/scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/5.merge/Qwen2.5-14B-populate-ontology-merged" #finetuned
 
-ONTOLOGY_PATH="/home2020/home/icube/janil/Rhine_proj/data/ontology/TetraOnto_compact.txt"
+ONTOLOGY_PATH="$RHINE_PROJECT_ROOT/data/ontology/TetraOnto_compact.txt"
 
 # EDIT: base dir under which your 5 dossiers' caption JSONs live
-CAPTIONS_BASE="/home2020/home/icube/janil/Rhine_proj/outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p3_contrast_captions"
+CAPTIONS_BASE="$RHINE_PROJECT_ROOT/outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p3_contrast_captions"
 
 # How many captions to sample per document
 N_PER_DOC=3

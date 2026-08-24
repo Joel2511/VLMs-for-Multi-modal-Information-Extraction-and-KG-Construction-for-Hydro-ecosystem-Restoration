@@ -1,0 +1,559 @@
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   .gitignore
+	new file:   README.md
+	new file:   data/ontology/TetraOnto.ttl
+	new file:   data/ontology/TetraOnto_compact.txt
+	new file:   "data/raw_pdfs/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire.pdf"
+	new file:   data/raw_pdfs/Rapport-stage-M2-Floriane.pdf
+	new file:   data/raw_pdfs/dossier_unio_crassus_zorn_v4_19_11_2024.pdf
+	new file:   data/raw_pdfs/fichier.pdf
+	new file:   data/raw_pdfs/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7.pdf
+	new file:   outputs/1st_ablation_image_captions_no_prompt/internvl25-8b/1st_ablation_vqa_nli_results.json
+	new file:   "outputs/1st_ablation_image_captions_no_prompt/internvl25-8b/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions.json"
+	new file:   outputs/1st_ablation_image_captions_no_prompt/internvl25-8b/Rapport-stage-M2-Floriane/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/internvl25-8b/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/internvl25-8b/fichier/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/internvl25-8b/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/llama32vision-11b/1st_ablation_vqa_nli_results.json
+	new file:   "outputs/1st_ablation_image_captions_no_prompt/llama32vision-11b/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions.json"
+	new file:   outputs/1st_ablation_image_captions_no_prompt/llama32vision-11b/Rapport-stage-M2-Floriane/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/llama32vision-11b/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/llama32vision-11b/fichier/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/llama32vision-11b/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/mistral-small-31-24b/1st_ablation_vqa_nli_results.json
+	new file:   "outputs/1st_ablation_image_captions_no_prompt/mistral-small-31-24b/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions.json"
+	new file:   outputs/1st_ablation_image_captions_no_prompt/mistral-small-31-24b/Rapport-stage-M2-Floriane/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/mistral-small-31-24b/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/mistral-small-31-24b/fichier/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/mistral-small-31-24b/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/nvila-lite-8b/1st_ablation_vqa_nli_results.json
+	new file:   "outputs/1st_ablation_image_captions_no_prompt/nvila-lite-8b/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions.json"
+	new file:   outputs/1st_ablation_image_captions_no_prompt/nvila-lite-8b/Rapport-stage-M2-Floriane/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/nvila-lite-8b/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/nvila-lite-8b/fichier/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/nvila-lite-8b/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/pixtral-12b-hf/1st_ablation_vqa_nli_results.json
+	new file:   "outputs/1st_ablation_image_captions_no_prompt/pixtral-12b-hf/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions.json"
+	new file:   outputs/1st_ablation_image_captions_no_prompt/pixtral-12b-hf/Rapport-stage-M2-Floriane/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/pixtral-12b-hf/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/pixtral-12b-hf/fichier/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/pixtral-12b-hf/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/qwen36-27b/1st_ablation_vqa_nli_results.json
+	new file:   "outputs/1st_ablation_image_captions_no_prompt/qwen36-27b/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions.json"
+	new file:   outputs/1st_ablation_image_captions_no_prompt/qwen36-27b/Rapport-stage-M2-Floriane/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/qwen36-27b/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/qwen36-27b/fichier/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/qwen36-27b/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/qwen3vl-30b/1st_ablation_vqa_nli_results.json
+	new file:   "outputs/1st_ablation_image_captions_no_prompt/qwen3vl-30b/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions.json"
+	new file:   outputs/1st_ablation_image_captions_no_prompt/qwen3vl-30b/Rapport-stage-M2-Floriane/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/qwen3vl-30b/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/qwen3vl-30b/fichier/image_captions.json
+	new file:   outputs/1st_ablation_image_captions_no_prompt/qwen3vl-30b/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions.json
+	new file:   "outputs/2nd_ablation_Image_captioning/internvl25-8b_captions_vidore/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions.json"
+	new file:   outputs/2nd_ablation_Image_captioning/internvl25-8b_captions_vidore/2nd_ablation_vqa_nli_results.json
+	new file:   outputs/2nd_ablation_Image_captioning/internvl25-8b_captions_vidore/Rapport-stage-M2-Floriane/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/internvl25-8b_captions_vidore/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/internvl25-8b_captions_vidore/fichier/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/internvl25-8b_captions_vidore/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions.json
+	new file:   "outputs/2nd_ablation_Image_captioning/llama32vision-11b_captions_vidore/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions.json"
+	new file:   outputs/2nd_ablation_Image_captioning/llama32vision-11b_captions_vidore/2nd_ablation_vqa_nli_results.json
+	new file:   outputs/2nd_ablation_Image_captioning/llama32vision-11b_captions_vidore/Rapport-stage-M2-Floriane/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/llama32vision-11b_captions_vidore/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/llama32vision-11b_captions_vidore/fichier/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/llama32vision-11b_captions_vidore/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions.json
+	new file:   "outputs/2nd_ablation_Image_captioning/mistral-small-31-24b_captions_vidore/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions.json"
+	new file:   outputs/2nd_ablation_Image_captioning/mistral-small-31-24b_captions_vidore/2nd_ablation_vqa_nli_results.json
+	new file:   outputs/2nd_ablation_Image_captioning/mistral-small-31-24b_captions_vidore/Rapport-stage-M2-Floriane/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/mistral-small-31-24b_captions_vidore/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/mistral-small-31-24b_captions_vidore/fichier/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/mistral-small-31-24b_captions_vidore/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions.json
+	new file:   "outputs/2nd_ablation_Image_captioning/nvila-lite-8b_captions_vidore/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions.json"
+	new file:   outputs/2nd_ablation_Image_captioning/nvila-lite-8b_captions_vidore/2nd_ablation_vqa_nli_results.json
+	new file:   outputs/2nd_ablation_Image_captioning/nvila-lite-8b_captions_vidore/Rapport-stage-M2-Floriane/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/nvila-lite-8b_captions_vidore/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/nvila-lite-8b_captions_vidore/fichier/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/nvila-lite-8b_captions_vidore/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions.json
+	new file:   "outputs/2nd_ablation_Image_captioning/pixtral-12b-hf_captions_vidore/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions.json"
+	new file:   outputs/2nd_ablation_Image_captioning/pixtral-12b-hf_captions_vidore/2nd_ablation_vqa_nli_results.json
+	new file:   outputs/2nd_ablation_Image_captioning/pixtral-12b-hf_captions_vidore/Rapport-stage-M2-Floriane/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/pixtral-12b-hf_captions_vidore/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/pixtral-12b-hf_captions_vidore/fichier/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/pixtral-12b-hf_captions_vidore/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions.json
+	new file:   "outputs/2nd_ablation_Image_captioning/qwen36-27b_captions_vidore/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions.json"
+	new file:   outputs/2nd_ablation_Image_captioning/qwen36-27b_captions_vidore/2nd_ablation_vqa_nli_results.json
+	new file:   outputs/2nd_ablation_Image_captioning/qwen36-27b_captions_vidore/Rapport-stage-M2-Floriane/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/qwen36-27b_captions_vidore/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/qwen36-27b_captions_vidore/fichier/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/qwen36-27b_captions_vidore/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions.json
+	new file:   "outputs/2nd_ablation_Image_captioning/qwen3vl-30b_captions_vidore/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions.json"
+	new file:   outputs/2nd_ablation_Image_captioning/qwen3vl-30b_captions_vidore/2nd_ablation_vqa_nli_results.json
+	new file:   outputs/2nd_ablation_Image_captioning/qwen3vl-30b_captions_vidore/Rapport-stage-M2-Floriane/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/qwen3vl-30b_captions_vidore/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/qwen3vl-30b_captions_vidore/fichier/image_captions.json
+	new file:   outputs/2nd_ablation_Image_captioning/qwen3vl-30b_captions_vidore/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions.json
+	new file:   "outputs/3rd_ablation_Image_captioning_w_summary/mistral-small-31-24b_captions_vidore/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions_using_summary.json"
+	new file:   outputs/3rd_ablation_Image_captioning_w_summary/mistral-small-31-24b_captions_vidore/3rd_ablation_vqa_nli_results.json
+	new file:   outputs/3rd_ablation_Image_captioning_w_summary/mistral-small-31-24b_captions_vidore/Rapport-stage-M2-Floriane/image_captions_using_summary.json
+	new file:   outputs/3rd_ablation_Image_captioning_w_summary/mistral-small-31-24b_captions_vidore/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions_using_summary.json
+	new file:   outputs/3rd_ablation_Image_captioning_w_summary/mistral-small-31-24b_captions_vidore/fichier/image_captions_using_summary.json
+	new file:   outputs/3rd_ablation_Image_captioning_w_summary/mistral-small-31-24b_captions_vidore/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions_using_summary.json
+	new file:   "outputs/3rd_ablation_Image_captioning_w_summary/nvila-lite-8b_captions_vidore/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions_using_summary.json"
+	new file:   outputs/3rd_ablation_Image_captioning_w_summary/nvila-lite-8b_captions_vidore/3rd_ablation_vqa_nli_results.json
+	new file:   outputs/3rd_ablation_Image_captioning_w_summary/nvila-lite-8b_captions_vidore/Rapport-stage-M2-Floriane/image_captions_using_summary.json
+	new file:   outputs/3rd_ablation_Image_captioning_w_summary/nvila-lite-8b_captions_vidore/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions_using_summary.json
+	new file:   outputs/3rd_ablation_Image_captioning_w_summary/nvila-lite-8b_captions_vidore/fichier/image_captions_using_summary.json
+	new file:   outputs/3rd_ablation_Image_captioning_w_summary/nvila-lite-8b_captions_vidore/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions_using_summary.json
+	new file:   "outputs/3rd_ablation_Image_captioning_w_summary/qwen3vl-30b_captions_vidore/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions_using_summary.json"
+	new file:   outputs/3rd_ablation_Image_captioning_w_summary/qwen3vl-30b_captions_vidore/3rd_ablation_vqa_nli_results.json
+	new file:   outputs/3rd_ablation_Image_captioning_w_summary/qwen3vl-30b_captions_vidore/Rapport-stage-M2-Floriane/image_captions_using_summary.json
+	new file:   outputs/3rd_ablation_Image_captioning_w_summary/qwen3vl-30b_captions_vidore/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions_using_summary.json
+	new file:   outputs/3rd_ablation_Image_captioning_w_summary/qwen3vl-30b_captions_vidore/fichier/image_captions_using_summary.json
+	new file:   outputs/3rd_ablation_Image_captioning_w_summary/qwen3vl-30b_captions_vidore/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions_using_summary.json
+	new file:   "outputs/4th_ablation_Image_captioning_w_weighted_context/mistral-small-31-24b_captions_vidore/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions_using_weighted_context.json"
+	new file:   outputs/4th_ablation_Image_captioning_w_weighted_context/mistral-small-31-24b_captions_vidore/4th_ablation_vqa_nli_results.json
+	new file:   outputs/4th_ablation_Image_captioning_w_weighted_context/mistral-small-31-24b_captions_vidore/Rapport-stage-M2-Floriane/image_captions_using_weighted_context.json
+	new file:   outputs/4th_ablation_Image_captioning_w_weighted_context/mistral-small-31-24b_captions_vidore/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions_using_weighted_context.json
+	new file:   outputs/4th_ablation_Image_captioning_w_weighted_context/mistral-small-31-24b_captions_vidore/fichier/image_captions_using_weighted_context.json
+	new file:   outputs/4th_ablation_Image_captioning_w_weighted_context/mistral-small-31-24b_captions_vidore/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions_using_weighted_context.json
+	new file:   "outputs/4th_ablation_Image_captioning_w_weighted_context/nvila-lite-8b_captions_vidore/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions_using_weighted_context.json"
+	new file:   outputs/4th_ablation_Image_captioning_w_weighted_context/nvila-lite-8b_captions_vidore/4th_ablation_vqa_nli_results.json
+	new file:   outputs/4th_ablation_Image_captioning_w_weighted_context/nvila-lite-8b_captions_vidore/Rapport-stage-M2-Floriane/image_captions_using_weighted_context.json
+	new file:   outputs/4th_ablation_Image_captioning_w_weighted_context/nvila-lite-8b_captions_vidore/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions_using_weighted_context.json
+	new file:   outputs/4th_ablation_Image_captioning_w_weighted_context/nvila-lite-8b_captions_vidore/fichier/image_captions_using_weighted_context.json
+	new file:   outputs/4th_ablation_Image_captioning_w_weighted_context/nvila-lite-8b_captions_vidore/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions_using_weighted_context.json
+	new file:   "outputs/4th_ablation_Image_captioning_w_weighted_context/qwen3vl-30b_captions_vidore/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions_using_weighted_context.json"
+	new file:   outputs/4th_ablation_Image_captioning_w_weighted_context/qwen3vl-30b_captions_vidore/4th_ablation_vqa_nli_results.json
+	new file:   outputs/4th_ablation_Image_captioning_w_weighted_context/qwen3vl-30b_captions_vidore/Rapport-stage-M2-Floriane/image_captions_using_weighted_context.json
+	new file:   outputs/4th_ablation_Image_captioning_w_weighted_context/qwen3vl-30b_captions_vidore/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions_using_weighted_context.json
+	new file:   outputs/4th_ablation_Image_captioning_w_weighted_context/qwen3vl-30b_captions_vidore/fichier/image_captions_using_weighted_context.json
+	new file:   outputs/4th_ablation_Image_captioning_w_weighted_context/qwen3vl-30b_captions_vidore/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions_using_weighted_context.json
+	new file:   "outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p0_baseline_captions/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions_using_weighted_context.json"
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p0_baseline_captions/5th_ablation_vqa_nli_results.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p0_baseline_captions/Rapport-stage-M2-Floriane/image_captions_using_weighted_context.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p0_baseline_captions/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions_using_weighted_context.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p0_baseline_captions/fichier/image_captions_using_weighted_context.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p0_baseline_captions/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions_using_weighted_context.json
+	new file:   "outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p1_primitive_captions/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions_p1_primitive.json"
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p1_primitive_captions/5th_ablation_vqa_nli_results.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p1_primitive_captions/Rapport-stage-M2-Floriane/image_captions_p1_primitive.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p1_primitive_captions/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions_p1_primitive.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p1_primitive_captions/fichier/image_captions_p1_primitive.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p1_primitive_captions/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions_p1_primitive.json
+	new file:   "outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p2_refusal_captions/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions_p2_refusal.json"
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p2_refusal_captions/5th_ablation_vqa_nli_results.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p2_refusal_captions/Rapport-stage-M2-Floriane/image_captions_p2_refusal.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p2_refusal_captions/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions_p2_refusal.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p2_refusal_captions/fichier/image_captions_p2_refusal.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p2_refusal_captions/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions_p2_refusal.json
+	new file:   "outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p3_contrast_captions/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions_p3_contrast.json"
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p3_contrast_captions/5th_ablation_vqa_nli_results.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p3_contrast_captions/Rapport-stage-M2-Floriane/image_captions_p3_contrast.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p3_contrast_captions/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions_p3_contrast.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p3_contrast_captions/fichier/image_captions_p3_contrast.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p3_contrast_captions/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions_p3_contrast.json
+	new file:   "outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p4_selfcorrect_captions/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions_p4_selfcorrect.json"
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p4_selfcorrect_captions/5th_ablation_vqa_nli_results.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p4_selfcorrect_captions/Rapport-stage-M2-Floriane/image_captions_p4_selfcorrect.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p4_selfcorrect_captions/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions_p4_selfcorrect.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p4_selfcorrect_captions/fichier/image_captions_p4_selfcorrect.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p4_selfcorrect_captions/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions_p4_selfcorrect.json
+	new file:   "outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p5_expert_captions/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions_p5_expert.json"
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p5_expert_captions/5th_ablation_vqa_nli_results.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p5_expert_captions/Rapport-stage-M2-Floriane/image_captions_p5_expert.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p5_expert_captions/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions_p5_expert.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p5_expert_captions/fichier/image_captions_p5_expert.json
+	new file:   outputs/5th_ablation_Image_captioning_prompt_engineering/nvila_p5_expert_captions/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions_p5_expert.json
+	new file:   "outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_icd_mild/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions_using_weighted_context.json"
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_icd_mild/6th_ablation_vqa_nli_results.json
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_icd_mild/Rapport-stage-M2-Floriane/image_captions_using_weighted_context.json
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_icd_mild/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions_using_weighted_context.json
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_icd_mild/fichier/image_captions_using_weighted_context.json
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_icd_mild/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions_using_weighted_context.json
+	new file:   "outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_icd_strong/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions_using_weighted_context.json"
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_icd_strong/6th_ablation_vqa_nli_results.json
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_icd_strong/Rapport-stage-M2-Floriane/image_captions_using_weighted_context.json
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_icd_strong/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions_using_weighted_context.json
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_icd_strong/fichier/image_captions_using_weighted_context.json
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_icd_strong/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions_using_weighted_context.json
+	new file:   "outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_vcd_mild/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions_using_weighted_context.json"
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_vcd_mild/6th_ablation_vqa_nli_results.json
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_vcd_mild/Rapport-stage-M2-Floriane/image_captions_using_weighted_context.json
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_vcd_mild/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions_using_weighted_context.json
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_vcd_mild/fichier/image_captions_using_weighted_context.json
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_vcd_mild/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions_using_weighted_context.json
+	new file:   "outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_vcd_strong/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/image_captions_using_weighted_context.json"
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_vcd_strong/6th_ablation_vqa_nli_results.json
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_vcd_strong/Rapport-stage-M2-Floriane/image_captions_using_weighted_context.json
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_vcd_strong/dossier_unio_crassus_zorn_v4_19_11_2024/image_captions_using_weighted_context.json
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_vcd_strong/fichier/image_captions_using_weighted_context.json
+	new file:   outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_vcd_strong/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/image_captions_using_weighted_context.json
+	new file:   outputs/Global_pareto_comparison_captions/2nd_ablation_mistral24b/vqa_results.json
+	new file:   outputs/Global_pareto_comparison_captions/2nd_ablation_nvila_lite_8b/vqa_results.json
+	new file:   outputs/Global_pareto_comparison_captions/2nd_ablation_qwen3vl_30b/vqa_results.json
+	new file:   outputs/Global_pareto_comparison_captions/3rd_ablation_qwen3vl_30b/vqa_results.json
+	new file:   outputs/Global_pareto_comparison_captions/4th_ablation_nvila-lite-8b/vqa_results.json
+	new file:   outputs/Global_pareto_comparison_captions/5th_ablation_nvila_lite_8b_p3/vqa_results.json
+	new file:   outputs/Global_pareto_comparison_captions/6th_ablation_nvila_lite-8b_vcd_alpha05/vqa_results.json
+	new file:   "outputs/Image_text_matching/clip_results/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/clip_raw_matrix.csv"
+	new file:   "outputs/Image_text_matching/clip_results/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/similarity_histogram.png"
+	new file:   outputs/Image_text_matching/clip_results/Rapport-stage-M2-Floriane/clip_raw_matrix.csv
+	new file:   outputs/Image_text_matching/clip_results/Rapport-stage-M2-Floriane/similarity_histogram.png
+	new file:   outputs/Image_text_matching/clip_results/dossier_unio_crassus_zorn_v4_19_11_2024/clip_raw_matrix.csv
+	new file:   outputs/Image_text_matching/clip_results/dossier_unio_crassus_zorn_v4_19_11_2024/similarity_histogram.png
+	new file:   outputs/Image_text_matching/clip_results/fichier/clip_raw_matrix.csv
+	new file:   outputs/Image_text_matching/clip_results/fichier/similarity_histogram.png
+	new file:   outputs/Image_text_matching/clip_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/clip_raw_matrix.csv
+	new file:   outputs/Image_text_matching/clip_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/similarity_histogram.png
+	new file:   "outputs/Image_text_matching/colpali_results/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/colpali_raw_matrix.csv"
+	new file:   "outputs/Image_text_matching/colpali_results/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/colpali_similarity_histogram.png"
+	new file:   outputs/Image_text_matching/colpali_results/Rapport-stage-M2-Floriane/colpali_raw_matrix.csv
+	new file:   outputs/Image_text_matching/colpali_results/Rapport-stage-M2-Floriane/colpali_similarity_histogram.png
+	new file:   outputs/Image_text_matching/colpali_results/dossier_unio_crassus_zorn_v4_19_11_2024/colpali_raw_matrix.csv
+	new file:   outputs/Image_text_matching/colpali_results/dossier_unio_crassus_zorn_v4_19_11_2024/colpali_similarity_histogram.png
+	new file:   outputs/Image_text_matching/colpali_results/fichier/colpali_raw_matrix.csv
+	new file:   outputs/Image_text_matching/colpali_results/fichier/colpali_similarity_histogram.png
+	new file:   outputs/Image_text_matching/colpali_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/colpali_raw_matrix.csv
+	new file:   outputs/Image_text_matching/colpali_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/colpali_similarity_histogram.png
+	new file:   "outputs/Image_text_matching/colqwen_results/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/colqwen_raw_matrix.csv"
+	new file:   "outputs/Image_text_matching/colqwen_results/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/colqwen_similarity_histogram.png"
+	new file:   outputs/Image_text_matching/colqwen_results/Rapport-stage-M2-Floriane/colqwen_raw_matrix.csv
+	new file:   outputs/Image_text_matching/colqwen_results/Rapport-stage-M2-Floriane/colqwen_similarity_histogram.png
+	new file:   outputs/Image_text_matching/colqwen_results/dossier_unio_crassus_zorn_v4_19_11_2024/colqwen_raw_matrix.csv
+	new file:   outputs/Image_text_matching/colqwen_results/dossier_unio_crassus_zorn_v4_19_11_2024/colqwen_similarity_histogram.png
+	new file:   outputs/Image_text_matching/colqwen_results/fichier/colqwen_raw_matrix.csv
+	new file:   outputs/Image_text_matching/colqwen_results/fichier/colqwen_similarity_histogram.png
+	new file:   outputs/Image_text_matching/colqwen_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/colqwen_raw_matrix.csv
+	new file:   outputs/Image_text_matching/colqwen_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/colqwen_similarity_histogram.png
+	new file:   "outputs/Image_text_matching/dse_qwen2_results/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/dse_qwen2_raw_matrix.csv"
+	new file:   "outputs/Image_text_matching/dse_qwen2_results/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/dse_qwen2_similarity_histogram.png"
+	new file:   outputs/Image_text_matching/dse_qwen2_results/Rapport-stage-M2-Floriane/dse_qwen2_raw_matrix.csv
+	new file:   outputs/Image_text_matching/dse_qwen2_results/Rapport-stage-M2-Floriane/dse_qwen2_similarity_histogram.png
+	new file:   outputs/Image_text_matching/dse_qwen2_results/dossier_unio_crassus_zorn_v4_19_11_2024/dse_qwen2_raw_matrix.csv
+	new file:   outputs/Image_text_matching/dse_qwen2_results/dossier_unio_crassus_zorn_v4_19_11_2024/dse_qwen2_similarity_histogram.png
+	new file:   outputs/Image_text_matching/dse_qwen2_results/fichier/dse_qwen2_raw_matrix.csv
+	new file:   outputs/Image_text_matching/dse_qwen2_results/fichier/dse_qwen2_similarity_histogram.png
+	new file:   outputs/Image_text_matching/dse_qwen2_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/dse_qwen2_raw_matrix.csv
+	new file:   outputs/Image_text_matching/dse_qwen2_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/dse_qwen2_similarity_histogram.png
+	new file:   "outputs/Image_text_matching/nemotron_results/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/nemotron_raw_matrix.csv"
+	new file:   "outputs/Image_text_matching/nemotron_results/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/nemotron_similarity_histogram.png"
+	new file:   outputs/Image_text_matching/nemotron_results/Rapport-stage-M2-Floriane/nemotron_raw_matrix.csv
+	new file:   outputs/Image_text_matching/nemotron_results/Rapport-stage-M2-Floriane/nemotron_similarity_histogram.png
+	new file:   outputs/Image_text_matching/nemotron_results/dossier_unio_crassus_zorn_v4_19_11_2024/nemotron_raw_matrix.csv
+	new file:   outputs/Image_text_matching/nemotron_results/dossier_unio_crassus_zorn_v4_19_11_2024/nemotron_similarity_histogram.png
+	new file:   outputs/Image_text_matching/nemotron_results/fichier/nemotron_raw_matrix.csv
+	new file:   outputs/Image_text_matching/nemotron_results/fichier/nemotron_similarity_histogram.png
+	new file:   outputs/Image_text_matching/nemotron_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/nemotron_raw_matrix.csv
+	new file:   outputs/Image_text_matching/nemotron_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/nemotron_similarity_histogram.png
+	new file:   "outputs/Image_text_matching/vidore_results/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/vidore_raw_matrix.csv"
+	new file:   "outputs/Image_text_matching/vidore_results/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/vidore_similarity_histogram.png"
+	new file:   outputs/Image_text_matching/vidore_results/Rapport-stage-M2-Floriane/vidore_raw_matrix.csv
+	new file:   outputs/Image_text_matching/vidore_results/Rapport-stage-M2-Floriane/vidore_similarity_histogram.png
+	new file:   outputs/Image_text_matching/vidore_results/dossier_unio_crassus_zorn_v4_19_11_2024/vidore_raw_matrix.csv
+	new file:   outputs/Image_text_matching/vidore_results/dossier_unio_crassus_zorn_v4_19_11_2024/vidore_similarity_histogram.png
+	new file:   outputs/Image_text_matching/vidore_results/fichier/vidore_raw_matrix.csv
+	new file:   outputs/Image_text_matching/vidore_results/fichier/vidore_similarity_histogram.png
+	new file:   outputs/Image_text_matching/vidore_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/vidore_raw_matrix.csv
+	new file:   outputs/Image_text_matching/vidore_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/vidore_similarity_histogram.png
+	new file:   outputs/Image_text_matching/vidore_results/test_dataset_1/vidore_raw_matrix.csv
+	new file:   outputs/Image_text_matching/vidore_results/test_dataset_1/vidore_similarity_histogram.png
+	new file:   "outputs/Summarized_pdfs/qwen2vl-7b-sum/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/summary.json"
+	new file:   outputs/Summarized_pdfs/qwen2vl-7b-sum/Rapport-stage-M2-Floriane/summary.json
+	new file:   outputs/Summarized_pdfs/qwen2vl-7b-sum/all_summaries.json
+	new file:   outputs/Summarized_pdfs/qwen2vl-7b-sum/dossier_unio_crassus_zorn_v4_19_11_2024/summary.json
+	new file:   outputs/Summarized_pdfs/qwen2vl-7b-sum/fichier/summary.json
+	new file:   outputs/Summarized_pdfs/qwen2vl-7b-sum/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/summary.json
+	new file:   "outputs/Weighted_summary/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire_vidore_weighted_context.json"
+	new file:   outputs/Weighted_summary/Rapport-stage-M2-Floriane_vidore_weighted_context.json
+	new file:   outputs/Weighted_summary/dossier_unio_crassus_zorn_v4_19_11_2024_vidore_weighted_context.json
+	new file:   outputs/Weighted_summary/fichier_vidore_weighted_context.json
+	new file:   outputs/Weighted_summary/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7_vidore_weighted_context.json
+	new file:   outputs/Weighted_summary/test_dataset_1_vidore_weighted_context.json
+	new file:   outputs/Weighted_summary/test_dataset_vidore_weighted_context.json
+	new file:   "outputs/json_results/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/GT_Img_text_matching_2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire.json"
+	new file:   "outputs/json_results/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/extracted_content.json"
+	new file:   "outputs/json_results/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/ocr_results.json"
+	new file:   outputs/json_results/Rapport-stage-M2-Floriane/GT_Img_text_matching_Rapport-stage-M2-Floriane.json
+	new file:   outputs/json_results/Rapport-stage-M2-Floriane/extracted_content.json
+	new file:   outputs/json_results/Rapport-stage-M2-Floriane/ocr_results.json
+	new file:   outputs/json_results/dossier_unio_crassus_zorn_v4_19_11_2024/GT_Img_text_matching_dossier_unio_crassus_zorn_v4_19_11_2024.json
+	new file:   outputs/json_results/dossier_unio_crassus_zorn_v4_19_11_2024/extracted_content.json
+	new file:   outputs/json_results/dossier_unio_crassus_zorn_v4_19_11_2024/ocr_results.json
+	new file:   outputs/json_results/fichier/GT_Img_text_matching_fichier.json
+	new file:   outputs/json_results/fichier/extracted_content.json
+	new file:   outputs/json_results/fichier/ocr_results.json
+	new file:   outputs/json_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/GT_Img_text_matching_reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7.json
+	new file:   outputs/json_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/extracted_content.json
+	new file:   outputs/json_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/ocr_results.json
+	new file:   outputs/live_logs/0.PDF_extraction_output/newextraction.txt
+	new file:   outputs/live_logs/0.PDF_extraction_output/pdf_summary.txt
+	new file:   outputs/live_logs/0.PDF_extraction_output/pdf_summary_test_dataset.txt
+	new file:   outputs/live_logs/0.PDF_extraction_output/test_dataset_output.txt
+	new file:   outputs/live_logs/0.PDF_extraction_output/weighted_pdf_summary.txt
+	new file:   outputs/live_logs/0.PDF_extraction_output/weighted_pdf_summary_test_dataset.txt
+	new file:   outputs/live_logs/1.Image_matching_output/clip_output.txt
+	new file:   outputs/live_logs/1.Image_matching_output/colpali_weights_output.txt
+	new file:   outputs/live_logs/1.Image_matching_output/colqwen_output.txt
+	new file:   outputs/live_logs/1.Image_matching_output/dse_qwen2_output.txt
+	new file:   outputs/live_logs/1.Image_matching_output/nemotron_output.txt
+	new file:   outputs/live_logs/1.Image_matching_output/vidore_output.txt
+	new file:   outputs/live_logs/1.Image_matching_output/vidore_test_dataset_output.txt
+	new file:   outputs/live_logs/2.1.Ablation_Image_captioning_output/InternVL2_8B_ablation_no_prompt.txt
+	new file:   outputs/live_logs/2.1.Ablation_Image_captioning_output/LLama_3.2_11B_ablation_no_prompt.txt
+	new file:   outputs/live_logs/2.1.Ablation_Image_captioning_output/Mistral3.1_24B_ablation_no_prompt.txt
+	new file:   outputs/live_logs/2.1.Ablation_Image_captioning_output/Nvila_lite_8B_ablation_no_prompt.txt
+	new file:   outputs/live_logs/2.1.Ablation_Image_captioning_output/pixtral12b_ablation_no_prompt.txt
+	new file:   outputs/live_logs/2.1.Ablation_Image_captioning_output/qwen3.6_27B_ablation_no_prompt.txt
+	new file:   outputs/live_logs/2.1.Ablation_Image_captioning_output/qwen3vl_30B_A3b_ablation_no_prompt.txt
+	new file:   outputs/live_logs/2.2.Image_captioning_with_summary_output/mistral_with_summary.txt
+	new file:   outputs/live_logs/2.2.Image_captioning_with_summary_output/nvila_with_summary.txt
+	new file:   outputs/live_logs/2.2.Image_captioning_with_summary_output/qwen3vl_with_summary.txt
+	new file:   outputs/live_logs/2.3.Weighted_summary_captioning_output/mistral_with_weighted_summary.txt
+	new file:   outputs/live_logs/2.3.Weighted_summary_captioning_output/nvila_vidore_with_weighted_summary.txt
+	new file:   outputs/live_logs/2.3.Weighted_summary_captioning_output/qwen3vl__with_weighted_summary.txt
+	new file:   outputs/live_logs/2.4.Prompt_engineering_output/nvila_P0.txt
+	new file:   outputs/live_logs/2.4.Prompt_engineering_output/nvila_P1.txt
+	new file:   outputs/live_logs/2.4.Prompt_engineering_output/nvila_P2.txt
+	new file:   outputs/live_logs/2.4.Prompt_engineering_output/nvila_P3.txt
+	new file:   outputs/live_logs/2.4.Prompt_engineering_output/nvila_P4.txt
+	new file:   outputs/live_logs/2.4.Prompt_engineering_output/nvila_P5.txt
+	new file:   outputs/live_logs/2.5.Decoding_ablation_output/a.nvila_icd_ablation_mild.txt
+	new file:   outputs/live_logs/2.5.Decoding_ablation_output/b.nvila_icd_ablation_strong.txt
+	new file:   outputs/live_logs/2.5.Decoding_ablation_output/c.nvila_vcd_mild.txt
+	new file:   outputs/live_logs/2.5.Decoding_ablation_output/d.nvila_vcd_strong.txt
+	new file:   outputs/live_logs/2.Global_output/2nd_ablation_mistral_ablation_ocr_context.txt
+	new file:   outputs/live_logs/2.Global_output/2nd_ablation_nvila_lite_8b_ablation_ocr_context.txt
+	new file:   outputs/live_logs/2.Global_output/2nd_ablation_qwen3vl_30b_ocr_context.txt
+	new file:   outputs/live_logs/2.Global_output/3rd_ablation_qwen3vl_with_summary.txt
+	new file:   outputs/live_logs/2.Global_output/4th_ablation_nvila_with_weighted_summary.txt
+	new file:   outputs/live_logs/2.Global_output/5th_ablation_nvila_P3.txt
+	new file:   outputs/live_logs/2.Global_output/6th_ablation_nvila_vcd_mild.txt
+	new file:   outputs/live_logs/2.Image_captioning_output/internvl25_8b_ocr_context.txt
+	new file:   outputs/live_logs/2.Image_captioning_output/llama32vision_11b_ocr_context.txt
+	new file:   outputs/live_logs/2.Image_captioning_output/mistral_small31_ablation_ocr_context.txt
+	new file:   outputs/live_logs/2.Image_captioning_output/nvila_lite_8b_ablation_ocr_context.txt
+	new file:   outputs/live_logs/2.Image_captioning_output/pixtral12b_ablation_ocr_context.txt
+	new file:   outputs/live_logs/2.Image_captioning_output/qwen36_27b_ocr_context.txt
+	new file:   outputs/live_logs/2.Image_captioning_output/qwen3vl_30b_ocr_context.txt
+	new file:   outputs/live_logs/3.Metrics_output/1st_ablation/internvl25-8b_no_prompt_ablation_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/1st_ablation/llama32vision-11b_no_prompt_ablation_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/1st_ablation/mistral-small-31-24b_no_prompt_ablation_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/1st_ablation/nvila-lite-8b_no_prompt_ablation_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/1st_ablation/pixtral-12b-hf_no_prompt_ablation_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/1st_ablation/qwen36-27b_no_prompt_ablation_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/1st_ablation/qwen3vl-30b_no_prompt_ablation_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/2nd_ablation/internvl25-8b_captions_vidore_captioning_metrics.txt
+	new file:   outputs/live_logs/3.Metrics_output/2nd_ablation/llama32vision-11b_captions_vidore_captioning_metrics.txt
+	new file:   outputs/live_logs/3.Metrics_output/2nd_ablation/mistral-small-31-24b_captions_vidore_captioning_metrics.txt
+	new file:   outputs/live_logs/3.Metrics_output/2nd_ablation/nvila-lite-8b_captions_vidore_captioning_metrics.txt
+	new file:   outputs/live_logs/3.Metrics_output/2nd_ablation/pixtral-12b-hf_captions_vidore_captioning_metrics.txt
+	new file:   outputs/live_logs/3.Metrics_output/2nd_ablation/qwen36-27b_captions_vidore_captioning_metrics.txt
+	new file:   outputs/live_logs/3.Metrics_output/2nd_ablation/qwen3vl-30b_captions_vidore_captioning_metrics.txt
+	new file:   outputs/live_logs/3.Metrics_output/3rd_ablation/mistral-small-31-24b_captions_vidore_summary_nli_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/3rd_ablation/nvila-lite-8b_captions_vidore_summary_nli_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/3rd_ablation/qwen3vl-30b_captions_vidore_summary_nli_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/4th_ablation/mistral-small-31-24b_captions_vidore_weighted_summary_nli_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/4th_ablation/nvila-lite-8b_captions_vidore_weighted_summary_nli_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/4th_ablation/qwen3vl-30b_captions_vidore_weighted_summary_nli_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/5th_ablation/nvila_p0_baseline_captions_prompt_nli_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/5th_ablation/nvila_p1_primitive_captions_prompt_nli_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/5th_ablation/nvila_p2_refusal_captions_prompt_nli_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/5th_ablation/nvila_p3_contrast_captions_prompt_nli_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/5th_ablation/nvila_p4_selfcorrect_captions_prompt_nli_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/5th_ablation/nvila_p5_expert_captions_prompt_nli_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/6th_ablation/nvila-lite-8b_captions_vidore_icd_alpha05_decoder_nli_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/6th_ablation/nvila-lite-8b_captions_vidore_icd_alpha10_decoder_nli_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/6th_ablation/nvila-lite-8b_captions_vidore_vcd_alpha05_t500_decoder_nli_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/6th_ablation/nvila-lite-8b_captions_vidore_vcd_alpha10_t500_decoder_nli_vqa.txt
+	new file:   outputs/live_logs/3.Metrics_output/Image_text_matching_metrics/Img_txt_metrics.txt
+	new file:   outputs/live_logs/3.Metrics_output/Pareto_results/1st_ablation_pareto_results.txt
+	new file:   outputs/live_logs/3.Metrics_output/Pareto_results/2nd_ablation_pareto_results.txt
+	new file:   outputs/live_logs/3.Metrics_output/Pareto_results/3rd_ablation_pareto_results.txt
+	new file:   outputs/live_logs/3.Metrics_output/Pareto_results/4th_ablation_pareto_results.txt
+	new file:   outputs/live_logs/3.Metrics_output/Pareto_results/5th_ablation_pareto_results.txt
+	new file:   outputs/live_logs/3.Metrics_output/Pareto_results/6th_ablation_pareto_results.txt
+	new file:   outputs/live_logs/3.Metrics_output/Pareto_results/global_pareto_results.txt
+	new file:   outputs/live_logs/3.Metrics_output/TTL_ablation/triples_baseline_metrics.txt
+	new file:   outputs/live_logs/3.Metrics_output/TTL_ablation/triples_fine_tuned_metrics.txt
+	new file:   outputs/live_logs/4.Triples_output_ablation/fine_tuned_triples.txt
+	new file:   outputs/live_logs/4.Triples_output_ablation/fine_tuned_triples_test_dataset.txt
+	new file:   outputs/live_logs/4.Triples_output_ablation/triples_baseline.txt
+	new file:   outputs/live_logs/5.Link_prediction/gana_rhine_ComplEx_test.txt
+	new file:   outputs/live_logs/5.Link_prediction/gana_rhine_ComplEx_train.txt
+	new file:   outputs/live_logs/5.Link_prediction/globikg_baseline_ComplEx.txt
+	new file:   outputs/live_logs/5.Link_prediction/globikg_baseline_RotatE.txt
+	new file:   outputs/live_logs/5.Link_prediction/globikg_baseline_TransH.txt
+	new file:   outputs/live_logs/5.Link_prediction/globikg_faan_ComplEx_train.txt
+	new file:   outputs/live_logs/5.Link_prediction/globikg_faan_RotatE_train.txt
+	new file:   outputs/live_logs/5.Link_prediction/globikg_faan_TransH_train.txt
+	new file:   outputs/live_logs/5.Link_prediction/globikg_gana_ComplEx_train.txt
+	new file:   outputs/live_logs/5.Link_prediction/globikg_gana_RotatE_train.txt
+	new file:   outputs/live_logs/5.Link_prediction/globikg_gana_TransH_train.txt
+	new file:   outputs/live_logs/5.Link_prediction/globikg_metar_ComplEx_train.txt
+	new file:   outputs/live_logs/5.Link_prediction/globikg_metar_RotatE_train.txt
+	new file:   outputs/live_logs/5.Link_prediction/globikg_metar_TransH_train.txt
+	new file:   outputs/live_logs/5.Link_prediction/pareto_analysis.csv
+	new file:   "outputs/triples_baseline/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/images.ttl"
+	new file:   "outputs/triples_baseline/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/merged_knowledge_graph.ttl"
+	new file:   "outputs/triples_baseline/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/texts.ttl"
+	new file:   outputs/triples_baseline/Rapport-stage-M2-Floriane/images.ttl
+	new file:   outputs/triples_baseline/Rapport-stage-M2-Floriane/merged_knowledge_graph.ttl
+	new file:   outputs/triples_baseline/Rapport-stage-M2-Floriane/texts.ttl
+	new file:   outputs/triples_baseline/completed_pdfs.txt
+	new file:   outputs/triples_baseline/dossier_unio_crassus_zorn_v4_19_11_2024/images.ttl
+	new file:   outputs/triples_baseline/dossier_unio_crassus_zorn_v4_19_11_2024/merged_knowledge_graph.ttl
+	new file:   outputs/triples_baseline/dossier_unio_crassus_zorn_v4_19_11_2024/texts.ttl
+	new file:   outputs/triples_baseline/fichier/images.ttl
+	new file:   outputs/triples_baseline/fichier/merged_knowledge_graph.ttl
+	new file:   outputs/triples_baseline/fichier/texts.ttl
+	new file:   outputs/triples_baseline/kg_metrics_baseline.json
+	new file:   outputs/triples_baseline/kg_metrics_baseline.txt
+	new file:   outputs/triples_baseline/precision_sample_baseline.txt
+	new file:   outputs/triples_baseline/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/images.ttl
+	new file:   outputs/triples_baseline/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/merged_knowledge_graph.ttl
+	new file:   outputs/triples_baseline/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/texts.ttl
+	new file:   "outputs/triples_fine_tuned/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/ft_merged_knowledge_graph.gexf"
+	new file:   "outputs/triples_fine_tuned/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/ft_merged_knowledge_graph.ttl"
+	new file:   "outputs/triples_fine_tuned/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/images.gexf"
+	new file:   "outputs/triples_fine_tuned/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/images.ttl"
+	new file:   "outputs/triples_fine_tuned/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/kg_finetuned_ofb_fiche.html"
+	new file:   "outputs/triples_fine_tuned/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/texts.gexf"
+	new file:   "outputs/triples_fine_tuned/2025 12 OFB - FICHE TECHNIQUE D\303\251finition, identification, pr\303\251servation et restauration des zones de sources des cours d\342\200\231eau en Bretagne et Pays de la Loire/texts.ttl"
+	new file:   outputs/triples_fine_tuned/Rapport-stage-M2-Floriane/ft_merged_knowledge_graph.gexf
+	new file:   outputs/triples_fine_tuned/Rapport-stage-M2-Floriane/ft_merged_knowledge_graph.ttl
+	new file:   outputs/triples_fine_tuned/Rapport-stage-M2-Floriane/images.gexf
+	new file:   outputs/triples_fine_tuned/Rapport-stage-M2-Floriane/images.ttl
+	new file:   outputs/triples_fine_tuned/Rapport-stage-M2-Floriane/kg_finetuned_rapport_m2.html
+	new file:   outputs/triples_fine_tuned/Rapport-stage-M2-Floriane/texts.gexf
+	new file:   outputs/triples_fine_tuned/Rapport-stage-M2-Floriane/texts.ttl
+	new file:   outputs/triples_fine_tuned/completed_pdfs.txt
+	new file:   outputs/triples_fine_tuned/dossier_unio_crassus_zorn_v4_19_11_2024/ft_merged_knowledge_graph.gexf
+	new file:   outputs/triples_fine_tuned/dossier_unio_crassus_zorn_v4_19_11_2024/ft_merged_knowledge_graph.ttl
+	new file:   outputs/triples_fine_tuned/dossier_unio_crassus_zorn_v4_19_11_2024/images.gexf
+	new file:   outputs/triples_fine_tuned/dossier_unio_crassus_zorn_v4_19_11_2024/images.ttl
+	new file:   outputs/triples_fine_tuned/dossier_unio_crassus_zorn_v4_19_11_2024/kg_finetuned_dossier_unio.html
+	new file:   outputs/triples_fine_tuned/dossier_unio_crassus_zorn_v4_19_11_2024/texts.gexf
+	new file:   outputs/triples_fine_tuned/dossier_unio_crassus_zorn_v4_19_11_2024/texts.ttl
+	new file:   outputs/triples_fine_tuned/fichier/ft_merged_knowledge_graph.gexf
+	new file:   outputs/triples_fine_tuned/fichier/ft_merged_knowledge_graph.ttl
+	new file:   outputs/triples_fine_tuned/fichier/images.gexf
+	new file:   outputs/triples_fine_tuned/fichier/images.ttl
+	new file:   outputs/triples_fine_tuned/fichier/kg_finetuned_fichier.html
+	new file:   outputs/triples_fine_tuned/fichier/texts.gexf
+	new file:   outputs/triples_fine_tuned/fichier/texts.ttl
+	new file:   outputs/triples_fine_tuned/kg_metrics_finetuned.json
+	new file:   outputs/triples_fine_tuned/kg_metrics_finetuned.txt
+	new file:   outputs/triples_fine_tuned/precision_sample_finetuned.txt
+	new file:   outputs/triples_fine_tuned/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/ft_merged_knowledge_graph.gexf
+	new file:   outputs/triples_fine_tuned/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/ft_merged_knowledge_graph.ttl
+	new file:   outputs/triples_fine_tuned/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/images.gexf
+	new file:   outputs/triples_fine_tuned/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/images.ttl
+	new file:   outputs/triples_fine_tuned/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/kg_finetuned_rhin_disparu.html
+	new file:   outputs/triples_fine_tuned/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/texts.gexf
+	new file:   outputs/triples_fine_tuned/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/texts.ttl
+	new file:   scripts/batch_jobs/0.PDF_Extraction_Pipeline/0.pdf_img_txt_pairs.sh
+	new file:   scripts/batch_jobs/0.PDF_Extraction_Pipeline/2.summary.sh
+	new file:   scripts/batch_jobs/1.Matching_img_texts_Pipeline/1a.clip_script.sh
+	new file:   scripts/batch_jobs/1.Matching_img_texts_Pipeline/1b.colpali_script.sh
+	new file:   scripts/batch_jobs/1.Matching_img_texts_Pipeline/1c.colqwen_script.sh
+	new file:   scripts/batch_jobs/1.Matching_img_texts_Pipeline/1d.dse-qwen2_script.sh
+	new file:   scripts/batch_jobs/1.Matching_img_texts_Pipeline/1e.vidore_script.sh
+	new file:   scripts/batch_jobs/1.Matching_img_texts_Pipeline/1f.nemotron_script.sh
+	new file:   scripts/batch_jobs/2.Image_description_Pipeline/3.1a.captioning_metrics.sh
+	new file:   scripts/batch_jobs/2.Image_description_Pipeline/3.1b.question_captioning_metrics.sh
+	new file:   scripts/batch_jobs/2.Image_description_Pipeline/3.blip_run.sh
+	new file:   scripts/batch_jobs/2.Image_description_Pipeline/3b.Pixtral_run.sh
+	new file:   scripts/batch_jobs/2.Image_description_Pipeline/3d.Qwen36_27b_run.sh
+	new file:   scripts/batch_jobs/2.Image_description_Pipeline/3e.InternVL2_8b_run.sh
+	new file:   scripts/batch_jobs/2.Image_description_Pipeline/3g.Mistral3.1_24B_run.sh
+	new file:   scripts/batch_jobs/2.Image_description_Pipeline/3h.LLama_3.2_11B_run.sh
+	new file:   scripts/batch_jobs/2.Image_description_Pipeline/3i.Qwen3-VL-30B-A3B_run.sh
+	new file:   scripts/batch_jobs/2.Image_description_Pipeline/3j.Nvila_lite_8b_run.sh
+	new file:   scripts/batch_jobs/2.Image_description_Pipeline/Captioning_metrics.sh
+	new file:   scripts/batch_jobs/2.Image_description_Pipeline/temp_3.1a.captioning_metrics.sh
+	new file:   scripts/batch_jobs/3.Triples_Pipeline/logs_/log-globikg_baseline.txt
+	new file:   scripts/batch_jobs/3.Triples_Pipeline/logs_/log-globikg_baseline_dev.txt
+	new file:   scripts/batch_jobs/3.Triples_Pipeline/logs_/log-globikg_gana_v1.txt
+	new file:   scripts/batch_jobs/3.Triples_Pipeline/logs_/log-globikg_v1.txt
+	new file:   scripts/batch_jobs/3.Triples_Pipeline/probe_idle_gpus.sh
+	new file:   scripts/batch_jobs/3.Triples_Pipeline/triples_creation.sh
+	new file:   scripts/code/.gitignore
+	new file:   scripts/code/0.1.Pdf_summary/0.summary.py
+	new file:   scripts/code/0.1.Pdf_summary/1.Weighted_summary.py
+	new file:   scripts/code/0.PDF_Extraction_Pipeline/pdf_extraction.py
+	new file:   scripts/code/1.Matching_img_texts_Pipeline/1.clip_exp.py
+	new file:   scripts/code/1.Matching_img_texts_Pipeline/2a.colpali_exp_with_weights.py
+	new file:   scripts/code/1.Matching_img_texts_Pipeline/2b.colqwen_exp.py
+	new file:   scripts/code/1.Matching_img_texts_Pipeline/3.Dse-qwen.py
+	new file:   scripts/code/1.Matching_img_texts_Pipeline/4.Vidore_exp.py
+	new file:   scripts/code/1.Matching_img_texts_Pipeline/5.Nemotron_exp.py
+	new file:   scripts/code/2.0.Image_description_ablation_no_prompt/1.Pixtral_ablation.py
+	new file:   scripts/code/2.0.Image_description_ablation_no_prompt/2.Qwen3.6_27B_ablation.py
+	new file:   scripts/code/2.0.Image_description_ablation_no_prompt/3.InternVL2_8B_ablation.py
+	new file:   scripts/code/2.0.Image_description_ablation_no_prompt/4.Mistral3.1_24B_ablation.py
+	new file:   scripts/code/2.0.Image_description_ablation_no_prompt/5.LLama_3.2_11B_ablation.py
+	new file:   scripts/code/2.0.Image_description_ablation_no_prompt/6.Qwen3_VL_30B_A3b_ablation.py
+	new file:   scripts/code/2.0.Image_description_ablation_no_prompt/7.Nvila_lite_8B_ablation.py
+	new file:   scripts/code/2.1.Image_description_context_ocr/0.MFlorence_oneshot_descp.py
+	new file:   scripts/code/2.1.Image_description_context_ocr/1b.Pixtral_summarized_img_descp.py
+	new file:   scripts/code/2.1.Image_description_context_ocr/1d.Qwen3.6_27B_img_descp.py
+	new file:   scripts/code/2.1.Image_description_context_ocr/1e.InternVL2_8B_img_descp.py
+	new file:   scripts/code/2.1.Image_description_context_ocr/1g.Mistral3.1_24B_img_descp.py
+	new file:   scripts/code/2.1.Image_description_context_ocr/1h.LLama_3.2_11B_img_descp.py
+	new file:   scripts/code/2.1.Image_description_context_ocr/1i.Qwen3_VL_30B_A3b_img_descp.py
+	new file:   scripts/code/2.1.Image_description_context_ocr/1j.Nvila_lite_8B_img_descp.py
+	new file:   scripts/code/2.1.Image_description_context_ocr/3.1.Question_captions_metrics.py
+	new file:   scripts/code/2.1.Image_description_context_ocr/3.Image_captions_metrics.py
+	new file:   scripts/code/2.1.Image_description_context_ocr/blip2_descp.py
+	new file:   scripts/code/2.1.Image_description_context_ocr/blip_descp.py
+	new file:   scripts/code/2.1.Image_description_context_ocr/temp_3.Image_captions_metrics.py
+	new file:   scripts/code/2.2.Image_captioning_with_summary_ablation/1.Nvila_lite_8B_captions_w_summary.py
+	new file:   scripts/code/2.2.Image_captioning_with_summary_ablation/2.Qwen3.6_27B_captions_w_summary.py
+	new file:   scripts/code/2.2.Image_captioning_with_summary_ablation/3.Qwen3_VL_30B_captions_w_summary.py
+	new file:   scripts/code/2.2.Image_captioning_with_summary_ablation/4.Mistral3.1_24B_captions_w_summary.py
+	new file:   scripts/code/2.2.Image_captioning_with_summary_ablation/5.Pixtral12b_captions_w_summary.py
+	new file:   scripts/code/2.3.Weighted_context_captioning_ablation/1.Nvila_lite_8B_blended_summary.py
+	new file:   scripts/code/2.3.Weighted_context_captioning_ablation/2.Qwen3.6_27B_blended_summary.py
+	new file:   scripts/code/2.3.Weighted_context_captioning_ablation/3.Qwen3_VL_blended_summary.py
+	new file:   scripts/code/2.3.Weighted_context_captioning_ablation/4.Mistral3.1_24B_blended_summary.py
+	new file:   scripts/code/2.4.Prompt_engineering_ablation/0.Nvila_A5-P0.py
+	new file:   scripts/code/2.4.Prompt_engineering_ablation/1.Nvila_A5-P1.py
+	new file:   scripts/code/2.4.Prompt_engineering_ablation/2.Nvila_A5-P2.py
+	new file:   scripts/code/2.4.Prompt_engineering_ablation/3.Nvila_A5-P3.py
+	new file:   scripts/code/2.4.Prompt_engineering_ablation/4.Nvila_A5-P4.py
+	new file:   scripts/code/2.4.Prompt_engineering_ablation/5.Nvila_A5-P5.py
+	new file:   scripts/code/2.5.Decoding_ablation/1.Nvila_captioner_icd.py
+	new file:   scripts/code/2.5.Decoding_ablation/2.Nvila_captioner_vcd.py
+	new file:   scripts/code/3.Metrics_Calculation/captioning_metrics_calculation.py
+	new file:   scripts/code/3.Metrics_Calculation/global_pareto.py
+	new file:   scripts/code/3.Metrics_Calculation/image-text_metrics.py
+	new file:   scripts/code/3.Metrics_Calculation/pareto.py
+	new file:   scripts/code/3.Metrics_Calculation/triples_metrics.py
+	new file:   scripts/code/4.Triples_creation_pipeline/baseline_triples_conversion.py
+	new file:   scripts/code/4.Triples_creation_pipeline/fine_tuned_triples_conversion.py
+	new file:   scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/1.dataset_generation/generate_dataset.py
+	new file:   scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/1.dataset_generation/run_data_generation.sh
+	new file:   scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/1.dataset_generation/synthetic_dataset.jsonl
+	new file:   scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/2.validation/synthetic_dataset_clean.jsonl
+	new file:   scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/2.validation/validate_triples.py
+	new file:   scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/2.validation/validation_report.txt
+	new file:   scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/3.dataset_prep/build_hf_dataset.py
+	new file:   scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/4.training/fine_tune_llm_model.py
+	new file:   scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/4.training/run_fine_tune.sh
+	new file:   scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/5.merge/merge_adapter.py
+	new file:   scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/5.merge/run_manual_probe.sh
+	new file:   scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/5.merge/run_merge.sh
+	new file:   scripts/code/4.Triples_creation_pipeline/generate_onto.py
+	new file:   scripts/code/4.Triples_creation_pipeline/kg_visual.py
+	new file:   scripts/code/4.Triples_creation_pipeline/make_interactive_kg.py
+	new file:   scripts/code/4.Triples_creation_pipeline/ttl_to_gexf.py
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	git_status_final.txt
+

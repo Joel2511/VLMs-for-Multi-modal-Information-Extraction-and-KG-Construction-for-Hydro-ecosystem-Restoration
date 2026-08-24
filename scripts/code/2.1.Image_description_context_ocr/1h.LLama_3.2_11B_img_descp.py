@@ -8,6 +8,9 @@ from transformers import AutoProcessor, MllamaForConditionalGeneration
 import time
 from datetime import datetime
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 
 # --- CONFIGURATION ---
 GENERATOR_MODEL_NAME = "llama32vision-11b"
@@ -23,7 +26,7 @@ JUNK_FOLDER = os.path.join(PROJECT_ROOT, "data", "junk_images")
 HF_TOKEN = os.environ.get("HF_TOKEN")
 if HF_TOKEN is None:
     raise EnvironmentError("HF_TOKEN environment variable not set. Run 'export HF_TOKEN=...' before executing this script.")
-MODEL_ID = "/home2020/home/icube/janil/Rhine_proj/hf_models/Llama-3.2-11B-Vision-Instruct"
+MODEL_ID = os.path.join(PROJECT_ROOT, "hf_models/Llama-3.2-11B-Vision-Instruct")
 
 
 class ContextMissingError(Exception):

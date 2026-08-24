@@ -12,6 +12,9 @@ from transformers import AutoTokenizer, AutoModel, BitsAndBytesConfig
 import time
 from datetime import datetime
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 
 # =============================================================================
 # CONFIGURATION
@@ -19,7 +22,7 @@ from datetime import datetime
 
 GENERATOR_MODEL_NAME = "internvl25-8b"
 RETRIEVAL_MODEL_NAME = "baseline_noprompt"
-GENERATOR_MODEL_PATH = "/home2020/home/icube/janil/Rhine_proj/hf_models/InternVL2_5-8B"
+GENERATOR_MODEL_PATH = os.path.join(PROJECT_ROOT, "hf_models/InternVL2_5-8B")
 
 PROJECT_ROOT              = os.path.join(os.path.expanduser("~"), "Rhine_proj")
 IMAGE_INPUT_DIR           = os.path.join(PROJECT_ROOT, "data", "extracted_images")

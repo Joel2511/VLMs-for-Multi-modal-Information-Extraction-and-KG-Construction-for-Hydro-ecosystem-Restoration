@@ -11,6 +11,9 @@
 #SBATCH --output=/home2020/home/icube/janil/Rhine_proj/scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/4.training/logs/%j.out
 #SBATCH --error=/home2020/home/icube/janil/Rhine_proj/scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/4.training/logs/%j.err
 
+export RHINE_PROJECT_ROOT="${RHINE_PROJECT_ROOT:-/home2020/home/icube/janil/Rhine_proj}"
+
+
 source ~/miniforge3/etc/profile.d/conda.sh
 conda activate qwen3vl_env
 
@@ -21,6 +24,6 @@ export HF_DATASETS_OFFLINE=1
 echo "[SLURM] Job started on $(hostname) at $(date)"
 nvidia-smi --query-gpu=index,name,memory.free --format=csv
 
-python3 -u /home2020/home/icube/janil/Rhine_proj/scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/4.training/fine_tune_llm_model.py
+python3 -u $RHINE_PROJECT_ROOT/scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/4.training/fine_tune_llm_model.py
 
 echo "[SLURM] Job finished at $(date)"

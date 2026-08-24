@@ -10,6 +10,9 @@
 #SBATCH --time=06:00:00
 #SBATCH --output=/home2020/home/icube/janil/Rhine_proj/outputs/live_logs/4.Triples_output_ablation/kg_job_%j.out
 
+export RHINE_PROJECT_ROOT="${RHINE_PROJECT_ROOT:-/home2020/home/icube/janil/Rhine_proj}"
+
+
 source ~/miniforge3/etc/profile.d/conda.sh
 conda activate qwen3vl_env
 
@@ -19,23 +22,23 @@ export HF_DATASETS_OFFLINE=1
 export OMP_NUM_THREADS=6
 export TOKENIZERS_PARALLELISM=false
 
-mkdir -p /home2020/home/icube/janil/Rhine_proj/outputs/live_logs/4.Triples_output_ablation
+mkdir -p $RHINE_PROJECT_ROOT/outputs/live_logs/4.Triples_output_ablation
 
 python -c "import torch; print('[GPU CHECK]', torch.cuda.device_count(), 'GPUs visible', flush=True)"
 
 # # baseline on GPU 0
-# CUDA_VISIBLE_DEVICES=0 python -u /home2020/home/icube/janil/Rhine_proj/scripts/code/4.Triples_creation_pipeline/baseline_triples_conversion.py \
-#     > /home2020/home/icube/janil/Rhine_proj/outputs/live_logs/4.Triples_output_ablation/triples_baseline.txt 2>&1 &
+# CUDA_VISIBLE_DEVICES=0 python -u $RHINE_PROJECT_ROOT/scripts/code/4.Triples_creation_pipeline/baseline_triples_conversion.py \
+#     > $RHINE_PROJECT_ROOT/outputs/live_logs/4.Triples_output_ablation/triples_baseline.txt 2>&1 &
 # BASELINE_PID=$!
 
 # # fine-tuned on GPU 1
-# CUDA_VISIBLE_DEVICES=1 python -u /home2020/home/icube/janil/Rhine_proj/scripts/code/4.Triples_creation_pipeline/fine_tuned_triples_conversion.py \
-#     > /home2020/home/icube/janil/Rhine_proj/outputs/live_logs/4.Triples_output_ablation/fine_tuned_triples.txt 2>&1 &
+# CUDA_VISIBLE_DEVICES=1 python -u $RHINE_PROJECT_ROOT/scripts/code/4.Triples_creation_pipeline/fine_tuned_triples_conversion.py \
+#     > $RHINE_PROJECT_ROOT/outputs/live_logs/4.Triples_output_ablation/fine_tuned_triples.txt 2>&1 &
 # FT_PID=$!
 
 # fine-tuned on GPU 1
-CUDA_VISIBLE_DEVICES=1 python -u /home2020/home/icube/janil/Rhine_proj/scripts/code/4.Triples_creation_pipeline/fine_tuned_triples_conversion.py \
-    > /home2020/home/icube/janil/Rhine_proj/outputs/live_logs/4.Triples_output_ablation/fine_tuned_triples_test_dataset.txt 2>&1 &
+CUDA_VISIBLE_DEVICES=1 python -u $RHINE_PROJECT_ROOT/scripts/code/4.Triples_creation_pipeline/fine_tuned_triples_conversion.py \
+    > $RHINE_PROJECT_ROOT/outputs/live_logs/4.Triples_output_ablation/fine_tuned_triples_test_dataset.txt 2>&1 &
 FT_PID=$!
 
 # wait $BASELINE_PID

@@ -9,6 +9,9 @@
 #SBATCH --gres=gpu:2
 #SBATCH --time=08:00:00
 
+export RHINE_PROJECT_ROOT="${RHINE_PROJECT_ROOT:-/home2020/home/icube/janil/Rhine_proj}"
+
+
 # 1. Activate Conda
 source ~/miniforge3/etc/profile.d/conda.sh
 conda activate vlm_env            
@@ -17,7 +20,7 @@ export CUDA_LAUNCH_BLOCKING=1
 export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True,max_split_size_mb:128"
 export CUDA_VISIBLE_DEVICES=0,1
 
-#python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'mistral-community/pixtral-12b', '--local-dir', '/home2020/home/icube/janil/Rhine_proj/hf_models/pixtral-12b-hf', '--token', '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'], env=env)"
+#python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'mistral-community/pixtral-12b', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/pixtral-12b-hf', '--token', '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'], env=env)"
 
 # 3. Run Inference
 export TRANSFORMERS_OFFLINE=1
@@ -28,5 +31,5 @@ python -u ~/Rhine_proj/scripts/code/2.0.Image_description_ablation_no_prompt/1.P
 
 
 # 4. Cleanup Model to free space
-# rm -rf /home2020/home/icube/janil/Rhine_proj/hf_models/pixtral-12b-hf
+# rm -rf $RHINE_PROJECT_ROOT/hf_models/pixtral-12b-hf
 

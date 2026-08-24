@@ -9,6 +9,9 @@ from PIL import Image
 from datetime import datetime
 from transformers import AutoProcessor, LlavaForConditionalGeneration, BitsAndBytesConfig
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 
 # --- CONFIGURATION ---
 GENERATOR_MODEL_NAME = "pixtral-12b-hf"
@@ -25,7 +28,7 @@ HF_TOKEN = "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"
 if HF_TOKEN is None:
     raise EnvironmentError("HF_TOKEN environment variable not set. Run 'export HF_TOKEN=...' before executing this script.")
 
-MODEL_ID = f"/home2020/home/icube/janil/Rhine_proj/hf_models/{GENERATOR_MODEL_NAME}"
+MODEL_ID = fos.path.join(PROJECT_ROOT, "hf_models/{GENERATOR_MODEL_NAME}")
 
 
 # --- CUSTOM EXCEPTIONS ---

@@ -9,6 +9,9 @@
 #SBATCH --time=12:00:00
 #SBATCH --output=mistral31_job_%j.out
 
+export RHINE_PROJECT_ROOT="${RHINE_PROJECT_ROOT:-/home2020/home/icube/janil/Rhine_proj}"
+
+
 source ~/miniforge3/etc/profile.d/conda.sh
 conda activate vlm_env
 unset CUDA_VISIBLE_DEVICES
@@ -19,7 +22,7 @@ export CUDA_VISIBLE_DEVICES=0,1
 # Download Mistral-Small-3.1-24B (Just-In-Time)
 export TRANSFORMERS_OFFLINE=1
 export HF_DATASETS_OFFLINE=1
-#python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'mistralai/Mistral-Small-3.1-24B-Instruct-2503', '--local-dir', '/home2020/home/icube/janil/Rhine_proj/hf_models/Mistral-Small-3.1-24B-Instruct-2503', '--exclude', 'consolidated.safetensors', '--token', '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'], env=env)"
+#python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'mistralai/Mistral-Small-3.1-24B-Instruct-2503', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/Mistral-Small-3.1-24B-Instruct-2503', '--exclude', 'consolidated.safetensors', '--token', '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'], env=env)"
 # Run Inference
 export TRANSFORMERS_OFFLINE=1
 export HF_DATASETS_OFFLINE=1
@@ -32,4 +35,4 @@ python -u ~/Rhine_proj/scripts/code/2.1.Image_description_context_ocr/1g.Mistral
 # python -u ~/Rhine_proj/scripts/code/2.3.Weighted_context_captioning_ablation/4.Mistral3.1_24B_blended_summary.py > ~/Rhine_proj/outputs/live_logs/2.3.Weighted_summary_captioning_output/mistral_with_weighted_summary.txt 2>&1
 
 # Cleanup Model to free space
-# rm -rf /home2020/home/icube/janil/Rhine_proj/hf_models/Mistral-Small-3.1-24B-Instruct-2503
+# rm -rf $RHINE_PROJECT_ROOT/hf_models/Mistral-Small-3.1-24B-Instruct-2503

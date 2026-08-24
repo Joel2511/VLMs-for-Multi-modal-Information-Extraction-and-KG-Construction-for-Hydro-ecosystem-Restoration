@@ -6,6 +6,9 @@ from peft import LoraConfig, get_peft_model
 from trl import SFTTrainer, SFTConfig
 from datasets import load_from_disk
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 
 def format_chat_template(dataset, tokenizer):
     def transform_row(row):
@@ -22,11 +25,11 @@ def format_chat_template(dataset, tokenizer):
 
 
 MODEL_NAME = "Qwen2.5-14B-Instruct"
-BASE_DIRECTORY = "/home2020/home/icube/janil/Rhine_proj/hf_models"
+BASE_DIRECTORY = os.path.join(PROJECT_ROOT, "hf_models")
 model_directory = f"{BASE_DIRECTORY}/{MODEL_NAME}"
 
-DATASET_PATH = "/home2020/home/icube/janil/Rhine_proj/scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/3.dataset_prep/hf_dataset"
-OUTPUT_DIR = "/home2020/home/icube/janil/Rhine_proj/scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/4.training/Qwen2.5-14B-populate-ontology"
+DATASET_PATH = os.path.join(PROJECT_ROOT, "scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/3.dataset_prep/hf_dataset")
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/4.training/Qwen2.5-14B-populate-ontology")
 
 torch_dtype = torch.float16
 attn_implementation = "eager"

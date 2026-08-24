@@ -10,6 +10,9 @@ from qwen_vl_utils import process_vision_info
 import time
 from datetime import datetime
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 # --- CONFIGURATION ---
 GENERATOR_MODEL_NAME = "qwen3vl-30b"
 RETRIEVAL_MODEL_NAME = "baseline_noprompt"
@@ -25,7 +28,7 @@ HF_TOKEN = "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"
 if HF_TOKEN is None:
     raise EnvironmentError("HF_TOKEN environment variable not set. Run 'export HF_TOKEN=...' before executing this script.")
 
-MODEL_ID = "/home2020/home/icube/janil/Rhine_proj/hf_models/Qwen3-VL-30B-A3B-Instruct"
+MODEL_ID = os.path.join(PROJECT_ROOT, "hf_models/Qwen3-VL-30B-A3B-Instruct")
 
 class ContextMissingError(Exception):
     """Raised when retrieval mapping is missing for an image."""

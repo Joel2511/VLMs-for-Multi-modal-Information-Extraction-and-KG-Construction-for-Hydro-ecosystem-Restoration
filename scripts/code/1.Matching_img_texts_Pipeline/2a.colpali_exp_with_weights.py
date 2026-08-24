@@ -9,6 +9,9 @@ from colpali_engine.models import ColPali, ColPaliProcessor
 import numpy as np
 import re
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 # --- PATHS --- exactly as in your original ---
 PROJECT_ROOT = os.path.join(os.path.expanduser("~"), "Rhine_proj")
 PDF_FOLDER = os.path.join(PROJECT_ROOT, "data", "raw_pdfs")
@@ -47,7 +50,7 @@ def run_colpali_matching():
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Running on device: {device.upper()}")
 
-    model_id = "/home2020/home/icube/janil/Rhine_proj/hf_models/colpali-v1.2-merged"
+    model_id = os.path.join(PROJECT_ROOT, "hf_models/colpali-v1.2-merged")
     model = ColPali.from_pretrained(
         model_id,
         torch_dtype=torch.bfloat16,
@@ -55,7 +58,7 @@ def run_colpali_matching():
         local_files_only=True,
     ).eval()
     processor = ColPaliProcessor.from_pretrained(
-    "/home2020/home/icube/janil/Rhine_proj/hf_models/colpaligemma-3b-pt-448-base",
+    os.path.join(PROJECT_ROOT, "hf_models/colpaligemma-3b-pt-448-base"),
     local_files_only=True,
     )
 

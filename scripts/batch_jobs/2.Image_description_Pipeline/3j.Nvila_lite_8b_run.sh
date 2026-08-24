@@ -9,6 +9,9 @@
 #SBATCH --time=08:00:00
 #SBATCH --output=nvila_lite_8b_job_%j.out
 
+export RHINE_PROJECT_ROOT="${RHINE_PROJECT_ROOT:-/home2020/home/icube/janil/Rhine_proj}"
+
+
 source ~/miniforge3/etc/profile.d/conda.sh
 conda activate nvila_env
 
@@ -18,7 +21,7 @@ export CUDA_VISIBLE_DEVICES=0,1
 export HF_HUB_ENABLE_HF_TRANSFER=1
 
 
-# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'Efficient-Large-Model/NVILA-Lite-8B-hf', '--local-dir', '/home2020/home/icube/janil/Rhine_proj/hf_models/NVILA-Lite-8B-hf', '--token', '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'], env=env)"
+# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'Efficient-Large-Model/NVILA-Lite-8B-hf', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/NVILA-Lite-8B-hf', '--token', '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'], env=env)"
 
 export TRANSFORMERS_OFFLINE=1
 export HF_DATASETS_OFFLINE=1
@@ -42,6 +45,6 @@ python -u ~/Rhine_proj/scripts/code/2.4.Prompt_engineering_ablation/3.Nvila_A5-P
 # python -u ~/Rhine_proj/scripts/code/2.5.Decoding_ablation/2.Nvila_captioner_vcd.py --cd_alpha 0.5 --noise_step 500 > ~/Rhine_proj/outputs/live_logs/2.5.Decoding_ablation_output/c.nvila_vcd_mild.txt 2>&1
 # python -u ~/Rhine_proj/scripts/code/2.5.Decoding_ablation/2.Nvila_captioner_vcd.py --cd_alpha 1.0 --noise_step 500 > ~/Rhine_proj/outputs/live_logs/2.5.Decoding_ablation_output/d.nvila_vcd_strong.txt 2>&1
 
-# rm -rf /home2020/home/icube/janil/Rhine_proj/hf_models/NVILA-Lite-8B-hf
+# rm -rf $RHINE_PROJECT_ROOT/hf_models/NVILA-Lite-8B-hf
 
 #replace processing_nvila_lite.py file

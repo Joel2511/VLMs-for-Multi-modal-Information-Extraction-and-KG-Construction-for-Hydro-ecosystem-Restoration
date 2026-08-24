@@ -14,6 +14,9 @@ from transformers import AutoProcessor, AutoModel, LogitsProcessor, LogitsProces
 import time
 from datetime import datetime
 
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
 
 # ─────────────────────────────────────────────
 # CHANGE 1 — CLI argument for cd_alpha
@@ -49,7 +52,7 @@ JUNK_FOLDER = os.path.join(PROJECT_ROOT, "data", "junk_images")
 HF_TOKEN = os.environ.get("HF_TOKEN")
 if HF_TOKEN is None:
     raise EnvironmentError("HF_TOKEN environment variable not set. Run 'export HF_TOKEN=...' before executing this script.")
-MODEL_ID = "/home2020/home/icube/janil/Rhine_proj/hf_models/NVILA-Lite-8B-hf"
+MODEL_ID = os.path.join(PROJECT_ROOT, "hf_models/NVILA-Lite-8B-hf")
 
 
 # ─────────────────────────────────────────────

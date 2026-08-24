@@ -2,9 +2,12 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from peft import PeftModel
 
-BASE_MODEL_DIR = "/home2020/home/icube/janil/Rhine_proj/hf_models/Qwen2.5-14B-Instruct"
-ADAPTER_DIR = "/home2020/home/icube/janil/Rhine_proj/scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/4.training/Qwen2.5-14B-populate-ontology"
-MERGED_OUTPUT_DIR = "/home2020/home/icube/janil/Rhine_proj/scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/5.merge/Qwen2.5-14B-populate-ontology-merged"
+import os
+PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+
+BASE_MODEL_DIR = os.path.join(PROJECT_ROOT, "hf_models/Qwen2.5-14B-Instruct")
+ADAPTER_DIR = os.path.join(PROJECT_ROOT, "scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/4.training/Qwen2.5-14B-populate-ontology")
+MERGED_OUTPUT_DIR = os.path.join(PROJECT_ROOT, "scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/5.merge/Qwen2.5-14B-populate-ontology-merged")
 
 print("[MERGE] Loading base model in fp16 (no quantization for merge)...")
 tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL_DIR)

@@ -11,8 +11,11 @@
 #SBATCH --exclude=hpc-n967
 #SBATCH --output=/home2020/home/icube/janil/Rhine_proj/logs/colqwen_%j.log
 
+export RHINE_PROJECT_ROOT="${RHINE_PROJECT_ROOT:-/home2020/home/icube/janil/Rhine_proj}"
 
-# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'vidore/colqwen2-v1.0-hf', '--local-dir', '/home2020/home/icube/janil/Rhine_proj/hf_models/colqwen2-v1.0-hf', '--token', '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'], env=env)"
+
+
+# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'vidore/colqwen2-v1.0-hf', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/colqwen2-v1.0-hf', '--token', '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'], env=env)"
 {
     echo "--- CHECKING GPU ALLOCATION ---"
     nvidia-smi

@@ -11,6 +11,9 @@
 #SBATCH --output=/home2020/home/icube/janil/Rhine_proj/scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/1.dataset_generation/logs/%j.out
 #SBATCH --error=/home2020/home/icube/janil/Rhine_proj/scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/1.dataset_generation/logs/%j.err
 
+export RHINE_PROJECT_ROOT="${RHINE_PROJECT_ROOT:-/home2020/home/icube/janil/Rhine_proj}"
+
+
 source ~/miniforge3/etc/profile.d/conda.sh
 conda activate qwen3vl_env
 
@@ -23,6 +26,6 @@ echo "[SLURM] Job started on $(hostname) at $(date)"
 echo "[SLURM] Allocated GPU(s): $CUDA_VISIBLE_DEVICES"
 nvidia-smi --query-gpu=index,name,memory.free --format=csv
 
-python3 -u /home2020/home/icube/janil/Rhine_proj/scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/1.dataset_generation/generate_dataset.py
+python3 -u $RHINE_PROJECT_ROOT/scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/1.dataset_generation/generate_dataset.py
 
 echo "[SLURM] Job finished at $(date)"

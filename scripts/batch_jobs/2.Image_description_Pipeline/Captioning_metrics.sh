@@ -50,6 +50,9 @@ for FOLDER in "${FOLDERS[@]}"; do
 #SBATCH --output=/home2020/home/icube/janil/Rhine_proj/outputs/live_logs/3.Metrics_output/1st_ablation/nli_vqa_${FOLDER}_%j.out
 #SBATCH --error=/home2020/home/icube/janil/Rhine_proj/outputs/live_logs/3.Metrics_output/1st_ablation/nli_vqa_${FOLDER}_%j.err
 
+export RHINE_PROJECT_ROOT="${RHINE_PROJECT_ROOT:-/home2020/home/icube/janil/Rhine_proj}"
+
+
 source /home2020/home/icube/janil/miniforge3/etc/profile.d/conda.sh
 conda activate vlm_env
 export CUDA_VISIBLE_DEVICES=0
@@ -60,13 +63,13 @@ export HF_HUB_DISABLE_TELEMETRY=1
 export TRANSFORMERS_OFFLINE=1
 export HF_DATASETS_OFFLINE=1
 
-python -u /home2020/home/icube/janil/Rhine_proj/scripts/code/3.Metrics_Calculation/captioning_metrics_calculation.py ${FOLDER} > /home2020/home/icube/janil/Rhine_proj/outputs/live_logs/3.Metrics_output/1st_ablation/${FOLDER}_no_prompt_ablation_vqa.txt 2>&1
-# python -u /home2020/home/icube/janil/Rhine_proj/scripts/code/3.Metrics_Calculation/captioning_metrics_calculation.py ${FOLDER} > /home2020/home/icube/janil/Rhine_proj/outputs/live_logs/3.Metrics_output/2nd_ablation/${FOLDER}_captioning_metrics.txt 2>&1
-# python -u /home2020/home/icube/janil/Rhine_proj/scripts/code/3.Metrics_Calculation/captioning_metrics_calculation.py ${FOLDER} > /home2020/home/icube/janil/Rhine_proj/outputs/live_logs/3.Metrics_output/3rd_ablation/${FOLDER}_summary_nli_vqa.txt 2>&1
-# python -u /home2020/home/icube/janil/Rhine_proj/scripts/code/3.Metrics_Calculation/captioning_metrics_calculation.py ${FOLDER} > /home2020/home/icube/janil/Rhine_proj/outputs/live_logs/3.Metrics_output/4th_ablation/${FOLDER}_weighted_summary_nli_vqa.txt 2>&1
+python -u $RHINE_PROJECT_ROOT/scripts/code/3.Metrics_Calculation/captioning_metrics_calculation.py ${FOLDER} > $RHINE_PROJECT_ROOT/outputs/live_logs/3.Metrics_output/1st_ablation/${FOLDER}_no_prompt_ablation_vqa.txt 2>&1
+# python -u $RHINE_PROJECT_ROOT/scripts/code/3.Metrics_Calculation/captioning_metrics_calculation.py ${FOLDER} > $RHINE_PROJECT_ROOT/outputs/live_logs/3.Metrics_output/2nd_ablation/${FOLDER}_captioning_metrics.txt 2>&1
+# python -u $RHINE_PROJECT_ROOT/scripts/code/3.Metrics_Calculation/captioning_metrics_calculation.py ${FOLDER} > $RHINE_PROJECT_ROOT/outputs/live_logs/3.Metrics_output/3rd_ablation/${FOLDER}_summary_nli_vqa.txt 2>&1
+# python -u $RHINE_PROJECT_ROOT/scripts/code/3.Metrics_Calculation/captioning_metrics_calculation.py ${FOLDER} > $RHINE_PROJECT_ROOT/outputs/live_logs/3.Metrics_output/4th_ablation/${FOLDER}_weighted_summary_nli_vqa.txt 2>&1
 
-# python -u /home2020/home/icube/janil/Rhine_proj/scripts/code/3.Metrics_Calculation/captioning_metrics_calculation.py ${FOLDER} > /home2020/home/icube/janil/Rhine_proj/outputs/live_logs/3.Metrics_output/5th_ablation/${FOLDER}_prompt_nli_vqa.txt 2>&1
-# python -u /home2020/home/icube/janil/Rhine_proj/scripts/code/3.Metrics_Calculation/captioning_metrics_calculation.py ${FOLDER} > /home2020/home/icube/janil/Rhine_proj/outputs/live_logs/3.Metrics_output/6th_ablation/${FOLDER}_decoder_nli_vqa.txt 2>&1
+# python -u $RHINE_PROJECT_ROOT/scripts/code/3.Metrics_Calculation/captioning_metrics_calculation.py ${FOLDER} > $RHINE_PROJECT_ROOT/outputs/live_logs/3.Metrics_output/5th_ablation/${FOLDER}_prompt_nli_vqa.txt 2>&1
+# python -u $RHINE_PROJECT_ROOT/scripts/code/3.Metrics_Calculation/captioning_metrics_calculation.py ${FOLDER} > $RHINE_PROJECT_ROOT/outputs/live_logs/3.Metrics_output/6th_ablation/${FOLDER}_decoder_nli_vqa.txt 2>&1
 ENDJOB
 
     sbatch $JOBSCRIPT
