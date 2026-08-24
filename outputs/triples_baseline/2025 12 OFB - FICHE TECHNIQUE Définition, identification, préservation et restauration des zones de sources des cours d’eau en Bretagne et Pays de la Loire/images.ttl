@@ -1,0 +1,905 @@
+@prefix : <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Arbres a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasFunction :Gestion_Des_Sediments,
+        :Regulation_De_La_Temperature ;
+    :hasPageNumber 1 ;
+    skos:prefLabel "arbres"@fr .
+
+:Breton a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 17 ;
+    skos:note "isLanguageOf: toponymes"@fr ;
+    skos:prefLabel "breton"@fr .
+
+:Cours_Deau_De_Rang_1 a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 4,
+        28 ;
+    :hasPurpose :Ecoulements_Superficiels ;
+    :isLocatedIn :Le_Fond_De_Vallee,
+        :Noe_Molic,
+        :Vallee_De_Rang_0 ;
+    skos:prefLabel "Cours d’eau de rang 1"@fr,
+        "cours d’eau de rang 1"@fr .
+
+:Densite_De_Rangs_Zero a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 12 ;
+    skos:note "isIndicatedBy: couleurs allant du bleu à l’orange"@fr ;
+    skos:prefLabel "densité de rangs zéro"@fr .
+
+:Etiquettes a :otherElement,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 10 ;
+    :isLocatedOn :Parties_De_La_Riviere ;
+    skos:prefLabel "étiquettes"@fr .
+
+:Feuilles_Mortes a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasFunction :Gestion_Des_Sediments ;
+    :hasPageNumber 1 ;
+    skos:prefLabel "feuilles mortes"@fr .
+
+:Francais a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 17 ;
+    skos:note "isLanguageOf: toponymes"@fr ;
+    skos:prefLabel "français"@fr .
+
+:Gestion_Et_Conservation_Des_Habitats_Aquatiques a :restoration,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 10 ;
+    :hasPurpose "contexte de la restauration de cours d’eau et de l’hydromorphologie"^^xsd:string ;
+    skos:prefLabel "gestion et conservation des habitats aquatiques"@fr .
+
+:Mare_A a :pond,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 31 ;
+    :isLocatedIn :Champ ;
+    skos:note "contains: arbres"@fr,
+        "contains: plantes aquatiques"@fr ;
+    skos:prefLabel "mare a"@fr .
+
+:Mare_B a :pond,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 31 ;
+    :isLocatedIn :Champ ;
+    skos:note "contains: plantes aquatiques"@fr,
+        "contains: racines d’arbres"@fr ;
+    skos:prefLabel "mare b"@fr .
+
+:Profils_Pedologiques a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 23 ;
+    :isLocatedOn :Stations_En_Rangs_Zero ;
+    skos:prefLabel "profils pédologiques"@fr .
+
+:Rupture_De_Pente a :naturalObstacle,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 21 ;
+    :isLocatedOn :Rive_Gauche ;
+    skos:prefLabel "rupture de pente"@fr .
+
+:Sol a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasFunction :Gestion_Des_Sediments,
+        :Regulation_De_La_Temperature ;
+    :hasPageNumber 1 ;
+    skos:prefLabel "sol"@fr .
+
+:Sources a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 17 ;
+    :isLocatedOn :Carte ;
+    skos:prefLabel "sources"@fr .
+
+:Toponymes a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 17 ;
+    :isLocatedOn :Carte ;
+    skos:prefLabel "toponymes"@fr .
+
+:Vegetation a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasFunction :Gestion_Des_Sediments,
+        :Regulation_De_La_Temperature ;
+    :hasPageNumber 1 ;
+    skos:prefLabel "végétation"@fr .
+
+:Zone_De_Drainage a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasFunction :Gestion_Des_Sediments,
+        :Regulation_De_La_Temperature ;
+    :hasPageNumber 1 ;
+    skos:prefLabel "zone de drainage"@fr .
+
+:Zone_De_Source a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasBiologicalMonitoring :Suivi_Biologique ;
+    :hasHydromorphologicalMonitoring :Suivi_Hydromorphologique ;
+    :hasMonitoringCost :Cout_Du_Suivi_Ecologique ;
+    :hasMonitoringDescription :Evaluer_Les_Benefices_Hydrologiques ;
+    :hasMonitoringEndDate "2021"^^xsd:string ;
+    :hasMonitoringStartDate "2010"^^xsd:string ;
+    :hasPageNumber 1,
+        16 ;
+    :hasPurpose :Gestion_Des_Sediments,
+        :Preservation_De_La_Biodiversite,
+        "régulation de la température des cours d’eau"^^xsd:string ;
+    :isLocatedIn :Cotesdarmor,
+        :Ereac,
+        :Foret_Dense,
+        :La_Rimbaudais ;
+    :isLocatedOn :Le_Bassin_Versant_De_Rang_0,
+        :Noe_Molic ;
+    :isSubjectTo :Drainage,
+        :Mise_En_Culture,
+        :Restauration ;
+    skos:note "hasEcologicalMonitoring: suivi écologique"@fr ;
+    skos:prefLabel "zone de source"@fr .
+
+:Zones_Humides a :wetland,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 17 ;
+    :isLocatedOn :Carte ;
+    skos:prefLabel "zones humides"@fr .
+
+:hasAverageSlope a owl:ObjectProperty .
+
+:hasBiologicalMonitoring a owl:ObjectProperty .
+
+:hasCategory a owl:ObjectProperty .
+
+:hasFunction a owl:ObjectProperty .
+
+:hasHydromorphologicalMonitoring a owl:ObjectProperty .
+
+:hasMonitoringCost a owl:ObjectProperty .
+
+:hasMonitoringDescription a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:hasMonitoringEndDate a owl:DatatypeProperty .
+
+:hasMonitoringStartDate a owl:DatatypeProperty .
+
+:hasPurpose a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:hasWidth a owl:ObjectProperty .
+
+:isLocatedIn a owl:ObjectProperty .
+
+:isLocatedOn a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:isManagedBy a owl:ObjectProperty .
+
+:isSubjectTo a owl:ObjectProperty .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl/instance_graph> a owl:Ontology .
+
+:Abruptes a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 28 ;
+    skos:prefLabel "abruptes"@fr .
+
+:Amont_Aval a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 22,
+        40 ;
+    :hasPurpose :Restauration ;
+    :isLocatedOn :Noe_Molic ;
+    :isSubjectTo :Hydromorphologicalmonitoring ;
+    skos:prefLabel "AMONT - AVAL"@fr .
+
+:Biologicalmonitoring a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15 ;
+    skos:prefLabel "biologicalMonitoring"@fr .
+
+:Branches_Darbres a :otherElement,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 4,
+        10 ;
+    :isLocatedIn :Riviere ;
+    skos:prefLabel "branches d’arbres"@fr .
+
+:Cours_Deau_De_Rang_0 a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 4,
+        28,
+        40 ;
+    :isLocatedIn :Amont_Aval,
+        :Gestion_Des_Sediments,
+        :Pente_Longitudinale_De_Rang_0,
+        :Pente_Longitudinale_De_Rang_1,
+        :Poulou,
+        :Preservation_De_La_Biodiversite,
+        :Rang_0,
+        :Regulation_De_La_Temperature,
+        :Source_Historique,
+        :Stcl,
+        :Vallee_De_Rang_0,
+        :Vallee_Etroite,
+        :Vallee_Plus_Large,
+        :Vallee_Tres_Large,
+        :Zone_De_Boisement_En_Frichement_Progressif ;
+    skos:prefLabel "cours d’eau de rang 0"@fr .
+
+:Cout_Du_Suivi_Ecologique a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 16 ;
+    skos:prefLabel "coût du suivi écologique"@fr .
+
+:Dausse_A a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15 ;
+    skos:prefLabel "DAUSSE A."@fr .
+
+:Drainage a :restorationMeasure,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 16,
+        28 ;
+    :isLocatedIn :Noe_Molic ;
+    skos:prefLabel "drainage"@fr .
+
+:Elements_Physiques a :otherElement,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 4,
+        10 ;
+    :isLocatedIn :Riviere ;
+    skos:prefLabel "éléments physiques"@fr .
+
+:Evaluer_Les_Benefices_Hydrologiques a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 16 ;
+    skos:prefLabel "évaluer les bénéfices hydrologiques"@fr .
+
+:Flowrestoration a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4 ;
+    skos:prefLabel "flowRestoration"@fr .
+
+:Fond_De_Vallee a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 21 ;
+    skos:prefLabel "fond de vallée"@fr .
+
+:Gestion_Forestiere a :restorationMeasure,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 4,
+        10 ;
+    :hasPurpose :Preservation_De_La_Biodiversite ;
+    skos:prefLabel "gestion forestière"@fr,
+        "géstion forestière"@fr .
+
+:Image a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 10 ;
+    skos:prefLabel "image"@fr .
+
+:La_Rimbaudais a :river,
+        :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 4,
+        16,
+        21,
+        28 ;
+    :isLocatedIn :Cotesdarmor,
+        :Ecoulements_Superficiels,
+        :Ereac,
+        :Exutoire_Du_Bv,
+        :Fond_De_Vallee,
+        :Foret_Dense,
+        :Le_Cours_Deau_De_Rang_0,
+        :Le_Cours_Deau_De_Rang_1,
+        :Le_Fond_De_Vallee,
+        :Le_Lit_Mineur,
+        :Lexutoire_Du_Bv,
+        :Noe_Molic,
+        :Sources_Ponctuelles,
+        :Vallee_De_Rang_0,
+        :Versant_De_Rang_0 ;
+    skos:prefLabel "La Rimbaudais"@fr .
+
+:Largeur_Du_Fond_De_Vallee a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 21 ;
+    skos:prefLabel "largeur du fond de vallée"@fr .
+
+:Le_Cours_Deau a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4 ;
+    skos:prefLabel "le cours d’eau"@fr .
+
+:Le_Cours_Deau_De_Rang_1 a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 4,
+        21 ;
+    :isLocatedIn :Le_Cours_Deau,
+        :Le_Cours_Deau_De_Rang_0,
+        :Le_Lit_Mineur ;
+    skos:prefLabel "le cours d’eau de rang 1"@fr .
+
+:Mise_En_Culture a :restorationMeasure,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 16,
+        28 ;
+    :isLocatedIn :Noe_Molic ;
+    skos:prefLabel "mise en culture"@fr .
+
+:Parties_De_La_Riviere a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 10 ;
+    skos:prefLabel "parties de la rivière"@fr .
+
+:Pente_Longitudinale_De_Rang_0 a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 22,
+        40 ;
+    :hasPurpose :Restauration ;
+    :isLocatedOn :Noe_Molic ;
+    :isSubjectTo :Hydromorphologicalmonitoring ;
+    skos:prefLabel "Pente longitudinale de rang 0"@fr .
+
+:Pente_Longitudinale_De_Rang_1 a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 22,
+        40 ;
+    :hasPurpose :Restauration ;
+    :isLocatedOn :Noe_Molic ;
+    :isSubjectTo :Hydromorphologicalmonitoring ;
+    skos:prefLabel "Pente longitudinale de rang 1"@fr .
+
+:Peu_Marquee a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 28 ;
+    skos:prefLabel "peu marquée"@fr .
+
+:Pierres a :otherElement,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 4,
+        10 ;
+    :isLocatedIn :Riviere ;
+    skos:prefLabel "pierres"@fr .
+
+:Poulou a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 15,
+        40 ;
+    :hasPurpose :Zone_De_Boisement_En_Frichement_Progressif ;
+    :isLocatedIn :Noe_Molic ;
+    skos:prefLabel "Poulou"@fr .
+
+:Rive_Gauche a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 21 ;
+    skos:prefLabel "rive gauche"@fr .
+
+:Sources_Ponctuelles a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 21,
+        28 ;
+    :isLocatedIn :Vallee_De_Rang_0 ;
+    skos:prefLabel "sources ponctuelles"@fr .
+
+:Stations_En_Rangs_Zero a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasBiologicalMonitoring :True ;
+    :hasHydromorphologicalMonitoring :True ;
+    :hasMonitoringCost :Unknown ;
+    :hasMonitoringDescription "profils pédologiques avec des épaisseurs d’horizon organique variant de 10 cm à 70 cm"^^xsd:string ;
+    :hasMonitoringEndDate "2023"^^xsd:string ;
+    :hasMonitoringStartDate "2023"^^xsd:string ;
+    :hasPageNumber 23 ;
+    :isLocatedIn :Bretagnepays_De_La_Loire,
+        :Vallee_De_Rang_0 ;
+    :isManagedBy :Anderson,
+        :Dieterich,
+        :Jungas_E ;
+    :isSubjectTo :Restoration ;
+    skos:prefLabel "stations en rangs zéro"@fr .
+
+:Stcl a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 15,
+        40 ;
+    :hasPurpose :Source_Historique ;
+    :isLocatedIn :Noe_Molic ;
+    skos:prefLabel "St-Cl"@fr .
+
+:Suivi_Biologique a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 16 ;
+    skos:prefLabel "suivi biologique"@fr .
+
+:Suivi_Hydromorphologique a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 16 ;
+    skos:prefLabel "suivi hydromorphologique"@fr .
+
+:Textes_Sur_Limage a :otherElement,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 4,
+        10 ;
+    :isLocatedOn :Image ;
+    skos:prefLabel "textes sur l’image"@fr .
+
+:Unknown a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 23 ;
+    skos:prefLabel "unknown"@fr .
+
+:Versant_De_Rang_0 a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 21 ;
+    skos:prefLabel "versant de rang 0"@fr .
+
+:Zones_De_Vegetation a :otherElement,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 4,
+        10 ;
+    :isLocatedOn :Berges ;
+    skos:prefLabel "zones de végétation"@fr .
+
+:Anderson a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        23 ;
+    skos:prefLabel "ANDERSON"@fr .
+
+:Berges a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4,
+        10 ;
+    skos:prefLabel "berges"@fr .
+
+:Champ a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 31 ;
+    skos:prefLabel "champ"@fr .
+
+:Dieterich a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        23 ;
+    skos:prefLabel "DIETERICH"@fr .
+
+:Ereac a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4,
+        16 ;
+    skos:prefLabel "Ereac"@fr .
+
+:Exutoire_Du_Bv a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4,
+        21 ;
+    skos:prefLabel "exutoire du BV"@fr .
+
+:Foret_Dense a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 1,
+        21 ;
+    skos:prefLabel "forêt dense"@fr .
+
+:Le_Bassin_Versant_De_Rang_0 a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 1,
+        4 ;
+    skos:prefLabel "le bassin versant de rang 0"@fr .
+
+:Le_Cours_Deau_De_Rang_0 a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4,
+        21 ;
+    skos:prefLabel "le cours d’eau de rang .0"@fr,
+        "le cours d’eau de rang 0"@fr .
+
+:Lexutoire_Du_Bv a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4,
+        21 ;
+    skos:prefLabel "l’exutoire du BV"@fr .
+
+:Moderee a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 21,
+        28 ;
+    skos:prefLabel "modérée"@fr .
+
+:Rang_0 a :distributionBasin,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasCategory :Flowrestoration ;
+    :hasPageNumber 4,
+        21,
+        40 ;
+    :hasPurpose :Source_Historique ;
+    :isLocatedIn :Bretagnepays_De_La_Loire ;
+    :isLocatedOn :Berges,
+        :Branches_Darbres,
+        :Cours_Deau_De_Rang_0,
+        :Elements_Physiques,
+        :Gestion_Forestiere,
+        :Pierres,
+        :Textes_Sur_Limage,
+        :Vallee_Etroite,
+        :Vallee_Plus_Large,
+        :Vallee_Tres_Large,
+        :Zones_De_Vegetation ;
+    :isManagedBy :Jungas_E ;
+    skos:prefLabel "RANG 0"@fr,
+        "Rang 0"@fr .
+
+:Restoration a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        23 ;
+    skos:prefLabel "restoration"@fr .
+
+:True a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 23 ;
+    skos:prefLabel "true"@fr .
+
+:Vallee_Etroite a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasAverageSlope :Abruptes ;
+    :hasPageNumber 4,
+        28,
+        40 ;
+    :isLocatedIn :Bretagne ;
+    skos:prefLabel "vallée étroite"@fr .
+
+:Vallee_Plus_Large a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasAverageSlope :Moderee ;
+    :hasPageNumber 4,
+        28,
+        40 ;
+    :isLocatedIn :Bretagne ;
+    skos:prefLabel "vallée plus large"@fr .
+
+:Vallee_Tres_Large a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasAverageSlope :Peu_Marquee ;
+    :hasPageNumber 4,
+        28,
+        40 ;
+    :isLocatedIn :Bretagne ;
+    skos:prefLabel "vallée très large"@fr .
+
+:Zone_De_Boisement_En_Frichement_Progressif a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        40 ;
+    skos:prefLabel "zone de boisement en frichement progressif"@fr .
+
+:Bretagne a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 28 ;
+    skos:prefLabel "Bretagne"@fr .
+
+:Bretagnepays_De_La_Loire a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4,
+        12,
+        17,
+        23 ;
+    skos:prefLabel "Bretagne-Pays de la Loire"@fr .
+
+:Carte a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 12,
+        17 ;
+    :isLocatedIn :Bretagnepays_De_La_Loire ;
+    skos:note "hasGeographicalLabels: MA-Quest, MA-Côtes du Nord, MA-Nord Est, TC-Nord Loire, MA-Sud Intérieur, TC-Sud Loire, TC-Charentes Poitou"@fr,
+        "hasLegend: hydrocorégions de niveau 2"@fr,
+        "hasLegend: regions"@fr,
+        "hasLogos: OFB, Galinée 2020"@fr,
+        "hasScale: 0 à 40 km"@fr ;
+    skos:prefLabel "carte"@fr .
+
+:Cotesdarmor a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4,
+        15,
+        16,
+        21,
+        28 ;
+    skos:prefLabel "Côtes-d’Armor"@fr .
+
+:Ecoulements_Superficiels a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 4,
+        21,
+        28 ;
+    :isLocatedIn :Vallee_De_Rang_0 ;
+    skos:prefLabel "écoulements superficiels"@fr .
+
+:Jungas_E a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4,
+        15,
+        23 ;
+    skos:prefLabel "JUNGAS E."@fr .
+
+:Le_Fond_De_Vallee a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4,
+        21 ;
+    skos:prefLabel "le fond de vallée"@fr .
+
+:Le_Lit_Mineur a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4,
+        21 ;
+    skos:prefLabel "le lit mineur"@fr .
+
+:Preservation_De_La_Biodiversite a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 1,
+        10,
+        40 ;
+    skos:prefLabel "préservation de la biodiversité"@fr .
+
+:Riviere a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 10 ;
+    :isLocatedOn "contexte de la restauration de cours d’eau et de l’hydromorphologie"^^xsd:string ;
+    skos:prefLabel "rivière"@fr .
+
+:Source_Historique a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4,
+        15,
+        40 ;
+    skos:prefLabel "source historique"@fr .
+
+:Hydromorphologicalmonitoring a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        22 ;
+    skos:prefLabel "hydromorphologicalMonitoring"@fr .
+
+:Restauration a :restoration,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 4,
+        16,
+        22,
+        28 ;
+    :isLocatedIn :Ecoulements_Superficiels,
+        :Exutoire_Du_Bv,
+        :Le_Bassin_Versant_De_Rang_0,
+        :Le_Fond_De_Vallee,
+        :Le_Lit_Mineur,
+        :Lexutoire_Du_Bv,
+        :Noe_Molic ;
+    skos:prefLabel "restauration"@fr .
+
+:Regulation_De_La_Temperature a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 1,
+        40 ;
+    skos:prefLabel "régulation de la température"@fr .
+
+:Vallee_De_Rang_0 a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasAverageSlope :Moderee ;
+    :hasCategory :Rang_0 ;
+    :hasPageNumber 21,
+        23,
+        28,
+        40 ;
+    :hasWidth :Largeur_Du_Fond_De_Vallee ;
+    skos:note "hasLateralSlope: pentes latérales du fond de vallée"@fr ;
+    skos:prefLabel "vallée de rang 0"@fr .
+
+:Gestion_Des_Sediments a :restorationMeasure,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 1,
+        28,
+        40 ;
+    :isLocatedIn :Noe_Molic ;
+    skos:prefLabel "gestion des sédiments"@fr .
+
+:Noe_Molic a :distributionBasin,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasBiologicalMonitoring :Biologicalmonitoring ;
+    :hasHydromorphologicalMonitoring :Hydromorphologicalmonitoring ;
+    :hasPageNumber 1,
+        4,
+        15,
+        21,
+        22,
+        28 ;
+    :isLocatedIn :Cotesdarmor ;
+    :isManagedBy :Anderson,
+        :Dausse_A,
+        :Dieterich,
+        :Jungas_E ;
+    :isSubjectTo :Restoration ;
+    skos:note "hasEcologicalMonitoring: ecologicalMonitoring"@fr,
+        "hasRestoration: restoration"@fr,
+        "hasScientificMonitoring: scientificMonitoring"@fr ;
+    skos:prefLabel "Noë Molic"@fr .
+

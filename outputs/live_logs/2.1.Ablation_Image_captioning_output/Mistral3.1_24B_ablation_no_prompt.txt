@@ -1,0 +1,156 @@
+--- Loading mistral-small-31-24b with baseline_noprompt retrieval context ---
+    Generator : mistral-small-31-24b
+    Retriever : baseline_noprompt
+The tokenizer you are loading from '/home2020/home/icube/janil/Rhine_proj/hf_models/Mistral-Small-3.1-24B-Instruct-2503' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/585 [00:00<?, ?it/s]Loading weights:   0%|          | 1/585 [00:00<06:03,  1.61it/s]Loading weights:   0%|          | 2/585 [00:01<06:28,  1.50it/s]/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:213: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+Loading weights:   1%|          | 4/585 [00:02<06:41,  1.45it/s]Loading weights:   1%|          | 5/585 [00:02<05:12,  1.85it/s]Loading weights:   1%|          | 6/585 [00:03<04:05,  2.36it/s]Loading weights:   2%|▏         | 13/585 [00:03<01:14,  7.67it/s]Loading weights:   3%|▎         | 15/585 [00:03<01:21,  6.97it/s]Loading weights:   3%|▎         | 20/585 [00:03<00:49, 11.42it/s]Loading weights:   4%|▍         | 23/585 [00:04<00:53, 10.44it/s]Loading weights:   4%|▍         | 25/585 [00:04<00:51, 10.96it/s]Loading weights:   5%|▌         | 31/585 [00:04<00:36, 15.20it/s]Loading weights:   6%|▌         | 33/585 [00:04<00:45, 12.18it/s]Loading weights:   7%|▋         | 40/585 [00:05<00:31, 17.26it/s]Loading weights:   7%|▋         | 43/585 [00:05<00:38, 14.16it/s]Loading weights:   8%|▊         | 49/585 [00:05<00:30, 17.34it/s]Loading weights:   9%|▊         | 51/585 [00:05<00:38, 13.97it/s]Loading weights:  10%|▉         | 58/585 [00:06<00:27, 19.01it/s]Loading weights:  10%|█         | 61/585 [00:06<00:36, 14.24it/s]Loading weights:  11%|█▏        | 67/585 [00:06<00:30, 16.96it/s]Loading weights:  12%|█▏        | 69/585 [00:07<00:37, 13.73it/s]Loading weights:  13%|█▎        | 76/585 [00:07<00:27, 18.21it/s]Loading weights:  14%|█▎        | 79/585 [00:07<00:32, 15.62it/s]Loading weights:  15%|█▍        | 85/585 [00:07<00:27, 18.22it/s]Loading weights:  15%|█▍        | 87/585 [00:08<00:35, 13.96it/s]Loading weights:  16%|█▌        | 94/585 [00:08<00:27, 18.17it/s]Loading weights:  17%|█▋        | 97/585 [00:08<00:30, 15.85it/s]Loading weights:  18%|█▊        | 103/585 [00:08<00:26, 18.15it/s]Loading weights:  18%|█▊        | 105/585 [00:09<00:35, 13.39it/s]Loading weights:  19%|█▉        | 112/585 [00:09<00:26, 17.67it/s]Loading weights:  19%|█▉        | 114/585 [00:09<00:34, 13.51it/s]Loading weights:  21%|██        | 121/585 [00:10<00:26, 17.45it/s]Loading weights:  21%|██        | 123/585 [00:10<00:35, 13.11it/s]Loading weights:  22%|██▏       | 130/585 [00:10<00:27, 16.75it/s]Loading weights:  23%|██▎       | 132/585 [00:11<00:34, 13.05it/s]Loading weights:  24%|██▍       | 139/585 [00:11<00:27, 16.52it/s]Loading weights:  24%|██▍       | 141/585 [00:11<00:32, 13.61it/s]Loading weights:  25%|██▌       | 148/585 [00:11<00:24, 17.95it/s]Loading weights:  26%|██▌       | 150/585 [00:12<00:30, 14.48it/s]Loading weights:  27%|██▋       | 157/585 [00:12<00:23, 18.03it/s]Loading weights:  27%|██▋       | 159/585 [00:12<00:30, 14.18it/s]Loading weights:  28%|██▊       | 166/585 [00:12<00:22, 18.79it/s]Loading weights:  29%|██▉       | 169/585 [00:13<00:25, 16.01it/s]Loading weights:  30%|██▉       | 175/585 [00:13<00:22, 18.27it/s]Loading weights:  30%|███       | 177/585 [00:13<00:28, 14.10it/s]Loading weights:  31%|███▏      | 184/585 [00:14<00:21, 18.36it/s]Loading weights:  32%|███▏      | 187/585 [00:14<00:25, 15.39it/s]Loading weights:  33%|███▎      | 193/585 [00:14<00:21, 18.01it/s]Loading weights:  33%|███▎      | 195/585 [00:14<00:28, 13.55it/s]Loading weights:  35%|███▍      | 202/585 [00:15<00:20, 18.32it/s]Loading weights:  35%|███▌      | 205/585 [00:15<00:24, 15.26it/s]Loading weights:  36%|███▌      | 211/585 [00:15<00:21, 17.59it/s]Loading weights:  36%|███▋      | 213/585 [00:16<00:27, 13.73it/s]Loading weights:  38%|███▊      | 220/585 [00:16<00:21, 17.22it/s]Loading weights:  38%|███▊      | 222/585 [00:16<00:28, 12.79it/s]Loading weights:  39%|███▉      | 227/585 [00:16<00:20, 17.06it/s]Loading weights:  39%|███▉      | 230/585 [00:17<00:24, 14.47it/s]Loading weights:  40%|███▉      | 232/585 [00:17<00:25, 13.71it/s]Loading weights:  41%|████      | 238/585 [00:17<00:20, 17.07it/s]Loading weights:  41%|████      | 240/585 [00:17<00:25, 13.66it/s]Loading weights:  42%|████▏     | 247/585 [00:18<00:18, 18.51it/s]Loading weights:  43%|████▎     | 250/585 [00:18<00:23, 14.42it/s]Loading weights:  44%|████▍     | 256/585 [00:18<00:18, 17.97it/s]Loading weights:  44%|████▍     | 259/585 [00:18<00:22, 14.60it/s]Loading weights:  45%|████▌     | 265/585 [00:19<00:19, 16.64it/s]Loading weights:  46%|████▌     | 267/585 [00:19<00:24, 12.80it/s]Loading weights:  47%|████▋     | 274/585 [00:19<00:18, 17.18it/s]Loading weights:  47%|████▋     | 276/585 [00:20<00:23, 13.21it/s]Loading weights:  48%|████▊     | 283/585 [00:20<00:16, 17.82it/s]Loading weights:  49%|████▉     | 286/585 [00:20<00:20, 14.55it/s]Loading weights:  50%|████▉     | 292/585 [00:20<00:16, 17.80it/s]Loading weights:  50%|█████     | 295/585 [00:21<00:19, 14.72it/s]Loading weights:  51%|█████▏    | 301/585 [00:21<00:15, 18.21it/s]Loading weights:  52%|█████▏    | 304/585 [00:21<00:17, 15.76it/s]Loading weights:  53%|█████▎    | 310/585 [00:21<00:14, 19.47it/s]Loading weights:  54%|█████▎    | 313/585 [00:22<00:16, 16.23it/s]Loading weights:  55%|█████▍    | 319/585 [00:22<00:14, 18.69it/s]Loading weights:  55%|█████▌    | 322/585 [00:22<00:17, 15.23it/s]Loading weights:  56%|█████▌    | 328/585 [00:23<00:14, 17.17it/s]Loading weights:  56%|█████▋    | 330/585 [00:23<00:18, 13.47it/s]Loading weights:  58%|█████▊    | 337/585 [00:23<00:13, 17.91it/s]Loading weights:  58%|█████▊    | 339/585 [00:23<00:17, 14.38it/s]Loading weights:  59%|█████▉    | 346/585 [00:24<00:13, 18.38it/s]Loading weights:  59%|█████▉    | 348/585 [00:24<00:16, 14.46it/s]Loading weights:  61%|██████    | 355/585 [00:24<00:12, 18.78it/s]Loading weights:  61%|██████    | 358/585 [00:25<00:15, 14.84it/s]Loading weights:  62%|██████▏   | 365/585 [00:25<00:10, 21.81it/s]Loading weights:  65%|██████▌   | 382/585 [00:25<00:04, 44.35it/s]Loading weights:  68%|██████▊   | 398/585 [00:25<00:02, 64.14it/s]Loading weights:  71%|███████   | 413/585 [00:25<00:02, 79.71it/s]Loading weights:  73%|███████▎  | 427/585 [00:25<00:01, 92.64it/s]Loading weights:  76%|███████▌  | 445/585 [00:25<00:01, 111.04it/s]Loading weights:  79%|███████▊  | 460/585 [00:25<00:01, 119.87it/s]Loading weights:  81%|████████  | 475/585 [00:25<00:00, 126.12it/s]Loading weights:  84%|████████▎ | 489/585 [00:26<00:00, 128.16it/s]Loading weights:  86%|████████▋ | 505/585 [00:26<00:00, 136.04it/s]Loading weights:  89%|████████▉ | 520/585 [00:26<00:00, 135.97it/s]Loading weights:  91%|█████████▏| 535/585 [00:26<00:00, 138.53it/s]Loading weights:  94%|█████████▍| 550/585 [00:26<00:00, 140.54it/s]Loading weights:  97%|█████████▋| 565/585 [00:26<00:00, 136.10it/s]Loading weights: 100%|█████████▉| 583/585 [00:26<00:00, 146.91it/s]Loading weights: 100%|██████████| 585/585 [00:26<00:00, 21.91it/s] 
+The tied weights mapping and config for this model specifies to tie model.language_model.embed_tokens.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+    Model size   : 12.7B parameters
+    Loaded at    : 12:17:06
+
+========== PROCESSING [dossier_unio_crassus_zorn_v4_19_11_2024] ==========
+    Images to caption: 19
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+    [1/19] img_p14_1.png -> L'image montre une personne effectuant une prospection à l'aquascope dans un plan d'eau. La personne... (60.9s)
+    [2/19] img_p16_1.png -> L'image montre une formation rocheuse ou minérale qui semble être un cristal de grande taille. La te... (39.0s)
+    [3/19] img_p1_1.png -> L'image représente une scène sereine et naturelle d'un plan d'eau entouré d'une dense végétation. Vo... (56.3s)
+    [4/19] img_p21_1.png -> L'image est une vue aérienne d'une zone rurale avec des annotations spécifiques. Voici une descripti... (87.4s)
+    [5/19] img_p13_1.png -> L'image présente une carte de la répartition de la Mulette épaisse (un type de moule d'eau douce) en... (78.3s)
+    [6/19] img_p15_1.png -> L'image est une carte aérienne qui montre la localisation d'un transect de prospection de la malacof... (119.6s)
+    [7/19] img_p18_1.png -> L'image est une carte aérienne qui montre la répartition des individus de Mulette épaisse et des ter... (85.0s)
+    [8/19] img_p24_1.png -> L'image est une carte détaillée illustrant l'impact d'un projet sur le cours d'eau Unio Crassus. Voi... (119.8s)
+    [9/19] img_p20_1.png -> L'image est une carte détaillée illustrant l'évolution des habitats favorables à la Mulette épaisse ... (113.7s)
+    [10/19] img_p26_1.png -> L'image montre un cours d'eau calme et peu profond entouré d'une végétation dense. La rivière semble... (39.0s)
+    [11/19] img_p28_1.png -> L'image montre un objet tenu dans la main d'une personne. L'objet semble être une graine ou un noyau... (51.2s)
+    [12/19] img_p25_1.png -> L'image est une carte détaillée d'une région rurale avec plusieurs sites et zones spécifiques marqué... (77.5s)
+    [13/19] img_p5_1.png -> L'image est une carte hydrographique qui met en évidence une zone d'étude spécifique en rouge. Voici... (94.0s)
+    [14/19] img_p10_1.png -> L'image est une vue aérienne d'une zone rurale avec des champs agricoles et des routes. Elle montre ... (61.7s)
+    [15/19] img_p9_1.png -> L'image est une carte détaillée d'un projet de restauration de berge le long d'un cours d'eau. Voici... (132.1s)
+    [16/19] img_p13_2.png -> L'image est une carte qui montre la répartition des connaissances autour d'une zone d'étude spécifiq... (89.7s)
+    [17/19] img_p6_1.png -> L'image montre une vue sereine d'un cours d'eau, probablement une rivière ou un ruisseau, bordé de v... (39.0s)
+    [18/19] img_p17_1.png -> L'image est un histogramme qui montre la répartition des effectifs par classe de taille en centimètr... (100.0s)
+    [19/19] img_p8_1.png -> L'image est une vue aérienne d'un projet de secteur aval le long d'un cours d'eau. Voici une descrip... (89.2s)
+========== COMPLETED [dossier_unio_crassus_zorn_v4_19_11_2024] in 00h 25m 37s ==========
+
+========== PROCESSING [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] ==========
+    Images to caption: 5
+    [1/5] img_p1_1.png -> L'image présente une série de cartes historiques et de cartes interprétatives illustrant les changem... (196.7s)
+    [2/5] img_p5_2.png -> L'image compare deux vues panoramiques du Rhin prises depuis le rocher d'Istein, séparées par enviro... (93.6s)
+    [3/5] img_p5_1.png -> L'image montre un groupe de personnes travaillant sur un chantier de construction d'un pont ou d'une... (48.8s)
+    [4/5] img_p3_1.png -> L'image est une carte illustrant une section du Rhin supérieur entre Bâle et Breisach, en mettant l'... (116.3s)
+    [5/5] img_p4_1.png -> L'image présente une comparaison entre une carte historique et un schéma moderne d'un canal ou d'un ... (91.5s)
+========== COMPLETED [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] in 00h 09m 07s ==========
+
+========== PROCESSING [Rapport-stage-M2-Floriane] ==========
+    Images to caption: 38
+    [1/38] img_p47_2.png -> L'image est un graphique qui montre les variations de la température et du débit du Rhin à Bâle sur ... (140.9s)
+    [2/38] img_p53_1.png -> L'image est une carte satellite d'une région spécifique, probablement en Allemagne, comme l'indiquen... (69.5s)
+    [3/38] img_p21_1.png -> L'image est un graphique qui montre les variations de la température et du débit du Rhin à Vogelgrun... (129.1s)
+    [4/38] img_p13_1.png -> L'image montre un site riverain où l'érosion est visible. Voici une description détaillée :
+
+1. **Ri... (70.3s)
+    [5/38] img_p23_2.png -> L'image est un diagramme circulaire qui illustre les proportions des différents faciès recensés sur ... (69.7s)
+    [6/38] img_p50_4.png -> L'image montre un cours d'eau rapide et tumultueux, probablement une rivière, avec des rochers émerg... (40.7s)
+    [7/38] img_p45_2.png -> L'image est un graphique qui montre les variations de température et les écarts thermiques sur une p... (83.4s)
+    [8/38] img_p50_2.png -> L'image montre un paysage naturel serein avec un plan d'eau calme au centre, reflétant les arbres et... (31.9s)
+    [9/38] img_p46_1.png -> L'image est un graphique qui montre les variations de la température et du débit du Rhin à Bâle sur ... (147.9s)
+    [10/38] img_p22_1.png -> L'image est un graphique linéaire représentant les profils thermiques de quatre lieux différents (Ge... (132.1s)
+    [11/38] img_p15_1.png -> L'image montre un dispositif appelé "sonde thermique" attaché à un câble vert. La sonde semble être ... (26.6s)
+    [12/38] img_p24_1.png -> L'image est un graphique à barres qui montre les abondances relatives de différentes espèces de pois... (87.7s)
+    [13/38] img_p20_1.png -> L'image est un graphique qui montre les variations de la température et du débit du Rhin à Fessenhei... (159.8s)
+    [14/38] img_p52_2.png -> L'image semble être une illustration d'une structure stratifiée, probablement liée à un concept scie... (98.8s)
+    [15/38] img_p34_1.png -> L'image montre un lit de pierres ou de galets, probablement dans un contexte naturel comme un lit de... (39.0s)
+    [16/38] img_p19_1.png -> L'image est un graphique comparant les températures instantanées et les moyennes journalières à Brei... (79.8s)
+    [17/38] img_p43_2.png -> L'image montre trois cases à cocher avec des étiquettes en français. Chaque case à cocher est de cou... (32.1s)
+    [18/38] img_p50_3.png -> L'image montre une rivière en mouvement avec un courant modéré. La rive est bordée de végétation den... (35.9s)
+    [19/38] img_p25_1.png -> L'image est un graphique à barres qui montre les abondances relatives de diverses espèces de poisson... (158.8s)
+    [20/38] img_p50_5.png -> L'image montre un plan d'eau avec une petite île ou péninsule rocheuse au centre. Cette île est prin... (37.5s)
+    [21/38] img_p51_1.png -> L'image est un graphique qui montre les variations des températures minimales et maximales ainsi que... (71.1s)
+    [22/38] img_p51_2.png -> L'image est un graphique qui montre les variations mensuelles des températures minimales et maximale... (64.2s)
+    [23/38] img_p47_1.png -> L'image est un graphique représentant les écarts de température (en degrés Celsius) au fil du temps ... (143.5s)
+    [24/38] img_p11_1.png -> L'image montre un passe à poissons de Gambsheim. Un passe à poissons est une structure construite po... (35.9s)
+    [25/38] img_p9_1.png -> L'image illustre le cycle de vie du saumon atlantique, en montrant les différentes étapes de son dév... (125.0s)
+    [26/38] img_p49_1.png -> L'image est une carte hydrographique d'un segment de rivière ou de fleuve, montrant différentes cara... (81.1s)
+    [27/38] img_p23_3.png -> L'image montre une petite île située dans une rivière ou un fleuve. L'île est principalement composé... (16.2s)
+    [28/38] img_p13_2.png -> L'image montre une vue aérienne d'un paysage fluvial. Voici une description détaillée :
+
+1. **Cours ... (81.7s)
+    [29/38] img_p45_1.png -> L'image est un graphique qui montre les variations de température et les écarts thermiques sur une p... (110.7s)
+    [30/38] img_p23_1.png -> L'image montre une rive d'un cours d'eau, probablement une rivière, où l'érosion est visible. La ber... (60.2s)
+    [31/38] img_p43_1.png -> L'image est une carte détaillée de l'aménagement du Rhin, un fleuve important en Europe. Elle montre... (125.9s)
+    [32/38] img_p52_1.png -> L'image montre deux cartes aériennes d'une zone géographique spécifique, chacune avec des zones colo... (86.6s)
+    [33/38] img_p19_2.png -> L'image est un graphique qui montre les moyennes journalières de la température et du débit d'eau à ... (170.6s)
+    [34/38] img_p8_1.png -> L'image montre deux cartes comparant les modifications du Rhin entre le 19ème siècle (à gauche) et l... (70.0s)
+    [35/38] img_p48_1.png -> L'image est un graphique qui montre les écarts de température et les températures réelles sur une pé... (88.2s)
+    [36/38] img_p50_1.png -> L'image montre un cours d'eau, probablement une rivière, avec un courant modéré. Le côté gauche de l... (34.3s)
+    [37/38] img_p34_2.png -> L'image montre une surface sous-marine recouverte d'algues. Les algues apparaissent en nuances de ja... (31.6s)
+    [38/38] img_p44_1.png -> L'image semble être une carte ou une illustration d'une section du Vieux Rhin (Vieux-Rhin) en France... (87.8s)
+========== COMPLETED [Rapport-stage-M2-Floriane] in 00h 52m 43s ==========
+
+========== PROCESSING [fichier] ==========
+    Images to caption: 25
+    [1/25] img_p13_2.png -> L'image montre un cours d'eau passant sous un pont en béton. Voici une description détaillée :
+
+1. *... (78.8s)
+    [2/25] img_p20_2.png -> L'image montre deux photographies comparant la végétation des berges d'un cours d'eau, probablement ... (76.3s)
+    [3/25] img_p14_1.png -> L'image montre deux photographies côte à côte d'un même paysage naturel. Voici une description détai... (50.4s)
+    [4/25] img_p11_1.png -> L'image montre un petit cours d'eau dans un environnement naturel et verdoyant. Voici une descriptio... (50.0s)
+    [5/25] img_p23_1.png -> L'image est un diagramme technique illustrant un exemple de profil en travers d'un projet de restaur... (132.7s)
+    [6/25] img_p14_2.png -> L'image montre deux photographies d'un cours d'eau dans un environnement naturel. Voici une descript... (76.6s)
+    [7/25] img_p15_1.png -> L'image montre deux photographies d'un environnement naturel, probablement rural, avec un focus sur ... (72.0s)
+    [8/25] img_p8_1.png -> L'image montre deux photographies d'un paysage naturel, probablement dans une région boisée ou rural... (55.6s)
+    [9/25] img_p19_1.png -> L'image montre deux photographies de paysages naturels, probablement pris dans une zone rurale ou se... (57.7s)
+    [10/25] img_p10_1.png -> L'image montre deux vues d'un secteur aval et de l'entrée d'un bus sur un tronçon de cours d'eau. Vo... (83.4s)
+    [11/25] img_p17_1.png -> L'image montre deux vues d'un ouvrage hydraulique et de déversoirs dans un environnement rural. Voic... (86.7s)
+    [12/25] img_p21_1.png -> L'image montre deux photographies d'un cours d'eau endommagé. Voici une description détaillée de cha... (98.7s)
+    [13/25] img_p12_1.png -> L'image montre un cours d'eau dans un environnement naturel et verdoyant. Voici une description déta... (41.5s)
+    [14/25] img_p7_1.png -> L'image est une carte détaillée des tronçons définis sur le ruisseau de Norroy. Elle montre un parco... (62.2s)
+    [15/25] img_p17_2.png -> L'image montre deux photographies de plans d'eau et de digues dans un paysage rural. Voici une descr... (81.3s)
+    [16/25] img_p20_1.png -> L'image montre deux photographies d'un cours d'eau et d'un pont en béton traversant ce cours d'eau. ... (72.0s)
+    [17/25] img_p1_1.png -> L'image semble être une couverture ou une page de titre pour un rapport ou une étude. Voici une desc... (106.7s)
+    [18/25] img_p10_2.png -> L'image montre un cours d'eau dans un environnement naturel et boisé. Voici une description détaillé... (54.4s)
+    [19/25] img_p16_1.png -> L'image montre un petit cours d'eau dans une zone boisée. Le cours d'eau est entouré de végétation d... (22.9s)
+    [20/25] img_p13_1.png -> L'image montre deux vues d'un cours d'eau à l'amont d'un tronçon spécifique, probablement un tronçon... (40.2s)
+    [21/25] img_p18_1.png -> L'image montre deux photographies d'un cours d'eau dans un environnement naturel. Voici une descript... (82.1s)
+    [22/25] img_p19_2.png -> L'image montre deux types différents de structures de pont traversant un petit cours d'eau. Voici un... (65.9s)
+    [23/25] img_p22_1.png -> L'image montre un terrain herbeux et légèrement en friche. Voici une description plus détaillée :
+
+1... (92.7s)
+    [24/25] img_p1_2.png -> L'image présente le logo de la "Communauté de Communes de Maizières-lès-Metz". Voici une description... (62.2s)
+    [25/25] img_p9_1.png -> L'image montre deux photographies d'un cours d'eau à l'aval d'un tronçon spécifique. Voici une descr... (37.4s)
+========== COMPLETED [fichier] in 00h 29m 05s ==========
+
+========== PROCESSING [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] ==========
+    Images to caption: 18
+    [1/18] img_p16_1.png -> L'image montre l'évolution d'une zone de source située près du lieu-dit La Rimbaudais, dans la commu... (54.2s)
+    [2/18] img_p1_1.png -> L'image représente une scène forestière sereine et verdoyante. La lumière du soleil filtre à travers... (20.1s)
+    [3/18] img_p21_1.png -> L'image se compose de deux parties distinctes :
+
+1. **Partie gauche** : Une photographie d'un paysag... (88.6s)
+    [4/18] img_p4_2.png -> L'image représente un réseau hydrographique classé selon l'ordre de Strahler. L'ordre de Strahler es... (82.6s)
+    [5/18] img_p12_1.png -> L'image est une carte représentant la densité des rangs zéro maille de 10 km² sur le territoire de l... (126.9s)
+    [6/18] img_p22_1.png -> L'image est un schéma représentant la rupture d'une pente classiquement observée lors de la transiti... (65.8s)
+    [7/18] img_p15_1.png -> L'image présente une série de quatre vues d'une zone spécifique à Kérualé Saint Claude à Pluméliau-B... (106.7s)
+    [8/18] img_p28_1.png -> L'image présente trois profils de vallées différents, chacun illustrant des caractéristiques topogra... (128.3s)
+    [9/18] img_p10_1.png -> L'image illustre des pratiques de gestion forestière visant à favoriser la biodiversité aquatique et... (79.7s)
+    [10/18] img_p9_1.png -> L'image montre quatre photographies différentes de vallées avec des formes et des conditions variées... (46.6s)
+    [11/18] img_p12_2.png -> L'image est une carte de la densité des rangs zéro par maille de 10 km² sur le territoire de la Bret... (84.5s)
+    [12/18] img_p40_1.png -> L'image est un schéma illustrant la structure et les composants d'un bassin versant, en se concentra... (155.3s)
+    [13/18] img_p6_1.png -> L'image est un schéma illustrant l'évolution du point d'émergence d'une source entre l'été et l'hive... (102.0s)
+    [14/18] img_p17_1.png -> L'image présente une série de cartes topographiques illustrant divers lieux en Bretagne, en France. ... (83.6s)
+    [15/18] img_p23_1.png -> L'image montre quatre profils pédologiques différents, étiquetés de a à d, illustrant la variabilité... (54.8s)
+    [16/18] img_p31_1.png -> L'image montre deux exemples de mares temporaires, également appelées mares éphémères. Ces mares se ... (78.3s)
+    [17/18] img_p4_1.png -> L'image est un schéma représentant un bassin versant de rang 0. Voici une description détaillée des ... (125.9s)
+    [18/18] img_p21_2.png -> L'image est un schéma représentant une coupe transversale d'une vallée de rang zéro. Voici les éléme... (54.7s)
+========== COMPLETED [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] in 00h 25m 42s ==========
+
+============================================================
+  PIPELINE COMPLETE
+  Generator model  : mistral-small-31-24b
+  Retrieval model  : baseline_noprompt
+  Total runtime    : 02h 23m 23s
+============================================================

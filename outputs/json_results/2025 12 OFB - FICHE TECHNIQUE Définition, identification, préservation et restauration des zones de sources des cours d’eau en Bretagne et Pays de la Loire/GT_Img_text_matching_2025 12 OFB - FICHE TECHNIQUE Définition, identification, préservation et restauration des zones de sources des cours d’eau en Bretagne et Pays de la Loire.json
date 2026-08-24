@@ -1,0 +1,19 @@
+{
+  "img_p1_1.png": ["page_1_block_1", "page_2_block_1", "page_2_block_2", "page_2_block_3"],
+  "img_p4_1.png": ["page_4_block_1", "page_4_block_2", "page_4_block_3", "page_4_block_4", "page_4_block_5", "page_5_block_1"],
+  "img_p4_2.png": ["page_4_block_1", "page_4_block_2", "page_4_block_3", "page_4_block_4", "page_4_block_5", "page_5_block_1"],
+  "img_p6_1.png": ["page_5_block_5", "page_5_block_6", "page_6_block_1", "page_6_block_2", "page_6_block_3"],
+  "img_p9_1.png": ["page_8_block_4", "page_8_block_5", "page_9_block_1", "page_9_block_2"],
+  "img_p10_1.png": ["page_9_block_2", "page_10_block_1", "page_10_block_2"],
+  "img_p12_1.png": ["page_11_block_2", "page_11_block_3", "page_11_block_4", "page_12_block_1", "page_13_block_1"],
+  "img_p12_2.png": ["page_11_block_2", "page_11_block_3", "page_11_block_4", "page_12_block_1", "page_13_block_1"],
+  "img_p15_1.png": ["page_14_block_3", "page_14_block_4", "page_14_block_5", "page_15_block_1", "page_16_block_1"],
+  "img_p16_1.png": ["page_14_block_3", "page_14_block_4", "page_14_block_5", "page_15_block_1", "page_16_block_1", "page_16_block_2"],
+  "img_p17_1.png": ["page_14_block_3", "page_14_block_4", "page_14_block_5", "page_15_block_1", "page_16_block_1", "page_16_block_2"],
+  "img_p21_1.png": ["page_20_block_4", "page_20_block_5", "page_21_block_1", "page_21_block_2", "page_22_block_1"],
+  "img_p21_2.png": ["page_20_block_4", "page_20_block_5", "page_21_block_1", "page_21_block_2", "page_22_block_1"],
+  "img_p22_1.png": ["page_20_block_4", "page_20_block_5", "page_21_block_1", "page_21_block_2", "page_22_block_1"],
+  "img_p23_1.png": ["page_22_block_6", "page_23_block_1", "page_23_block_2", "page_23_block_3"],
+  "img_p28_1.png": ["page_27_block_5", "page_27_block_6", "page_28_block_1", "page_28_block_2", "page_28_block_3"],
+  "img_p31_1.png": ["page_31_block_4", "page_31_block_5"]
+}

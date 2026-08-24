@@ -1,0 +1,826 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-08-18">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="7" title="networkx_key" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="datasource" type="string" />
+      <attribute id="1" title="extractedFrom" type="string" />
+      <attribute id="2" title="note" type="string" />
+      <attribute id="3" title="hasCost" type="string" />
+      <attribute id="4" title="hasMonitoringDescription" type="string" />
+      <attribute id="5" title="hasDescription" type="string" />
+      <attribute id="6" title="hasPurpose" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Suivi_De_La_Population_Deplacee" label="Suivi_De_La_Population_Deplacee">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="NamedIndividual" label="NamedIndividual">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Grand_Est" label="Grand_Est">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Projet" label="Projet">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="2" value="hasImpact: altération de l’habitat; hasImpact: destruction directe et indirecte des individus; hasObjective: suivi de la population déplacée; hasObjective: réalisation d’un rapport annuel; hasObjective: respect des bonnes pratiques environnementales; hasImpact: modification de la population de Mulette épaisse" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+          <attvalue for="3" value="491 584 euros H.T." />
+          <attvalue for="4" value="suivi de la population déplacée, respect des bonnes pratiques environnementales, réalisation d’un rapport annuel" />
+          <attvalue for="5" value="créer des méandres, diversifier les écoulements, créer des annexes hydrauliques, végétaliser les berges" />
+        </attvalues>
+      </node>
+      <node id="Observation_Optimale_Du_Substrat" label="Observation_Optimale_Du_Substrat">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="restoration" label="restoration">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Creer_Des_Annexes_Hydrauliques" label="Creer_Des_Annexes_Hydrauliques">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Cours_Deau" label="Cours_Deau">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+      <node id="waterBody" label="waterBody">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Apres_Travaux" label="Apres_Travaux">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Diversifier_Les_Ecoulements" label="Diversifier_Les_Ecoulements">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Plongee" label="Plongee">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="N2" label="N2">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="N4" label="N4">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="restorationMeasure" label="restorationMeasure">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Respect_Des_Bonnes_Pratiques_Environnementales" label="Respect_Des_Bonnes_Pratiques_Environnementales">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="N6" label="N6">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Vegetaliser_Les_Berges" label="Vegetaliser_Les_Berges">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Projet_De_Renaturation_De_La_Zorn" label="Projet_De_Renaturation_De_La_Zorn">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+      <node id="Realisation_Dun_Rapport_Annuel" label="Realisation_Dun_Rapport_Annuel">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Non_Specifie" label="Non_Specifie">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="La_Zorn" label="La_Zorn">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+      <node id="N" label="N">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="river" label="river">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Zorn" label="Zorn">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Creer_Des_Meandres" label="Creer_Des_Meandres">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Suivi_Posttravaux" label="Suivi_Posttravaux">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Experts_En_Avifaune" label="Experts_En_Avifaune">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Evaluation_Environnementale" label="Evaluation_Environnementale">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Bonne_Reprise_De_La_Vegetation" label="Bonne_Reprise_De_La_Vegetation">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="N3" label="N3">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="N1" label="N1">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Site_1" label="Site_1">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Ameliorer_Le_Fonctionnement_Hydraulique_Et_Ecologique" label="Ameliorer_Le_Fonctionnement_Hydraulique_Et_Ecologique">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Ameliorer_Son_Fonctionnement_Hydraulique_Et_Ecologique" label="Ameliorer_Son_Fonctionnement_Hydraulique_Et_Ecologique">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Individu" label="Individu">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Collines_Plateaux_Calcaires_Sous_Vosgiens" label="Collines_Plateaux_Calcaires_Sous_Vosgiens">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Mulette_Epaisse" label="Mulette_Epaisse">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Recherche_Des_Individus_Sur_Les_Placettes" label="Recherche_Des_Individus_Sur_Les_Placettes">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="instance_graph" label="instance_graph">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Ontology" label="Ontology">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="migratorySpecie" label="migratorySpecie">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Localisation_Du_Transect_De_Prospection_De_La_Malacofaune" label="Localisation_Du_Transect_De_Prospection_De_La_Malacofaune">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+          <attvalue for="6" value="Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn" />
+          <attvalue for="2" value="hasConsultant: Cabinet A.Waechter; hasSpecies: Mulette épaisse Unio crassus" />
+        </attvalues>
+      </node>
+      <node id="N10" label="N10">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Suivi_De_La_Population_Deplacee" target="NamedIndividual" id="0" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Grand_Est" target="NamedIndividual" id="1" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Observation_Optimale_Du_Substrat" id="2" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="restoration" id="3" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Apres_Travaux" id="4" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Diversifier_Les_Ecoulements" id="5" label="includes">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Diversifier_Les_Ecoulements" id="6" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="N2" id="7" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Plongee" id="8" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="N4" id="9" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="restorationMeasure" id="10" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Non_Specifie" id="11" label="hasMonitoringCost">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Non_Specifie" id="12" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Non_Specifie" id="13" label="hasMonitoringEndDate">
+        <attvalues>
+          <attvalue for="7" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Respect_Des_Bonnes_Pratiques_Environnementales" id="14" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="N" id="15" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="N6" id="16" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Evaluation_Environnementale" id="17" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Bonne_Reprise_De_La_Vegetation" id="18" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="N3" id="19" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="NamedIndividual" id="20" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Grand_Est" id="21" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Vegetaliser_Les_Berges" id="22" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Vegetaliser_Les_Berges" id="23" label="includes">
+        <attvalues>
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Creer_Des_Annexes_Hydrauliques" id="24" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Creer_Des_Annexes_Hydrauliques" id="25" label="includes">
+        <attvalues>
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Ameliorer_Le_Fonctionnement_Hydraulique_Et_Ecologique" id="26" label="hasFunction">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Ameliorer_Le_Fonctionnement_Hydraulique_Et_Ecologique" id="27" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Suivi_De_La_Population_Deplacee" id="28" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Recherche_Des_Individus_Sur_Les_Placettes" id="29" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Creer_Des_Meandres" id="30" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Creer_Des_Meandres" id="31" label="includes">
+        <attvalues>
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Cours_Deau" id="32" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Ameliorer_Son_Fonctionnement_Hydraulique_Et_Ecologique" id="33" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="N1" id="34" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="N1" id="35" label="hasMonitoringEndDate">
+        <attvalues>
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Realisation_Dun_Rapport_Annuel" id="36" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Suivi_Posttravaux" id="37" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="N10" id="38" label="hasMonitoringEndDate">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet" target="Experts_En_Avifaune" id="39" label="hasMainContractor">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Observation_Optimale_Du_Substrat" target="NamedIndividual" id="40" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Creer_Des_Annexes_Hydrauliques" target="NamedIndividual" id="41" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="waterBody" id="42" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Grand_Est" id="43" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Vegetaliser_Les_Berges" id="44" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Creer_Des_Annexes_Hydrauliques" id="45" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="NamedIndividual" id="46" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Creer_Des_Meandres" id="47" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Ameliorer_Le_Fonctionnement_Hydraulique_Et_Ecologique" id="48" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Diversifier_Les_Ecoulements" id="49" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Apres_Travaux" target="NamedIndividual" id="50" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Diversifier_Les_Ecoulements" target="NamedIndividual" id="51" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Plongee" target="NamedIndividual" id="52" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="N2" target="NamedIndividual" id="53" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="N4" target="NamedIndividual" id="54" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Respect_Des_Bonnes_Pratiques_Environnementales" target="NamedIndividual" id="55" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="N6" target="NamedIndividual" id="56" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vegetaliser_Les_Berges" target="NamedIndividual" id="57" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_De_Renaturation_De_La_Zorn" target="Realisation_Dun_Rapport_Annuel" id="58" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_De_Renaturation_De_La_Zorn" target="Respect_Des_Bonnes_Pratiques_Environnementales" id="59" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_De_Renaturation_De_La_Zorn" target="Vegetaliser_Les_Berges" id="60" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_De_Renaturation_De_La_Zorn" target="NamedIndividual" id="61" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_De_Renaturation_De_La_Zorn" target="Ameliorer_Le_Fonctionnement_Hydraulique_Et_Ecologique" id="62" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_De_Renaturation_De_La_Zorn" target="Diversifier_Les_Ecoulements" id="63" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_De_Renaturation_De_La_Zorn" target="Creer_Des_Annexes_Hydrauliques" id="64" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_De_Renaturation_De_La_Zorn" target="Creer_Des_Meandres" id="65" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_De_Renaturation_De_La_Zorn" target="Grand_Est" id="66" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_De_Renaturation_De_La_Zorn" target="restoration" id="67" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Realisation_Dun_Rapport_Annuel" target="NamedIndividual" id="68" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Non_Specifie" target="NamedIndividual" id="69" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Zorn" target="NamedIndividual" id="70" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Zorn" target="river" id="71" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Zorn" target="Site_1" id="72" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="N" target="NamedIndividual" id="73" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zorn" target="Respect_Des_Bonnes_Pratiques_Environnementales" id="74" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zorn" target="NamedIndividual" id="75" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zorn" target="Vegetaliser_Les_Berges" id="76" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zorn" target="river" id="77" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zorn" target="Creer_Des_Annexes_Hydrauliques" id="78" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zorn" target="Creer_Des_Meandres" id="79" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zorn" target="Grand_Est" id="80" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zorn" target="Grand_Est" id="81" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="7" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Zorn" target="Ameliorer_Son_Fonctionnement_Hydraulique_Et_Ecologique" id="82" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zorn" target="Ameliorer_Le_Fonctionnement_Hydraulique_Et_Ecologique" id="83" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zorn" target="Diversifier_Les_Ecoulements" id="84" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zorn" target="waterBody" id="85" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zorn" target="Realisation_Dun_Rapport_Annuel" id="86" label="hasPurpose">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Creer_Des_Meandres" target="NamedIndividual" id="87" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Suivi_Posttravaux" target="NamedIndividual" id="88" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Experts_En_Avifaune" target="NamedIndividual" id="89" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Evaluation_Environnementale" target="NamedIndividual" id="90" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bonne_Reprise_De_La_Vegetation" target="NamedIndividual" id="91" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="N3" target="NamedIndividual" id="92" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="N1" target="NamedIndividual" id="93" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Site_1" target="NamedIndividual" id="94" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ameliorer_Le_Fonctionnement_Hydraulique_Et_Ecologique" target="NamedIndividual" id="95" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ameliorer_Son_Fonctionnement_Hydraulique_Et_Ecologique" target="NamedIndividual" id="96" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Individu" target="NamedIndividual" id="97" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Collines_Plateaux_Calcaires_Sous_Vosgiens" target="NamedIndividual" id="98" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mulette_Epaisse" target="Individu" id="99" label="hasDescription">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mulette_Epaisse" target="migratorySpecie" id="100" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mulette_Epaisse" target="NamedIndividual" id="101" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mulette_Epaisse" target="Zorn" id="102" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Recherche_Des_Individus_Sur_Les_Placettes" target="NamedIndividual" id="103" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="instance_graph" target="Ontology" id="104" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Localisation_Du_Transect_De_Prospection_De_La_Malacofaune" target="NamedIndividual" id="105" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Localisation_Du_Transect_De_Prospection_De_La_Malacofaune" target="Collines_Plateaux_Calcaires_Sous_Vosgiens" id="106" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="N10" target="NamedIndividual" id="107" label="type">
+        <attvalues>
+          <attvalue for="7" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

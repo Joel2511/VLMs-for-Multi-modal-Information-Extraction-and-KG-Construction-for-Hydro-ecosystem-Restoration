@@ -1,0 +1,7 @@
+{
+    "pdf_name": "fichier",
+    "model": "qwen2vl-7b-sum",
+    "summary": "Le document évalue la qualité physique de différents tronçons de cours d'eau en utilisant un outil rigoureux. Il compare chaque tronçon à son type géomorphologique de référence et décrit l'habitat unique. Les résultats indiquent une variabilité de la qualité, avec certains tronçons ayant une qualité correcte à excellente. L'étude souligne également l'influence de la pression anthropique, des annexes hydrauliques, de la stabilité des berges et de la végétation sur l'état des tronçons. Les recommandations pour améliorer la qualité de l'eau comprennent l'évitement de l'artificialisation, la création de profils en travers, l'entretien du lit mineur et la création de zones d'activités et d'aménagements hydrauliques.",
+    "word_count": 103,
+    "input_word_count": 4406
+}

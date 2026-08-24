@@ -1,0 +1,201 @@
+========================================
+GANA METRICS INITIALIZED
+   dataset: /home2020/home/icube/janil/Rhine_proj/embeddings/TransH/globikg
+   prefix: globikg_v1
+   embed_model: TransH
+   embed_dim: 400
+   few: 5
+   train_few: 5
+   neg_num: 50
+   batch_size: 128
+   lr: 0.001
+   margin: 1.0
+   max_batches: 20000
+   dropout: 0.1
+   weight_decay: 1e-05
+   grad_clip: 5.0
+   seed: 19940419
+   log_every: 300
+   eval_every: 10000
+   process_steps: 2
+   max_neighbor: 30
+   knn_k: 10
+   aggregate: max
+   random_embed: False
+   fine_tune: True
+   no_meta: False
+   test: False
+   num_transformer_heads: 4
+   transformer_layers: 2
+   save_path: /home2020/home/icube/janil/Rhine_proj/scripts/code/5.Link_prediction/GANA/models/globikg_v1/TransH/model.pt
+========================================
+2026-06-27 23:13:55 INFO: - LOADING SYMBOL ID AND SYMBOL EMBEDDING
+2026-06-27 23:13:55 INFO: - LOADING PRE-TRAINED EMBEDDING STRUCTURE: TransH
+2026-06-27 23:13:55 INFO: - Target paths resolved to:
+  Entities: /home2020/home/icube/janil/Rhine_proj/embeddings/TransH/globikg/entity2vec.TransH.npy
+  Relations: /home2020/home/icube/janil/Rhine_proj/embeddings/TransH/globikg/relation2vec.TransH.npy
+Building Connections:   0%|          | 0/4529370 [00:00<?, ?it/s]Building Connections:   0%|          | 579/4529370 [00:00<29:24, 2567.07it/s]Building Connections:   1%|▏         | 66679/4529370 [00:00<00:17, 257883.71it/s]Building Connections:   3%|▎         | 118225/4529370 [00:00<00:18, 239397.48it/s]Building Connections:   4%|▍         | 182267/4529370 [00:00<00:12, 343059.49it/s]Building Connections:   6%|▌         | 252261/4529370 [00:00<00:09, 439304.30it/s]Building Connections:   7%|▋         | 323438/4529370 [00:00<00:08, 515078.46it/s]Building Connections:   8%|▊         | 382998/4529370 [00:01<00:11, 345742.91it/s]Building Connections:  10%|▉         | 447370/4529370 [00:01<00:10, 407425.11it/s]Building Connections:  11%|█▏        | 516970/4529370 [00:01<00:08, 473284.41it/s]Building Connections:  13%|█▎        | 586257/4529370 [00:01<00:07, 527270.77it/s]Building Connections:  15%|█▍        | 656903/4529370 [00:01<00:06, 573846.48it/s]Building Connections:  16%|█▌        | 727843/4529370 [00:01<00:06, 610546.59it/s]Building Connections:  18%|█▊        | 798465/4529370 [00:01<00:05, 637228.46it/s]Building Connections:  19%|█▉        | 866015/4529370 [00:02<00:10, 347097.65it/s]Building Connections:  21%|██        | 933765/4529370 [00:02<00:08, 406229.21it/s]Building Connections:  22%|██▏       | 1003438/4529370 [00:02<00:07, 465377.13it/s]Building Connections:  24%|██▎       | 1073569/4529370 [00:02<00:06, 518536.91it/s]Building Connections:  25%|██▌       | 1144041/4529370 [00:02<00:06, 563871.91it/s]Building Connections:  27%|██▋       | 1214535/4529370 [00:02<00:05, 600276.25it/s]Building Connections:  28%|██▊       | 1284874/4529370 [00:02<00:05, 628048.38it/s]Building Connections:  30%|██▉       | 1355313/4529370 [00:02<00:04, 649257.36it/s]Building Connections:  31%|███▏      | 1425990/4529370 [00:02<00:04, 665595.93it/s]Building Connections:  33%|███▎      | 1496901/4529370 [00:03<00:04, 678152.86it/s]Building Connections:  35%|███▍      | 1566718/4529370 [00:03<00:09, 303899.64it/s]Building Connections:  36%|███▌      | 1628882/4529370 [00:03<00:08, 353582.54it/s]Building Connections:  37%|███▋      | 1697445/4529370 [00:03<00:06, 414209.75it/s]Building Connections:  39%|███▉      | 1766320/4529370 [00:03<00:05, 471003.97it/s]Building Connections:  41%|████      | 1835509/4529370 [00:03<00:05, 521384.08it/s]Building Connections:  42%|████▏     | 1905055/4529370 [00:04<00:04, 564163.85it/s]Building Connections:  44%|████▎     | 1974653/4529370 [00:04<00:04, 598412.86it/s]Building Connections:  45%|████▌     | 2044182/4529370 [00:04<00:03, 624635.43it/s]Building Connections:  47%|████▋     | 2113601/4529370 [00:04<00:03, 644027.62it/s]Building Connections:  48%|████▊     | 2183313/4529370 [00:04<00:03, 659148.77it/s]Building Connections:  50%|████▉     | 2252925/4529370 [00:04<00:03, 669836.26it/s]Building Connections:  51%|█████▏    | 2322379/4529370 [00:04<00:03, 677052.42it/s]Building Connections:  53%|█████▎    | 2391966/4529370 [00:04<00:03, 682590.81it/s]Building Connections:  54%|█████▍    | 2461488/4529370 [00:04<00:03, 686324.84it/s]Building Connections:  56%|█████▌    | 2530931/4529370 [00:04<00:02, 688723.85it/s]Building Connections:  57%|█████▋    | 2600299/4529370 [00:05<00:02, 690080.97it/s]Building Connections:  59%|█████▉    | 2669748/4529370 [00:05<00:02, 691392.53it/s]Building Connections:  60%|██████    | 2739131/4529370 [00:05<00:07, 247012.79it/s]Building Connections:  62%|██████▏   | 2802473/4529370 [00:05<00:05, 298133.65it/s]Building Connections:  63%|██████▎   | 2869867/4529370 [00:06<00:04, 357868.97it/s]Building Connections:  65%|██████▍   | 2938177/4529370 [00:06<00:03, 418052.68it/s]Building Connections:  66%|██████▋   | 3007185/4529370 [00:06<00:03, 474927.58it/s]Building Connections:  68%|██████▊   | 3072928/4529370 [00:06<00:02, 516899.17it/s]Building Connections:  69%|██████▉   | 3140157/4529370 [00:06<00:02, 555324.89it/s]Building Connections:  71%|███████   | 3207733/4529370 [00:06<00:02, 586760.74it/s]Building Connections:  72%|███████▏  | 3275533/4529370 [00:06<00:02, 611538.24it/s]Building Connections:  74%|███████▍  | 3343645/4529370 [00:06<00:01, 630969.17it/s]Building Connections:  75%|███████▌  | 3412138/4529370 [00:06<00:01, 646364.40it/s]Building Connections:  77%|███████▋  | 3480873/4529370 [00:06<00:01, 658228.01it/s]Building Connections:  78%|███████▊  | 3549861/4529370 [00:07<00:01, 667483.88it/s]Building Connections:  80%|███████▉  | 3618035/4529370 [00:07<00:01, 669390.45it/s]Building Connections:  81%|████████▏ | 3685974/4529370 [00:07<00:01, 655478.04it/s]Building Connections:  83%|████████▎ | 3752281/4529370 [00:07<00:01, 656510.56it/s]Building Connections:  84%|████████▍ | 3819234/4529370 [00:07<00:01, 660328.58it/s]Building Connections:  86%|████████▌ | 3886934/4529370 [00:07<00:00, 665250.53it/s]Building Connections:  87%|████████▋ | 3954871/4529370 [00:07<00:00, 669434.67it/s]Building Connections:  89%|████████▉ | 4022930/4529370 [00:07<00:00, 672751.86it/s]Building Connections:  90%|█████████ | 4091017/4529370 [00:07<00:00, 675166.40it/s]Building Connections:  92%|█████████▏| 4158987/4529370 [00:07<00:00, 676514.56it/s]Building Connections:  93%|█████████▎| 4226709/4529370 [00:08<00:00, 675675.92it/s]Building Connections:  95%|█████████▍| 4294720/4529370 [00:08<00:00, 676995.78it/s]Building Connections:  96%|█████████▋| 4362840/4529370 [00:08<00:00, 678249.87it/s]Building Connections:  98%|█████████▊| 4430984/4529370 [00:08<00:00, 679198.48it/s]Building Connections:  99%|█████████▉| 4499096/4529370 [00:08<00:00, 679767.76it/s]Building Connections: 100%|██████████| 4529370/4529370 [00:09<00:00, 481112.03it/s]
+Trainer initialized on cuda, 1 GPUs.
+2026-06-27 23:14:11 INFO: - START TRAINING...
+2026-06-27 23:14:15 INFO: - LOADING MEDICAL TRAINING DATA FROM train_tasks.json
+2026-06-27 23:14:20 CRITICAL: - Batch 0: Loss=64.0436 (Task: ectoParasitoid, Weight: 10.0)
+2026-06-27 23:14:36 CRITICAL: - Batch 300: Loss=43.5234 (Task: epiphyteOf, Weight: 10.0)
+2026-06-27 23:14:51 CRITICAL: - Batch 600: Loss=27.2073 (Task: interactsWith, Weight: 1.3)
+2026-06-27 23:15:06 CRITICAL: - Batch 900: Loss=17.7471 (Task: visitsFlowersOf, Weight: 2.5)
+2026-06-27 23:15:22 CRITICAL: - Batch 1200: Loss=16.9395 (Task: coRoostsWith, Weight: 10.0)
+2026-06-27 23:15:37 CRITICAL: - Batch 1500: Loss=12.1962 (Task: livesInsideOf, Weight: 10.0)
+2026-06-27 23:15:52 CRITICAL: - Batch 1800: Loss=9.3769 (Task: mutualistOf, Weight: 7.2)
+2026-06-27 23:16:08 CRITICAL: - Batch 2100: Loss=9.7617 (Task: endoparasiteOf, Weight: 8.6)
+2026-06-27 23:16:23 CRITICAL: - Batch 2400: Loss=10.2736 (Task: visitsFlowersOf, Weight: 2.5)
+2026-06-27 23:16:38 CRITICAL: - Batch 2700: Loss=8.5162 (Task: endoparasiteOf, Weight: 8.6)
+2026-06-27 23:16:54 CRITICAL: - Batch 3000: Loss=7.9361 (Task: endoparasiteOf, Weight: 8.6)
+2026-06-27 23:17:09 CRITICAL: - Batch 3300: Loss=7.3767 (Task: adjacentTo, Weight: 1.6)
+2026-06-27 23:17:24 CRITICAL: - Batch 3600: Loss=6.1353 (Task: pathogenOf, Weight: 3.0)
+2026-06-27 23:17:40 CRITICAL: - Batch 3900: Loss=5.8402 (Task: visitsFlowersOf, Weight: 2.5)
+2026-06-27 23:17:55 CRITICAL: - Batch 4200: Loss=5.8383 (Task: coOccursWith, Weight: 10.0)
+2026-06-27 23:18:10 CRITICAL: - Batch 4500: Loss=5.3117 (Task: providesNutrientsFor, Weight: 10.0)
+2026-06-27 23:18:26 CRITICAL: - Batch 4800: Loss=5.2716 (Task: visits, Weight: 4.7)
+2026-06-27 23:18:41 CRITICAL: - Batch 5100: Loss=4.2287 (Task: hemiparasiteOf, Weight: 3.2)
+2026-06-27 23:18:57 CRITICAL: - Batch 5400: Loss=3.8727 (Task: livesInsideOf, Weight: 10.0)
+2026-06-27 23:19:12 CRITICAL: - Batch 5700: Loss=4.3614 (Task: epiphyteOf, Weight: 10.0)
+2026-06-27 23:19:27 CRITICAL: - Batch 6000: Loss=4.0208 (Task: parasitoidOf, Weight: 10.0)
+2026-06-27 23:19:43 CRITICAL: - Batch 6300: Loss=3.7841 (Task: livesOn, Weight: 10.0)
+2026-06-27 23:19:58 CRITICAL: - Batch 6600: Loss=3.3365 (Task: preysOn, Weight: 2.4)
+2026-06-27 23:20:13 CRITICAL: - Batch 6900: Loss=3.1003 (Task: ectoparasiteOf, Weight: 10.0)
+2026-06-27 23:20:29 CRITICAL: - Batch 7200: Loss=3.1936 (Task: hasDispersalVector, Weight: 10.0)
+2026-06-27 23:20:44 CRITICAL: - Batch 7500: Loss=2.9965 (Task: ectoparasiteOf, Weight: 10.0)
+2026-06-27 23:21:00 CRITICAL: - Batch 7800: Loss=2.4715 (Task: mutualistOf, Weight: 7.2)
+2026-06-27 23:21:15 CRITICAL: - Batch 8100: Loss=2.3505 (Task: hyperparasiteOf, Weight: 10.0)
+2026-06-27 23:21:30 CRITICAL: - Batch 8400: Loss=2.5296 (Task: eats, Weight: 1.3)
+2026-06-27 23:21:46 CRITICAL: - Batch 8700: Loss=3.2100 (Task: kleptoparasiteOf, Weight: 10.0)
+2026-06-27 23:22:01 CRITICAL: - Batch 9000: Loss=2.7222 (Task: allelopathOf, Weight: 9.5)
+2026-06-27 23:22:16 CRITICAL: - Batch 9300: Loss=2.2217 (Task: livesOn, Weight: 10.0)
+2026-06-27 23:22:32 CRITICAL: - Batch 9600: Loss=2.2322 (Task: visits, Weight: 4.7)
+2026-06-27 23:22:47 CRITICAL: - Batch 9900: Loss=2.0965 (Task: pollinates, Weight: 3.1)
+Evaluating Relations:   0%|          | 0/39 [00:00<?, ?it/s]2026-06-27 23:24:13 CRITICAL: - - adjacentTo MRR:0.042, H10:0.092, H5:0.042, H1:0.008 
+Evaluating Relations:   3%|▎         | 1/39 [01:21<51:28, 81.28s/it]2026-06-27 23:24:14 CRITICAL: - - hasHabitat MRR:0.918, H10:1.000, H5:0.980, H1:0.863 
+2026-06-27 23:24:50 CRITICAL: - - preysOn MRR:0.099, H10:0.255, H5:0.128, H1:0.027 
+Evaluating Relations:   8%|▊         | 3/39 [01:58<20:49, 34.70s/it]2026-06-27 23:26:56 CRITICAL: - - interactsWith MRR:0.096, H10:0.228, H5:0.135, H1:0.032 
+Evaluating Relations:  10%|█         | 4/39 [04:03<38:36, 66.18s/it]2026-06-27 23:30:22 CRITICAL: - - hasHost MRR:0.092, H10:0.210, H5:0.134, H1:0.027 
+Evaluating Relations:  13%|█▎        | 5/39 [07:29<1:03:40, 112.36s/it]2026-06-27 23:30:42 CRITICAL: - - hemiparasiteOf MRR:0.313, H10:0.513, H5:0.392, H1:0.207 
+Evaluating Relations:  15%|█▌        | 6/39 [07:49<45:29, 82.70s/it]   2026-06-27 23:32:50 CRITICAL: - - eats MRR:0.067, H10:0.172, H5:0.076, H1:0.012 
+Evaluating Relations:  18%|█▊        | 7/39 [09:57<51:44, 97.01s/it]2026-06-27 23:33:24 CRITICAL: - - visitsFlowersOf MRR:0.061, H10:0.129, H5:0.062, H1:0.017 
+Evaluating Relations:  21%|██        | 8/39 [10:31<39:59, 77.40s/it]2026-06-27 23:33:26 CRITICAL: - - endoparasiteOf MRR:0.092, H10:0.163, H5:0.106, H1:0.049 
+Evaluating Relations:  23%|██▎       | 9/39 [10:34<27:14, 54.49s/it]2026-06-27 23:33:55 CRITICAL: - - parasiteOf MRR:0.060, H10:0.157, H5:0.074, H1:0.009 
+Evaluating Relations:  26%|██▌       | 10/39 [11:02<22:27, 46.48s/it]2026-06-27 23:34:16 CRITICAL: - - pollinates MRR:0.056, H10:0.124, H5:0.070, H1:0.010 
+Evaluating Relations:  28%|██▊       | 11/39 [11:23<18:06, 38.79s/it]2026-06-27 23:34:38 CRITICAL: - - pathogenOf MRR:0.148, H10:0.427, H5:0.204, H1:0.051 
+Evaluating Relations:  31%|███       | 12/39 [11:45<15:10, 33.73s/it]2026-06-27 23:34:38 CRITICAL: - - symbiontOf MRR:0.252, H10:0.500, H5:0.363, H1:0.118 
+Evaluating Relations:  33%|███▎      | 13/39 [11:46<10:18, 23.78s/it]2026-06-27 23:34:40 CRITICAL: - - hasVector MRR:0.210, H10:0.362, H5:0.268, H1:0.132 
+Evaluating Relations:  36%|███▌      | 14/39 [11:47<07:07, 17.08s/it]2026-06-27 23:34:41 CRITICAL: - - coOccursWith MRR:0.520, H10:0.615, H5:0.575, H1:0.460 
+Evaluating Relations:  38%|███▊      | 15/39 [11:48<04:50, 12.12s/it]2026-06-27 23:34:50 CRITICAL: - - visits MRR:0.074, H10:0.132, H5:0.086, H1:0.032 
+Evaluating Relations:  41%|████      | 16/39 [11:57<04:18, 11.22s/it]2026-06-27 23:34:51 CRITICAL: - - hasDispersalVector MRR:0.083, H10:0.173, H5:0.103, H1:0.034 
+Evaluating Relations:  44%|████▎     | 17/39 [11:58<03:00,  8.21s/it]2026-06-27 23:34:55 CRITICAL: - - mutualistOf MRR:0.057, H10:0.113, H5:0.072, H1:0.016 
+Evaluating Relations:  46%|████▌     | 18/39 [12:02<02:24,  6.89s/it]2026-06-27 23:34:56 CRITICAL: - - ectoparasiteOf MRR:0.086, H10:0.167, H5:0.111, H1:0.030 
+Evaluating Relations:  49%|████▊     | 19/39 [12:04<01:46,  5.30s/it]2026-06-27 23:34:57 CRITICAL: - - parasitoidOf MRR:0.062, H10:0.139, H5:0.084, H1:0.012 
+Evaluating Relations:  51%|█████▏    | 20/39 [12:05<01:16,  4.02s/it]2026-06-27 23:34:58 CRITICAL: - - endoparasitoidOf MRR:0.032, H10:0.066, H5:0.044, H1:0.011 
+Evaluating Relations:  54%|█████▍    | 21/39 [12:05<00:52,  2.90s/it]2026-06-27 23:34:58 CRITICAL: - - coRoostsWith MRR:0.175, H10:0.346, H5:0.278, H1:0.075 
+Evaluating Relations:  56%|█████▋    | 22/39 [12:05<00:36,  2.12s/it]2026-06-27 23:34:58 CRITICAL: - - hasRoost MRR:0.046, H10:0.109, H5:0.031, H1:0.016 
+Evaluating Relations:  59%|█████▉    | 23/39 [12:05<00:24,  1.54s/it]2026-06-27 23:35:00 CRITICAL: - - allelopathOf MRR:0.066, H10:0.137, H5:0.075, H1:0.023 
+Evaluating Relations:  62%|██████▏   | 24/39 [12:08<00:26,  1.78s/it]2026-06-27 23:35:01 CRITICAL: - - epiphyteOf MRR:0.696, H10:0.977, H5:0.919, H1:0.543 
+Evaluating Relations:  64%|██████▍   | 25/39 [12:08<00:18,  1.33s/it]2026-06-27 23:35:01 CRITICAL: - - commensalistOf MRR:0.279, H10:0.500, H5:0.292, H1:0.208 
+2026-06-27 23:35:02 CRITICAL: - - ecologicallyRelatedTo MRR:0.119, H10:0.321, H5:0.163, H1:0.032 
+Evaluating Relations:  69%|██████▉   | 27/39 [12:09<00:11,  1.03it/s]2026-06-27 23:35:02 CRITICAL: - - livesOn MRR:0.083, H10:0.135, H5:0.108, H1:0.054 
+2026-06-27 23:35:02 CRITICAL: - - createsHabitatFor MRR:0.435, H10:0.609, H5:0.522, H1:0.348 
+Evaluating Relations:  74%|███████▍  | 29/39 [12:09<00:06,  1.64it/s]2026-06-27 23:35:02 CRITICAL: - - livesNear MRR:0.038, H10:0.000, H5:0.000, H1:0.000 
+2026-06-27 23:35:02 CRITICAL: - - providesNutrientsFor MRR:0.130, H10:0.273, H5:0.273, H1:0.000 
+2026-06-27 23:35:02 CRITICAL: - - livesInsideOf MRR:0.102, H10:0.125, H5:0.083, H1:0.083 
+2026-06-27 23:35:02 CRITICAL: - - kills MRR:0.280, H10:0.500, H5:0.382, H1:0.176 
+Evaluating Relations:  85%|████████▍ | 33/39 [12:09<00:01,  3.29it/s]2026-06-27 23:35:02 CRITICAL: - - laysEggsOn MRR:0.038, H10:0.167, H5:0.000, H1:0.000 
+/home2020/home/icube/janil/miniforge3/envs/qwen3vl_env/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home2020/home/icube/janil/miniforge3/envs/qwen3vl_env/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+2026-06-27 23:35:02 CRITICAL: - - ectoParasitoid MRR:nan, H10:nan, H5:nan, H1:nan 
+2026-06-27 23:35:02 CRITICAL: - - kleptoparasiteOf MRR:nan, H10:nan, H5:nan, H1:nan 
+2026-06-27 23:35:02 CRITICAL: - - hyperparasiteOf MRR:0.271, H10:0.500, H5:0.500, H1:0.000 
+2026-06-27 23:35:02 CRITICAL: - - guestOf MRR:0.167, H10:1.000, H5:0.000, H1:0.000 
+2026-06-27 23:35:02 CRITICAL: - - livesUnder MRR:nan, H10:nan, H5:nan, H1:nan 
+Evaluating Relations: 100%|██████████| 39/39 [12:09<00:00, 18.72s/it]
+2026-06-27 23:35:02 CRITICAL: - - Overall HITS10: 0.202
+2026-06-27 23:35:02 CRITICAL: - - Overall HITS5:  0.116
+2026-06-27 23:35:02 CRITICAL: - - Overall HITS1:  0.029
+2026-06-27 23:35:02 CRITICAL: - - Overall MRR:    0.088
+2026-06-27 23:35:14 CRITICAL: - Batch 10200: Loss=2.0160 (Task: interactsWith, Weight: 1.3)
+2026-06-27 23:35:30 CRITICAL: - Batch 10500: Loss=1.8138 (Task: preysOn, Weight: 2.4)
+2026-06-27 23:35:45 CRITICAL: - Batch 10800: Loss=1.6316 (Task: livesOn, Weight: 10.0)
+2026-06-27 23:36:00 CRITICAL: - Batch 11100: Loss=1.4683 (Task: hasHost, Weight: 1.0)
+2026-06-27 23:36:16 CRITICAL: - Batch 11400: Loss=1.5193 (Task: hasHost, Weight: 1.0)
+2026-06-27 23:36:31 CRITICAL: - Batch 11700: Loss=1.4215 (Task: livesInsideOf, Weight: 10.0)
+2026-06-27 23:36:46 CRITICAL: - Batch 12000: Loss=1.4100 (Task: laysEggsOn, Weight: 10.0)
+2026-06-27 23:37:01 CRITICAL: - Batch 12300: Loss=1.4591 (Task: preysOn, Weight: 2.4)
+2026-06-27 23:37:17 CRITICAL: - Batch 12600: Loss=1.2557 (Task: symbiontOf, Weight: 10.0)
+2026-06-27 23:37:32 CRITICAL: - Batch 12900: Loss=1.3021 (Task: eats, Weight: 1.3)
+2026-06-27 23:37:47 CRITICAL: - Batch 13200: Loss=1.3019 (Task: ecologicallyRelatedTo, Weight: 10.0)
+2026-06-27 23:38:03 CRITICAL: - Batch 13500: Loss=1.2047 (Task: interactsWith, Weight: 1.3)
+2026-06-27 23:38:18 CRITICAL: - Batch 13800: Loss=1.2185 (Task: guestOf, Weight: 10.0)
+2026-06-27 23:38:33 CRITICAL: - Batch 14100: Loss=1.2112 (Task: pollinates, Weight: 3.1)
+2026-06-27 23:38:49 CRITICAL: - Batch 14400: Loss=1.1010 (Task: hasDispersalVector, Weight: 10.0)
+2026-06-27 23:39:04 CRITICAL: - Batch 14700: Loss=1.1050 (Task: symbiontOf, Weight: 10.0)
+2026-06-27 23:39:19 CRITICAL: - Batch 15000: Loss=1.0230 (Task: hasHost, Weight: 1.0)
+2026-06-27 23:39:35 CRITICAL: - Batch 15300: Loss=1.0653 (Task: hasHost, Weight: 1.0)
+2026-06-27 23:39:50 CRITICAL: - Batch 15600: Loss=0.9527 (Task: endoparasiteOf, Weight: 8.6)
+2026-06-27 23:40:05 CRITICAL: - Batch 15900: Loss=1.0030 (Task: parasiteOf, Weight: 2.7)
+2026-06-27 23:40:20 CRITICAL: - Batch 16200: Loss=0.8492 (Task: hasRoost, Weight: 10.0)
+2026-06-27 23:40:36 CRITICAL: - Batch 16500: Loss=0.9076 (Task: allelopathOf, Weight: 9.5)
+2026-06-27 23:40:51 CRITICAL: - Batch 16800: Loss=0.8991 (Task: endoparasitoidOf, Weight: 10.0)
+2026-06-27 23:41:06 CRITICAL: - Batch 17100: Loss=0.8670 (Task: symbiontOf, Weight: 10.0)
+2026-06-27 23:41:22 CRITICAL: - Batch 17400: Loss=0.8004 (Task: createsHabitatFor, Weight: 10.0)
+2026-06-27 23:41:37 CRITICAL: - Batch 17700: Loss=0.7960 (Task: livesInsideOf, Weight: 10.0)
+2026-06-27 23:41:52 CRITICAL: - Batch 18000: Loss=0.7981 (Task: livesNear, Weight: 10.0)
+2026-06-27 23:42:08 CRITICAL: - Batch 18300: Loss=0.7788 (Task: adjacentTo, Weight: 1.6)
+2026-06-27 23:42:23 CRITICAL: - Batch 18600: Loss=0.8192 (Task: eats, Weight: 1.3)
+2026-06-27 23:42:38 CRITICAL: - Batch 18900: Loss=0.7947 (Task: allelopathOf, Weight: 9.5)
+2026-06-27 23:42:53 CRITICAL: - Batch 19200: Loss=0.7621 (Task: ecologicallyRelatedTo, Weight: 10.0)
+2026-06-27 23:43:09 CRITICAL: - Batch 19500: Loss=0.7992 (Task: symbiontOf, Weight: 10.0)
+2026-06-27 23:43:24 CRITICAL: - Batch 19800: Loss=0.6982 (Task: hasDispersalVector, Weight: 10.0)
+2026-06-27 23:43:34 CRITICAL: - Max batches (20000) reached. Final Eval Starting.
+Evaluating Relations:   0%|          | 0/39 [00:00<?, ?it/s]2026-06-27 23:44:57 CRITICAL: - - adjacentTo MRR:0.069, H10:0.168, H5:0.094, H1:0.016 
+Evaluating Relations:   3%|▎         | 1/39 [01:21<51:28, 81.27s/it]2026-06-27 23:44:57 CRITICAL: - - hasHabitat MRR:0.907, H10:1.000, H5:0.980, H1:0.843 
+2026-06-27 23:45:34 CRITICAL: - - preysOn MRR:0.170, H10:0.378, H5:0.253, H1:0.071 
+Evaluating Relations:   8%|▊         | 3/39 [01:58<20:50, 34.74s/it]2026-06-27 23:47:39 CRITICAL: - - interactsWith MRR:0.158, H10:0.314, H5:0.219, H1:0.078 
+Evaluating Relations:  10%|█         | 4/39 [04:04<38:40, 66.29s/it]2026-06-27 23:51:06 CRITICAL: - - hasHost MRR:0.110, H10:0.261, H5:0.168, H1:0.032 
+Evaluating Relations:  13%|█▎        | 5/39 [07:30<1:03:49, 112.63s/it]2026-06-27 23:51:26 CRITICAL: - - hemiparasiteOf MRR:0.509, H10:0.724, H5:0.631, H1:0.416 
+Evaluating Relations:  15%|█▌        | 6/39 [07:50<45:35, 82.89s/it]   2026-06-27 23:53:34 CRITICAL: - - eats MRR:0.123, H10:0.312, H5:0.190, H1:0.032 
+Evaluating Relations:  18%|█▊        | 7/39 [09:58<51:48, 97.15s/it]2026-06-27 23:54:08 CRITICAL: - - visitsFlowersOf MRR:0.080, H10:0.169, H5:0.101, H1:0.026 
+Evaluating Relations:  21%|██        | 8/39 [10:32<40:02, 77.50s/it]2026-06-27 23:54:10 CRITICAL: - - endoparasiteOf MRR:0.149, H10:0.278, H5:0.190, H1:0.088 
+Evaluating Relations:  23%|██▎       | 9/39 [10:35<27:16, 54.55s/it]2026-06-27 23:54:39 CRITICAL: - - parasiteOf MRR:0.122, H10:0.270, H5:0.168, H1:0.043 
+Evaluating Relations:  26%|██▌       | 10/39 [11:03<22:28, 46.51s/it]2026-06-27 23:55:00 CRITICAL: - - pollinates MRR:0.096, H10:0.222, H5:0.124, H1:0.030 
+Evaluating Relations:  28%|██▊       | 11/39 [11:24<18:06, 38.82s/it]2026-06-27 23:55:22 CRITICAL: - - pathogenOf MRR:0.263, H10:0.529, H5:0.426, H1:0.126 
+Evaluating Relations:  31%|███       | 12/39 [11:46<15:10, 33.72s/it]2026-06-27 23:55:23 CRITICAL: - - symbiontOf MRR:0.298, H10:0.576, H5:0.439, H1:0.164 
+Evaluating Relations:  33%|███▎      | 13/39 [11:47<10:18, 23.78s/it]2026-06-27 23:55:24 CRITICAL: - - hasVector MRR:0.292, H10:0.514, H5:0.415, H1:0.179 
+Evaluating Relations:  36%|███▌      | 14/39 [11:48<07:06, 17.08s/it]2026-06-27 23:55:25 CRITICAL: - - coOccursWith MRR:0.605, H10:0.730, H5:0.650, H1:0.555 
+Evaluating Relations:  38%|███▊      | 15/39 [11:49<04:50, 12.12s/it]2026-06-27 23:55:34 CRITICAL: - - visits MRR:0.101, H10:0.212, H5:0.137, H1:0.041 
+Evaluating Relations:  41%|████      | 16/39 [11:58<04:18, 11.22s/it]2026-06-27 23:55:35 CRITICAL: - - hasDispersalVector MRR:0.138, H10:0.307, H5:0.206, H1:0.054 
+Evaluating Relations:  44%|████▎     | 17/39 [11:59<03:00,  8.21s/it]2026-06-27 23:55:39 CRITICAL: - - mutualistOf MRR:0.086, H10:0.192, H5:0.125, H1:0.028 
+Evaluating Relations:  46%|████▌     | 18/39 [12:03<02:24,  6.89s/it]2026-06-27 23:55:40 CRITICAL: - - ectoparasiteOf MRR:0.144, H10:0.317, H5:0.240, H1:0.038 
+Evaluating Relations:  49%|████▊     | 19/39 [12:05<01:46,  5.30s/it]2026-06-27 23:55:41 CRITICAL: - - parasitoidOf MRR:0.113, H10:0.263, H5:0.146, H1:0.046 
+Evaluating Relations:  51%|█████▏    | 20/39 [12:06<01:16,  4.02s/it]2026-06-27 23:55:42 CRITICAL: - - endoparasitoidOf MRR:0.059, H10:0.110, H5:0.066, H1:0.033 
+Evaluating Relations:  54%|█████▍    | 21/39 [12:06<00:52,  2.90s/it]2026-06-27 23:55:42 CRITICAL: - - coRoostsWith MRR:0.245, H10:0.481, H5:0.346, H1:0.128 
+Evaluating Relations:  56%|█████▋    | 22/39 [12:06<00:36,  2.12s/it]2026-06-27 23:55:42 CRITICAL: - - hasRoost MRR:0.118, H10:0.297, H5:0.219, H1:0.031 
+Evaluating Relations:  59%|█████▉    | 23/39 [12:06<00:24,  1.54s/it]2026-06-27 23:55:45 CRITICAL: - - allelopathOf MRR:0.104, H10:0.235, H5:0.144, H1:0.038 
+Evaluating Relations:  62%|██████▏   | 24/39 [12:09<00:26,  1.78s/it]2026-06-27 23:55:45 CRITICAL: - - epiphyteOf MRR:0.793, H10:0.965, H5:0.913, H1:0.694 
+Evaluating Relations:  64%|██████▍   | 25/39 [12:09<00:18,  1.33s/it]2026-06-27 23:55:45 CRITICAL: - - commensalistOf MRR:0.268, H10:0.625, H5:0.250, H1:0.167 
+2026-06-27 23:55:46 CRITICAL: - - ecologicallyRelatedTo MRR:0.226, H10:0.452, H5:0.324, H1:0.117 
+Evaluating Relations:  69%|██████▉   | 27/39 [12:10<00:11,  1.03it/s]2026-06-27 23:55:46 CRITICAL: - - livesOn MRR:0.116, H10:0.135, H5:0.135, H1:0.081 
+2026-06-27 23:55:46 CRITICAL: - - createsHabitatFor MRR:0.508, H10:0.652, H5:0.565, H1:0.435 
+Evaluating Relations:  74%|███████▍  | 29/39 [12:10<00:06,  1.65it/s]2026-06-27 23:55:46 CRITICAL: - - livesNear MRR:0.062, H10:0.000, H5:0.000, H1:0.000 
+2026-06-27 23:55:46 CRITICAL: - - providesNutrientsFor MRR:0.177, H10:0.273, H5:0.273, H1:0.091 
+2026-06-27 23:55:46 CRITICAL: - - livesInsideOf MRR:0.087, H10:0.167, H5:0.083, H1:0.042 
+2026-06-27 23:55:46 CRITICAL: - - kills MRR:0.656, H10:0.882, H5:0.794, H1:0.559 
+Evaluating Relations:  85%|████████▍ | 33/39 [12:10<00:01,  3.30it/s]2026-06-27 23:55:46 CRITICAL: - - laysEggsOn MRR:0.029, H10:0.000, H5:0.000, H1:0.000 
+2026-06-27 23:55:46 CRITICAL: - - ectoParasitoid MRR:nan, H10:nan, H5:nan, H1:nan 
+2026-06-27 23:55:46 CRITICAL: - - kleptoparasiteOf MRR:nan, H10:nan, H5:nan, H1:nan 
+2026-06-27 23:55:46 CRITICAL: - - hyperparasiteOf MRR:0.536, H10:0.500, H5:0.500, H1:0.500 
+2026-06-27 23:55:46 CRITICAL: - - guestOf MRR:0.077, H10:0.000, H5:0.000, H1:0.000 
+2026-06-27 23:55:46 CRITICAL: - - livesUnder MRR:nan, H10:nan, H5:nan, H1:nan 
+Evaluating Relations: 100%|██████████| 39/39 [12:10<00:00, 18.74s/it]
+2026-06-27 23:55:46 CRITICAL: - - Overall HITS10: 0.292
+2026-06-27 23:55:46 CRITICAL: - - Overall HITS5:  0.195
+2026-06-27 23:55:46 CRITICAL: - - Overall HITS1:  0.056
+2026-06-27 23:55:46 CRITICAL: - - Overall MRR:    0.135
+2026-06-27 23:55:46 CRITICAL: - FINAL DEV RESULTS - HITS@10: 0.292, MRR: 0.056

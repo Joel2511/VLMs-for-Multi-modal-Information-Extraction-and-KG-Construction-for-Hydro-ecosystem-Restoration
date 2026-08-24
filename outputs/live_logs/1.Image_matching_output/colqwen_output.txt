@@ -1,0 +1,279 @@
+--- CHECKING GPU ALLOCATION ---
+Wed Aug 19 12:59:53 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.105.08             Driver Version: 580.105.08     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla P100-PCIE-16GB           On  |   00000000:18:00.0 Off |                    0 |
+| N/A   36C    P0             25W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  Tesla P100-PCIE-16GB           On  |   00000000:3B:00.0 Off |                    0 |
+| N/A   38C    P0             26W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   2  Tesla P100-PCIE-16GB           On  |   00000000:86:00.0 Off |                    0 |
+| N/A   38C    P0             27W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   3  Tesla P100-PCIE-16GB           On  |   00000000:AF:00.0 Off |                    0 |
+| N/A   38C    P0             27W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Starting ColQwen extraction .
+--- Loading ColQwen Model [Mode: HYBRID] ---
+Running on device: CUDA
+Loading weights:   0%|          | 0/731 [00:00<?, ?it/s]Loading weights:   0%|          | 1/731 [00:00<11:32,  1.05it/s]Loading weights:   1%|          | 6/731 [00:01<01:48,  6.67it/s]Loading weights:   2%|▏         | 18/731 [00:01<00:33, 21.11it/s]Loading weights:   4%|▍         | 29/731 [00:01<00:21, 31.97it/s]Loading weights:   5%|▍         | 35/731 [00:01<00:20, 33.67it/s]Loading weights:   6%|▌         | 41/731 [00:01<00:18, 36.32it/s]Loading weights:   7%|▋         | 53/731 [00:01<00:14, 47.31it/s]Loading weights:   8%|▊         | 59/731 [00:02<00:14, 46.99it/s]Loading weights:   9%|▉         | 66/731 [00:02<00:15, 43.32it/s]Loading weights:  11%|█         | 78/731 [00:02<00:11, 54.65it/s]Loading weights:  12%|█▏        | 89/731 [00:02<00:10, 60.82it/s]Loading weights:  13%|█▎        | 96/731 [00:02<00:11, 57.55it/s]Loading weights:  14%|█▍        | 103/731 [00:02<00:13, 47.51it/s]Loading weights:  16%|█▌        | 114/731 [00:03<00:11, 53.69it/s]Loading weights:  17%|█▋        | 125/731 [00:03<00:10, 58.98it/s]Loading weights:  18%|█▊        | 132/731 [00:03<00:10, 56.09it/s]Loading weights:  19%|█▉        | 138/731 [00:03<00:10, 54.15it/s]Loading weights:  20%|██        | 149/731 [00:03<00:09, 60.17it/s]Loading weights:  21%|██▏       | 156/731 [00:03<00:09, 57.54it/s]Loading weights:  22%|██▏       | 162/731 [00:03<00:10, 53.46it/s]Loading weights:  24%|██▎       | 173/731 [00:04<00:09, 59.39it/s]Loading weights:  24%|██▍       | 179/731 [00:04<00:10, 54.87it/s]Loading weights:  25%|██▌       | 186/731 [00:04<00:10, 53.21it/s]Loading weights:  27%|██▋       | 197/731 [00:04<00:08, 59.40it/s]Loading weights:  28%|██▊       | 203/731 [00:04<00:09, 55.09it/s]Loading weights:  29%|██▊       | 210/731 [00:04<00:09, 53.06it/s]Loading weights:  30%|███       | 221/731 [00:04<00:09, 52.63it/s]Loading weights:  32%|███▏      | 233/731 [00:05<00:09, 52.63it/s]Loading weights:  34%|███▎      | 245/731 [00:05<00:08, 58.96it/s]Loading weights:  34%|███▍      | 251/731 [00:05<00:08, 54.22it/s]Loading weights:  35%|███▌      | 258/731 [00:05<00:08, 52.63it/s]Loading weights:  37%|███▋      | 269/731 [00:05<00:07, 58.63it/s]Loading weights:  38%|███▊      | 275/731 [00:05<00:08, 54.70it/s]Loading weights:  39%|███▊      | 282/731 [00:06<00:08, 52.91it/s]Loading weights:  40%|████      | 293/731 [00:06<00:07, 59.00it/s]Loading weights:  41%|████      | 299/731 [00:06<00:08, 53.77it/s]Loading weights:  42%|████▏     | 306/731 [00:06<00:08, 52.61it/s]Loading weights:  43%|████▎     | 317/731 [00:06<00:08, 51.48it/s]Loading weights:  45%|████▌     | 329/731 [00:06<00:07, 52.89it/s]Loading weights:  47%|████▋     | 344/731 [00:07<00:05, 68.73it/s]Loading weights:  49%|████▉     | 358/731 [00:07<00:04, 79.08it/s]Loading weights:  51%|█████     | 372/731 [00:07<00:04, 88.49it/s]Loading weights:  53%|█████▎    | 390/731 [00:07<00:03, 103.25it/s]Loading weights:  56%|█████▌    | 406/731 [00:07<00:02, 108.41it/s]Loading weights:  57%|█████▋    | 420/731 [00:07<00:02, 108.33it/s]Loading weights:  60%|█████▉    | 438/731 [00:07<00:02, 124.70it/s]Loading weights:  62%|██████▏   | 452/731 [00:07<00:02, 122.24it/s]Loading weights:  64%|██████▎   | 465/731 [00:08<00:02, 118.20it/s]Loading weights:  66%|██████▌   | 480/731 [00:08<00:02, 118.12it/s]Loading weights:  68%|██████▊   | 496/731 [00:08<00:01, 128.46it/s]Loading weights:  70%|███████   | 512/731 [00:08<00:01, 133.31it/s]Loading weights:  72%|███████▏  | 526/731 [00:08<00:01, 126.09it/s]Loading weights:  74%|███████▍  | 540/731 [00:08<00:01, 123.10it/s]Loading weights:  76%|███████▌  | 555/731 [00:08<00:01, 130.19it/s]Loading weights:  78%|███████▊  | 570/731 [00:08<00:01, 133.69it/s]Loading weights:  80%|███████▉  | 584/731 [00:08<00:01, 128.79it/s]Loading weights:  82%|████████▏ | 598/731 [00:09<00:01, 124.33it/s]Loading weights:  84%|████████▎ | 612/731 [00:09<00:00, 122.52it/s]Loading weights:  86%|████████▋ | 632/731 [00:09<00:00, 136.31it/s]Loading weights:  88%|████████▊ | 646/731 [00:09<00:00, 131.40it/s]Loading weights:  90%|█████████ | 660/731 [00:09<00:00, 126.33it/s]Loading weights:  93%|█████████▎| 678/731 [00:09<00:00, 139.88it/s]Loading weights:  95%|█████████▍| 693/731 [00:09<00:00, 137.47it/s]Loading weights:  97%|█████████▋| 707/731 [00:09<00:00, 122.36it/s]Loading weights:  99%|█████████▉| 726/731 [00:10<00:00, 108.38it/s]Loading weights: 100%|██████████| 731/731 [00:10<00:00, 71.97it/s] 
+Found 5 PDFs to process: ['Rapport-stage-M2-Floriane.pdf', 'reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7.pdf', 'fichier.pdf', 'dossier_unio_crassus_zorn_v4_19_11_2024.pdf', '2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire.pdf']
+
+========== STARTING PROCESSING FOR: Rapport-stage-M2-Floriane ==========
+--- Loading Data for Rapport-stage-M2-Floriane ---
+Encoding 189 block texts...
+Found 38 images to match.
+  [PATCH-CHECK] img_p34_2.png: raw_patch_grid=1x36x48, merge_size=2 -> 432 real visual tokens (cap=768), orig_size=(661, 503)
+Processed img_p34_2.png -> Best: page_34_block_1 (0.722)
+  [PATCH-CHECK] img_p13_2.png: raw_patch_grid=1x40x54, merge_size=2 -> 540 real visual tokens (cap=768), orig_size=(759, 551)
+Processed img_p13_2.png -> Best: page_13_block_5 (0.824)
+  [PATCH-CHECK] img_p50_1.png: raw_patch_grid=1x44x64, merge_size=2 -> 704 real visual tokens (cap=768), orig_size=(907, 625)
+Processed img_p50_1.png -> Best: page_55_block_3 (0.9)
+  [PATCH-CHECK] img_p46_1.png: raw_patch_grid=1x42x72, merge_size=2 -> 756 real visual tokens (cap=768), orig_size=(3100, 1821)
+Processed img_p46_1.png -> Best: page_46_block_1 (0.934)
+  [PATCH-CHECK] img_p11_1.png: raw_patch_grid=1x44x50, merge_size=2 -> 550 real visual tokens (cap=768), orig_size=(700, 616)
+Processed img_p11_1.png -> Best: page_3_block_4 (0.7142)
+  [PATCH-CHECK] img_p23_1.png: raw_patch_grid=1x34x64, merge_size=2 -> 544 real visual tokens (cap=768), orig_size=(882, 477)
+Processed img_p23_1.png -> Best: page_23_block_5 (0.9546)
+  [PATCH-CHECK] img_p43_1.png: raw_patch_grid=1x62x48, merge_size=2 -> 744 real visual tokens (cap=768), orig_size=(1792, 2272)
+Processed img_p43_1.png -> Best: page_43_block_1 (0.8217)
+  [PATCH-CHECK] img_p25_1.png: raw_patch_grid=1x36x82, merge_size=2 -> 738 real visual tokens (cap=768), orig_size=(2043, 929)
+Processed img_p25_1.png -> Best: page_25_block_1 (1.0)
+  [PATCH-CHECK] img_p15_1.png: raw_patch_grid=1x44x44, merge_size=2 -> 484 real visual tokens (cap=768), orig_size=(626, 604)
+Processed img_p15_1.png -> Best: page_15_block_4 (1.0)
+  [PATCH-CHECK] img_p51_1.png: raw_patch_grid=1x28x106, merge_size=2 -> 742 real visual tokens (cap=768), orig_size=(2380, 647)
+Processed img_p51_1.png -> Best: page_46_block_1 (0.4941)
+  [PATCH-CHECK] img_p50_2.png: raw_patch_grid=1x40x74, merge_size=2 -> 740 real visual tokens (cap=768), orig_size=(1149, 636)
+Processed img_p50_2.png -> Best: page_49_block_1 (0.602)
+  [PATCH-CHECK] img_p50_5.png: raw_patch_grid=1x48x62, merge_size=2 -> 744 real visual tokens (cap=768), orig_size=(902, 702)
+Processed img_p50_5.png -> Best: page_55_block_3 (0.8067)
+  [PATCH-CHECK] img_p8_1.png: raw_patch_grid=1x64x46, merge_size=2 -> 736 real visual tokens (cap=768), orig_size=(742, 1041)
+Processed img_p8_1.png -> Best: page_8_block_3 (1.0)
+  [PATCH-CHECK] img_p19_1.png: raw_patch_grid=1x40x74, merge_size=2 -> 740 real visual tokens (cap=768), orig_size=(2347, 1314)
+Processed img_p19_1.png -> Best: page_19_block_3 (0.9069)
+  [PATCH-CHECK] img_p24_1.png: raw_patch_grid=1x36x80, merge_size=2 -> 720 real visual tokens (cap=768), orig_size=(2111, 970)
+Processed img_p24_1.png -> Best: page_24_block_4 (1.0)
+  [PATCH-CHECK] img_p21_1.png: raw_patch_grid=1x42x72, merge_size=2 -> 756 real visual tokens (cap=768), orig_size=(2234, 1303)
+Processed img_p21_1.png -> Best: page_20_block_3 (0.98)
+  [PATCH-CHECK] img_p52_2.png: raw_patch_grid=1x34x34, merge_size=2 -> 289 real visual tokens (cap=768), orig_size=(470, 478)
+Processed img_p52_2.png -> Best: page_23_block_4 (0.42)
+  [PATCH-CHECK] img_p53_1.png: raw_patch_grid=1x102x30, merge_size=2 -> 765 real visual tokens (cap=768), orig_size=(845, 2875)
+Processed img_p53_1.png -> Best: page_52_block_1 (0.8972)
+  [PATCH-CHECK] img_p44_1.png: raw_patch_grid=1x92x32, merge_size=2 -> 736 real visual tokens (cap=768), orig_size=(1117, 3124)
+Processed img_p44_1.png -> Best: page_43_block_1 (0.6647)
+  [PATCH-CHECK] img_p47_1.png: raw_patch_grid=1x44x68, merge_size=2 -> 748 real visual tokens (cap=768), orig_size=(2383, 1562)
+Processed img_p47_1.png -> Best: page_46_block_1 (0.823)
+  [PATCH-CHECK] img_p43_2.png: raw_patch_grid=1x24x90, merge_size=2 -> 540 real visual tokens (cap=768), orig_size=(1256, 330)
+Processed img_p43_2.png -> Best: page_43_block_2 (1.0)
+  [PATCH-CHECK] img_p20_1.png: raw_patch_grid=1x38x78, merge_size=2 -> 741 real visual tokens (cap=768), orig_size=(2340, 1151)
+Processed img_p20_1.png -> Best: page_20_block_2 (1.0)
+  [PATCH-CHECK] img_p51_2.png: raw_patch_grid=1x28x106, merge_size=2 -> 742 real visual tokens (cap=768), orig_size=(2381, 647)
+Processed img_p51_2.png -> Best: page_46_block_1 (0.4524)
+  [PATCH-CHECK] img_p13_1.png: raw_patch_grid=1x36x50, merge_size=2 -> 450 real visual tokens (cap=768), orig_size=(709, 497)
+Processed img_p13_1.png -> Best: page_13_block_3 (1.0)
+  [PATCH-CHECK] img_p49_1.png: raw_patch_grid=1x82x36, merge_size=2 -> 738 real visual tokens (cap=768), orig_size=(1285, 2872)
+Processed img_p49_1.png -> Best: page_49_block_1 (0.5754)
+  [PATCH-CHECK] img_p45_1.png: raw_patch_grid=1x42x72, merge_size=2 -> 756 real visual tokens (cap=768), orig_size=(2281, 1349)
+Processed img_p45_1.png -> Best: page_46_block_1 (0.7704)
+  [PATCH-CHECK] img_p50_3.png: raw_patch_grid=1x44x64, merge_size=2 -> 704 real visual tokens (cap=768), orig_size=(906, 627)
+Processed img_p50_3.png -> Best: page_55_block_3 (0.9)
+  [PATCH-CHECK] img_p23_3.png: raw_patch_grid=1x34x56, merge_size=2 -> 476 real visual tokens (cap=768), orig_size=(783, 479)
+Processed img_p23_3.png -> Best: page_23_block_5 (0.7599)
+  [PATCH-CHECK] img_p23_2.png: raw_patch_grid=1x44x68, merge_size=2 -> 748 real visual tokens (cap=768), orig_size=(1293, 837)
+Processed img_p23_2.png -> Best: page_23_block_2 (1.0)
+  [PATCH-CHECK] img_p19_2.png: raw_patch_grid=1x42x70, merge_size=2 -> 735 real visual tokens (cap=768), orig_size=(2166, 1320)
+Processed img_p19_2.png -> Best: page_19_block_1 (0.8546)
+  [PATCH-CHECK] img_p48_1.png: raw_patch_grid=1x46x64, merge_size=2 -> 736 real visual tokens (cap=768), orig_size=(2311, 1636)
+Processed img_p48_1.png -> Best: page_48_block_1 (0.9913)
+  [PATCH-CHECK] img_p47_2.png: raw_patch_grid=1x40x74, merge_size=2 -> 740 real visual tokens (cap=768), orig_size=(2325, 1255)
+Processed img_p47_2.png -> Best: page_46_block_1 (0.9648)
+  [PATCH-CHECK] img_p34_1.png: raw_patch_grid=1x36x54, merge_size=2 -> 486 real visual tokens (cap=768), orig_size=(758, 510)
+Processed img_p34_1.png -> Best: page_34_block_1 (0.8275)
+  [PATCH-CHECK] img_p45_2.png: raw_patch_grid=1x40x74, merge_size=2 -> 740 real visual tokens (cap=768), orig_size=(2341, 1273)
+Processed img_p45_2.png -> Best: page_44_block_1 (0.854)
+  [PATCH-CHECK] img_p22_1.png: raw_patch_grid=1x40x74, merge_size=2 -> 740 real visual tokens (cap=768), orig_size=(2083, 1153)
+Processed img_p22_1.png -> Best: page_21_block_3 (0.98)
+  [PATCH-CHECK] img_p52_1.png: raw_patch_grid=1x84x34, merge_size=2 -> 714 real visual tokens (cap=768), orig_size=(1211, 2904)
+Processed img_p52_1.png -> Best: page_49_block_1 (0.94)
+  [PATCH-CHECK] img_p50_4.png: raw_patch_grid=1x44x68, merge_size=2 -> 748 real visual tokens (cap=768), orig_size=(1053, 696)
+Processed img_p50_4.png -> Best: page_55_block_2 (0.7706)
+  [PATCH-CHECK] img_p9_1.png: raw_patch_grid=1x50x60, merge_size=2 -> 750 real visual tokens (cap=768), orig_size=(1035, 868)
+Processed img_p9_1.png -> Best: page_9_block_4 (1.0)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/colqwen_results/Rapport-stage-M2-Floriane
+========== STARTING PROCESSING FOR: reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7 ==========
+--- Loading Data for reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7 ---
+Encoding 23 block texts...
+Found 5 images to match.
+  [PATCH-CHECK] img_p1_1.png: raw_patch_grid=1x52x56, merge_size=2 -> 728 real visual tokens (cap=768), orig_size=(1976, 1821)
+Processed img_p1_1.png -> Best: page_1_block_3 (1.0)
+  [PATCH-CHECK] img_p5_2.png: raw_patch_grid=1x34x86, merge_size=2 -> 731 real visual tokens (cap=768), orig_size=(1772, 711)
+Processed img_p5_2.png -> Best: page_1_block_3 (0.92)
+  [PATCH-CHECK] img_p5_1.png: raw_patch_grid=1x44x66, merge_size=2 -> 726 real visual tokens (cap=768), orig_size=(1770, 1189)
+Processed img_p5_1.png -> Best: page_3_block_1 (0.96)
+  [PATCH-CHECK] img_p3_1.png: raw_patch_grid=1x84x36, merge_size=2 -> 756 real visual tokens (cap=768), orig_size=(1086, 2514)
+Processed img_p3_1.png -> Best: page_1_block_3 (0.96)
+  [PATCH-CHECK] img_p4_1.png: raw_patch_grid=1x48x62, merge_size=2 -> 744 real visual tokens (cap=768), orig_size=(1556, 1224)
+Processed img_p4_1.png -> Best: page_8_block_1 (0.92)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/colqwen_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7
+========== STARTING PROCESSING FOR: fichier ==========
+--- Loading Data for fichier ---
+Encoding 60 block texts...
+Found 25 images to match.
+  [PATCH-CHECK] img_p13_2.png: raw_patch_grid=1x36x82, merge_size=2 -> 738 real visual tokens (cap=768), orig_size=(1763, 797)
+Processed img_p13_2.png -> Best: page_13_block_2 (1.0)
+  [PATCH-CHECK] img_p20_2.png: raw_patch_grid=1x36x82, merge_size=2 -> 738 real visual tokens (cap=768), orig_size=(1767, 788)
+Processed img_p20_2.png -> Best: page_17_block_3 (0.94)
+  [PATCH-CHECK] img_p14_1.png: raw_patch_grid=1x36x82, merge_size=2 -> 738 real visual tokens (cap=768), orig_size=(1767, 791)
+Processed img_p14_1.png -> Best: page_17_block_3 (0.94)
+  [PATCH-CHECK] img_p11_1.png: raw_patch_grid=1x46x66, merge_size=2 -> 759 real visual tokens (cap=768), orig_size=(1710, 1186)
+Processed img_p11_1.png -> Best: page_8_block_4 (0.8688)
+  [PATCH-CHECK] img_p23_1.png: raw_patch_grid=1x42x72, merge_size=2 -> 756 real visual tokens (cap=768), orig_size=(1727, 1011)
+Processed img_p23_1.png -> Best: page_17_block_3 (0.88)
+  [PATCH-CHECK] img_p14_2.png: raw_patch_grid=1x34x84, merge_size=2 -> 714 real visual tokens (cap=768), orig_size=(1768, 743)
+Processed img_p14_2.png -> Best: page_13_block_4 (0.9038)
+  [PATCH-CHECK] img_p15_1.png: raw_patch_grid=1x36x82, merge_size=2 -> 738 real visual tokens (cap=768), orig_size=(1770, 793)
+Processed img_p15_1.png -> Best: page_13_block_1 (0.96)
+  [PATCH-CHECK] img_p8_1.png: raw_patch_grid=1x42x72, merge_size=2 -> 756 real visual tokens (cap=768), orig_size=(1755, 1039)
+Processed img_p8_1.png -> Best: page_8_block_1 (1.0)
+  [PATCH-CHECK] img_p19_1.png: raw_patch_grid=1x36x82, merge_size=2 -> 738 real visual tokens (cap=768), orig_size=(1766, 787)
+Processed img_p19_1.png -> Best: page_17_block_3 (0.96)
+  [PATCH-CHECK] img_p10_1.png: raw_patch_grid=1x46x64, merge_size=2 -> 736 real visual tokens (cap=768), orig_size=(1503, 1084)
+Processed img_p10_1.png -> Best: page_10_block_1 (1.0)
+  [PATCH-CHECK] img_p17_1.png: raw_patch_grid=1x36x80, merge_size=2 -> 720 real visual tokens (cap=768), orig_size=(1738, 816)
+Processed img_p17_1.png -> Best: page_17_block_3 (1.0)
+  [PATCH-CHECK] img_p21_1.png: raw_patch_grid=1x36x80, merge_size=2 -> 720 real visual tokens (cap=768), orig_size=(1771, 816)
+Processed img_p21_1.png -> Best: page_21_block_1 (0.9959)
+  [PATCH-CHECK] img_p12_1.png: raw_patch_grid=1x40x74, merge_size=2 -> 740 real visual tokens (cap=768), orig_size=(1615, 883)
+Processed img_p12_1.png -> Best: page_20_block_2 (0.84)
+  [PATCH-CHECK] img_p7_1.png: raw_patch_grid=1x32x92, merge_size=2 -> 736 real visual tokens (cap=768), orig_size=(2398, 835)
+Processed img_p7_1.png -> Best: page_9_block_3 (0.8818)
+  [PATCH-CHECK] img_p17_2.png: raw_patch_grid=1x36x80, merge_size=2 -> 720 real visual tokens (cap=768), orig_size=(1739, 813)
+Processed img_p17_2.png -> Best: page_19_block_1 (0.96)
+  [PATCH-CHECK] img_p20_1.png: raw_patch_grid=1x36x82, merge_size=2 -> 738 real visual tokens (cap=768), orig_size=(1766, 784)
+Processed img_p20_1.png -> Best: page_20_block_2 (1.0)
+  [PATCH-CHECK] img_p1_1.png: raw_patch_grid=1x50x60, merge_size=2 -> 750 real visual tokens (cap=768), orig_size=(2346, 1933)
+Processed img_p1_1.png -> Best: page_1_block_1 (0.8972)
+  [PATCH-CHECK] img_p10_2.png: raw_patch_grid=1x44x68, merge_size=2 -> 748 real visual tokens (cap=768), orig_size=(1686, 1117)
+Processed img_p10_2.png -> Best: page_8_block_4 (0.8158)
+  [PATCH-CHECK] img_p16_1.png: raw_patch_grid=1x46x66, merge_size=2 -> 759 real visual tokens (cap=768), orig_size=(1702, 1177)
+Processed img_p16_1.png -> Best: page_20_block_2 (0.92)
+  [PATCH-CHECK] img_p13_1.png: raw_patch_grid=1x36x80, merge_size=2 -> 720 real visual tokens (cap=768), orig_size=(1764, 806)
+Processed img_p13_1.png -> Best: page_20_block_2 (0.86)
+  [PATCH-CHECK] img_p18_1.png: raw_patch_grid=1x36x80, merge_size=2 -> 720 real visual tokens (cap=768), orig_size=(1734, 814)
+Processed img_p18_1.png -> Best: page_20_block_2 (0.96)
+  [PATCH-CHECK] img_p19_2.png: raw_patch_grid=1x36x82, merge_size=2 -> 738 real visual tokens (cap=768), orig_size=(1734, 787)
+Processed img_p19_2.png -> Best: page_20_block_2 (0.98)
+  [PATCH-CHECK] img_p22_1.png: raw_patch_grid=1x36x80, merge_size=2 -> 720 real visual tokens (cap=768), orig_size=(1746, 810)
+Processed img_p22_1.png -> Best: page_22_block_2 (1.0)
+  [PATCH-CHECK] img_p1_2.png: raw_patch_grid=1x50x58, merge_size=2 -> 725 real visual tokens (cap=768), orig_size=(995, 851)
+Processed img_p1_2.png -> Best: page_7_block_1 (0.8652)
+  [PATCH-CHECK] img_p9_1.png: raw_patch_grid=1x42x72, merge_size=2 -> 756 real visual tokens (cap=768), orig_size=(1723, 996)
+Processed img_p9_1.png -> Best: page_8_block_4 (0.9386)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/colqwen_results/fichier
+========== STARTING PROCESSING FOR: dossier_unio_crassus_zorn_v4_19_11_2024 ==========
+--- Loading Data for dossier_unio_crassus_zorn_v4_19_11_2024 ---
+Encoding 70 block texts...
+Found 19 images to match.
+  [PATCH-CHECK] img_p14_1.png: raw_patch_grid=1x46x64, merge_size=2 -> 736 real visual tokens (cap=768), orig_size=(1533, 1117)
+Processed img_p14_1.png -> Best: page_16_block_2 (0.96)
+  [PATCH-CHECK] img_p16_1.png: raw_patch_grid=1x46x64, merge_size=2 -> 736 real visual tokens (cap=768), orig_size=(1494, 1089)
+Processed img_p16_1.png -> Best: page_12_block_4 (0.8861)
+  [PATCH-CHECK] img_p1_1.png: raw_patch_grid=1x44x66, merge_size=2 -> 726 real visual tokens (cap=768), orig_size=(2004, 1371)
+Processed img_p1_1.png -> Best: page_6_block_1 (0.9)
+  [PATCH-CHECK] img_p21_1.png: raw_patch_grid=1x40x72, merge_size=2 -> 720 real visual tokens (cap=768), orig_size=(1948, 1096)
+Processed img_p21_1.png -> Best: page_21_block_2 (1.0)
+  [PATCH-CHECK] img_p13_1.png: raw_patch_grid=1x38x80, merge_size=2 -> 760 real visual tokens (cap=768), orig_size=(2032, 975)
+Processed img_p13_1.png -> Best: page_4_block_5 (0.82)
+  [PATCH-CHECK] img_p15_1.png: raw_patch_grid=1x68x44, merge_size=2 -> 748 real visual tokens (cap=768), orig_size=(2068, 3113)
+Processed img_p15_1.png -> Best: page_12_block_4 (0.8948)
+  [PATCH-CHECK] img_p18_1.png: raw_patch_grid=1x44x68, merge_size=2 -> 748 real visual tokens (cap=768), orig_size=(3025, 1996)
+Processed img_p18_1.png -> Best: page_29_block_5 (0.7761)
+  [PATCH-CHECK] img_p24_1.png: raw_patch_grid=1x66x46, merge_size=2 -> 759 real visual tokens (cap=768), orig_size=(2072, 2947)
+Processed img_p24_1.png -> Best: page_23_block_2 (0.9014)
+  [PATCH-CHECK] img_p20_1.png: raw_patch_grid=1x66x44, merge_size=2 -> 726 real visual tokens (cap=768), orig_size=(1693, 2503)
+Processed img_p20_1.png -> Best: page_20_block_1 (0.9077)
+  [PATCH-CHECK] img_p26_1.png: raw_patch_grid=1x44x68, merge_size=2 -> 748 real visual tokens (cap=768), orig_size=(1952, 1291)
+Processed img_p26_1.png -> Best: page_29_block_4 (0.94)
+  [PATCH-CHECK] img_p28_1.png: raw_patch_grid=1x48x62, merge_size=2 -> 744 real visual tokens (cap=768), orig_size=(1291, 1029)
+Processed img_p28_1.png -> Best: page_4_block_1 (0.52)
+  [PATCH-CHECK] img_p25_1.png: raw_patch_grid=1x38x78, merge_size=2 -> 741 real visual tokens (cap=768), orig_size=(1960, 942)
+Processed img_p25_1.png -> Best: page_4_block_8 (0.58)
+  [PATCH-CHECK] img_p5_1.png: raw_patch_grid=1x46x66, merge_size=2 -> 759 real visual tokens (cap=768), orig_size=(1949, 1346)
+Processed img_p5_1.png -> Best: page_5_block_3 (0.9705)
+  [PATCH-CHECK] img_p10_1.png: raw_patch_grid=1x62x48, merge_size=2 -> 744 real visual tokens (cap=768), orig_size=(2059, 2662)
+Processed img_p10_1.png -> Best: page_4_block_1 (0.7234)
+  [PATCH-CHECK] img_p9_1.png: raw_patch_grid=1x64x46, merge_size=2 -> 736 real visual tokens (cap=768), orig_size=(2059, 2917)
+Processed img_p9_1.png -> Best: page_4_block_1 (0.9)
+  [PATCH-CHECK] img_p13_2.png: raw_patch_grid=1x42x70, merge_size=2 -> 735 real visual tokens (cap=768), orig_size=(1954, 1193)
+Processed img_p13_2.png -> Best: page_13_block_2 (1.0)
+  [PATCH-CHECK] img_p6_1.png: raw_patch_grid=1x46x64, merge_size=2 -> 736 real visual tokens (cap=768), orig_size=(1952, 1406)
+Processed img_p6_1.png -> Best: page_6_block_1 (0.9662)
+  [PATCH-CHECK] img_p17_1.png: raw_patch_grid=1x38x78, merge_size=2 -> 741 real visual tokens (cap=768), orig_size=(1687, 824)
+Processed img_p17_1.png -> Best: page_17_block_1 (1.0)
+  [PATCH-CHECK] img_p8_1.png: raw_patch_grid=1x66x46, merge_size=2 -> 759 real visual tokens (cap=768), orig_size=(2063, 2935)
+Processed img_p8_1.png -> Best: page_7_block_1 (0.98)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/colqwen_results/dossier_unio_crassus_zorn_v4_19_11_2024
+========== STARTING PROCESSING FOR: 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire ==========
+--- Loading Data for 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire ---
+Encoding 184 block texts...
+Found 18 images to match.
+  [PATCH-CHECK] img_p16_1.png: raw_patch_grid=1x54x54, merge_size=2 -> 729 real visual tokens (cap=768), orig_size=(2082, 2074)
+Processed img_p16_1.png -> Best: page_15_block_1 (0.98)
+  [PATCH-CHECK] img_p1_1.png: raw_patch_grid=1x48x62, merge_size=2 -> 744 real visual tokens (cap=768), orig_size=(2480, 1932)
+Processed img_p1_1.png -> Best: page_6_block_4 (0.6785)
+  [PATCH-CHECK] img_p21_1.png: raw_patch_grid=1x38x78, merge_size=2 -> 741 real visual tokens (cap=768), orig_size=(1933, 974)
+Processed img_p21_1.png -> Best: page_21_block_1 (1.0)
+  [PATCH-CHECK] img_p4_2.png: raw_patch_grid=1x38x78, merge_size=2 -> 741 real visual tokens (cap=768), orig_size=(1702, 837)
+Processed img_p4_2.png -> Best: page_4_block_3 (1.0)
+  [PATCH-CHECK] img_p12_1.png: raw_patch_grid=1x40x74, merge_size=2 -> 740 real visual tokens (cap=768), orig_size=(2097, 1170)
+Processed img_p12_1.png -> Best: page_12_block_1 (1.0)
+  [PATCH-CHECK] img_p22_1.png: raw_patch_grid=1x34x86, merge_size=2 -> 731 real visual tokens (cap=768), orig_size=(1666, 691)
+Processed img_p22_1.png -> Best: page_22_block_1 (1.0)
+  [PATCH-CHECK] img_p15_1.png: raw_patch_grid=1x46x64, merge_size=2 -> 736 real visual tokens (cap=768), orig_size=(2095, 1518)
+Processed img_p15_1.png -> Best: page_15_block_1 (0.8197)
+  [PATCH-CHECK] img_p28_1.png: raw_patch_grid=1x36x82, merge_size=2 -> 738 real visual tokens (cap=768), orig_size=(2032, 927)
+Processed img_p28_1.png -> Best: page_21_block_1 (0.694)
+  [PATCH-CHECK] img_p10_1.png: raw_patch_grid=1x32x92, merge_size=2 -> 736 real visual tokens (cap=768), orig_size=(2105, 743)
+Processed img_p10_1.png -> Best: page_3_block_2 (0.8003)
+  [PATCH-CHECK] img_p9_1.png: raw_patch_grid=1x46x64, merge_size=2 -> 736 real visual tokens (cap=768), orig_size=(1773, 1305)
+Processed img_p9_1.png -> Best: page_6_block_4 (0.94)
+  [PATCH-CHECK] img_p12_2.png: raw_patch_grid=1x44x68, merge_size=2 -> 748 real visual tokens (cap=768), orig_size=(1736, 1098)
+Processed img_p12_2.png -> Best: page_7_block_2 (0.9)
+  [PATCH-CHECK] img_p40_1.png: raw_patch_grid=1x38x76, merge_size=2 -> 722 real visual tokens (cap=768), orig_size=(2047, 1034)
+Processed img_p40_1.png -> Best: page_39_block_2 (0.5295)
+  [PATCH-CHECK] img_p6_1.png: raw_patch_grid=1x38x78, merge_size=2 -> 741 real visual tokens (cap=768), orig_size=(1809, 887)
+Processed img_p6_1.png -> Best: page_6_block_1 (1.0)
+  [PATCH-CHECK] img_p17_1.png: raw_patch_grid=1x64x46, merge_size=2 -> 736 real visual tokens (cap=768), orig_size=(1922, 2674)
+Processed img_p17_1.png -> Best: page_16_block_1 (0.98)
+  [PATCH-CHECK] img_p23_1.png: raw_patch_grid=1x56x52, merge_size=2 -> 728 real visual tokens (cap=768), orig_size=(1957, 2128)
+Processed img_p23_1.png -> Best: page_23_block_2 (1.0)
+  [PATCH-CHECK] img_p31_1.png: raw_patch_grid=1x36x84, merge_size=2 -> 756 real visual tokens (cap=768), orig_size=(2062, 896)
+Processed img_p31_1.png -> Best: page_35_block_2 (0.7945)
+  [PATCH-CHECK] img_p4_1.png: raw_patch_grid=1x46x64, merge_size=2 -> 736 real visual tokens (cap=768), orig_size=(1701, 1269)
+Processed img_p4_1.png -> Best: page_4_block_5 (1.0)
+  [PATCH-CHECK] img_p21_2.png: raw_patch_grid=1x34x88, merge_size=2 -> 748 real visual tokens (cap=768), orig_size=(1719, 660)
+Processed img_p21_2.png -> Best: page_21_block_1 (1.0)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/colqwen_results/2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire

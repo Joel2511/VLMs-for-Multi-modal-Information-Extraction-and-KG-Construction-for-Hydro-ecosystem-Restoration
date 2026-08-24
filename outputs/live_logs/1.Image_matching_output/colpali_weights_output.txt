@@ -1,0 +1,175 @@
+--- CHECKING GPU ALLOCATION ---
+Wed Aug 19 15:33:16 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.105.08             Driver Version: 580.105.08     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Quadro RTX 6000                On  |   00000000:3B:00.0 Off |                    0 |
+| N/A   29C    P8             21W /  250W |       0MiB /  23040MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  Quadro RTX 6000                On  |   00000000:AF:00.0 Off |                    0 |
+| N/A   47C    P0            185W /  250W |   18057MiB /  23040MiB |    100%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   2  Quadro RTX 6000                On  |   00000000:D8:00.0 Off |                    0 |
+| N/A   38C    P0             57W /  250W |   17091MiB /  23040MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    1   N/A  N/A         1472077      C   python                                18052MiB |
+|    2   N/A  N/A         1472067      C   python                                17086MiB |
++-----------------------------------------------------------------------------------------+
+Starting ColiPali extraction with weights...
+--- Loading ColPali Model [Mode: HYBRID] ---
+Running on device: CUDA
+`config.hidden_act` is ignored, you should use `config.hidden_activation` instead.
+Gemma's activation function will be set to `gelu_pytorch_tanh`. Please, use
+`config.hidden_activation` if you want to override this behaviour.
+See https://github.com/huggingface/transformers/pull/29402 for more details.
+Loading checkpoint shards:   0%|          | 0/3 [00:00<?, ?it/s]Loading checkpoint shards:  33%|███▎      | 1/3 [00:27<00:55, 27.67s/it]Loading checkpoint shards:  67%|██████▋   | 2/3 [00:54<00:27, 27.37s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:04<00:00, 19.29s/it]Loading checkpoint shards: 100%|██████████| 3/3 [01:04<00:00, 21.50s/it]
+Found 5 PDFs to process: ['Rapport-stage-M2-Floriane.pdf', 'reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7.pdf', 'fichier.pdf', 'dossier_unio_crassus_zorn_v4_19_11_2024.pdf', '2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire.pdf']
+
+========== STARTING PROCESSING FOR: Rapport-stage-M2-Floriane ==========
+--- Loading Data for Rapport-stage-M2-Floriane ---
+Encoding 189 block texts...
+Found 38 images to match.
+Processed img_p34_2.png -> Best: page_38_block_3 (0.92)
+Processed img_p13_2.png -> Best: page_13_block_4 (1.0)
+Processed img_p50_1.png -> Best: page_55_block_2 (0.9)
+Processed img_p46_1.png -> Best: page_46_block_1 (0.7785)
+Processed img_p11_1.png -> Best: page_11_block_2 (0.6859)
+Processed img_p23_1.png -> Best: page_23_block_5 (0.7715)
+Processed img_p43_1.png -> Best: page_43_block_2 (0.9319)
+Processed img_p25_1.png -> Best: page_25_block_1 (1.0)
+Processed img_p15_1.png -> Best: page_15_block_4 (1.0)
+Processed img_p51_1.png -> Best: page_51_block_1 (0.8289)
+Processed img_p50_2.png -> Best: page_49_block_1 (0.949)
+Processed img_p50_5.png -> Best: page_55_block_2 (0.9)
+Processed img_p8_1.png -> Best: page_8_block_3 (1.0)
+Processed img_p19_1.png -> Best: page_19_block_3 (0.8759)
+Processed img_p24_1.png -> Best: page_24_block_4 (1.0)
+Processed img_p21_1.png -> Best: page_20_block_3 (0.98)
+Processed img_p52_2.png -> Best: page_48_block_1 (0.587)
+Processed img_p53_1.png -> Best: page_52_block_1 (0.9311)
+Processed img_p44_1.png -> Best: page_43_block_1 (0.98)
+Processed img_p47_1.png -> Best: page_46_block_1 (0.6407)
+Processed img_p43_2.png -> Best: page_43_block_2 (1.0)
+Processed img_p20_1.png -> Best: page_21_block_1 (0.98)
+Processed img_p51_2.png -> Best: page_51_block_1 (0.8365)
+Processed img_p13_1.png -> Best: page_16_block_5 (0.94)
+Processed img_p49_1.png -> Best: page_49_block_1 (0.9826)
+Processed img_p45_1.png -> Best: page_44_block_1 (0.5738)
+Processed img_p50_3.png -> Best: page_55_block_2 (0.9)
+Processed img_p23_3.png -> Best: page_23_block_5 (0.7526)
+Processed img_p23_2.png -> Best: page_23_block_2 (1.0)
+Processed img_p19_2.png -> Best: page_20_block_3 (0.98)
+Processed img_p48_1.png -> Best: page_48_block_1 (0.801)
+Processed img_p47_2.png -> Best: page_46_block_1 (0.6961)
+Processed img_p34_1.png -> Best: page_38_block_3 (0.92)
+Processed img_p45_2.png -> Best: page_44_block_1 (0.612)
+Processed img_p22_1.png -> Best: page_21_block_3 (0.8859)
+Processed img_p52_1.png -> Best: page_55_block_2 (0.8784)
+Processed img_p50_4.png -> Best: page_49_block_1 (0.86)
+Processed img_p9_1.png -> Best: page_9_block_4 (1.0)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/colpali_results/Rapport-stage-M2-Floriane
+========== STARTING PROCESSING FOR: reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7 ==========
+--- Loading Data for reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7 ---
+Encoding 23 block texts...
+Found 5 images to match.
+Processed img_p1_1.png -> Best: page_1_block_2 (1.0)
+Processed img_p5_2.png -> Best: page_6_block_5 (0.9362)
+Processed img_p5_1.png -> Best: page_3_block_1 (0.96)
+Processed img_p3_1.png -> Best: page_7_block_2 (0.92)
+Processed img_p4_1.png -> Best: page_8_block_1 (0.92)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/colpali_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7
+========== STARTING PROCESSING FOR: fichier ==========
+--- Loading Data for fichier ---
+Encoding 60 block texts...
+Found 25 images to match.
+Processed img_p13_2.png -> Best: page_9_block_2 (0.92)
+Processed img_p20_2.png -> Best: page_13_block_4 (0.8241)
+Processed img_p14_1.png -> Best: page_13_block_4 (0.98)
+Processed img_p11_1.png -> Best: page_9_block_2 (0.96)
+Processed img_p23_1.png -> Best: page_14_block_2 (0.8121)
+Processed img_p14_2.png -> Best: page_13_block_4 (0.8753)
+Processed img_p15_1.png -> Best: page_18_block_2 (0.94)
+Processed img_p8_1.png -> Best: page_9_block_2 (0.98)
+Processed img_p19_1.png -> Best: page_13_block_4 (0.88)
+Processed img_p10_1.png -> Best: page_9_block_2 (0.98)
+Processed img_p17_1.png -> Best: page_12_block_5 (0.9)
+Processed img_p21_1.png -> Best: page_22_block_2 (0.98)
+Processed img_p12_1.png -> Best: page_9_block_2 (0.94)
+Processed img_p7_1.png -> Best: page_9_block_3 (0.96)
+Processed img_p17_2.png -> Best: page_16_block_3 (0.98)
+Processed img_p20_1.png -> Best: page_20_block_2 (1.0)
+Processed img_p1_1.png -> Best: page_6_block_2 (0.9)
+Processed img_p10_2.png -> Best: page_9_block_2 (0.98)
+Processed img_p16_1.png -> Best: page_9_block_2 (0.86)
+Processed img_p13_1.png -> Best: page_9_block_2 (0.92)
+Processed img_p18_1.png -> Best: page_9_block_2 (0.82)
+Processed img_p19_2.png -> Best: page_16_block_3 (0.8763)
+Processed img_p22_1.png -> Best: page_22_block_2 (1.0)
+Processed img_p1_2.png -> Best: page_12_block_1 (0.78)
+Processed img_p9_1.png -> Best: page_9_block_2 (1.0)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/colpali_results/fichier
+========== STARTING PROCESSING FOR: dossier_unio_crassus_zorn_v4_19_11_2024 ==========
+--- Loading Data for dossier_unio_crassus_zorn_v4_19_11_2024 ---
+Encoding 70 block texts...
+Found 19 images to match.
+Processed img_p14_1.png -> Best: page_12_block_2 (0.8448)
+Processed img_p16_1.png -> Best: page_12_block_4 (0.795)
+Processed img_p1_1.png -> Best: page_6_block_1 (0.7119)
+Processed img_p21_1.png -> Best: page_21_block_2 (1.0)
+Processed img_p13_1.png -> Best: page_13_block_2 (0.9813)
+Processed img_p15_1.png -> Best: page_12_block_4 (0.8474)
+Processed img_p18_1.png -> Best: page_12_block_4 (0.8522)
+Processed img_p24_1.png -> Best: page_23_block_2 (0.98)
+Processed img_p20_1.png -> Best: page_12_block_4 (0.8341)
+Processed img_p26_1.png -> Best: page_29_block_4 (0.94)
+Processed img_p28_1.png -> Best: page_4_block_1 (0.52)
+Processed img_p25_1.png -> Best: page_29_block_4 (0.8674)
+Processed img_p5_1.png -> Best: page_5_block_3 (0.7634)
+Processed img_p10_1.png -> Best: page_13_block_1 (0.6772)
+Processed img_p9_1.png -> Best: page_13_block_2 (0.7276)
+Processed img_p13_2.png -> Best: page_13_block_2 (1.0)
+Processed img_p6_1.png -> Best: page_5_block_3 (0.69)
+Processed img_p17_1.png -> Best: page_17_block_1 (1.0)
+Processed img_p8_1.png -> Best: page_7_block_2 (0.98)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/colpali_results/dossier_unio_crassus_zorn_v4_19_11_2024
+========== STARTING PROCESSING FOR: 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire ==========
+--- Loading Data for 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire ---
+Encoding 184 block texts...
+Found 18 images to match.
+Processed img_p16_1.png -> Best: page_15_block_1 (0.98)
+Processed img_p1_1.png -> Best: page_6_block_4 (0.9)
+Processed img_p21_1.png -> Best: page_20_block_5 (0.9418)
+Processed img_p4_2.png -> Best: page_4_block_3 (1.0)
+Processed img_p12_1.png -> Best: page_7_block_2 (0.9)
+Processed img_p22_1.png -> Best: page_22_block_1 (1.0)
+Processed img_p15_1.png -> Best: page_11_block_2 (0.92)
+Processed img_p28_1.png -> Best: page_21_block_1 (0.8248)
+Processed img_p10_1.png -> Best: page_6_block_4 (0.92)
+Processed img_p9_1.png -> Best: page_6_block_4 (0.94)
+Processed img_p12_2.png -> Best: page_7_block_2 (0.9)
+Processed img_p40_1.png -> Best: page_39_block_1 (0.5833)
+Processed img_p6_1.png -> Best: page_6_block_1 (1.0)
+Processed img_p17_1.png -> Best: page_21_block_1 (0.92)
+Processed img_p23_1.png -> Best: page_23_block_2 (1.0)
+Processed img_p31_1.png -> Best: page_21_block_1 (0.572)
+Processed img_p4_1.png -> Best: page_4_block_5 (1.0)
+Processed img_p21_2.png -> Best: page_21_block_1 (1.0)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/colpali_results/2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire

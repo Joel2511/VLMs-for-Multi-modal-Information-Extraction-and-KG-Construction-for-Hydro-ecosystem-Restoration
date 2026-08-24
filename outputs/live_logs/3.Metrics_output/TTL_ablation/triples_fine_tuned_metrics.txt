@@ -1,0 +1,201 @@
+[METRICS] Scanning: /home2020/home/icube/janil/Rhine_proj/outputs/triples_fine_tuned
+[METRICS] Found 5 PDF folders: ['2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire', 'Rapport-stage-M2-Floriane', 'dossier_unio_crassus_zorn_v4_19_11_2024', 'fichier', 'reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7']
+
+[METRICS] Processing: 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire
+
+[METRICS] Processing: Rapport-stage-M2-Floriane
+
+[METRICS] Processing: dossier_unio_crassus_zorn_v4_19_11_2024
+
+[METRICS] Processing: fichier
+
+[METRICS] Processing: reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7
+
+[SAVED] JSON metrics: /home2020/home/icube/janil/Rhine_proj/outputs/triples_fine_tuned/kg_metrics_finetuned.json
+[SAVED] TXT report  : /home2020/home/icube/janil/Rhine_proj/outputs/triples_fine_tuned/kg_metrics_finetuned.txt
+======================================================================
+  KNOWLEDGE GRAPH ENRICHMENT METRICS — FINETUNED PIPELINE
+======================================================================
+
+────────────────────────────────────────────────────────────
+  PDF: 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire
+────────────────────────────────────────────────────────────
+  Triple Counts:
+    Text-only triples    : 1760
+    Image-only triples   : 187
+    Merged total triples : 1861
+
+  Entity Counts:
+    Text individuals     : 242
+    Image individuals    : 24
+    New from images      : 17  ← enrichment
+    Cross-modal nodes    : 7  ← fusion
+    Merged individuals   : 250
+
+  ── Metric 1: Schema Conformance Rate (SCR) ──
+    Conformant predicates : 318
+    Demoted predicates    : 59
+    SCR                   : 84.35%
+
+  ── Metric 2: Average Node Degree Shift (Δd̄) ──
+    Avg degree (text-only): 4.1018
+    Avg degree (merged)   : 4.1620
+    Δd̄                    : +0.0602  ← positive = enriched
+
+  ── Metric 3: Cross-Modal Link Density (CMLD) ──
+    Cross-modal edges     : 126
+    Total merged edges    : 1861
+    CMLD                  : 39.62%
+
+  ── Metric 4: Intrinsic Triple Precision (PT) ──
+    Sample size           : 50 triples
+    [MANUAL REVIEW REQUIRED — see precision_sample file]
+
+────────────────────────────────────────────────────────────
+  PDF: Rapport-stage-M2-Floriane
+────────────────────────────────────────────────────────────
+  Triple Counts:
+    Text-only triples    : 2366
+    Image-only triples   : 833
+    Merged total triples : 3009
+
+  Entity Counts:
+    Text individuals     : 277
+    Image individuals    : 91
+    New from images      : 67  ← enrichment
+    Cross-modal nodes    : 24  ← fusion
+    Merged individuals   : 328
+
+  ── Metric 1: Schema Conformance Rate (SCR) ──
+    Conformant predicates : 630
+    Demoted predicates    : 180
+    SCR                   : 77.78%
+
+  ── Metric 2: Average Node Degree Shift (Δd̄) ──
+    Avg degree (text-only): 5.0252
+    Avg degree (merged)   : 5.4149
+    Δd̄                    : +0.3897  ← positive = enriched
+
+  ── Metric 3: Cross-Modal Link Density (CMLD) ──
+    Cross-modal edges     : 348
+    Total merged edges    : 3009
+    CMLD                  : 55.24%
+
+  ── Metric 4: Intrinsic Triple Precision (PT) ──
+    Sample size           : 50 triples
+    [MANUAL REVIEW REQUIRED — see precision_sample file]
+
+────────────────────────────────────────────────────────────
+  PDF: dossier_unio_crassus_zorn_v4_19_11_2024
+────────────────────────────────────────────────────────────
+  Triple Counts:
+    Text-only triples    : 803
+    Image-only triples   : 361
+    Merged total triples : 1030
+
+  Entity Counts:
+    Text individuals     : 74
+    Image individuals    : 36
+    New from images      : 15  ← enrichment
+    Cross-modal nodes    : 21  ← fusion
+    Merged individuals   : 84
+
+  ── Metric 1: Schema Conformance Rate (SCR) ──
+    Conformant predicates : 244
+    Demoted predicates    : 26
+    SCR                   : 90.37%
+
+  ── Metric 2: Average Node Degree Shift (Δd̄) ──
+    Avg degree (text-only): 5.8000
+    Avg degree (merged)   : 6.0885
+    Δd̄                    : +0.2885  ← positive = enriched
+
+  ── Metric 3: Cross-Modal Link Density (CMLD) ──
+    Cross-modal edges     : 179
+    Total merged edges    : 1030
+    CMLD                  : 73.36%
+
+  ── Metric 4: Intrinsic Triple Precision (PT) ──
+    Sample size           : 50 triples
+    [MANUAL REVIEW REQUIRED — see precision_sample file]
+
+────────────────────────────────────────────────────────────
+  PDF: fichier
+────────────────────────────────────────────────────────────
+  Triple Counts:
+    Text-only triples    : 643
+    Image-only triples   : 463
+    Merged total triples : 973
+
+  Entity Counts:
+    Text individuals     : 61
+    Image individuals    : 34
+    New from images      : 11  ← enrichment
+    Cross-modal nodes    : 23  ← fusion
+    Merged individuals   : 69
+
+  ── Metric 1: Schema Conformance Rate (SCR) ──
+    Conformant predicates : 283
+    Demoted predicates    : 30
+    SCR                   : 90.42%
+
+  ── Metric 2: Average Node Degree Shift (Δd̄) ──
+    Avg degree (text-only): 5.2208
+    Avg degree (merged)   : 7.9070
+    Δd̄                    : +2.6862  ← positive = enriched
+
+  ── Metric 3: Cross-Modal Link Density (CMLD) ──
+    Cross-modal edges     : 221
+    Total merged edges    : 973
+    CMLD                  : 78.09%
+
+  ── Metric 4: Intrinsic Triple Precision (PT) ──
+    Sample size           : 50 triples
+    [MANUAL REVIEW REQUIRED — see precision_sample file]
+
+────────────────────────────────────────────────────────────
+  PDF: reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7
+────────────────────────────────────────────────────────────
+  Triple Counts:
+    Text-only triples    : 424
+    Image-only triples   : 182
+    Merged total triples : 549
+
+  Entity Counts:
+    Text individuals     : 48
+    Image individuals    : 23
+    New from images      : 14  ← enrichment
+    Cross-modal nodes    : 9  ← fusion
+    Merged individuals   : 61
+
+  ── Metric 1: Schema Conformance Rate (SCR) ──
+    Conformant predicates : 100
+    Demoted predicates    : 10
+    SCR                   : 90.91%
+
+  ── Metric 2: Average Node Degree Shift (Δd̄) ──
+    Avg degree (text-only): 4.1389
+    Avg degree (merged)   : 4.2529
+    Δd̄                    : +0.1140  ← positive = enriched
+
+  ── Metric 3: Cross-Modal Link Density (CMLD) ──
+    Cross-modal edges     : 66
+    Total merged edges    : 549
+    CMLD                  : 66.00%
+
+  ── Metric 4: Intrinsic Triple Precision (PT) ──
+    Sample size           : 50 triples
+    [MANUAL REVIEW REQUIRED — see precision_sample file]
+
+======================================================================
+  CORPUS AGGREGATES (5 PDFs)
+======================================================================
+  Total text triples          : 5996
+  Total image triples         : 2026
+  Total merged triples        : 7422
+  Total new entities (images) : 124
+  Avg SCR                     : 86.77%
+  Avg Δd̄                      : +0.7077
+  Avg CMLD                    : 62.46%
+======================================================================
+[SAVED] Precision sample: /home2020/home/icube/janil/Rhine_proj/outputs/triples_fine_tuned/precision_sample_finetuned.txt

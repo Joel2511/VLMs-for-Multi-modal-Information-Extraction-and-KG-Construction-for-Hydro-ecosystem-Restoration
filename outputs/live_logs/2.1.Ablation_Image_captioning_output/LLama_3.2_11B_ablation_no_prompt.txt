@@ -1,0 +1,138 @@
+--- Loading llama32vision-11b with baseline_noprompt retrieval context ---
+    Generator : llama32vision-11b
+    Retriever : baseline_noprompt
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:49<00:49, 49.95s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:10<00:00, 32.63s/it]Loading checkpoint shards: 100%|██████████| 2/2 [01:10<00:00, 35.22s/it]
+    Model size   : 5.9B parameters
+    Loaded at    : 21:01:44
+
+========== PROCESSING [dossier_unio_crassus_zorn_v4_19_11_2024] ==========
+    Images to caption: 19
+    [1/19] img_p14_1.png -> L'image montre un homme en train de plonger dans une rivière, tenant un grand récipient orange en fo... (30.2s)
+    [2/19] img_p16_1.png -> L'image présente une photo de la Zorn, un site de plongée sous-marine, où un individu de Mullette ép... (24.8s)
+    [3/19] img_p1_1.png -> L'image présente une rivière en forêt, avec un fond de l'eau claire et des reflets de la forêt sur l... (19.7s)
+    [4/19] img_p21_1.png -> The image presents a map of a rural area, featuring a road and fields, with a white rectangle highli... (41.4s)
+    [5/19] img_p13_1.png -> The image presents a map of the Moulle region in France and the Grand Est, accompanied by a key and ... (26.4s)
+    [6/19] img_p15_1.png -> The image presents a map of a road, accompanied by a key and a title in French. The map is titled "L... (32.5s)
+    [7/19] img_p18_1.png -> L'image présente une carte aérienne d'un territoire rural, avec des champs et des routes, et des lig... (27.6s)
+    [8/19] img_p24_1.png -> This image presents a comprehensive map of the Unio Crassus project, featuring a detailed aerial vie... (24.1s)
+    [9/19] img_p20_1.png -> The image presents a map of a river with a color-coded legend, titled "Evolution des habitats favora... (35.1s)
+    [10/19] img_p26_1.png -> L'image présente une rivière en milieu naturel, entourée de végétation et de buissons, avec des arbr... (100.9s)
+    [11/19] img_p28_1.png -> L'image présente une main ouverte, avec un objet de forme ovale et de couleur brune, posé sur la pau... (32.5s)
+    [12/19] img_p25_1.png -> L'image présente une carte de localisation de sites de transferts étudiés, en rouge, par rapport au ... (32.7s)
+    [13/19] img_p5_1.png -> L'image présente une carte de la zone d'étude, avec une zone rouge indiquant le site d'intérêt. La c... (44.7s)
+    [14/19] img_p10_1.png -> L'image présente une carte aérienne d'un territoire rural, avec des champs et des routes. La carte e... (100.3s)
+    [15/19] img_p9_1.png -> L'image présente une carte aérienne d'un projet de rénovation d'un parcours de route, avec des éléme... (62.9s)
+    [16/19] img_p13_2.png -> The image presents a map of a region in Germany, with a title in French that translates to "Figure 7... (34.3s)
+    [17/19] img_p6_1.png -> L'image présente une rivière en bordure de forêt, avec un ciel clair et des arbres verts qui se refl... (100.3s)
+    [18/19] img_p17_1.png -> Cette image est un graphique qui présente une répartition des effectifs par classe de taille. Le gra... (40.8s)
+    [19/19] img_p8_1.png -> L'image présente une carte aérienne d'un projet de secteur aval, avec une rivière bleue et des champ... (49.3s)
+========== COMPLETED [dossier_unio_crassus_zorn_v4_19_11_2024] in 00h 14m 24s ==========
+
+========== PROCESSING [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] ==========
+    Images to caption: 5
+    [1/5] img_p1_1.png -> This image presents a collection of six maps, arranged in two rows of three, showcasing the evolutio... (24.0s)
+    [2/5] img_p5_2.png -> L'image présente deux tableaux de paysages, l'un en peinture et l'autre en photographie, qui illustr... (38.2s)
+    [3/5] img_p5_1.png -> L'image présente une photographie en noir et blanc d'un bateau fluvial chargé de bois, sur un fleuve... (29.9s)
+    [4/5] img_p3_1.png -> The image presents a map of the Rhine River, specifically highlighting the section between Bâle and ... (34.1s)
+    [5/5] img_p4_1.png -> The image presents a detailed map of a river, accompanied by a key and a legend. The map is titled "... (23.0s)
+========== COMPLETED [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] in 00h 02m 30s ==========
+
+========== PROCESSING [Rapport-stage-M2-Floriane] ==========
+    Images to caption: 38
+    [1/38] img_p47_2.png -> L'image présente un graphique qui illustre les variations de l'amplitude thermique journalière et du... (49.6s)
+    [2/38] img_p53_1.png -> L'image présente une carte de la région de Niffer, en Alsace, avec des points multicolores et des te... (43.3s)
+    [3/38] img_p21_1.png -> Cette image est un graphique qui présente les variations de la température et du débit d'un fleuve e... (90.5s)
+    [4/38] img_p13_1.png -> L'image montre une photo d'un site de Blodelsheim, en France, qui a été endommagé par l'érosion. Le ... (23.0s)
+    [5/38] img_p23_2.png -> The image presents a pie chart with a title in French, accompanied by a legend that provides a key t... (32.1s)
+    [6/38] img_p50_4.png -> The image depicts a serene river scene, with the title "Barre Foulcuse a Fament du VR" at the top. T... (25.7s)
+    [7/38] img_p45_2.png -> Cette image est un graphique qui présente les différences de température entre deux stations de mesu... (38.8s)
+    [8/38] img_p50_2.png -> L'image présente une photo de la Vologne, un affluent de la Moselle, avec une description en françai... (18.5s)
+    [9/38] img_p46_1.png -> L'image présente un graphique qui illustre les variations de température et de débit d'eau dans le R... (51.5s)
+    [10/38] img_p22_1.png -> Cette image présente une graphique en ligne qui illustre le profil thermique du Village de la Réserv... (31.1s)
+    [11/38] img_p15_1.png -> L'image présente une photo de terrain, avec un objet central qui ressemble à un thermomètre, mais qu... (18.4s)
+    [12/38] img_p24_1.png -> Cette image est un graphique qui présente les abondances relatives des poissons retrouvés en grand e... (57.6s)
+    [13/38] img_p20_1.png -> Cette image est un graphique qui présente les variations de la température et de la débit du Rhin en... (65.6s)
+    [14/38] img_p52_2.png -> L'image présente une représentation graphique de la structure d'un cristal, avec des éléments de cou... (41.0s)
+    [15/38] img_p34_1.png -> L'image montre un ensemble de roches de diverses tailles et couleurs, avec des couleurs allant du bl... (35.1s)
+    [16/38] img_p19_1.png -> Cette image présente une graphique comparant les températures instantanées à Breisach et à Fessenhei... (39.3s)
+    [17/38] img_p43_2.png -> The image presents a simple, text-based graphic with three lines of French text and three correspond... (23.2s)
+    [18/38] img_p50_3.png -> This image depicts a serene river scene, with a tranquil body of water flowing through a lush landsc... (10.6s)
+    [19/38] img_p25_1.png -> L'image présente un graphique de barres qui illustre les abondances relatives des poissons retraçabl... (54.8s)
+    [20/38] img_p50_5.png -> This image depicts a serene river scene, with a small rocky island or peninsula situated in the cent... (13.7s)
+    [21/38] img_p51_1.png -> L'image présente un graphique qui montre les variations de la température et de l'humidité relative ... (53.2s)
+    [22/38] img_p51_2.png -> L'image présente un graphique qui montre les variations de la température et de l'humidité relative ... (49.3s)
+    [23/38] img_p47_1.png -> Cette image présente un graphique qui illustre les variations de température à Fessenheim (VR) et à ... (66.5s)
+    [24/38] img_p11_1.png -> L'image présente une photo de l'extérieur d'un complexe de pisciculture, avec des bassins en béton r... (18.3s)
+    [25/38] img_p9_1.png -> This image is a French-language diagram illustrating the life cycle of salmon, featuring a white bac... (19.6s)
+    [26/38] img_p49_1.png -> L'image présente une carte de la vallée d'un fleuve, avec une légende et une description en français... (40.3s)
+    [27/38] img_p23_3.png -> L'image présente une photo d'un fleuve, avec un petit îlot de terre et de roches au milieu de l'eau,... (21.3s)
+    [28/38] img_p13_2.png -> L'image présente une vue aérienne d'un paysage naturel, avec un cours d'eau sinueux qui traverse un ... (37.1s)
+    [29/38] img_p45_1.png -> Cette image présente un graphique qui compare les différences de température entre deux sites, Breis... (39.0s)
+    [30/38] img_p23_1.png -> L'image montre un érosion de berges à l'amont du VR (17/04/18). L'image est divisée en deux parties ... (17.6s)
+    [31/38] img_p43_1.png -> The image is a map of the Rhine River, specifically the section between Strasbourg and Basel, with a... (40.1s)
+    [32/38] img_p52_1.png -> L'image présente deux cartes aériennes de la même zone, avec des zones colorées et des lignes de rou... (43.2s)
+    [33/38] img_p19_2.png -> Cette image présente un graphique qui compare les températures et les débits d'eau de trois stations... (42.5s)
+    [34/38] img_p8_1.png -> The image presents a map of the Rhine River, with a title in French at the bottom. The map is divide... (30.0s)
+    [35/38] img_p48_1.png -> L'image présente un graphique qui compare les écarts de température de trois villages : Fessenheim-V... (55.9s)
+    [36/38] img_p50_1.png -> This image depicts a serene river scene, with a tranquil body of water flowing through a lush landsc... (14.9s)
+    [37/38] img_p34_2.png -> L'image présente une image de microscopie optique d'un échantillon d'algues, avec une légende en fra... (52.1s)
+    [38/38] img_p44_1.png -> L'image présente une carte de la Veuve Rhin, avec des points de localisation et des noms de lieux, e... (99.9s)
+========== COMPLETED [Rapport-stage-M2-Floriane] in 00h 25m 11s ==========
+
+========== PROCESSING [fichier] ==========
+    Images to caption: 25
+    [1/25] img_p13_2.png -> L'image présente deux photos de la même scène, avec une légende en français qui indique que le sujet... (49.1s)
+    [2/25] img_p20_2.png -> L'image présente deux photos de champs agricoles, avec des légumes et des arbres, et un texte en fra... (21.7s)
+    [3/25] img_p14_1.png -> L'image présente deux photos de végétation, avec un titre en français qui indique que le sujet est l... (24.8s)
+    [4/25] img_p11_1.png -> L'image présente deux photos de la même rivière, séparées par un espace blanc, avec un texte en fran... (16.2s)
+    [5/25] img_p23_1.png -> L'image présente un graphique qui illustre un exemple de profil en travers retravaillé, avec des élé... (27.5s)
+    [6/25] img_p14_2.png -> L'image présente deux photos de la même zone naturelle, avec des végétations et des fleurs diverses,... (28.7s)
+    [7/25] img_p15_1.png -> The image presents a serene landscape with a grassy field and trees, accompanied by a caption in Fre... (24.2s)
+    [8/25] img_p8_1.png -> L'image présente deux photos de paysages naturels, séparées par un espace blanc. La photo de gauche ... (20.3s)
+    [9/25] img_p19_1.png -> L'image présente deux photos de la même zone, avec des différences de perspective et de détails. La ... (99.8s)
+    [10/25] img_p10_1.png -> L'image présente deux photos de la même zone, séparées par un espace blanc. La photo de gauche montr... (15.7s)
+    [11/25] img_p17_1.png -> L'image présente deux photos de paysages naturels, séparées par une ligne blanche et un texte en fra... (25.3s)
+    [12/25] img_p21_1.png -> The image presents a visual representation of a grassy area alongside a road, with a car driving on ... (30.0s)
+    [13/25] img_p12_1.png -> L'image présente deux photos de paysages naturels, séparées par un espace blanc. La photo de gauche ... (18.5s)
+    [14/25] img_p7_1.png -> L'image présente une carte générale des tronçons définis sur le ruisseau de Norroy, avec une légende... (23.0s)
+    [15/25] img_p17_2.png -> L'image présente deux photos de paysages naturels, séparées par un espace blanc et un texte en franç... (16.0s)
+    [16/25] img_p20_1.png -> L'image présente deux photos de ruisseau, l'une en amont et l'autre en aval, avec des sous-tronçons ... (25.9s)
+    [17/25] img_p1_1.png -> The image is a cover for a study on the hydromorphological characteristics of the Norroy river, feat... (33.7s)
+    [18/25] img_p10_2.png -> L'image présente deux photos de la même zone, séparées par un espace blanc, avec le titre «Figure 1-... (33.8s)
+    [19/25] img_p16_1.png -> L'image présente deux photos de la même zone, séparées par un espace blanc. La photo de gauche montr... (20.1s)
+    [20/25] img_p13_1.png -> L'image présente deux photos de rivières, l'une en été et l'autre en hiver, avec des légendes en fra... (24.2s)
+    [21/25] img_p18_1.png -> L'image présente deux photos de la même scène, séparées par une ligne blanche. La photo de gauche mo... (14.3s)
+    [22/25] img_p19_2.png -> The image presents a visual representation of a concrete culvert, accompanied by a bridge and a dirt... (36.0s)
+    [23/25] img_p22_1.png -> L'image présente deux photos de la même zone, avec des végétations et des fleurs, et des bâtiments e... (99.7s)
+    [24/25] img_p1_2.png -> The image is a logo for the "Communauté de Communes de Maizières-lès-Metz," which appears to be a Fr... (26.5s)
+    [25/25] img_p9_1.png -> L'image présente deux photos de la même zone, une en couleur et l'autre en noir et blanc, avec des l... (18.2s)
+========== COMPLETED [fichier] in 00h 12m 57s ==========
+
+========== PROCESSING [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] ==========
+    Images to caption: 18
+    [1/18] img_p16_1.png -> The image presents a collection of four aerial photographs, each featuring a red outline of a specif... (26.6s)
+    [2/18] img_p1_1.png -> Cette image présente une forêt dense et verte, avec des arbres et des plantes qui se trouvent dans u... (18.5s)
+    [3/18] img_p21_1.png -> The image presents a serene forest scene alongside a diagrammatic representation of a plant's struct... (25.8s)
+    [4/18] img_p4_2.png -> L'image présente une carte hydrographique de l'ordre de Strahler, qui est un système de classificati... (39.4s)
+    [5/18] img_p12_1.png -> The image presents a map of the Bretagne-Pays de la Loire region, with a title in French that transl... (48.1s)
+    [6/18] img_p22_1.png -> The image presents a line graph with a title in French, which translates to "Representation of the o... (26.1s)
+    [7/18] img_p15_1.png -> The image presents a collection of four aerial maps, each with a red outline and a scale bar, accomp... (29.8s)
+    [8/18] img_p28_1.png -> L'image présente trois graphiques en forme de courbe, étiquetés A, B et C, qui illustrent des profil... (47.7s)
+    [9/18] img_p10_1.png -> L'image présente une illustration de la biodiversité aquatique et terrestre dans un bassin versant, ... (36.2s)
+    [10/18] img_p9_1.png -> L'image présente une composition de quatre photos de paysages naturels, disposées en deux lignes et ... (28.2s)
+    [11/18] img_p12_2.png -> The image presents a map of France, accompanied by a legend and a logo, which appears to be a French... (40.3s)
+    [12/18] img_p40_1.png -> The image presents a diagram of a water basin, with various components labeled in French. The diagra... (47.0s)
+    [13/18] img_p6_1.png -> The image presents a diagram illustrating the evolution of a point d'émergence de la source entre l'... (31.2s)
+    [14/18] img_p17_1.png -> The image presents a collection of six maps, each showcasing a distinct region with its own unique f... (32.0s)
+    [15/18] img_p23_1.png -> The image presents a visual representation of soil profiles, showcasing four distinct sections label... (27.8s)
+    [16/18] img_p31_1.png -> L'image présente deux photos de marais, étiquées «a» et «b», qui illustrent des exemples de marais d... (26.7s)
+    [17/18] img_p4_1.png -> The image presents a diagram of a water droplet, with various labels and arrows indicating different... (58.0s)
+    [18/18] img_p21_2.png -> The image presents a diagram of a transverse valley, accompanied by French text. The diagram is titl... (28.3s)
+========== COMPLETED [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] in 00h 10m 20s ==========
+
+============================================================
+  PIPELINE COMPLETE
+  Generator model  : llama32vision-11b
+  Retrieval model  : baseline_noprompt
+  Total runtime    : 01h 07m 04s
+============================================================

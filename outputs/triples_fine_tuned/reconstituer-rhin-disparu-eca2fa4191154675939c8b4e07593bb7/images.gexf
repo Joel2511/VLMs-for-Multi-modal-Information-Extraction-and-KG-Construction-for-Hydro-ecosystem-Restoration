@@ -1,0 +1,509 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-08-18">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="3" title="networkx_key" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="datasource" type="string" />
+      <attribute id="1" title="extractedFrom" type="string" />
+      <attribute id="2" title="hasDescription" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Usine_Hydroelectrique" label="Usine_Hydroelectrique">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="structure" label="structure">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Hartheim" label="Hartheim">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="geographicZone" label="geographicZone">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Grand_Canal_Dalsace" label="Grand_Canal_Dalsace">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="artificialRiver" label="artificialRiver">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Gestionnaires_De_Milieux_Naturels" label="Gestionnaires_De_Milieux_Naturels">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="NamedIndividual" label="NamedIndividual">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Vieux_Rhin" label="Vieux_Rhin">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Institutions" label="Institutions">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Bale" label="Bale">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Rhin" label="Rhin">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="France" label="France">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Restauration" label="Restauration">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="river" label="river">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Barrage" label="Barrage">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Fessenheim" label="Fessenheim">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Kembs_Et_Breisach" label="Kembs_Et_Breisach">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Ergolz" label="Ergolz">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+      <node id="instance_graph" label="instance_graph">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Ontology" label="Ontology">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Huningue" label="Huningue">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Ottmarsheim" label="Ottmarsheim">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Carte_De_1946" label="Carte_De_1946">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="2" value="montre la position des épis, seuils de fond et digues longitudinales sur le fleuve" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Rheinweiler" label="Rheinweiler">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Wiese" label="Wiese">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Istein" label="Istein">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+      <node id="Niffer" label="Niffer">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Birs" label="Birs">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Chercheurs" label="Chercheurs">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Usine_Hydroelectrique" target="structure" id="0" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Usine_Hydroelectrique" target="NamedIndividual" id="1" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Usine_Hydroelectrique" target="Kembs_Et_Breisach" id="2" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Hartheim" target="geographicZone" id="3" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Hartheim" target="NamedIndividual" id="4" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Hartheim" target="Kembs_Et_Breisach" id="5" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Grand_Canal_Dalsace" target="artificialRiver" id="6" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Grand_Canal_Dalsace" target="Kembs_Et_Breisach" id="7" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Grand_Canal_Dalsace" target="NamedIndividual" id="8" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Gestionnaires_De_Milieux_Naturels" target="NamedIndividual" id="9" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vieux_Rhin" target="NamedIndividual" id="10" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vieux_Rhin" target="river" id="11" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vieux_Rhin" target="Kembs_Et_Breisach" id="12" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Institutions" target="NamedIndividual" id="13" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bale" target="NamedIndividual" id="14" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="France" id="15" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="NamedIndividual" id="16" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Bale" id="17" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="river" id="18" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Restauration" id="19" label="hasPurpose">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Gestionnaires_De_Milieux_Naturels" id="20" label="isManagedBy">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Kembs_Et_Breisach" id="21" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Kembs_Et_Breisach" id="22" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Chercheurs" id="23" label="isManagedBy">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Institutions" id="24" label="isManagedBy">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="France" target="NamedIndividual" id="25" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration" target="NamedIndividual" id="26" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Barrage" target="NamedIndividual" id="27" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Barrage" target="Kembs_Et_Breisach" id="28" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Barrage" target="structure" id="29" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fessenheim" target="NamedIndividual" id="30" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fessenheim" target="Kembs_Et_Breisach" id="31" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fessenheim" target="geographicZone" id="32" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Kembs_Et_Breisach" target="NamedIndividual" id="33" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ergolz" target="NamedIndividual" id="34" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ergolz" target="Kembs_Et_Breisach" id="35" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ergolz" target="geographicZone" id="36" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="instance_graph" target="Ontology" id="37" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Huningue" target="Kembs_Et_Breisach" id="38" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Huningue" target="geographicZone" id="39" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Huningue" target="NamedIndividual" id="40" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ottmarsheim" target="NamedIndividual" id="41" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ottmarsheim" target="Kembs_Et_Breisach" id="42" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ottmarsheim" target="geographicZone" id="43" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Carte_De_1946" target="Vieux_Rhin" id="44" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Carte_De_1946" target="NamedIndividual" id="45" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Carte_De_1946" target="geographicZone" id="46" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rheinweiler" target="NamedIndividual" id="47" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rheinweiler" target="Kembs_Et_Breisach" id="48" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rheinweiler" target="geographicZone" id="49" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Wiese" target="NamedIndividual" id="50" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Wiese" target="Kembs_Et_Breisach" id="51" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Wiese" target="geographicZone" id="52" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Istein" target="Kembs_Et_Breisach" id="53" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Istein" target="geographicZone" id="54" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Istein" target="NamedIndividual" id="55" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Niffer" target="Kembs_Et_Breisach" id="56" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Niffer" target="geographicZone" id="57" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Niffer" target="NamedIndividual" id="58" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Birs" target="geographicZone" id="59" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Birs" target="NamedIndividual" id="60" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Birs" target="Kembs_Et_Breisach" id="61" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Chercheurs" target="NamedIndividual" id="62" label="type">
+        <attvalues>
+          <attvalue for="3" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

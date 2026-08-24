@@ -1,0 +1,254 @@
+======================================================================
+WEIGHTED CONTEXT GENERATION — Model: qwen2vl-7b-sum
+Device: CUDA
+======================================================================
+
+Loading tokenizer and model from /home2020/home/icube/janil/Rhine_proj/hf_models/Qwen2-VL-7B-Instruct ...
+Loading weights:   0%|          | 0/730 [00:00<?, ?it/s]Loading weights:   0%|          | 1/730 [00:11<2:22:12, 11.70s/it]Loading weights:   0%|          | 2/730 [00:23<2:22:14, 11.72s/it]Loading weights:   1%|          | 4/730 [00:25<59:17,  4.90s/it]  Loading weights:   1%|          | 5/730 [00:26<46:26,  3.84s/it]Loading weights:   1%|          | 6/730 [00:28<37:34,  3.11s/it]Loading weights:   1%|▏         | 10/730 [00:28<14:11,  1.18s/it]Loading weights:   2%|▏         | 12/730 [00:28<10:14,  1.17it/s]Loading weights:   2%|▏         | 16/730 [00:30<07:30,  1.59it/s]Loading weights:   2%|▏         | 17/730 [00:31<08:53,  1.34it/s]Loading weights:   2%|▏         | 18/730 [00:33<10:20,  1.15it/s]Loading weights:   3%|▎         | 22/730 [00:33<05:39,  2.09it/s]Loading weights:   3%|▎         | 24/730 [00:33<04:35,  2.57it/s]Loading weights:   4%|▍         | 28/730 [00:35<04:28,  2.61it/s]Loading weights:   4%|▍         | 29/730 [00:36<06:07,  1.91it/s]Loading weights:   4%|▍         | 30/730 [00:38<07:51,  1.49it/s]Loading weights:   5%|▍         | 34/730 [00:38<04:31,  2.56it/s]Loading weights:   5%|▍         | 36/730 [00:38<03:46,  3.07it/s]Loading weights:   5%|▌         | 40/730 [00:40<03:57,  2.90it/s]Loading weights:   6%|▌         | 41/730 [00:41<05:36,  2.05it/s]Loading weights:   6%|▌         | 42/730 [00:43<07:17,  1.57it/s]Loading weights:   6%|▋         | 46/730 [00:43<04:14,  2.68it/s]Loading weights:   7%|▋         | 48/730 [00:43<03:33,  3.19it/s]Loading weights:   7%|▋         | 52/730 [00:45<03:47,  2.98it/s]Loading weights:   7%|▋         | 53/730 [00:46<05:25,  2.08it/s]Loading weights:   7%|▋         | 54/730 [00:47<07:06,  1.58it/s]Loading weights:   8%|▊         | 58/730 [00:48<04:08,  2.71it/s]Loading weights:   8%|▊         | 60/730 [00:48<03:27,  3.22it/s]Loading weights:   9%|▉         | 64/730 [00:50<03:43,  2.98it/s]Loading weights:   9%|▉         | 65/730 [00:51<05:18,  2.09it/s]Loading weights:   9%|▉         | 66/730 [00:52<06:57,  1.59it/s]Loading weights:  10%|▉         | 70/730 [00:53<04:03,  2.72it/s]Loading weights:  10%|▉         | 72/730 [00:53<03:23,  3.23it/s]Loading weights:  10%|█         | 76/730 [00:54<03:37,  3.00it/s]Loading weights:  11%|█         | 77/730 [00:56<05:10,  2.10it/s]Loading weights:  11%|█         | 78/730 [00:57<06:48,  1.60it/s]Loading weights:  11%|█         | 82/730 [00:58<03:58,  2.72it/s]Loading weights:  12%|█▏        | 84/730 [00:58<03:20,  3.22it/s]Loading weights:  12%|█▏        | 88/730 [00:59<03:35,  2.98it/s]Loading weights:  12%|█▏        | 89/730 [01:01<05:08,  2.08it/s]Loading weights:  12%|█▏        | 90/730 [01:02<06:43,  1.59it/s]Loading weights:  13%|█▎        | 94/730 [01:03<03:54,  2.71it/s]Loading weights:  13%|█▎        | 96/730 [01:03<03:16,  3.23it/s]Loading weights:  14%|█▎        | 100/730 [01:04<03:30,  2.99it/s]Loading weights:  14%|█▍        | 101/730 [01:06<05:01,  2.08it/s]Loading weights:  14%|█▍        | 102/730 [01:07<06:36,  1.58it/s]Loading weights:  15%|█▍        | 106/730 [01:08<03:50,  2.71it/s]Loading weights:  15%|█▍        | 108/730 [01:08<03:13,  3.22it/s]Loading weights:  15%|█▌        | 112/730 [01:09<03:26,  2.99it/s]Loading weights:  15%|█▌        | 113/730 [01:11<04:53,  2.10it/s]Loading weights:  16%|█▌        | 114/730 [01:12<06:25,  1.60it/s]Loading weights:  16%|█▌        | 118/730 [01:12<03:44,  2.72it/s]Loading weights:  16%|█▋        | 120/730 [01:13<03:08,  3.24it/s]Loading weights:  17%|█▋        | 124/730 [01:14<03:22,  2.99it/s]Loading weights:  17%|█▋        | 125/730 [01:16<04:50,  2.08it/s]Loading weights:  17%|█▋        | 126/730 [01:17<06:21,  1.58it/s]Loading weights:  18%|█▊        | 130/730 [01:17<03:41,  2.70it/s]Loading weights:  18%|█▊        | 132/730 [01:18<03:05,  3.22it/s]Loading weights:  19%|█▊        | 136/730 [01:19<03:20,  2.96it/s]Loading weights:  19%|█▉        | 137/730 [01:21<04:45,  2.07it/s]Loading weights:  19%|█▉        | 138/730 [01:22<06:15,  1.58it/s]Loading weights:  19%|█▉        | 142/730 [01:22<03:38,  2.69it/s]Loading weights:  20%|█▉        | 144/730 [01:23<03:02,  3.21it/s]Loading weights:  20%|██        | 148/730 [01:24<03:17,  2.95it/s]Loading weights:  20%|██        | 149/730 [01:26<04:40,  2.07it/s]Loading weights:  21%|██        | 150/730 [01:27<06:09,  1.57it/s]Loading weights:  21%|██        | 154/730 [01:27<03:35,  2.68it/s]Loading weights:  21%|██▏       | 156/730 [01:28<03:00,  3.19it/s]Loading weights:  22%|██▏       | 160/730 [01:29<03:12,  2.96it/s]Loading weights:  22%|██▏       | 161/730 [01:31<04:35,  2.06it/s]Loading weights:  22%|██▏       | 162/730 [01:32<06:01,  1.57it/s]Loading weights:  23%|██▎       | 166/730 [01:32<03:30,  2.68it/s]Loading weights:  23%|██▎       | 168/730 [01:33<02:56,  3.19it/s]Loading weights:  24%|██▎       | 172/730 [01:34<03:08,  2.95it/s]Loading weights:  24%|██▎       | 173/730 [01:36<04:30,  2.06it/s]Loading weights:  24%|██▍       | 174/730 [01:37<05:53,  1.57it/s]Loading weights:  24%|██▍       | 178/730 [01:37<03:25,  2.69it/s]Loading weights:  25%|██▍       | 180/730 [01:38<02:52,  3.19it/s]Loading weights:  25%|██▌       | 184/730 [01:39<03:04,  2.96it/s]Loading weights:  25%|██▌       | 185/730 [01:41<04:22,  2.08it/s]Loading weights:  25%|██▌       | 186/730 [01:42<05:46,  1.57it/s]Loading weights:  26%|██▌       | 190/730 [01:42<03:21,  2.68it/s]Loading weights:  26%|██▋       | 192/730 [01:43<02:48,  3.19it/s]Loading weights:  27%|██▋       | 196/730 [01:44<03:00,  2.96it/s]Loading weights:  27%|██▋       | 197/730 [01:46<04:16,  2.08it/s]Loading weights:  27%|██▋       | 198/730 [01:47<05:37,  1.58it/s]Loading weights:  28%|██▊       | 202/730 [01:47<03:16,  2.69it/s]Loading weights:  28%|██▊       | 204/730 [01:48<02:44,  3.20it/s]Loading weights:  28%|██▊       | 208/730 [01:49<02:56,  2.95it/s]Loading weights:  29%|██▊       | 209/730 [01:51<04:12,  2.06it/s]Loading weights:  29%|██▉       | 210/730 [01:52<05:30,  1.57it/s]Loading weights:  29%|██▉       | 214/730 [01:52<03:12,  2.68it/s]Loading weights:  30%|██▉       | 216/730 [01:53<02:41,  3.19it/s]Loading weights:  30%|███       | 220/730 [01:54<02:53,  2.94it/s]Loading weights:  30%|███       | 221/730 [01:56<04:06,  2.06it/s]Loading weights:  30%|███       | 222/730 [01:57<05:24,  1.57it/s]Loading weights:  31%|███       | 226/730 [01:57<03:08,  2.67it/s]Loading weights:  31%|███       | 228/730 [01:58<02:37,  3.18it/s]Loading weights:  32%|███▏      | 232/730 [01:59<02:49,  2.94it/s]Loading weights:  32%|███▏      | 233/730 [02:01<04:01,  2.06it/s]Loading weights:  32%|███▏      | 234/730 [02:02<05:15,  1.57it/s]Loading weights:  33%|███▎      | 238/730 [02:02<03:03,  2.68it/s]Loading weights:  33%|███▎      | 240/730 [02:03<02:34,  3.17it/s]Loading weights:  33%|███▎      | 244/730 [02:04<02:44,  2.96it/s]Loading weights:  34%|███▎      | 245/730 [02:06<03:53,  2.07it/s]Loading weights:  34%|███▎      | 246/730 [02:07<05:06,  1.58it/s]Loading weights:  34%|███▍      | 250/730 [02:07<02:58,  2.70it/s]Loading weights:  35%|███▍      | 252/730 [02:08<02:29,  3.21it/s]Loading weights:  35%|███▌      | 256/730 [02:09<02:39,  2.97it/s]Loading weights:  35%|███▌      | 257/730 [02:11<03:47,  2.08it/s]Loading weights:  35%|███▌      | 258/730 [02:12<04:57,  1.59it/s]Loading weights:  36%|███▌      | 262/730 [02:12<02:52,  2.71it/s]Loading weights:  36%|███▌      | 264/730 [02:13<02:24,  3.23it/s]Loading weights:  37%|███▋      | 268/730 [02:14<02:34,  2.99it/s]Loading weights:  37%|███▋      | 269/730 [02:15<03:39,  2.10it/s]Loading weights:  37%|███▋      | 270/730 [02:17<04:48,  1.59it/s]Loading weights:  38%|███▊      | 274/730 [02:17<02:47,  2.72it/s]Loading weights:  38%|███▊      | 276/730 [02:17<02:20,  3.23it/s]Loading weights:  38%|███▊      | 280/730 [02:19<02:29,  3.00it/s]Loading weights:  38%|███▊      | 281/730 [02:20<03:34,  2.09it/s]Loading weights:  39%|███▊      | 282/730 [02:22<04:41,  1.59it/s]Loading weights:  39%|███▉      | 286/730 [02:22<02:43,  2.72it/s]Loading weights:  39%|███▉      | 288/730 [02:22<02:16,  3.23it/s]Loading weights:  40%|████      | 292/730 [02:24<02:27,  2.98it/s]Loading weights:  40%|████      | 293/730 [02:25<03:29,  2.09it/s]Loading weights:  40%|████      | 294/730 [02:27<04:33,  1.59it/s]Loading weights:  41%|████      | 298/730 [02:27<02:38,  2.72it/s]Loading weights:  41%|████      | 300/730 [02:27<02:13,  3.23it/s]Loading weights:  42%|████▏     | 304/730 [02:29<02:22,  2.99it/s]Loading weights:  42%|████▏     | 305/730 [02:30<03:22,  2.09it/s]Loading weights:  42%|████▏     | 306/730 [02:32<04:26,  1.59it/s]Loading weights:  42%|████▏     | 310/730 [02:32<02:34,  2.71it/s]Loading weights:  43%|████▎     | 312/730 [02:32<02:09,  3.23it/s]Loading weights:  43%|████▎     | 316/730 [02:34<02:18,  2.98it/s]Loading weights:  43%|████▎     | 317/730 [02:35<03:17,  2.09it/s]Loading weights:  44%|████▎     | 318/730 [02:37<04:19,  1.58it/s]Loading weights:  44%|████▍     | 322/730 [02:37<02:30,  2.70it/s]Loading weights:  44%|████▍     | 324/730 [02:37<02:06,  3.21it/s]Loading weights:  45%|████▍     | 328/730 [02:39<02:15,  2.97it/s]Loading weights:  45%|████▌     | 329/730 [02:40<03:13,  2.08it/s]Loading weights:  45%|████▌     | 330/730 [02:42<04:13,  1.58it/s]Loading weights:  46%|████▌     | 334/730 [02:42<02:27,  2.69it/s]Loading weights:  46%|████▌     | 336/730 [02:42<02:03,  3.20it/s]Loading weights:  47%|████▋     | 343/730 [02:42<00:58,  6.57it/s]Loading weights:  47%|████▋     | 345/730 [02:43<00:52,  7.30it/s]Loading weights:  48%|████▊     | 347/730 [02:43<00:47,  8.13it/s]Loading weights:  49%|████▊     | 355/730 [02:43<00:24, 15.26it/s]Loading weights:  49%|████▉     | 358/730 [02:43<00:22, 16.31it/s]Loading weights:  49%|████▉     | 361/730 [02:43<00:21, 17.29it/s]Loading weights:  50%|█████     | 367/730 [02:43<00:16, 22.65it/s]Loading weights:  51%|█████     | 370/730 [02:43<00:16, 22.33it/s]Loading weights:  51%|█████     | 373/730 [02:44<00:16, 22.13it/s]Loading weights:  52%|█████▏    | 379/730 [02:44<00:12, 27.69it/s]Loading weights:  52%|█████▏    | 383/730 [02:44<00:15, 22.28it/s]Loading weights:  54%|█████▎    | 391/730 [02:44<00:11, 30.24it/s]Loading weights:  54%|█████▍    | 395/730 [02:44<00:14, 23.76it/s]Loading weights:  55%|█████▌    | 403/730 [02:45<00:10, 31.03it/s]Loading weights:  56%|█████▌    | 407/730 [02:45<00:13, 24.50it/s]Loading weights:  57%|█████▋    | 415/730 [02:45<00:09, 31.65it/s]Loading weights:  57%|█████▋    | 419/730 [02:45<00:12, 25.24it/s]Loading weights:  58%|█████▊    | 427/730 [02:45<00:09, 32.25it/s]Loading weights:  59%|█████▉    | 431/730 [02:46<00:11, 25.51it/s]Loading weights:  60%|██████    | 439/730 [02:46<00:09, 32.21it/s]Loading weights:  61%|██████    | 443/730 [02:46<00:11, 25.24it/s]Loading weights:  62%|██████▏   | 451/730 [02:46<00:08, 31.99it/s]Loading weights:  62%|██████▏   | 455/730 [02:46<00:10, 25.26it/s]Loading weights:  63%|██████▎   | 463/730 [02:47<00:08, 31.95it/s]Loading weights:  64%|██████▍   | 467/730 [02:47<00:10, 25.44it/s]Loading weights:  65%|██████▌   | 475/730 [02:47<00:07, 32.32it/s]Loading weights:  66%|██████▌   | 479/730 [02:47<00:09, 25.60it/s]Loading weights:  67%|██████▋   | 487/730 [02:47<00:07, 32.31it/s]Loading weights:  67%|██████▋   | 491/730 [02:48<00:09, 25.41it/s]Loading weights:  68%|██████▊   | 499/730 [02:48<00:07, 32.07it/s]Loading weights:  69%|██████▉   | 503/730 [02:48<00:08, 25.51it/s]Loading weights:  70%|███████   | 511/730 [02:48<00:06, 32.32it/s]Loading weights:  71%|███████   | 515/730 [02:49<00:08, 25.53it/s]Loading weights:  72%|███████▏  | 523/730 [02:49<00:06, 32.32it/s]Loading weights:  72%|███████▏  | 527/730 [02:49<00:08, 25.32it/s]Loading weights:  73%|███████▎  | 535/730 [02:49<00:06, 31.95it/s]Loading weights:  74%|███████▍  | 539/730 [02:49<00:07, 25.28it/s]Loading weights:  75%|███████▍  | 547/730 [02:50<00:05, 32.08it/s]Loading weights:  75%|███████▌  | 551/730 [02:50<00:07, 25.36it/s]Loading weights:  77%|███████▋  | 559/730 [02:50<00:05, 32.25it/s]Loading weights:  77%|███████▋  | 563/730 [02:50<00:06, 25.49it/s]Loading weights:  78%|███████▊  | 571/730 [02:50<00:04, 32.23it/s]Loading weights:  79%|███████▉  | 575/730 [02:51<00:06, 25.51it/s]Loading weights:  80%|███████▉  | 583/730 [02:51<00:04, 32.25it/s]Loading weights:  80%|████████  | 587/730 [02:51<00:05, 25.59it/s]Loading weights:  82%|████████▏ | 595/730 [02:51<00:04, 32.49it/s]Loading weights:  82%|████████▏ | 599/730 [02:51<00:05, 25.69it/s]Loading weights:  83%|████████▎ | 607/730 [02:52<00:03, 32.69it/s]Loading weights:  84%|████████▍ | 612/730 [02:52<00:04, 27.23it/s]Loading weights:  85%|████████▍ | 619/730 [02:52<00:03, 32.09it/s]Loading weights:  85%|████████▌ | 623/730 [02:52<00:04, 25.57it/s]Loading weights:  86%|████████▋ | 631/730 [02:52<00:03, 32.55it/s]Loading weights:  87%|████████▋ | 635/730 [02:53<00:03, 25.84it/s]Loading weights:  88%|████████▊ | 643/730 [02:53<00:02, 32.90it/s]Loading weights:  89%|████████▉ | 648/730 [02:53<00:03, 27.22it/s]Loading weights:  90%|████████▉ | 655/730 [02:53<00:02, 32.06it/s]Loading weights:  90%|█████████ | 659/730 [02:54<00:02, 25.17it/s]Loading weights:  91%|█████████▏| 667/730 [02:54<00:01, 31.89it/s]Loading weights:  92%|█████████▏| 671/730 [02:54<00:02, 25.20it/s]Loading weights:  93%|█████████▎| 679/730 [02:54<00:01, 32.10it/s]Loading weights:  94%|█████████▎| 683/730 [02:54<00:01, 25.49it/s]Loading weights:  95%|█████████▍| 691/730 [02:55<00:01, 32.33it/s]Loading weights:  95%|█████████▌| 695/730 [02:55<00:01, 25.61it/s]Loading weights:  96%|█████████▋| 703/730 [02:55<00:00, 32.45it/s]Loading weights:  97%|█████████▋| 707/730 [02:55<00:00, 25.78it/s]Loading weights:  98%|█████████▊| 715/730 [02:55<00:00, 32.68it/s]Loading weights:  99%|█████████▊| 720/730 [02:56<00:00, 27.38it/s]Loading weights: 100%|█████████▉| 727/730 [02:56<00:00, 19.48it/s]Loading weights: 100%|██████████| 730/730 [02:57<00:00, 15.01it/s]Loading weights: 100%|██████████| 730/730 [02:57<00:00,  4.12it/s]
+Model loaded.
+
+
+======================================================================
+RETRIEVER: VIDORE
+======================================================================
+
+>>> PDF: 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire | Retriever: vidore
+    [Summary] Loaded existing summary (137 words)
+    [Retrieval] 18 images found in CSV
+    [img_p10_1] Blocks: ['page_10_block_1', 'page_9_block_2', 'page_9_block_1'] → 3 text(s) found
+The following generation flags are not valid and may be ignored: ['top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+    [img_p10_1] Fused context: 128 words — La figure 4 illustre la diversité des habitats au sein des têtes de bassin versant, avec des fonds de vallées de formes ...
+    [img_p12_1] Blocks: ['page_12_block_1', 'page_11_block_4', 'page_10_block_4'] → 3 text(s) found
+    [img_p12_1] Fused context: 175 words — La figure 7 présente la densité de rangs zéro sur le territoire de Bretagne et Pays de la Loire, en utilisant deux référ...
+    [img_p12_2] Blocks: ['page_12_block_1', 'page_10_block_4', 'page_11_block_4'] → 3 text(s) found
+    [img_p12_2] Fused context: 126 words — La figure 7 présente la densité de rangs zéro sur le territoire de Bretagne et Pays de la Loire, en utilisant deux référ...
+    [img_p15_1] Blocks: ['page_15_block_1', 'page_14_block_5', 'page_13_block_6'] → 3 text(s) found
+    [img_p15_1] Fused context: 123 words — La Figure 8c illustre la reconstitution du boisement par enfrichement progressif de la partie aval du cours d'eau, metta...
+    [img_p16_1] Blocks: ['page_15_block_1', 'page_14_block_5', 'page_16_block_1'] → 3 text(s) found
+    [img_p16_1] Fused context: 116 words — La Figure 8c illustre la reconstitution du boisement par enfrichement progressif de la partie aval du cours d'eau, indiq...
+    [img_p17_1] Blocks: ['page_16_block_1', 'page_16_block_2', 'page_14_block_5'] → 3 text(s) found
+    [img_p17_1] Fused context: 105 words — Dans le contexte des zones de sources des cours d'eau en Bretagne et Pays de la Loire, l'analyse de la toponymie, notamm...
+    [img_p1_1] Blocks: ['page_2_block_2', 'page_5_block_6', 'page_7_block_5'] → 3 text(s) found
+    [img_p1_1] Fused context: 109 words — Le document explore les zones de sources des cours d'eau en Bretagne et Pays de la Loire, appelées "rang 0", et leur rôl...
+    [img_p21_1] Blocks: ['page_21_block_1', 'page_20_block_5', 'page_21_block_2'] → 3 text(s) found
+    [img_p21_1] Fused context: 133 words — La figure 11 illustre la forme de la vallée d'un rang 0, une zone de source des cours d'eau en Bretagne et Pays de la Lo...
+    [img_p21_2] Blocks: ['page_21_block_2', 'page_21_block_1', 'page_22_block_1'] → 3 text(s) found
+    [img_p21_2] Fused context: 154 words — La figure 12 présente une coupe transversale d'une vallée de rang 0, illustrant les variables à recueillir pour caractér...
+    [img_p22_1] Blocks: ['page_22_block_1', 'page_21_block_2', 'page_20_block_5'] → 3 text(s) found
+    [img_p22_1] Fused context: 163 words — La figure 13 illustre la rupture de pente classique observée en transition entre le rang 0 et le rang 1, qui est essenti...
+    [img_p23_1] Blocks: ['page_23_block_2', 'page_23_block_1', 'page_28_block_3'] → 3 text(s) found
+    [img_p23_1] Fused context: 140 words — La figure 14 illustre la variabilité des profils pédologiques observés sur des stations en rangs zéro dans le cadre du p...
+    [img_p28_1] Blocks: ['page_28_block_1', 'page_27_block_5', 'page_21_block_2'] → 3 text(s) found
+    [img_p28_1] Fused context: 137 words — Ce document explore les zones de sources des cours d'eau en Bretagne et Pays de la Loire, appelées "rang 0", et leur rôl...
+    [img_p31_1] Blocks: ['page_31_block_4', 'page_28_block_1', 'page_41_block_3'] → 3 text(s) found
+    [img_p31_1] Fused context: 137 words — Le document explore les zones de sources des cours d'eau en Bretagne et Pays de la Loire, appelées "rang 0", et leur rôl...
+    [img_p40_1] Blocks: ['page_39_block_2', 'page_38_block_7', 'page_40_block_1'] → 3 text(s) found
+    [img_p40_1] Fused context: 137 words — Le document explore les zones de sources des cours d'eau en Bretagne et Pays de la Loire, appelées "rang 0", et leur rôl...
+    [img_p4_1] Blocks: ['page_4_block_4', 'page_4_block_5', 'page_3_block_2'] → 3 text(s) found
+    [img_p4_1] Fused context: 99 words — La figure 2 présente un schéma typique d'un bassin versant de rang 0, qui correspond aux bassins versants situés à l'amo...
+    [img_p4_2] Blocks: ['page_4_block_3', 'page_4_block_2', 'page_4_block_4'] → 3 text(s) found
+    [img_p4_2] Fused context: 138 words — La figure 1 présente la classification du réseau hydrographique selon l'ordre de Strahler, une méthode utilisée pour dét...
+    [img_p6_1] Blocks: ['page_6_block_1', 'page_6_block_5', 'page_5_block_6'] → 3 text(s) found
+    [img_p6_1] Fused context: 117 words — La figure 3 illustre l'évolution du point d'émergence de la source entre l'été et l'hiver, en fonction de la saturation ...
+    [img_p9_1] Blocks: ['page_9_block_1', 'page_8_block_5', 'page_6_block_5'] → 3 text(s) found
+    [img_p9_1] Fused context: 157 words — La figure 4 illustre la diversité des habitats au sein des têtes de bassin versant, avec des fonds de vallées de formes ...
+    Saved → /home2020/home/icube/janil/Rhine_proj/outputs/Weighted_summary/2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire_vidore_weighted_context.json
+
+>>> PDF: Rapport-stage-M2-Floriane | Retriever: vidore
+    [Summary] Loaded existing summary (160 words)
+    [Retrieval] 38 images found in CSV
+    [img_p11_1] Blocks: ['page_11_block_3', 'page_11_block_2', 'page_9_block_4'] → 3 text(s) found
+    [img_p11_1] Fused context: 180 words — La figure 2 illustre le cycle de vie du saumon, un poisson migrateur clé dans le bassin du Rhin. Le saumon, dont l'étude...
+    [img_p13_1] Blocks: ['page_13_block_3', 'page_12_block_3', 'page_13_block_2'] → 3 text(s) found
+    [img_p13_1] Fused context: 82 words — a été mise en place. Cette intervention a permis de diversifier les faciès d'écoulement et les substrats du lit, offrant...
+    [img_p13_2] Blocks: ['page_13_block_5', 'page_13_block_4', 'page_8_block_1'] → 3 text(s) found
+    [img_p13_2] Fused context: 156 words — La figure 5 présente le Petit Rhin, un affluent du Rhin, situé près de Kembs. Avec une longueur de 7 kilomètres et un dé...
+    [img_p15_1] Blocks: ['page_15_block_4', 'page_15_block_6', 'page_15_block_3'] → 3 text(s) found
+    [img_p15_1] Fused context: 175 words — Dans le cadre de l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, le document met e...
+    [img_p19_1] Blocks: ['page_19_block_2', 'page_19_block_3', 'page_20_block_1'] → 3 text(s) found
+    [img_p19_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p19_2] Blocks: ['page_18_block_5', 'page_20_block_1', 'page_19_block_1'] → 3 text(s) found
+    [img_p19_2] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p20_1] Blocks: ['page_20_block_2', 'page_20_block_4', 'page_20_block_1'] → 3 text(s) found
+    [img_p20_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p21_1] Blocks: ['page_20_block_4', 'page_20_block_2', 'page_21_block_1'] → 3 text(s) found
+    [img_p21_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p22_1] Blocks: ['page_22_block_1', 'page_20_block_1', 'page_18_block_5'] → 3 text(s) found
+    [img_p22_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p23_1] Blocks: ['page_23_block_5', 'page_34_block_1', 'page_23_block_3'] → 3 text(s) found
+    [img_p23_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p23_2] Blocks: ['page_23_block_2', 'page_23_block_3', 'page_22_block_2'] → 3 text(s) found
+    [img_p23_2] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p23_3] Blocks: ['page_23_block_5', 'page_23_block_3', 'page_22_block_2'] → 3 text(s) found
+    [img_p23_3] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p24_1] Blocks: ['page_25_block_2', 'page_24_block_4', 'page_24_block_3'] → 3 text(s) found
+    [img_p24_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p25_1] Blocks: ['page_25_block_2', 'page_25_block_1', 'page_25_block_3'] → 3 text(s) found
+    [img_p25_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p34_1] Blocks: ['page_34_block_1', 'page_33_block_2', 'page_23_block_5'] → 3 text(s) found
+    [img_p34_1] Fused context: 125 words — La figure 18, intitulée "Couche d'armurage", illustre l'évolution du lit du Rhin, soulignant la dynamique du pavage et l...
+    [img_p34_2] Blocks: ['page_33_block_2', 'page_36_block_1', 'page_34_block_1'] → 3 text(s) found
+    [img_p34_2] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p43_1] Blocks: ['page_52_block_1', 'page_43_block_1', 'page_44_block_1'] → 3 text(s) found
+    [img_p43_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p43_2] Blocks: ['page_43_block_2', 'page_35_block_1', 'page_37_block_2'] → 3 text(s) found
+    [img_p43_2] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p44_1] Blocks: ['page_44_block_1', 'page_52_block_1', 'page_46_block_1'] → 3 text(s) found
+    [img_p44_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p45_1] Blocks: ['page_44_block_1', 'page_46_block_1', 'page_48_block_1'] → 3 text(s) found
+    [img_p45_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p45_2] Blocks: ['page_44_block_1', 'page_48_block_1', 'page_46_block_1'] → 3 text(s) found
+    [img_p45_2] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p46_1] Blocks: ['page_46_block_1', 'page_44_block_1', 'page_48_block_1'] → 3 text(s) found
+    [img_p46_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p47_1] Blocks: ['page_46_block_1', 'page_44_block_1', 'page_48_block_1'] → 3 text(s) found
+    [img_p47_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p47_2] Blocks: ['page_46_block_1', 'page_44_block_1', 'page_48_block_1'] → 3 text(s) found
+    [img_p47_2] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p48_1] Blocks: ['page_48_block_1', 'page_46_block_1', 'page_44_block_1'] → 3 text(s) found
+    [img_p48_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p49_1] Blocks: ['page_48_block_1', 'page_49_block_1', 'page_32_block_1'] → 3 text(s) found
+    [img_p49_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p50_1] Blocks: ['page_49_block_1', 'page_55_block_3', 'page_55_block_1'] → 3 text(s) found
+    [img_p50_1] Fused context: 149 words — Dans le cadre de l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, le document exami...
+    [img_p50_2] Blocks: ['page_49_block_1', 'page_48_block_1', 'page_55_block_1'] → 3 text(s) found
+    [img_p50_2] Fused context: 165 words — Dans le cadre de l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, le document exami...
+    [img_p50_3] Blocks: ['page_49_block_1', 'page_55_block_3', 'page_55_block_1'] → 3 text(s) found
+    [img_p50_3] Fused context: 149 words — Dans le cadre de l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, le document exami...
+    [img_p50_4] Blocks: ['page_49_block_1', 'page_48_block_1', 'page_55_block_1'] → 3 text(s) found
+    [img_p50_4] Fused context: 165 words — Dans le cadre de l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, le document exami...
+    [img_p50_5] Blocks: ['page_49_block_1', 'page_55_block_1', 'page_43_block_2'] → 3 text(s) found
+    [img_p50_5] Fused context: 155 words — Dans le cadre de l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, une attention par...
+    [img_p51_1] Blocks: ['page_46_block_1', 'page_51_block_1', 'page_30_block_3'] → 3 text(s) found
+    [img_p51_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p51_2] Blocks: ['page_51_block_1', 'page_46_block_1', 'page_30_block_3'] → 3 text(s) found
+    [img_p51_2] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p52_1] Blocks: ['page_49_block_1', 'page_48_block_1', 'page_52_block_1'] → 3 text(s) found
+    [img_p52_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p52_2] Blocks: ['page_48_block_1', 'page_53_block_1', 'page_49_block_1'] → 3 text(s) found
+    [img_p52_2] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p53_1] Blocks: ['page_52_block_1', 'page_48_block_1', 'page_44_block_1'] → 3 text(s) found
+    [img_p53_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    [img_p8_1] Blocks: ['page_8_block_3', 'page_8_block_2', 'page_8_block_1'] → 3 text(s) found
+    [img_p8_1] Fused context: 96 words — La figure 1 illustre les modifications du Rhin entre le XIXème et le XXIème siècle, mettant en évidence les aménagements...
+    [img_p9_1] Blocks: ['page_9_block_4', 'page_9_block_2', 'page_9_block_3'] → 3 text(s) found
+    [img_p9_1] Fused context: 160 words — Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent...
+    Saved → /home2020/home/icube/janil/Rhine_proj/outputs/Weighted_summary/Rapport-stage-M2-Floriane_vidore_weighted_context.json
+
+>>> PDF: dossier_unio_crassus_zorn_v4_19_11_2024 | Retriever: vidore
+    [Summary] Loaded existing summary (180 words)
+    [Retrieval] 19 images found in CSV
+    [img_p10_1] Blocks: ['page_3_block_1', 'page_5_block_3', 'page_13_block_2'] → 3 text(s) found
+    [img_p10_1] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    [img_p13_1] Blocks: ['page_13_block_1', 'page_16_block_3', 'page_12_block_3'] → 3 text(s) found
+    [img_p13_1] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    [img_p13_2] Blocks: ['page_13_block_2', 'page_3_block_1', 'page_14_block_1'] → 3 text(s) found
+    [img_p13_2] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    [img_p14_1] Blocks: ['page_14_block_1', 'page_17_block_1', 'page_13_block_2'] → 3 text(s) found
+    [img_p14_1] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    [img_p15_1] Blocks: ['page_19_block_3', 'page_16_block_3', 'page_19_block_2'] → 3 text(s) found
+    [img_p15_1] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    [img_p16_1] Blocks: ['page_22_block_2', 'page_16_block_3', 'page_17_block_2'] → 3 text(s) found
+    [img_p16_1] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    [img_p17_1] Blocks: ['page_17_block_1', 'page_17_block_2', 'page_16_block_2'] → 3 text(s) found
+    [img_p17_1] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    [img_p18_1] Blocks: ['page_16_block_3', 'page_17_block_2', 'page_16_block_1'] → 3 text(s) found
+    [img_p18_1] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    [img_p1_1] Blocks: ['page_6_block_1', 'page_3_block_1', 'page_7_block_1'] → 3 text(s) found
+    [img_p1_1] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    [img_p20_1] Blocks: ['page_19_block_3', 'page_19_block_2', 'page_20_block_1'] → 3 text(s) found
+    [img_p20_1] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    [img_p21_1] Blocks: ['page_21_block_2', 'page_21_block_1', 'page_19_block_3'] → 3 text(s) found
+    [img_p21_1] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    [img_p24_1] Blocks: ['page_21_block_2', 'page_19_block_3', 'page_23_block_3'] → 3 text(s) found
+    [img_p24_1] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    [img_p25_1] Blocks: ['page_26_block_1', 'page_25_block_3', 'page_27_block_1'] → 3 text(s) found
+    [img_p25_1] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    [img_p26_1] Blocks: ['page_25_block_3', 'page_26_block_1', 'page_22_block_2'] → 3 text(s) found
+    [img_p26_1] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    [img_p28_1] Blocks: ['page_4_block_1', 'page_32_block_5', 'page_32_block_3'] → 3 text(s) found
+    [img_p28_1] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    [img_p5_1] Blocks: ['page_5_block_3', 'page_7_block_1', 'page_3_block_1'] → 3 text(s) found
+    [img_p5_1] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    [img_p6_1] Blocks: ['page_5_block_3', 'page_6_block_1', 'page_5_block_2'] → 3 text(s) found
+    [img_p6_1] Fused context: 139 words — La renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et écologiqu...
+    [img_p8_1] Blocks: ['page_7_block_1', 'page_3_block_1', 'page_7_block_2'] → 3 text(s) found
+    [img_p8_1] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    [img_p9_1] Blocks: ['page_7_block_2', 'page_7_block_1', 'page_3_block_1'] → 3 text(s) found
+    [img_p9_1] Fused context: 180 words — Le projet de renaturation de la Zorn, un cours d'eau de 2e catégorie, vise à améliorer son fonctionnement hydraulique et...
+    Saved → /home2020/home/icube/janil/Rhine_proj/outputs/Weighted_summary/dossier_unio_crassus_zorn_v4_19_11_2024_vidore_weighted_context.json
+
+>>> PDF: fichier | Retriever: vidore
+    [Summary] Loaded existing summary (103 words)
+    [Retrieval] 25 images found in CSV
+    [img_p10_1] Blocks: ['page_10_block_1', 'page_9_block_4', 'page_9_block_1'] → 3 text(s) found
+    [img_p10_1] Fused context: 103 words — Le document évalue la qualité physique de différents tronçons de cours d'eau en utilisant un outil rigoureux. Il compare...
+    [img_p10_2] Blocks: ['page_9_block_1', 'page_8_block_4', 'page_11_block_1'] → 3 text(s) found
+    [img_p10_2] Fused context: 93 words — La figure 1-3 présente l'aspect du cours d'eau à l'aval du tronçon 1, où le lit mineur, avec un coefficient de sinuosité...
+    [img_p11_1] Blocks: ['page_9_block_1', 'page_8_block_4', 'page_11_block_1'] → 3 text(s) found
+    [img_p11_1] Fused context: 93 words — La figure 1-3 présente l'aspect du cours d'eau à l'aval du tronçon 1, où le lit mineur, avec un coefficient de sinuosité...
+    [img_p12_1] Blocks: ['page_9_block_1', 'page_16_block_3', 'page_8_block_4'] → 3 text(s) found
+    [img_p12_1] Fused context: 165 words — Le document évalue la qualité physique de différents tronçons de cours d'eau en utilisant un outil rigoureux. Il compare...
+    [img_p13_1] Blocks: ['page_9_block_1', 'page_8_block_4', 'page_15_block_3'] → 3 text(s) found
+    [img_p13_1] Fused context: 143 words — La figure 1-3 présente l'aspect du cours d'eau à l'aval du tronçon 1, où le lit mineur, avec un coefficient de sinuosité...
+    [img_p13_2] Blocks: ['page_13_block_2', 'page_15_block_3', 'page_12_block_4'] → 3 text(s) found
+    [img_p13_2] Fused context: 125 words — La figure 1-9 présente l'aspect du cours d'eau au niveau des premières habitations, où la ripisylve, qui est l'habitat n...
+    [img_p14_1] Blocks: ['page_17_block_3', 'page_15_block_3', 'page_15_block_1'] → 3 text(s) found
+    [img_p14_1] Fused context: 102 words — La figure 1-15 présente un tronçon de cours d'eau où la végétation herbacée est dominante, tandis que la ripisylve arbor...
+    [img_p14_2] Blocks: ['page_15_block_1', 'page_15_block_3', 'page_9_block_1'] → 3 text(s) found
+    [img_p14_2] Fused context: 174 words — Le document évalue la qualité physique de différents tronçons de cours d'eau en utilisant un outil rigoureux. Il compare...
+    [img_p15_1] Blocks: ['page_15_block_3', 'page_17_block_2', 'page_18_block_4'] → 3 text(s) found
+    [img_p15_1] Fused context: 103 words — Le document évalue la qualité physique de différents tronçons de cours d'eau en utilisant un outil rigoureux. Il compare...
+    [img_p16_1] Blocks: ['page_16_block_1', 'page_15_block_3', 'page_17_block_2'] → 3 text(s) found
+    [img_p16_1] Fused context: 103 words — La figure 1-13 illustre la présence d'embâcles et de matériaux colmatant sur un tronçon de cours d'eau, où l'état de la ...
+    [img_p17_1] Blocks: ['page_17_block_3', 'page_17_block_2', 'page_17_block_1'] → 3 text(s) found
+    [img_p17_1] Fused context: 156 words — La figure 1-15 met en évidence l'impact de l'habitat végétal sur le tronçon de cours d'eau, avec une végétation herbacée...
+    [img_p17_2] Blocks: ['page_17_block_2', 'page_18_block_4', 'page_17_block_1'] → 3 text(s) found
+    [img_p17_2] Fused context: 163 words — La figure 1-14 illustre l'état des berges d'un tronçon de cours d'eau, mettant en évidence les enrochements et remblais ...
+    [img_p18_1] Blocks: ['page_17_block_3', 'page_18_block_4', 'page_15_block_3'] → 3 text(s) found
+    [img_p18_1] Fused context: 156 words — La figure 1-15 présente un tronçon de cours d'eau où la végétation herbacée est dominante, tandis que la ripisylve arbor...
+    [img_p19_1] Blocks: ['page_18_block_4', 'page_19_block_1', 'page_17_block_3'] → 3 text(s) found
+    [img_p19_1] Fused context: 103 words — Le document évalue la qualité physique de différents tronçons de cours d'eau en utilisant un outil rigoureux. Il compare...
+    [img_p19_2] Blocks: ['page_18_block_4', 'page_17_block_3', 'page_15_block_3'] → 3 text(s) found
+    [img_p19_2] Fused context: 103 words — Ce document évalue la qualité physique de différents tronçons de cours d'eau en utilisant un outil rigoureux. Il compare...
+    [img_p1_1] Blocks: ['page_14_block_1', 'page_15_block_3', 'page_9_block_4'] → 3 text(s) found
+    [img_p1_1] Fused context: 103 words — Ce document évalue la qualité physique de différents tronçons de cours d'eau en utilisant un outil rigoureux. Il compare...
+    [img_p1_2] Blocks: ['page_14_block_1', 'page_8_block_3', 'page_11_block_2'] → 3 text(s) found
+    [img_p1_2] Fused context: 103 words — Le document évalue la qualité physique de différents tronçons de cours d'eau en utilisant un outil rigoureux. Il compare...
+    [img_p20_1] Blocks: ['page_20_block_2', 'page_20_block_1', 'page_18_block_4'] → 3 text(s) found
+    [img_p20_1] Fused context: 147 words — La figure 1-20 met en évidence la présence d'algues et l'infiltration du ruisseau dans le substrat, soulignant ainsi l'i...
+    [img_p20_2] Blocks: ['page_20_block_1', 'page_17_block_2', 'page_15_block_3'] → 3 text(s) found
+    [img_p20_2] Fused context: 152 words — La figure 1-19 illustre la composition et l'état de la végétation des berges d'un tronçon de cours d'eau. Le lit mineur,...
+    [img_p21_1] Blocks: ['page_20_block_2', 'page_21_block_1', 'page_18_block_4'] → 3 text(s) found
+    [img_p21_1] Fused context: 120 words — La figure 1-20 met en évidence la présence d'algues et l'infiltration du ruisseau dans le substrat 8, ce qui a pour cons...
+    [img_p22_1] Blocks: ['page_20_block_2', 'page_22_block_2', 'page_22_block_1'] → 3 text(s) found
+    [img_p22_1] Fused context: 142 words — La figure 1-20 illustre la présence d'algues et l'infiltration du ruisseau dans le substrat 8, mettant en évidence la pe...
+    [img_p23_1] Blocks: ['page_23_block_1', 'page_17_block_1', 'page_21_block_3'] → 3 text(s) found
+    [img_p23_1] Fused context: 103 words — Le document évalue la qualité physique de différents tronçons de cours d'eau en utilisant un outil rigoureux. Il compare...
+    [img_p7_1] Blocks: ['page_9_block_3', 'page_9_block_1', 'page_8_block_2'] → 3 text(s) found
+    [img_p7_1] Fused context: 164 words — Le document évalue la qualité physique de différents tronçons de cours d'eau en utilisant un outil rigoureux. Il compare...
+    [img_p8_1] Blocks: ['page_8_block_4', 'page_9_block_1', 'page_8_block_2'] → 3 text(s) found
+    [img_p8_1] Fused context: 162 words — La figure 1-2 montre l'aspect du cours d'eau et du lit majeur à l'amont du tronçon 1, où la ripisylve, en bon état, est ...
+    [img_p9_1] Blocks: ['page_9_block_1', 'page_8_block_4', 'page_9_block_4'] → 3 text(s) found
+    [img_p9_1] Fused context: 171 words — La figure 1-3 présente l'aspect du cours d'eau à l'aval du tronçon 1, où le lit mineur, avec un coefficient de sinuosité...
+    Saved → /home2020/home/icube/janil/Rhine_proj/outputs/Weighted_summary/fichier_vidore_weighted_context.json
+
+>>> PDF: reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7 | Retriever: vidore
+    [Summary] Loaded existing summary (159 words)
+    [Retrieval] 5 images found in CSV
+    [img_p1_1] Blocks: ['page_1_block_3', 'page_4_block_2', 'page_3_block_1'] → 3 text(s) found
+    [img_p1_1] Fused context: 159 words — Le document explore la restauration écologique du Rhin, un fleuve très anthropisé. Les auteurs ont utilisé des cartes an...
+    [img_p3_1] Blocks: ['page_2_block_2', 'page_1_block_3', 'page_3_block_1'] → 3 text(s) found
+    [img_p3_1] Fused context: 159 words — Le document explore la restauration écologique du Rhin, un fleuve très anthropisé. Les auteurs ont utilisé des cartes an...
+    [img_p4_1] Blocks: ['page_4_block_2', 'page_2_block_2', 'page_3_block_1'] → 3 text(s) found
+    [img_p4_1] Fused context: 159 words — Le document explore la restauration écologique du Rhin, un fleuve très anthropisé. Les auteurs ont utilisé des cartes an...
+    [img_p5_1] Blocks: ['page_3_block_1', 'page_4_block_2', 'page_1_block_3'] → 3 text(s) found
+    [img_p5_1] Fused context: 156 words — La figure 1 présente trois cartes anciennes du Rhin, datant de 1828, 1872 et 1925, qui ont été utilisées pour reconstitu...
+    [img_p5_2] Blocks: ['page_3_block_1', 'page_4_block_2', 'page_1_block_3'] → 3 text(s) found
+    [img_p5_2] Fused context: 156 words — La figure 1 présente trois cartes anciennes du Rhin, datant de 1828, 1872 et 1925, qui ont été utilisées pour reconstitu...
+    Saved → /home2020/home/icube/janil/Rhine_proj/outputs/Weighted_summary/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7_vidore_weighted_context.json
+
+======================================================================
+WEIGHTED CONTEXT GENERATION COMPLETE
+Outputs saved to: /home2020/home/icube/janil/Rhine_proj/outputs/Weighted_summary
+======================================================================

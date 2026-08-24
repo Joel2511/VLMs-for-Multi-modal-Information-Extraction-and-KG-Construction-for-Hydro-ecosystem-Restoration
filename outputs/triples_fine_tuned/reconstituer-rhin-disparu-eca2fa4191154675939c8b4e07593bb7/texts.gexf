@@ -1,0 +1,1060 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-08-18">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="10" title="networkx_key" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="datasource" type="string" />
+      <attribute id="1" title="extractedFrom" type="string" />
+      <attribute id="2" title="hasLength" type="string" />
+      <attribute id="3" title="hasMonitoringDescription" type="string" />
+      <attribute id="4" title="hasMonitoringStartDate" type="string" />
+      <attribute id="5" title="hasMonitoringEndDate" type="string" />
+      <attribute id="6" title="hasWidth" type="string" />
+      <attribute id="7" title="hasPurpose" type="string" />
+      <attribute id="8" title="hasDescription" type="string" />
+      <attribute id="9" title="note" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Petite_Camargue_Alsacienne" label="Petite_Camargue_Alsacienne">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="France" label="France">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Le_Rhin" label="Le_Rhin">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Restauration_Ecologique" label="Restauration_Ecologique">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Page_3" label="Page_3">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="NamedIndividual" label="NamedIndividual">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Rhin" label="Rhin">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="2" value="50 km" />
+          <attvalue for="3" value="comparaison des cartes et le découpage du linéaire en segments de 500 m de long" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="4" value="1828" />
+          <attvalue for="5" value="1925" />
+          <attvalue for="6" value="3,5 km" />
+        </attvalues>
+      </node>
+      <node id="Rectifier_Les_Fleuves" label="Rectifier_Les_Fleuves">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Gestionnaires_De_Milieux_Naturels" label="Gestionnaires_De_Milieux_Naturels">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Production_Hydroelectrique" label="Production_Hydroelectrique">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Appauvrissement_De_La_Biodiversite" label="Appauvrissement_De_La_Biodiversite">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Restauration" label="Restauration">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="7" value="améliorer la qualité et le fonctionnement écologique d’un milieu naturel dégradé par l’homme; rétablissement du libre déplacement des poissons par l’arasement de seuils; améliorer la fonctionnalité et la structure des écosystèmes" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="restoration" label="restoration">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Developpement_De_La_Navigation" label="Developpement_De_La_Navigation">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Projet_Kembs" label="Projet_Kembs">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="8" value="programme intégré pour l’amélioration de la performance environnementale d’une grande centrale hydroélectrique existante" />
+          <attvalue for="4" value="2012" />
+          <attvalue for="3" value="programme intégré pour l’amélioration de la performance environnementale d’une grande centrale hydroélectrique existante" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="5" value="2015" />
+        </attvalues>
+      </node>
+      <node id="Edf" label="Edf">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Ameliorer_La_Navigation" label="Ameliorer_La_Navigation">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Vieux_Rhin" label="Vieux_Rhin">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="river" label="river">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Non_Specifie" label="Non_Specifie">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Renforcer_Lattractivite_Du_Fleuve" label="Renforcer_Lattractivite_Du_Fleuve">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Developpement_De_Lagriculture" label="Developpement_De_Lagriculture">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Carte_De_1954" label="Carte_De_1954">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="9" value="hasScale: 1:5 000" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Alimenter_Les_Usines_Hydroelectriques" label="Alimenter_Les_Usines_Hydroelectriques">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Transformer_Le_Paysage" label="Transformer_Le_Paysage">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Carte_De_1946" label="Carte_De_1946">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="9" value="hasScale: 1:5 000" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Reconstituer_Le_Rhin_Disparu" label="Reconstituer_Le_Rhin_Disparu">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Transformation_Du_Paysage" label="Transformation_Du_Paysage">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Directivecadre_Sur_Leau_200060Ce" label="Directivecadre_Sur_Leau_200060Ce">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="9" value="fixesObjectif: atteindre le bon état écologique en 2015" />
+        </attvalues>
+      </node>
+      <node id="Introduction_De_Sediments_Dans_Le_Chenal" label="Introduction_De_Sediments_Dans_Le_Chenal">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="7" value="améliorer la qualité et le fonctionnement écologique d’un milieu naturel dégradé par l’homme" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Carte_De_1872" label="Carte_De_1872">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="9" value="hasScale: 1:20 000" />
+        </attvalues>
+      </node>
+      <node id="Carte_De_1828" label="Carte_De_1828">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="9" value="hasScale: 1:20 000" />
+        </attvalues>
+      </node>
+      <node id="Figure_1" label="Figure_1">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Carte_De_1925" label="Carte_De_1925">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="9" value="hasScale: 1:25 000" />
+        </attvalues>
+      </node>
+      <node id="Reinondation_De_Compartiments_De_Plaines_Alluviales" label="Reinondation_De_Compartiments_De_Plaines_Alluviales">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="7" value="améliorer la qualité et le fonctionnement écologique d’un milieu naturel dégradé par l’homme" />
+        </attvalues>
+      </node>
+      <node id="restorationMeasure" label="restorationMeasure">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Protection_Contre_Les_Inondations" label="Protection_Contre_Les_Inondations">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Kembs_Et_Breisach" label="Kembs_Et_Breisach">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Ameliorer_La_Performance_Environnementale" label="Ameliorer_La_Performance_Environnementale">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Cibler_Des_Services_Utiles_Aux_Societes" label="Cibler_Des_Services_Utiles_Aux_Societes">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Chercheurs" label="Chercheurs">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Institutions" label="Institutions">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Allemagne" label="Allemagne">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Retablissement_Du_Libre_Deplacement_Des_Poissons_Par_Larasement_De_Seuils" label="Retablissement_Du_Libre_Deplacement_Des_Poissons_Par_Larasement_De_Seuils">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="7" value="améliorer la qualité et le fonctionnement écologique d’un milieu naturel dégradé par l’homme" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Les_Cartes" label="Les_Cartes">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="7" value="analyser les changements liés à l’aménagement du fleuve" />
+        </attvalues>
+      </node>
+      <node id="Processus_Physiques_Hydromorphologiques" label="Processus_Physiques_Hydromorphologiques">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="9" value="supportDes: habitats et de la biodiversité" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Photographies_Aeriennes_De_Lign" label="Photographies_Aeriennes_De_Lign">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="9" value="hasPeriod: entre 1949 et 2008; hasFrequency: tous les dix ans" />
+        </attvalues>
+      </node>
+      <node id="Remise_En_Eau_Danciens_Bras_Lateraux" label="Remise_En_Eau_Danciens_Bras_Lateraux">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="7" value="améliorer la qualité et le fonctionnement écologique d’un milieu naturel dégradé par l’homme" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Riverbankexcavation" label="Riverbankexcavation">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="instance_graph" label="instance_graph">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Ontology" label="Ontology">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Augmentation_Des_Debits_En_Aval_De_Barrages" label="Augmentation_Des_Debits_En_Aval_De_Barrages">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="7" value="améliorer la qualité et le fonctionnement écologique d’un milieu naturel dégradé par l’homme" />
+        </attvalues>
+      </node>
+      <node id="wetland" label="wetland">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Etudier_La_Faisabilite_Dune_Restauration_Ecologique" label="Etudier_La_Faisabilite_Dune_Restauration_Ecologique">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Restauration_Des_Rivieres" label="Restauration_Des_Rivieres">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="9" value="porteEssentiellementSur: processus physiques hydromorphologiques" />
+        </attvalues>
+      </node>
+      <node id="otherActor" label="otherActor">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="geographicZone" label="geographicZone">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Petite_Camargue_Alsacienne" target="France" id="0" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Petite_Camargue_Alsacienne" target="Appauvrissement_De_La_Biodiversite" id="1" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Petite_Camargue_Alsacienne" target="Developpement_De_Lagriculture" id="2" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Petite_Camargue_Alsacienne" target="Alimenter_Les_Usines_Hydroelectriques" id="3" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Petite_Camargue_Alsacienne" target="Transformer_Le_Paysage" id="4" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Petite_Camargue_Alsacienne" target="Rhin" id="5" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Petite_Camargue_Alsacienne" target="Production_Hydroelectrique" id="6" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Petite_Camargue_Alsacienne" target="Reconstituer_Le_Rhin_Disparu" id="7" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Petite_Camargue_Alsacienne" target="NamedIndividual" id="8" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Petite_Camargue_Alsacienne" target="Ameliorer_La_Navigation" id="9" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Petite_Camargue_Alsacienne" target="Renforcer_Lattractivite_Du_Fleuve" id="10" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Petite_Camargue_Alsacienne" target="wetland" id="11" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Petite_Camargue_Alsacienne" target="Protection_Contre_Les_Inondations" id="12" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="France" target="NamedIndividual" id="13" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Rhin" target="Restauration_Ecologique" id="14" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Rhin" target="Appauvrissement_De_La_Biodiversite" id="15" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Rhin" target="Developpement_De_Lagriculture" id="16" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Rhin" target="river" id="17" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Rhin" target="Transformation_Du_Paysage" id="18" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Rhin" target="Allemagne" id="19" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Rhin" target="France" id="20" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Rhin" target="France" id="21" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="10" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Rhin" target="Production_Hydroelectrique" id="22" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Rhin" target="Developpement_De_La_Navigation" id="23" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Rhin" target="NamedIndividual" id="24" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Rhin" target="Protection_Contre_Les_Inondations" id="25" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration_Ecologique" target="NamedIndividual" id="26" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Page_3" target="NamedIndividual" id="27" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Rectifier_Les_Fleuves" id="28" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Production_Hydroelectrique" id="29" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Developpement_De_La_Navigation" id="30" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="NamedIndividual" id="31" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Ameliorer_La_Navigation" id="32" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Protection_Contre_Les_Inondations" id="33" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Kembs_Et_Breisach" id="34" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Chercheurs" id="35" label="isManagedBy">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Allemagne" id="36" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="France" id="37" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Appauvrissement_De_La_Biodiversite" id="38" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Developpement_De_Lagriculture" id="39" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="river" id="40" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Alimenter_Les_Usines_Hydroelectriques" id="41" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Gestionnaires_De_Milieux_Naturels" id="42" label="isManagedBy">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Transformation_Du_Paysage" id="43" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Institutions" id="44" label="isManagedBy">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rectifier_Les_Fleuves" target="NamedIndividual" id="45" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Gestionnaires_De_Milieux_Naturels" target="NamedIndividual" id="46" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Production_Hydroelectrique" target="NamedIndividual" id="47" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Appauvrissement_De_La_Biodiversite" target="NamedIndividual" id="48" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration" target="restoration" id="49" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration" target="NamedIndividual" id="50" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration" target="Ameliorer_La_Navigation" id="51" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration" target="Renforcer_Lattractivite_Du_Fleuve" id="52" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration" target="Directivecadre_Sur_Leau_200060Ce" id="53" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration" target="Introduction_De_Sediments_Dans_Le_Chenal" id="54" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration" target="Cibler_Des_Services_Utiles_Aux_Societes" id="55" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration" target="Remise_En_Eau_Danciens_Bras_Lateraux" id="56" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration" target="Alimenter_Les_Usines_Hydroelectriques" id="57" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration" target="Transformer_Le_Paysage" id="58" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration" target="Reinondation_De_Compartiments_De_Plaines_Alluviales" id="59" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Developpement_De_La_Navigation" target="NamedIndividual" id="60" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_Kembs" target="Edf" id="61" label="hasMainContractor">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_Kembs" target="Edf" id="62" label="isManagedBy">
+        <attvalues>
+          <attvalue for="10" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_Kembs" target="Non_Specifie" id="63" label="hasMonitoringCost">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_Kembs" target="Non_Specifie" id="64" label="hasCost">
+        <attvalues>
+          <attvalue for="10" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_Kembs" target="Kembs_Et_Breisach" id="65" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_Kembs" target="Ameliorer_La_Performance_Environnementale" id="66" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_Kembs" target="restoration" id="67" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_Kembs" target="NamedIndividual" id="68" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Edf" target="NamedIndividual" id="69" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Edf" target="Riverbankexcavation" id="70" label="hasMainContractor">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Edf" target="otherActor" id="71" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ameliorer_La_Navigation" target="NamedIndividual" id="72" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vieux_Rhin" target="river" id="73" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vieux_Rhin" target="NamedIndividual" id="74" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vieux_Rhin" target="Kembs_Et_Breisach" id="75" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Non_Specifie" target="NamedIndividual" id="76" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Renforcer_Lattractivite_Du_Fleuve" target="NamedIndividual" id="77" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Developpement_De_Lagriculture" target="NamedIndividual" id="78" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Carte_De_1954" target="NamedIndividual" id="79" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Carte_De_1954" target="Page_3" id="80" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Alimenter_Les_Usines_Hydroelectriques" target="NamedIndividual" id="81" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Transformer_Le_Paysage" target="NamedIndividual" id="82" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Carte_De_1946" target="NamedIndividual" id="83" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Carte_De_1946" target="Page_3" id="84" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstituer_Le_Rhin_Disparu" target="Gestionnaires_De_Milieux_Naturels" id="85" label="isManagedBy">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstituer_Le_Rhin_Disparu" target="Ameliorer_La_Performance_Environnementale" id="86" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstituer_Le_Rhin_Disparu" target="restoration" id="87" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstituer_Le_Rhin_Disparu" target="NamedIndividual" id="88" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstituer_Le_Rhin_Disparu" target="Institutions" id="89" label="isManagedBy">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstituer_Le_Rhin_Disparu" target="Chercheurs" id="90" label="isManagedBy">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstituer_Le_Rhin_Disparu" target="Allemagne" id="91" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstituer_Le_Rhin_Disparu" target="Etudier_La_Faisabilite_Dune_Restauration_Ecologique" id="92" label="hasPurpose">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstituer_Le_Rhin_Disparu" target="Kembs_Et_Breisach" id="93" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstituer_Le_Rhin_Disparu" target="France" id="94" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Transformation_Du_Paysage" target="NamedIndividual" id="95" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Directivecadre_Sur_Leau_200060Ce" target="NamedIndividual" id="96" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Introduction_De_Sediments_Dans_Le_Chenal" target="restorationMeasure" id="97" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Introduction_De_Sediments_Dans_Le_Chenal" target="NamedIndividual" id="98" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Carte_De_1872" target="NamedIndividual" id="99" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Carte_De_1872" target="Page_3" id="100" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Carte_De_1828" target="Figure_1" id="101" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Carte_De_1828" target="NamedIndividual" id="102" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Carte_De_1828" target="Page_3" id="103" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Figure_1" target="NamedIndividual" id="104" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Carte_De_1925" target="Page_3" id="105" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Carte_De_1925" target="NamedIndividual" id="106" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reinondation_De_Compartiments_De_Plaines_Alluviales" target="restorationMeasure" id="107" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reinondation_De_Compartiments_De_Plaines_Alluviales" target="NamedIndividual" id="108" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Protection_Contre_Les_Inondations" target="NamedIndividual" id="109" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Kembs_Et_Breisach" target="NamedIndividual" id="110" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Kembs_Et_Breisach" target="Allemagne" id="111" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Kembs_Et_Breisach" target="France" id="112" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Kembs_Et_Breisach" target="geographicZone" id="113" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ameliorer_La_Performance_Environnementale" target="NamedIndividual" id="114" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cibler_Des_Services_Utiles_Aux_Societes" target="NamedIndividual" id="115" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Chercheurs" target="NamedIndividual" id="116" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Institutions" target="NamedIndividual" id="117" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Allemagne" target="NamedIndividual" id="118" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Retablissement_Du_Libre_Deplacement_Des_Poissons_Par_Larasement_De_Seuils" target="NamedIndividual" id="119" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Retablissement_Du_Libre_Deplacement_Des_Poissons_Par_Larasement_De_Seuils" target="restorationMeasure" id="120" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Cartes" target="France" id="121" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Cartes" target="NamedIndividual" id="122" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Processus_Physiques_Hydromorphologiques" target="NamedIndividual" id="123" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Photographies_Aeriennes_De_Lign" target="NamedIndividual" id="124" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Photographies_Aeriennes_De_Lign" target="Page_3" id="125" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Remise_En_Eau_Danciens_Bras_Lateraux" target="restorationMeasure" id="126" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Remise_En_Eau_Danciens_Bras_Lateraux" target="NamedIndividual" id="127" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Riverbankexcavation" target="NamedIndividual" id="128" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="instance_graph" target="Ontology" id="129" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Augmentation_Des_Debits_En_Aval_De_Barrages" target="restorationMeasure" id="130" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Augmentation_Des_Debits_En_Aval_De_Barrages" target="NamedIndividual" id="131" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Etudier_La_Faisabilite_Dune_Restauration_Ecologique" target="NamedIndividual" id="132" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration_Des_Rivieres" target="restoration" id="133" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration_Des_Rivieres" target="NamedIndividual" id="134" label="type">
+        <attvalues>
+          <attvalue for="10" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

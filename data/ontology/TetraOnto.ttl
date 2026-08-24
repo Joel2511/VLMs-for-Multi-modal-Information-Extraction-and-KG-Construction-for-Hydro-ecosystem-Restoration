@@ -1,0 +1,952 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://anonymous> a owl:Ontology .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl> a owl:Ontology .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#BypassSystem> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#fishway> ;
+    skos:prefLabel "Bypass System"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#Lake> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#waterBody> ;
+    skos:altLabel "lac"@fr ;
+    skos:prefLabel "Lake"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#TrapSystem> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#fishway> ;
+    skos:prefLabel "Trap System"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#affluent> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#waterBody> ;
+    skos:altLabel "affluent"@fr ;
+    skos:prefLabel "affluent"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#anadromous> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#amphibioticMigrant>,
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#migratorySpecie> ;
+    skos:altLabel "anadrome"@fr ;
+    skos:prefLabel "anadromous"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#arm> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#waterBody> ;
+    skos:altLabel "bras"@fr ;
+    skos:prefLabel "arm"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#artificialObstacle> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#barrier> ;
+    skos:prefLabel "artificial obstacle"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#baffleBrush> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedMeas> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#eelLadder> ;
+    skos:altLabel "tapis brosse"@fr ;
+    skos:prefLabel "baffle brush"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#baffleFishway> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedMeas> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#basinPasses> ;
+    skos:altLabel "passe à chicanes"@fr ;
+    skos:prefLabel "baffle fishway"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#biologicalMonitoring> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ;
+    skos:altLabel "suivi biologique"@fr ;
+    skos:prefLabel "biological monitoring"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#catadromous> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#amphibioticMigrant>,
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#migratorySpecie> ;
+    skos:altLabel "catadrome"@fr ;
+    skos:prefLabel "catadromous"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#channelCreation> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    skos:altLabel "création d’un chenal"@fr ;
+    skos:prefLabel "channel creation"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#containsNotch> a owl:ObjectProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationOperation> ;
+    rdfs:range <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#notch> ;
+    skos:prefLabel "containsNotch"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#containsOtherElements> a owl:ObjectProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationOperation> ;
+    rdfs:range <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#otherElement> ;
+    skos:prefLabel "containsOtherElements"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#containsPool> a owl:ObjectProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationOperation> ;
+    rdfs:range <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#pool> ;
+    skos:prefLabel "containsPool"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#counterDrainageChannel> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#waterBody> ;
+    skos:altLabel "contre-canal de drainage"@fr ;
+    skos:prefLabel "counter drainage channel"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#country> a owl:Class ;
+    skos:altLabel "pays"@fr ;
+    skos:prefLabel "country"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#de-silting> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    skos:altLabel "désenvasement"@fr ;
+    skos:prefLabel "de-silting"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#distributionBasin> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#fishway> ;
+    skos:altLabel "bassin de répartition"@fr ;
+    skos:prefLabel "distribution basin"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#ecologicalMonitoring> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ;
+    skos:altLabel "suivi écologique"@fr ;
+    skos:prefLabel "ecological monitoring"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#endsAt> a owl:DatatypeProperty ;
+    rdfs:domain [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    rdfs:range xsd:dateTime ;
+    skos:prefLabel "endsAt"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#fishLift> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedMeas> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#eelLadder> ;
+    skos:altLabel "ascenseur à poissons"@fr ;
+    skos:prefLabel "fish lift"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#fishLock> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedMeas> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#fishway> ;
+    skos:altLabel "écluse à poissons"@fr ;
+    skos:prefLabel "fish lock"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#floodRetention> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    skos:altLabel "rétention de crues"@fr ;
+    skos:prefLabel "flood retention"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#flowRestoration> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restoration> ;
+    skos:altLabel "restauration de cours d'eau"@fr ;
+    skos:prefLabel "flow restoration"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#forestRestoration> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    skos:altLabel "restauration de forêts"@fr ;
+    skos:prefLabel "forest restoration"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#gate> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ;
+    skos:altLabel "vanne"@fr ;
+    skos:prefLabel "gate"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#gravelInsertion> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#sedimentTransport> ;
+    skos:altLabel "engravement"@fr ;
+    skos:prefLabel "gravel insertion"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#groyneModification> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#sedimentTransport> ;
+    skos:altLabel "modification de l'épi"@fr ;
+    skos:prefLabel "groyne modification"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#habitatRestoration> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restoration> ;
+    skos:altLabel "restauration des habitats"@fr ;
+    skos:prefLabel "habitat restoration"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasAverageSlope> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#artificialRiver> ;
+    rdfs:range xsd:string ;
+    skos:prefLabel "hasAverageSlope"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasBiologicalMonitoring> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    rdfs:range xsd:boolean ;
+    rdfs:subPropertyOf owl:topDataProperty ;
+    skos:prefLabel "hasBiologicalMonitoring"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCategory> a owl:ObjectProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    rdfs:range <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restoration> ;
+    skos:prefLabel "hasCategory"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasDescription> a owl:DatatypeProperty ;
+    rdfs:domain [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    rdfs:range xsd:string ;
+    skos:prefLabel "hasDescription"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasFonctionality> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    rdfs:range xsd:boolean ;
+    skos:prefLabel "hasFonctionality"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasFunction> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationOperation> ;
+    rdfs:range xsd:string .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasHeight> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#dam>,
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ;
+    rdfs:range owl:real ;
+    skos:prefLabel "hasHeight"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasHeightBetweenBasins> a owl:DatatypeProperty ;
+    skos:prefLabel "hasHeightBetweenBasins"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasHydromorphologicalMonitoring> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    rdfs:range xsd:boolean ;
+    skos:prefLabel "hasHydromorphologicalMonitoring"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasLength> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#artificialRiver> ;
+    rdfs:range xsd:decimal ;
+    skos:prefLabel "hasLength"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasMainContractor> a owl:ObjectProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    rdfs:range <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#mainContractor> ;
+    skos:prefLabel "hasMainContractor"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasMaxLowWaterFlow> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#artificialRiver> ;
+    rdfs:range xsd:float ;
+    skos:prefLabel "hasMaxLowWaterFlow"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasMinLowWaterFlow> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#artificialRiver> ;
+    rdfs:range xsd:float ;
+    skos:prefLabel "hasMinLowWaterFlow"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasMonitoringCost> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ;
+    rdfs:range xsd:decimal ;
+    skos:prefLabel "hasMonitoringCost"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasMonitoringDescription> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ;
+    rdfs:range xsd:string ;
+    skos:prefLabel "hasMonitoringDescription"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasMonitoringEndDate> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ;
+    rdfs:range xsd:dateTime ;
+    skos:prefLabel "hasMonitoringEndDate"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasMonitoringStartDate> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ;
+    rdfs:range xsd:dateTime ;
+    skos:prefLabel "hasMonitoringStartDate"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasNotchHigh> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#notch> ;
+    rdfs:range xsd:integer ;
+    skos:prefLabel "hasNotchHigh"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasNotchWidth> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#notch> ;
+    rdfs:range xsd:integer ;
+    skos:prefLabel "hasNotchWidth"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasNotches> a owl:DatatypeProperty ;
+    skos:prefLabel "hasNotches"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasNumberOfBasins> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationOperation> ;
+    rdfs:range xsd:integer ;
+    skos:prefLabel "hasNumberOfBasins"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasNumberOfEntries> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    rdfs:range xsd:integer ;
+    skos:prefLabel "hasNumberOfEntries"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasNumberOfInstallations> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationOperation> ;
+    rdfs:range xsd:integer ;
+    skos:prefLabel "hasNumberOfInstallations"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasNumberOfPools> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationOperation> ;
+    rdfs:range xsd:integer ;
+    skos:prefLabel "hasNumberOfPools"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasPoolLength> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#pool> ;
+    rdfs:range xsd:integer ;
+    skos:prefLabel "hasPoolLength"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasPoolWidth> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#pool> ;
+    rdfs:range xsd:integer ;
+    skos:prefLabel "hasPoolWidth"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasPurpose> a owl:DatatypeProperty ;
+    rdfs:domain [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    rdfs:range xsd:string ;
+    skos:prefLabel "hasPurpose"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasWidth> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#artificialRiver> ;
+    rdfs:range xsd:decimal ;
+    skos:prefLabel "hasWidth"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#holobioticMigrant> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#migratorySpecie> ;
+    skos:altLabel "migrateur amphibiotique"@fr ;
+    skos:prefLabel "holobiotic migrant"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hydromorphologicalMonitoring> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ;
+    skos:altLabel "suivi hydromorphologique"@fr ;
+    skos:prefLabel "hydromorphological monitoring"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#inclinedWeirWithRedanUpstream> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#inclinedWeir> ;
+    skos:altLabel "seuil incliné présentant un redan en amont"@fr ;
+    skos:prefLabel "inclined weir with redan upstream"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isImpassable> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ;
+    rdfs:range xsd:boolean ;
+    skos:prefLabel "isImpassable"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isLocatedIn> a owl:DatatypeProperty ;
+    skos:prefLabel "isLocatedIn"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isManagedBy> a owl:ObjectProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    rdfs:range <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#projectOwner> ;
+    skos:prefLabel "isManagedBy"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#lateralContinuityRestoration> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restoration> ;
+    skos:altLabel "restauration de continuité latérale"@fr ;
+    skos:prefLabel "lateral continuity restoration"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#lavoirWeir> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#weir> ;
+    skos:altLabel "seuil de lavoir"@fr ;
+    skos:prefLabel "lavoir weir"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#longitudinalContinuityRestoration> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restoration> ;
+    skos:altLabel "restauration de la continuité longitudinale"@fr ;
+    skos:prefLabel "longitudinal continuity restoration"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#low-slopeRockfillWeir> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#weir> ;
+    skos:altLabel "seuil en enrochements à faible pente"@fr ;
+    skos:prefLabel "low-slope rockfill weir"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#millWeir> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#weir> ;
+    skos:altLabel "seuil de moulin"@fr ;
+    skos:prefLabel "mill weir"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#naturalObstacle> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#barrier> ;
+    skos:prefLabel "natural obstacle"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#nozzle> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ;
+    skos:altLabel "buse"@fr ;
+    skos:prefLabel "nozzle"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#observationRoom> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#technicalElement> ;
+    skos:altLabel "Local d'observation"@fr ;
+    skos:prefLabel "Observation room"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#otherActor> a owl:Class ;
+    skos:altLabel "autre acteur"@fr ;
+    skos:prefLabel "other actor"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#pond> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#waterBody> ;
+    skos:altLabel "étang"@fr ;
+    skos:prefLabel "pond"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#pondDyke> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ;
+    skos:altLabel "digue d’étang"@fr ;
+    skos:prefLabel "pond dyke"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#poolCreation> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    skos:altLabel "création de mares"@fr ;
+    skos:prefLabel "pool creation"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#poolRestoration> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    skos:altLabel "restauration de mares"@fr ;
+    skos:prefLabel "pool restoration"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#pre-barrage> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedMeas> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#fishway> ;
+    skos:altLabel "pre-dam"@en,
+        "prébarrage"@fr ;
+    skos:prefLabel "pre-barrage"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#profileDiversification> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    skos:altLabel "diversification des profils"@fr ;
+    skos:prefLabel "profile diversification"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#reconnection> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    skos:altLabel "reconnexion"@fr ;
+    skos:prefLabel "reconnection"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#redynamization> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    skos:altLabel "redynamisation"@fr ;
+    skos:prefLabel "redynamization"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#regularFlooding> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    skos:altLabel "inondations régulières"@fr ;
+    skos:prefLabel "regular flooding"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restoringSpawningGrounds> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    skos:altLabel "restauration de frayères"@fr ;
+    skos:prefLabel "restoring spawning grounds"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#river> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#waterBody> ;
+    skos:altLabel "rivière"@fr ;
+    skos:prefLabel "river"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#riverbankExcavation> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#sedimentTransport> ;
+    skos:altLabel "déroctage de berge"@fr ;
+    skos:prefLabel "riverbank excavation"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#riverbankRestoration> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    skos:altLabel "restauration de berges"@fr ;
+    skos:prefLabel "riverbank restoration"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#roadStructure> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ;
+    skos:altLabel "ouvrage routier"@fr ;
+    skos:prefLabel "road structure"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#routeModification> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    skos:altLabel "modification du tracé"@fr ;
+    skos:prefLabel "route modification"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#scientificMonitoring> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ;
+    skos:altLabel "suivi scientifique"@fr ;
+    skos:prefLabel "scientific monitoring"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#sedimentRecharging> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#sedimentTransport> ;
+    skos:altLabel "recharge sédimentaire"@fr ;
+    skos:prefLabel "sediment recharging"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#speedBumpsPass> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedMeas> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#fishway> ;
+    skos:altLabel "passe à ralentisseurs"@fr ;
+    skos:prefLabel "speed bumps pass"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#startsAt> a owl:DatatypeProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    rdfs:range xsd:dateTime ;
+    skos:prefLabel "startsAt"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#steep-slopeRockfillWeir> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#weir> ;
+    skos:altLabel "seuil en enrochement à forte pente"@fr ;
+    skos:prefLabel "steep-slope rockfill weir"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#studSubstrate> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedMeas> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#eelLadder> ;
+    skos:altLabel "substrat rugueux"@fr ;
+    skos:prefLabel "stud substrate"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#submergedOrifice> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#technicalElement> ;
+    skos:altLabel "orifice immergé"@fr ;
+    skos:prefLabel "submerged orifice"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#trapPass> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedMeas> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#eelLadder> ;
+    skos:altLabel "passe piège"@fr ;
+    skos:prefLabel "trap pass"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#upstreamMigrationObstacle> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#barrier> ;
+    skos:altLabel "obstacle à la migration en amont"@fr ;
+    skos:prefLabel "upstream migration obstacle"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#verticalSlot> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#technicalElement> ;
+    skos:altLabel "fente verticale"@fr ;
+    skos:prefLabel "vertical slot"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#verticalSlotPassage> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedMeas> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#basinPasses> ;
+    skos:altLabel "passage à fente verticale"@fr ;
+    skos:prefLabel "vertical slot passage"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#verticalWeir> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#weir> ;
+    skos:altLabel "seuil vertical"@fr ;
+    skos:prefLabel "vertical weir"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#viewingWindow> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#technicalElement> ;
+    skos:altLabel "vitre d’observation"@fr ;
+    skos:prefLabel "viewing Window"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#weirWaterBody> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#technicalElement> ;
+    skos:altLabel "seuil"@fr ;
+    skos:prefLabel "weir water body"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#weirWithASuccessionOfRedans> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#weir> ;
+    skos:altLabel "seuil présentant une succession de redans"@fr ;
+    skos:prefLabel "weir with a succession of redans"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#wetland> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#waterBody> ;
+    skos:altLabel "zone humide"@fr ;
+    skos:prefLabel "wetland"@en .
+
+skos:altLabel a owl:AnnotationProperty .
+
+skos:definition a owl:AnnotationProperty .
+
+skos:note a owl:AnnotationProperty .
+
+skos:prefLabel a owl:AnnotationProperty .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#dam> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ;
+    skos:altLabel "barrage"@en,
+        "barrage"@fr ;
+    skos:prefLabel "dam"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#inclinedWeir> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#weir> ;
+    skos:altLabel "seuil incliné"@fr ;
+    skos:prefLabel "inclined weir"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#includes> a owl:ObjectProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    rdfs:range <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationOperation> ;
+    skos:prefLabel "includes"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#mainContractor> a owl:Class ;
+    skos:altLabel "maître d'œuvre"@fr ;
+    skos:prefLabel "main contractor"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#otherElement> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#technicalElement> ;
+    skos:prefLabel "other element"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#projectOwner> a owl:Class ;
+    skos:altLabel "maîre d'ouvrage"@fr ;
+    skos:prefLabel "project owner"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#amphibioticMigrant> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#migratorySpecie> ;
+    skos:altLabel "diadromous"@en ;
+    skos:prefLabel "amphibiotic migrant"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#basinPasses> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedMeas> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#fishway> ;
+    skos:altLabel "passes à bassins"@fr ;
+    skos:prefLabel "basin passes"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isLocatedOn> a owl:ObjectProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure>,
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ;
+    rdfs:range <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone>,
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#waterBody> ;
+    skos:prefLabel "isLocatedOn"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#barrier> a owl:Class ;
+    skos:altLabel "obstacle"@en,
+        "barrière"@fr,
+        "obstacle"@fr ;
+    skos:prefLabel "barrier"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#notch> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#technicalElement> ;
+    skos:altLabel "échancrure"@fr ;
+    skos:prefLabel "notch"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#pool> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#technicalElement> ;
+    skos:altLabel "basin"@fr ;
+    skos:prefLabel "pool"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#eelLadder> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedMeas> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#fishway> ;
+    skos:altLabel "passe à anguilles"@fr ;
+    skos:prefLabel "eel ladder"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#migratorySpecie> a owl:Class ;
+    skos:altLabel "espèce migrateur"@fr ;
+    skos:prefLabel "migratory specie"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#sedimentTransport> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationOperation> ;
+    skos:altLabel "transport sédimentaire"@fr ;
+    skos:prefLabel "sediment transport"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#artificialRiver> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedMeas> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#fishway> ;
+    skos:altLabel "rivière artificielle"@fr ;
+    skos:prefLabel "artificial river"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restoration> a owl:Class ;
+    skos:altLabel "restauration"@fr ;
+    skos:prefLabel "restoration"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#weir> a owl:Class ;
+    rdfs:subClassOf <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#technicalElement> ;
+    skos:altLabel "seuil"@fr ;
+    skos:prefLabel "weir"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#fishway> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedMeas> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationOperation> ;
+    skos:altLabel "passe à poissons"@fr ;
+    skos:prefLabel "fishway"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#technicalElement> a owl:Class ;
+    skos:prefLabel "technical element"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#waterBody> a owl:Class ;
+    skos:altLabel "cours d'eau"@fr ;
+    skos:prefLabel "water body"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationOperation> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ] ;
+    skos:prefLabel "restoration operation"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedMeas> a owl:ObjectProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationOperation> ;
+    rdfs:range <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    skos:prefLabel "associatedMeas"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#associatedTo> a owl:ObjectProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    rdfs:range <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> ;
+    skos:prefLabel "associatedTo"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isSubjectTo> a owl:ObjectProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    rdfs:range <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> ;
+    skos:prefLabel "isSubjectTo"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#realizedIn> a owl:ObjectProperty ;
+    rdfs:domain <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    rdfs:range <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ;
+    skos:prefLabel "realizedIn"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> a owl:Class ;
+    skos:prefLabel "geographic zone"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> a owl:DatatypeProperty ;
+    rdfs:domain [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#hasCost> ;
+            owl:someValuesFrom xsd:decimal ],
+        <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> ;
+    rdfs:range xsd:decimal ;
+    skos:prefLabel "hasCost"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMonitoring> a owl:Class ;
+    skos:altLabel "suivi de la restauration"@fr ;
+    skos:prefLabel "restoration monitoring"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#structure> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isLocatedOn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#waterBody> ] ;
+    skos:altLabel "ouvrage"@fr ;
+    skos:prefLabel "structure"@en .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationMeasure> a owl:Class ;
+    rdfs:subClassOf [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#includes> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#restorationOperation> ],
+        [ a owl:Restriction ;
+            owl:onProperty <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#isLocatedOn> ;
+            owl:someValuesFrom <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#geographicZone> ] ;
+    skos:altLabel "mesure de restauration"@fr ;
+    skos:prefLabel "restoration measure"@en .
+

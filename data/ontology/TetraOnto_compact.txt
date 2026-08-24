@@ -1,0 +1,140 @@
+=== CLASSES ===
+:BypassSystem  [EN:Bypass System]  subClassOf::fishway
+:Lake  [EN:Lake, FR/alt:lac]  subClassOf::waterBody
+:TrapSystem  [EN:Trap System]  subClassOf::fishway
+:affluent  [EN:affluent, FR/alt:affluent]  subClassOf::waterBody
+:amphibioticMigrant  [EN:amphibiotic migrant, FR/alt:diadromous]  subClassOf::migratorySpecie
+:anadromous  [EN:anadromous, FR/alt:anadrome]  subClassOf::amphibioticMigrant,:migratorySpecie
+:arm  [EN:arm, FR/alt:bras]  subClassOf::waterBody
+:artificialObstacle  [EN:artificial obstacle]  subClassOf::barrier
+:artificialRiver  [EN:artificial river, FR/alt:rivière artificielle]  subClassOf::fishway
+:baffleBrush  [EN:baffle brush, FR/alt:tapis brosse]  subClassOf::eelLadder
+:baffleFishway  [EN:baffle fishway, FR/alt:passe à chicanes]  subClassOf::basinPasses
+:barrier  [EN:barrier, FR/alt:obstacle|barrière|obstacle]
+:basinPasses  [EN:basin passes, FR/alt:passes à bassins]  subClassOf::fishway
+:biologicalMonitoring  [EN:biological monitoring, FR/alt:suivi biologique]  subClassOf::restorationMonitoring
+:catadromous  [EN:catadromous, FR/alt:catadrome]  subClassOf::amphibioticMigrant,:migratorySpecie
+:channelCreation  [EN:channel creation, FR/alt:création d’un chenal]  subClassOf::restorationMeasure
+:counterDrainageChannel  [EN:counter drainage channel, FR/alt:contre-canal de drainage]  subClassOf::waterBody
+:country  [EN:country, FR/alt:pays]
+:dam  [EN:dam, FR/alt:barrage|barrage]  subClassOf::structure
+:de-silting  [EN:de-silting, FR/alt:désenvasement]  subClassOf::restorationMeasure
+:distributionBasin  [EN:distribution basin, FR/alt:bassin de répartition]  subClassOf::fishway
+:ecologicalMonitoring  [EN:ecological monitoring, FR/alt:suivi écologique]  subClassOf::restorationMonitoring
+:eelLadder  [EN:eel ladder, FR/alt:passe à anguilles]  subClassOf::fishway
+:fishLift  [EN:fish lift, FR/alt:ascenseur à poissons]  subClassOf::eelLadder
+:fishLock  [EN:fish lock, FR/alt:écluse à poissons]  subClassOf::fishway
+:fishway  [EN:fishway, FR/alt:passe à poissons]  subClassOf::restorationOperation
+:floodRetention  [EN:flood retention, FR/alt:rétention de crues]  subClassOf::restorationMeasure
+:flowRestoration  [EN:flow restoration, FR/alt:restauration de cours d'eau]  subClassOf::restoration
+:forestRestoration  [EN:forest restoration, FR/alt:restauration de forêts]  subClassOf::restorationMeasure
+:gate  [EN:gate, FR/alt:vanne]  subClassOf::structure
+:geographicZone  [EN:geographic zone]
+:gravelInsertion  [EN:gravel insertion, FR/alt:engravement]  subClassOf::sedimentTransport
+:groyneModification  [EN:groyne modification, FR/alt:modification de l'épi]  subClassOf::sedimentTransport
+:habitatRestoration  [EN:habitat restoration, FR/alt:restauration des habitats]  subClassOf::restoration
+:holobioticMigrant  [EN:holobiotic migrant, FR/alt:migrateur amphibiotique]  subClassOf::migratorySpecie
+:hydromorphologicalMonitoring  [EN:hydromorphological monitoring, FR/alt:suivi hydromorphologique]  subClassOf::restorationMonitoring
+:inclinedWeir  [EN:inclined weir, FR/alt:seuil incliné]  subClassOf::weir
+:inclinedWeirWithRedanUpstream  [EN:inclined weir with redan upstream, FR/alt:seuil incliné présentant un redan en amont]  subClassOf::inclinedWeir
+:lateralContinuityRestoration  [EN:lateral continuity restoration, FR/alt:restauration de continuité latérale]  subClassOf::restoration
+:lavoirWeir  [EN:lavoir weir, FR/alt:seuil de lavoir]  subClassOf::weir
+:longitudinalContinuityRestoration  [EN:longitudinal continuity restoration, FR/alt:restauration de la continuité longitudinale]  subClassOf::restoration
+:low-slopeRockfillWeir  [EN:low-slope rockfill weir, FR/alt:seuil en enrochements à faible pente]  subClassOf::weir
+:mainContractor  [EN:main contractor, FR/alt:maître d'œuvre]
+:migratorySpecie  [EN:migratory specie, FR/alt:espèce migrateur]
+:millWeir  [EN:mill weir, FR/alt:seuil de moulin]  subClassOf::weir
+:naturalObstacle  [EN:natural obstacle]  subClassOf::barrier
+:notch  [EN:notch, FR/alt:échancrure]  subClassOf::technicalElement
+:nozzle  [EN:nozzle, FR/alt:buse]  subClassOf::structure
+:observationRoom  [EN:Observation room, FR/alt:Local d'observation]  subClassOf::technicalElement
+:otherActor  [EN:other actor, FR/alt:autre acteur]
+:otherElement  [EN:other element]  subClassOf::technicalElement
+:pond  [EN:pond, FR/alt:étang]  subClassOf::waterBody
+:pondDyke  [EN:pond dyke, FR/alt:digue d’étang]  subClassOf::structure
+:pool  [EN:pool, FR/alt:basin]  subClassOf::technicalElement
+:poolCreation  [EN:pool creation, FR/alt:création de mares]  subClassOf::restorationMeasure
+:poolRestoration  [EN:pool restoration, FR/alt:restauration de mares]  subClassOf::restorationMeasure
+:pre-barrage  [EN:pre-barrage, FR/alt:pre-dam|prébarrage]  subClassOf::fishway
+:profileDiversification  [EN:profile diversification, FR/alt:diversification des profils]  subClassOf::restorationMeasure
+:projectOwner  [EN:project owner, FR/alt:maîre d'ouvrage]
+:reconnection  [EN:reconnection, FR/alt:reconnexion]  subClassOf::restorationMeasure
+:redynamization  [EN:redynamization, FR/alt:redynamisation]  subClassOf::restorationMeasure
+:regularFlooding  [EN:regular flooding, FR/alt:inondations régulières]  subClassOf::restorationMeasure
+:restoration  [EN:restoration, FR/alt:restauration]
+:restorationMeasure  [EN:restoration measure, FR/alt:mesure de restauration]
+:restorationMonitoring  [EN:restoration monitoring, FR/alt:suivi de la restauration]
+:restorationOperation  [EN:restoration operation]
+:restoringSpawningGrounds  [EN:restoring spawning grounds, FR/alt:restauration de frayères]  subClassOf::restorationMeasure
+:river  [EN:river, FR/alt:rivière]  subClassOf::waterBody
+:riverbankExcavation  [EN:riverbank excavation, FR/alt:déroctage de berge]  subClassOf::sedimentTransport
+:riverbankRestoration  [EN:riverbank restoration, FR/alt:restauration de berges]  subClassOf::restorationMeasure
+:roadStructure  [EN:road structure, FR/alt:ouvrage routier]  subClassOf::structure
+:routeModification  [EN:route modification, FR/alt:modification du tracé]  subClassOf::restorationMeasure
+:scientificMonitoring  [EN:scientific monitoring, FR/alt:suivi scientifique]  subClassOf::restorationMonitoring
+:sedimentRecharging  [EN:sediment recharging, FR/alt:recharge sédimentaire]  subClassOf::sedimentTransport
+:sedimentTransport  [EN:sediment transport, FR/alt:transport sédimentaire]  subClassOf::restorationOperation
+:speedBumpsPass  [EN:speed bumps pass, FR/alt:passe à ralentisseurs]  subClassOf::fishway
+:steep-slopeRockfillWeir  [EN:steep-slope rockfill weir, FR/alt:seuil en enrochement à forte pente]  subClassOf::weir
+:structure  [EN:structure, FR/alt:ouvrage]
+:studSubstrate  [EN:stud substrate, FR/alt:substrat rugueux]  subClassOf::eelLadder
+:submergedOrifice  [EN:submerged orifice, FR/alt:orifice immergé]  subClassOf::technicalElement
+:technicalElement  [EN:technical element]
+:trapPass  [EN:trap pass, FR/alt:passe piège]  subClassOf::eelLadder
+:upstreamMigrationObstacle  [EN:upstream migration obstacle, FR/alt:obstacle à la migration en amont]  subClassOf::barrier
+:verticalSlot  [EN:vertical slot, FR/alt:fente verticale]  subClassOf::technicalElement
+:verticalSlotPassage  [EN:vertical slot passage, FR/alt:passage à fente verticale]  subClassOf::basinPasses
+:verticalWeir  [EN:vertical weir, FR/alt:seuil vertical]  subClassOf::weir
+:viewingWindow  [EN:viewing Window, FR/alt:vitre d’observation]  subClassOf::technicalElement
+:waterBody  [EN:water body, FR/alt:cours d'eau]
+:weir  [EN:weir, FR/alt:seuil]  subClassOf::technicalElement
+:weirWaterBody  [EN:weir water body, FR/alt:seuil]  subClassOf::technicalElement
+:weirWithASuccessionOfRedans  [EN:weir with a succession of redans, FR/alt:seuil présentant une succession de redans]  subClassOf::weir
+:wetland  [EN:wetland, FR/alt:zone humide]  subClassOf::waterBody
+
+=== OBJECT PROPERTIES ===
+:associatedMeas  [EN:associatedMeas]  domain::restorationOperation  range::restorationMeasure
+:associatedTo  [EN:associatedTo]  domain::restorationMeasure  range::structure
+:containsNotch  [EN:containsNotch]  domain::restorationOperation  range::notch
+:containsOtherElements  [EN:containsOtherElements]  domain::restorationOperation  range::otherElement
+:containsPool  [EN:containsPool]  domain::restorationOperation  range::pool
+:hasCategory  [EN:hasCategory]  domain::restorationMeasure  range::restoration
+:hasMainContractor  [EN:hasMainContractor]  domain::restorationMeasure  range::mainContractor
+:includes  [EN:includes]  domain::restorationMeasure  range::restorationOperation
+:isLocatedOn  [EN:isLocatedOn]  domain::restorationMeasure  range::geographicZone
+:isManagedBy  [EN:isManagedBy]  domain::restorationMeasure  range::projectOwner
+:isSubjectTo  [EN:isSubjectTo]  domain::restorationMeasure  range::restorationMonitoring
+:realizedIn  [EN:realizedIn]  domain::restorationMeasure  range::geographicZone
+
+=== DATATYPE PROPERTIES ===
+:endsAt  [EN:endsAt]  domain:n8f84a38e9bd446a78b9f20a7e3d221b3b11
+:hasAverageSlope  [EN:hasAverageSlope]  domain::artificialRiver
+:hasBiologicalMonitoring  [EN:hasBiologicalMonitoring]  domain::restorationMeasure
+:hasCost  [EN:hasCost]  domain:n8f84a38e9bd446a78b9f20a7e3d221b3b90
+:hasDescription  [EN:hasDescription]  domain:n8f84a38e9bd446a78b9f20a7e3d221b3b30
+:hasFonctionality  [EN:hasFonctionality]  domain::restorationMeasure
+:hasFunction  domain::restorationOperation
+:hasHeight  [EN:hasHeight]  domain::dam
+:hasHeightBetweenBasins  [EN:hasHeightBetweenBasins]
+:hasHydromorphologicalMonitoring  [EN:hasHydromorphologicalMonitoring]  domain::restorationMeasure
+:hasLength  [EN:hasLength]  domain::artificialRiver
+:hasMaxLowWaterFlow  [EN:hasMaxLowWaterFlow]  domain::artificialRiver
+:hasMinLowWaterFlow  [EN:hasMinLowWaterFlow]  domain::artificialRiver
+:hasMonitoringCost  [EN:hasMonitoringCost]  domain::restorationMonitoring
+:hasMonitoringDescription  [EN:hasMonitoringDescription]  domain::restorationMonitoring
+:hasMonitoringEndDate  [EN:hasMonitoringEndDate]  domain::restorationMonitoring
+:hasMonitoringStartDate  [EN:hasMonitoringStartDate]  domain::restorationMonitoring
+:hasNotchHigh  [EN:hasNotchHigh]  domain::notch
+:hasNotchWidth  [EN:hasNotchWidth]  domain::notch
+:hasNotches  [EN:hasNotches]
+:hasNumberOfBasins  [EN:hasNumberOfBasins]  domain::restorationOperation
+:hasNumberOfEntries  [EN:hasNumberOfEntries]  domain::restorationMeasure
+:hasNumberOfInstallations  [EN:hasNumberOfInstallations]  domain::restorationOperation
+:hasNumberOfPools  [EN:hasNumberOfPools]  domain::restorationOperation
+:hasPoolLength  [EN:hasPoolLength]  domain::pool
+:hasPoolWidth  [EN:hasPoolWidth]  domain::pool
+:hasPurpose  [EN:hasPurpose]  domain:n8f84a38e9bd446a78b9f20a7e3d221b3b31
+:hasWidth  [EN:hasWidth]  domain::artificialRiver
+:isImpassable  [EN:isImpassable]  domain::structure
+:isLocatedIn  [EN:isLocatedIn]
+:startsAt  [EN:startsAt]  domain::restorationMeasure

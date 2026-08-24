@@ -1,0 +1,361 @@
+
+======================================================================
+      SCIENTIFIC EVALUATION: SINGLE-VECTOR VS MULTI-VECTOR VS GT on fichier
+======================================================================
+
+SINGLE-VECTOR FAMILY (CLIP / DSE-QWEN2 / VDR-2B-MULTI-V1)
+----------------------------------------------------------------------
+CLIP
+----------------------------------------
+Total Queries Matched in GT: 25
+Recall@5:     0.08
+Precision@1:  0.04
+MRR:          0.088
+nDCG@5:       0.065
+----------------------------------------
+DSE-QWEN2
+----------------------------------------
+Total Queries Matched in GT: 25
+Recall@5:     0.28
+Precision@1:  0.2
+MRR:          0.3173
+nDCG@5:       0.2311
+----------------------------------------
+VIDORE-VDR
+----------------------------------------
+Total Queries Matched in GT: 25
+Recall@5:     0.28
+Precision@1:  0.16
+MRR:          0.2973
+nDCG@5:       0.2219
+----------------------------------------
+
+MULTI-VECTOR FAMILY (COLPALI / COLQWEN / NEMOTRON)
+----------------------------------------------------------------------
+COLPALI
+----------------------------------------
+Total Queries Matched in GT: 25
+Recall@5:     0.16
+Precision@1:  0.0
+MRR:          0.12
+nDCG@5:       0.1043
+----------------------------------------
+COLQWEN
+----------------------------------------
+Total Queries Matched in GT: 25
+Recall@5:     0.34
+Precision@1:  0.12
+MRR:          0.308
+nDCG@5:       0.2572
+----------------------------------------
+NEMOTRON
+----------------------------------------
+Total Queries Matched in GT: 25
+Recall@5:     0.2
+Precision@1:  0.08
+MRR:          0.1893
+nDCG@5:       0.1478
+----------------------------------------
+
+OVERALL COMPARISON (ALL MODELS)
+----------------------------------------
+Recall@5: ColQwen
+Precision@1: DSE
+MRR: DSE
+nDCG@5: ColQwen
+----------------------------------------
+Evaluation Complete.
+======================================================================
+
+
+======================================================================
+      SCIENTIFIC EVALUATION: SINGLE-VECTOR VS MULTI-VECTOR VS GT on 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire
+======================================================================
+
+SINGLE-VECTOR FAMILY (CLIP / DSE-QWEN2 / VDR-2B-MULTI-V1)
+----------------------------------------------------------------------
+CLIP
+----------------------------------------
+Total Queries Matched in GT: 17
+Recall@5:     0.1167
+Precision@1:  0.1765
+MRR:          0.2667
+nDCG@5:       0.1266
+----------------------------------------
+DSE-QWEN2
+----------------------------------------
+Total Queries Matched in GT: 17
+Recall@5:     0.5794
+Precision@1:  0.9412
+MRR:          0.9706
+nDCG@5:       0.6856
+----------------------------------------
+VIDORE-VDR
+----------------------------------------
+Total Queries Matched in GT: 17
+Recall@5:     0.55
+Precision@1:  1.0
+MRR:          1.0
+nDCG@5:       0.6759
+----------------------------------------
+
+MULTI-VECTOR FAMILY (COLPALI / COLQWEN / NEMOTRON)
+----------------------------------------------------------------------
+COLPALI
+----------------------------------------
+Total Queries Matched in GT: 17
+Recall@5:     0.449
+Precision@1:  0.4706
+MRR:          0.6686
+nDCG@5:       0.4695
+----------------------------------------
+COLQWEN
+----------------------------------------
+Total Queries Matched in GT: 17
+Recall@5:     0.4706
+Precision@1:  0.6471
+MRR:          0.799
+nDCG@5:       0.5265
+----------------------------------------
+NEMOTRON
+----------------------------------------
+Total Queries Matched in GT: 17
+Recall@5:     0.5549
+Precision@1:  0.7647
+MRR:          0.8725
+nDCG@5:       0.6142
+----------------------------------------
+
+OVERALL COMPARISON (ALL MODELS)
+----------------------------------------
+Recall@5: DSE
+Precision@1: ViDoRe
+MRR: ViDoRe
+nDCG@5: DSE
+----------------------------------------
+Evaluation Complete.
+======================================================================
+
+
+======================================================================
+      SCIENTIFIC EVALUATION: SINGLE-VECTOR VS MULTI-VECTOR VS GT on dossier_unio_crassus_zorn_v4_19_11_2024
+======================================================================
+
+SINGLE-VECTOR FAMILY (CLIP / DSE-QWEN2 / VDR-2B-MULTI-V1)
+----------------------------------------------------------------------
+CLIP
+----------------------------------------
+Total Queries Matched in GT: 19
+Recall@5:     0.1216
+Precision@1:  0.1053
+MRR:          0.2254
+nDCG@5:       0.1183
+----------------------------------------
+DSE-QWEN2
+----------------------------------------
+Total Queries Matched in GT: 19
+Recall@5:     0.4491
+Precision@1:  0.6316
+MRR:          0.7868
+nDCG@5:       0.5262
+----------------------------------------
+VIDORE-VDR
+----------------------------------------
+Total Queries Matched in GT: 19
+Recall@5:     0.4728
+Precision@1:  0.7368
+MRR:          0.8289
+nDCG@5:       0.5644
+----------------------------------------
+
+MULTI-VECTOR FAMILY (COLPALI / COLQWEN / NEMOTRON)
+----------------------------------------------------------------------
+COLPALI
+----------------------------------------
+Total Queries Matched in GT: 19
+Recall@5:     0.3159
+Precision@1:  0.4211
+MRR:          0.5851
+nDCG@5:       0.3652
+----------------------------------------
+COLQWEN
+----------------------------------------
+Total Queries Matched in GT: 19
+Recall@5:     0.3957
+Precision@1:  0.4737
+MRR:          0.6175
+nDCG@5:       0.4319
+----------------------------------------
+NEMOTRON
+----------------------------------------
+Total Queries Matched in GT: 19
+Recall@5:     0.5337
+Precision@1:  0.7368
+MRR:          0.8684
+nDCG@5:       0.6229
+----------------------------------------
+
+OVERALL COMPARISON (ALL MODELS)
+----------------------------------------
+Recall@5: Nemotron
+Precision@1: ViDoRe/Nemotron
+MRR: Nemotron
+nDCG@5: Nemotron
+----------------------------------------
+Evaluation Complete.
+======================================================================
+
+
+======================================================================
+      SCIENTIFIC EVALUATION: SINGLE-VECTOR VS MULTI-VECTOR VS GT on Rapport-stage-M2-Floriane
+======================================================================
+
+SINGLE-VECTOR FAMILY (CLIP / DSE-QWEN2 / VDR-2B-MULTI-V1)
+----------------------------------------------------------------------
+CLIP
+----------------------------------------
+Total Queries Matched in GT: 38
+Recall@5:     0.1826
+Precision@1:  0.2105
+MRR:          0.3066
+nDCG@5:       0.172
+----------------------------------------
+DSE-QWEN2
+----------------------------------------
+Total Queries Matched in GT: 38
+Recall@5:     0.3955
+Precision@1:  0.6316
+MRR:          0.6961
+nDCG@5:       0.4832
+----------------------------------------
+VIDORE-VDR
+----------------------------------------
+Total Queries Matched in GT: 38
+Recall@5:     0.4978
+Precision@1:  0.6842
+MRR:          0.7408
+nDCG@5:       0.5512
+----------------------------------------
+
+MULTI-VECTOR FAMILY (COLPALI / COLQWEN / NEMOTRON)
+----------------------------------------------------------------------
+COLPALI
+----------------------------------------
+Total Queries Matched in GT: 38
+Recall@5:     0.4165
+Precision@1:  0.6053
+MRR:          0.6754
+nDCG@5:       0.4738
+----------------------------------------
+COLQWEN
+----------------------------------------
+Total Queries Matched in GT: 38
+Recall@5:     0.4504
+Precision@1:  0.6053
+MRR:          0.6886
+nDCG@5:       0.5141
+----------------------------------------
+NEMOTRON
+----------------------------------------
+Total Queries Matched in GT: 38
+Recall@5:     0.4588
+Precision@1:  0.8158
+MRR:          0.8737
+nDCG@5:       0.5623
+----------------------------------------
+
+OVERALL COMPARISON (ALL MODELS)
+----------------------------------------
+Recall@5: ViDoRe
+Precision@1: Nemotron
+MRR: Nemotron
+nDCG@5: Nemotron
+----------------------------------------
+Evaluation Complete.
+======================================================================
+
+
+======================================================================
+      SCIENTIFIC EVALUATION: SINGLE-VECTOR VS MULTI-VECTOR VS GT on reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7
+======================================================================
+
+SINGLE-VECTOR FAMILY (CLIP / DSE-QWEN2 / VDR-2B-MULTI-V1)
+----------------------------------------------------------------------
+CLIP
+----------------------------------------
+Total Queries Matched in GT: 5
+Recall@5:     0.225
+Precision@1:  0.0
+MRR:          0.3167
+nDCG@5:       0.1848
+----------------------------------------
+DSE-QWEN2
+----------------------------------------
+Total Queries Matched in GT: 5
+Recall@5:     0.675
+Precision@1:  0.8
+MRR:          0.9
+nDCG@5:       0.7453
+----------------------------------------
+VIDORE-VDR
+----------------------------------------
+Total Queries Matched in GT: 5
+Recall@5:     0.675
+Precision@1:  0.6
+MRR:          0.8
+nDCG@5:       0.7097
+----------------------------------------
+
+MULTI-VECTOR FAMILY (COLPALI / COLQWEN / NEMOTRON)
+----------------------------------------------------------------------
+COLPALI
+----------------------------------------
+Total Queries Matched in GT: 5
+Recall@5:     0.325
+Precision@1:  0.2
+MRR:          0.3833
+nDCG@5:       0.3419
+----------------------------------------
+COLQWEN
+----------------------------------------
+Total Queries Matched in GT: 5
+Recall@5:     0.325
+Precision@1:  0.2
+MRR:          0.5
+nDCG@5:       0.3868
+----------------------------------------
+NEMOTRON
+----------------------------------------
+Total Queries Matched in GT: 5
+Recall@5:     0.2
+Precision@1:  0.2
+MRR:          0.3
+nDCG@5:       0.2333
+----------------------------------------
+
+OVERALL COMPARISON (ALL MODELS)
+----------------------------------------
+Recall@5: DSE/ViDoRe
+Precision@1: DSE
+MRR: DSE
+nDCG@5: DSE
+----------------------------------------
+Evaluation Complete.
+======================================================================
+
+
+================================================================================
+GLOBAL LEADERBOARD: ARITHMETIC MACRO-AVERAGES ACROSS ALL FILES
+================================================================================
+    Method  Processed Files  Recall@5  Precision@1    MRR  nDCG@5
+VIDORE-VDR                5    0.4951       0.6362 0.7334  0.5446
+ DSE-QWEN2                5    0.4758       0.6409 0.7342  0.5343
+  NEMOTRON                5    0.3895       0.5195 0.6208  0.4361
+   COLQWEN                5    0.3963       0.4092 0.5826  0.4233
+   COLPALI                5    0.3333       0.3394 0.4865  0.3509
+      CLIP                5    0.1452       0.1065 0.2407  0.1333
+================================================================================
+
+OVERALL WINNER BASED ON GLOBAL MACRO-NDCG@5: VIDORE-VDR
+================================================================================
+

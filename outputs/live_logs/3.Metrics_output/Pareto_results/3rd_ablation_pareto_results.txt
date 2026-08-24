@@ -1,0 +1,22 @@
+  [READ] mistral-small-31-24b_captions_vidore → mistral_with_summary.txt
+  [READ] nvila-lite-8b_captions_vidore → nvila_with_summary.txt
+  [READ] qwen3vl-30b_captions_vidore → qwen3vl_with_summary.txt
+  Found 3 model(s): ['mistral-small-31-24b_captions_vidore', 'nvila-lite-8b_captions_vidore', 'qwen3vl-30b_captions_vidore']
+
+========================================================================================================================
+  PARETO RESULTS — Ablation 3 | Scenario B: Oracle
+  Weights: Quality=60%  Speed=25%  Size=15%
+Scenario A (Production): Quality = 0.33*VQA + 0.34*Enrichment + 0.33*NLI  | Weights: Q=40% S=35% Z=25%
+Scenario B (Oracle):     Quality = 0.50*VQA + 0.35*Enrichment + 0.15*NLI  | Weights: Q=60% S=25% Z=15%
+========================================================================================================================
+  Rank  Model                      Params   s/img  NLI Nov  Comb VQA   Enrich   Q_raw  Q_norm  S_norm  Z_norm   PARETO
+------------------------------------------------------------------------------------------------------------------------
+  1     qwen3vl-30b_captions_vidore   30.3B    26.4    0.854     0.920    0.057   0.608   1.000   0.780   0.000   0.7949
+  2     nvila-lite-8b_captions_vidore    8.1B    17.5    0.826     0.832    0.086   0.570   0.000   1.000   1.000   0.4000
+  3     mistral-small-31-24b_captions_vidore   12.7B    58.0    0.840     0.822    0.114   0.577   0.193   0.000   0.793   0.2348
+========================================================================================================================
+
+ Ablation_winner: qwen3vl-30b_captions_vidore  |  Pareto Score: 0.7949
+     Quality: 0.608  |  s/img: 26.4  |  Params: 30.3B
+========================================================================================================================
+

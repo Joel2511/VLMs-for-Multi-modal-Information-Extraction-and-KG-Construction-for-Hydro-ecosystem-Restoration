@@ -1,0 +1,297 @@
+INTRINSIC TRIPLE PRECISION SAMPLE — Nvila
+Review each triple and mark T/F/U. PT = true_count / total_sampled
+
+============================================================
+PDF: 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire  — 50 triples sampled
+============================================================
+#    SUBJECT                                  PREDICATE                      OBJECT
+---- ---------------------------------------- ------------------------------ ----------------------------------------
+1    Vallee_Plus_Large                        isLocatedIn                    Bretagne
+2    Direction_Regionale_De_Loffice_Francai   isManagedBy                    Office_Francais_De_La_Biodiversite_Ofb
+3    Chenaux_De_Rang_Zero                     hasPurpose                     retarder voire de piéger l’excès de sé
+4    Petits_Cours_Deau                        isLocatedIn                    Geographiczone
+5    Zone_De_Source_Historique                hasDescription                 Engorgement_En_Eau_Des_Sols
+6    Cas_2                                    hasPurpose                     Restauration_Passive
+7    Cours_Deau_De_Rang_0                     isLocatedIn                    Preservation_De_La_Biodiversite
+8    Cours_Deau_De_Rang_0                     isLocatedIn                    Stcl
+9    Referentiels_Utilises                    hasCategory                    Presence_De_Cours_Deau_En_Doublons
+10   Geolocalisation_Des_Exutoires_Du_Bassi   hasPurpose                     géolocaliser les exutoires du bassin v
+11   Fonds_De_Vallees                         hasPurpose                     Diversite_Des_Habitats
+12   Remblai                                  isLocatedOn                    Vallee
+13   Remblai                                  hasDescription                 comparaison du niveau du remblai et du
+14   Reconstitution_Des_Horizons_Pedologiqu   hasFunction                    Eviter_Tout_Compactage_Des_Sols
+15   La_Rimbaudais                            isLocatedIn                    Versant_De_Rang_0
+16   Rangs_Zero                               hasPurpose                     Ensoleillement
+17   Exutoire_Du_Bv                           isLocatedIn                    Le_Fond_De_Vallee_Fdv
+18   Reconstitution_De_La_Topographie_De_La   hasPurpose                     Restauration_Des_Horizons_Pedologiques
+19   Neutralisation_Des_Drains_Enterres       hasDescription                 fiche technique rédigée par le Forum d
+20   Bassin_Versant_En_Rang_Zero              hasDescription                 Presence_Et_Nature_Des_Pollutions
+21   Sources_Ponctuelles                      hasDescription                 Endroit_Ou_La_Nappe_Jaillit
+22   Interventions_Sur_Des_Drainages_Exista   isSubjectTo                    Directive_Nitrates
+23   Berceau                                  hasMonitoringStartDate         Debut_De_La_Periode_De_Suivi
+24   Suivi_De_La_Qualite_De_Leau              isSubjectTo                    Restorationmeasure
+25   Fonds_De_Vallees                         hasPurpose                     accueillir de nombreuses espèces de ma
+26   Sources_Diffuses                         isLocatedOn                    Pays_De_La_Loire
+27   Cours_Deau_De_Rang_1                     hasPurpose                     Ecoulements_Superficiels
+28   Stations_En_Rangs_Zero                   isSubjectTo                    Restoration
+29   Elements_Physiques                       isLocatedIn                    Riviere
+30   Plantations                              hasPurpose                     Documents_Durbanisme
+31   Bassin_Versant_En_Rang_Zero              hasDescription                 Preservation
+32   Rangs_Zero                               hasHydromorphologicalMonitor   Refroidissement
+33   Rang_0                                   isLocatedOn                    Branches_Darbres
+34   Prelevements_Deau                        hasPurpose                     Modification_Significative
+35   Prelevements_Deau                        isSubjectTo                    Hydrologique
+36   Cas_2                                    includes                       Restauration_Passive
+37   Modalites_De_Suivis                      hasMonitoringStartDate         Debut_De_La_Periode_De_Suivi
+38   Zones_Humides                            isLocatedIn                    Tetes_De_Bassin_Versant
+39   Berceau                                  isSubjectTo                    Suivi_Biologique
+40   Chantier                                 hasMonitoringCost              Unknown
+41   Rangs_Zero                               hasPurpose                     Favoriser_La_Denitrification
+42   Radiers                                  hasPurpose                     Prevenir_Risque_Derosion_Regressive
+43   Reconstitution_De_La_Topographie_De_La   isLocatedOn                    sites où les altérations humaines incl
+44   Photographies_Aeriennes_Anciennes        isLocatedOn                    Geographiczone
+45   Reconstitution_De_La_Rugosite            isLocatedOn                    Majorite_Des_Zones_De_Sources
+46   Noe_Molic                                isManagedBy                    Dausse_A
+47   Restauration                             isLocatedIn                    Fonds_De_Vallees
+48   Remblai                                  hasDescription                 Quantifier_Le_Remblai
+49   Interventions_Sur_Des_Drainages_Exista   isLocatedOn                    Bretagne
+50   Neutralisation_Des_Drains_Enterres       hasMonitoringEndDate           Non_Specifie
+
+[REVIEWER]: Mark each triple T (true) / F (false) / U (unsure)
+[PT = true_count / 50]
+
+============================================================
+PDF: Rapport-stage-M2-Floriane  — 50 triples sampled
+============================================================
+#    SUBJECT                                  PREDICATE                      OBJECT
+---- ---------------------------------------- ------------------------------ ----------------------------------------
+1    Cours_Deau                               isLocatedIn                    Bassin_Du_Rhin
+2    Passe_A_Poissons_De_Golfech              isLocatedOn                    Garonne
+3    Passe_A_Poisson_De_Gambesheim            isSubjectTo                    Absence_De_Passes_A_Poissons
+4    Temperature_De_Leau_A_Fessenheim         hasMonitoringStartDate         Juilletaout_2017
+5    Temperature_De_Leau_A_Fessenheim         hasMonitoringDescription       taux de croissance réduits après trois
+6    Site_F3_De_Blodelsheim                   isSubjectTo                    Sedimentrecharging
+7    Breisach                                 hasMonitoringDescription       Hauteurs_Deau_Variables
+8    Rhin                                     isLocatedIn                    Vieux_Rhin
+9    Sonde_Fixe                               isLocatedOn                    Mur_De_La_Passe_A_Poissons
+10   Usines_Hydroelectriques                  isLocatedOn                    Rhin
+11   Eau_Du_Rhin                              hasHydromorphologicalMonitor   Rapport_N219
+12   Bassin_Du_Rhin                           hasMonitoringDescription       Peches_Afb
+13   Formation_De_Gravier                     isSubjectTo                    Redynamisation
+14   Temperatures_Maximales_Journalieres_A_   hasPurpose                     Observees_Entre_22H_Et_Minuit
+15   Kembs                                    isLocatedIn                    Vogelgrun
+16   Temperatures_Moyennes_Journalieres_A_F   hasPurpose                     Suivi_Scientifique
+17   Bergere                                  isLocatedOn                    Gambesheim
+18   Geiswasser                               isLocatedIn                    Fessenheim
+19   Centrales_Hydroelectriques               isLocatedOn                    Golfech
+20   Eau_Du_Rhin                              hasHydromorphologicalMonitor   Rapport_N213
+21   Rhin                                     isLocatedIn                    Breisach
+22   Rhine                                    hasHydromorphologicalMonitor   True
+23   Temperature_De_Leau_A_Fessenheim         hasMonitoringDescription       des températures supérieures à 20°C qu
+24   Temperatures_Moyennes_Journalieres_A_F   hasPurpose                     Biologicalmonitoring
+25   Rhin                                     isSubjectTo                    Lateralcontinuityrestoration
+26   Vr_Le                                    hasHydromorphologicalMonitor   températures moyennes journalières à F
+27   Temperatures                             hasMonitoringDescription       Ecarts_Instantanes_De_Temperature
+28   Amplitudes_Thermiques_Journalieres       hasMonitoringDescription       Varient_En_Fonction_Des_Saisons
+29   Bassin_Du_Rhin                           isLocatedIn                    Geographiczone
+30   Vieuxrhin                                isSubjectTo                    Biologicalmonitoring
+31   Debit_Du_Rhin                            hasHydromorphologicalMonitor   Debit_Du_Rhin
+32   Barre_Rocheuse                           isLocatedOn                    Vr
+33   Sondes_Doublees_A_Vogelgrun              hasMonitoringDescription       Temperatures_Similaires
+34   Gestion_De_La_Qualite_De_Leau            hasPurpose                     Developpement_Et_Survie_Des_Poissons_M
+35   Poissons                                 isSubjectTo                    Stress_Thermique
+36   Cours_Deau                               isSubjectTo                    Habitatrestoration
+37   Peche_Electrique                         hasPurpose                     Capture_Des_Especes_Piscicoles
+38   Temperature_De_Leau_A_Villageneuf        hasMonitoringStartDate         Fevrier
+39   Cours_Deau                               isSubjectTo                    Restoringspawninggrounds
+40   Bergere                                  isSubjectTo                    Longitudinalcontinuityrestoration
+41   Passe_A_Poisson_De_Gambesheim            isSubjectTo                    Surveillance_Des_Poissons
+42   Pap                                      hasPurpose                     Franchissement_Des_Poissons_Vers_Lamon
+43   Cours_Deau                               hasMonitoringDescription       Temperature_De_Leau_Variable
+44   Population_Danguilles                    isLocatedOn                    Geiswasser
+45   Gca                                      isLocatedOn                    Vieux_Rhin
+46   Rhin                                     isSubjectTo                    Sedimenttransport
+47   Projet_Saumon_2020                       includes                       Restoration_Dun_Ancien_Bras_Du_Rhin
+48   Vr_Le                                    hasHydromorphologicalMonitor   températures moyennes journalières à F
+49   Sonde_Thermique                          hasMonitoringStartDate         Printemps
+50   Eau_Du_Rhin                              hasAverageSlope                Augmentation_De_1_A_15_C
+
+[REVIEWER]: Mark each triple T (true) / F (false) / U (unsure)
+[PT = true_count / 50]
+
+============================================================
+PDF: dossier_unio_crassus_zorn_v4_19_11_2024  — 50 triples sampled
+============================================================
+#    SUBJECT                                  PREDICATE                      OBJECT
+---- ---------------------------------------- ------------------------------ ----------------------------------------
+1    Projet_De_Renaturation_De_La_Zorn        isSubjectTo                    Respectdesbonnespratiquesenvironnement
+2    Mesure_A5B                               isManagedBy                    Projectowner
+3    La_Zorn                                  isSubjectTo                    Restoringspawninggrounds
+4    Site_4                                   isSubjectTo                    Absence_De_Predateur
+5    La_Zorn                                  includes                       Floodretention
+6    Remeandrage                              hasPurpose                     Geographiczone
+7    Objectif_7                               hasMonitoringDescription       Appreciation_Des_Impacts_Du_Deplacemen
+8    La_Zorn                                  isSubjectTo                    Absence_De_Pollution_Du_Milieu
+9    Remeandrage                              hasPurpose                     limiter les impacts sur les mulettes é
+10   La_Zorn                                  isSubjectTo                    Longitudinalcontinuityrestoration
+11   Projet_De_Renaturation_De_La_Zorn        isSubjectTo                    Localisation du transect de prospectio
+12   La_Zorn                                  hasCategory                    Floodretention
+13   La_Zorn                                  hasCategory                    Flowrestoration
+14   Projet_De_Renaturation_De_La_Zorn        isSubjectTo                    Figure_9
+15   Mesures                                  isSubjectTo                    Biologicalmonitoring
+16   Site_Daccueil                            isSubjectTo                    Mesure_De_La_Croissance
+17   La_Zorn                                  isLocatedOn                    N
+18   Mesure_A5B                               isLocatedIn                    Geographiczone
+19   La_Zorn                                  isLocatedIn                    Grand_Est
+20   R31A                                     hasDescription                 réalisation des travaux en lit mineur 
+21   La_Zorn                                  hasPurpose                     Depeuplement
+22   Remeandrage                              isLocatedOn                    La_Zorn
+23   La_Zorn                                  hasPurpose                     Rapportannuel
+24   La_Mossig                                hasPurpose                     Connue_Pour_Lespece_Unio_Crassus
+25   Remeandrage                              hasPurpose                     Restorationmeasure
+26   Remeandrage                              hasPurpose                     Mulette_Epaisse
+27   La_Zorn                                  hasPurpose                     Vegetalizelesberges
+28   La_Corbicule_Asiatique                   isLocatedOn                    La_Zorn
+29   Objectif_14                              includes                       Absence d’engins de chantier dans le l
+30   La_Zorn                                  isSubjectTo                    Profilediversification
+31   Site_1                                   isLocatedOn                    Cours_Deau_Ou_Un_Affluent
+32   Localisation_Du_Transect_De_Prospectio   isSubjectTo                    Survie_Des_Mulettes_Epaisses_Deplacees
+33   La_Sauer                                 hasPurpose                     E1.1a : Evitement des populations conn
+34   Mesure_A5B                               isSubjectTo                    Mesure_O7
+35   Mesure_De_Suivi_O14                      isSubjectTo                    R21T
+36   Objectif_14                              includes                       Vérification du maintien du balisage p
+37   Projet_De_Renaturation_De_La_Zorn        isSubjectTo                    Rapportannuel
+38   La_Sauer                                 isSubjectTo                    Restorationmeasure
+39   Remeandrage                              hasPurpose                     Mesure_De_Suivi_O14
+40   Objectif_7                               hasMonitoringDescription       Survie_Des_Mulettes_Epaisses_Deplacees
+41   La_Zorn                                  includes                       Regularflooding
+42   La_Zorn                                  hasMonitoringStartDate         28 juin 2023
+43   La_Sauer                                 hasPurpose                     Connue_Pour_Lespece_Unio_Crassus
+44   La_Zorn                                  isLocatedOn                    Communaute_Dagglomeration_De_Haguenau
+45   Projet_De_Renaturation_De_La_Zorn        hasCost                        491 584 euros H.T.
+46   Site_4                                   isSubjectTo                    Absence_De_Projet_De_Travaux
+47   Suivi_Posttravaux                        isSubjectTo                    O14
+48   La_Zorn                                  hasCategory                    Habitatrestoration
+49   Mulette_Epaisse                          hasPurpose                     Survie_Des_Mulettes_Epaisses_Deplacees
+50   Mulette_Epaisse                          isLocatedOn                    Annee_N2
+
+[REVIEWER]: Mark each triple T (true) / F (false) / U (unsure)
+[PT = true_count / 50]
+
+============================================================
+PDF: fichier  — 50 triples sampled
+============================================================
+#    SUBJECT                                  PREDICATE                      OBJECT
+---- ---------------------------------------- ------------------------------ ----------------------------------------
+1    Ruisseau_Norroy                          isLocatedIn                    Lieudit_Sousnorroy
+2    Ruisseau_Norroy                          hasDescription                 Depot_Localise_Colmatant_Sur_Ce_Tronco
+3    Troncon_8                                hasMaxLowWaterFlow             Faible_Debit
+4    Le_Cours_Deau                            isLocatedIn                    Algues
+5    Les_Bergues                              isLocatedOn                    Troncon_9
+6    Troncon_5                                isLocatedIn                    Modifient_Le_Debit
+7    Mission                                  hasPurpose                     Profilediversification
+8    Le_Cours_Deau                            isLocatedIn                    Structure
+9    Troncon_8                                hasMonitoringEndDate           Date_Inconnue
+10   Ruisseau_Norroy                          isLocatedOn                    Debrismanagement
+11   Les_Bergues                              hasPurpose                     composition et état de la végétation d
+12   Troncon_9                                isManagedBy                    Projectowner
+13   Troncon_8                                isLocatedIn                    High_Human_Pressure
+14   Le_Cours_Deau                            isLocatedIn                    Ruisseau_De_Norroy
+15   Le_Cours_Deau                            hasPurpose                     Rend_Impossible_Toute_Vie_Aquatique
+16   Structure                                isLocatedIn                    Le_Lit_Majeur
+17   Troncon_6                                isSubjectTo                    Debrismanagement
+18   Troncon_5                                isLocatedIn                    Troncon_9
+19   Troncon_6                                isLocatedIn                    Ruisseau_Norroy
+20   Troncon_9                                hasMonitoringEndDate           Date_Inconnue
+21   Mission                                  hasCost                        530000
+22   Troncon_3                                isLocatedIn                    Lieudit_Sousnorroy
+23   Les_Bergues                              isLocatedOn                    Le_Lit_Mineur
+24   Troncon_8                                hasDescription                 Largeur_Constante_Fond_De_Vallee_Plat
+25   Recreer_De_La_Ripisylve                  hasCost                        350 000 EUR
+26   Le_Lit_Mineur                            isLocatedOn                    Troncon_9
+27   Troncon_2                                isLocatedIn                    High_Human_Pressure
+28   Ruisseau                                 hasDescription                 ruisseau avec de l’eau claire et des a
+29   Les_Bergues                              isLocatedOn                    Urban_Area
+30   Les_Bergues                              isSubjectTo                    Les_Bergues
+31   Troncon_9                                hasHydromorphologicalMonitor   Mission
+32   Troncon_2                                hasAverageSlope                Faible_Debit
+33   Les_Bergues                              isSubjectTo                    Recreer_Une_Dynamique_Decoulement
+34   Troncon_6                                hasAverageSlope                1,6 %
+35   Les_Bergues                              isLocatedOn                    Largeur_Constante
+36   Troncon_2                                isLocatedIn                    Le_Cours_Deau
+37   Ruisseau_Norroy                          hasDescription                 encombrement du lit dû à la présence d
+38   Les_Bergues                              isSubjectTo                    Future_Activity_Zone
+39   Ruisseau_Norroy                          isLocatedIn                    Lieudit_Le_Moulin_Aux_Pres
+40   Ruisseau_Norroy                          hasAverageSlope                7%
+41   Troncon_5                                hasHydromorphologicalMonitor   True
+42   Scientificmonitoring                     hasMonitoringCost              35000
+43   Mission                                  hasPurpose                     Recreer_Une_Dynamique_Decoulement
+44   Les_Bergues                              isLocatedIn                    Faible_Debit
+45   Profilediversification                   hasMonitoringDescription       Scientificmonitoring
+46   Recreer_Une_Dynamique_Decoulement        isLocatedOn                    Troncon_8
+47   Troncon_8                                isLocatedIn                    Les_Bergues
+48   Les_Bergues                              isLocatedOn                    Ameliorer_La_Qualite_Norroy
+49   Le_Lit_Mineur                            isLocatedOn                    Troncon_8
+50   Les_Bergues                              isSubjectTo                    Distributionbasin
+
+[REVIEWER]: Mark each triple T (true) / F (false) / U (unsure)
+[PT = true_count / 50]
+
+============================================================
+PDF: reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7  — 50 triples sampled
+============================================================
+#    SUBJECT                                  PREDICATE                      OBJECT
+---- ---------------------------------------- ------------------------------ ----------------------------------------
+1    Distributionbasin                        isLocatedIn                    Breisach
+2    Riverbankexcavation                      isLocatedOn                    Rhin
+3    Istein                                   isLocatedIn                    Geographiczone
+4    Les_Cartes                               hasMonitoringDescription       Documents_Darchives
+5    Epis                                     isLocatedOn                    Rhin
+6    Rhin_Francoallemand                      isLocatedOn                    Ecluseusine_De_Kems
+7    Niffer                                   isLocatedIn                    Geographiczone
+8    Analyse_Retrospective                    isSubjectTo                    Phase_Correction
+9    Rhin                                     hasLength                      50 km
+10   Rhin_Francoallemand                      isSubjectTo                    Restoration
+11   Ecluseusine_De_Kems                      isLocatedIn                    Geographiczone
+12   Vieux_Rhin                               isSubjectTo                    Sedimenttransport
+13   Vieux_Rhin                               isSubjectTo                    Restoration
+14   Rhin                                     hasCategory                    Lateralcontinuityrestoration
+15   Rhin                                     includes                       Riverbankrestoration
+16   Distributionbasin                        hasPurpose                     Renforcer_Lattractivite_Du_Fleuve
+17   Rhin                                     includes                       Sedimenttransport
+18   Poolcreation                             hasMonitoringStartDate         2015
+19   Riverbankexcavation                      isLocatedOn                    Rhin_Francoallemand
+20   Reference                                hasPurpose                     Guider_Les_Actions_De_Restauration_Eco
+21   Rhin                                     hasPurpose                     Restauration_Ecologique
+22   Rhin_Francoallemand                      isLocatedOn                    Vieux_Rhin
+23   Hartheim                                 isLocatedIn                    Geographiczone
+24   Rhin                                     isSubjectTo                    Restorationmonitoring
+25   Programme                                hasPurpose                     Trajectoire_Devolution_Pluriseculaire_
+26   Reference                                hasPurpose                     retour à l’état « naturel » du cours d
+27   Birs                                     isLocatedIn                    Geographiczone
+28   Vieux_Rhin                               isLocatedOn                    Kembs_Et_Breisach
+29   Rheinweiler                              isLocatedIn                    Geographiczone
+30   Vieux_Rhin                               isSubjectTo                    Longitudinalcontinuityrestoration
+31   Rhin_Francoallemand                      isLocatedOn                    Geographiczone
+32   Les_Cartes                               isLocatedIn                    Carte_A_La_Une
+33   Grand_Canal_Dalsace                      isLocatedIn                    Geographiczone
+34   Rhin                                     isLocatedOn                    Kembs_Et_Breisach
+35   Vieux_Rhin                               isLocatedIn                    Kembs_Et_Breisach
+36   Riverbankexcavation                      hasMonitoringEndDate           2017
+37   Rhin                                     isSubjectTo                    Regulation
+38   Rhin                                     isSubjectTo                    Riverbankrestoration
+39   Rhin                                     hasCategory                    Flowrestoration
+40   Rhin                                     isSubjectTo                    Sedimenttransport
+41   Vieux_Rhin                               isSubjectTo                    Restorationmeasure
+42   Rhin                                     isSubjectTo                    Biologicalmonitoring
+43   Riverbankexcavation                      hasPurpose                     Renforcer_Lattractivite_Du_Fleuve
+44   Rhin                                     isSubjectTo                    Construction_Du_Grand_Canal_Dalsace
+45   Seuils_De_Fond                           isLocatedOn                    Rhin
+46   Poolcreation                             isLocatedOn                    Petite_Camargue_Alsacienne
+47   Reference                                hasPurpose                     Bienetre
+48   Rhin                                     isSubjectTo                    Lateralcontinuityrestoration
+49   Riverbankexcavation                      hasPurpose                     Espace_De_Vie_Et_De_Loisirs
+50   Vieux_Rhin                               isSubjectTo                    Hydromorphologicalmonitoring
+
+[REVIEWER]: Mark each triple T (true) / F (false) / U (unsure)
+[PT = true_count / 50]

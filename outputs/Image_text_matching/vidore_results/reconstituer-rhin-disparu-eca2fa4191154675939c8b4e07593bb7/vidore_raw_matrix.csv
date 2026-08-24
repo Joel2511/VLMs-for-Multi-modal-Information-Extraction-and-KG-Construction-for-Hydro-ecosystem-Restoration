@@ -1,0 +1,6 @@
+Image_Name,Top_1_Block,Top_1_Score,Top_2_Block,Top_2_Score,Top_3_Block,Top_3_Score,Top_4_Block,Top_4_Score,Top_5_Block,Top_5_Score
+img_p1_1.png,page_1_block_3,1.0,page_4_block_2,0.8983,page_3_block_1,0.8683,page_2_block_2,0.805,page_1_block_1,0.725
+img_p4_1.png,page_4_block_2,1.0,page_3_block_1,0.9512,page_2_block_2,0.9456,page_4_block_1,0.7986,page_1_block_3,0.7529
+img_p3_1.png,page_2_block_2,0.98,page_1_block_3,0.9477,page_3_block_1,0.816,page_4_block_2,0.7714,page_5_block_2,0.6655
+img_p5_1.png,page_3_block_1,0.96,page_4_block_2,0.9534,page_1_block_3,0.92,page_2_block_2,0.9001,page_5_block_2,0.8538
+img_p5_2.png,page_3_block_1,0.947,page_4_block_2,0.9281,page_1_block_3,0.92,page_2_block_2,0.8361,page_5_block_2,0.7662

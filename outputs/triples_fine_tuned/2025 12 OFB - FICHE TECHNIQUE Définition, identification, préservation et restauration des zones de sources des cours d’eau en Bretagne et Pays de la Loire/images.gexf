@@ -1,0 +1,497 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-08-18">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="4" title="networkx_key" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="datasource" type="string" />
+      <attribute id="1" title="extractedFrom" type="string" />
+      <attribute id="2" title="note" type="string" />
+      <attribute id="3" title="isLocatedOn" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Le_Cours_Deau" label="Le_Cours_Deau">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+      <node id="waterBody" label="waterBody">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Rang_Zero" label="Rang_Zero">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Profils_Pedologiques" label="Profils_Pedologiques">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+      <node id="Rang_1" label="Rang_1">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+      <node id="Pente_Longitudinale_De_Rang_1" label="Pente_Longitudinale_De_Rang_1">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Rang_0" label="Rang_0">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Cours_Deau" label="Cours_Deau">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="NamedIndividual" label="NamedIndividual">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Mare" label="Mare">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+          <attvalue for="2" value="containsRoot: racines d’arbres; containsPlant: plantes aquatiques" />
+        </attvalues>
+      </node>
+      <node id="Cotesdarmor" label="Cotesdarmor">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Preservation_De_La_Biodiversite" label="Preservation_De_La_Biodiversite">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Regulation_De_La_Temperature" label="Regulation_De_La_Temperature">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="instance_graph" label="instance_graph">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Ontology" label="Ontology">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Ereac" label="Ereac">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Pays_De_La_Loire" label="Pays_De_La_Loire">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="La_Rimbaudais" label="La_Rimbaudais">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Pente_Longitudinale_De_Rang_0" label="Pente_Longitudinale_De_Rang_0">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Pas_De_Date_Specifiee" label="Pas_De_Date_Specifiee">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="river" label="river">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Gestion_Des_Sediments" label="Gestion_Des_Sediments">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Bretagne" label="Bretagne">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Restauration" label="Restauration">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Absence_De_Pollutions_Visibles" label="Absence_De_Pollutions_Visibles">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Stations_En_Rangs_Zero" label="Stations_En_Rangs_Zero">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Bretagne_Et_Pays_De_La_Loire" label="Bretagne_Et_Pays_De_La_Loire">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="geographicZone" label="geographicZone">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Foret_Dense" label="Foret_Dense">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="pool" label="pool">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Carte_Topographique_D" label="Carte_Topographique_D">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+          <attvalue for="3" value="contexte de la restauration de cours d’eau et de l’hydromorphologie" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Le_Cours_Deau" target="waterBody" id="0" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Cours_Deau" target="Pas_De_Date_Specifiee" id="1" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Cours_Deau" target="Pas_De_Date_Specifiee" id="2" label="hasMonitoringEndDate">
+        <attvalues>
+          <attvalue for="4" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Cours_Deau" target="Absence_De_Pollutions_Visibles" id="3" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Cours_Deau" target="Bretagne_Et_Pays_De_La_Loire" id="4" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Cours_Deau" target="Gestion_Des_Sediments" id="5" label="hasPurpose">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Cours_Deau" target="Foret_Dense" id="6" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Cours_Deau" target="Preservation_De_La_Biodiversite" id="7" label="hasPurpose">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Cours_Deau" target="Regulation_De_La_Temperature" id="8" label="hasPurpose">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Cours_Deau" target="NamedIndividual" id="9" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Profils_Pedologiques" id="10" label="hasPurpose">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Cotesdarmor" id="11" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Pays_De_La_Loire" id="12" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Mare" id="13" label="hasPurpose">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="NamedIndividual" id="14" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Bretagne" id="15" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Restauration" id="16" label="hasPurpose">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="geographicZone" id="17" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Stations_En_Rangs_Zero" id="18" label="hasPurpose">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Profils_Pedologiques" target="Stations_En_Rangs_Zero" id="19" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Profils_Pedologiques" target="NamedIndividual" id="20" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_1" target="Pente_Longitudinale_De_Rang_1" id="21" label="hasPurpose">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_1" target="Cours_Deau" id="22" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_1" target="NamedIndividual" id="23" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pente_Longitudinale_De_Rang_1" target="NamedIndividual" id="24" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_0" target="Cours_Deau" id="25" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_0" target="Pente_Longitudinale_De_Rang_0" id="26" label="hasPurpose">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_0" target="NamedIndividual" id="27" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="NamedIndividual" id="28" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mare" target="NamedIndividual" id="29" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mare" target="pool" id="30" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cotesdarmor" target="NamedIndividual" id="31" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Preservation_De_La_Biodiversite" target="NamedIndividual" id="32" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Regulation_De_La_Temperature" target="NamedIndividual" id="33" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="instance_graph" target="Ontology" id="34" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ereac" target="NamedIndividual" id="35" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pays_De_La_Loire" target="NamedIndividual" id="36" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Cotesdarmor" id="37" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="river" id="38" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Gestion_Des_Sediments" id="39" label="hasPurpose">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Pays_De_La_Loire" id="40" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Preservation_De_La_Biodiversite" id="41" label="hasPurpose">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Ereac" id="42" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Bretagne" id="43" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="NamedIndividual" id="44" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Restauration" id="45" label="hasPurpose">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Regulation_De_La_Temperature" id="46" label="hasPurpose">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Bretagne_Et_Pays_De_La_Loire" id="47" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="geographicZone" id="48" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pente_Longitudinale_De_Rang_0" target="NamedIndividual" id="49" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pas_De_Date_Specifiee" target="NamedIndividual" id="50" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Gestion_Des_Sediments" target="NamedIndividual" id="51" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bretagne" target="NamedIndividual" id="52" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration" target="NamedIndividual" id="53" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Absence_De_Pollutions_Visibles" target="NamedIndividual" id="54" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Stations_En_Rangs_Zero" target="NamedIndividual" id="55" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bretagne_Et_Pays_De_La_Loire" target="NamedIndividual" id="56" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Foret_Dense" target="NamedIndividual" id="57" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Carte_Topographique_D" target="NamedIndividual" id="58" label="type">
+        <attvalues>
+          <attvalue for="4" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

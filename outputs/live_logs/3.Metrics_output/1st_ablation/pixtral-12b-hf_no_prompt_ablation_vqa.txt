@@ -1,0 +1,160 @@
+Using device: cuda
+Evaluating folder: pixtral-12b-hf
+Retrieval model  : vidore
+Results will be saved to: /home2020/home/icube/janil/Rhine_proj/outputs/1st_ablation_image_captions_no_prompt/pixtral-12b-hf/1st_ablation_vqa_nli_results.json
+--- Loading NLI Model (SummaC-ZS sentence scorer) ---
+Loading weights:   0%|          | 0/202 [00:00<?, ?it/s]Loading weights:  10%|█         | 21/202 [00:00<00:00, 199.35it/s]Loading weights:  24%|██▍       | 48/202 [00:00<00:00, 213.61it/s]Loading weights:  35%|███▍      | 70/202 [00:00<00:00, 190.35it/s]Loading weights:  45%|████▍     | 90/202 [00:00<00:00, 159.75it/s]Loading weights:  58%|█████▊    | 117/202 [00:00<00:00, 180.79it/s]Loading weights:  67%|██████▋   | 136/202 [00:00<00:00, 173.32it/s]Loading weights:  83%|████████▎ | 167/202 [00:00<00:00, 208.00it/s]Loading weights:  94%|█████████▎| 189/202 [00:00<00:00, 205.67it/s]Loading weights: 100%|██████████| 202/202 [00:01<00:00, 201.55it/s]
+[1mDebertaV2ForSequenceClassification LOAD REPORT[0m from: /home2020/home/icube/janil/Rhine_proj/hf_models/mDeBERTa-v3-mnli-xnli
+Key                             | Status     |  | 
+--------------------------------+------------+--+-
+deberta.embeddings.position_ids | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+--- Loading Qwen2-VL-7B (8-bit) ---
+Loading weights:   0%|          | 0/730 [00:00<?, ?it/s]Loading weights:   0%|          | 1/730 [00:01<16:45,  1.38s/it]Loading weights:   0%|          | 2/730 [00:02<18:03,  1.49s/it]Loading weights:   1%|          | 4/730 [00:03<10:33,  1.15it/s]Loading weights:   1%|          | 5/730 [00:04<08:17,  1.46it/s]Loading weights:   1%|          | 6/730 [00:04<06:42,  1.80it/s]Loading weights:   2%|▏         | 16/730 [00:04<01:32,  7.73it/s]Loading weights:   2%|▏         | 18/730 [00:05<01:47,  6.64it/s]Loading weights:   4%|▎         | 26/730 [00:05<00:55, 12.59it/s]Loading weights:   4%|▍         | 30/730 [00:06<01:14,  9.42it/s]Loading weights:   5%|▌         | 40/730 [00:06<01:02, 10.98it/s]Loading weights:   6%|▌         | 42/730 [00:07<01:17,  8.92it/s]Loading weights:   7%|▋         | 52/730 [00:07<00:50, 13.39it/s]Loading weights:   7%|▋         | 54/730 [00:08<01:04, 10.41it/s]Loading weights:   8%|▊         | 60/730 [00:08<00:47, 14.15it/s]Loading weights:   9%|▉         | 64/730 [00:08<00:53, 12.37it/s]Loading weights:   9%|▉         | 67/730 [00:09<01:06,  9.96it/s]Loading weights:  10%|█         | 76/730 [00:09<00:46, 14.15it/s]Loading weights:  11%|█         | 78/730 [00:10<01:01, 10.59it/s]Loading weights:  12%|█▏        | 88/730 [00:10<00:41, 15.51it/s]Loading weights:  12%|█▏        | 90/730 [00:10<00:53, 11.92it/s]Loading weights:  14%|█▎        | 100/730 [00:11<00:38, 16.35it/s]Loading weights:  14%|█▍        | 102/730 [00:11<00:55, 11.38it/s]Loading weights:  15%|█▍        | 108/730 [00:11<00:40, 15.19it/s]Loading weights:  15%|█▌        | 112/730 [00:12<00:47, 12.97it/s]Loading weights:  16%|█▌        | 114/730 [00:13<01:06,  9.30it/s]Loading weights:  16%|█▋        | 120/730 [00:13<00:44, 13.70it/s]Loading weights:  17%|█▋        | 124/730 [00:13<00:44, 13.74it/s]Loading weights:  17%|█▋        | 127/730 [00:13<00:56, 10.65it/s]Loading weights:  18%|█▊        | 134/730 [00:14<00:35, 16.67it/s]Loading weights:  19%|█▉        | 138/730 [00:14<00:57, 10.29it/s]Loading weights:  20%|██        | 148/730 [00:15<00:38, 14.98it/s]Loading weights:  21%|██        | 151/730 [00:15<00:50, 11.48it/s]Loading weights:  22%|██▏       | 160/730 [00:16<00:38, 14.76it/s]Loading weights:  22%|██▏       | 163/730 [00:16<00:50, 11.18it/s]Loading weights:  23%|██▎       | 170/730 [00:16<00:35, 15.94it/s]Loading weights:  24%|██▍       | 174/730 [00:17<00:47, 11.70it/s]Loading weights:  25%|██▌       | 184/730 [00:17<00:35, 15.45it/s]Loading weights:  26%|██▌       | 187/730 [00:18<00:44, 12.23it/s]Loading weights:  27%|██▋       | 194/730 [00:18<00:31, 17.17it/s]Loading weights:  27%|██▋       | 198/730 [00:19<00:45, 11.59it/s]Loading weights:  28%|██▊       | 208/730 [00:19<00:32, 16.11it/s]Loading weights:  29%|██▉       | 211/730 [00:20<00:42, 12.21it/s]Loading weights:  30%|███       | 220/730 [00:20<00:32, 15.46it/s]Loading weights:  31%|███       | 223/730 [00:20<00:41, 12.25it/s]Loading weights:  32%|███▏      | 232/730 [00:21<00:32, 15.15it/s]Loading weights:  32%|███▏      | 234/730 [00:22<01:06,  7.41it/s]Loading weights:  33%|███▎      | 244/730 [00:23<00:44, 11.02it/s]Loading weights:  34%|███▎      | 246/730 [00:23<00:53,  8.98it/s]Loading weights:  35%|███▌      | 256/730 [00:23<00:35, 13.23it/s]Loading weights:  35%|███▌      | 258/730 [00:24<00:45, 10.40it/s]Loading weights:  36%|███▋      | 266/730 [00:24<00:29, 15.79it/s]Loading weights:  37%|███▋      | 270/730 [00:25<00:40, 11.35it/s]Loading weights:  38%|███▊      | 280/730 [00:25<00:28, 15.76it/s]Loading weights:  39%|███▉      | 283/730 [00:25<00:34, 12.80it/s]Loading weights:  40%|████      | 292/730 [00:26<00:27, 16.04it/s]Loading weights:  40%|████      | 295/730 [00:26<00:33, 13.16it/s]Loading weights:  42%|████▏     | 304/730 [00:27<00:26, 16.32it/s]Loading weights:  42%|████▏     | 306/730 [00:27<00:37, 11.33it/s]Loading weights:  43%|████▎     | 316/730 [00:28<00:26, 15.90it/s]Loading weights:  44%|████▎     | 318/730 [00:28<00:34, 11.97it/s]Loading weights:  45%|████▍     | 328/730 [00:28<00:25, 16.03it/s]Loading weights:  45%|████▌     | 330/730 [00:29<00:33, 11.88it/s]Loading weights:  47%|████▋     | 341/730 [00:29<00:19, 20.42it/s]Loading weights:  50%|████▉     | 364/730 [00:29<00:08, 42.45it/s]Loading weights:  51%|█████     | 373/730 [00:29<00:07, 47.67it/s]Loading weights:  52%|█████▏    | 382/730 [00:29<00:06, 49.92it/s]Loading weights:  54%|█████▎    | 391/730 [00:30<00:05, 56.52it/s]Loading weights:  56%|█████▌    | 407/730 [00:30<00:04, 76.39it/s]Loading weights:  59%|█████▉    | 431/730 [00:30<00:02, 110.29it/s]Loading weights:  62%|██████▏   | 455/730 [00:30<00:01, 138.35it/s]Loading weights:  65%|██████▌   | 477/730 [00:30<00:01, 157.00it/s]Loading weights:  69%|██████▊   | 501/730 [00:30<00:01, 175.64it/s]Loading weights:  72%|███████▏  | 525/730 [00:30<00:01, 189.06it/s]Loading weights:  75%|███████▌  | 549/730 [00:30<00:00, 194.73it/s]Loading weights:  78%|███████▊  | 573/730 [00:30<00:00, 203.02it/s]Loading weights:  82%|████████▏ | 597/730 [00:30<00:00, 212.10it/s]Loading weights:  85%|████████▌ | 621/730 [00:31<00:00, 215.74it/s]Loading weights:  88%|████████▊ | 645/730 [00:31<00:00, 216.59it/s]Loading weights:  92%|█████████▏| 669/730 [00:31<00:00, 217.80it/s]Loading weights:  95%|█████████▍| 693/730 [00:31<00:00, 213.70it/s]Loading weights:  98%|█████████▊| 715/730 [00:31<00:00, 192.25it/s]Loading weights: 100%|██████████| 730/730 [00:31<00:00, 22.96it/s] 
+
+>>> PDF: dossier_unio_crassus_zorn_v4_19_11_2024
+/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+img_p14_1.png | NLI_grounding: 0.004 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p16_1.png | NLI_grounding: 0.181 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p1_1.png | NLI_grounding: 0.002 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p21_1.png | NLI_grounding: 0.093 | VQA_P1: 0.600 (3/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p13_1.png | NLI_grounding: 0.114 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p15_1.png | NLI_grounding: 0.293 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p18_1.png | NLI_grounding: 0.145 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p24_1.png | NLI_grounding: 0.432 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: True
+img_p20_1.png | NLI_grounding: 0.325 | VQA_P1: 1.000 (4/4 confirmed) | VQA_P2: n/a | ENR: False
+img_p26_1.png | NLI_grounding: 0.011 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p28_1.png | NLI_grounding: 0.006 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p25_1.png | NLI_grounding: 0.008 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p5_1.png | NLI_grounding: 0.159 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p10_1.png | NLI_grounding: 0.071 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p9_1.png | NLI_grounding: 0.185 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p13_2.png | NLI_grounding: 0.282 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p6_1.png | NLI_grounding: 0.001 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p17_1.png | NLI_grounding: 0.008 | VQA_P1: 0.600 (3/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p8_1.png | NLI_grounding: 0.273 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+
+>>> PDF: reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7
+/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+img_p1_1.png | NLI_grounding: 0.119 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p5_2.png | NLI_grounding: 0.003 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p5_1.png | NLI_grounding: 0.032 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p3_1.png | NLI_grounding: 0.007 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p4_1.png | NLI_grounding: 0.006 | VQA_P1: 0.833 (5/6 confirmed) | VQA_P2: n/a | ENR: False
+
+>>> PDF: Rapport-stage-M2-Floriane
+/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+img_p34_2.png | NLI_grounding: 0.002 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p13_2.png | NLI_grounding: 0.013 | VQA_P1: 0.600 (3/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p50_1.png | NLI_grounding: 0.020 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p46_1.png | NLI_grounding: 0.287 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p11_1.png | NLI_grounding: 0.165 | VQA_P1: 0.600 (3/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p23_1.png | NLI_grounding: 0.002 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p43_1.png | NLI_grounding: 0.599 | VQA_P1: 1.000 (3/3 confirmed) | VQA_P2: n/a | ENR: True
+img_p25_1.png | NLI_grounding: 0.043 | VQA_P1: 0.857 (6/7 confirmed) | VQA_P2: n/a | ENR: False
+img_p15_1.png | NLI_grounding: 0.236 | VQA_P1: 0.600 (3/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p51_1.png | NLI_grounding: 0.003 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p50_2.png | NLI_grounding: 0.146 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p50_5.png | NLI_grounding: 0.004 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p8_1.png | NLI_grounding: 0.454 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: True
+img_p19_1.png | NLI_grounding: 0.301 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p24_1.png | NLI_grounding: 0.004 | VQA_P1: 1.000 (4/4 confirmed) | VQA_P2: n/a | ENR: False
+img_p21_1.png | NLI_grounding: 0.019 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p52_2.png | NLI_grounding: 0.059 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p53_1.png | NLI_grounding: 0.182 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p44_1.png | NLI_grounding: 0.197 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p47_1.png | NLI_grounding: 0.005 | VQA_P1: 1.000 (6/6 confirmed) | VQA_P2: n/a | ENR: False
+img_p43_2.png | NLI_grounding: 0.387 | VQA_P1: 1.000 (3/3 confirmed) | VQA_P2: n/a | ENR: False
+img_p20_1.png | NLI_grounding: 0.098 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p51_2.png | NLI_grounding: 0.015 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p13_1.png | NLI_grounding: 0.006 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p49_1.png | NLI_grounding: 0.150 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p45_1.png | NLI_grounding: 0.003 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p50_3.png | NLI_grounding: 0.002 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p23_3.png | NLI_grounding: 0.015 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p23_2.png | NLI_grounding: 0.026 | VQA_P1: 1.000 (7/7 confirmed) | VQA_P2: n/a | ENR: False
+img_p19_2.png | NLI_grounding: 0.004 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p48_1.png | NLI_grounding: 0.048 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p47_2.png | NLI_grounding: 0.017 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p34_1.png | NLI_grounding: 0.145 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p45_2.png | NLI_grounding: 0.020 | VQA_P1: 1.000 (4/4 confirmed) | VQA_P2: n/a | ENR: False
+img_p22_1.png | NLI_grounding: 0.018 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p52_1.png | NLI_grounding: 0.198 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p50_4.png | NLI_grounding: 0.003 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p9_1.png | NLI_grounding: 0.271 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+
+>>> PDF: fichier
+/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+img_p13_2.png | NLI_grounding: 0.327 | VQA_P1: 0.667 (2/3 confirmed) | VQA_P2: n/a | ENR: False
+img_p20_2.png | NLI_grounding: 0.154 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p14_1.png | NLI_grounding: 0.143 | VQA_P1: 1.000 (3/3 confirmed) | VQA_P2: n/a | ENR: False
+img_p11_1.png | NLI_grounding: 0.099 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p23_1.png | NLI_grounding: 0.038 | VQA_P1: 1.000 (6/6 confirmed) | VQA_P2: n/a | ENR: False
+img_p14_2.png | NLI_grounding: 0.167 | VQA_P1: 0.667 (2/3 confirmed) | VQA_P2: n/a | ENR: False
+img_p15_1.png | NLI_grounding: 0.030 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p8_1.png | NLI_grounding: 0.082 | VQA_P1: 1.000 (3/3 confirmed) | VQA_P2: n/a | ENR: False
+img_p19_1.png | NLI_grounding: 0.051 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p10_1.png | NLI_grounding: 0.076 | VQA_P1: 0.600 (3/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p17_1.png | NLI_grounding: 0.390 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p21_1.png | NLI_grounding: 0.077 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p12_1.png | NLI_grounding: 0.127 | VQA_P1: 0.667 (2/3 confirmed) | VQA_P2: n/a | ENR: False
+img_p7_1.png | NLI_grounding: 0.115 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p17_2.png | NLI_grounding: 0.191 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p20_1.png | NLI_grounding: 0.079 | VQA_P1: 0.667 (2/3 confirmed) | VQA_P2: n/a | ENR: False
+img_p1_1.png | NLI_grounding: 0.002 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p10_2.png | NLI_grounding: 0.112 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p16_1.png | NLI_grounding: 0.128 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p13_1.png | NLI_grounding: 0.600 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: True
+img_p18_1.png | NLI_grounding: 0.047 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p19_2.png | NLI_grounding: 0.008 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p22_1.png | NLI_grounding: 0.121 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p1_2.png | NLI_grounding: 0.077 | VQA_P1: 1.000 (3/3 confirmed) | VQA_P2: n/a | ENR: False
+img_p9_1.png | NLI_grounding: 0.010 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+
+>>> PDF: 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire
+/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+img_p16_1.png | NLI_grounding: 0.001 | VQA_P1: 1.000 (4/4 confirmed) | VQA_P2: n/a | ENR: False
+img_p1_1.png | NLI_grounding: 0.001 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p21_1.png | NLI_grounding: 0.189 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p4_2.png | NLI_grounding: 0.237 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p12_1.png | NLI_grounding: 0.029 | VQA_P1: 0.600 (3/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p22_1.png | NLI_grounding: 0.215 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p15_1.png | NLI_grounding: 0.447 | VQA_P1: 0.750 (3/4 confirmed) | VQA_P2: n/a | ENR: True
+img_p28_1.png | NLI_grounding: 0.147 | VQA_P1: 1.000 (3/3 confirmed) | VQA_P2: n/a | ENR: False
+img_p10_1.png | NLI_grounding: 0.162 | VQA_P1: 1.000 (3/3 confirmed) | VQA_P2: n/a | ENR: False
+img_p9_1.png | NLI_grounding: 0.103 | VQA_P1: 1.000 (4/4 confirmed) | VQA_P2: n/a | ENR: False
+img_p12_2.png | NLI_grounding: 0.090 | VQA_P1: 0.600 (3/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p40_1.png | NLI_grounding: 0.374 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p6_1.png | NLI_grounding: 0.269 | VQA_P1: 1.000 (5/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p17_1.png | NLI_grounding: 0.105 | VQA_P1: 1.000 (6/6 confirmed) | VQA_P2: n/a | ENR: False
+img_p23_1.png | NLI_grounding: 0.144 | VQA_P1: 1.000 (4/4 confirmed) | VQA_P2: n/a | ENR: False
+img_p31_1.png | NLI_grounding: 0.011 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: False
+img_p4_1.png | NLI_grounding: 0.415 | VQA_P1: 1.000 (8/8 confirmed) | VQA_P2: n/a | ENR: True
+img_p21_2.png | NLI_grounding: 0.549 | VQA_P1: 0.800 (4/5 confirmed) | VQA_P2: n/a | ENR: True
+
+============================================================
+ENRICHMENT REPORT — pixtral-12b-hf
+Total Images Evaluated     : 105
+Total PDFs Evaluated       : 5
+------------------------------------------------------------
+Global NLI Grounding Score : 0.130
+Global NLI Novelty Score   : 0.870
+Global Novelty Rate        : 0.067
+Global Visual Grounding    : 1.000
+Global Enrichment Rate     : 0.067
+Global VQA P1 Score        : 0.894
+------------------------------------------------------------
+Per-PDF Breakdown:
+  2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire (18 imgs) | NLI_grd: 0.194 | NLI_nov: 0.806 | VQA_P1: 0.886 | VQA_P2: n/a | Enrichment: 0.167
+  Rapport-stage-M2-Floriane (38 imgs) | NLI_grd: 0.110 | NLI_nov: 0.890 | VQA_P1: 0.928 | VQA_P2: n/a | Enrichment: 0.053
+  dossier_unio_crassus_zorn_v4_19_11_2024 (19 imgs) | NLI_grd: 0.137 | NLI_nov: 0.864 | VQA_P1: 0.895 | VQA_P2: n/a | Enrichment: 0.053
+  fichier (25 imgs) | NLI_grd: 0.130 | NLI_nov: 0.870 | VQA_P1: 0.859 | VQA_P2: n/a | Enrichment: 0.040
+  reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7 (5 imgs) | NLI_grd: 0.033 | NLI_nov: 0.967 | VQA_P1: 0.847 | VQA_P2: n/a | Enrichment: 0.000
+============================================================

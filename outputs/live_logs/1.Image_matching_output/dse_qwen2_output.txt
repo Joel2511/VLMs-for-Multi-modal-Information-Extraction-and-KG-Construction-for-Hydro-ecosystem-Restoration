@@ -1,0 +1,171 @@
+--- CHECKING GPU ALLOCATION ---
+Wed Aug 19 12:47:38 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.105.08             Driver Version: 580.105.08     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Quadro RTX 6000                On  |   00000000:3B:00.0 Off |                    0 |
+| N/A   29C    P8             22W /  250W |       0MiB /  23040MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  Quadro RTX 6000                On  |   00000000:AF:00.0 Off |                    0 |
+| N/A   45C    P0            191W /  250W |   18057MiB /  23040MiB |    100%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   2  Quadro RTX 6000                On  |   00000000:D8:00.0 Off |                    0 |
+| N/A   43C    P0             71W /  250W |   17091MiB /  23040MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|    1   N/A  N/A         1472077      C   python                                18052MiB |
+|    2   N/A  N/A         1472067      C   python                                17086MiB |
++-----------------------------------------------------------------------------------------+
+Starting ColQwen extraction .
+--- Loading DSE-Qwen2-2B [Mode: HYBRID] ---
+Running on device: CUDA
+Loading weights:   0%|          | 0/730 [00:00<?, ?it/s]Loading weights:   0%|          | 1/730 [00:04<1:00:04,  4.94s/it]Loading weights:   1%|          | 4/730 [00:05<12:51,  1.06s/it]  Loading weights:   1%|          | 5/730 [00:05<10:34,  1.14it/s]Loading weights:   1%|          | 6/730 [00:06<08:39,  1.39it/s]Loading weights:   2%|▏         | 12/730 [00:06<02:39,  4.50it/s]Loading weights:   2%|▏         | 16/730 [00:06<01:53,  6.28it/s]Loading weights:   2%|▏         | 18/730 [00:07<02:10,  5.44it/s]Loading weights:   3%|▎         | 24/730 [00:07<01:13,  9.55it/s]Loading weights:   4%|▍         | 28/730 [00:07<01:06, 10.55it/s]Loading weights:   4%|▍         | 31/730 [00:08<01:21,  8.53it/s]Loading weights:   5%|▍         | 36/730 [00:08<00:56, 12.28it/s]Loading weights:   5%|▌         | 40/730 [00:08<00:50, 13.56it/s]Loading weights:   6%|▌         | 43/730 [00:08<01:08,  9.97it/s]Loading weights:   7%|▋         | 52/730 [00:09<00:47, 14.18it/s]Loading weights:   7%|▋         | 54/730 [00:09<01:12,  9.38it/s]Loading weights:   8%|▊         | 57/730 [00:10<01:03, 10.66it/s]Loading weights:   9%|▉         | 64/730 [00:10<00:49, 13.42it/s]Loading weights:   9%|▉         | 66/730 [00:11<01:14,  8.90it/s]Loading weights:   9%|▉         | 69/730 [00:11<01:03, 10.41it/s]Loading weights:  10%|█         | 76/730 [00:11<00:50, 12.87it/s]Loading weights:  11%|█         | 78/730 [00:12<01:16,  8.52it/s]Loading weights:  12%|█▏        | 84/730 [00:12<00:52, 12.40it/s]Loading weights:  12%|█▏        | 88/730 [00:12<00:53, 12.03it/s]Loading weights:  12%|█▏        | 90/730 [00:13<01:13,  8.67it/s]Loading weights:  14%|█▎        | 100/730 [00:13<00:46, 13.63it/s]Loading weights:  14%|█▍        | 102/730 [00:14<01:04,  9.77it/s]Loading weights:  15%|█▍        | 106/730 [00:14<00:50, 12.33it/s]Loading weights:  15%|█▌        | 112/730 [00:14<00:45, 13.45it/s]Loading weights:  16%|█▌        | 114/730 [00:15<00:59, 10.41it/s]Loading weights:  16%|█▋        | 120/730 [00:15<00:40, 14.96it/s]Loading weights:  17%|█▋        | 124/730 [00:15<00:41, 14.61it/s]Loading weights:  17%|█▋        | 127/730 [00:16<00:52, 11.55it/s]Loading weights:  19%|█▊        | 136/730 [00:16<00:38, 15.45it/s]Loading weights:  19%|█▉        | 138/730 [00:17<00:55, 10.73it/s]Loading weights:  19%|█▉        | 142/730 [00:17<00:45, 12.89it/s]Loading weights:  20%|██        | 148/730 [00:17<00:40, 14.38it/s]Loading weights:  21%|██        | 150/730 [00:18<00:59,  9.72it/s]Loading weights:  21%|██▏       | 156/730 [00:18<00:40, 14.08it/s]Loading weights:  22%|██▏       | 160/730 [00:18<00:41, 13.84it/s]Loading weights:  22%|██▏       | 163/730 [00:19<00:56, 10.03it/s]Loading weights:  24%|██▎       | 172/730 [00:19<00:41, 13.40it/s]Loading weights:  24%|██▍       | 174/730 [00:20<00:56,  9.91it/s]Loading weights:  25%|██▍       | 182/730 [00:20<00:34, 15.98it/s]Loading weights:  25%|██▌       | 186/730 [00:21<00:52, 10.30it/s]Loading weights:  27%|██▋       | 196/730 [00:21<00:37, 14.06it/s]Loading weights:  27%|██▋       | 199/730 [00:22<00:48, 10.90it/s]Loading weights:  28%|██▊       | 208/730 [00:22<00:38, 13.50it/s]Loading weights:  29%|██▉       | 210/730 [00:22<00:49, 10.55it/s]Loading weights:  30%|███       | 220/730 [00:23<00:33, 15.09it/s]Loading weights:  30%|███       | 222/730 [00:23<00:45, 11.16it/s]Loading weights:  32%|███▏      | 232/730 [00:24<00:29, 16.68it/s]Loading weights:  32%|███▏      | 235/730 [00:24<00:39, 12.62it/s]Loading weights:  33%|███▎      | 244/730 [00:25<00:32, 14.92it/s]Loading weights:  34%|███▎      | 246/730 [00:25<00:44, 10.96it/s]Loading weights:  35%|███▍      | 252/730 [00:25<00:32, 14.69it/s]Loading weights:  35%|███▌      | 256/730 [00:26<00:35, 13.21it/s]Loading weights:  35%|███▌      | 258/730 [00:26<00:51,  9.14it/s]Loading weights:  36%|███▌      | 264/730 [00:26<00:35, 13.05it/s]Loading weights:  37%|███▋      | 268/730 [00:27<00:38, 11.87it/s]Loading weights:  37%|███▋      | 270/730 [00:27<00:54,  8.46it/s]Loading weights:  38%|███▊      | 276/730 [00:27<00:35, 12.84it/s]Loading weights:  38%|███▊      | 280/730 [00:28<00:37, 11.93it/s]Loading weights:  39%|███▉      | 283/730 [00:29<00:52,  8.52it/s]Loading weights:  39%|███▉      | 285/730 [00:29<00:47,  9.46it/s]Loading weights:  40%|████      | 292/730 [00:29<00:34, 12.55it/s]Loading weights:  40%|████      | 294/730 [00:30<00:53,  8.18it/s]Loading weights:  41%|████      | 298/730 [00:30<00:39, 10.92it/s]Loading weights:  42%|████▏     | 304/730 [00:30<00:34, 12.36it/s]Loading weights:  42%|████▏     | 306/730 [00:31<00:55,  7.65it/s]Loading weights:  43%|████▎     | 312/730 [00:31<00:35, 11.88it/s]Loading weights:  43%|████▎     | 316/730 [00:31<00:31, 13.31it/s]Loading weights:  44%|████▎     | 319/730 [00:32<00:41,  9.86it/s]Loading weights:  45%|████▍     | 328/730 [00:32<00:29, 13.77it/s]Loading weights:  45%|████▌     | 331/730 [00:33<00:41,  9.59it/s]Loading weights:  46%|████▌     | 333/730 [00:33<00:39, 10.00it/s]Loading weights:  47%|████▋     | 343/730 [00:33<00:21, 17.82it/s]Loading weights:  47%|████▋     | 346/730 [00:33<00:22, 17.12it/s]Loading weights:  48%|████▊     | 349/730 [00:34<00:22, 17.08it/s]Loading weights:  49%|████▊     | 355/730 [00:34<00:16, 22.21it/s]Loading weights:  49%|████▉     | 358/730 [00:34<00:16, 22.51it/s]Loading weights:  49%|████▉     | 361/730 [00:34<00:16, 21.84it/s]Loading weights:  50%|█████     | 367/730 [00:34<00:14, 24.22it/s]Loading weights:  51%|█████     | 370/730 [00:34<00:15, 23.69it/s]Loading weights:  51%|█████     | 373/730 [00:35<00:14, 24.76it/s]Loading weights:  52%|█████▏    | 379/730 [00:35<00:12, 28.11it/s]Loading weights:  52%|█████▏    | 382/730 [00:35<00:14, 24.07it/s]Loading weights:  53%|█████▎    | 385/730 [00:35<00:15, 22.42it/s]Loading weights:  54%|█████▎    | 391/730 [00:35<00:12, 28.06it/s]Loading weights:  54%|█████▍    | 395/730 [00:35<00:12, 26.14it/s]Loading weights:  55%|█████▌    | 403/730 [00:36<00:10, 31.50it/s]Loading weights:  56%|█████▌    | 407/730 [00:36<00:13, 24.25it/s]Loading weights:  57%|█████▋    | 415/730 [00:36<00:09, 32.05it/s]Loading weights:  57%|█████▋    | 419/730 [00:36<00:12, 25.31it/s]Loading weights:  58%|█████▊    | 427/730 [00:36<00:09, 32.42it/s]Loading weights:  59%|█████▉    | 431/730 [00:37<00:11, 27.14it/s]Loading weights:  60%|██████    | 439/730 [00:37<00:08, 33.05it/s]Loading weights:  61%|██████    | 443/730 [00:37<00:12, 23.09it/s]Loading weights:  62%|██████▏   | 451/730 [00:37<00:08, 31.17it/s]Loading weights:  62%|██████▏   | 456/730 [00:38<00:10, 25.78it/s]Loading weights:  63%|██████▎   | 463/730 [00:38<00:09, 27.99it/s]Loading weights:  64%|██████▍   | 467/730 [00:38<00:12, 20.95it/s]Loading weights:  65%|██████▌   | 475/730 [00:38<00:09, 27.41it/s]Loading weights:  66%|██████▌   | 479/730 [00:39<00:11, 22.50it/s]Loading weights:  67%|██████▋   | 487/730 [00:39<00:08, 28.16it/s]Loading weights:  67%|██████▋   | 491/730 [00:39<00:09, 24.04it/s]Loading weights:  68%|██████▊   | 499/730 [00:39<00:07, 32.50it/s]Loading weights:  69%|██████▉   | 504/730 [00:39<00:08, 26.92it/s]Loading weights:  70%|███████   | 511/730 [00:40<00:07, 30.83it/s]Loading weights:  71%|███████   | 515/730 [00:40<00:08, 24.47it/s]Loading weights:  72%|███████▏  | 523/730 [00:40<00:06, 31.44it/s]Loading weights:  72%|███████▏  | 527/730 [00:40<00:08, 24.93it/s]Loading weights:  73%|███████▎  | 535/730 [00:40<00:06, 31.12it/s]Loading weights:  74%|███████▍  | 539/730 [00:41<00:08, 22.73it/s]Loading weights:  75%|███████▍  | 547/730 [00:41<00:06, 29.20it/s]Loading weights:  75%|███████▌  | 551/730 [00:41<00:07, 23.13it/s]Loading weights:  77%|███████▋  | 559/730 [00:41<00:06, 27.89it/s]Loading weights:  77%|███████▋  | 563/730 [00:42<00:07, 21.54it/s]Loading weights:  78%|███████▊  | 571/730 [00:42<00:06, 26.13it/s]Loading weights:  79%|███████▉  | 575/730 [00:42<00:07, 21.33it/s]Loading weights:  80%|███████▉  | 583/730 [00:42<00:05, 28.73it/s]Loading weights:  80%|████████  | 587/730 [00:43<00:06, 23.50it/s]Loading weights:  82%|████████▏ | 595/730 [00:43<00:04, 29.40it/s]Loading weights:  82%|████████▏ | 599/730 [00:43<00:05, 25.70it/s]Loading weights:  83%|████████▎ | 607/730 [00:43<00:03, 30.96it/s]Loading weights:  84%|████████▎ | 611/730 [00:44<00:05, 23.74it/s]Loading weights:  85%|████████▍ | 619/730 [00:44<00:03, 29.52it/s]Loading weights:  85%|████████▌ | 623/730 [00:44<00:04, 21.99it/s]Loading weights:  86%|████████▋ | 631/730 [00:44<00:03, 29.93it/s]Loading weights:  87%|████████▋ | 636/730 [00:44<00:03, 25.75it/s]Loading weights:  88%|████████▊ | 645/730 [00:45<00:02, 28.60it/s]Loading weights:  89%|████████▉ | 649/730 [00:45<00:02, 27.78it/s]Loading weights:  90%|████████▉ | 655/730 [00:45<00:02, 28.24it/s]Loading weights:  90%|█████████ | 659/730 [00:45<00:03, 21.81it/s]Loading weights:  91%|█████████▏| 667/730 [00:46<00:02, 28.06it/s]Loading weights:  92%|█████████▏| 671/730 [00:46<00:02, 23.13it/s]Loading weights:  93%|█████████▎| 679/730 [00:46<00:01, 29.22it/s]Loading weights:  94%|█████████▎| 683/730 [00:46<00:01, 25.10it/s]Loading weights:  95%|█████████▍| 691/730 [00:46<00:01, 31.83it/s]Loading weights:  95%|█████████▌| 695/730 [00:47<00:01, 23.88it/s]Loading weights:  96%|█████████▋| 703/730 [00:47<00:00, 30.11it/s]Loading weights:  97%|█████████▋| 707/730 [00:47<00:00, 25.04it/s]Loading weights:  98%|█████████▊| 715/730 [00:47<00:00, 30.47it/s]Loading weights:  98%|█████████▊| 719/730 [00:48<00:00, 24.40it/s]Loading weights: 100%|█████████▉| 727/730 [00:48<00:00, 18.94it/s]Loading weights: 100%|██████████| 730/730 [00:48<00:00, 17.58it/s]Loading weights: 100%|██████████| 730/730 [00:48<00:00, 14.95it/s]
+Found 5 PDFs to process: ['Rapport-stage-M2-Floriane.pdf', 'reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7.pdf', 'fichier.pdf', 'dossier_unio_crassus_zorn_v4_19_11_2024.pdf', '2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire.pdf']
+
+========== STARTING PROCESSING FOR: Rapport-stage-M2-Floriane ==========
+--- Loading Data for Rapport-stage-M2-Floriane ---
+Encoding 189 text blocks...
+Found 38 images to match.
+Processed img_p34_2.png -> Best: page_33_block_2 (0.98)
+Processed img_p13_2.png -> Best: page_13_block_5 (1.0)
+Processed img_p50_1.png -> Best: page_49_block_1 (0.8414)
+Processed img_p46_1.png -> Best: page_46_block_1 (0.8837)
+Processed img_p11_1.png -> Best: page_11_block_3 (1.0)
+Processed img_p23_1.png -> Best: page_23_block_5 (1.0)
+Processed img_p43_1.png -> Best: page_52_block_1 (0.7318)
+Processed img_p25_1.png -> Best: page_25_block_2 (1.0)
+Processed img_p15_1.png -> Best: page_15_block_4 (1.0)
+Processed img_p51_1.png -> Best: page_46_block_1 (0.6403)
+Processed img_p50_2.png -> Best: page_49_block_1 (0.98)
+Processed img_p50_5.png -> Best: page_49_block_1 (0.9737)
+Processed img_p8_1.png -> Best: page_8_block_3 (1.0)
+Processed img_p19_1.png -> Best: page_19_block_2 (0.9753)
+Processed img_p24_1.png -> Best: page_25_block_2 (0.98)
+Processed img_p21_1.png -> Best: page_20_block_4 (0.98)
+Processed img_p52_2.png -> Best: page_48_block_1 (0.8619)
+Processed img_p53_1.png -> Best: page_52_block_1 (0.8995)
+Processed img_p44_1.png -> Best: page_44_block_1 (1.0)
+Processed img_p47_1.png -> Best: page_46_block_1 (0.9342)
+Processed img_p43_2.png -> Best: page_43_block_2 (1.0)
+Processed img_p20_1.png -> Best: page_20_block_4 (0.9834)
+Processed img_p51_2.png -> Best: page_46_block_1 (0.61)
+Processed img_p13_1.png -> Best: page_13_block_3 (1.0)
+Processed img_p49_1.png -> Best: page_48_block_1 (0.9292)
+Processed img_p45_1.png -> Best: page_44_block_1 (0.98)
+Processed img_p50_3.png -> Best: page_55_block_1 (0.8645)
+Processed img_p23_3.png -> Best: page_23_block_5 (1.0)
+Processed img_p23_2.png -> Best: page_23_block_2 (1.0)
+Processed img_p19_2.png -> Best: page_18_block_5 (0.98)
+Processed img_p48_1.png -> Best: page_48_block_1 (0.7474)
+Processed img_p47_2.png -> Best: page_46_block_1 (0.8291)
+Processed img_p34_1.png -> Best: page_34_block_1 (1.0)
+Processed img_p45_2.png -> Best: page_44_block_1 (0.8132)
+Processed img_p22_1.png -> Best: page_22_block_1 (1.0)
+Processed img_p52_1.png -> Best: page_49_block_1 (0.8372)
+Processed img_p50_4.png -> Best: page_49_block_1 (0.98)
+Processed img_p9_1.png -> Best: page_9_block_4 (1.0)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/dse_qwen2_results/Rapport-stage-M2-Floriane
+========== STARTING PROCESSING FOR: reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7 ==========
+--- Loading Data for reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7 ---
+Encoding 23 text blocks...
+Found 5 images to match.
+Processed img_p1_1.png -> Best: page_4_block_2 (0.94)
+Processed img_p5_2.png -> Best: page_3_block_1 (0.96)
+Processed img_p5_1.png -> Best: page_4_block_2 (0.9666)
+Processed img_p3_1.png -> Best: page_2_block_2 (0.98)
+Processed img_p4_1.png -> Best: page_4_block_2 (1.0)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/dse_qwen2_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7
+========== STARTING PROCESSING FOR: fichier ==========
+--- Loading Data for fichier ---
+Encoding 60 text blocks...
+Found 25 images to match.
+Processed img_p13_2.png -> Best: page_13_block_2 (1.0)
+Processed img_p20_2.png -> Best: page_20_block_1 (0.9888)
+Processed img_p14_1.png -> Best: page_17_block_3 (0.94)
+Processed img_p11_1.png -> Best: page_9_block_1 (0.96)
+Processed img_p23_1.png -> Best: page_20_block_1 (0.8477)
+Processed img_p14_2.png -> Best: page_9_block_1 (0.9)
+Processed img_p15_1.png -> Best: page_17_block_2 (0.96)
+Processed img_p8_1.png -> Best: page_8_block_4 (1.0)
+Processed img_p19_1.png -> Best: page_19_block_1 (1.0)
+Processed img_p10_1.png -> Best: page_10_block_1 (1.0)
+Processed img_p17_1.png -> Best: page_17_block_3 (1.0)
+Processed img_p21_1.png -> Best: page_19_block_1 (0.96)
+Processed img_p12_1.png -> Best: page_9_block_1 (0.94)
+Processed img_p7_1.png -> Best: page_9_block_1 (0.9389)
+Processed img_p17_2.png -> Best: page_17_block_2 (1.0)
+Processed img_p20_1.png -> Best: page_20_block_2 (1.0)
+Processed img_p1_1.png -> Best: page_7_block_2 (0.786)
+Processed img_p10_2.png -> Best: page_9_block_1 (0.968)
+Processed img_p16_1.png -> Best: page_16_block_1 (1.0)
+Processed img_p13_1.png -> Best: page_9_block_1 (0.92)
+Processed img_p18_1.png -> Best: page_17_block_2 (0.98)
+Processed img_p19_2.png -> Best: page_19_block_1 (1.0)
+Processed img_p22_1.png -> Best: page_22_block_1 (1.0)
+Processed img_p1_2.png -> Best: page_14_block_1 (0.6994)
+Processed img_p9_1.png -> Best: page_9_block_1 (1.0)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/dse_qwen2_results/fichier
+========== STARTING PROCESSING FOR: dossier_unio_crassus_zorn_v4_19_11_2024 ==========
+--- Loading Data for dossier_unio_crassus_zorn_v4_19_11_2024 ---
+Encoding 70 text blocks...
+Found 19 images to match.
+Processed img_p14_1.png -> Best: page_14_block_1 (1.0)
+Processed img_p16_1.png -> Best: page_16_block_3 (0.9859)
+Processed img_p1_1.png -> Best: page_6_block_1 (0.7512)
+Processed img_p21_1.png -> Best: page_21_block_2 (1.0)
+Processed img_p13_1.png -> Best: page_13_block_1 (1.0)
+Processed img_p15_1.png -> Best: page_13_block_2 (0.7875)
+Processed img_p18_1.png -> Best: page_17_block_2 (0.9322)
+Processed img_p24_1.png -> Best: page_23_block_3 (0.8169)
+Processed img_p20_1.png -> Best: page_19_block_3 (0.98)
+Processed img_p26_1.png -> Best: page_25_block_3 (0.8457)
+Processed img_p28_1.png -> Best: page_32_block_5 (0.7825)
+Processed img_p25_1.png -> Best: page_26_block_1 (0.98)
+Processed img_p5_1.png -> Best: page_5_block_3 (1.0)
+Processed img_p10_1.png -> Best: page_3_block_1 (0.86)
+Processed img_p9_1.png -> Best: page_5_block_3 (0.7991)
+Processed img_p13_2.png -> Best: page_3_block_1 (0.8)
+Processed img_p6_1.png -> Best: page_5_block_3 (0.98)
+Processed img_p17_1.png -> Best: page_17_block_1 (1.0)
+Processed img_p8_1.png -> Best: page_5_block_3 (0.8911)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/dse_qwen2_results/dossier_unio_crassus_zorn_v4_19_11_2024
+========== STARTING PROCESSING FOR: 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire ==========
+--- Loading Data for 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire ---
+Encoding 184 text blocks...
+Found 18 images to match.
+Processed img_p16_1.png -> Best: page_15_block_1 (0.98)
+Processed img_p1_1.png -> Best: page_2_block_2 (0.9469)
+Processed img_p21_1.png -> Best: page_21_block_1 (1.0)
+Processed img_p4_2.png -> Best: page_4_block_3 (1.0)
+Processed img_p12_1.png -> Best: page_12_block_1 (1.0)
+Processed img_p22_1.png -> Best: page_22_block_1 (1.0)
+Processed img_p15_1.png -> Best: page_15_block_1 (1.0)
+Processed img_p28_1.png -> Best: page_28_block_1 (1.0)
+Processed img_p10_1.png -> Best: page_10_block_1 (0.9126)
+Processed img_p9_1.png -> Best: page_9_block_1 (1.0)
+Processed img_p12_2.png -> Best: page_12_block_1 (1.0)
+Processed img_p40_1.png -> Best: page_39_block_2 (0.98)
+Processed img_p6_1.png -> Best: page_6_block_1 (1.0)
+Processed img_p17_1.png -> Best: page_16_block_1 (0.98)
+Processed img_p23_1.png -> Best: page_23_block_2 (1.0)
+Processed img_p31_1.png -> Best: page_28_block_1 (0.94)
+Processed img_p4_1.png -> Best: page_4_block_5 (1.0)
+Processed img_p21_2.png -> Best: page_21_block_2 (1.0)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/dse_qwen2_results/2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire

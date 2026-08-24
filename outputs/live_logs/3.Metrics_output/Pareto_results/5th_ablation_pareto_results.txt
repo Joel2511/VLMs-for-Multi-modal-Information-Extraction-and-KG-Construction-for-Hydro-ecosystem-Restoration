@@ -1,0 +1,28 @@
+  [READ] nvila_p0_baseline_captions → nvila_P0.txt
+  [READ] nvila_p1_primitive_captions → nvila_P1.txt
+  [READ] nvila_p2_refusal_captions → nvila_P2.txt
+  [READ] nvila_p3_contrast_captions → nvila_P3.txt
+  [READ] nvila_p4_selfcorrect_captions → nvila_P4.txt
+  [READ] nvila_p5_expert_captions → nvila_P5.txt
+  Found 6 model(s): ['nvila_p0_baseline_captions', 'nvila_p1_primitive_captions', 'nvila_p2_refusal_captions', 'nvila_p3_contrast_captions', 'nvila_p4_selfcorrect_captions', 'nvila_p5_expert_captions']
+
+========================================================================================================================
+  PARETO RESULTS — Ablation 5 | Scenario B: Oracle
+  Weights: Quality=60%  Speed=25%  Size=15%
+Scenario A (Production): Quality = 0.33*VQA + 0.34*Enrichment + 0.33*NLI  | Weights: Q=40% S=35% Z=25%
+Scenario B (Oracle):     Quality = 0.50*VQA + 0.35*Enrichment + 0.15*NLI  | Weights: Q=60% S=25% Z=15%
+========================================================================================================================
+  Rank  Model                      Params   s/img  NLI Nov  Comb VQA   Enrich   Q_raw  Q_norm  S_norm  Z_norm   PARETO
+------------------------------------------------------------------------------------------------------------------------
+  1     nvila_p3_contrast_captions    8.1B    13.8    0.771     0.828    0.219   0.606   1.000   0.771   1.000   0.9427
+  2     nvila_p4_selfcorrect_captions    8.1B    12.7    0.805     0.861    0.114   0.591   0.680   1.000   1.000   0.8080
+  3     nvila_p0_baseline_captions    8.1B    16.7    0.783     0.840    0.181   0.601   0.878   0.154   1.000   0.7156
+  4     nvila_p5_expert_captions     8.1B    16.0    0.803     0.837    0.143   0.589   0.635   0.292   1.000   0.6042
+  5     nvila_p2_refusal_captions    8.1B    16.1    0.777     0.815    0.152   0.577   0.397   0.286   1.000   0.4597
+  6     nvila_p1_primitive_captions    8.1B    17.4    0.790     0.820    0.086   0.558   0.000   0.000   1.000   0.1500
+========================================================================================================================
+
+ Ablation_winner: nvila_p3_contrast_captions  |  Pareto Score: 0.9427
+     Quality: 0.606  |  s/img: 13.8  |  Params: 8.1B
+========================================================================================================================
+

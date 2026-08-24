@@ -1,0 +1,597 @@
+--- Loading pixtral-12b-hf with vidore retrieval context ---
+    Generator : pixtral-12b-hf
+    Retriever : vidore
+The `use_fast` parameter is deprecated and will be removed in a future version. Use `backend="torchvision"` instead of `use_fast=True`, or `backend="pil"` instead of `use_fast=False`.
+The tokenizer you are loading from '/home2020/home/icube/janil/Rhine_proj/hf_models/pixtral-12b-hf' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+Loading weights:   0%|          | 0/585 [00:00<?, ?it/s]Loading weights:   0%|          | 1/585 [00:01<11:05,  1.14s/it]Loading weights:   0%|          | 2/585 [00:02<10:36,  1.09s/it]/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:213: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+Loading weights:   1%|          | 4/585 [00:03<08:13,  1.18it/s]Loading weights:   1%|          | 5/585 [00:03<06:09,  1.57it/s]Loading weights:   1%|          | 6/585 [00:03<04:46,  2.02it/s]Loading weights:   2%|▏         | 10/585 [00:04<01:58,  4.84it/s]Loading weights:   2%|▏         | 13/585 [00:04<01:29,  6.39it/s]Loading weights:   3%|▎         | 15/585 [00:04<01:29,  6.39it/s]Loading weights:   3%|▎         | 19/585 [00:04<00:57,  9.77it/s]Loading weights:   4%|▍         | 22/585 [00:05<00:50, 11.06it/s]Loading weights:   4%|▍         | 24/585 [00:05<01:01,  9.06it/s]Loading weights:   5%|▍         | 28/585 [00:05<00:43, 12.94it/s]Loading weights:   5%|▌         | 31/585 [00:05<00:39, 13.95it/s]Loading weights:   6%|▌         | 33/585 [00:05<00:52, 10.60it/s]Loading weights:   6%|▋         | 38/585 [00:06<00:33, 16.24it/s]Loading weights:   7%|▋         | 41/585 [00:06<00:41, 13.07it/s]Loading weights:   8%|▊         | 44/585 [00:06<00:39, 13.80it/s]Loading weights:   8%|▊         | 48/585 [00:06<00:33, 16.12it/s]Loading weights:   9%|▊         | 51/585 [00:07<00:57,  9.34it/s]Loading weights:   9%|▉         | 55/585 [00:07<00:42, 12.56it/s]Loading weights:  10%|▉         | 58/585 [00:07<00:42, 12.30it/s]Loading weights:  10%|█         | 60/585 [00:08<00:53,  9.87it/s]Loading weights:  11%|█         | 64/585 [00:08<00:38, 13.57it/s]Loading weights:  11%|█▏        | 67/585 [00:08<00:39, 13.00it/s]Loading weights:  12%|█▏        | 69/585 [00:08<00:51, 10.08it/s]Loading weights:  12%|█▏        | 73/585 [00:09<00:36, 13.94it/s]Loading weights:  13%|█▎        | 76/585 [00:09<00:34, 14.81it/s]Loading weights:  14%|█▎        | 79/585 [00:09<00:39, 12.74it/s]Loading weights:  14%|█▍        | 82/585 [00:09<00:33, 14.80it/s]Loading weights:  15%|█▍        | 85/585 [00:09<00:31, 16.05it/s]Loading weights:  15%|█▍        | 87/585 [00:10<00:42, 11.68it/s]Loading weights:  16%|█▌        | 91/585 [00:10<00:31, 15.81it/s]Loading weights:  16%|█▌        | 94/585 [00:10<00:32, 15.04it/s]Loading weights:  16%|█▋        | 96/585 [00:10<00:42, 11.39it/s]Loading weights:  17%|█▋        | 100/585 [00:10<00:31, 15.17it/s]Loading weights:  18%|█▊        | 103/585 [00:11<00:31, 15.48it/s]Loading weights:  18%|█▊        | 105/585 [00:11<00:43, 11.00it/s]Loading weights:  19%|█▊        | 109/585 [00:11<00:32, 14.77it/s]Loading weights:  19%|█▉        | 112/585 [00:11<00:31, 15.17it/s]Loading weights:  19%|█▉        | 114/585 [00:12<00:43, 10.83it/s]Loading weights:  20%|██        | 118/585 [00:12<00:31, 14.68it/s]Loading weights:  21%|██        | 121/585 [00:12<00:31, 14.87it/s]Loading weights:  21%|██        | 123/585 [00:12<00:44, 10.32it/s]Loading weights:  22%|██▏       | 127/585 [00:13<00:33, 13.82it/s]Loading weights:  22%|██▏       | 130/585 [00:13<00:33, 13.52it/s]Loading weights:  23%|██▎       | 132/585 [00:13<00:42, 10.58it/s]Loading weights:  23%|██▎       | 136/585 [00:13<00:30, 14.52it/s]Loading weights:  24%|██▍       | 139/585 [00:13<00:30, 14.64it/s]Loading weights:  24%|██▍       | 141/585 [00:14<00:40, 11.03it/s]Loading weights:  25%|██▍       | 146/585 [00:14<00:26, 16.57it/s]Loading weights:  25%|██▌       | 149/585 [00:14<00:33, 12.96it/s]Loading weights:  26%|██▌       | 151/585 [00:14<00:33, 12.79it/s]Loading weights:  26%|██▋       | 154/585 [00:14<00:27, 15.41it/s]Loading weights:  27%|██▋       | 157/585 [00:15<00:27, 15.85it/s]Loading weights:  27%|██▋       | 159/585 [00:15<00:53,  7.92it/s]Loading weights:  28%|██▊       | 163/585 [00:15<00:37, 11.36it/s]Loading weights:  28%|██▊       | 166/585 [00:16<00:34, 12.19it/s]Loading weights:  29%|██▊       | 168/585 [00:16<00:43,  9.52it/s]Loading weights:  29%|██▉       | 172/585 [00:16<00:30, 13.43it/s]Loading weights:  30%|██▉       | 175/585 [00:16<00:28, 14.34it/s]Loading weights:  30%|███       | 178/585 [00:17<00:43,  9.36it/s]Loading weights:  31%|███       | 181/585 [00:17<00:34, 11.70it/s]Loading weights:  31%|███▏      | 184/585 [00:17<00:31, 12.89it/s]Loading weights:  32%|███▏      | 186/585 [00:18<00:39, 10.23it/s]Loading weights:  33%|███▎      | 191/585 [00:18<00:25, 15.66it/s]Loading weights:  33%|███▎      | 194/585 [00:18<00:40,  9.76it/s]Loading weights:  34%|███▎      | 196/585 [00:18<00:37, 10.32it/s]Loading weights:  35%|███▍      | 202/585 [00:19<00:26, 14.22it/s]Loading weights:  35%|███▍      | 204/585 [00:19<00:31, 12.03it/s]Loading weights:  36%|███▌      | 209/585 [00:19<00:21, 17.14it/s]Loading weights:  36%|███▌      | 212/585 [00:19<00:27, 13.51it/s]Loading weights:  37%|███▋      | 215/585 [00:20<00:25, 14.41it/s]Loading weights:  37%|███▋      | 218/585 [00:20<00:22, 16.64it/s]Loading weights:  38%|███▊      | 221/585 [00:20<00:31, 11.54it/s]Loading weights:  38%|███▊      | 223/585 [00:20<00:30, 11.72it/s]Loading weights:  39%|███▉      | 229/585 [00:21<00:23, 15.45it/s]Loading weights:  39%|███▉      | 231/585 [00:21<00:28, 12.46it/s]Loading weights:  40%|████      | 235/585 [00:21<00:22, 15.68it/s]Loading weights:  41%|████      | 238/585 [00:21<00:21, 16.39it/s]Loading weights:  41%|████      | 240/585 [00:21<00:27, 12.51it/s]Loading weights:  42%|████▏     | 244/585 [00:22<00:20, 16.60it/s]Loading weights:  42%|████▏     | 247/585 [00:22<00:20, 16.27it/s]Loading weights:  43%|████▎     | 250/585 [00:22<00:25, 12.98it/s]Loading weights:  43%|████▎     | 253/585 [00:22<00:21, 15.34it/s]Loading weights:  44%|████▍     | 256/585 [00:22<00:21, 15.29it/s]Loading weights:  44%|████▍     | 258/585 [00:23<00:28, 11.42it/s]Loading weights:  45%|████▍     | 263/585 [00:23<00:18, 17.22it/s]Loading weights:  45%|████▌     | 266/585 [00:23<00:22, 14.13it/s]Loading weights:  46%|████▌     | 269/585 [00:23<00:20, 15.49it/s]Loading weights:  46%|████▋     | 272/585 [00:23<00:18, 16.93it/s]Loading weights:  47%|████▋     | 275/585 [00:24<00:23, 13.32it/s]Loading weights:  47%|████▋     | 277/585 [00:24<00:23, 13.18it/s]Loading weights:  48%|████▊     | 283/585 [00:24<00:17, 16.82it/s]Loading weights:  49%|████▊     | 285/585 [00:24<00:23, 12.91it/s]Loading weights:  49%|████▉     | 289/585 [00:25<00:17, 16.77it/s]Loading weights:  50%|████▉     | 292/585 [00:25<00:19, 15.27it/s]Loading weights:  50%|█████     | 294/585 [00:25<00:24, 11.79it/s]Loading weights:  51%|█████     | 299/585 [00:25<00:16, 17.20it/s]Loading weights:  52%|█████▏    | 302/585 [00:26<00:20, 13.92it/s]Loading weights:  52%|█████▏    | 304/585 [00:26<00:22, 12.70it/s]Loading weights:  52%|█████▏    | 306/585 [00:27<00:46,  5.97it/s]Loading weights:  53%|█████▎    | 308/585 [00:27<00:51,  5.39it/s]Loading weights:  53%|█████▎    | 310/585 [00:27<00:47,  5.75it/s]Loading weights:  53%|█████▎    | 311/585 [00:28<00:47,  5.77it/s]Loading weights:  53%|█████▎    | 312/585 [00:28<00:48,  5.67it/s]Loading weights:  54%|█████▍    | 316/585 [00:28<00:27,  9.76it/s]Loading weights:  55%|█████▍    | 319/585 [00:28<00:22, 11.71it/s]Loading weights:  55%|█████▍    | 321/585 [00:28<00:28,  9.38it/s]Loading weights:  56%|█████▌    | 325/585 [00:29<00:19, 13.48it/s]Loading weights:  56%|█████▌    | 328/585 [00:29<00:19, 13.30it/s]Loading weights:  56%|█████▋    | 330/585 [00:29<00:26,  9.64it/s]Loading weights:  57%|█████▋    | 334/585 [00:29<00:18, 13.39it/s]Loading weights:  58%|█████▊    | 337/585 [00:30<00:18, 13.58it/s]Loading weights:  58%|█████▊    | 339/585 [00:30<00:25,  9.64it/s]Loading weights:  59%|█████▊    | 343/585 [00:30<00:18, 13.33it/s]Loading weights:  59%|█████▉    | 346/585 [00:30<00:17, 13.66it/s]Loading weights:  59%|█████▉    | 348/585 [00:31<00:23, 10.22it/s]Loading weights:  60%|██████    | 352/585 [00:31<00:16, 13.74it/s]Loading weights:  61%|██████    | 355/585 [00:31<00:15, 14.47it/s]Loading weights:  61%|██████    | 357/585 [00:31<00:21, 10.81it/s]Loading weights:  62%|██████▏   | 362/585 [00:31<00:13, 16.07it/s]Loading weights:  64%|██████▎   | 372/585 [00:32<00:07, 29.51it/s]Loading weights:  66%|██████▌   | 384/585 [00:32<00:04, 46.49it/s]Loading weights:  67%|██████▋   | 391/585 [00:32<00:03, 50.16it/s]Loading weights:  68%|██████▊   | 398/585 [00:32<00:03, 52.69it/s]Loading weights:  70%|██████▉   | 408/585 [00:32<00:02, 62.43it/s]Loading weights:  73%|███████▎  | 425/585 [00:32<00:01, 87.70it/s]Loading weights:  74%|███████▍  | 435/585 [00:32<00:01, 90.79it/s]Loading weights:  76%|███████▌  | 445/585 [00:32<00:01, 91.16it/s]Loading weights:  78%|███████▊  | 456/585 [00:32<00:01, 95.54it/s]Loading weights:  81%|████████  | 475/585 [00:33<00:00, 117.74it/s]Loading weights:  83%|████████▎ | 488/585 [00:33<00:00, 114.93it/s]Loading weights:  86%|████████▋ | 506/585 [00:33<00:00, 130.77it/s]Loading weights:  89%|████████▉ | 520/585 [00:33<00:00, 132.02it/s]Loading weights:  91%|█████████▏| 534/585 [00:33<00:00, 125.41it/s]Loading weights:  94%|█████████▎| 547/585 [00:33<00:00, 120.75it/s]Loading weights:  96%|█████████▌| 560/585 [00:33<00:00, 115.42it/s]Loading weights:  98%|█████████▊| 575/585 [00:33<00:00, 122.20it/s]Loading weights: 100%|██████████| 585/585 [00:33<00:00, 17.26it/s] 
+    Model size   : 7.0B parameters
+    Loaded at    : 11:41:02
+
+========== PROCESSING [dossier_unio_crassus_zorn_v4_19_11_2024] ==========
+    Images to caption: 19
+/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+    [1/19] img_p14_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Une personne... (75.3s)
+    [2/19] img_p16_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Individu de ... (73.3s)
+    [3/19] img_p1_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Un cours d'e... (17.8s)
+    [4/19] img_p21_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** La carte montr... (52.8s)
+    [5/19] img_p13_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** La carte montr... (17.1s)
+    [6/19] img_p15_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** La carte montr... (18.1s)
+    [7/19] img_p18_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** La carte montr... (26.8s)
+    [8/19] img_p24_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Description :**
+- La carte montre une zone... (69.1s)
+    [9/19] img_p20_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** Carte de la zo... (19.2s)
+    [10/19] img_p26_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** La photo mon... (18.4s)
+    [11/19] img_p28_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Une main ten... (52.6s)
+    [12/19] img_p25_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Description :**
+- La carte montre la local... (23.8s)
+    [13/19] img_p5_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** La carte montr... (15.6s)
+    [14/19] img_p10_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** La carte montr... (25.2s)
+    [15/19] img_p9_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** La carte montr... (35.2s)
+    [16/19] img_p13_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** La carte montr... (25.0s)
+    [17/19] img_p6_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Un tronçon r... (20.5s)
+    [18/19] img_p17_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Le graphique... (60.1s)
+    [19/19] img_p8_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** La carte montr... (14.8s)
+========== COMPLETED [dossier_unio_crassus_zorn_v4_19_11_2024] in 00h 11m 05s ==========
+
+========== PROCESSING [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] ==========
+    Images to caption: 5
+/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+    [1/5] img_p1_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Description :**
+- L'image montre trois car... (35.2s)
+    [2/5] img_p5_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO / MAP
+
+**Description :**
+- L'image montre d... (31.4s)
+    [3/5] img_p5_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** L'image mont... (73.7s)
+    [4/5] img_p3_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** Carte du Rhin ... (28.6s)
+    [5/5] img_p4_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** La carte montr... (34.5s)
+========== COMPLETED [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] in 00h 03m 24s ==========
+
+========== PROCESSING [Rapport-stage-M2-Floriane] ==========
+    Images to caption: 38
+/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+    [1/38] img_p47_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Le graphique... (35.3s)
+    [2/38] img_p53_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** Carte des empl... (29.8s)
+    [3/38] img_p21_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Le graphique... (37.7s)
+    [4/38] img_p13_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Une berge de... (38.5s)
+    [5/38] img_p23_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Figure 12 : ... (55.7s)
+    [6/38] img_p50_4.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Un cours d'e... (71.4s)
+    [7/38] img_p45_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Le graphique... (70.2s)
+    [8/38] img_p50_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Une barre ro... (68.4s)
+    [9/38] img_p46_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :**
+- Le graphiq... (38.4s)
+    [10/38] img_p22_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Le graphique... (38.8s)
+    [11/38] img_p15_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Sonde thermi... (31.9s)
+    [12/38] img_p24_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Abondances r... (37.6s)
+    [13/38] img_p20_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Le graphique... (54.7s)
+    [14/38] img_p52_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Diagramme de... (18.3s)
+    [15/38] img_p34_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Couche de ga... (57.2s)
+    [16/38] img_p19_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Comparaison ... (26.8s)
+    [17/38] img_p43_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** DIAGRAM
+
+**Sujet principal visible :** Le diagram... (59.7s)
+    [18/38] img_p50_3.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Un cours d'e... (59.8s)
+    [19/38] img_p25_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Abondances r... (67.1s)
+    [20/38] img_p50_5.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Une rivière ... (51.1s)
+    [21/38] img_p51_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Courbes des ... (25.1s)
+    [22/38] img_p51_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Courbes de t... (28.5s)
+    [23/38] img_p47_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Le graphique... (29.7s)
+    [24/38] img_p11_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Passe à pois... (16.4s)
+    [25/38] img_p9_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** ILLUSTRATION
+
+**Sujet principal visible :** Cycle... (30.8s)
+    [26/38] img_p49_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** Cartographie d... (27.8s)
+    [27/38] img_p23_3.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Une portion ... (40.6s)
+    [28/38] img_p13_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Une vue aéri... (20.0s)
+    [29/38] img_p45_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Le graphique... (43.4s)
+    [30/38] img_p23_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** La photo mon... (48.3s)
+    [31/38] img_p43_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** Carte de l'amé... (35.6s)
+    [32/38] img_p52_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Description :**
+- L'image montre deux cart... (48.9s)
+    [33/38] img_p19_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Le graphique... (32.3s)
+    [34/38] img_p8_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Description :**
+- L'image montre deux cart... (55.7s)
+    [35/38] img_p48_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Le graphique... (41.7s)
+    [36/38] img_p50_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Un cours d'e... (11.6s)
+    [37/38] img_p34_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Substrat rec... (36.4s)
+    [38/38] img_p44_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** Carte des empl... (16.0s)
+========== COMPLETED [Rapport-stage-M2-Floriane] in 00h 25m 44s ==========
+
+========== PROCESSING [fichier] ==========
+    Images to caption: 25
+/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+    [1/25] img_p13_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Description :**
+- **Sujet principal visi... (44.1s)
+    [2/25] img_p20_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Berges d'un ... (49.4s)
+    [3/25] img_p14_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Le sujet pri... (47.8s)
+    [4/25] img_p11_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Cours d'eau ... (47.2s)
+    [5/25] img_p23_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** DIAGRAM
+
+**Sujet principal visible :** Le diagram... (72.5s)
+    [6/25] img_p14_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Description :**
+- L'image montre un cour... (54.8s)
+    [7/25] img_p15_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Les photos m... (45.4s)
+    [8/25] img_p8_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Description :**
+- La photo montre un pay... (47.9s)
+    [9/25] img_p19_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Le sujet pri... (31.0s)
+    [10/25] img_p10_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Description :**
+- **Image de gauche :** ... (53.1s)
+    [11/25] img_p17_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Le sujet pri... (46.7s)
+    [12/25] img_p21_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Description :**
+- L'image montre deux ph... (32.8s)
+    [13/25] img_p12_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Description :**
+- La photo de gauche mon... (38.8s)
+    [14/25] img_p7_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** Carte générale... (40.7s)
+    [15/25] img_p17_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :**
+- La photo m... (49.9s)
+    [16/25] img_p20_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Description :**
+- La photo de gauche mon... (47.2s)
+    [17/25] img_p1_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** L'image mont... (57.0s)
+    [18/25] img_p10_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :**
+- Le sujet p... (46.0s)
+    [19/25] img_p16_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Le sujet pri... (46.3s)
+    [20/25] img_p13_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Description :**
+- L'image montre un cour... (49.6s)
+    [21/25] img_p18_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Un tronçon d... (43.7s)
+    [22/25] img_p19_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Description :**
+- L'image montre deux st... (26.8s)
+    [23/25] img_p22_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Aspect d'un ... (19.3s)
+    [24/25] img_p1_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** Le sujet princ... (44.4s)
+    [25/25] img_p9_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Description :**
+- La photo de gauche mon... (50.8s)
+========== COMPLETED [fichier] in 00h 18m 57s ==========
+
+========== PROCESSING [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] ==========
+    Images to caption: 18
+/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+    [1/18] img_p16_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP / PHOTO
+
+**Description :**
+- **Image a :** Ca... (56.8s)
+    [2/18] img_p1_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Une zone boi... (30.5s)
+    [3/18] img_p21_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** La photo mon... (17.3s)
+    [4/18] img_p4_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Description :**
+- La carte montre une clas... (45.7s)
+    [5/18] img_p12_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** La carte montr... (31.7s)
+    [6/18] img_p22_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** DIAGRAM
+
+**Sujet principal visible :** Représenta... (21.4s)
+    [7/18] img_p15_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP / PHOTO / GRAPH / DIAGRAM
+
+**Description :**
+... (29.8s)
+    [8/18] img_p28_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** GRAPH
+
+**Sujet principal visible :** Les graphiqu... (20.9s)
+    [9/18] img_p10_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** DIAGRAM
+
+**Sujet principal visible :** Le diagram... (61.3s)
+    [10/18] img_p9_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Description :**
+- **Image a :** Une zone... (63.1s)
+    [11/18] img_p12_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** La carte montr... (72.6s)
+    [12/18] img_p40_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Sujet principal visible :** La carte montr... (47.1s)
+    [13/18] img_p6_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** DIAGRAM
+
+**Sujet principal visible :** Figure 3 :... (66.3s)
+    [14/18] img_p17_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** MAP
+
+**Description :**
+- L'image montre plusieurs... (25.5s)
+    [15/18] img_p23_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Sujet principal visible :** Les profils ... (24.1s)
+    [16/18] img_p31_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** PHOTO
+
+**Description :**
+- **Image de gauche (a) ... (22.2s)
+    [17/18] img_p4_1.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** DIAGRAM
+
+**Sujet principal visible :** Schéma typ... (12.3s)
+    [18/18] img_p21_2.png -> ### PHASE 1 — DESCRIPTION LIBRE
+
+**Type visuel :** DIAGRAM
+
+**Sujet principal visible :** Représenta... (22.5s)
+========== COMPLETED [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] in 00h 11m 14s ==========
+
+============================================================
+  PIPELINE COMPLETE
+  Generator model  : pixtral-12b-hf
+  Retrieval model  : vidore
+  Total runtime    : 01h 11m 44s
+============================================================

@@ -1,0 +1,56 @@
+2026-06-28 03:55:37 INFO: - Loading ent2ids...
+2026-06-28 03:55:37 INFO: - Loading TransH embeddings...
+2026-06-28 03:55:38 INFO: - Entity embed: (672377, 400), Relation embed: (80, 400)
+2026-06-28 03:55:38 INFO: - Loaded 40 relations from /home2020/home/icube/janil/Rhine_proj/embeddings/TransH/globikg/test_tasks.json
+Evaluating [test]:   0%|          | 0/40 [00:00<?, ?it/s]2026-06-28 03:55:48 CRITICAL: - - eats  MRR:0.093  H@10:0.236  H@5:0.143  H@1:0.025
+Evaluating [test]:   2%|▎         | 1/40 [00:09<06:06,  9.39s/it]2026-06-28 03:55:54 CRITICAL: - - adjacentTo  MRR:0.113  H@10:0.187  H@5:0.132  H@1:0.080
+Evaluating [test]:   5%|▌         | 2/40 [00:15<04:36,  7.28s/it]2026-06-28 03:56:09 CRITICAL: - - hasHost  MRR:0.070  H@10:0.124  H@5:0.087  H@1:0.038
+Evaluating [test]:   8%|▊         | 3/40 [00:30<06:42, 10.87s/it]2026-06-28 03:56:18 CRITICAL: - - interactsWith  MRR:0.034  H@10:0.036  H@5:0.025  H@1:0.018
+Evaluating [test]:  10%|█         | 4/40 [00:39<06:06, 10.19s/it]2026-06-28 03:56:20 CRITICAL: - - visitsFlowersOf  MRR:0.109  H@10:0.223  H@5:0.152  H@1:0.045
+Evaluating [test]:  12%|█▎        | 5/40 [00:42<04:20,  7.43s/it]2026-06-28 03:56:22 CRITICAL: - - hemiparasiteOf  MRR:0.052  H@10:0.084  H@5:0.054  H@1:0.024
+Evaluating [test]:  15%|█▌        | 6/40 [00:43<03:03,  5.40s/it]2026-06-28 03:56:23 CRITICAL: - - pathogenOf  MRR:0.132  H@10:0.142  H@5:0.130  H@1:0.108
+Evaluating [test]:  18%|█▊        | 7/40 [00:45<02:17,  4.16s/it]2026-06-28 03:56:24 CRITICAL: - - endoparasiteOf  MRR:0.017  H@10:0.022  H@5:0.014  H@1:0.004
+Evaluating [test]:  20%|██        | 8/40 [00:45<01:32,  2.90s/it]2026-06-28 03:56:26 CRITICAL: - - preysOn  MRR:0.037  H@10:0.057  H@5:0.040  H@1:0.015
+Evaluating [test]:  22%|██▎       | 9/40 [00:48<01:28,  2.84s/it]2026-06-28 03:56:28 CRITICAL: - - parasiteOf  MRR:0.187  H@10:0.344  H@5:0.266  H@1:0.110
+Evaluating [test]:  25%|██▌       | 10/40 [00:50<01:17,  2.60s/it]2026-06-28 03:56:28 CRITICAL: - - hasVector  MRR:0.053  H@10:0.121  H@5:0.067  H@1:0.022
+Evaluating [test]:  28%|██▊       | 11/40 [00:50<00:53,  1.83s/it]2026-06-28 03:56:30 CRITICAL: - - pollinates  MRR:0.015  H@10:0.014  H@5:0.008  H@1:0.004
+Evaluating [test]:  30%|███       | 12/40 [00:51<00:49,  1.75s/it]2026-06-28 03:56:30 CRITICAL: - - coOccursWith  MRR:0.022  H@10:0.033  H@5:0.016  H@1:0.000
+2026-06-28 03:56:30 CRITICAL: - - allelopathOf  MRR:0.092  H@10:0.153  H@5:0.107  H@1:0.053
+Evaluating [test]:  35%|███▌      | 14/40 [00:51<00:25,  1.02it/s]2026-06-28 03:56:30 CRITICAL: - - ecologicallyRelatedTo  MRR:0.074  H@10:0.134  H@5:0.091  H@1:0.026
+2026-06-28 03:56:31 CRITICAL: - - visits  MRR:0.073  H@10:0.140  H@5:0.091  H@1:0.029
+Evaluating [test]:  40%|████      | 16/40 [00:52<00:17,  1.35it/s]2026-06-28 03:56:31 CRITICAL: - - parasitoidOf  MRR:0.055  H@10:0.078  H@5:0.065  H@1:0.034
+2026-06-28 03:56:31 CRITICAL: - - ectoparasiteOf  MRR:0.150  H@10:0.257  H@5:0.191  H@1:0.095
+Evaluating [test]:  45%|████▌     | 18/40 [00:52<00:11,  1.97it/s]2026-06-28 03:56:31 CRITICAL: - - kills  MRR:0.200  H@10:0.233  H@5:0.200  H@1:0.133
+2026-06-28 03:56:31 CRITICAL: - - hasDispersalVector  MRR:0.052  H@10:0.114  H@5:0.057  H@1:0.017
+2026-06-28 03:56:32 CRITICAL: - - mutualistOf  MRR:0.062  H@10:0.105  H@5:0.069  H@1:0.030
+Evaluating [test]:  52%|█████▎    | 21/40 [00:53<00:06,  2.93it/s]2026-06-28 03:56:32 CRITICAL: - - symbiontOf  MRR:0.156  H@10:0.285  H@5:0.226  H@1:0.089
+2026-06-28 03:56:32 CRITICAL: - - livesInsideOf  MRR:0.070  H@10:0.368  H@5:0.105  H@1:0.000
+2026-06-28 03:56:32 CRITICAL: - - epiphyteOf  MRR:0.357  H@10:0.765  H@5:0.549  H@1:0.185
+2026-06-28 03:56:32 CRITICAL: - - endoparasitoidOf  MRR:0.028  H@10:0.056  H@5:0.033  H@1:0.011
+2026-06-28 03:56:32 CRITICAL: - - coRoostsWith  MRR:0.063  H@10:0.197  H@5:0.106  H@1:0.000
+2026-06-28 03:56:32 CRITICAL: - - commensalistOf  MRR:0.189  H@10:0.321  H@5:0.250  H@1:0.107
+/home2020/home/icube/janil/miniforge3/envs/qwen3vl_env/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home2020/home/icube/janil/miniforge3/envs/qwen3vl_env/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+2026-06-28 03:56:32 CRITICAL: - - livesNear  MRR:nan  H@10:nan  H@5:nan  H@1:nan
+Evaluating [test]:  70%|███████   | 28/40 [00:53<00:01,  6.76it/s]2026-06-28 03:56:32 CRITICAL: - - createsHabitatFor  MRR:0.224  H@10:0.471  H@5:0.412  H@1:0.059
+2026-06-28 03:56:32 CRITICAL: - - livesOn  MRR:0.094  H@10:0.312  H@5:0.125  H@1:0.031
+2026-06-28 03:56:32 CRITICAL: - - hasRoost  MRR:0.038  H@10:0.095  H@5:0.032  H@1:0.016
+2026-06-28 03:56:32 CRITICAL: - - hasHabitat  MRR:0.214  H@10:1.000  H@5:0.686  H@1:0.000
+2026-06-28 03:56:32 CRITICAL: - - kleptoparasiteOf  MRR:nan  H@10:nan  H@5:nan  H@1:nan
+2026-06-28 03:56:32 CRITICAL: - - laysEggsOn  MRR:nan  H@10:nan  H@5:nan  H@1:nan
+2026-06-28 03:56:32 CRITICAL: - - providesNutrientsFor  MRR:0.252  H@10:0.429  H@5:0.286  H@1:0.143
+2026-06-28 03:56:32 CRITICAL: - - hyperparasiteOf  MRR:0.178  H@10:0.667  H@5:0.333  H@1:0.000
+2026-06-28 03:56:32 CRITICAL: - - guestOf  MRR:0.087  H@10:0.500  H@5:0.000  H@1:0.000
+2026-06-28 03:56:32 CRITICAL: - - livesUnder  MRR:0.250  H@10:1.000  H@5:1.000  H@1:0.000
+2026-06-28 03:56:32 CRITICAL: - - ectoParasitoid  MRR:0.333  H@10:1.000  H@5:1.000  H@1:0.000
+2026-06-28 03:56:32 CRITICAL: - - inhabits  MRR:nan  H@10:nan  H@5:nan  H@1:nan
+Evaluating [test]: 100%|██████████| 40/40 [00:53<00:00,  1.33s/it]
+2026-06-28 03:56:32 CRITICAL: - ============================================================
+2026-06-28 03:56:32 CRITICAL: - [TransH Baseline — TEST]
+2026-06-28 03:56:32 CRITICAL: -   HITS@10: 0.142
+2026-06-28 03:56:32 CRITICAL: -   HITS@5:  0.097
+2026-06-28 03:56:32 CRITICAL: -   HITS@1:  0.039
+2026-06-28 03:56:32 CRITICAL: -   MRR:     0.077
+2026-06-28 03:56:32 CRITICAL: - ============================================================

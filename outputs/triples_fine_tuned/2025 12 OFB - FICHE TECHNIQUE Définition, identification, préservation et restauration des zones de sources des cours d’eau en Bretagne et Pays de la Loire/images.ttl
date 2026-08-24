@@ -1,0 +1,223 @@
+@prefix : <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Carte_Topographique_D a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 15 ;
+    :isLocatedOn "contexte de la restauration de cours d’eau et de l’hydromorphologie"^^xsd:string ;
+    skos:prefLabel "carte topographique d"@fr .
+
+:La_Rimbaudais a :geographicZone,
+        :river,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 16,
+        28,
+        40 ;
+    :hasPurpose :Gestion_Des_Sediments,
+        :Preservation_De_La_Biodiversite,
+        :Regulation_De_La_Temperature,
+        :Restauration ;
+    :isLocatedIn :Bretagne,
+        :Bretagne_Et_Pays_De_La_Loire,
+        :Cotesdarmor,
+        :Ereac,
+        :Pays_De_La_Loire ;
+    skos:prefLabel "La Rimbaudais"@fr .
+
+:Le_Cours_Deau a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasMonitoringDescription :Absence_De_Pollutions_Visibles ;
+    :hasMonitoringEndDate :Pas_De_Date_Specifiee ;
+    :hasMonitoringStartDate :Pas_De_Date_Specifiee ;
+    :hasPageNumber 1 ;
+    :hasPurpose :Gestion_Des_Sediments,
+        :Preservation_De_La_Biodiversite,
+        :Regulation_De_La_Temperature ;
+    :isLocatedIn :Bretagne_Et_Pays_De_La_Loire ;
+    :isLocatedOn :Foret_Dense ;
+    skos:prefLabel "le cours d’eau"@fr .
+
+:Rang_0 a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 22 ;
+    :hasPurpose :Pente_Longitudinale_De_Rang_0 ;
+    :isLocatedOn :Cours_Deau ;
+    skos:prefLabel "Rang 0"@fr .
+
+:Rang_1 a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 22 ;
+    :hasPurpose :Pente_Longitudinale_De_Rang_1 ;
+    :isLocatedOn :Cours_Deau ;
+    skos:prefLabel "Rang 1"@fr .
+
+:Rang_Zero a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 4 ;
+    :hasPurpose :Mare,
+        :Profils_Pedologiques,
+        :Restauration,
+        :Stations_En_Rangs_Zero ;
+    :isLocatedIn :Bretagne,
+        :Cotesdarmor,
+        :Pays_De_La_Loire ;
+    skos:prefLabel "Rang zéro"@fr .
+
+:hasMonitoringDescription a owl:ObjectProperty .
+
+:hasMonitoringEndDate a owl:ObjectProperty .
+
+:hasMonitoringStartDate a owl:ObjectProperty .
+
+:hasPurpose a owl:ObjectProperty .
+
+:isLocatedIn a owl:ObjectProperty .
+
+:isLocatedOn a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl/instance_graph> a owl:Ontology .
+
+:Absence_De_Pollutions_Visibles a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 1 ;
+    skos:prefLabel "absence de pollutions visibles"@fr .
+
+:Ereac a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 16 ;
+    skos:prefLabel "Ereac"@fr .
+
+:Foret_Dense a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 1 ;
+    skos:prefLabel "forêt dense"@fr .
+
+:Mare a :pool,
+        owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4,
+        31 ;
+    skos:note "containsPlant: plantes aquatiques"@fr,
+        "containsRoot: racines d’arbres"@fr ;
+    skos:prefLabel "mare"@fr .
+
+:Pente_Longitudinale_De_Rang_0 a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 22 ;
+    skos:prefLabel "Pente longitudinale de rang 0"@fr .
+
+:Pente_Longitudinale_De_Rang_1 a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 22 ;
+    skos:prefLabel "Pente longitudinale de rang 1"@fr .
+
+:Profils_Pedologiques a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 4,
+        23 ;
+    :isLocatedOn :Stations_En_Rangs_Zero ;
+    skos:prefLabel "profils pédologiques"@fr .
+
+:Bretagne a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4,
+        28 ;
+    skos:prefLabel "Bretagne"@fr .
+
+:Bretagne_Et_Pays_De_La_Loire a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 1,
+        40 ;
+    skos:prefLabel "Bretagne et Pays de la Loire"@fr .
+
+:Cotesdarmor a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4,
+        16,
+        28,
+        40 ;
+    skos:prefLabel "Côtes-d’Armor"@fr .
+
+:Cours_Deau a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 22 ;
+    skos:prefLabel "Cours d’eau"@fr .
+
+:Gestion_Des_Sediments a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 1,
+        28 ;
+    skos:prefLabel "gestion des sédiments"@fr .
+
+:Pas_De_Date_Specifiee a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 1 ;
+    skos:prefLabel "pas de date spécifiée"@fr .
+
+:Pays_De_La_Loire a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4,
+        28 ;
+    skos:prefLabel "Pays de la Loire"@fr .
+
+:Preservation_De_La_Biodiversite a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 1,
+        28 ;
+    skos:prefLabel "préservation de la biodiversité"@fr .
+
+:Regulation_De_La_Temperature a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 1,
+        28 ;
+    skos:prefLabel "régulation de la température"@fr .
+
+:Restauration a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4,
+        40 ;
+    skos:prefLabel "restauration"@fr .
+
+:Stations_En_Rangs_Zero a owl:NamedIndividual ;
+    :dataSource "Microsoft Word - 20251202FicheTechniqueRangs0_V1"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 4,
+        23 ;
+    skos:prefLabel "stations en rangs zéro"@fr .
+

@@ -1,0 +1,1110 @@
+--- Loading mistral-small-31-24b with vidore retrieval context ---
+    Generator : mistral-small-31-24b
+    Retriever : vidore
+The tokenizer you are loading from '/home2020/home/icube/janil/Rhine_proj/hf_models/Mistral-Small-3.1-24B-Instruct-2503' with an incorrect regex pattern: https://huggingface.co/mistralai/Mistral-Small-3.1-24B-Instruct-2503/discussions/84#69121093e8b480e709447d5e. This will lead to incorrect tokenization. You should set the `fix_mistral_regex=True` flag when loading this tokenizer to fix this issue.
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/585 [00:00<?, ?it/s]Loading weights:   0%|          | 1/585 [00:01<14:06,  1.45s/it]Loading weights:   0%|          | 2/585 [00:03<14:41,  1.51s/it]/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:213: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+Loading weights:   1%|          | 4/585 [00:03<06:48,  1.42it/s]Loading weights:   1%|          | 5/585 [00:03<05:48,  1.67it/s]Loading weights:   1%|          | 6/585 [00:04<05:05,  1.89it/s]Loading weights:   2%|▏         | 10/585 [00:04<02:02,  4.71it/s]Loading weights:   2%|▏         | 13/585 [00:04<01:42,  5.60it/s]Loading weights:   3%|▎         | 15/585 [00:05<02:10,  4.37it/s]Loading weights:   3%|▎         | 19/585 [00:05<01:18,  7.19it/s]Loading weights:   4%|▍         | 22/585 [00:05<01:21,  6.91it/s]Loading weights:   4%|▍         | 24/585 [00:06<01:58,  4.75it/s]Loading weights:   5%|▍         | 28/585 [00:06<01:16,  7.32it/s]Loading weights:   5%|▌         | 31/585 [00:07<01:20,  6.92it/s]Loading weights:   6%|▌         | 33/585 [00:08<01:57,  4.72it/s]Loading weights:   6%|▋         | 37/585 [00:08<01:19,  6.87it/s]Loading weights:   7%|▋         | 40/585 [00:08<01:20,  6.76it/s]Loading weights:   7%|▋         | 42/585 [00:09<01:57,  4.60it/s]Loading weights:   8%|▊         | 45/585 [00:10<01:29,  6.05it/s]Loading weights:   8%|▊         | 49/585 [00:10<01:20,  6.66it/s]Loading weights:   9%|▊         | 51/585 [00:11<01:55,  4.63it/s]Loading weights:   9%|▉         | 55/585 [00:11<01:18,  6.79it/s]Loading weights:  10%|▉         | 58/585 [00:12<01:21,  6.47it/s]Loading weights:  10%|█         | 60/585 [00:13<01:58,  4.44it/s]Loading weights:  11%|█         | 64/585 [00:13<01:19,  6.59it/s]Loading weights:  11%|█▏        | 67/585 [00:13<01:23,  6.22it/s]Loading weights:  12%|█▏        | 69/585 [00:14<01:55,  4.48it/s]Loading weights:  12%|█▏        | 73/585 [00:14<01:17,  6.59it/s]Loading weights:  13%|█▎        | 76/585 [00:15<01:23,  6.06it/s]Loading weights:  13%|█▎        | 78/585 [00:16<01:53,  4.47it/s]Loading weights:  14%|█▍        | 82/585 [00:16<01:16,  6.57it/s]Loading weights:  15%|█▍        | 85/585 [00:16<01:16,  6.55it/s]Loading weights:  15%|█▍        | 87/585 [00:17<01:49,  4.56it/s]Loading weights:  16%|█▌        | 91/585 [00:17<01:13,  6.73it/s]Loading weights:  16%|█▌        | 94/585 [00:18<01:12,  6.76it/s]Loading weights:  16%|█▋        | 96/585 [00:19<01:45,  4.65it/s]Loading weights:  17%|█▋        | 99/585 [00:19<01:16,  6.32it/s]Loading weights:  18%|█▊        | 103/585 [00:19<01:11,  6.75it/s]Loading weights:  18%|█▊        | 105/585 [00:20<01:41,  4.74it/s]Loading weights:  19%|█▊        | 109/585 [00:20<01:10,  6.75it/s]Loading weights:  19%|█▉        | 112/585 [00:21<01:11,  6.59it/s]Loading weights:  19%|█▉        | 114/585 [00:22<01:42,  4.58it/s]Loading weights:  20%|██        | 117/585 [00:22<01:15,  6.21it/s]Loading weights:  21%|██        | 121/585 [00:23<01:11,  6.48it/s]Loading weights:  21%|██        | 123/585 [00:23<01:36,  4.79it/s]Loading weights:  22%|██▏       | 127/585 [00:24<01:05,  7.05it/s]Loading weights:  22%|██▏       | 130/585 [00:24<01:03,  7.15it/s]Loading weights:  23%|██▎       | 132/585 [00:25<01:32,  4.92it/s]Loading weights:  23%|██▎       | 136/585 [00:25<01:02,  7.21it/s]Loading weights:  24%|██▍       | 139/585 [00:25<01:04,  6.89it/s]Loading weights:  24%|██▍       | 141/585 [00:26<01:27,  5.06it/s]Loading weights:  25%|██▍       | 145/585 [00:26<00:58,  7.54it/s]Loading weights:  25%|██▌       | 148/585 [00:27<01:00,  7.26it/s]Loading weights:  26%|██▌       | 150/585 [00:28<01:34,  4.61it/s]Loading weights:  26%|██▋       | 154/585 [00:28<01:06,  6.51it/s]Loading weights:  27%|██▋       | 157/585 [00:28<01:03,  6.70it/s]Loading weights:  27%|██▋       | 159/585 [00:29<01:31,  4.67it/s]Loading weights:  28%|██▊       | 163/585 [00:29<01:02,  6.79it/s]Loading weights:  28%|██▊       | 166/585 [00:30<01:03,  6.65it/s]Loading weights:  29%|██▊       | 168/585 [00:31<01:31,  4.57it/s]Loading weights:  29%|██▉       | 172/585 [00:31<01:01,  6.73it/s]Loading weights:  30%|██▉       | 175/585 [00:32<01:05,  6.29it/s]Loading weights:  30%|███       | 177/585 [00:32<01:31,  4.45it/s]Loading weights:  31%|███       | 181/585 [00:33<01:02,  6.42it/s]Loading weights:  31%|███▏      | 184/585 [00:33<01:04,  6.23it/s]Loading weights:  32%|███▏      | 186/585 [00:34<01:33,  4.26it/s]Loading weights:  32%|███▏      | 190/585 [00:34<01:03,  6.23it/s]Loading weights:  33%|███▎      | 193/585 [00:35<01:03,  6.18it/s]Loading weights:  33%|███▎      | 195/585 [00:36<01:29,  4.37it/s]Loading weights:  34%|███▍      | 199/585 [00:36<01:00,  6.42it/s]Loading weights:  35%|███▍      | 202/585 [00:36<01:01,  6.24it/s]Loading weights:  35%|███▍      | 204/585 [00:38<01:33,  4.07it/s]Loading weights:  35%|███▌      | 207/585 [00:38<01:07,  5.57it/s]Loading weights:  36%|███▌      | 211/585 [00:38<01:00,  6.14it/s]Loading weights:  36%|███▋      | 213/585 [00:39<01:23,  4.45it/s]Loading weights:  37%|███▋      | 217/585 [00:39<00:56,  6.52it/s]Loading weights:  38%|███▊      | 220/585 [00:40<00:58,  6.19it/s]Loading weights:  38%|███▊      | 222/585 [00:41<01:25,  4.26it/s]Loading weights:  39%|███▊      | 226/585 [00:41<00:56,  6.33it/s]Loading weights:  39%|███▉      | 229/585 [00:41<00:56,  6.33it/s]Loading weights:  39%|███▉      | 231/585 [00:42<01:22,  4.30it/s]Loading weights:  40%|████      | 235/585 [00:43<00:56,  6.25it/s]Loading weights:  41%|████      | 238/585 [00:43<00:54,  6.42it/s]Loading weights:  41%|████      | 240/585 [00:44<01:15,  4.57it/s]Loading weights:  42%|████▏     | 244/585 [00:44<00:52,  6.54it/s]Loading weights:  42%|████▏     | 247/585 [00:45<00:52,  6.45it/s]Loading weights:  43%|████▎     | 249/585 [00:45<01:12,  4.63it/s]Loading weights:  43%|████▎     | 253/585 [00:46<00:49,  6.75it/s]Loading weights:  44%|████▍     | 256/585 [00:46<00:53,  6.18it/s]Loading weights:  44%|████▍     | 258/585 [00:47<01:21,  4.02it/s]Loading weights:  45%|████▍     | 262/585 [00:47<00:54,  5.93it/s]Loading weights:  45%|████▌     | 265/585 [00:48<00:52,  6.05it/s]Loading weights:  46%|████▌     | 267/585 [00:49<01:12,  4.38it/s]Loading weights:  46%|████▋     | 271/585 [00:49<00:48,  6.50it/s]Loading weights:  47%|████▋     | 274/585 [00:49<00:48,  6.48it/s]Loading weights:  47%|████▋     | 276/585 [00:50<01:05,  4.69it/s]Loading weights:  48%|████▊     | 279/585 [00:50<00:47,  6.38it/s]Loading weights:  48%|████▊     | 283/585 [00:51<00:43,  6.96it/s]Loading weights:  49%|████▊     | 285/585 [00:52<01:01,  4.86it/s]Loading weights:  49%|████▉     | 289/585 [00:52<00:41,  7.13it/s]Loading weights:  50%|████▉     | 292/585 [00:52<00:44,  6.55it/s]Loading weights:  50%|█████     | 294/585 [00:53<01:02,  4.66it/s]Loading weights:  51%|█████     | 298/585 [00:53<00:41,  6.94it/s]Loading weights:  51%|█████▏    | 301/585 [00:54<00:42,  6.65it/s]Loading weights:  52%|█████▏    | 303/585 [00:55<01:04,  4.35it/s]Loading weights:  52%|█████▏    | 306/585 [00:55<00:46,  5.95it/s]Loading weights:  53%|█████▎    | 310/585 [00:56<00:44,  6.23it/s]Loading weights:  53%|█████▎    | 312/585 [00:57<01:10,  3.89it/s]Loading weights:  54%|█████▍    | 315/585 [00:57<00:50,  5.29it/s]Loading weights:  55%|█████▍    | 319/585 [00:58<00:46,  5.78it/s]Loading weights:  55%|█████▍    | 321/585 [00:59<01:04,  4.09it/s]Loading weights:  55%|█████▌    | 324/585 [00:59<00:47,  5.53it/s]Loading weights:  56%|█████▌    | 328/585 [00:59<00:42,  6.02it/s]Loading weights:  56%|█████▋    | 330/585 [01:00<00:58,  4.35it/s]Loading weights:  57%|█████▋    | 334/585 [01:00<00:39,  6.39it/s]Loading weights:  58%|█████▊    | 337/585 [01:01<00:38,  6.52it/s]Loading weights:  58%|█████▊    | 339/585 [01:02<00:51,  4.74it/s]Loading weights:  59%|█████▊    | 343/585 [01:02<00:34,  6.96it/s]Loading weights:  59%|█████▉    | 346/585 [01:02<00:34,  6.84it/s]Loading weights:  59%|█████▉    | 348/585 [01:03<00:53,  4.44it/s]Loading weights:  60%|██████    | 351/585 [01:03<00:38,  6.04it/s]Loading weights:  61%|██████    | 355/585 [01:04<00:33,  6.78it/s]Loading weights:  61%|██████    | 357/585 [01:05<00:46,  4.88it/s]Loading weights:  62%|██████▏   | 361/585 [01:05<00:31,  7.13it/s]Loading weights:  62%|██████▏   | 365/585 [01:05<00:22,  9.98it/s]Loading weights:  65%|██████▍   | 379/585 [01:05<00:08, 24.20it/s]Loading weights:  66%|██████▋   | 389/585 [01:05<00:05, 33.95it/s]Loading weights:  68%|██████▊   | 399/585 [01:05<00:04, 44.41it/s]Loading weights:  70%|███████   | 411/585 [01:05<00:03, 57.35it/s]Loading weights:  72%|███████▏  | 422/585 [01:05<00:02, 67.24it/s]Loading weights:  75%|███████▍  | 436/585 [01:06<00:01, 83.04it/s]Loading weights:  76%|███████▋  | 447/585 [01:06<00:01, 88.12it/s]Loading weights:  78%|███████▊  | 458/585 [01:06<00:01, 89.18it/s]Loading weights:  80%|████████  | 470/585 [01:06<00:01, 95.46it/s]Loading weights:  83%|████████▎ | 485/585 [01:06<00:00, 109.09it/s]Loading weights:  85%|████████▌ | 499/585 [01:06<00:00, 117.21it/s]Loading weights:  88%|████████▊ | 514/585 [01:06<00:00, 124.78it/s]Loading weights:  90%|█████████ | 527/585 [01:06<00:00, 124.45it/s]Loading weights:  92%|█████████▏| 541/585 [01:06<00:00, 126.99it/s]Loading weights:  95%|█████████▌| 556/585 [01:07<00:00, 129.70it/s]Loading weights:  98%|█████████▊| 571/585 [01:07<00:00, 133.47it/s]Loading weights: 100%|██████████| 585/585 [01:07<00:00, 129.58it/s]Loading weights: 100%|██████████| 585/585 [01:07<00:00,  8.70it/s] 
+The tied weights mapping and config for this model specifies to tie model.language_model.embed_tokens.weight to lm_head.weight, but both are present in the checkpoints with different values, so we will NOT tie them. You should update the config with `tie_word_embeddings=False` to silence this warning.
+    Model size   : 12.7B parameters
+    Loaded at    : 15:03:23
+
+========== PROCESSING [dossier_unio_crassus_zorn_v4_19_11_2024] ==========
+    Loaded weighted context: 19 images
+    Images to caption: 19
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+    [1/19] img_p14_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Une personne dans... (61.3s)
+    [1/19] img_p14_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Une personne dans... (61.3s)
+    [2/19] img_p16_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un coquillage de ... (38.9s)
+    [2/19] img_p16_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un coquillage de ... (38.9s)
+    [3/19] img_p1_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau en... (60.8s)
+    [3/19] img_p1_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau en... (60.8s)
+    [4/19] img_p21_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Un cours d'eau avec... (80.7s)
+    [4/19] img_p21_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Un cours d'eau avec... (80.7s)
+    [5/19] img_p13_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Le sujet principal visible est une carte de r... (73.5s)
+    [5/19] img_p13_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Le sujet principal visible est une carte de r... (73.5s)
+    [6/19] img_p15_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Un tracé de transec... (68.2s)
+    [6/19] img_p15_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Un tracé de transec... (68.2s)
+    [7/19] img_p18_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte représent... (76.5s)
+    [7/19] img_p18_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte représent... (76.5s)
+    [8/19] img_p24_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Plan de renaturatio... (72.0s)
+    [8/19] img_p24_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Plan de renaturatio... (72.0s)
+    [9/19] img_p20_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte représent... (101.4s)
+    [9/19] img_p20_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte représent... (101.4s)
+    [10/19] img_p26_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (53.9s)
+    [10/19] img_p26_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (53.9s)
+    [11/19] img_p28_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Une moule, plus p... (37.3s)
+    [11/19] img_p28_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Une moule, plus p... (37.3s)
+    [12/19] img_p25_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte représent... (71.1s)
+    [12/19] img_p25_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte représent... (71.1s)
+    [13/19] img_p5_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte hydrograp... (76.6s)
+    [13/19] img_p5_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte hydrograp... (76.6s)
+    [14/19] img_p10_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Un plan de localisa... (66.6s)
+    [14/19] img_p10_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Un plan de localisa... (66.6s)
+    [15/19] img_p9_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Plan de projet de r... (72.4s)
+    [15/19] img_p9_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Plan de projet de r... (72.4s)
+    [16/19] img_p13_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Le sujet principal visible est une carte géog... (76.5s)
+    [16/19] img_p13_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Le sujet principal visible est une carte géog... (76.5s)
+    [17/19] img_p6_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (50.8s)
+    [17/19] img_p6_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (50.8s)
+    [18/19] img_p17_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Un histogramme re... (74.9s)
+    [18/19] img_p17_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Un histogramme re... (74.9s)
+    [19/19] img_p8_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Plan de projet de r... (77.2s)
+    [19/19] img_p8_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Plan de projet de r... (77.2s)
+========== COMPLETED [dossier_unio_crassus_zorn_v4_19_11_2024] in 00h 21m 38s ==========
+
+========== PROCESSING [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] ==========
+    Loaded weighted context: 5 images
+    Images to caption: 5
+/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+    [1/5] img_p1_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Cartes historiques ... (91.6s)
+    [1/5] img_p1_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Cartes historiques ... (91.6s)
+    [2/5] img_p5_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Deux panoramas du... (69.1s)
+    [2/5] img_p5_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Deux panoramas du... (69.1s)
+    [3/5] img_p5_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un groupe de pers... (70.9s)
+    [3/5] img_p5_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un groupe de pers... (70.9s)
+    [4/5] img_p3_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte représent... (69.7s)
+    [4/5] img_p3_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte représent... (69.7s)
+    [5/5] img_p4_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP / DIAGRAM
+
+Sujet principal visible : Une carte... (82.2s)
+    [5/5] img_p4_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP / DIAGRAM
+
+Sujet principal visible : Une carte... (82.2s)
+========== COMPLETED [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] in 00h 06m 25s ==========
+
+========== PROCESSING [Rapport-stage-M2-Floriane] ==========
+    Loaded weighted context: 38 images
+    Images to caption: 38
+/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+    [1/38] img_p47_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique représe... (79.8s)
+    [1/38] img_p47_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique représe... (79.8s)
+    [2/38] img_p53_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte représent... (61.8s)
+    [2/38] img_p53_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte représent... (61.8s)
+    [3/38] img_p21_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique représe... (85.0s)
+    [3/38] img_p21_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique représe... (85.0s)
+    [4/38] img_p13_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (43.3s)
+    [4/38] img_p13_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (43.3s)
+    [5/38] img_p23_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Un diagramme circ... (73.3s)
+    [5/38] img_p23_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Un diagramme circ... (73.3s)
+    [6/38] img_p50_4.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (45.1s)
+    [6/38] img_p50_4.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (45.1s)
+    [7/38] img_p45_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique représe... (76.5s)
+    [7/38] img_p45_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique représe... (76.5s)
+    [8/38] img_p50_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (39.3s)
+    [8/38] img_p50_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (39.3s)
+    [9/38] img_p46_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique représe... (75.4s)
+    [9/38] img_p46_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique représe... (75.4s)
+    [10/38] img_p22_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Un graphique repr... (70.3s)
+    [10/38] img_p22_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Un graphique repr... (70.3s)
+    [11/38] img_p15_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Une sonde thermiq... (46.5s)
+    [11/38] img_p15_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Une sonde thermiq... (46.5s)
+    [12/38] img_p24_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Un graphique à ba... (94.3s)
+    [12/38] img_p24_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Un graphique à ba... (94.3s)
+    [13/38] img_p20_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Le graphique montre des données sur la temp... (89.1s)
+    [13/38] img_p20_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Le graphique montre des données sur la temp... (89.1s)
+    [14/38] img_p52_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Un diagramme ve... (49.1s)
+    [14/38] img_p52_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Un diagramme ve... (49.1s)
+    [15/38] img_p34_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Le sujet principal visible est un amas de g... (44.5s)
+    [15/38] img_p34_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Le sujet principal visible est un amas de g... (44.5s)
+    [16/38] img_p19_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique compara... (90.3s)
+    [16/38] img_p19_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique compara... (90.3s)
+    [17/38] img_p43_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Trois cases col... (42.6s)
+    [17/38] img_p43_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Trois cases col... (42.6s)
+    [18/38] img_p50_3.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (49.0s)
+    [18/38] img_p50_3.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (49.0s)
+    [19/38] img_p25_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Un graphique à ba... (91.7s)
+    [19/38] img_p25_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Un graphique à ba... (91.7s)
+    [20/38] img_p50_5.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Le sujet principal visible est un cours d'e... (44.8s)
+    [20/38] img_p50_5.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Le sujet principal visible est un cours d'e... (44.8s)
+    [21/38] img_p51_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique représe... (88.3s)
+    [21/38] img_p51_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique représe... (88.3s)
+    [22/38] img_p51_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique représe... (75.1s)
+    [22/38] img_p51_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique représe... (75.1s)
+    [23/38] img_p47_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique des éca... (77.0s)
+    [23/38] img_p47_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique des éca... (77.0s)
+    [24/38] img_p11_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Une structure en ... (41.6s)
+    [24/38] img_p11_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Une structure en ... (41.6s)
+    [25/38] img_p9_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Cycle de vie du... (65.5s)
+    [25/38] img_p9_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Cycle de vie du... (65.5s)
+    [26/38] img_p49_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte représent... (62.8s)
+    [26/38] img_p49_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte représent... (62.8s)
+    [27/38] img_p23_3.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (49.3s)
+    [27/38] img_p23_3.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (49.3s)
+    [28/38] img_p13_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Décris le sujet principal visible :
+La phot... (55.4s)
+    [28/38] img_p13_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Décris le sujet principal visible :
+La phot... (55.4s)
+    [29/38] img_p45_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique représe... (83.0s)
+    [29/38] img_p45_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique représe... (83.0s)
+    [30/38] img_p23_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Une berge érodée ... (44.5s)
+    [30/38] img_p23_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Une berge érodée ... (44.5s)
+    [31/38] img_p43_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte de l'amén... (101.9s)
+    [31/38] img_p43_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte de l'amén... (101.9s)
+    [32/38] img_p52_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte représent... (65.4s)
+    [32/38] img_p52_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte représent... (65.4s)
+    [33/38] img_p19_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Le graphique montre des données sur la temp... (109.7s)
+    [33/38] img_p19_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Le graphique montre des données sur la temp... (109.7s)
+    [34/38] img_p8_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Deux cartes compara... (52.7s)
+    [34/38] img_p8_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Deux cartes compara... (52.7s)
+    [35/38] img_p48_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique représe... (93.3s)
+    [35/38] img_p48_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Sujet principal visible : Graphique représe... (93.3s)
+    [36/38] img_p50_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (44.1s)
+    [36/38] img_p50_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (44.1s)
+    [37/38] img_p34_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un substrat recou... (39.4s)
+    [37/38] img_p34_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un substrat recou... (39.4s)
+    [38/38] img_p44_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte du Vieux ... (78.6s)
+    [38/38] img_p44_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Une carte du Vieux ... (78.6s)
+========== COMPLETED [Rapport-stage-M2-Floriane] in 00h 42m 11s ==========
+
+========== PROCESSING [fichier] ==========
+    Loaded weighted context: 25 images
+    Images to caption: 25
+/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+    [1/25] img_p13_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau pa... (69.6s)
+    [1/25] img_p13_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau pa... (69.6s)
+    [2/25] img_p20_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Deux images montr... (49.1s)
+    [2/25] img_p20_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Deux images montr... (49.1s)
+    [3/25] img_p14_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Le sujet principal visible est un tronçon d... (42.8s)
+    [3/25] img_p14_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Le sujet principal visible est un tronçon d... (42.8s)
+    [4/25] img_p11_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau da... (47.9s)
+    [4/25] img_p11_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau da... (47.9s)
+    [5/25] img_p23_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Profil en trave... (75.9s)
+    [5/25] img_p23_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Profil en trave... (75.9s)
+    [6/25] img_p14_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (52.8s)
+    [6/25] img_p14_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (52.8s)
+    [7/25] img_p15_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Deux images montr... (50.2s)
+    [7/25] img_p15_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Deux images montr... (50.2s)
+    [8/25] img_p8_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (48.7s)
+    [8/25] img_p8_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (48.7s)
+    [9/25] img_p19_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un paysage nature... (58.8s)
+    [9/25] img_p19_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un paysage nature... (58.8s)
+    [10/25] img_p10_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Entrée d'un busag... (52.6s)
+    [10/25] img_p10_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Entrée d'un busag... (52.6s)
+    [11/25] img_p17_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un déversoir en b... (54.4s)
+    [11/25] img_p17_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un déversoir en b... (54.4s)
+    [12/25] img_p21_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (63.3s)
+    [12/25] img_p21_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (63.3s)
+    [13/25] img_p12_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (53.7s)
+    [13/25] img_p12_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (53.7s)
+    [14/25] img_p7_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Carte des tronçons ... (65.8s)
+    [14/25] img_p7_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Carte des tronçons ... (65.8s)
+    [15/25] img_p17_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un paysage de ber... (53.1s)
+    [15/25] img_p17_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un paysage de ber... (53.1s)
+    [16/25] img_p20_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (58.5s)
+    [16/25] img_p20_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (58.5s)
+    [17/25] img_p1_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Trois photographi... (56.9s)
+    [17/25] img_p1_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Trois photographi... (56.9s)
+    [18/25] img_p10_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (56.6s)
+    [18/25] img_p10_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (56.6s)
+    [19/25] img_p16_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (52.1s)
+    [19/25] img_p16_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (52.1s)
+    [20/25] img_p13_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (72.0s)
+    [20/25] img_p13_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (72.0s)
+    [21/25] img_p18_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un tronçon de cou... (51.2s)
+    [21/25] img_p18_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un tronçon de cou... (51.2s)
+    [22/25] img_p19_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un ouvrage de fra... (66.0s)
+    [22/25] img_p19_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un ouvrage de fra... (66.0s)
+    [23/25] img_p22_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Le sujet principal visible est un terrain h... (56.2s)
+    [23/25] img_p22_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Le sujet principal visible est un terrain h... (56.2s)
+    [24/25] img_p1_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Un diagramme av... (55.7s)
+    [24/25] img_p1_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Un diagramme av... (55.7s)
+    [25/25] img_p9_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (58.5s)
+    [25/25] img_p9_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Un cours d'eau av... (58.5s)
+========== COMPLETED [fichier] in 00h 23m 50s ==========
+
+========== PROCESSING [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] ==========
+    Loaded weighted context: 18 images
+    Images to caption: 18
+/home2020/home/icube/janil/miniforge3/envs/vlm_env/lib/python3.10/site-packages/bitsandbytes/backends/cuda/ops.py:468: FutureWarning: _check_is_size will be removed in a future PyTorch release along with guard_size_oblivious.     Use _check(i >= 0) instead.
+  torch._check_is_size(blocksize)
+    [1/18] img_p16_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP / PHOTO
+
+Sujet principal visible : Évolution d... (130.9s)
+    [1/18] img_p16_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP / PHOTO
+
+Sujet principal visible : Évolution d... (130.9s)
+    [2/18] img_p1_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Une zone boisée a... (57.5s)
+    [2/18] img_p1_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Une zone boisée a... (57.5s)
+    [3/18] img_p21_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO / DIAGRAM
+
+Sujet principal visible :
+- À gau... (67.9s)
+    [3/18] img_p21_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO / DIAGRAM
+
+Sujet principal visible :
+- À gau... (67.9s)
+    [4/18] img_p4_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Le sujet principal visible est une carte hydr... (51.2s)
+    [4/18] img_p4_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Le sujet principal visible est une carte hydr... (51.2s)
+    [5/18] img_p12_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Carte de la densité... (93.7s)
+    [5/18] img_p12_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Carte de la densité... (93.7s)
+    [6/18] img_p22_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Représentation ... (61.8s)
+    [6/18] img_p22_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Représentation ... (61.8s)
+    [7/18] img_p15_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP / PHOTO
+
+- **Image a** (MAP) : Carte ancienne ... (109.7s)
+    [7/18] img_p15_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP / PHOTO
+
+- **Image a** (MAP) : Carte ancienne ... (109.7s)
+    [8/18] img_p28_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Le sujet principal visible est composé de t... (84.7s)
+    [8/18] img_p28_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : GRAPH
+
+Le sujet principal visible est composé de t... (84.7s)
+    [9/18] img_p10_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Un diagramme re... (60.6s)
+    [9/18] img_p10_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Un diagramme re... (60.6s)
+    [10/18] img_p9_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Fonds de vallées ... (56.6s)
+    [10/18] img_p9_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Fonds de vallées ... (56.6s)
+    [11/18] img_p12_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Carte de la densité... (102.6s)
+    [11/18] img_p12_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Carte de la densité... (102.6s)
+    [12/18] img_p40_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Schéma représen... (84.7s)
+    [12/18] img_p40_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Schéma représen... (84.7s)
+    [13/18] img_p6_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Schéma illustra... (73.4s)
+    [13/18] img_p6_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Schéma illustra... (73.4s)
+    [14/18] img_p17_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Cartes topographiqu... (79.8s)
+    [14/18] img_p17_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : MAP
+
+Sujet principal visible : Cartes topographiqu... (79.8s)
+    [15/18] img_p23_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Profils pédologiq... (88.1s)
+    [15/18] img_p23_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible : Profils pédologiq... (88.1s)
+    [16/18] img_p31_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible :
+- Deux images dis... (61.4s)
+    [16/18] img_p31_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : PHOTO
+
+Sujet principal visible :
+- Deux images dis... (61.4s)
+    [17/18] img_p4_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Schéma d'un bas... (60.4s)
+    [17/18] img_p4_1.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Schéma d'un bas... (60.4s)
+    [18/18] img_p21_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Coupe transvers... (55.4s)
+    [18/18] img_p21_2.png -> ### PHASE 1 — DESCRIPTION VISUELLE
+
+Type visuel : DIAGRAM
+
+Sujet principal visible : Coupe transvers... (55.4s)
+========== COMPLETED [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] in 00h 23m 06s ==========
+
+============================================================
+  PIPELINE COMPLETE
+  Generator model  : mistral-small-31-24b
+  Retrieval model  : vidore
+  Total runtime    : 01h 58m 26s
+============================================================

@@ -1,0 +1,850 @@
+@prefix : <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Bale a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 3 ;
+    :isLocatedIn :Geographiczone ;
+    skos:prefLabel "Bâle"@fr .
+
+:Birs a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 3 ;
+    :isLocatedIn :Geographiczone ;
+    skos:prefLabel "Birs"@fr .
+
+:Cartes_Anciennes a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasDescription :Montrent_Des_Digues_Et_Des_Enrochements,
+        "montrent des changements dans les chenaux fluviaux, les berges et les zones de végétation"^^xsd:string,
+        "montrent des chenaux fluviaux, des bancs de graviers et de sable, des digues, des enrochements, des cultures, des bâtiments, des voies, des berges et des zones de végétation"^^xsd:string ;
+    :hasPageNumber 1,
+        2 ;
+    skos:note "isUsedFor: analyse rétrospective"@fr,
+        "isUsedFor: gérer les hydrosystèmes fluviaux"@fr,
+        "isUsedFor: reconstitution des milieux fluviaux disparus"@fr ;
+    skos:prefLabel "cartes anciennes"@fr .
+
+:Colonel_Badois_Jg_Tulla a :otherActor,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 2 ;
+    :hasPurpose :Rectifier_Les_Fleuves,
+        "faire baisser le niveau des fleuves et des rivières"^^xsd:string ;
+    skos:prefLabel "colonel badois J.G. Tulla"@fr .
+
+:Digues_Longitudinales a :structure,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 4 ;
+    :isLocatedOn :Rhin ;
+    skos:prefLabel "digues longitudinales"@fr .
+
+:Epis a :structure,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 4 ;
+    :isLocatedOn :Rhin ;
+    skos:prefLabel "épis"@fr .
+
+:Ergolz a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 3 ;
+    :isLocatedIn :Geographiczone ;
+    skos:prefLabel "Ergolz"@fr .
+
+:Fessenheim a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 3 ;
+    :isLocatedIn :Geographiczone ;
+    skos:prefLabel "Fessenheim"@fr .
+
+:Hartheim a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 3 ;
+    :isLocatedIn :Geographiczone ;
+    skos:prefLabel "Hartheim"@fr .
+
+:Huningue a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 3 ;
+    :isLocatedIn :Geographiczone ;
+    skos:prefLabel "Huningue"@fr .
+
+:Istein a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 3 ;
+    :isLocatedIn :Geographiczone ;
+    skos:prefLabel "Istein"@fr .
+
+:La_Restauration_Du_Fonctionnement_Naturel_Des_Cours_Deau a :restoration,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 7 ;
+    skos:prefLabel "La restauration du fonctionnement naturel des cours d’eau"@fr .
+
+:Les_Cartes a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasFunction "aider les praticiens à définir des objectifs de restauration réalistes"^^xsd:string ;
+    :hasMonitoringCost :Non_Specifie ;
+    :hasMonitoringDescription :Documents_Darchives ;
+    :hasMonitoringEndDate :Present ;
+    :hasMonitoringStartDate :Depuis_Deux_Siecles ;
+    :hasNumberOfEntries "3"^^xsd:string ;
+    :hasPageNumber 1 ;
+    :hasPurpose "analyser les changements liés à l’aménagement du fleuve"^^xsd:string ;
+    :isLocatedIn :Carte_A_La_Une ;
+    :isLocatedOn :Rhin ;
+    :isManagedBy :Les_Auteurs ;
+    skos:prefLabel "Les cartes"@fr .
+
+:Niffer a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 3 ;
+    :isLocatedIn :Geographiczone ;
+    skos:prefLabel "Niffer"@fr .
+
+:Ottmarsheim a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 3 ;
+    :isLocatedIn :Geographiczone ;
+    skos:prefLabel "Ottmarsheim"@fr .
+
+:Poolcreation a :restorationOperation,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasMonitoringStartDate "2015"^^xsd:string ;
+    :hasPageNumber 6 ;
+    :hasPurpose :Agir_Sur_La_Biodiversite,
+        :Espace_De_Vie_Et_De_Loisirs,
+        :Renforcer_Lattractivite_Du_Fleuve ;
+    :isLocatedOn :Petite_Camargue_Alsacienne,
+        :Rhin ;
+    skos:prefLabel "poolCreation"@fr .
+
+:Programme a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 2 ;
+    :hasPurpose :Analyse_Retrospective,
+        :Articulation_Des_Plans_De_Gestion,
+        :Elaboration_De_Plans_De_Gestion,
+        :Etude_De_Faisabilite,
+        :Restauration_Ecologique,
+        :Trajectoire_Devolution_Pluriseculaire_Du_Rhin ;
+    skos:prefLabel "programme"@fr .
+
+:Reference a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 6 ;
+    :hasPurpose :Bienetre,
+        :Ecotourisme,
+        :Guider_Les_Actions_De_Restauration_Ecologique,
+        :Nourriture,
+        "cibler des services que les cours d’eau assurent et qui sont utiles aux sociétés"^^xsd:string,
+        "cours d’eau de même type mais non dégradé pris comme modèle"^^xsd:string,
+        "déﬁnition d’objectifs améliorant la fonctionnalité et la structure des écosystèmes"^^xsd:string,
+        "renouvellement d’eau de surface et souterraine de bonne qualité"^^xsd:string,
+        "retour à l’état « naturel » du cours d’eau, avant dégradation"^^xsd:string ;
+    skos:prefLabel "référence"@fr .
+
+:Rheinweiler a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 3 ;
+    :isLocatedIn :Geographiczone ;
+    skos:prefLabel "Rheinweiler"@fr .
+
+:Seuils_De_Fond a :structure,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 4 ;
+    :isLocatedOn :Rhin ;
+    skos:prefLabel "seuils de fond"@fr .
+
+:Wiese a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 3 ;
+    :isLocatedIn :Geographiczone ;
+    skos:prefLabel "Wiese"@fr .
+
+:hasCategory a owl:ObjectProperty .
+
+:hasDescription a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:hasFunction a owl:DatatypeProperty .
+
+:hasLength a owl:DatatypeProperty .
+
+:hasMainContractor a owl:ObjectProperty .
+
+:hasMonitoringCost a owl:ObjectProperty .
+
+:hasMonitoringDescription a owl:ObjectProperty .
+
+:hasMonitoringEndDate a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:hasMonitoringStartDate a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:hasNumberOfEntries a owl:DatatypeProperty .
+
+:hasPurpose a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:hasWidth a owl:DatatypeProperty .
+
+:includes a owl:ObjectProperty .
+
+:isLocatedIn a owl:ObjectProperty .
+
+:isLocatedOn a owl:ObjectProperty .
+
+:isManagedBy a owl:ObjectProperty .
+
+:isSubjectTo a owl:ObjectProperty .
+
+:realizedIn a owl:ObjectProperty .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl/instance_graph> a owl:Ontology .
+
+:Analyse_Retrospective a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 2,
+        5 ;
+    :hasPurpose :Montrer_Impacts_Phases_Damenagement_Hydraulique ;
+    :isSubjectTo :Phase_Correction ;
+    skos:prefLabel "analyse rétrospective"@fr .
+
+:Annees_1930 a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 2 ;
+    skos:prefLabel "années 1930"@fr .
+
+:Articulation_Des_Plans_De_Gestion a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 2 ;
+    skos:prefLabel "articulation des plans de gestion"@fr .
+
+:Autoroute a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 5 ;
+    skos:prefLabel "Auto-route"@fr .
+
+:Bienetre a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 6 ;
+    skos:prefLabel "bien-être"@fr .
+
+:Breisach a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 3,
+        4 ;
+    :isLocatedIn :Geographiczone ;
+    skos:prefLabel "Breisach"@fr .
+
+:Carte_A_La_Une a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 1 ;
+    skos:prefLabel "Carte à la une"@fr .
+
+:Chercheurs a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 2 ;
+    skos:note "isAssociatedWith: Rhin franco-allemand"@fr,
+        "isAssociatedWith: programme"@fr ;
+    skos:prefLabel "chercheurs"@fr .
+
+:Depuis_Deux_Siecles a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 1 ;
+    skos:prefLabel "depuis deux siècles"@fr .
+
+:Distributionbasin a :distributionBasin,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 3,
+        4,
+        5 ;
+    :hasPurpose :Agir_Sur_La_Biodiversite,
+        :Espace_De_Vie_Et_De_Loisirs,
+        :Montrer_Impacts_Phases_Damenagement_Hydraulique,
+        :Phase_Correction,
+        :Renforcer_Lattractivite_Du_Fleuve ;
+    :isLocatedIn :Breisach,
+        :Geographiczone,
+        :Kembs ;
+    :isLocatedOn :Rhin ;
+    :isManagedBy :Edf ;
+    skos:prefLabel "distributionBasin"@fr .
+
+:Documents_Darchives a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 1 ;
+    skos:prefLabel "documents d’archives"@fr .
+
+:Ecluseusine_De_Kems a :structure,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 3,
+        5 ;
+    :isLocatedIn :Geographiczone ;
+    skos:prefLabel "Ecluse/Usine de Kems"@fr .
+
+:Ecotourisme a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 6 ;
+    skos:prefLabel "écotourisme"@fr .
+
+:Elaboration_De_Plans_De_Gestion a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 2 ;
+    skos:prefLabel "élaboration de plans de gestion"@fr .
+
+:Entre_1932_Et_1959 a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 2 ;
+    skos:prefLabel "entre 1932 et 1959"@fr .
+
+:Epis_Et_Seuils_De_Fond a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 2 ;
+    skos:prefLabel "épis et seuils de fond"@fr .
+
+:Etude_De_Faisabilite a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 2 ;
+    skos:prefLabel "étude de faisabilité"@fr .
+
+:Grand_Canal_Dalsace a :artificialRiver,
+        :structure,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 2,
+        3,
+        5 ;
+    :hasPurpose "court-circuit du lit du « Vieux Rhin »"^^xsd:string ;
+    :isLocatedIn :Geographiczone ;
+    :realizedIn :Entre_1932_Et_1959 ;
+    skos:prefLabel "Grand Canal d’Alsace"@fr .
+
+:Guider_Les_Actions_De_Restauration_Ecologique a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 6 ;
+    skos:prefLabel "guider les actions de restauration écologique"@fr .
+
+:Kembs a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 3,
+        4 ;
+    :isLocatedIn :Geographiczone ;
+    skos:prefLabel "Kembs"@fr .
+
+:Les_Auteurs a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 1 ;
+    skos:prefLabel "les auteurs"@fr .
+
+:Montrent_Des_Digues_Et_Des_Enrochements a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 1 ;
+    skos:prefLabel "montrent des digues et des enrochements"@fr .
+
+:Navigation a :restorationOperation,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string ;
+    :hasPageNumber 2,
+        5 ;
+    :isSubjectTo :Epis_Et_Seuils_De_Fond ;
+    :realizedIn :Annees_1930 ;
+    skos:prefLabel "navigation"@fr .
+
+:Non_Specifie a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 1 ;
+    skos:prefLabel "non spécifié"@fr .
+
+:Nourriture a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 6 ;
+    skos:prefLabel "nourriture"@fr .
+
+:Petite_Camargue_Alsacienne a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 6 ;
+    skos:prefLabel "Petite Camargue Alsacienne"@fr .
+
+:Present a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 1 ;
+    skos:prefLabel "présent"@fr .
+
+:Rectifier_Les_Fleuves a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 2 ;
+    skos:prefLabel "rectifier les fleuves"@fr .
+
+:Trajectoire_Devolution_Pluriseculaire_Du_Rhin a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 2 ;
+    skos:prefLabel "trajectoire d’évolution pluri-séculaire du Rhin"@fr .
+
+:Vieux_Rhin a :river,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 2,
+        3,
+        5,
+        7 ;
+    :isLocatedIn :Geographiczone,
+        :Kembs_Et_Breisach,
+        :Rhin_Francoallemand ;
+    :isLocatedOn :Kembs_Et_Breisach ;
+    :isSubjectTo :Habitatrestoration,
+        :Hydromorphologicalmonitoring,
+        :Lateralcontinuityrestoration,
+        :Longitudinalcontinuityrestoration,
+        :Restoration,
+        :Restorationmeasure,
+        :Restorationmonitoring,
+        :Restorationoperation,
+        :Riverbankexcavation,
+        :Riverbankrestoration,
+        :Scientificmonitoring,
+        :Sedimenttransport ;
+    skos:note "hasFlow: débit minimum"@fr ;
+    skos:prefLabel "Vieux Rhin"@fr .
+
+:Biologicalmonitoring a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 1,
+        2 ;
+    skos:prefLabel "biologicalMonitoring"@fr .
+
+:Construction_Du_Grand_Canal_Dalsace a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string ;
+    :hasPageNumber 2,
+        5 ;
+    skos:prefLabel "construction du Grand Canal d’Alsace"@fr .
+
+:Ecologicalmonitoring a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 1,
+        2 ;
+    skos:prefLabel "ecologicalMonitoring"@fr .
+
+:Edf a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string ;
+    :hasPageNumber 4,
+        6 ;
+    skos:prefLabel "EDF"@fr .
+
+:Endiguements a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string ;
+    :hasPageNumber 2,
+        5 ;
+    skos:prefLabel "endiguements"@fr .
+
+:France a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 1 ;
+    skos:prefLabel "France"@fr .
+
+:Montrer_Impacts_Phases_Damenagement_Hydraulique a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string ;
+    :hasPageNumber 4,
+        5 ;
+    skos:prefLabel "montrer impacts phases d’aménagement hydraulique"@fr .
+
+:Rectification a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string ;
+    :hasPageNumber 2,
+        5 ;
+    skos:prefLabel "rectification"@fr .
+
+:Regulation a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string ;
+    :hasPageNumber 2,
+        5 ;
+    skos:prefLabel "regulation"@fr .
+
+:Restauration_Ecologique a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 1,
+        2 ;
+    skos:prefLabel "restauration écologique"@fr .
+
+:Restorationmonitoring a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string ;
+    :hasPageNumber 1,
+        4,
+        5,
+        7 ;
+    skos:prefLabel "restorationMonitoring"@fr .
+
+:Agir_Sur_La_Biodiversite a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string ;
+    :hasPageNumber 4,
+        6 ;
+    skos:prefLabel "agir sur la biodiversité"@fr .
+
+:Espace_De_Vie_Et_De_Loisirs a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string ;
+    :hasPageNumber 4,
+        6 ;
+    skos:prefLabel "espace de vie et de loisirs"@fr .
+
+:Flowrestoration a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 1,
+        2,
+        4 ;
+    skos:prefLabel "flowRestoration"@fr .
+
+:Habitatrestoration a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 1,
+        4,
+        7 ;
+    skos:prefLabel "habitatRestoration"@fr .
+
+:Hydromorphologicalmonitoring a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string ;
+    :hasPageNumber 1,
+        2,
+        5,
+        7 ;
+    skos:prefLabel "hydromorphologicalMonitoring"@fr .
+
+:Lateralcontinuityrestoration a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 1,
+        4,
+        7 ;
+    skos:prefLabel "lateralContinuityRestoration"@fr .
+
+:Longitudinalcontinuityrestoration a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 1,
+        4,
+        7 ;
+    skos:prefLabel "longitudinalContinuityRestoration"@fr .
+
+:Phase_Correction a :restorationMeasure,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string ;
+    :hasPageNumber 4,
+        5 ;
+    skos:note "hasDuration: plusieurs décennies"@fr,
+        "hasImpact: changements plan et verticaux"@fr,
+        "hasTimeResponse: rapides"@fr ;
+    skos:prefLabel "phase correction"@fr .
+
+:Renforcer_Lattractivite_Du_Fleuve a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string ;
+    :hasPageNumber 4,
+        6 ;
+    skos:prefLabel "renforcer l’attractivité du fleuve"@fr .
+
+:Restorationmeasure a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string ;
+    :hasPageNumber 1,
+        4,
+        5,
+        7 ;
+    skos:prefLabel "restorationMeasure"@fr .
+
+:Restorationoperation a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string ;
+    :hasPageNumber 1,
+        4,
+        5,
+        7 ;
+    skos:prefLabel "restorationOperation"@fr .
+
+:Rhin_Francoallemand a :river,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 1,
+        2,
+        4,
+        5,
+        6,
+        7 ;
+    :isLocatedIn :Kembs_Et_Breisach ;
+    :isLocatedOn :Autoroute,
+        :Construction_Du_Grand_Canal_Dalsace,
+        :Distributionbasin,
+        :Ecluseusine_De_Kems,
+        :Endiguements,
+        :Geographiczone,
+        :Grand_Canal_Dalsace,
+        :Navigation,
+        :Phase_Correction,
+        :Rectification,
+        :Regulation,
+        :Vieux_Rhin ;
+    :isManagedBy :Chercheurs ;
+    :isSubjectTo :Biologicalmonitoring,
+        :Ecologicalmonitoring,
+        :Flowrestoration,
+        :Hydromorphologicalmonitoring,
+        :Restoration ;
+    skos:prefLabel "Rhin franco-allemand"@fr .
+
+:Riverbankexcavation a :restorationOperation,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasMainContractor :Edf ;
+    :hasMonitoringEndDate "2017"^^xsd:string ;
+    :hasMonitoringStartDate "2013"^^xsd:string ;
+    :hasPageNumber 1,
+        4,
+        5,
+        6,
+        7 ;
+    :hasPurpose :Agir_Sur_La_Biodiversite,
+        :Espace_De_Vie_Et_De_Loisirs,
+        :Renforcer_Lattractivite_Du_Fleuve ;
+    :isLocatedOn :Rhin,
+        :Rhin_Francoallemand ;
+    :isSubjectTo :Scientificmonitoring ;
+    skos:prefLabel "riverbankExcavation"@fr .
+
+:Riverbankrestoration a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 1,
+        4,
+        5,
+        7 ;
+    skos:prefLabel "riverbankRestoration"@fr .
+
+:Scientificmonitoring a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 1,
+        4,
+        6,
+        7 ;
+    skos:prefLabel "scientificMonitoring"@fr .
+
+:Sedimenttransport a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Text"^^xsd:string ;
+    :hasPageNumber 1,
+        4,
+        5,
+        7 ;
+    skos:prefLabel "sedimentTransport"@fr .
+
+:Kembs_Et_Breisach a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string ;
+    :hasPageNumber 1,
+        2,
+        5,
+        7 ;
+    skos:prefLabel "Kembs et Breisach"@fr .
+
+:Restoration a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string ;
+    :hasPageNumber 1,
+        4,
+        5,
+        7 ;
+    skos:prefLabel "restoration"@fr .
+
+:Rhin a :river,
+        owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "Text"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasCategory :Flowrestoration,
+        :Habitatrestoration,
+        :Lateralcontinuityrestoration,
+        :Longitudinalcontinuityrestoration ;
+    :hasLength "50 km"^^xsd:string ;
+    :hasPageNumber 1,
+        2,
+        4,
+        5,
+        6 ;
+    :hasPurpose :Restauration_Ecologique ;
+    :hasWidth "3,5 km"^^xsd:string ;
+    :includes :Restoration,
+        :Restorationmeasure,
+        :Restorationoperation,
+        :Riverbankexcavation,
+        :Riverbankrestoration,
+        :Sedimenttransport ;
+    :isLocatedIn :France,
+        :Geographiczone,
+        :Rhin_Francoallemand ;
+    :isLocatedOn :France,
+        :Geographiczone,
+        :Kembs_Et_Breisach ;
+    :isSubjectTo :Biologicalmonitoring,
+        :Construction_Du_Grand_Canal_Dalsace,
+        :Ecologicalmonitoring,
+        :Endiguements,
+        :Flowrestoration,
+        :Habitatrestoration,
+        :Hydromorphologicalmonitoring,
+        :Lateralcontinuityrestoration,
+        :Longitudinalcontinuityrestoration,
+        :Rectification,
+        :Regulation,
+        :Restoration,
+        :Restorationmeasure,
+        :Restorationmonitoring,
+        :Restorationoperation,
+        :Riverbankexcavation,
+        :Riverbankrestoration,
+        :Scientificmonitoring,
+        :Sedimenttransport ;
+    skos:prefLabel "Rhin"@fr .
+
+:Geographiczone a owl:NamedIndividual ;
+    :dataSource "Carte à la une : reconstituer le Rhin disparu"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 3,
+        4,
+        5 ;
+    skos:prefLabel "geographicZone"@fr .
+

@@ -1,0 +1,160 @@
+--- Loading CLIP Model (Using SafeTensors) ---
+Running on device: CUDA
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights:   3%|▎         | 12/398 [00:00<00:04, 92.17it/s]Loading weights:   6%|▌         | 22/398 [00:00<00:05, 73.27it/s]Loading weights:   8%|▊         | 30/398 [00:00<00:04, 74.36it/s]Loading weights:  11%|█         | 44/398 [00:00<00:03, 91.23it/s]Loading weights:  14%|█▎        | 54/398 [00:00<00:03, 93.20it/s]Loading weights:  18%|█▊        | 71/398 [00:00<00:02, 110.03it/s]Loading weights:  21%|██        | 83/398 [00:00<00:02, 111.47it/s]Loading weights:  24%|██▍       | 95/398 [00:01<00:03, 84.84it/s] Loading weights:  26%|██▋       | 105/398 [00:01<00:03, 77.17it/s]Loading weights:  29%|██▊       | 114/398 [00:01<00:04, 65.97it/s]Loading weights:  31%|███       | 122/398 [00:01<00:04, 62.83it/s]Loading weights:  32%|███▏      | 129/398 [00:01<00:04, 64.36it/s]Loading weights:  34%|███▍      | 136/398 [00:01<00:04, 59.29it/s]Loading weights:  36%|███▋      | 145/398 [00:01<00:04, 59.24it/s]Loading weights:  38%|███▊      | 152/398 [00:02<00:04, 61.31it/s]Loading weights: 100%|██████████| 398/398 [00:02<00:00, 184.61it/s]
+Found 5 PDFs to process: ['Rapport-stage-M2-Floriane.pdf', 'reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7.pdf', 'fichier.pdf', 'dossier_unio_crassus_zorn_v4_19_11_2024.pdf', '2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire.pdf']
+
+========== STARTING PROCESSING FOR: Rapport-stage-M2-Floriane ==========
+--- Loading Data for Rapport-stage-M2-Floriane ---
+Encoding 189 text blocks...
+Found 38 images to match against 189 text blocks.
+--- Calculating Similarity Matrix ---
+Processed img_p34_2.png -> Best Match: page_33_block_2 (0.2622)
+Processed img_p13_2.png -> Best Match: page_38_block_3 (0.3599)
+Processed img_p50_1.png -> Best Match: page_39_block_8 (0.288)
+Processed img_p46_1.png -> Best Match: page_3_block_7 (0.272)
+Processed img_p11_1.png -> Best Match: page_11_block_3 (0.361)
+Processed img_p23_1.png -> Best Match: page_38_block_3 (0.3641)
+Processed img_p43_1.png -> Best Match: page_44_block_1 (0.3213)
+Processed img_p25_1.png -> Best Match: page_38_block_3 (0.3314)
+Processed img_p15_1.png -> Best Match: page_15_block_4 (0.3444)
+Processed img_p51_1.png -> Best Match: page_4_block_7 (0.284)
+Processed img_p50_2.png -> Best Match: page_12_block_3 (0.3404)
+Processed img_p50_5.png -> Best Match: page_39_block_1 (0.2933)
+Processed img_p8_1.png -> Best Match: page_38_block_3 (0.35)
+Processed img_p19_1.png -> Best Match: page_20_block_4 (0.3061)
+Processed img_p24_1.png -> Best Match: page_25_block_2 (0.347)
+Processed img_p21_1.png -> Best Match: page_4_block_4 (0.2596)
+Processed img_p52_2.png -> Best Match: page_23_block_3 (0.3479)
+Processed img_p53_1.png -> Best Match: page_21_block_1 (0.3179)
+Processed img_p44_1.png -> Best Match: page_39_block_7 (0.3225)
+Processed img_p47_1.png -> Best Match: page_6_block_1 (0.3104)
+Processed img_p43_2.png -> Best Match: page_43_block_2 (0.3266)
+Processed img_p20_1.png -> Best Match: page_12_block_3 (0.318)
+Processed img_p51_2.png -> Best Match: page_4_block_7 (0.2711)
+Processed img_p13_1.png -> Best Match: page_13_block_3 (0.3662)
+Processed img_p49_1.png -> Best Match: page_13_block_5 (0.3006)
+Processed img_p45_1.png -> Best Match: page_18_block_3 (0.2883)
+Processed img_p50_3.png -> Best Match: page_39_block_8 (0.307)
+Processed img_p23_3.png -> Best Match: page_38_block_3 (0.3528)
+Processed img_p23_2.png -> Best Match: page_23_block_3 (0.3829)
+Processed img_p19_2.png -> Best Match: page_19_block_2 (0.3347)
+Processed img_p48_1.png -> Best Match: page_32_block_3 (0.2579)
+Processed img_p47_2.png -> Best Match: page_21_block_1 (0.3015)
+Processed img_p34_1.png -> Best Match: page_34_block_1 (0.3536)
+Processed img_p45_2.png -> Best Match: page_4_block_7 (0.2971)
+Processed img_p22_1.png -> Best Match: page_28_block_1 (0.277)
+Processed img_p52_1.png -> Best Match: page_12_block_3 (0.3123)
+Processed img_p50_4.png -> Best Match: page_38_block_3 (0.3383)
+Processed img_p9_1.png -> Best Match: page_11_block_3 (0.3594)
+--- Saving Output Data ---
+CSV saved to: /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/clip_results/Rapport-stage-M2-Floriane/clip_raw_matrix.csv
+Histogram saved to: /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/clip_results/Rapport-stage-M2-Floriane/similarity_histogram.png
+========== COMPLETED PROCESSING FOR: Rapport-stage-M2-Floriane ==========
+
+========== STARTING PROCESSING FOR: reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7 ==========
+--- Loading Data for reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7 ---
+Encoding 23 text blocks...
+Found 5 images to match against 23 text blocks.
+--- Calculating Similarity Matrix ---
+Processed img_p1_1.png -> Best Match: page_5_block_2 (0.313)
+Processed img_p5_2.png -> Best Match: page_7_block_2 (0.3573)
+Processed img_p5_1.png -> Best Match: page_1_block_1 (0.2826)
+Processed img_p3_1.png -> Best Match: page_5_block_2 (0.275)
+Processed img_p4_1.png -> Best Match: page_5_block_2 (0.3056)
+--- Saving Output Data ---
+CSV saved to: /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/clip_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/clip_raw_matrix.csv
+Histogram saved to: /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/clip_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7/similarity_histogram.png
+========== COMPLETED PROCESSING FOR: reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7 ==========
+
+========== STARTING PROCESSING FOR: fichier ==========
+--- Loading Data for fichier ---
+Encoding 60 text blocks...
+Found 25 images to match against 60 text blocks.
+--- Calculating Similarity Matrix ---
+Processed img_p13_2.png -> Best Match: page_7_block_2 (0.3227)
+Processed img_p20_2.png -> Best Match: page_17_block_2 (0.3478)
+Processed img_p14_1.png -> Best Match: page_14_block_2 (0.2946)
+Processed img_p11_1.png -> Best Match: page_12_block_1 (0.332)
+Processed img_p23_1.png -> Best Match: page_12_block_1 (0.3396)
+Processed img_p14_2.png -> Best Match: page_8_block_4 (0.3222)
+Processed img_p15_1.png -> Best Match: page_13_block_2 (0.3229)
+Processed img_p8_1.png -> Best Match: page_13_block_2 (0.3226)
+Processed img_p19_1.png -> Best Match: page_12_block_1 (0.3204)
+Processed img_p10_1.png -> Best Match: page_13_block_2 (0.3011)
+Processed img_p17_1.png -> Best Match: page_13_block_2 (0.3167)
+Processed img_p21_1.png -> Best Match: page_13_block_2 (0.3321)
+Processed img_p12_1.png -> Best Match: page_8_block_4 (0.332)
+Processed img_p7_1.png -> Best Match: page_14_block_2 (0.3283)
+Processed img_p17_2.png -> Best Match: page_8_block_4 (0.3284)
+Processed img_p20_1.png -> Best Match: page_13_block_2 (0.3217)
+Processed img_p1_1.png -> Best Match: page_8_block_2 (0.3136)
+Processed img_p10_2.png -> Best Match: page_13_block_2 (0.3376)
+Processed img_p16_1.png -> Best Match: page_13_block_2 (0.3107)
+Processed img_p13_1.png -> Best Match: page_8_block_4 (0.3365)
+Processed img_p18_1.png -> Best Match: page_13_block_2 (0.3452)
+Processed img_p19_2.png -> Best Match: page_12_block_4 (0.2905)
+Processed img_p22_1.png -> Best Match: page_13_block_2 (0.3279)
+Processed img_p1_2.png -> Best Match: page_3_block_1 (0.2798)
+Processed img_p9_1.png -> Best Match: page_21_block_1 (0.3034)
+--- Saving Output Data ---
+CSV saved to: /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/clip_results/fichier/clip_raw_matrix.csv
+Histogram saved to: /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/clip_results/fichier/similarity_histogram.png
+========== COMPLETED PROCESSING FOR: fichier ==========
+
+========== STARTING PROCESSING FOR: dossier_unio_crassus_zorn_v4_19_11_2024 ==========
+--- Loading Data for dossier_unio_crassus_zorn_v4_19_11_2024 ---
+Encoding 70 text blocks...
+Found 19 images to match against 70 text blocks.
+--- Calculating Similarity Matrix ---
+Processed img_p14_1.png -> Best Match: page_32_block_6 (0.3181)
+Processed img_p16_1.png -> Best Match: page_32_block_3 (0.3033)
+Processed img_p1_1.png -> Best Match: page_32_block_4 (0.2971)
+Processed img_p21_1.png -> Best Match: page_22_block_2 (0.3252)
+Processed img_p13_1.png -> Best Match: page_32_block_2 (0.3542)
+Processed img_p15_1.png -> Best Match: page_20_block_1 (0.2768)
+Processed img_p18_1.png -> Best Match: page_30_block_5 (0.2722)
+Processed img_p24_1.png -> Best Match: page_32_block_4 (0.2932)
+Processed img_p20_1.png -> Best Match: page_22_block_1 (0.2797)
+Processed img_p26_1.png -> Best Match: page_32_block_4 (0.3513)
+Processed img_p28_1.png -> Best Match: page_32_block_4 (0.3633)
+Processed img_p25_1.png -> Best Match: page_19_block_1 (0.3376)
+Processed img_p5_1.png -> Best Match: page_32_block_4 (0.3125)
+Processed img_p10_1.png -> Best Match: page_32_block_4 (0.2796)
+Processed img_p9_1.png -> Best Match: page_22_block_2 (0.2789)
+Processed img_p13_2.png -> Best Match: page_32_block_6 (0.3123)
+Processed img_p6_1.png -> Best Match: page_32_block_4 (0.3157)
+Processed img_p17_1.png -> Best Match: page_17_block_2 (0.3743)
+Processed img_p8_1.png -> Best Match: page_34_block_1 (0.2911)
+--- Saving Output Data ---
+CSV saved to: /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/clip_results/dossier_unio_crassus_zorn_v4_19_11_2024/clip_raw_matrix.csv
+Histogram saved to: /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/clip_results/dossier_unio_crassus_zorn_v4_19_11_2024/similarity_histogram.png
+========== COMPLETED PROCESSING FOR: dossier_unio_crassus_zorn_v4_19_11_2024 ==========
+
+========== STARTING PROCESSING FOR: 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire ==========
+--- Loading Data for 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire ---
+Encoding 184 text blocks...
+Found 18 images to match against 184 text blocks.
+--- Calculating Similarity Matrix ---
+Processed img_p16_1.png -> Best Match: page_39_block_2 (0.3089)
+Processed img_p1_1.png -> Best Match: page_11_block_1 (0.3091)
+Processed img_p21_1.png -> Best Match: page_9_block_2 (0.343)
+Processed img_p4_2.png -> Best Match: page_38_block_2 (0.3343)
+Processed img_p12_1.png -> Best Match: page_34_block_1 (0.3352)
+Processed img_p22_1.png -> Best Match: page_22_block_1 (0.337)
+Processed img_p15_1.png -> Best Match: page_38_block_3 (0.2997)
+Processed img_p28_1.png -> Best Match: page_6_block_1 (0.3398)
+Processed img_p10_1.png -> Best Match: page_20_block_5 (0.3046)
+Processed img_p9_1.png -> Best Match: page_9_block_2 (0.3041)
+Processed img_p12_2.png -> Best Match: page_7_block_3 (0.3276)
+Processed img_p40_1.png -> Best Match: page_23_block_2 (0.3789)
+Processed img_p6_1.png -> Best Match: page_6_block_1 (0.3977)
+Processed img_p17_1.png -> Best Match: page_37_block_3 (0.3179)
+Processed img_p23_1.png -> Best Match: page_34_block_8 (0.3063)
+Processed img_p31_1.png -> Best Match: page_41_block_4 (0.3473)
+Processed img_p4_1.png -> Best Match: page_23_block_2 (0.3096)
+Processed img_p21_2.png -> Best Match: page_41_block_2 (0.3481)
+--- Saving Output Data ---
+CSV saved to: /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/clip_results/2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire/clip_raw_matrix.csv
+Histogram saved to: /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/clip_results/2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire/similarity_histogram.png
+========== COMPLETED PROCESSING FOR: 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire ==========
+

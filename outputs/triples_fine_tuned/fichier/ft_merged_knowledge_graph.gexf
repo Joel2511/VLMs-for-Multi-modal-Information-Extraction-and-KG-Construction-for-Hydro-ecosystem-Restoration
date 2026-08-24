@@ -1,0 +1,2159 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-08-18">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="8" title="networkx_key" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="datasource" type="string" />
+      <attribute id="1" title="extractedFrom" type="string" />
+      <attribute id="2" title="note" type="string" />
+      <attribute id="3" title="hasWidth" type="string" />
+      <attribute id="4" title="hasPurpose" type="string" />
+      <attribute id="5" title="hasAverageSlope" type="string" />
+      <attribute id="6" title="hasDescription" type="string" />
+      <attribute id="7" title="hasCost" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Troncon_2" label="Troncon_2">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="VQA-verified caption; Text; Image" />
+          <attvalue for="2" value="hasQuality: moyenne à médiocre" />
+          <attvalue for="3" value="0,6 m" />
+          <attvalue for="4" value="connecter le avec le ruisseau de Plesnois" />
+          <attvalue for="5" value="1,8 %" />
+          <attvalue for="6" value="cours d’eau plus large et moins profond, entouré de végétation plus maigre et de roches; fonds de lit composés de graviers et de petits galets, avec des débris organiques et des ’monstres’ humains; cours d’eau étroit et profond, entouré de végétation dense et de murs en pierres" />
+        </attvalues>
+      </node>
+      <node id="Gare_De_Triage_De_Woippy" label="Gare_De_Triage_De_Woippy">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Image; Text" />
+        </attvalues>
+      </node>
+      <node id="Troncon_6" label="Troncon_6">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="4" value="connecter le avec le ruisseau de Plesnois" />
+          <attvalue for="1" value="Text; Image; VQA-verified caption" />
+          <attvalue for="6" value="tronçon d’eau avec un lit mineur et une végétation dense comprenant des plantes à fleurs violettes et des herbes; présente une qualité assez bonne car le milieu a subi une pression anthropique modérée mais il conserve une bonne disponibilité en habitats" />
+          <attvalue for="3" value="0,8 m" />
+          <attvalue for="5" value="1,6 %" />
+          <attvalue for="7" value="4000" />
+        </attvalues>
+      </node>
+      <node id="Ruisseau_De_Norroy" label="Ruisseau_De_Norroy">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="6" value="lit mineur, coefficient de sinuosité de 1,04, débit peu varié, largeur régulière, régime d’écoulement cassé, fond composé de petits galets et graviers, encombrement de branchages; La ripisylve est importante sur ce tronçon car elle est présente sur environ 80 % du linéaire sous la forme d’arbres principalement, ce qui laisse peu de place à la lumière pour le cours d’eau 5 à 25 ; En effet, les ouvrages visibles sur les photos ci-dessous décrivent le phénomène de surverse en cas de crue.; digues sont situées sur environ 50 % du linéaire et quelques buses; La ripisylve, absente sur plus de la moitié du linéaire, est constituée de quelques arbres en amont du tronçon sur les deux rives, permettant à plus de la moitié de la surface de l’eau d’être éclairée; Pour séparer ces deux éléments, des digues sont situées à la fois en rive gauche sur environ 50 % du linéaire et en rive droite sur environ 70 % du linéaire.; A partir d’un certain débit, les eaux s’écoulent et viennent remplir les étangs de part et d’autre du ruisseau.; Le tracé globalement rectiligne dans un contexte géologique alluvionnaire.; trois ouvrages transversaux, visibles sur les photos ci-dessous, 13 ainsi qu’une route sur remblai encore non fonctionnelle longeant le lit mineur sur une certaine longueur; Le lit majeur de ce tronçon est caractérisé par la présence de trois étangs, représentant autant d’annexes hydrauliques et couvrant tout le linéaire du tronçon.; Une forte densité d’herbes hautes envahit les berges à l’aval du tronçon; La communication de celles-ci avec le cours d’eau se fait par des déversoirs, ce qui montre que l’inondabilité du site à été modifiée car les écoulements en crue sont déconnectés entre le lit mineur e; présence de plusieurs étangs en rive droite, représentant des annexes hydrauliques et couvrant 60 % du linéaire du tronçon; rive gauche est constituée à grande majorité 80 % de remblais, réduisant ainsi l’inondabilité du site de plus de 50%" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Embacles" label="Embacles">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="NamedIndividual" label="NamedIndividual">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="waterBody" label="waterBody">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Lit_Majeur" label="Lit_Majeur">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Troncon_9" label="Troncon_9">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Image; VQA-verified caption; Text" />
+          <attvalue for="5" value="0,4 %" />
+          <attvalue for="2" value="hasFunctionality: perdu; hasNaturalAppearance: perdu; hasQuality: très mauvaise" />
+          <attvalue for="3" value="3 m" />
+        </attvalues>
+      </node>
+      <node id="Recreer_De_La_Ripisylve" label="Recreer_De_La_Ripisylve">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="7" value="350 000 EUR" />
+          <attvalue for="1" value="Text; Image" />
+        </attvalues>
+      </node>
+      <node id="Troncon_5" label="Troncon_5">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="4" value="connecter le avec le ruisseau de Plesnois" />
+          <attvalue for="1" value="Image; VQA-verified caption; Text" />
+          <attvalue for="5" value="2%" />
+          <attvalue for="7" value="70000" />
+        </attvalues>
+      </node>
+      <node id="Rapport_Etude_Hydromorphologique_Ruisseau_Norroy" label="Rapport_Etude_Hydromorphologique_Ruisseau_Norroy">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Vaches" label="Vaches">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Intense_Phenomene_Derosion" label="Intense_Phenomene_Derosion">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Rue_De_La_Voie_Romaine" label="Rue_De_La_Voie_Romaine">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Image; Text" />
+        </attvalues>
+      </node>
+      <node id="Troncon_4" label="Troncon_4">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="2" value="hasShape: U; hasQuality: correcte à excellente" />
+          <attvalue for="1" value="VQA-verified caption; Text; Image" />
+          <attvalue for="3" value="1,5 m" />
+          <attvalue for="7" value="45000" />
+          <attvalue for="4" value="connecter le avec le ruisseau de Plesnois" />
+          <attvalue for="5" value="3,5 %" />
+          <attvalue for="6" value="eau claire et des berges couvertes de végétation dense" />
+        </attvalues>
+      </node>
+      <node id="Berge_En_Rive_Gauche" label="Berge_En_Rive_Gauche">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="2" value="isStable: true; isComposedOf: matériaux naturels" />
+        </attvalues>
+      </node>
+      <node id="Rive_Gauche" label="Rive_Gauche">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Cours_Deau" label="Cours_Deau">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Text; Image; VQA-verified caption" />
+          <attvalue for="4" value="connecter le avec le ruisseau de Plesnois" />
+          <attvalue for="7" value="35000" />
+        </attvalues>
+      </node>
+      <node id="True" label="True">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Montant_Total" label="Montant_Total">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Text; Image" />
+          <attvalue for="7" value="530 000 EUR" />
+        </attvalues>
+      </node>
+      <node id="Enrochements_Et_Remblais" label="Enrochements_Et_Remblais">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Woippy" label="Woippy">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Text; Image" />
+        </attvalues>
+      </node>
+      <node id="Ruisseau" label="Ruisseau">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+      <node id="Future_Zone_Dactivites" label="Future_Zone_Dactivites">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Les_Berges" label="Les_Berges">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Text; Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+      <node id="Troncon_3" label="Troncon_3">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Text; Image" />
+          <attvalue for="5" value="3,5 %" />
+          <attvalue for="3" value="1 m" />
+        </attvalues>
+      </node>
+      <node id="Eviter_Toute_Artificialisation" label="Eviter_Toute_Artificialisation">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Text; Image" />
+        </attvalues>
+      </node>
+      <node id="Tunnel_En_Beton" label="Tunnel_En_Beton">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Troncon_7" label="Troncon_7">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="2" value="hasAnthropogenicPressure: élevée; hasQuality: mauvaise; hasCompartment: lit majeur; hasCompartment: lit mineur; hasCompartment: berges" />
+          <attvalue for="1" value="Text; Image; VQA-verified caption" />
+          <attvalue for="3" value="0,8 m" />
+          <attvalue for="6" value="tronçon d’eau avec des arbres et des arbustes le long du lit, ainsi qu’une zone de végétation plus dense" />
+          <attvalue for="5" value="1,7 %" />
+        </attvalues>
+      </node>
+      <node id="instance_graph" label="instance_graph">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Ontology" label="Ontology">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Faible" label="Faible">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Eaux" label="Eaux">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Hors_Frais_De_Maitrise_Dœuvre" label="Hors_Frais_De_Maitrise_Dœuvre">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Text; Image" />
+        </attvalues>
+      </node>
+      <node id="Recreer_Une_Dynamique_Decoulement" label="Recreer_Une_Dynamique_Decoulement">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="7" value="15 000 EUR" />
+          <attvalue for="1" value="Text; Image" />
+        </attvalues>
+      </node>
+      <node id="Troncon_8" label="Troncon_8">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="6" value="étang avec une digue en bois et une piste de terre; étang avec une végétation dense et une digue en bois; sol couvert de herbe sèche et de terre" />
+          <attvalue for="1" value="Text; Image; VQA-verified caption" />
+          <attvalue for="5" value="0,8 %" />
+          <attvalue for="2" value="hasQuality: très mauvaise; hasArtificializationLevel: forte" />
+          <attvalue for="3" value="1,2 m" />
+        </attvalues>
+      </node>
+      <node id="Lit_Mineur" label="Lit_Mineur">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Text; Image; VQA-verified caption" />
+          <attvalue for="2" value="hasSubstrateComposition: sables, vases, argiles, limons; hasSubstrate: vases; hasSubstrate: sables; hasSinuosityCoefficient: 1,14; hasVegetation: branchages; hasCoefficientOfSinuosity: 1,3; hasSubstrate: dépôts localisés; hasSubstrate: limons; hasCoefficientSinuosité: 1,3; hasSubstrate: branchages; hasSubstrate: argiles; hasVegetation: hélophytes" />
+        </attvalues>
+      </node>
+      <node id="Prairies" label="Prairies">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Troncon_1" label="Troncon_1">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="2" value="hasState: proche de l’état naturel; hasQuality: correcte à excellente" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Eviter_La_Perte_Deau" label="Eviter_La_Perte_Deau">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Image; Text" />
+        </attvalues>
+      </node>
+      <node id="Letat_Est_Bon" label="Letat_Est_Bon">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Favoriser_Les_Effets_De_Survitesse" label="Favoriser_Les_Effets_De_Survitesse">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Text; Image" />
+        </attvalues>
+      </node>
+      <node id="Pont_En_Metal" label="Pont_En_Metal">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+      <node id="Pentes_Elevees" label="Pentes_Elevees">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Rive_Droite_Et_Gauche" label="Rive_Droite_Et_Gauche">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Berges_Couvertes_De_Vegetation" label="Berges_Couvertes_De_Vegetation">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Vegetation_Dense" label="Vegetation_Dense">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+      <node id="Chevaux" label="Chevaux">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Voie_Romaine" label="Voie_Romaine">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Text; Image" />
+        </attvalues>
+      </node>
+      <node id="Tunnel" label="Tunnel">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+      <node id="structure" label="structure">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Vegetation" label="Vegetation">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Zone_Inondable" label="Zone_Inondable">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Forte_Densite_De_Vegetation" label="Forte_Densite_De_Vegetation">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Etroite" label="Etroite">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Rive_Droite" label="Rive_Droite">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Sousnorroy" label="Sousnorroy">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Berge_En_Rive_Droite" label="Berge_En_Rive_Droite">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="2" value="isComposedOf: remblais" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Racines" label="Racines">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Connecter_Le_Avec_Le_Ruisseau_De_Plesnois" label="Connecter_Le_Avec_Le_Ruisseau_De_Plesnois">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="7" value="10 000 EUR" />
+        </attvalues>
+      </node>
+      <node id="Ruisseau_Norroy" label="Ruisseau_Norroy">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="3" value="0,6 m" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="5" value="7%" />
+        </attvalues>
+      </node>
+      <node id="Vegetation_Herbacee" label="Vegetation_Herbacee">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Terre" label="Terre">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Materiaux_Naturels" label="Materiaux_Naturels">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="geographicZone" label="geographicZone">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Constante" label="Constante">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Arbres_Presents" label="Arbres_Presents">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Buse" label="Buse">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Presence_De_Prairies" label="Presence_De_Prairies">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="restorationMeasure" label="restorationMeasure">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Secteurs_Plats" label="Secteurs_Plats">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Stabilisation_Des_Berges" label="Stabilisation_Des_Berges">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Text; Image" />
+        </attvalues>
+      </node>
+      <node id="Qualite_Correcte_A_Excellente" label="Qualite_Correcte_A_Excellente">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Presence_De_Cultures" label="Presence_De_Cultures">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Pont_Beton" label="Pont_Beton">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Troncon_2" target="Gare_De_Triage_De_Woippy" id="0" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_2" target="waterBody" id="1" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_2" target="Ruisseau_De_Norroy" id="2" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_2" target="Troncon_2" id="3" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_2" target="Faible" id="4" label="hasAverageSlope">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_2" target="NamedIndividual" id="5" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_2" target="Eviter_Toute_Artificialisation" id="6" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_2" target="Recreer_Une_Dynamique_Decoulement" id="7" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_2" target="Etroite" id="8" label="hasWidth">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_2" target="Woippy" id="9" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_2" target="geographicZone" id="10" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_2" target="Favoriser_Les_Effets_De_Survitesse" id="11" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_2" target="Sousnorroy" id="12" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_2" target="Stabilisation_Des_Berges" id="13" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_2" target="Rue_De_La_Voie_Romaine" id="14" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_2" target="Recreer_De_La_Ripisylve" id="15" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_2" target="Eviter_La_Perte_Deau" id="16" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Gare_De_Triage_De_Woippy" target="NamedIndividual" id="17" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="Ruisseau_De_Norroy" id="18" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="Montant_Total" id="19" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="Woippy" id="20" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="Hors_Frais_De_Maitrise_Dœuvre" id="21" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="Favoriser_Les_Effets_De_Survitesse" id="22" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="Recreer_Une_Dynamique_Decoulement" id="23" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="Rue_De_La_Voie_Romaine" id="24" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="Vegetation_Dense" id="25" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="geographicZone" id="26" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="Voie_Romaine" id="27" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="Arbres_Presents" id="28" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="Gare_De_Triage_De_Woippy" id="29" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="Stabilisation_Des_Berges" id="30" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="Recreer_De_La_Ripisylve" id="31" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="waterBody" id="32" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="Berges_Couvertes_De_Vegetation" id="33" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="Eviter_La_Perte_Deau" id="34" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="Lit_Mineur" id="35" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="NamedIndividual" id="36" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_6" target="Eviter_Toute_Artificialisation" id="37" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Embacles" id="38" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Embacles" id="39" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Troncon_1" id="40" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Troncon_1" id="41" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Troncon_3" id="42" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Troncon_3" id="43" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Intense_Phenomene_Derosion" id="44" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Forte_Densite_De_Vegetation" id="45" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Lit_Majeur" id="46" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Racines" id="47" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Racines" id="48" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Prairies" id="49" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Troncon_2" id="50" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Troncon_2" id="51" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Materiaux_Naturels" id="52" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Pentes_Elevees" id="53" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Vegetation" id="54" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Vegetation" id="55" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Les_Berges" id="56" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Letat_Est_Bon" id="57" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="waterBody" id="58" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Terre" id="59" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Terre" id="60" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Presence_De_Prairies" id="61" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Troncon_5" id="62" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Troncon_7" id="63" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="NamedIndividual" id="64" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Zone_Inondable" id="65" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Vaches" id="66" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Qualite_Correcte_A_Excellente" id="67" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Sousnorroy" id="68" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Pont_Beton" id="69" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Presence_De_Cultures" id="70" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Chevaux" id="71" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Secteurs_Plats" id="72" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Troncon_6" id="73" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Rive_Droite" id="74" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Buse" id="75" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Rive_Gauche" id="76" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Troncon_4" id="77" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Embacles" target="NamedIndividual" id="78" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Majeur" target="Troncon_9" id="79" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Majeur" target="Enrochements_Et_Remblais" id="80" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Majeur" target="Gare_De_Triage_De_Woippy" id="81" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Majeur" target="Troncon_2" id="82" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Majeur" target="Troncon_6" id="83" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Majeur" target="Troncon_4" id="84" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Majeur" target="Troncon_3" id="85" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Majeur" target="Vegetation_Herbacee" id="86" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Majeur" target="Troncon_5" id="87" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Majeur" target="Woippy" id="88" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Majeur" target="Rue_De_La_Voie_Romaine" id="89" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Majeur" target="Troncon_8" id="90" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Majeur" target="waterBody" id="91" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Majeur" target="Troncon_7" id="92" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Majeur" target="NamedIndividual" id="93" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Majeur" target="Buse" id="94" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Majeur" target="Voie_Romaine" id="95" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_9" target="Rue_De_La_Voie_Romaine" id="96" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_9" target="Recreer_Une_Dynamique_Decoulement" id="97" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_9" target="Woippy" id="98" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_9" target="Woippy" id="99" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_9" target="Favoriser_Les_Effets_De_Survitesse" id="100" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_9" target="Gare_De_Triage_De_Woippy" id="101" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_9" target="waterBody" id="102" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_9" target="Eviter_La_Perte_Deau" id="103" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_9" target="NamedIndividual" id="104" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_9" target="Voie_Romaine" id="105" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Recreer_De_La_Ripisylve" target="Troncon_5" id="106" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Recreer_De_La_Ripisylve" target="Troncon_8" id="107" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Recreer_De_La_Ripisylve" target="Troncon_9" id="108" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Recreer_De_La_Ripisylve" target="NamedIndividual" id="109" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Recreer_De_La_Ripisylve" target="Troncon_2" id="110" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Recreer_De_La_Ripisylve" target="Stabilisation_Des_Berges" id="111" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Recreer_De_La_Ripisylve" target="Troncon_4" id="112" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Recreer_De_La_Ripisylve" target="restorationMeasure" id="113" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Intense_Phenomene_Derosion" id="114" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Eviter_Toute_Artificialisation" id="115" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Prairies" id="116" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Ruisseau_De_Norroy" id="117" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Ruisseau_De_Norroy" id="118" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Montant_Total" id="119" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Woippy" id="120" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Pentes_Elevees" id="121" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Hors_Frais_De_Maitrise_Dœuvre" id="122" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Favoriser_Les_Effets_De_Survitesse" id="123" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Recreer_Une_Dynamique_Decoulement" id="124" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Vegetation_Dense" id="125" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Forte_Densite_De_Vegetation" id="126" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="geographicZone" id="127" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Presence_De_Prairies" id="128" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="waterBody" id="129" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="NamedIndividual" id="130" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Stabilisation_Des_Berges" id="131" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Recreer_De_La_Ripisylve" id="132" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Presence_De_Cultures" id="133" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Eviter_La_Perte_Deau" id="134" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_5" target="Lit_Mineur" id="135" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rapport_Etude_Hydromorphologique_Ruisseau_Norroy" target="Vaches" id="136" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rapport_Etude_Hydromorphologique_Ruisseau_Norroy" target="Chevaux" id="137" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rapport_Etude_Hydromorphologique_Ruisseau_Norroy" target="Rive_Droite" id="138" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rapport_Etude_Hydromorphologique_Ruisseau_Norroy" target="Rive_Gauche" id="139" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rapport_Etude_Hydromorphologique_Ruisseau_Norroy" target="Embacles" id="140" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rapport_Etude_Hydromorphologique_Ruisseau_Norroy" target="Ruisseau_De_Norroy" id="141" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rapport_Etude_Hydromorphologique_Ruisseau_Norroy" target="NamedIndividual" id="142" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rapport_Etude_Hydromorphologique_Ruisseau_Norroy" target="Racines" id="143" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rapport_Etude_Hydromorphologique_Ruisseau_Norroy" target="Vegetation" id="144" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rapport_Etude_Hydromorphologique_Ruisseau_Norroy" target="Terre" id="145" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vaches" target="NamedIndividual" id="146" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Intense_Phenomene_Derosion" target="NamedIndividual" id="147" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rue_De_La_Voie_Romaine" target="NamedIndividual" id="148" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="Ruisseau_De_Norroy" id="149" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="Ruisseau_De_Norroy" id="150" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="Recreer_De_La_Ripisylve" id="151" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="Eviter_La_Perte_Deau" id="152" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="NamedIndividual" id="153" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="Lit_Mineur" id="154" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="Eviter_Toute_Artificialisation" id="155" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="Rue_De_La_Voie_Romaine" id="156" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="Hors_Frais_De_Maitrise_Dœuvre" id="157" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="Recreer_Une_Dynamique_Decoulement" id="158" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="Vegetation_Dense" id="159" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="Woippy" id="160" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="Troncon_4" id="161" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="geographicZone" id="162" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="Montant_Total" id="163" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="Favoriser_Les_Effets_De_Survitesse" id="164" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="Gare_De_Triage_De_Woippy" id="165" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="Stabilisation_Des_Berges" id="166" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_4" target="waterBody" id="167" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Berge_En_Rive_Gauche" target="Rive_Gauche" id="168" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Berge_En_Rive_Gauche" target="NamedIndividual" id="169" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rive_Gauche" target="NamedIndividual" id="170" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="True" id="171" label="isImpassable">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Recreer_De_La_Ripisylve" id="172" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Berges_Couvertes_De_Vegetation" id="173" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Troncon_9" id="174" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Lit_Mineur" id="175" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Recreer_Une_Dynamique_Decoulement" id="176" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Troncon_2" id="177" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Troncon_6" id="178" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Etroite" id="179" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Troncon_4" id="180" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Eviter_Toute_Artificialisation" id="181" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Faible" id="182" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Woippy" id="183" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Troncon_3" id="184" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Favoriser_Les_Effets_De_Survitesse" id="185" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Vegetation_Dense" id="186" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Arbres_Presents" id="187" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Stabilisation_Des_Berges" id="188" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Troncon_8" id="189" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="waterBody" id="190" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Eviter_La_Perte_Deau" id="191" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Troncon_5" id="192" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Troncon_7" id="193" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="NamedIndividual" id="194" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="True" target="NamedIndividual" id="195" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Montant_Total" target="NamedIndividual" id="196" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Montant_Total" target="Hors_Frais_De_Maitrise_Dœuvre" id="197" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Enrochements_Et_Remblais" target="NamedIndividual" id="198" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Woippy" target="NamedIndividual" id="199" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau" target="NamedIndividual" id="200" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau" target="Troncon_6" id="201" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau" target="Troncon_8" id="202" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau" target="Troncon_7" id="203" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau" target="waterBody" id="204" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Future_Zone_Dactivites" target="NamedIndividual" id="205" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Berges" target="Troncon_3" id="206" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Berges" target="Rive_Droite_Et_Gauche" id="207" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Berges" target="Troncon_6" id="208" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Berges" target="Troncon_4" id="209" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Berges" target="Troncon_5" id="210" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Berges" target="Troncon_7" id="211" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Berges" target="Woippy" id="212" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Berges" target="Rue_De_La_Voie_Romaine" id="213" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Berges" target="waterBody" id="214" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Berges" target="Troncon_8" id="215" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Berges" target="Troncon_9" id="216" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Berges" target="NamedIndividual" id="217" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Berges" target="Enrochements_Et_Remblais" id="218" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Berges" target="Gare_De_Triage_De_Woippy" id="219" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Berges" target="Voie_Romaine" id="220" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_3" target="waterBody" id="221" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_3" target="Ruisseau_De_Norroy" id="222" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_3" target="NamedIndividual" id="223" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Eviter_Toute_Artificialisation" target="NamedIndividual" id="224" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Tunnel_En_Beton" target="Troncon_7" id="225" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Tunnel_En_Beton" target="NamedIndividual" id="226" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Tunnel_En_Beton" target="Troncon_6" id="227" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Tunnel_En_Beton" target="structure" id="228" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Tunnel_En_Beton" target="Troncon_8" id="229" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_7" target="Rue_De_La_Voie_Romaine" id="230" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_7" target="Recreer_Une_Dynamique_Decoulement" id="231" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_7" target="Woippy" id="232" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_7" target="Favoriser_Les_Effets_De_Survitesse" id="233" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_7" target="Gare_De_Triage_De_Woippy" id="234" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_7" target="waterBody" id="235" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_7" target="Ruisseau_De_Norroy" id="236" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_7" target="Eviter_La_Perte_Deau" id="237" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_7" target="NamedIndividual" id="238" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="instance_graph" target="Ontology" id="239" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Faible" target="NamedIndividual" id="240" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Eaux" target="NamedIndividual" id="241" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Eaux" target="Troncon_6" id="242" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Eaux" target="Troncon_7" id="243" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Eaux" target="waterBody" id="244" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Eaux" target="Troncon_8" id="245" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Hors_Frais_De_Maitrise_Dœuvre" target="NamedIndividual" id="246" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Recreer_Une_Dynamique_Decoulement" target="Favoriser_Les_Effets_De_Survitesse" id="247" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Recreer_Une_Dynamique_Decoulement" target="Troncon_8" id="248" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Recreer_Une_Dynamique_Decoulement" target="restorationMeasure" id="249" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Recreer_Une_Dynamique_Decoulement" target="NamedIndividual" id="250" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_8" target="NamedIndividual" id="251" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_8" target="Future_Zone_Dactivites" id="252" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_8" target="Future_Zone_Dactivites" id="253" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_8" target="Recreer_Une_Dynamique_Decoulement" id="254" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_8" target="Arbres_Presents" id="255" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_8" target="Woippy" id="256" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_8" target="Rue_De_La_Voie_Romaine" id="257" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_8" target="geographicZone" id="258" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_8" target="Berges_Couvertes_De_Vegetation" id="259" label="hasDescription">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_8" target="Favoriser_Les_Effets_De_Survitesse" id="260" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_8" target="Gare_De_Triage_De_Woippy" id="261" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_8" target="waterBody" id="262" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_8" target="Eviter_La_Perte_Deau" id="263" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Mineur" target="Troncon_9" id="264" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Mineur" target="Troncon_6" id="265" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Mineur" target="Troncon_4" id="266" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Mineur" target="Troncon_5" id="267" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Mineur" target="Constante" id="268" label="hasWidth">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Mineur" target="Troncon_8" id="269" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Mineur" target="waterBody" id="270" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Mineur" target="Troncon_7" id="271" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lit_Mineur" target="NamedIndividual" id="272" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Prairies" target="NamedIndividual" id="273" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_1" target="NamedIndividual" id="274" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_1" target="geographicZone" id="275" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Eviter_La_Perte_Deau" target="NamedIndividual" id="276" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Letat_Est_Bon" target="NamedIndividual" id="277" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Favoriser_Les_Effets_De_Survitesse" target="NamedIndividual" id="278" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pont_En_Metal" target="Troncon_6" id="279" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pont_En_Metal" target="structure" id="280" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pont_En_Metal" target="Troncon_8" id="281" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pont_En_Metal" target="Troncon_7" id="282" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pont_En_Metal" target="NamedIndividual" id="283" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pentes_Elevees" target="NamedIndividual" id="284" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rive_Droite_Et_Gauche" target="NamedIndividual" id="285" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Berges_Couvertes_De_Vegetation" target="NamedIndividual" id="286" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vegetation_Dense" target="Troncon_8" id="287" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vegetation_Dense" target="Troncon_5" id="288" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vegetation_Dense" target="waterBody" id="289" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vegetation_Dense" target="Troncon_7" id="290" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vegetation_Dense" target="NamedIndividual" id="291" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vegetation_Dense" target="Troncon_9" id="292" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vegetation_Dense" target="Troncon_6" id="293" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vegetation_Dense" target="Troncon_4" id="294" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Chevaux" target="NamedIndividual" id="295" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Voie_Romaine" target="NamedIndividual" id="296" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Tunnel" target="structure" id="297" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Tunnel" target="NamedIndividual" id="298" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Tunnel" target="Troncon_9" id="299" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vegetation" target="NamedIndividual" id="300" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zone_Inondable" target="NamedIndividual" id="301" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Forte_Densite_De_Vegetation" target="NamedIndividual" id="302" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Etroite" target="NamedIndividual" id="303" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rive_Droite" target="NamedIndividual" id="304" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sousnorroy" target="NamedIndividual" id="305" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Berge_En_Rive_Droite" target="Rive_Droite" id="306" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Berge_En_Rive_Droite" target="NamedIndividual" id="307" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Racines" target="NamedIndividual" id="308" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Connecter_Le_Avec_Le_Ruisseau_De_Plesnois" target="Troncon_7" id="309" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Connecter_Le_Avec_Le_Ruisseau_De_Plesnois" target="restorationMeasure" id="310" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Connecter_Le_Avec_Le_Ruisseau_De_Plesnois" target="Eviter_La_Perte_Deau" id="311" label="hasPurpose">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Connecter_Le_Avec_Le_Ruisseau_De_Plesnois" target="NamedIndividual" id="312" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_Norroy" target="waterBody" id="313" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_Norroy" target="NamedIndividual" id="314" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_Norroy" target="Troncon_1" id="315" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vegetation_Herbacee" target="NamedIndividual" id="316" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Terre" target="NamedIndividual" id="317" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Materiaux_Naturels" target="NamedIndividual" id="318" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Constante" target="NamedIndividual" id="319" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Arbres_Presents" target="NamedIndividual" id="320" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Buse" target="NamedIndividual" id="321" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Presence_De_Prairies" target="NamedIndividual" id="322" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Secteurs_Plats" target="NamedIndividual" id="323" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Stabilisation_Des_Berges" target="NamedIndividual" id="324" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Qualite_Correcte_A_Excellente" target="NamedIndividual" id="325" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Presence_De_Cultures" target="NamedIndividual" id="326" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pont_Beton" target="NamedIndividual" id="327" label="type">
+        <attvalues>
+          <attvalue for="8" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

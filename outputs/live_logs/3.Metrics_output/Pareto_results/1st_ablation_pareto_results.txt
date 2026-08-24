@@ -1,0 +1,30 @@
+  [READ] internvl25-8b → InternVL2_8B_ablation_no_prompt.txt
+  [READ] llama32vision-11b → LLama_3.2_11B_ablation_no_prompt.txt
+  [READ] mistral-small-31-24b → Mistral3.1_24B_ablation_no_prompt.txt
+  [READ] nvila-lite-8b → Nvila_lite_8B_ablation_no_prompt.txt
+  [READ] pixtral-12b-hf → pixtral12b_ablation_no_prompt.txt
+  [READ] qwen36-27b → qwen3.6_27B_ablation_no_prompt.txt
+  [READ] qwen3vl-30b → qwen3vl_30B_A3b_ablation_no_prompt.txt
+  Found 7 model(s): ['internvl25-8b', 'llama32vision-11b', 'mistral-small-31-24b', 'nvila-lite-8b', 'pixtral-12b-hf', 'qwen36-27b', 'qwen3vl-30b']
+
+========================================================================================================================
+  PARETO RESULTS — Ablation 1 | Scenario B: Oracle
+  Weights: Quality=60%  Speed=25%  Size=15%
+Scenario A (Production): Quality = 0.33*VQA + 0.34*Enrichment + 0.33*NLI  | Weights: Q=40% S=35% Z=25%
+Scenario B (Oracle):     Quality = 0.50*VQA + 0.35*Enrichment + 0.15*NLI  | Weights: Q=60% S=25% Z=15%
+========================================================================================================================
+  Rank  Model                      Params   s/img  NLI Nov  Comb VQA   Enrich   Q_raw  Q_norm  S_norm  Z_norm   PARETO
+------------------------------------------------------------------------------------------------------------------------
+  1     internvl25-8b                8.1B    30.0    0.860     0.877    0.095   0.601   0.995   0.675   0.910   0.9022
+  2     pixtral-12b-hf               7.0B    75.2    0.870     0.894    0.067   0.601   1.000   0.088   0.955   0.7652
+  3     qwen3vl-30b                 30.3B    51.7    0.916     0.910    0.019   0.599   0.964   0.392   0.000   0.6765
+  4     nvila-lite-8b                8.1B    14.7    0.911     0.857    0.019   0.572   0.462   0.874   0.910   0.6322
+  5     mistral-small-31-24b        12.7B    81.9    0.892     0.885    0.038   0.590   0.793   0.000   0.721   0.5840
+  6     llama32vision-11b            5.9B    38.3    0.942     0.841    0.019   0.568   0.401   0.566   1.000   0.5324
+  7     qwen36-27b                  15.0B     4.9    0.894     0.825    0.000   0.546   0.000   1.000   0.627   0.3441
+========================================================================================================================
+
+ Ablation_winner: internvl25-8b  |  Pareto Score: 0.9022
+     Quality: 0.601  |  s/img: 30.0  |  Params: 8.1B
+========================================================================================================================
+

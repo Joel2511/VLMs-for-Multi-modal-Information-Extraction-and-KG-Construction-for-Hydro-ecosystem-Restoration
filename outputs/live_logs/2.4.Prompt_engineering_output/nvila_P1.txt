@@ -1,0 +1,354 @@
+--- Loading nvila-lite-8b with vidore retrieval context ---
+    Generator : nvila-lite-8b
+    Retriever : vidore
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:43<02:11, 43.90s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:26<01:26, 43.22s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [02:10<00:43, 43.40s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:22<00:00, 30.93s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:22<00:00, 35.52s/it]
+    Model size   : 8.1B parameters
+    Loaded at    : 18:54:57
+    Load time    : 00h 02m 27s
+
+========== PROCESSING [dossier_unio_crassus_zorn_v4_19_11_2024] ==========
+ -> Loaded weighted context: 19 images
+    Images to caption: 19
+    [1/19] img_p14_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant une personne en train de prospecter... (13.3s)
+    [2/19] img_p16_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant une zone de la Zorn, un cours d'eau... (21.7s)
+    [3/19] img_p1_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo d'un cours d'eau dans une forêt dense. L'eau... (8.7s)
+    [4/19] img_p21_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo aérienne montrant une zone de prédation d'ép... (12.2s)
+    [5/19] img_p13_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée en deux parties. La partie gauche e... (14.1s)
+    [6/19] img_p15_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo aérienne montrant un cours d'eau, probableme... (49.2s)
+    [7/19] img_p18_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée à partir d'une vue aérienne. Elle p... (13.9s)
+    [8/19] img_p24_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée à partir d'une photo aérienne. Elle... (11.5s)
+    [9/19] img_p20_1.png -> PHASE 1 :
+L'image est une carte réalisée à l'aide de données satellitaires. Elle montre une zone rur... (10.6s)
+    [10/19] img_p26_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant un cours d'eau, probablement la Zor... (10.4s)
+    [11/19] img_p28_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant une main tenant une pierre. La pier... (8.6s)
+    [12/19] img_p25_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée à l'aide de données satellites. Ell... (49.9s)
+    [13/19] img_p5_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte hydrographique montrant la localisation de l... (12.9s)
+    [14/19] img_p10_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo aérienne montrant une zone rurale avec des c... (12.8s)
+    [15/19] img_p9_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée à partir d'une vue aérienne. Elle p... (14.6s)
+    [16/19] img_p13_2.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée en utilisant des couleurs et des sy... (20.3s)
+    [17/19] img_p6_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant un cours d'eau rectiligne, probable... (12.2s)
+    [18/19] img_p17_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une représentation graphique montrant une distribution... (9.2s)
+    [19/19] img_p8_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo aérienne montrant un cours d'eau, probableme... (10.2s)
+========== COMPLETED [dossier_unio_crassus_zorn_v4_19_11_2024] in 00h 05m 19s ==========
+
+========== PROCESSING [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] ==========
+ -> Loaded weighted context: 5 images
+    Images to caption: 5
+    [1/5] img_p1_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une série de cartes anciennes du Rhin supérieur, datan... (50.4s)
+    [2/5] img_p5_2.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo prise en février 2010 par F. Arnaud. Elle mo... (13.5s)
+    [3/5] img_p5_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant une scène de restauration fluviale.... (12.2s)
+    [4/5] img_p3_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée en noir et blanc. Elle montre une s... (14.7s)
+    [5/5] img_p4_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte ancienne montrant la position des épis, seui... (11.7s)
+========== COMPLETED [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] in 00h 01m 43s ==========
+
+========== PROCESSING [Rapport-stage-M2-Floriane] ==========
+ -> Loaded weighted context: 38 images
+    Images to caption: 38
+    [1/38] img_p47_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une graphique montrant des données sur l'amplitude the... (10.5s)
+    [2/38] img_p53_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée avec QGIS, version 2.2.0, à une éch... (11.4s)
+    [3/38] img_p21_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une graphique montrant des données sur la température ... (12.4s)
+    [4/38] img_p13_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant une rive de fleuve. On peut observe... (12.3s)
+    [5/38] img_p23_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est un graphique en forme de pie chart. Il présente des se... (10.9s)
+    [6/38] img_p50_4.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant un cours d'eau en pleine nature. L'... (10.1s)
+    [7/38] img_p45_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une graphique montrant des données sur les écarts ther... (14.4s)
+    [8/38] img_p50_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant un cours d'eau paisible avec des ri... (9.0s)
+    [9/38] img_p46_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une graphique montrant des données sur les débits et l... (10.5s)
+    [10/38] img_p22_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une graphique montrant des températures en degrés Cels... (15.0s)
+    [11/38] img_p15_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant une sonde thermique installée sur l... (9.5s)
+    [12/38] img_p24_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant des poissons dans un grand aquarium... (8.6s)
+    [13/38] img_p20_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une graphique montrant des données climatiques et hydr... (12.8s)
+    [14/38] img_p52_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant une carte de la France avec des bar... (7.1s)
+    [15/38] img_p34_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant un lit de rivière avec des galets e... (16.7s)
+    [16/38] img_p19_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une graphique montrant des données de température. Ell... (13.6s)
+    [17/38] img_p43_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une représentation graphique avec des éléments colorés... (11.1s)
+    [18/38] img_p50_3.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant un cours d'eau en pleine nature. L'... (13.7s)
+    [19/38] img_p25_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une graphique montrant des données sur les abondances ... (18.9s)
+    [20/38] img_p50_5.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant un cours d'eau, probablement un fle... (12.2s)
+    [21/38] img_p51_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une représentation graphique montrant des données mété... (13.1s)
+    [22/38] img_p51_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une représentation graphique montrant des données mété... (11.0s)
+    [23/38] img_p47_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une graphique montrant des écarts de température journ... (12.9s)
+    [24/38] img_p11_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant un passage à poissons dans un cours... (15.0s)
+    [25/38] img_p9_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une illustration montrant le cycle de vie du saumon. E... (51.7s)
+    [26/38] img_p49_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée en utilisant des gradients de coule... (9.4s)
+    [27/38] img_p23_3.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant un cours d'eau, probablement le Rhi... (16.1s)
+    [28/38] img_p13_2.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo aérienne montrant un cours d'eau, le Petit R... (13.5s)
+    [29/38] img_p45_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une graphique montrant des données sur les écarts de t... (14.6s)
+    [30/38] img_p23_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant une rivière avec une bergère en éro... (10.1s)
+    [31/38] img_p43_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée en utilisant des couleurs et des fo... (51.8s)
+    [32/38] img_p52_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée avec OGIS Version 2.2.0, à une éche... (14.5s)
+    [33/38] img_p19_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une graphique montrant des données climatiques et hydr... (21.9s)
+    [34/38] img_p8_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée par l'IGN (Institut Géographique Na... (18.2s)
+    [35/38] img_p48_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une graphique montrant des écarts de température dans ... (11.7s)
+    [36/38] img_p50_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant un cours d'eau en pleine nature. L'... (13.5s)
+    [37/38] img_p34_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant une surface recouverte d'algues. Le... (14.7s)
+    [38/38] img_p44_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée en 2018 par Floriane Kuntzler. Elle... (17.0s)
+========== COMPLETED [Rapport-stage-M2-Floriane] in 00h 09m 36s ==========
+
+========== PROCESSING [fichier] ==========
+ -> Loaded weighted context: 25 images
+    Images to caption: 25
+    [1/25] img_p13_2.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image présente deux scènes distinctes. La première scène montre ... (11.8s)
+    [2/25] img_p20_2.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux berges de cours d'eau. La prem... (12.3s)
+    [3/25] img_p14_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image présente deux scènes de cours d'eau. La première scène mon... (49.6s)
+    [4/25] img_p11_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux aspects différents d'un cours ... (12.2s)
+    [5/25] img_p23_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée en utilisant un outil de géomorphol... (18.0s)
+    [6/25] img_p14_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux tronçons de cours d'eau. Le tr... (11.2s)
+    [7/25] img_p15_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux scènes différentes. La premièr... (9.5s)
+    [8/25] img_p8_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux scènes différentes. La premièr... (10.9s)
+    [9/25] img_p19_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux tronçons de cours d'eau. Le pr... (8.7s)
+    [10/25] img_p10_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux scènes différentes. La premièr... (11.8s)
+    [11/25] img_p17_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux scènes de cours d'eau. La prem... (15.6s)
+    [12/25] img_p21_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux scènes de cours d'eau. La prem... (9.7s)
+    [13/25] img_p12_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant un cours d'eau dans un tronçon 3. L... (13.9s)
+    [14/25] img_p7_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une carte géographique montrant un tronçon de cours d'... (10.6s)
+    [15/25] img_p17_2.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux berges de cours d'eau. La berg... (10.8s)
+    [16/25] img_p20_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux scènes différentes. La premièr... (9.7s)
+    [17/25] img_p1_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant un paysage naturel avec des arbres,... (14.2s)
+    [18/25] img_p10_2.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux aspects différents d'un cours ... (9.9s)
+    [19/25] img_p16_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux tronçons de cours d'eau. Le pr... (12.0s)
+    [20/25] img_p13_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image présente deux scènes de cours d'eau. La scène de gauche mo... (18.4s)
+    [21/25] img_p18_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image présente deux scènes de cours d'eau. Dans la première scèn... (11.2s)
+    [22/25] img_p19_2.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux types différents d'ouvrages su... (16.8s)
+    [23/25] img_p22_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux scènes de cours d'eau. La prem... (13.6s)
+    [24/25] img_p1_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant un logo et une ligne graphique. Le ... (8.8s)
+    [25/25] img_p9_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant un cours d'eau à l'aval du tronçon ... (14.4s)
+========== COMPLETED [fichier] in 00h 05m 49s ==========
+
+========== PROCESSING [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] ==========
+ -> Loaded weighted context: 18 images
+    Images to caption: 18
+    [1/18] img_p16_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une série de quatre photographies aériennes montrant l... (11.9s)
+    [2/18] img_p1_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo prise dans une forêt dense avec des arbres h... (14.5s)
+    [3/18] img_p21_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant une vallée dans une forêt. La vallé... (11.3s)
+    [4/18] img_p4_2.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une carte hydrographique montrant un réseau de cours d... (12.4s)
+    [5/18] img_p12_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée à l'échelle des régions Bretagne et... (15.0s)
+    [6/18] img_p22_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une représentation graphique montrant une rupture de p... (16.9s)
+    [7/18] img_p15_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une carte topographique (MAP) montrant une zone de sou... (15.1s)
+    [8/18] img_p28_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une graphique montrant trois profils en travers de val... (23.1s)
+    [9/18] img_p10_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant une section de rivière avec des bra... (51.6s)
+    [10/18] img_p9_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant des fonds de vallées de formes vari... (9.9s)
+    [11/18] img_p12_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée à partir de la BD Topage (Galineau,... (16.8s)
+    [12/18] img_p40_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée en utilisant des outils de géométri... (16.4s)
+    [13/18] img_p6_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte géologique montrant l'évolution du point d'é... (13.3s)
+    [14/18] img_p17_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une carte topographique en couleur, avec des gradients... (51.6s)
+    [15/18] img_p23_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant des profils pédologiques sur des st... (11.0s)
+    [16/18] img_p31_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux exemples de mares. La première... (8.6s)
+    [17/18] img_p4_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant un schéma typique d'un bassin versa... (18.0s)
+    [18/18] img_p21_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte topographique montrant une coupe transversal... (11.5s)
+========== COMPLETED [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] in 00h 05m 31s ==========
+
+============================================================
+  PIPELINE COMPLETE
+  Generator model  : nvila-lite-8b
+  Retrieval model  : vidore
+  Total runtime    : 00h 30m 28s
+============================================================

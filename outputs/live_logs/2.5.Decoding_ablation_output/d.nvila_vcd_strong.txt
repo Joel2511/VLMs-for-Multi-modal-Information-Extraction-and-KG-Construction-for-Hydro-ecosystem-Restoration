@@ -1,0 +1,292 @@
+--- Loading nvila-lite-8b with VCD (cd_alpha=1.0, noise_step=500) ---
+    Generator  : nvila-lite-8b
+    Retriever  : vidore
+    VCD alpha  : 1.0
+    Noise step : 500
+    Output to  : /home2020/home/icube/janil/Rhine_proj/outputs/6th_ablation_Image_captioning_decoding/nvila-lite-8b_captions_vidore_vcd_alpha10_t500
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:06<00:18,  6.13s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.81s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.73s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.04s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:18<00:00,  4.70s/it]
+    Model size   : 8.1B parameters
+    Loaded at    : 23:02:13
+    Load time    : 00h 00m 21s
+    Protected token IDs: 15 tokens guarded from VCD
+
+========== PROCESSING [dossier_unio_crassus_zorn_v4_19_11_2024] ==========
+ -> Loaded weighted context: 19 images
+    Images to caption: 19
+    [1/19] img_p14_1.png -> PHASE 1 :
+- Type visuel : PHOTO
+- Sujet principal : Un homme se tenant dans un cours d'eau et manipu... (17.4s)
+    [2/19] img_p16_1.png -> PHASE 1 :
+- Type visuel : PHOTO
+- Sujet principal : Un individu de Mulette épaisse dans la Zorn
+- Él... (20.0s)
+    [3/19] img_p1_1.png -> PHASE 1 :
+- Type visuel : PHOTO
+- Sujet principal : Un cours d'eau dans une forêt dense
+- Éléments p... (17.1s)
+    [4/19] img_p21_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo aérienne montrant un secteur de rivière avec... (22.9s)
+    [5/19] img_p13_1.png -> PHASE 1 :
+L'image est une carte réalisée en deux parties. La carte de gauche est une carte géopoliti... (27.6s)
+    [6/19] img_p15_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est une carte aérienne montrant une zone rurale avec des ch... (23.4s)
+    [7/19] img_p18_1.png -> PHASE 1 :
+L'image est une carte aérienne montrant une zone rurale avec des champs agricoles, une aut... (24.0s)
+    [8/19] img_p24_1.png -> PHASE 1 :
+L'image est une carte réalisée à partir d'une vue aérienne d'un cours d'eau nommé Uniocras... (24.0s)
+    [9/19] img_p20_1.png -> PHASE 1 :
+L'image est une carte réalisée à partir d'une vue aérienne montrant une zone rurale avec d... (29.5s)
+    [10/19] img_p26_1.png -> PHASE 1 :
+- Type visuel : PHOTO
+- Sujet principal : Un cours d'eau
+- Élément physique clairement obs... (14.6s)
+    [11/19] img_p28_1.png -> PHASE 1 :
+L'image montre une main tenant une pierre dans la paume. La pierre est ovale et a une surf... (17.6s)
+    [12/19] img_p25_1.png -> PHASE 1 :
+L'image est une carte réalisée à l'aide de Google Earth. Elle montre une région rurale ave... (23.9s)
+    [13/19] img_p5_1.png -> PHASE 1 :
+L'image est une carte hydrographique montrant les cours d'eau de la région Strasbourg. Le ... (21.5s)
+    [14/19] img_p10_1.png -> PHASE 1 :
+L'image est une carte aérienne montrant une zone rurale avec des champs agricoles, une rou... (19.2s)
+    [15/19] img_p9_1.png -> PHASE 1 :
+L'image est une carte aérienne montrant un projet de renaturation de la Zorn, un cours d'e... (44.3s)
+    [16/19] img_p13_2.png -> PHASE 1 :
+L'image est une carte réalisée en France, représentant une région incluant des villes et d... (25.7s)
+    [17/19] img_p6_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est une photo d'un cours d'eau rectiligne nommé la Zorn. Le... (21.0s)
+    [18/19] img_p17_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un diagramme de distribution des effectifs par classe d... (24.0s)
+    [19/19] img_p8_1.png -> PHASE 1 :
+L'image est une carte réalisée à partir d'une vue aérienne d'une région rurale. Le sujet p... (26.2s)
+========== COMPLETED [dossier_unio_crassus_zorn_v4_19_11_2024] in 00h 07m 26s ==========
+
+========== PROCESSING [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] ==========
+ -> Loaded weighted context: 5 images
+    Images to caption: 5
+    [1/5] img_p1_1.png -> PHASE 1 :
+L'image est une série de quatre cartes montrant le Rhin supérieur à différentes époques : ... (31.3s)
+    [2/5] img_p5_2.png -> PHASE 1 :
+L'image est une photo comparative de deux paysages du Rhin, prise en 1820 et en 2010. Le s... (25.8s)
+    [3/5] img_p5_1.png -> PHASE 1 :
+L'image est une photo montrant une scène historique sur un bateau de bois. Le bateau est l... (19.7s)
+    [4/5] img_p3_1.png -> PHASE 1 :
+L'image est une carte réalisée en noir et blanc montrant le Rhin supérieur entre Bâle et B... (21.6s)
+    [5/5] img_p4_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte ancienne du Rhin, datant de 1946. Elle montr... (27.6s)
+========== COMPLETED [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] in 00h 02m 06s ==========
+
+========== PROCESSING [Rapport-stage-M2-Floriane] ==========
+ -> Loaded weighted context: 38 images
+    Images to caption: 38
+    [1/38] img_p47_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un graphique montrant les amplitudes thermiques journal... (28.6s)
+    [2/38] img_p53_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée avec QGIS, Version 2.2.0, à une éch... (36.0s)
+    [3/38] img_p21_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est une graphique montrant les amplitudes et les moyennes j... (24.2s)
+    [4/38] img_p13_1.png -> PHASE 1 :
+L'image est une photo montrant une rive de fleuve. On peut voir une pente inclinée couvert... (18.2s)
+    [5/38] img_p23_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un graphique en forme de pie chart. Le sujet principal ... (21.0s)
+    [6/38] img_p50_4.png -> PHASE 1 :
+- Type visuel : PHOTO
+- Sujet principal : Rivière rapide avec des rochers et des arbres le... (12.8s)
+    [7/38] img_p45_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un graphique comprenant deux axes. L'axe horizontal rep... (24.7s)
+    [8/38] img_p50_2.png -> PHASE 1 :
+- Type visuel : PHOTO
+- Sujet principal : Vue panoramique d'un cours d'eau paisible avec d... (14.4s)
+    [9/38] img_p46_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un graphique montrant les débits du Rhin à Bâle, les te... (33.4s)
+    [10/38] img_p22_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un graphique montrant la température en degrés Celsius ... (22.5s)
+    [11/38] img_p15_1.png -> PHASE 1 :
+L'image montre une sonde thermique installée à environ 1 mètre de la surface sur un sol ro... (12.4s)
+    [12/38] img_p24_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un graphique barre montrant les abondances relatives de... (23.7s)
+    [13/38] img_p20_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un graphique montrant les amplitudes et moyennes journa... (23.5s)
+    [14/38] img_p52_2.png -> PHASE 1 :
+L'image est un graphique barre représentant les différentes composantes de la facies (pc, ... (15.9s)
+    [15/38] img_p34_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image montre une couche d'armurage sur un lit de rivière. Cette c... (27.5s)
+    [16/38] img_p19_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un graphique montrant des données de température. Il y ... (41.9s)
+    [17/38] img_p43_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un diagramme en barres. Il y a trois barres de différen... (40.3s)
+    [18/38] img_p50_3.png -> PHASE 1 :
+- Type visuel : PHOTO
+- Sujet principal : Rivière
+- Éléments physiques observables : Eau, ... (28.8s)
+    [19/38] img_p25_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un graphique montrant les abondances relatives des pois... (58.3s)
+    [20/38] img_p50_5.png -> PHASE 1 :
+L'image est une photo montrant un lac entouré de végétation dense et de collines boisées. ... (36.7s)
+    [21/38] img_p51_1.png -> PHASE 1 :
+L'image est un graphique montrant les températures minimales et maximales ainsi que l'humi... (51.2s)
+    [22/38] img_p51_2.png -> PHASE 1 :
+L'image est un graphique montrant les températures maximales et minimales ainsi que l'humi... (47.0s)
+    [23/38] img_p47_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un graphique montrant des écarts de température journal... (55.0s)
+    [24/38] img_p11_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est une photo montrant un canal en béton avec des structure... (81.0s)
+    [25/38] img_p9_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est une illustration montrant le cycle de vie du saumon. El... (71.4s)
+    [26/38] img_p49_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une carte satellite montrant un cours d'eau, probablem... (69.4s)
+    [27/38] img_p23_3.png -> PHASE 1 :
+L'image est une photo montrant un îlot dans un cours d'eau, probablement le Rhin, avec de ... (51.2s)
+    [28/38] img_p13_2.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo aérienne du Petit Rhin, un affluent du Rhin,... (53.8s)
+    [29/38] img_p45_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un graphique comprenant trois courbes. La première cour... (44.7s)
+    [30/38] img_p23_1.png -> PHASE 1 :
+L'image est une photo montrant une rivière avec une rive en arrière-plan. La rive est comp... (41.5s)
+    [31/38] img_p43_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est une carte réalisée en France, qui montre le cours du Rh... (58.8s)
+    [32/38] img_p52_1.png -> PHASE 1 :
+L'image est une carte réalisée avec QGIS, Version 2.20, à une échelle de 1:6000. Elle mont... (57.9s)
+    [33/38] img_p19_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un graphique montrant les moyennes journalières de la t... (53.4s)
+    [34/38] img_p8_1.png -> PHASE 1 :
+L'image est une carte réalisée par l'IGN, montrant les modifications du Rhin entre le XIXè... (60.1s)
+    [35/38] img_p48_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un graphique montrant des écarts de température pour tr... (43.6s)
+    [36/38] img_p50_1.png -> PHASE 1 :
+- Type visuel : PHOTO
+- Sujet principal : Rivière
+- Éléments physiques observables : Eau, ... (20.3s)
+    [37/38] img_p34_2.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant une surface aquatique recouverte d'... (44.6s)
+    [38/38] img_p44_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est une carte satellite montrant le cours supérieur du Rhin... (44.3s)
+========== COMPLETED [Rapport-stage-M2-Floriane] in 00h 24m 59s ==========
+
+========== PROCESSING [fichier] ==========
+ -> Loaded weighted context: 25 images
+    Images to caption: 25
+    [1/25] img_p13_2.png -> PHASE 1 - DESCRIPTION VISUELLE :
+L'image présente deux scènes de cours d'eau. La première scène mont... (49.8s)
+    [2/25] img_p20_2.png -> PHASE 1 - DESCRIPTION VISUELLE :
+L'image est une photo montrant deux berges de cours d'eau. À gauche... (35.2s)
+    [3/25] img_p14_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image présente deux paysages différents. À gauche, il y a une val... (52.9s)
+    [4/25] img_p11_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+L'image est une photo montrant deux aspects différents d'un cours d... (50.0s)
+    [5/25] img_p23_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée en utilisant un outil de géomorphol... (46.8s)
+    [6/25] img_p14_2.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux paysages différents. Le premie... (195.9s)
+    [7/25] img_p15_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux scènes de berges de cours d'ea... (34.7s)
+    [8/25] img_p8_1.png -> PHASE 1 :
+L'image est une photo montrant deux scènes différentes. La première scène montre un cours ... (47.9s)
+    [9/25] img_p19_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux paysages différents. Le premie... (56.8s)
+    [10/25] img_p10_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+L'image est une photo montrant deux scènes distinctes. À gauche, il... (37.4s)
+    [11/25] img_p17_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux scènes de cours d'eau. La prem... (57.0s)
+    [12/25] img_p21_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+L'image est une photo montrant deux scènes de rivières. La première... (33.7s)
+    [13/25] img_p12_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est une photo montrant trois scènes différentes d'un cours ... (59.4s)
+    [14/25] img_p7_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une carte géographique montrant un tronçon de cours d'... (80.4s)
+    [15/25] img_p17_2.png -> PHASE 1 - DESCRIPTION VISUELLE :
+L'image est une photo montrant deux paysages différents. À gauche, ... (37.6s)
+    [16/25] img_p20_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+L'image est une photo montrant deux scénarios différents. À gauche,... (38.9s)
+    [17/25] img_p1_1.png -> PHASE 1 :
+- Type visuel : PHOTO
+- Sujet principal : Paysage naturel avec des arbres, des arbustes, d... (45.6s)
+    [18/25] img_p10_2.png -> PHASE 1 - DESCRIPTION VISUELLE :
+L'image présente deux scènes de cours d'eau. La première scène mont... (47.0s)
+    [19/25] img_p16_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+L'image est une photo montrant un tronçon de cours d'eau. On peut v... (55.7s)
+    [20/25] img_p13_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant deux cours d'eau différents. À gauc... (55.5s)
+    [21/25] img_p18_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+L'image montre deux scènes de cours d'eau. À gauche, il y a une gra... (47.3s)
+    [22/25] img_p19_2.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image présente deux types d'ouvrages sur un tronçon d'un cours d... (64.8s)
+    [23/25] img_p22_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+L'image est une photo montrant deux scènes de cours d'eau. La scène... (53.0s)
+    [24/25] img_p1_2.png -> PHASE 1 :
+L'image est un logo. Le logo est composé d'un rectangle vert avec une diagonale blanche qu... (49.1s)
+    [25/25] img_p9_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une photo montrant l'aspect du cours d'eau à l'aval du... (54.5s)
+========== COMPLETED [fichier] in 00h 23m 10s ==========
+
+========== PROCESSING [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] ==========
+ -> Loaded weighted context: 18 images
+    Images to caption: 18
+    [1/18] img_p16_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est une carte ancienne et des photographies aériennes de l... (61.6s)
+    [2/18] img_p1_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image représente une vallée naturelle dans une forêt dense. Le so... (55.8s)
+    [3/18] img_p21_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est une photo montrant une vallée naturelle dans une forêt.... (47.9s)
+    [4/18] img_p4_2.png -> MAP
+
+La figure 1 présente une carte hydrographique classée selon l'ordre de Strahler. Les éléments v... (29.4s)
+    [5/18] img_p12_1.png -> MAP
+
+La figure 7 présente une carte de la Bretagne et du Pays de la Loire, montrant la densité de ra... (42.8s)
+    [6/18] img_p22_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un diagramme qui représente la rupture de pente classiq... (47.0s)
+    [7/18] img_p15_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une carte topographique (d) avec une zone de source hi... (51.8s)
+    [8/18] img_p28_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un graphique montrant trois profils en travers de vallé... (71.9s)
+    [9/18] img_p10_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un diagramme montrant des pratiques de gestion forestiè... (52.6s)
+    [10/18] img_p9_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+L'image est une série de quatre photos montrant des fonds de vallée... (50.1s)
+    [11/18] img_p12_2.png -> MAP
+
+La carte montre la densité de rangs zéro sur le territoire de Bretagne et Pays de la Loire, en ... (27.1s)
+    [12/18] img_p40_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est une carte réalisée en bleu et blanc, représentant un ba... (62.3s)
+    [13/18] img_p6_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un diagramme montrant l'évolution du point d'émergence ... (48.4s)
+    [14/18] img_p17_1.png -> PHASE 1 - DESCRIPTION VISUELLE :
+
+L'image est une carte réalisée par IGN, qui montre des exemples de... (54.8s)
+    [15/18] img_p23_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est une photo montrant des profils de sol avec des règles d... (36.3s)
+    [16/18] img_p31_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est une photo montrant deux exemples de mores. À gauche (a)... (38.6s)
+    [17/18] img_p4_1.png -> PHASE 1 — DESCRIPTION VISUELLE :
+L'image est un diagramme qui représente un schéma typique d'un bass... (54.3s)
+    [18/18] img_p21_2.png -> PHASE 1 — DESCRIPTION VISUELLE :
+
+L'image est un diagramme schématique représentant une coupe transv... (43.3s)
+========== COMPLETED [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] in 00h 14m 39s ==========
+
+============================================================
+  PIPELINE COMPLETE — VCD Ablation 6
+  Generator model  : nvila-lite-8b
+  Retrieval model  : vidore
+  VCD cd_alpha     : 1.0
+  Noise step       : 500
+  Total runtime    : 01h 12m 44s
+============================================================

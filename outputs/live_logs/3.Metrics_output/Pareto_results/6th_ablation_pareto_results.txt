@@ -1,0 +1,24 @@
+  [READ] nvila-lite-8b_captions_icd_mild → a.nvila_icd_ablation_mild.txt
+  [READ] nvila-lite-8b_captions_icd_strong → b.nvila_icd_ablation_strong.txt
+  [READ] nvila-lite-8b_captions_vcd_mild → c.nvila_vcd_mild.txt
+  [READ] nvila-lite-8b_captions_vcd_strong → d.nvila_vcd_strong.txt
+  Found 4 model(s): ['nvila-lite-8b_captions_icd_mild', 'nvila-lite-8b_captions_icd_strong', 'nvila-lite-8b_captions_vcd_mild', 'nvila-lite-8b_captions_vcd_strong']
+
+========================================================================================================================
+  PARETO RESULTS — Ablation 6 | Scenario B: Oracle
+  Weights: Quality=60%  Speed=25%  Size=15%
+Scenario A (Production): Quality = 0.33*VQA + 0.34*Enrichment + 0.33*NLI  | Weights: Q=40% S=35% Z=25%
+Scenario B (Oracle):     Quality = 0.50*VQA + 0.35*Enrichment + 0.15*NLI  | Weights: Q=60% S=25% Z=15%
+========================================================================================================================
+  Rank  Model                      Params   s/img  NLI Nov  Comb VQA   Enrich   Q_raw  Q_norm  S_norm  Z_norm   PARETO
+------------------------------------------------------------------------------------------------------------------------
+  1     nvila-lite-8b_captions_vcd_mild    8.1B    29.3    0.805     0.835    0.171   0.598   1.000   0.559   1.000   0.8897
+  2     nvila-lite-8b_captions_icd_mild    8.1B    20.6    0.818     0.815    0.124   0.573   0.555   0.956   1.000   0.7217
+  3     nvila-lite-8b_captions_vcd_strong    8.1B    41.6    0.826     0.817    0.105   0.569   0.476   0.000   1.000   0.4358
+  4     nvila-lite-8b_captions_icd_strong    8.1B    19.6    0.818     0.779    0.086   0.542   0.000   1.000   1.000   0.4000
+========================================================================================================================
+
+ Ablation_winner: nvila-lite-8b_captions_vcd_mild  |  Pareto Score: 0.8897
+     Quality: 0.598  |  s/img: 29.3  |  Params: 8.1B
+========================================================================================================================
+

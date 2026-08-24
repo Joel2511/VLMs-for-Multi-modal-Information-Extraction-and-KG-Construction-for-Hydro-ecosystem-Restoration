@@ -1,0 +1,105 @@
+[ONTOLOGY] Loaded compact summary: 10846 chars, ~2711 tokens
+[ONTOLOGY] 92 valid classes loaded for type whitelisting.
+[ONTOLOGY] 85 altLabel-to-class fallback mappings loaded.
+[ONTOLOGY] 135 valid predicates loaded for whitelisting.
+[GPU CHECK] Available: 1
+[GPU CHECK] CUDA_VISIBLE_DEVICES: 1
+[MODEL] Loading Qwen2.5-14B-populate-ontology (fine-tuned, merged) 4bit...
+[GPU CHECK] GPU 0: 130.62 GiB free
+[GPU CHECK] Selected GPU 0 with 130.62 GiB free.
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:11<00:57, 11.55s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:23<00:47, 11.83s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:35<00:35, 11.93s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:46<00:23, 11.65s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [00:59<00:11, 11.86s/it]Loading checkpoint shards: 100%|██████████| 6/6 [01:09<00:00, 11.49s/it]Loading checkpoint shards: 100%|██████████| 6/6 [01:09<00:00, 11.64s/it]
+[MODEL] Fine-tuned merged model loaded and ready on GPU 0.
+[INFO] Found 7 PDF folders: ['dossier_unio_crassus_zorn_v4_19_11_2024', 'reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7', 'test_dataset_1', 'Rapport-stage-M2-Floriane', 'fichier', 'test_dataset', '2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire']
+[CHECKPOINT] Already completed: {'test_dataset', 'Rapport-stage-M2-Floriane', '2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire', 'dossier_unio_crassus_zorn_v4_19_11_2024', 'reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7', 'fichier'}
+[SKIP] Already completed: dossier_unio_crassus_zorn_v4_19_11_2024
+[SKIP] Already completed: reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7
+
+============================================================
+PROCESSING: test_dataset_1
+============================================================
+  [DOC-TITLE] Using document title: On constate généralement une reprise rapide de la végétation sur les zones qui sont exondées suite à l’abaissement du cours d’eau. Le développement de cette végétation contribue à stabiliser efficacement les berges.
+
+--- PASS 1: TEXT ---
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+  [OK] page_1_block_1 (259 chars)
+  [OK] page_1_block_2 (244 chars)
+  [OK] page_1_block_3 (506 chars)
+  [OK] page_1_block_4 (343 chars)
+  [OK] page_1_block_1: 2 triples
+  [OK] page_1_block_2: 2 triples
+  [OK] page_1_block_3: 4 triples
+  [OK] page_1_block_4: 2 triples
+  [OK] page_1_block_5 (940 chars)
+  [OK] page_2_block_1 (240 chars)
+  [OK] page_2_block_2 (228 chars)
+  [OK] page_2_block_3 (337 chars)
+  [OK] page_1_block_5: 8 triples
+  [OK] page_2_block_1: 2 triples
+  [OK] page_2_block_2: 2 triples
+  [OK] page_2_block_3: 2 triples
+  [OK] page_2_block_4 (1259 chars)
+  [OK] page_2_block_5 (2 chars)
+  [OK] page_3_block_1 (495 chars)
+  [OK] page_3_block_2 (541 chars)
+  [OK] page_2_block_4: 10 triples
+  [OK] page_3_block_1: 4 triples
+  [OK] page_3_block_2: 4 triples
+  [OK] page_3_block_3 (261 chars)
+  [OK] page_3_block_4 (213 chars)
+  [OK] page_3_block_5 (530 chars)
+  [OK] page_3_block_6 (779 chars)
+  [OK] page_3_block_3: 2 triples
+  [OK] page_3_block_4: 2 triples
+  [OK] page_3_block_5: 4 triples
+  [OK] page_3_block_6: 6 triples
+  [OK] page_4_block_1 (1841 chars)
+  [OK] page_4_block_2 (326 chars)
+  [OK] page_4_block_3 (3054 chars)
+  [OK] page_4_block_4 (411 chars)
+  [OK] page_4_block_1: 15 triples
+  [OK] page_4_block_2: 3 triples
+  [JSON WARN] No JSON array found for page_4_block_3
+  [OK] page_4_block_4: 4 triples
+
+-> texts.ttl saved: 78 valid triples
+
+--- PASS 2: IMAGES ---
+  [OK] img_p2_1.png (1847 chars)
+  [OK] img_p4_1.png (674 chars)
+  [OK] img_p2_1.png: 15 triples
+  [OK] img_p4_1.png: 6 triples
+  [OK] img_p1_1.png (223 chars)
+  [OK] img_p3_1.png (231 chars)
+  [OK] img_p1_1.png: 2 triples
+  [OK] img_p3_1.png: 2 triples
+  [OK] img_p3_2.png (1090 chars)
+  [OK] img_p1_2.png (1175 chars)
+  [OK] img_p3_2.png: 2 triples
+  [OK] img_p1_2.png: 9 triples
+
+-> images.ttl saved: 36 valid triples
+  Text-only entities : 64
+  Image-only new     : 16
+  Cross-modal linked : 8
+  [MERGE] 1 duplicate entities resolved into canonical nodes.
+ Processing: alias_resolution_pass
+  Done in 0.5s (2 chars)
+  [MERGE] 0 duplicate entities resolved into canonical nodes.
+  [ALIAS-SIM] 'écluses' → 'écluse' (similarity=0.92)
+  [ALIAS-SIM] 'hauteur de chute entre bassins' → 'hauteurs de chute entre bassins' (similarity=0.98)
+  [ALIAS-SIM] 'passes à poissons' → 'passe à poissons' (similarity=0.97)
+  [ALIAS-SIM] 'passes à bassins' → 'Passes à bassins' (similarity=1.00)
+  [ALIAS-SIM] 'Passes en enrochement' → 'passage en enrochement' (similarity=0.93)
+  [ALIAS-CLASS] 5 near-identical label entities merged.
+  [ALIAS MERGE] 4 generic-term entities folded into canonical entities.
+  [MERGE] 0 duplicate entities resolved into canonical nodes.
+
+-> ft_merged_knowledge_graph.ttl saved: 581 total triples
+   Demoted off-ontology predicates : 5
+   Open merged_knowledge_graph.ttl in Gephi or yEd for visualization.
+[SKIP] Already completed: Rapport-stage-M2-Floriane
+[SKIP] Already completed: fichier
+[SKIP] Already completed: test_dataset
+[SKIP] Already completed: 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire
+
+[DONE] All PDFs processed.

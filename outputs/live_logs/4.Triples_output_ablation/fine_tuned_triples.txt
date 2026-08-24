@@ -1,0 +1,1153 @@
+[ONTOLOGY] Loaded compact summary: 10846 chars, ~2711 tokens
+[ONTOLOGY] 92 valid classes loaded for type whitelisting.
+[ONTOLOGY] 85 altLabel-to-class fallback mappings loaded.
+[ONTOLOGY] 135 valid predicates loaded for whitelisting.
+[GPU CHECK] Available: 1
+[GPU CHECK] CUDA_VISIBLE_DEVICES: 1
+[MODEL] Loading Qwen2.5-14B-populate-ontology (fine-tuned, merged) 4bit...
+[GPU CHECK] GPU 0: 139.29 GiB free
+[GPU CHECK] Selected GPU 0 with 139.29 GiB free.
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards:  17%|█▋        | 1/6 [00:13<01:08, 13.75s/it]Loading checkpoint shards:  33%|███▎      | 2/6 [00:26<00:53, 13.37s/it]Loading checkpoint shards:  50%|█████     | 3/6 [00:40<00:40, 13.59s/it]Loading checkpoint shards:  67%|██████▋   | 4/6 [00:56<00:28, 14.36s/it]Loading checkpoint shards:  83%|████████▎ | 5/6 [01:08<00:13, 13.76s/it]Loading checkpoint shards: 100%|██████████| 6/6 [01:20<00:00, 13.14s/it]Loading checkpoint shards: 100%|██████████| 6/6 [01:20<00:00, 13.48s/it]
+[MODEL] Fine-tuned merged model loaded and ready on GPU 0.
+[INFO] Found 5 PDF folders: ['dossier_unio_crassus_zorn_v4_19_11_2024', 'reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7', 'Rapport-stage-M2-Floriane', 'fichier', '2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire']
+[CHECKPOINT] Already completed: set()
+
+============================================================
+PROCESSING: dossier_unio_crassus_zorn_v4_19_11_2024
+============================================================
+  [DOC-TITLE] Using document title: 1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024
+
+--- PASS 1: TEXT ---
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+  [OK] page_3_block_1 (2 chars)
+  [OK] page_4_block_6 (2 chars)
+  [OK] page_4_block_7 (2 chars)
+  [OK] page_5_block_1 (906 chars)
+  [OK] page_5_block_1: 6 triples
+  [OK] page_5_block_2 (411 chars)
+  [OK] page_5_block_3 (511 chars)
+  [OK] page_6_block_1 (217 chars)
+  [OK] page_7_block_1 (1114 chars)
+  [OK] page_5_block_2: 4 triples
+  [OK] page_5_block_3: 1 triples
+  [OK] page_6_block_1: 2 triples
+  [OK] page_7_block_1: 9 triples
+  [OK] page_7_block_2 (905 chars)
+  [OK] page_7_block_3 (2364 chars)
+  [OK] page_11_block_1 (1682 chars)
+  [OK] page_11_block_2 (462 chars)
+  [OK] page_7_block_2: 8 triples
+  [OK] page_7_block_3: 20 triples
+  [OK] page_11_block_1: 13 triples
+  [OK] page_11_block_2: 3 triples
+  [OK] page_12_block_1 (410 chars)
+  [OK] page_12_block_2 (806 chars)
+  [OK] page_12_block_3 (518 chars)
+  [OK] page_12_block_5 (2 chars)
+  [OK] page_12_block_1: 3 triples
+  [OK] page_12_block_2: 7 triples
+  [OK] page_13_block_1 (1330 chars)
+  [OK] page_13_block_2 (314 chars)
+  [OK] page_14_block_1 (297 chars)
+  [OK] page_16_block_1 (1357 chars)
+  [OK] page_13_block_1: 11 triples
+  [OK] page_13_block_2: 3 triples
+  [OK] page_14_block_1: 3 triples
+  [OK] page_16_block_1: 11 triples
+  [OK] page_16_block_3 (2513 chars)
+  [OK] page_17_block_1 (1471 chars)
+  [OK] page_17_block_2 (1882 chars)
+  [OK] page_19_block_1 (855 chars)
+  [OK] page_16_block_3: 21 triples
+  [OK] page_17_block_1: 12 triples
+  [OK] page_17_block_2: 16 triples
+  [OK] page_19_block_1: 7 triples
+  [OK] page_19_block_2 (1872 chars)
+  [OK] page_19_block_3 (1764 chars)
+  [OK] page_20_block_1 (2 chars)
+  [OK] page_21_block_1 (2 chars)
+  [OK] page_19_block_2: 15 triples
+  [OK] page_19_block_3: 15 triples
+  [OK] page_21_block_2 (1494 chars)
+  [OK] page_22_block_1 (2148 chars)
+  [OK] page_22_block_2 (1630 chars)
+  [OK] page_23_block_1 (2 chars)
+  [OK] page_21_block_2: 14 triples
+  [OK] page_22_block_1: 17 triples
+  [OK] page_22_block_2: 15 triples
+  [OK] page_23_block_2 (2 chars)
+  [OK] page_23_block_3 (2 chars)
+  [OK] page_25_block_1 (1708 chars)
+  [OK] page_25_block_2 (2 chars)
+  [OK] page_25_block_1: 14 triples
+  [OK] page_25_block_3 (1466 chars)
+  [OK] page_26_block_1 (406 chars)
+  [OK] page_27_block_1 (1910 chars)
+  [OK] page_27_block_2 (618 chars)
+  [OK] page_25_block_3: 10 triples
+  [OK] page_26_block_1: 4 triples
+  [OK] page_27_block_1: 15 triples
+  [OK] page_27_block_2: 4 triples
+  [OK] page_28_block_1 (276 chars)
+  [OK] page_29_block_1 (415 chars)
+  [OK] page_29_block_2 (612 chars)
+  [OK] page_29_block_3 (629 chars)
+  [OK] page_28_block_1: 1 triples
+  [OK] page_29_block_1: 3 triples
+  [OK] page_29_block_2: 4 triples
+  [OK] page_29_block_3: 5 triples
+  [OK] page_29_block_5 (212 chars)
+  [OK] page_29_block_6 (485 chars)
+  [OK] page_30_block_1 (257 chars)
+  [OK] page_30_block_2 (661 chars)
+  [OK] page_30_block_1: 2 triples
+  [OK] page_30_block_2: 5 triples
+  [OK] page_30_block_3 (321 chars)
+  [OK] page_30_block_4 (3027 chars)
+  [OK] page_30_block_5 (2 chars)
+  [OK] page_31_block_1 (2 chars)
+  [OK] page_30_block_3: 2 triples
+  [OK] page_30_block_4: 15 triples
+  [OK] page_31_block_2 (2 chars)
+  [OK] page_32_block_1 (2 chars)
+  [OK] page_32_block_2 (2 chars)
+  [OK] page_32_block_3 (2 chars)
+  [OK] page_32_block_4 (2 chars)
+  [OK] page_32_block_5 (2 chars)
+  [OK] page_32_block_6 (2 chars)
+  [OK] page_34_block_1 (2 chars)
+  [OK] page_34_block_2 (1987 chars)
+  [OK] page_34_block_2: 14 triples
+
+-> texts.ttl saved: 334 valid triples
+
+--- PASS 2: IMAGES ---
+  [OK] img_p14_1.png (2 chars)
+  [OK] img_p16_1.png (233 chars)
+  [SKIP] img_p14_1.png: no valid triples
+  [OK] img_p16_1.png: 2 triples
+  [OK] img_p1_1.png (2 chars)
+  [OK] img_p21_1.png (2 chars)
+  [SKIP] img_p1_1.png: no valid triples
+  [SKIP] img_p21_1.png: no valid triples
+  [OK] img_p13_1.png (1503 chars)
+  [OK] img_p15_1.png (752 chars)
+  [OK] img_p13_1.png: 6 triples
+  [OK] img_p15_1.png: 2 triples
+  [OK] img_p18_1.png (1483 chars)
+  [OK] img_p24_1.png (1984 chars)
+  [OK] img_p18_1.png: 11 triples
+  [OK] img_p24_1.png: 15 triples
+  [OK] img_p20_1.png (2034 chars)
+  [OK] img_p26_1.png (212 chars)
+  [OK] img_p20_1.png: 15 triples
+  [OK] img_p26_1.png: 2 triples
+  [OK] img_p28_1.png (1935 chars)
+  [OK] img_p25_1.png (1718 chars)
+  [OK] img_p28_1.png: 15 triples
+  [OK] img_p25_1.png: 13 triples
+  [OK] img_p5_1.png (2 chars)
+  [OK] img_p10_1.png (293 chars)
+  [SKIP] img_p5_1.png: no valid triples
+  [OK] img_p10_1.png: 3 triples
+  [OK] img_p9_1.png (363 chars)
+  [OK] img_p13_2.png (1106 chars)
+  [OK] img_p9_1.png: 3 triples
+  [OK] img_p13_2.png: 8 triples
+  [OK] img_p6_1.png (748 chars)
+  [OK] img_p17_1.png (1110 chars)
+  [OK] img_p6_1.png: 6 triples
+  [OK] img_p17_1.png: 9 triples
+  [OK] img_p8_1.png (1213 chars)
+  [OK] img_p8_1.png: 8 triples
+
+-> images.ttl saved: 118 valid triples
+  Text-only entities : 74
+  Image-only new     : 15
+  Cross-modal linked : 21
+  [MERGE] 3 duplicate entities resolved into canonical nodes.
+ Processing: alias_resolution_pass
+  Done in 0.1s (2 chars)
+  [MERGE] 0 duplicate entities resolved into canonical nodes.
+  [ALIAS-SIM] 'individu' → 'individus' (similarity=0.94)
+  [ALIAS-SIM] 'bonne reprise de la végétation' → 'Bonne reprise de la végétation' (similarity=1.00)
+  [ALIAS-SIM] 'collines' → 'Collines' (similarity=1.00)
+  [ALIAS-SIM] 'plateaux calcaires sous vosgiens' → 'Plateaux calcaires sous vosgiens' (similarity=1.00)
+  [ALIAS-SIM] 'améliorer son fonctionnement hydraulique et écologique' → 'améliorer le fonctionnement hydraulique et écologique' (similarity=0.95)
+  [ALIAS-CLASS] 5 near-identical label entities merged.
+  [ALIAS MERGE] 2 generic-term entities folded into canonical entities.
+  [MERGE] 0 duplicate entities resolved into canonical nodes.
+
+-> ft_merged_knowledge_graph.ttl saved: 1030 total triples
+   Demoted off-ontology predicates : 26
+   Open merged_knowledge_graph.ttl in Gephi or yEd for visualization.
+
+============================================================
+PROCESSING: reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7
+============================================================
+  [DOC-TITLE] Using document title: Carte à la une : reconstituer le Rhin disparu
+
+--- PASS 1: TEXT ---
+  [OK] page_1_block_1 (561 chars)
+  [OK] page_1_block_3 (916 chars)
+  [OK] page_2_block_1 (829 chars)
+  [OK] page_2_block_2 (630 chars)
+  [OK] page_1_block_1: 5 triples
+  [OK] page_1_block_3: 8 triples
+  [OK] page_2_block_1: 6 triples
+  [OK] page_2_block_2: 6 triples
+  [OK] page_3_block_1 (1734 chars)
+  [OK] page_4_block_1 (2 chars)
+  [OK] page_4_block_2 (1575 chars)
+  [OK] page_5_block_1 (2 chars)
+  [OK] page_3_block_1: 9 triples
+  [OK] page_4_block_2: 14 triples
+  [OK] page_5_block_2 (1235 chars)
+  [OK] page_6_block_1 (1619 chars)
+  [OK] page_6_block_2 (1867 chars)
+  [OK] page_6_block_3 (2 chars)
+  [OK] page_5_block_2: 11 triples
+  [OK] page_6_block_1: 12 triples
+  [OK] page_6_block_2: 6 triples
+  [OK] page_6_block_4 (300 chars)
+  [OK] page_6_block_5 (2 chars)
+  [OK] page_7_block_1 (1266 chars)
+  [OK] page_7_block_2 (2029 chars)
+  [OK] page_6_block_4: 2 triples
+  [OK] page_7_block_1: 9 triples
+  [OK] page_7_block_2: 15 triples
+  [OK] page_7_block_4 (2 chars)
+  [OK] page_7_block_5 (2 chars)
+  [OK] page_7_block_6 (702 chars)
+  [OK] page_7_block_6: 5 triples
+
+-> texts.ttl saved: 108 valid triples
+
+--- PASS 2: IMAGES ---
+  [OK] img_p1_1.png (1575 chars)
+  [OK] img_p5_2.png (288 chars)
+  [OK] img_p1_1.png: 15 triples
+  [OK] img_p5_2.png: 3 triples
+  [OK] img_p5_1.png (617 chars)
+  [OK] img_p3_1.png (1853 chars)
+  [OK] img_p5_1.png: 6 triples
+  [OK] img_p3_1.png: 16 triples
+  [OK] img_p4_1.png (416 chars)
+  [OK] img_p4_1.png: 3 triples
+
+-> images.ttl saved: 43 valid triples
+  Text-only entities : 48
+  Image-only new     : 14
+  Cross-modal linked : 9
+  [MERGE] 1 duplicate entities resolved into canonical nodes.
+ Processing: alias_resolution_pass
+  Done in 0.1s (2 chars)
+  [MERGE] 0 duplicate entities resolved into canonical nodes.
+  [ALIAS-CLASS] 0 near-identical label entities merged.
+  [MERGE] 0 duplicate entities resolved into canonical nodes.
+
+-> ft_merged_knowledge_graph.ttl saved: 549 total triples
+   Demoted off-ontology predicates : 36
+   Open merged_knowledge_graph.ttl in Gephi or yEd for visualization.
+
+============================================================
+PROCESSING: Rapport-stage-M2-Floriane
+============================================================
+  [DOC-TITLE] Using document title: Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement.
+
+--- PASS 1: TEXT ---
+  [OK] page_1_block_1 (2 chars)
+  [OK] page_2_block_1 (2 chars)
+  [OK] page_2_block_2 (2 chars)
+  [OK] page_2_block_3 (2 chars)
+  [OK] page_2_block_4 (2 chars)
+  [OK] page_2_block_5 (2 chars)
+  [OK] page_3_block_4 (2 chars)
+  [OK] page_3_block_7 (2 chars)
+  [OK] page_3_block_10 (2 chars)
+  [OK] page_4_block_2 (2 chars)
+  [OK] page_4_block_5 (2 chars)
+  [OK] page_4_block_7 (2 chars)
+  [OK] page_4_block_9 (2 chars)
+  [OK] page_4_block_10 (2 chars)
+  [OK] page_5_block_2 (2 chars)
+  [OK] page_5_block_4 (2 chars)
+  [OK] page_6_block_1 (2 chars)
+  [OK] page_6_block_2 (2 chars)
+  [OK] page_7_block_1 (2 chars)
+  [OK] page_8_block_1 (830 chars)
+  [OK] page_8_block_1: 8 triples
+  [OK] page_8_block_2 (1634 chars)
+  [OK] page_8_block_3 (2 chars)
+  [OK] page_8_block_4 (640 chars)
+  [OK] page_8_block_5 (1145 chars)
+  [OK] page_8_block_2: 16 triples
+  [OK] page_8_block_4: 6 triples
+  [OK] page_8_block_5: 4 triples
+  [OK] page_9_block_1 (1295 chars)
+  [OK] page_9_block_2 (760 chars)
+  [OK] page_9_block_3 (230 chars)
+  [OK] page_9_block_4 (2 chars)
+  [OK] page_9_block_1: 12 triples
+  [OK] page_9_block_2: 1 triples
+  [OK] page_9_block_3: 2 triples
+  [OK] page_9_block_5 (1603 chars)
+  [OK] page_10_block_1 (753 chars)
+  [OK] page_10_block_2 (1618 chars)
+  [OK] page_10_block_3 (1667 chars)
+  [OK] page_9_block_5: 3 triples
+  [OK] page_10_block_2: 15 triples
+  [OK] page_10_block_3: 15 triples
+  [OK] page_10_block_5 (327 chars)
+  [OK] page_11_block_1 (574 chars)
+  [OK] page_11_block_2 (2662 chars)
+  [OK] page_11_block_3 (469 chars)
+  [OK] page_10_block_5: 2 triples
+  [OK] page_11_block_1: 4 triples
+  [OK] page_11_block_2: 26 triples
+  [OK] page_11_block_3: 4 triples
+  [OK] page_11_block_4 (2929 chars)
+  [OK] page_12_block_1 (1558 chars)
+  [OK] page_12_block_2 (2909 chars)
+  [OK] page_12_block_3 (1269 chars)
+  [JSON WARN] No JSON array found for page_11_block_4
+  [OK] page_12_block_1: 10 triples
+  [JSON WARN] No JSON array found for page_12_block_2
+  [OK] page_12_block_3: 11 triples
+  [OK] page_12_block_4 (740 chars)
+  [OK] page_13_block_1 (1007 chars)
+  [OK] page_13_block_2 (390 chars)
+  [OK] page_13_block_3 (2254 chars)
+  [OK] page_12_block_4: 6 triples
+  [OK] page_13_block_1: 8 triples
+  [OK] page_13_block_2: 3 triples
+  [OK] page_13_block_3: 16 triples
+  [OK] page_13_block_4 (1210 chars)
+  [OK] page_13_block_5 (637 chars)
+  [OK] page_13_block_6 (863 chars)
+  [OK] page_14_block_1 (2 chars)
+  [OK] page_13_block_4: 10 triples
+  [OK] page_13_block_5: 5 triples
+  [OK] page_13_block_6: 7 triples
+  [OK] page_14_block_2 (986 chars)
+  [OK] page_14_block_3 (2 chars)
+  [OK] page_14_block_4 (2 chars)
+  [OK] page_14_block_5 (2 chars)
+  [OK] page_14_block_2: 9 triples
+  [OK] page_14_block_6 (2 chars)
+  [OK] page_15_block_1 (1394 chars)
+  [OK] page_15_block_2 (1081 chars)
+  [OK] page_15_block_3 (2 chars)
+  [OK] page_15_block_1: 11 triples
+  [OK] page_15_block_2: 8 triples
+  [OK] page_15_block_4 (2 chars)
+  [OK] page_15_block_5 (2 chars)
+  [OK] page_15_block_6 (668 chars)
+  [OK] page_15_block_7 (605 chars)
+  [OK] page_15_block_6: 4 triples
+  [OK] page_15_block_7: 5 triples
+  [OK] page_16_block_1 (193 chars)
+  [OK] page_16_block_2 (577 chars)
+  [OK] page_16_block_3 (459 chars)
+  [OK] page_16_block_4 (2 chars)
+  [OK] page_16_block_1: 2 triples
+  [OK] page_16_block_2: 5 triples
+  [OK] page_16_block_3: 4 triples
+  [OK] page_16_block_5 (2 chars)
+  [OK] page_16_block_6 (523 chars)
+  [OK] page_16_block_7 (295 chars)
+  [OK] page_17_block_1 (1717 chars)
+  [OK] page_16_block_6: 5 triples
+  [OK] page_16_block_7: 3 triples
+  [OK] page_17_block_1: 14 triples
+  [OK] page_17_block_2 (787 chars)
+  [OK] page_17_block_3 (1372 chars)
+  [OK] page_18_block_1 (2 chars)
+  [OK] page_18_block_2 (1206 chars)
+  [OK] page_17_block_2: 7 triples
+  [OK] page_17_block_3: 11 triples
+  [OK] page_18_block_2: 10 triples
+  [OK] page_18_block_3 (597 chars)
+  [OK] page_18_block_4 (1922 chars)
+  [OK] page_18_block_5 (1305 chars)
+  [OK] page_19_block_1 (2 chars)
+  [OK] page_18_block_3: 5 triples
+  [OK] page_18_block_4: 16 triples
+  [OK] page_18_block_5: 11 triples
+  [OK] page_19_block_2 (626 chars)
+  [OK] page_19_block_3 (2 chars)
+  [OK] page_20_block_1 (916 chars)
+  [OK] page_20_block_2 (435 chars)
+  [OK] page_19_block_2: 2 triples
+  [OK] page_20_block_1: 3 triples
+  [OK] page_20_block_2: 3 triples
+  [OK] page_20_block_3 (637 chars)
+  [OK] page_20_block_4 (1256 chars)
+  [OK] page_21_block_1 (539 chars)
+  [OK] page_21_block_2 (1514 chars)
+  [OK] page_20_block_3: 5 triples
+  [OK] page_21_block_1: 4 triples
+  [OK] page_21_block_2: 10 triples
+  [OK] page_21_block_3 (297 chars)
+  [OK] page_22_block_1 (1762 chars)
+  [OK] page_22_block_2 (2 chars)
+  [OK] page_23_block_1 (2 chars)
+  [OK] page_21_block_3: 3 triples
+  [OK] page_22_block_1: 14 triples
+  [OK] page_23_block_2 (2 chars)
+  [OK] page_23_block_3 (668 chars)
+  [OK] page_23_block_5 (1545 chars)
+  [OK] page_24_block_1 (684 chars)
+  [OK] page_23_block_3: 1 triples
+  [OK] page_23_block_5: 15 triples
+  [OK] page_24_block_1: 5 triples
+  [OK] page_24_block_2 (1246 chars)
+  [OK] page_24_block_3 (1802 chars)
+  [OK] page_24_block_4 (2 chars)
+  [OK] page_25_block_1 (2 chars)
+  [OK] page_24_block_2: 10 triples
+  [OK] page_25_block_2 (882 chars)
+  [OK] page_25_block_3 (554 chars)
+  [OK] page_25_block_4 (895 chars)
+  [OK] page_25_block_5 (724 chars)
+  [OK] page_25_block_3: 4 triples
+  [OK] page_25_block_5: 2 triples
+  [OK] page_26_block_1 (437 chars)
+  [OK] page_26_block_2 (362 chars)
+  [OK] page_26_block_3 (2922 chars)
+  [OK] page_26_block_4 (348 chars)
+  [JSON WARN] No JSON array found for page_26_block_3
+  [OK] page_26_block_4: 3 triples
+  [OK] page_27_block_1 (2 chars)
+  [OK] page_27_block_2 (421 chars)
+  [OK] page_27_block_3 (1838 chars)
+  [OK] page_27_block_4 (619 chars)
+  [OK] page_27_block_2: 4 triples
+  [OK] page_27_block_3: 16 triples
+  [OK] page_27_block_4: 1 triples
+  [OK] page_28_block_1 (2 chars)
+  [OK] page_28_block_2 (1118 chars)
+  [OK] page_28_block_3 (805 chars)
+  [OK] page_29_block_1 (2 chars)
+  [OK] page_28_block_2: 8 triples
+  [OK] page_28_block_3: 3 triples
+  [OK] page_29_block_2 (1406 chars)
+  [OK] page_29_block_3 (299 chars)
+  [OK] page_29_block_4 (1185 chars)
+  [OK] page_30_block_1 (722 chars)
+  [OK] page_29_block_2: 9 triples
+  [OK] page_29_block_3: 3 triples
+  [OK] page_29_block_4: 10 triples
+  [OK] page_30_block_1: 7 triples
+  [OK] page_30_block_2 (2 chars)
+  [OK] page_30_block_3 (2 chars)
+  [OK] page_30_block_4 (1808 chars)
+  [OK] page_30_block_5 (2 chars)
+  [OK] page_30_block_4: 16 triples
+  [OK] page_31_block_1 (280 chars)
+  [OK] page_31_block_2 (1391 chars)
+  [OK] page_31_block_3 (477 chars)
+  [OK] page_31_block_4 (2 chars)
+  [OK] page_31_block_1: 3 triples
+  [OK] page_31_block_3: 1 triples
+  [OK] page_32_block_1 (298 chars)
+  [OK] page_32_block_2 (313 chars)
+  [OK] page_32_block_3 (313 chars)
+  [OK] page_32_block_4 (631 chars)
+  [OK] page_32_block_1: 3 triples
+  [OK] page_32_block_2: 3 triples
+  [OK] page_32_block_3: 3 triples
+  [OK] page_33_block_1 (1730 chars)
+  [OK] page_33_block_2 (1808 chars)
+  [OK] page_34_block_1 (589 chars)
+  [OK] page_34_block_2 (2 chars)
+  [OK] page_33_block_1: 14 triples
+  [OK] page_33_block_2: 7 triples
+  [OK] page_34_block_1: 5 triples
+  [OK] page_34_block_3 (1382 chars)
+  [OK] page_35_block_1 (503 chars)
+  [OK] page_35_block_2 (2 chars)
+  [OK] page_35_block_3 (411 chars)
+  [OK] page_35_block_1: 4 triples
+  [OK] page_35_block_3: 2 triples
+  [OK] page_35_block_4 (468 chars)
+  [OK] page_36_block_1 (791 chars)
+  [OK] page_36_block_2 (342 chars)
+  [OK] page_36_block_3 (567 chars)
+  [OK] page_36_block_2: 3 triples
+  [OK] page_36_block_3: 5 triples
+  [OK] page_37_block_1 (326 chars)
+  [OK] page_37_block_2 (1255 chars)
+  [OK] page_38_block_1 (2 chars)
+  [OK] page_38_block_2 (2 chars)
+  [OK] page_37_block_1: 1 triples
+  [OK] page_37_block_2: 11 triples
+  [OK] page_38_block_3 (2 chars)
+  [OK] page_39_block_1 (2 chars)
+  [OK] page_39_block_3 (2 chars)
+  [OK] page_39_block_4 (2 chars)
+  [OK] page_39_block_5 (2 chars)
+  [OK] page_39_block_6 (2 chars)
+  [OK] page_39_block_7 (2 chars)
+  [OK] page_39_block_8 (2 chars)
+  [OK] page_40_block_1 (2 chars)
+  [OK] page_40_block_2 (2 chars)
+  [OK] page_40_block_3 (2 chars)
+  [OK] page_40_block_4 (2 chars)
+  [OK] page_40_block_5 (2 chars)
+  [OK] page_41_block_1 (2 chars)
+  [OK] page_43_block_2 (2 chars)
+  [OK] page_44_block_1 (2 chars)
+  [OK] page_46_block_1 (2 chars)
+  [OK] page_48_block_1 (2 chars)
+  [OK] page_49_block_1 (2 chars)
+  [OK] page_51_block_1 (2 chars)
+  [OK] page_52_block_1 (2 chars)
+  [OK] page_53_block_1 (2 chars)
+  [OK] page_55_block_1 (1573 chars)
+  [OK] page_55_block_2 (1145 chars)
+  [OK] page_55_block_1: 15 triples
+  [OK] page_55_block_2: 2 triples
+  [OK] page_55_block_3 (295 chars)
+  [OK] page_55_block_3: 3 triples
+
+-> texts.ttl saved: 570 valid triples
+
+--- PASS 2: IMAGES ---
+  [OK] img_p47_2.png (2 chars)
+  [OK] img_p53_1.png (2 chars)
+  [SKIP] img_p47_2.png: no valid triples
+  [SKIP] img_p53_1.png: no valid triples
+  [OK] img_p21_1.png (1387 chars)
+  [OK] img_p13_1.png (683 chars)
+  [OK] img_p21_1.png: 10 triples
+  [OK] img_p13_1.png: 5 triples
+  [OK] img_p23_2.png (355 chars)
+  [OK] img_p50_4.png (252 chars)
+  [OK] img_p23_2.png: 3 triples
+  [OK] img_p50_4.png: 2 triples
+  [OK] img_p45_2.png (416 chars)
+  [OK] img_p50_2.png (132 chars)
+  [OK] img_p45_2.png: 3 triples
+  [OK] img_p50_2.png: 1 triples
+  [OK] img_p46_1.png (2 chars)
+  [OK] img_p22_1.png (864 chars)
+  [SKIP] img_p46_1.png: no valid triples
+  [OK] img_p22_1.png: 8 triples
+  [OK] img_p15_1.png (607 chars)
+  [OK] img_p24_1.png (2 chars)
+  [OK] img_p15_1.png: 5 triples
+  [SKIP] img_p24_1.png: no valid triples
+  [OK] img_p20_1.png (611 chars)
+  [OK] img_p52_2.png (1252 chars)
+  [OK] img_p20_1.png: 5 triples
+  [OK] img_p52_2.png: 7 triples
+  [OK] img_p34_1.png (1807 chars)
+  [OK] img_p19_1.png (2 chars)
+  [OK] img_p34_1.png: 3 triples
+  [SKIP] img_p19_1.png: no valid triples
+  [OK] img_p43_2.png (988 chars)
+  [OK] img_p50_3.png (347 chars)
+  [OK] img_p43_2.png: 6 triples
+  [OK] img_p50_3.png: 3 triples
+  [OK] img_p25_1.png (974 chars)
+  [OK] img_p50_5.png (1026 chars)
+  [OK] img_p25_1.png: 6 triples
+  [OK] img_p50_5.png: 7 triples
+  [OK] img_p51_1.png (1338 chars)
+  [OK] img_p51_2.png (2 chars)
+  [OK] img_p51_1.png: 10 triples
+  [SKIP] img_p51_2.png: no valid triples
+  [OK] img_p47_1.png (1697 chars)
+  [OK] img_p11_1.png (990 chars)
+  [OK] img_p47_1.png: 14 triples
+  [OK] img_p11_1.png: 7 triples
+  [OK] img_p9_1.png (398 chars)
+  [OK] img_p49_1.png (300 chars)
+  [OK] img_p9_1.png: 3 triples
+  [OK] img_p49_1.png: 3 triples
+  [OK] img_p23_3.png (1472 chars)
+  [OK] img_p13_2.png (3153 chars)
+  [OK] img_p23_3.png: 12 triples
+  [JSON WARN] No JSON array found for img_p13_2.png
+  [SKIP] img_p13_2.png: no valid triples
+  [OK] img_p45_1.png (645 chars)
+  [OK] img_p23_1.png (1294 chars)
+  [OK] img_p45_1.png: 5 triples
+  [OK] img_p23_1.png: 11 triples
+  [OK] img_p43_1.png (2193 chars)
+  [OK] img_p52_1.png (1514 chars)
+  [OK] img_p43_1.png: 19 triples
+  [OK] img_p52_1.png: 11 triples
+  [OK] img_p19_2.png (300 chars)
+  [OK] img_p8_1.png (1001 chars)
+  [OK] img_p19_2.png: 3 triples
+  [OK] img_p8_1.png: 9 triples
+  [OK] img_p48_1.png (2 chars)
+  [OK] img_p50_1.png (319 chars)
+  [SKIP] img_p48_1.png: no valid triples
+  [OK] img_p50_1.png: 3 triples
+  [OK] img_p34_2.png (2 chars)
+  [OK] img_p44_1.png (1364 chars)
+  [SKIP] img_p34_2.png: no valid triples
+  [OK] img_p44_1.png: 9 triples
+
+-> images.ttl saved: 193 valid triples
+  Text-only entities : 277
+  Image-only new     : 67
+  Cross-modal linked : 24
+  [MERGE] 0 duplicate entities resolved into canonical nodes.
+ Processing: alias_resolution_pass
+  Done in 0.2s (2 chars)
+  [MERGE] 0 duplicate entities resolved into canonical nodes.
+  [ALIAS-SIM] 'Gobie à taches noirs' → 'Gobie à taches noires' (similarity=0.98)
+  [ALIAS-SIM] 'passe à poisson' → 'passe à poissons' (similarity=0.97)
+  [ALIAS-SIM] 'passe à poissons' → 'passage à poissons' (similarity=0.94)
+  [ALIAS-SIM] 'pêches électriques' → 'pêche électrique' (similarity=0.94)
+  [ALIAS-SIM] 'population d’anguille' → 'population d’anguilles' (similarity=0.98)
+  [ALIAS-SIM] 'sonde thermique' → 'sondes thermiques' (similarity=0.94)
+  [ALIAS-SIM] 'températures supérieures à 21°C' → 'températures supérieures à 20°C' (similarity=0.97)
+  [ALIAS-SIM] 'températures supérieures à 23°C' → 'températures supérieures à 20°C' (similarity=0.97)
+  [ALIAS-SIM] 'températures supérieures à 23°C' → 'températures supérieures à 21°C' (similarity=0.97)
+  [ALIAS-SIM] 'truite' → 'Truite' (similarity=1.00)
+  [ALIAS-SIM] 'Old Rhin' → 'Old Rhine' (similarity=0.94)
+  [ALIAS-SIM] 'saumon' → 'Saumon' (similarity=1.00)
+  [ALIAS-SIM] 'saumons' → 'Saumon' (similarity=0.92)
+  [ALIAS-SIM] 'saumons' → 'saumon' (similarity=0.92)
+  [ALIAS-SIM] 'températures' → 'température' (similarity=0.96)
+  [ALIAS-SIM] 'inférieures à 0,3°C' → 'inférieures à 0,1°C' (similarity=0.95)
+  [ALIAS-SIM] 'préservation de la biodiversité' → 'preservation de la biodiversité' (similarity=0.97)
+  [ALIAS-SIM] 'frayères' → 'frayère' (similarity=0.93)
+  [ALIAS-SIM] 'true' → 'True' (similarity=1.00)
+  [ALIAS-SIM] 'études de l’hydrologie' → 'étude de l’hydrologie' (similarity=0.98)
+  [ALIAS-SIM] 'études de l’impact des espèces invasives' → 'étude de l’impact des espèces invasives' (similarity=0.99)
+  [ALIAS-SIM] 'études des facteurs environnementaux' → 'étude des facteurs environnementaux' (similarity=0.99)
+  [ALIAS-SIM] 'études des variations de température' → 'étude des variations de température' (similarity=0.99)
+  [ALIAS-SIM] 'absence de passes à poissons' → 'Absence de passes à poissons' (similarity=1.00)
+  [ALIAS-SIM] 'présence de passes à poissons' → 'Présence de passes à poissons' (similarity=1.00)
+  [ALIAS-CLASS] 23 near-identical label entities merged.
+  [ALIAS MERGE] 17 generic-term entities folded into canonical entities.
+  [MERGE] 0 duplicate entities resolved into canonical nodes.
+
+-> ft_merged_knowledge_graph.ttl saved: 3009 total triples
+   Demoted off-ontology predicates : 217
+   Open merged_knowledge_graph.ttl in Gephi or yEd for visualization.
+
+============================================================
+PROCESSING: fichier
+============================================================
+  [DOC-TITLE] Using document title: Rapport etude hydromorphologique ruisseau Norroy
+
+--- PASS 1: TEXT ---
+  [OK] page_1_block_1 (2 chars)
+  [OK] page_3_block_1 (2 chars)
+  [OK] page_6_block_1 (2 chars)
+  [OK] page_6_block_2 (2 chars)
+  [OK] page_6_block_3 (2 chars)
+  [OK] page_7_block_1 (2 chars)
+  [OK] page_7_block_2 (2 chars)
+  [OK] page_7_block_3 (2 chars)
+  [OK] page_7_block_4 (2 chars)
+  [OK] page_8_block_1 (2 chars)
+  [OK] page_8_block_2 (326 chars)
+  [OK] page_8_block_3 (1289 chars)
+  [OK] page_8_block_2: 3 triples
+  [OK] page_8_block_3: 9 triples
+  [OK] page_8_block_4 (652 chars)
+  [OK] page_9_block_1 (333 chars)
+  [OK] page_9_block_2 (245 chars)
+  [OK] page_9_block_3 (313 chars)
+  [OK] page_8_block_4: 3 triples
+  [OK] page_9_block_1: 3 triples
+  [OK] page_9_block_3: 3 triples
+  [OK] page_9_block_4 (1370 chars)
+  [OK] page_10_block_1 (1260 chars)
+  [OK] page_10_block_2 (517 chars)
+  [OK] page_11_block_1 (239 chars)
+  [OK] page_9_block_4: 12 triples
+  [OK] page_10_block_1: 11 triples
+  [OK] page_10_block_2: 3 triples
+  [OK] page_11_block_1: 1 triples
+  [OK] page_11_block_2 (318 chars)
+  [OK] page_11_block_3 (1789 chars)
+  [OK] page_12_block_1 (353 chars)
+  [OK] page_12_block_2 (253 chars)
+  [OK] page_11_block_2: 3 triples
+  [OK] page_11_block_3: 15 triples
+  [OK] page_12_block_1: 3 triples
+  [OK] page_12_block_2: 2 triples
+  [OK] page_12_block_3 (415 chars)
+  [OK] page_12_block_4 (2921 chars)
+  [OK] page_12_block_5 (581 chars)
+  [OK] page_13_block_1 (345 chars)
+  [OK] page_12_block_3: 3 triples
+  [JSON WARN] No JSON array found for page_12_block_4
+  [OK] page_12_block_5: 2 triples
+  [OK] page_13_block_1: 3 triples
+  [OK] page_13_block_2 (437 chars)
+  [OK] page_13_block_3 (232 chars)
+  [OK] page_13_block_4 (464 chars)
+  [OK] page_14_block_1 (1218 chars)
+  [OK] page_13_block_2: 2 triples
+  [OK] page_13_block_3: 1 triples
+  [OK] page_13_block_4: 4 triples
+  [OK] page_14_block_1: 10 triples
+  [OK] page_14_block_2 (575 chars)
+  [OK] page_15_block_1 (842 chars)
+  [OK] page_15_block_2 (320 chars)
+  [OK] page_15_block_3 (1809 chars)
+  [OK] page_14_block_2: 5 triples
+  [OK] page_15_block_1: 7 triples
+  [OK] page_15_block_2: 3 triples
+  [OK] page_15_block_3: 15 triples
+  [OK] page_16_block_1 (690 chars)
+  [OK] page_16_block_2 (354 chars)
+  [OK] page_16_block_3 (205 chars)
+  [OK] page_17_block_1 (2174 chars)
+  [OK] page_16_block_1: 6 triples
+  [OK] page_16_block_2: 2 triples
+  [OK] page_16_block_3: 2 triples
+  [OK] page_17_block_1: 12 triples
+  [OK] page_17_block_2 (805 chars)
+  [OK] page_17_block_3 (805 chars)
+  [OK] page_18_block_1 (805 chars)
+  [OK] page_18_block_2 (649 chars)
+  [OK] page_17_block_2: 7 triples
+  [OK] page_17_block_3: 7 triples
+  [OK] page_18_block_1: 7 triples
+  [OK] page_18_block_2: 1 triples
+  [OK] page_18_block_3 (325 chars)
+  [OK] page_18_block_4 (1031 chars)
+  [OK] page_19_block_1 (342 chars)
+  [OK] page_19_block_2 (334 chars)
+  [OK] page_18_block_3: 3 triples
+  [OK] page_18_block_4: 5 triples
+  [OK] page_19_block_1: 3 triples
+  [OK] page_19_block_2: 3 triples
+  [OK] page_20_block_1 (260 chars)
+  [OK] page_20_block_2 (212 chars)
+  [OK] page_21_block_1 (360 chars)
+  [OK] page_21_block_2 (415 chars)
+  [OK] page_20_block_2: 2 triples
+  [OK] page_21_block_1: 1 triples
+  [OK] page_21_block_2: 4 triples
+  [OK] page_21_block_3 (1653 chars)
+  [OK] page_22_block_1 (997 chars)
+  [OK] page_22_block_2 (327 chars)
+  [OK] page_22_block_3 (336 chars)
+  [OK] page_21_block_3: 15 triples
+  [OK] page_22_block_1: 2 triples
+  [OK] page_22_block_3: 3 triples
+  [OK] page_22_block_4 (422 chars)
+  [OK] page_23_block_1 (210 chars)
+  [OK] page_23_block_2 (1799 chars)
+  [OK] page_23_block_3 (236 chars)
+  [OK] page_22_block_4: 4 triples
+  [OK] page_23_block_1: 2 triples
+  [OK] page_23_block_2: 13 triples
+  [OK] page_23_block_3: 2 triples
+
+-> texts.ttl saved: 232 valid triples
+
+--- PASS 2: IMAGES ---
+  [OK] img_p13_2.png (648 chars)
+  [OK] img_p20_2.png (1205 chars)
+  [OK] img_p13_2.png: 6 triples
+  [OK] img_p20_2.png: 11 triples
+  [OK] img_p14_1.png (1217 chars)
+  [OK] img_p11_1.png (1968 chars)
+  [OK] img_p14_1.png: 10 triples
+  [OK] img_p11_1.png: 18 triples
+  [OK] img_p23_1.png (2 chars)
+  [OK] img_p14_2.png (1435 chars)
+  [SKIP] img_p23_1.png: no valid triples
+  [OK] img_p14_2.png: 12 triples
+  [OK] img_p15_1.png (2 chars)
+  [OK] img_p8_1.png (1675 chars)
+  [SKIP] img_p15_1.png: no valid triples
+  [OK] img_p8_1.png: 14 triples
+  [OK] img_p19_1.png (788 chars)
+  [OK] img_p10_1.png (1222 chars)
+  [OK] img_p19_1.png: 6 triples
+  [OK] img_p10_1.png: 10 triples
+  [OK] img_p17_1.png (2021 chars)
+  [OK] img_p21_1.png (2880 chars)
+  [OK] img_p17_1.png: 17 triples
+  [OK] img_p21_1.png: 24 triples
+  [OK] img_p12_1.png (416 chars)
+  [OK] img_p7_1.png (314 chars)
+  [OK] img_p12_1.png: 2 triples
+  [OK] img_p7_1.png: 3 triples
+  [OK] img_p17_2.png (2990 chars)
+  [OK] img_p20_1.png (418 chars)
+  [JSON WARN] No JSON array found for img_p17_2.png
+  [SKIP] img_p17_2.png: no valid triples
+  [OK] img_p20_1.png: 4 triples
+  [OK] img_p1_1.png (2918 chars)
+  [OK] img_p10_2.png (697 chars)
+  [JSON WARN] No JSON array found for img_p1_1.png
+  [SKIP] img_p1_1.png: no valid triples
+  [OK] img_p10_2.png: 4 triples
+  [OK] img_p16_1.png (2865 chars)
+  [OK] img_p13_1.png (390 chars)
+  [JSON WARN] No JSON array found for img_p16_1.png
+  [SKIP] img_p16_1.png: no valid triples
+  [OK] img_p13_1.png: 3 triples
+  [OK] img_p18_1.png (2 chars)
+  [OK] img_p19_2.png (1278 chars)
+  [SKIP] img_p18_1.png: no valid triples
+  [OK] img_p19_2.png: 12 triples
+  [OK] img_p22_1.png (970 chars)
+  [OK] img_p1_2.png (2 chars)
+  [OK] img_p22_1.png: 3 triples
+  [SKIP] img_p1_2.png: no valid triples
+  [OK] img_p9_1.png (1670 chars)
+  [OK] img_p9_1.png: 14 triples
+
+-> images.ttl saved: 173 valid triples
+  Text-only entities : 61
+  Image-only new     : 11
+  Cross-modal linked : 23
+  [MERGE] 2 duplicate entities resolved into canonical nodes.
+ Processing: alias_resolution_pass
+  Done in 0.1s (2 chars)
+  [MERGE] 0 duplicate entities resolved into canonical nodes.
+  [ALIAS-SIM] 'pente élevée' → 'pentes élevées' (similarity=0.92)
+  [ALIAS-SIM] 'tronçon 6' → 'Tronçon 6' (similarity=1.00)
+  [ALIAS-SIM] 'tronçon 9' → 'Tronçon 9' (similarity=1.00)
+  [ALIAS-SIM] 'tronçon 3' → 'Tronçon 3' (similarity=1.00)
+  [ALIAS-SIM] 'tronçon 5' → 'Tronçon 5' (similarity=1.00)
+  [ALIAS-SIM] 'tronçon 7' → 'Tronçon 7' (similarity=1.00)
+  [ALIAS-SIM] 'tronçon 4' → 'Tronçon 4' (similarity=1.00)
+  [ALIAS-SIM] 'tronçon 8' → 'Tronçon 8' (similarity=1.00)
+  [ALIAS-SIM] 'tronçon 2' → 'Tronçon 2' (similarity=1.00)
+  [ALIAS-CLASS] 9 near-identical label entities merged.
+  [ALIAS MERGE] 1 generic-term entities folded into canonical entities.
+  [MERGE] 0 duplicate entities resolved into canonical nodes.
+
+-> ft_merged_knowledge_graph.ttl saved: 973 total triples
+   Demoted off-ontology predicates : 250
+   Open merged_knowledge_graph.ttl in Gephi or yEd for visualization.
+
+============================================================
+PROCESSING: 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire
+============================================================
+  [DOC-TITLE] Using document title: Microsoft Word - 20251202FicheTechniqueRangs0_V1
+
+--- PASS 1: TEXT ---
+  [OK] page_1_block_1 (2 chars)
+  [OK] page_2_block_1 (1385 chars)
+  [OK] page_2_block_2 (2 chars)
+  [OK] page_2_block_3 (2 chars)
+  [OK] page_2_block_1: 7 triples
+  [OK] page_3_block_2 (2 chars)
+  [OK] page_3_block_4 (2 chars)
+  [OK] page_3_block_6 (2 chars)
+  [OK] page_4_block_2 (2 chars)
+  [OK] page_4_block_3 (259 chars)
+  [OK] page_4_block_4 (2 chars)
+  [OK] page_4_block_5 (2 chars)
+  [OK] page_5_block_1 (2 chars)
+  [OK] page_4_block_3: 2 triples
+  [OK] page_5_block_2 (208 chars)
+  [OK] page_5_block_4 (327 chars)
+  [OK] page_5_block_6 (327 chars)
+  [OK] page_6_block_1 (2 chars)
+  [OK] page_5_block_2: 2 triples
+  [OK] page_5_block_4: 3 triples
+  [OK] page_5_block_6: 3 triples
+  [OK] page_6_block_3 (2 chars)
+  [OK] page_6_block_5 (622 chars)
+  [OK] page_6_block_6 (2 chars)
+  [OK] page_7_block_1 (2 chars)
+  [OK] page_6_block_5: 1 triples
+  [OK] page_7_block_3 (1450 chars)
+  [OK] page_7_block_4 (2 chars)
+  [OK] page_7_block_5 (477 chars)
+  [OK] page_7_block_6 (2 chars)
+  [OK] page_7_block_3: 12 triples
+  [OK] page_7_block_5: 4 triples
+  [OK] page_7_block_7 (1841 chars)
+  [OK] page_8_block_1 (1862 chars)
+  [OK] page_8_block_3 (1703 chars)
+  [OK] page_8_block_4 (2 chars)
+  [OK] page_7_block_7: 15 triples
+  [OK] page_8_block_1: 14 triples
+  [OK] page_8_block_3: 14 triples
+  [OK] page_8_block_5 (1813 chars)
+  [OK] page_9_block_1 (1916 chars)
+  [OK] page_9_block_2 (1332 chars)
+  [OK] page_10_block_1 (1841 chars)
+  [OK] page_8_block_5: 15 triples
+  [OK] page_9_block_1: 15 triples
+  [OK] page_9_block_2: 1 triples
+  [OK] page_10_block_1: 15 triples
+  [OK] page_10_block_2 (2 chars)
+  [OK] page_10_block_3 (303 chars)
+  [OK] page_10_block_4 (487 chars)
+  [OK] page_10_block_5 (334 chars)
+  [OK] page_10_block_4: 4 triples
+  [OK] page_10_block_5: 3 triples
+  [OK] page_11_block_1 (1635 chars)
+  [OK] page_11_block_2 (2 chars)
+  [OK] page_11_block_3 (2 chars)
+  [OK] page_11_block_4 (463 chars)
+  [OK] page_11_block_1: 15 triples
+  [OK] page_11_block_4: 4 triples
+  [OK] page_12_block_1 (2 chars)
+  [OK] page_13_block_1 (2 chars)
+  [OK] page_13_block_2 (2 chars)
+  [OK] page_13_block_3 (2 chars)
+  [OK] page_13_block_4 (369 chars)
+  [OK] page_13_block_5 (2 chars)
+  [OK] page_13_block_6 (1772 chars)
+  [OK] page_14_block_1 (2 chars)
+  [OK] page_13_block_4: 2 triples
+  [OK] page_13_block_6: 14 triples
+  [OK] page_14_block_2 (2 chars)
+  [OK] page_14_block_3 (2 chars)
+  [OK] page_14_block_4 (663 chars)
+  [OK] page_14_block_5 (1741 chars)
+  [OK] page_14_block_4: 5 triples
+  [OK] page_14_block_5: 3 triples
+  [OK] page_15_block_1 (334 chars)
+  [OK] page_16_block_1 (2 chars)
+  [OK] page_16_block_2 (2 chars)
+  [OK] page_18_block_1 (2 chars)
+  [OK] page_15_block_1: 3 triples
+  [OK] page_18_block_2 (2 chars)
+  [OK] page_18_block_3 (2 chars)
+  [OK] page_18_block_4 (747 chars)
+  [OK] page_18_block_5 (462 chars)
+  [OK] page_18_block_4: 5 triples
+  [OK] page_18_block_5: 3 triples
+  [OK] page_19_block_1 (2 chars)
+  [OK] page_19_block_2 (2 chars)
+  [OK] page_19_block_3 (2 chars)
+  [OK] page_19_block_5 (2 chars)
+  [OK] page_19_block_6 (1028 chars)
+  [OK] page_20_block_1 (947 chars)
+  [OK] page_20_block_2 (2 chars)
+  [OK] page_20_block_3 (845 chars)
+  [OK] page_19_block_6: 7 triples
+  [OK] page_20_block_1: 6 triples
+  [OK] page_20_block_3: 4 triples
+  [OK] page_20_block_4 (490 chars)
+  [OK] page_20_block_5 (2 chars)
+  [OK] page_21_block_1 (2 chars)
+  [OK] page_21_block_2 (267 chars)
+  [OK] page_20_block_4: 3 triples
+  [OK] page_21_block_2: 2 triples
+  [OK] page_22_block_1 (330 chars)
+  [OK] page_22_block_2 (328 chars)
+  [OK] page_22_block_3 (352 chars)
+  [OK] page_22_block_4 (284 chars)
+  [OK] page_22_block_1: 2 triples
+  [OK] page_22_block_2: 3 triples
+  [OK] page_22_block_3: 3 triples
+  [OK] page_22_block_4: 2 triples
+  [OK] page_22_block_5 (566 chars)
+  [OK] page_22_block_6 (197 chars)
+  [OK] page_23_block_1 (2 chars)
+  [OK] page_23_block_2 (2 chars)
+  [OK] page_22_block_5: 1 triples
+  [OK] page_22_block_6: 2 triples
+  [OK] page_23_block_3 (2 chars)
+  [OK] page_24_block_1 (789 chars)
+  [OK] page_24_block_2 (2 chars)
+  [OK] page_24_block_3 (682 chars)
+  [OK] page_24_block_1: 2 triples
+  [OK] page_24_block_3: 4 triples
+  [OK] page_24_block_4 (2 chars)
+  [OK] page_24_block_5 (2 chars)
+  [OK] page_24_block_6 (2 chars)
+  [OK] page_24_block_7 (760 chars)
+  [OK] page_24_block_7: 1 triples
+  [OK] page_25_block_1 (452 chars)
+  [OK] page_25_block_2 (347 chars)
+  [OK] page_25_block_3 (2 chars)
+  [OK] page_25_block_4 (2 chars)
+  [OK] page_25_block_2: 3 triples
+  [OK] page_25_block_5 (2 chars)
+  [OK] page_25_block_7 (539 chars)
+  [OK] page_26_block_1 (356 chars)
+  [OK] page_26_block_2 (574 chars)
+  [OK] page_26_block_4 (2 chars)
+  [OK] page_26_block_5 (1703 chars)
+  [OK] page_26_block_6 (2 chars)
+  [OK] page_27_block_1 (2 chars)
+  [OK] page_26_block_5: 15 triples
+  [OK] page_27_block_2 (869 chars)
+  [OK] page_27_block_3 (353 chars)
+  [OK] page_27_block_4 (2 chars)
+  [OK] page_27_block_5 (607 chars)
+  [OK] page_27_block_2: 6 triples
+  [OK] page_27_block_3: 3 triples
+  [OK] page_27_block_5: 3 triples
+  [OK] page_27_block_6 (2 chars)
+  [OK] page_28_block_1 (1884 chars)
+  [OK] page_28_block_2 (2 chars)
+  [OK] page_28_block_3 (2 chars)
+  [OK] page_28_block_1: 15 triples
+  [OK] page_28_block_4 (2 chars)
+  [OK] page_29_block_1 (2 chars)
+  [OK] page_29_block_2 (816 chars)
+  [OK] page_29_block_3 (2 chars)
+  [OK] page_29_block_2: 6 triples
+  [OK] page_29_block_4 (2 chars)
+  [OK] page_29_block_5 (2 chars)
+  [OK] page_29_block_6 (2 chars)
+  [OK] page_30_block_1 (2 chars)
+  [OK] page_30_block_2 (443 chars)
+  [OK] page_30_block_3 (394 chars)
+  [OK] page_30_block_4 (250 chars)
+  [OK] page_30_block_5 (2 chars)
+  [OK] page_30_block_2: 3 triples
+  [OK] page_30_block_3: 3 triples
+  [OK] page_30_block_4: 2 triples
+  [OK] page_30_block_6 (749 chars)
+  [OK] page_31_block_1 (507 chars)
+  [OK] page_31_block_2 (392 chars)
+  [OK] page_31_block_3 (534 chars)
+  [OK] page_30_block_6: 5 triples
+  [OK] page_31_block_1: 3 triples
+  [OK] page_31_block_2: 3 triples
+  [OK] page_31_block_3: 4 triples
+  [OK] page_31_block_4 (1774 chars)
+  [OK] page_32_block_1 (381 chars)
+  [OK] page_32_block_2 (268 chars)
+  [OK] page_32_block_3 (2 chars)
+  [OK] page_31_block_4: 15 triples
+  [OK] page_32_block_1: 3 triples
+  [OK] page_32_block_2: 2 triples
+  [OK] page_32_block_4 (523 chars)
+  [OK] page_32_block_5 (2 chars)
+  [OK] page_32_block_6 (669 chars)
+  [OK] page_33_block_1 (1258 chars)
+  [OK] page_32_block_4: 4 triples
+  [OK] page_32_block_6: 3 triples
+  [OK] page_33_block_1: 7 triples
+  [OK] page_34_block_1 (2 chars)
+  [OK] page_34_block_2 (2 chars)
+  [OK] page_34_block_3 (193 chars)
+  [OK] page_34_block_4 (567 chars)
+  [OK] page_34_block_3: 2 triples
+  [OK] page_34_block_4: 3 triples
+  [OK] page_34_block_5 (2 chars)
+  [OK] page_34_block_6 (2 chars)
+  [OK] page_34_block_7 (2 chars)
+  [OK] page_34_block_8 (460 chars)
+  [OK] page_34_block_8: 4 triples
+  [OK] page_34_block_9 (2 chars)
+  [OK] page_35_block_1 (474 chars)
+  [OK] page_35_block_3 (2 chars)
+  [OK] page_35_block_4 (2 chars)
+  [OK] page_35_block_1: 3 triples
+  [OK] page_35_block_5 (2 chars)
+  [OK] page_35_block_6 (2 chars)
+  [OK] page_36_block_1 (2 chars)
+  [OK] page_36_block_2 (2 chars)
+  [OK] page_36_block_3 (2 chars)
+  [OK] page_36_block_4 (2 chars)
+  [OK] page_36_block_5 (2 chars)
+  [OK] page_36_block_6 (2 chars)
+  [OK] page_36_block_7 (2 chars)
+  [OK] page_37_block_1 (2 chars)
+  [OK] page_37_block_2 (1326 chars)
+  [OK] page_37_block_3 (2 chars)
+  [OK] page_37_block_2: 7 triples
+  [OK] page_38_block_1 (2 chars)
+  [OK] page_38_block_2 (2 chars)
+  [OK] page_38_block_3 (2 chars)
+  [OK] page_38_block_4 (2 chars)
+  [OK] page_38_block_5 (2 chars)
+  [OK] page_38_block_6 (2 chars)
+  [OK] page_38_block_7 (218 chars)
+  [OK] page_39_block_1 (2 chars)
+  [OK] page_38_block_7: 2 triples
+  [OK] page_39_block_2 (3038 chars)
+  [OK] page_40_block_1 (2 chars)
+  [OK] page_41_block_1 (2496 chars)
+  [OK] page_41_block_2 (2 chars)
+  [OK] page_39_block_2: 18 triples
+  [OK] page_41_block_1: 18 triples
+  [OK] page_41_block_3 (1695 chars)
+  [OK] page_41_block_4 (2457 chars)
+  [OK] page_41_block_3: 15 triples
+  [OK] page_41_block_4: 18 triples
+
+-> texts.ttl saved: 424 valid triples
+
+--- PASS 2: IMAGES ---
+  [OK] img_p16_1.png (230 chars)
+  [OK] img_p1_1.png (1037 chars)
+  [OK] img_p16_1.png: 2 triples
+  [OK] img_p1_1.png: 8 triples
+  [OK] img_p21_1.png (2 chars)
+  [OK] img_p4_2.png (3098 chars)
+  [SKIP] img_p21_1.png: no valid triples
+  [JSON WARN] No JSON array found for img_p4_2.png
+  [SKIP] img_p4_2.png: no valid triples
+  [OK] img_p12_1.png (2 chars)
+  [OK] img_p22_1.png (446 chars)
+  [SKIP] img_p12_1.png: no valid triples
+  [OK] img_p22_1.png: 4 triples
+  [OK] img_p15_1.png (402 chars)
+  [OK] img_p28_1.png (696 chars)
+  [OK] img_p15_1.png: 3 triples
+  [OK] img_p28_1.png: 6 triples
+  [OK] img_p10_1.png (2 chars)
+  [OK] img_p9_1.png (2 chars)
+  [SKIP] img_p10_1.png: no valid triples
+  [SKIP] img_p9_1.png: no valid triples
+  [OK] img_p12_2.png (2 chars)
+  [OK] img_p40_1.png (343 chars)
+  [SKIP] img_p12_2.png: no valid triples
+  [OK] img_p40_1.png: 3 triples
+  [OK] img_p6_1.png (2 chars)
+  [OK] img_p17_1.png (2 chars)
+  [SKIP] img_p6_1.png: no valid triples
+  [SKIP] img_p17_1.png: no valid triples
+  [OK] img_p23_1.png (348 chars)
+  [OK] img_p31_1.png (211 chars)
+  [OK] img_p23_1.png: 3 triples
+  [SKIP] img_p31_1.png: no valid triples
+  [OK] img_p4_1.png (805 chars)
+  [OK] img_p21_2.png (2 chars)
+  [OK] img_p4_1.png: 7 triples
+  [SKIP] img_p21_2.png: no valid triples
+
+-> images.ttl saved: 36 valid triples
+  Text-only entities : 242
+  Image-only new     : 17
+  Cross-modal linked : 7
+  [MERGE] 2 duplicate entities resolved into canonical nodes.
+ Processing: alias_resolution_pass
+  Done in 0.2s (2 chars)
+  [MERGE] 0 duplicate entities resolved into canonical nodes.
+  [ALIAS-SIM] 'rangs zéro' → 'Rang zéro' (similarity=0.95)
+  [ALIAS-SIM] 'rangs zéro' → 'rang zéro' (similarity=0.95)
+  [ALIAS-SIM] 'remblai' → 'remblais' (similarity=0.93)
+  [ALIAS-SIM] 'ruptures de pente' → 'rupture de pente' (similarity=0.97)
+  [ALIAS-SIM] 'source' → 'sources' (similarity=0.92)
+  [ALIAS-SIM] 'cours d’eau' → 'Cours d’eau' (similarity=1.00)
+  [ALIAS-SIM] 'rangs 0' → 'rang 0' (similarity=0.92)
+  [ALIAS-SIM] 'Rang 0' → 'rang 0' (similarity=1.00)
+  [ALIAS-SIM] 'rangs 1' → 'rang 1' (similarity=0.92)
+  [ALIAS-SIM] 'Rang 1' → 'rang 1' (similarity=1.00)
+  [ALIAS-SIM] 'rangs 0' → 'Rang 0' (similarity=0.92)
+  [ALIAS-SIM] 'rangs 1' → 'Rang 1' (similarity=0.92)
+  [ALIAS-SIM] 'zones de sources' → 'zones de source' (similarity=0.97)
+  [ALIAS-SIM] 'zone de source' → 'zones de source' (similarity=0.97)
+  [ALIAS-SIM] 'zone de source' → 'zones de sources' (similarity=0.93)
+  [ALIAS-SIM] 'cas 3' → 'Cas 3' (similarity=1.00)
+  [ALIAS-SIM] 'rang zéro' → 'Rang zéro' (similarity=1.00)
+  [ALIAS-CLASS] 13 near-identical label entities merged.
+  [ALIAS MERGE] 8 generic-term entities folded into canonical entities.
+  [MERGE] 0 duplicate entities resolved into canonical nodes.
+
+-> ft_merged_knowledge_graph.ttl saved: 1861 total triples
+   Demoted off-ontology predicates : 309
+   Open merged_knowledge_graph.ttl in Gephi or yEd for visualization.
+
+[DONE] All PDFs processed.

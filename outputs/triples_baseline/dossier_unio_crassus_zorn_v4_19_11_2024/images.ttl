@@ -1,0 +1,721 @@
+@prefix : <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:La_Zorn a :river,
+        owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 26 ;
+    :isLocatedOn :Grand_Est ;
+    skos:prefLabel "La Zorn"@fr .
+
+:Localisation_Du_Transect_De_Prospection_De_La_Malacofaune a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 15 ;
+    :isLocatedIn :Projet_De_Renaturation_De_La_Zorn ;
+    :isSubjectTo :Absence_De_Pollution_Du_Milieu,
+        :Appreciation_De_Lacclimatation_Attendue_Des_Individus,
+        :Appreciation_Des_Impacts_Du_Deplacement,
+        :Bonne_Reprise_De_La_Vegetation,
+        :Individu_De_Mulette_Epaisse,
+        :Inventaire_Annuel_Aoutseptembre,
+        :Mesure_De_La_Croissance,
+        :Mesure_Du_Deplacement,
+        :Mesure_Du_Taux_De_Mortalite,
+        :Mesure_Du_Taux_De_Reprise,
+        :Objectif_14,
+        :Objectif_7,
+        :Site_Daccueil,
+        :Survie_Des_Mulettes_Epaisses_Deplacees ;
+    skos:prefLabel "Localisation du transect de prospection de la malacofaune"@fr .
+
+:Mulette_Epaisse a :anadromous,
+        :migratorySpecie,
+        owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 13,
+        16,
+        20,
+        24,
+        25,
+        28 ;
+    :hasPurpose "mesure de déplacement de la population de Mulette épaisse"^^xsd:string ;
+    :isImpassable :Structure ;
+    :isManagedBy :Experts_En_Avifaune ;
+    :isSubjectTo :Appreciation_De_Lacclimatation_Attendue_Des_Individus,
+        :Appreciation_Des_Impacts_Du_Deplacement,
+        :Mesure_De_La_Croissance,
+        :Mesure_Du_Deplacement,
+        :Mesure_Du_Taux_De_Mortalite,
+        :Mesure_Du_Taux_De_Reprise ;
+    skos:note "hasPresenceStatus: absente"@fr,
+        "hasPresenceStatus: certaine"@fr,
+        "hasPresenceStatus: non-déterminée"@fr,
+        "hasPresenceStatus: probable"@fr,
+        "isContainedIn: Zorn"@fr,
+        "isImpactedBy: projet de renaturation de la Zorn"@fr ;
+    skos:prefLabel "Mulette épaisse"@fr .
+
+:Secteur_Devitement_Des_Epis a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 21 ;
+    :isLocatedOn :Zone_De_Presence_Aval_De_Lespece ;
+    skos:prefLabel "secteur d’évitement des épis"@fr .
+
+:hasCategory a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:hasCost a owl:DatatypeProperty .
+
+:hasDescription a owl:DatatypeProperty .
+
+:hasMainContractor a owl:ObjectProperty .
+
+:hasMonitoringCost a owl:ObjectProperty .
+
+:hasMonitoringDescription a owl:ObjectProperty .
+
+:hasMonitoringEndDate a owl:ObjectProperty .
+
+:hasMonitoringStartDate a owl:ObjectProperty .
+
+:hasPurpose a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:includes a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:isImpassable a owl:ObjectProperty .
+
+:isLocatedIn a owl:ObjectProperty .
+
+:isLocatedOn a owl:ObjectProperty .
+
+:isManagedBy a owl:ObjectProperty .
+
+:isSubjectTo a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl/instance_graph> a owl:Ontology .
+
+:Ameliorer_Le_Fonctionnement_Hydraulique_Et_Ecologique a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 9,
+        10,
+        17,
+        20,
+        24,
+        25,
+        28 ;
+    skos:prefLabel "améliorer le fonctionnement hydraulique et écologique"@fr .
+
+:Ameliorer_Son_Fonctionnement_Hydraulique_Et_Ecologique a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13,
+        18 ;
+    skos:prefLabel "améliorer son fonctionnement hydraulique et écologique"@fr .
+
+:Annee_N1 a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 18 ;
+    skos:prefLabel "année N+1"@fr .
+
+:Annee_N10 a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 18 ;
+    skos:prefLabel "année N+10"@fr .
+
+:Biologicalmonitoring a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 10 ;
+    skos:prefLabel "biologicalMonitoring"@fr .
+
+:Channelcreation a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13 ;
+    skos:prefLabel "channelCreation"@fr .
+
+:Distributionbasin a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13 ;
+    skos:prefLabel "distributionBasin"@fr .
+
+:Ecologicalmonitoring a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 10 ;
+    skos:prefLabel "ecologicalMonitoring"@fr .
+
+:Evaluation_Environnementale a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13,
+        18,
+        20,
+        24,
+        25,
+        28 ;
+    skos:prefLabel "évaluation environnementale"@fr .
+
+:False a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 17 ;
+    skos:prefLabel "false"@fr .
+
+:Figure_9 a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasDescription "graphique en barres représentant la répartition des effectifs par classe de taille en centimètres"^^xsd:string ;
+    :hasPageNumber 16,
+        17,
+        24 ;
+    skos:prefLabel "Figure 9"@fr .
+
+:Flowrestoration a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13 ;
+    skos:prefLabel "flowRestoration"@fr .
+
+:Forestrestoration a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13 ;
+    skos:prefLabel "forestRestoration"@fr .
+
+:Habitatrestoration a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13 ;
+    skos:prefLabel "habitatRestoration"@fr .
+
+:Hydromorphologicalmonitoring a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 10 ;
+    skos:prefLabel "hydromorphologicalMonitoring"@fr .
+
+:Individu_De_Mulette_Epaisse a :anadromous,
+        owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        16 ;
+    skos:note "isContainedIn: Zorn"@fr ;
+    skos:prefLabel "Individu de Mulette épaisse"@fr .
+
+:Lateralcontinuityrestoration a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13 ;
+    skos:prefLabel "lateralContinuityRestoration"@fr .
+
+:Longitudinalcontinuityrestoration a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13 ;
+    skos:prefLabel "longitudinalContinuityRestoration"@fr .
+
+:N a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 16 ;
+    skos:prefLabel "N"@fr .
+
+:Non_Specifie a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 18 ;
+    skos:prefLabel "non spécifié"@fr .
+
+:Objectif_14 a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15 ;
+    skos:prefLabel "Objectif 14"@fr .
+
+:Objectif_7 a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15 ;
+    skos:prefLabel "Objectif 7"@fr .
+
+:Projet_De_Renaturation_De_La_Zorn a :restoration,
+        :restorationOperation,
+        owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasCategory :Channelcreation,
+        :Distributionbasin,
+        :Flowrestoration,
+        :Forestrestoration,
+        :Habitatrestoration,
+        :Lateralcontinuityrestoration,
+        :Longitudinalcontinuityrestoration,
+        :Profilediversification,
+        :Reconnection,
+        :Regularflooding,
+        :Restoringspawninggrounds,
+        :Riverbankrestoration,
+        :Scientificmonitoring ;
+    :hasCost "491 584 euros H.T."^^xsd:string ;
+    :hasMainContractor :Experts_En_Avifaune ;
+    :hasMonitoringCost :Non_Specifie ;
+    :hasMonitoringDescription :Inventaire_Annuel_Aoutseptembre,
+        :Rapport_Annuel,
+        :Respect_Des_Bonnes_Pratiques_Environnementales,
+        :Suivi_De_La_Population_Deplacee ;
+    :hasMonitoringEndDate :Annee_N10 ;
+    :hasMonitoringStartDate :Annee_N1 ;
+    :hasPageNumber 8,
+        9,
+        10,
+        13,
+        15,
+        16,
+        17,
+        18,
+        20,
+        24,
+        25,
+        28 ;
+    :hasPurpose :Ameliorer_Le_Fonctionnement_Hydraulique_Et_Ecologique,
+        :Ameliorer_Son_Fonctionnement_Hydraulique_Et_Ecologique,
+        :Ameliorersonfonctionnementhydrauliqueetecologique,
+        :Creer_Des_Annexes_Hydrauliques,
+        :Creer_Des_Meandres,
+        :Diversifier_Les_Ecoulements,
+        :Survie_Des_Mulettes_Epaisses_Deplacees,
+        :Vegetaliser_Les_Berges ;
+    :includes :Createdesannexeshydrauliques,
+        :Createdesmeanders,
+        :Creer_Des_Annexes_Hydrauliques,
+        :Creer_Des_Meandres,
+        :Diversifier_Les_Ecoulements,
+        :Evaluationenvironnementale,
+        :Profilediversification,
+        :Rapportannuel,
+        :Realisation_Dun_Rapport_Annuel,
+        :Respect_Des_Bonnes_Pratiques_Environnementales,
+        :Respectdesbonnespratiquesenvironnementales,
+        :Riverbankrestoration,
+        :Suivi_De_La_Population_Deplacee,
+        :Vegetaliser_Les_Berges,
+        :Vegetalizelesberges,
+        "mesure de déplacement de la population de Mulette épaisse"^^xsd:string ;
+    :isLocatedIn :Grand_Est ;
+    :isLocatedOn :Grand_Est,
+        :Zorn ;
+    :isSubjectTo :Evaluation_Environnementale,
+        :Evaluationenvironnementale,
+        :Figure_9,
+        :Rapportannuel,
+        :Respectdesbonnespratiquesenvironnementales,
+        :Restorationmonitoring,
+        :Scientificmonitoring,
+        "Localisation du transect de prospection de la malacofaune"^^xsd:string ;
+    skos:note "hasImpact: altération de l’habitat"@fr,
+        "hasImpact: destruction directe et indirecte des individus"@fr,
+        "hasImpact: modification de la population de Mulette épaisse"@fr,
+        "hasObjective: respect des bonnes pratiques environnementales"@fr,
+        "hasObjective: réalisation d’un rapport annuel"@fr,
+        "hasObjective: suivi de la population déplacée"@fr ;
+    skos:prefLabel "Projet de renaturation de la Zorn"@fr,
+        "projet de renaturation de la Zorn"@fr .
+
+:Rapport_Annuel a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 20 ;
+    skos:prefLabel "rapport annuel"@fr .
+
+:Realisation_Dun_Rapport_Annuel a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 25,
+        28 ;
+    skos:prefLabel "réalisation d’un rapport annuel"@fr .
+
+:Reconnection a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13 ;
+    skos:prefLabel "reconnection"@fr .
+
+:Regularflooding a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13 ;
+    skos:prefLabel "regularFlooding"@fr .
+
+:Restoration a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 10 ;
+    skos:prefLabel "restoration"@fr .
+
+:Restorationmeasure a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 10 ;
+    skos:prefLabel "restorationMeasure"@fr .
+
+:Restoringspawninggrounds a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13 ;
+    skos:prefLabel "restoringSpawningGrounds"@fr .
+
+:Site_Daccueil a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15 ;
+    skos:prefLabel "site d’accueil"@fr .
+
+:Structure a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 20 ;
+    skos:prefLabel "structure"@fr .
+
+:Zone_De_Presence_Aval_De_Lespece a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 21 ;
+    skos:note "contains: points blancs espèces protégées"@fr ;
+    skos:prefLabel "zone de présence aval de l’espèce"@fr .
+
+:Zorn a :river,
+        owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasCategory "2e catégorie"^^xsd:string ;
+    :hasPageNumber 6,
+        9,
+        10,
+        13,
+        16,
+        17,
+        18,
+        20,
+        24,
+        25,
+        28 ;
+    :hasPurpose :Ameliorersonfonctionnementhydrauliqueetecologique,
+        :Createdesannexeshydrauliques,
+        :Createdesmeanders,
+        :Evaluationenvironnementale,
+        :Rapportannuel,
+        :Respectdesbonnespratiquesenvironnementales,
+        :Restorationmonitoring,
+        :Restorationoperation,
+        :Scientificmonitoring,
+        :Vegetalizelesberges ;
+    :isImpassable :False ;
+    :isLocatedIn :Grand_Est ;
+    :isLocatedOn :Grand_Est,
+        :N ;
+    :isSubjectTo :Absence_De_Pollution_Du_Milieu,
+        :Appreciation_De_Lacclimatation_Attendue_Des_Individus,
+        :Appreciation_Des_Impacts_Du_Deplacement,
+        :Biologicalmonitoring,
+        :Bonne_Reprise_De_La_Vegetation,
+        :Ecologicalmonitoring,
+        :Hydromorphologicalmonitoring,
+        :Inventaire_Annuel_Aoutseptembre,
+        :Mesure_De_La_Croissance,
+        :Mesure_Du_Deplacement,
+        :Mesure_Du_Taux_De_Mortalite,
+        :Mesure_Du_Taux_De_Reprise,
+        :Restoration,
+        :Restorationmeasure,
+        :Restorationmonitoring,
+        :Restorationoperation,
+        :Scientificmonitoring,
+        :Survie_Des_Mulettes_Epaisses_Deplacees ;
+    skos:prefLabel "Zorn"@fr .
+
+:Absence_De_Pollution_Du_Milieu a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        16 ;
+    skos:prefLabel "Absence de pollution du milieu"@fr .
+
+:Ameliorersonfonctionnementhydrauliqueetecologique a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 6,
+        8 ;
+    skos:prefLabel "ameliorerSonFonctionnementHydrauliqueEtEcologique"@fr .
+
+:Bonne_Reprise_De_La_Vegetation a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        16 ;
+    skos:prefLabel "Bonne reprise de la végétation"@fr .
+
+:Createdesannexeshydrauliques a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 6,
+        8,
+        9,
+        17 ;
+    skos:prefLabel "createDesAnnexesHydrauliques"@fr .
+
+:Createdesmeanders a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 6,
+        8,
+        9,
+        17 ;
+    skos:prefLabel "createDesMeanders"@fr .
+
+:Creer_Des_Annexes_Hydrauliques a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13,
+        18,
+        20,
+        24,
+        25,
+        28 ;
+    skos:prefLabel "créer des annexes hydrauliques"@fr .
+
+:Creer_Des_Meandres a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13,
+        18,
+        20,
+        24,
+        25,
+        28 ;
+    skos:prefLabel "créer des méandres"@fr .
+
+:Diversifier_Les_Ecoulements a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13,
+        18,
+        20,
+        24,
+        25,
+        28 ;
+    skos:prefLabel "diversifier les écoulements"@fr .
+
+:Experts_En_Avifaune a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 18,
+        20,
+        25 ;
+    skos:prefLabel "experts en avifaune"@fr .
+
+:Profilediversification a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 9,
+        13 ;
+    skos:prefLabel "profileDiversification"@fr .
+
+:Respect_Des_Bonnes_Pratiques_Environnementales a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 20,
+        25,
+        28 ;
+    skos:prefLabel "respect des bonnes pratiques environnementales"@fr .
+
+:Restorationoperation a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 6,
+        10 ;
+    skos:prefLabel "restorationOperation"@fr .
+
+:Riverbankrestoration a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 9,
+        13 ;
+    skos:prefLabel "riverbankRestoration"@fr .
+
+:Suivi_De_La_Population_Deplacee a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 20,
+        25,
+        28 ;
+    skos:prefLabel "suivi de la population déplacée"@fr .
+
+:Vegetaliser_Les_Berges a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13,
+        18,
+        20,
+        24,
+        25,
+        28 ;
+    skos:prefLabel "végétaliser les berges"@fr .
+
+:Vegetalizelesberges a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 6,
+        8,
+        9,
+        17 ;
+    skos:prefLabel "vegetalizeLesBerges"@fr .
+
+:Appreciation_De_Lacclimatation_Attendue_Des_Individus a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        16,
+        24 ;
+    skos:prefLabel "Appréciation de l’acclimatation attendue des individus"@fr .
+
+:Appreciation_Des_Impacts_Du_Deplacement a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        16,
+        24 ;
+    skos:prefLabel "Appréciation des impacts du déplacement"@fr .
+
+:Evaluationenvironnementale a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 6,
+        8,
+        9,
+        17 ;
+    skos:prefLabel "evaluationEnvironnementale"@fr .
+
+:Inventaire_Annuel_Aoutseptembre a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        16,
+        18 ;
+    skos:prefLabel "inventaire annuel août-septembre"@fr .
+
+:Mesure_De_La_Croissance a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        16,
+        24 ;
+    skos:prefLabel "Mesure de la croissance"@fr .
+
+:Mesure_Du_Deplacement a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        16,
+        24 ;
+    skos:prefLabel "Mesure du déplacement"@fr .
+
+:Mesure_Du_Taux_De_Mortalite a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        16,
+        24 ;
+    skos:prefLabel "Mesure du taux de mortalité"@fr .
+
+:Mesure_Du_Taux_De_Reprise a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        16,
+        24 ;
+    skos:prefLabel "Mesure du taux de reprise"@fr .
+
+:Rapportannuel a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 6,
+        8,
+        9,
+        17 ;
+    skos:prefLabel "rapportAnnuel"@fr .
+
+:Respectdesbonnespratiquesenvironnementales a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 6,
+        8,
+        9,
+        17 ;
+    skos:prefLabel "respectDesBonnesPratiquesEnvironnementales"@fr .
+
+:Restorationmonitoring a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 6,
+        9,
+        10,
+        17 ;
+    skos:prefLabel "restorationMonitoring"@fr .
+
+:Survie_Des_Mulettes_Epaisses_Deplacees a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        16 ;
+    skos:prefLabel "Survie des Mulettes épaisses déplacées"@fr,
+        "survie des Mulettes épaisses déplacées"@fr .
+
+:Scientificmonitoring a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 6,
+        9,
+        10,
+        13 ;
+    skos:prefLabel "scientificMonitoring"@fr .
+
+:Grand_Est a owl:NamedIndividual ;
+    :dataSource "1 Demande de dérogation espèce protégée dans le cadre des travaux de restauration de la Zorn Mulette épaisse (Unio crassus) - Cabinet A.Waechter – v2 10/10/2024"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 6,
+        8,
+        9,
+        10,
+        13,
+        17,
+        18,
+        20,
+        24,
+        25,
+        26,
+        28 ;
+    skos:prefLabel "Grand Est"@fr .
+

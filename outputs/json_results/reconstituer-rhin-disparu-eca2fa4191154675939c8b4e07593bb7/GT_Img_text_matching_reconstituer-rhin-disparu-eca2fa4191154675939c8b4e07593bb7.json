@@ -1,0 +1,7 @@
+{
+  "img_p1_1.png": ["page_1_block_1", "page_1_block_2", "page_1_block_3", "page_2_block_1", "page_2_block_2", "page_3_block_1", "page_4_block_1", "page_4_block_2"],
+  "img_p3_1.png": ["page_2_block_2", "page_3_block_1", "page_4_block_1", "page_4_block_2"],
+  "img_p4_1.png": ["page_2_block_2", "page_3_block_1", "page_4_block_1", "page_4_block_2"],
+  "img_p5_1.png": ["page_4_block_2", "page_5_block_1", "page_5_block_2", "page_6_block_1"],
+  "img_p5_2.png": ["page_4_block_2", "page_5_block_1", "page_5_block_2", "page_6_block_1"]
+}

@@ -1,0 +1,7 @@
+{
+    "pdf_name": "Rapport-stage-M2-Floriane",
+    "model": "qwen2vl-7b-sum",
+    "summary": "Le document examine l'étude de la biodiversité et de la conservation des poissons dans le bassin du Rhin, avec un accent sur le saumon. Floriane Kuntzler a mené un stage à l'Agence Française pour la Biodiversité, étudiant le potentiel du Vieux Rhin pour les grands salmonidés migrateurs. Elle a travaillé sur le métabolisme thermique, la cartographie des habitats et les données piscicoles. Les efforts pour restaurer les habitats comprennent la création de passes à poissons, l'amélioration de l'habitat, la gestion de la qualité de l'eau et la surveillance des poissons. Des mesures ont été prises pour améliorer les conditions pour les poissons migrateurs, comme la mise en place de passes à poissons mobiles et fixes. Les écarts de température peuvent affecter la migration des poissons, et le réchauffement climatique peut perturber les activités et l'abondance d'autres espèces. Les modifications de l'hydrologie et des facteurs environnementaux ont également été étudiées, ainsi que l'impact des espèces invasives et des variations de température.",
+    "word_count": 160,
+    "input_word_count": 17525
+}

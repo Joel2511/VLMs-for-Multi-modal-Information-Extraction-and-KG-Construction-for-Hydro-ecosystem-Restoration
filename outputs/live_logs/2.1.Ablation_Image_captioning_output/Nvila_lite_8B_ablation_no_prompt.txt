@@ -1,0 +1,140 @@
+--- Loading nvila-lite-8b with baseline_noprompt retrieval context ---
+    Generator : nvila-lite-8b
+    Retriever : baseline_noprompt
+Using a slow image processor as `use_fast` is unset and a slow processor was saved with this model. `use_fast=True` will be the default behavior in v4.52, even if the model was saved with a slow processor. This will result in minor differences in outputs. You'll still be able to use a slow processor with `use_fast=False`.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:43<02:09, 43.13s/it]Loading checkpoint shards:  50%|█████     | 2/4 [01:25<01:25, 42.89s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [02:09<00:43, 43.14s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:20<00:00, 30.73s/it]Loading checkpoint shards: 100%|██████████| 4/4 [02:20<00:00, 35.25s/it]
+    Model size   : 8.1B parameters
+    Loaded at    : 13:12:45
+    Load time    : 00h 02m 38s
+
+========== PROCESSING [dossier_unio_crassus_zorn_v4_19_11_2024] ==========
+    Images to caption: 19
+    [1/19] img_p14_1.png -> L'image montre une personne en train de prospecter dans un lac. Le prospecteur, Antoine Waechter, es... (11.2s)
+    [2/19] img_p16_1.png -> L'image montre un individu de Mulette épaisse dans la Zorn. Le Mulette épaisse est une espèce de poi... (8.2s)
+    [3/19] img_p1_1.png -> L'image montre un paysage naturel paisible avec un petit cours d'eau coulant au milieu d'une forêt d... (12.6s)
+    [4/19] img_p21_1.png -> L'image montre une vue aérienne d'une zone agricole. Le champ principal est divisé en deux sections ... (9.3s)
+    [5/19] img_p13_1.png -> L'image présente une carte de France et de l'Est de la France, montrant la répartition de la Muletel... (17.0s)
+    [6/19] img_p15_1.png -> L'image montre une carte aérienne d'une région rurale, probablement en France, avec une route princi... (14.8s)
+    [7/19] img_p18_1.png -> L'image présente une carte aérienne d'une zone rurale, probablement en France, avec une étendue de c... (12.7s)
+    [8/19] img_p24_1.png -> L'image présente une carte réalisée à l'aide de Google Earth, montrant l'impact d'un projet sur le f... (15.0s)
+    [9/19] img_p20_1.png -> L'image présente une carte réalisée à l'aide d'un logiciel de cartographie, probablement ArcGIS. Ell... (14.8s)
+    [10/19] img_p26_1.png -> L'image montre un cours d'eau paisible, probablement un ruisseau ou une petite rivière, coulant à tr... (6.5s)
+    [11/19] img_p28_1.png -> L'image montre une main tenant une petite pierre ovale et lisse dans la paume. La pierre est de coul... (14.3s)
+    [12/19] img_p25_1.png -> This image is a detailed map of a rural area, showing various sites and features. The map is labeled... (14.5s)
+    [13/19] img_p5_1.png -> L'image présente une carte hydrographique de la région d'Étude, localisée en France. La carte est co... (4.5s)
+    [14/19] img_p10_1.png -> L'image montre une vue aérienne d'un champ agricole. Le champ est divisé en différentes sections par... (9.5s)
+    [15/19] img_p9_1.png -> L'image présente une vue aérienne d'un projet de développement hydrographique sur une rivière. Le fl... (24.1s)
+    [16/19] img_p13_2.png -> L'image présente une carte de la région de Haguenau, en France, avec une étiquette en français "Figu... (11.7s)
+    [17/19] img_p6_1.png -> L'image montre un cours d'eau paisible, probablement un fleuve ou une rivière, coulant dans un paysa... (6.7s)
+    [18/19] img_p17_1.png -> La figure 10 présente une distribution des effectifs par classe de taille en centimètres. Elle montr... (5.1s)
+    [19/19] img_p8_1.png -> L'image présente une vue aérienne d'un projet de développement urbain appelé "Projet secteur aval". ... (7.0s)
+========== COMPLETED [dossier_unio_crassus_zorn_v4_19_11_2024] in 00h 03m 42s ==========
+
+========== PROCESSING [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] ==========
+    Images to caption: 5
+    [1/5] img_p1_1.png -> L'image présente une série de cartes historiques du Rhin supérieur, couvrant les années 1828, 1872 e... (17.5s)
+    [2/5] img_p5_2.png -> L'image présente deux panoramas du Rhin depuis le Rocher d'Istein, séparés par deux siècles. Le prem... (5.1s)
+    [3/5] img_p5_1.png -> L'image montre une carte postale ancienne datant de 1935, montrant une installation d'épis en fascin... (6.9s)
+    [4/5] img_p3_1.png -> L'image présente une carte montrant le Rhin supérieur entre Bâle et Breisach. Elle est divisée en Fr... (7.9s)
+    [5/5] img_p4_1.png -> L'image présente une carte de 1946 montrant la position des épis, seuils de fond et digues longitudi... (16.9s)
+========== COMPLETED [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] in 00h 00m 55s ==========
+
+========== PROCESSING [Rapport-stage-M2-Floriane] ==========
+    Images to caption: 38
+    [1/38] img_p47_2.png -> L'image présente un graphique complexe combinant deux types de données : l'amplitude thermique journ... (14.5s)
+    [2/38] img_p53_1.png -> L'image présente une carte réalisée en 2018 par Floriane Kuntzler, utilisant QGIS Version 2.2.0 avec... (12.0s)
+    [3/38] img_p21_1.png -> La figure 10 présente un graphique combiné de données de température et de débit d'eau du Rhin. Le g... (11.7s)
+    [4/38] img_p13_1.png -> L'image montre une scène de rivière avec une pente abrupte et une rive en pente. La rivière est calm... (6.1s)
+    [5/38] img_p23_2.png -> This image displays a pie chart titled "Figure 12: Proportions des différents faciès recensés sur le... (10.9s)
+    [6/38] img_p50_4.png -> L'image montre un paysage naturel impressionnant avec un fleuve en pleine action. L'eau est agitée, ... (9.3s)
+    [7/38] img_p45_2.png -> L'image présente un graphique en ligne qui compare les températures mesurées par des sondes Vogelgrü... (14.0s)
+    [8/38] img_p50_2.png -> L'image montre un paysage paisible avec un lac au centre, entouré de forêts verdoyantes. Le ciel est... (5.9s)
+    [9/38] img_p46_1.png -> L'image présente un graphique complexe avec deux axes de coordonnées et plusieurs courbes colorées. ... (23.2s)
+    [10/38] img_p22_1.png -> L'image présente un graphique de température en fonction du temps pour quatre villes différentes : G... (13.8s)
+    [11/38] img_p15_1.png -> L'image montre une sonde thermique fixée à un robinet d'eau. La sonde est fixée à une petite plaque ... (6.0s)
+    [12/38] img_p24_1.png -> Le graphique présente une barre de couleur pour chaque année de 2007 à 2017, avec des barres de diff... (47.1s)
+    [13/38] img_p20_1.png -> La figure 9 présente un graphique combiné de données climatiques et hydrologiques pour Fessenheim (V... (13.7s)
+    [14/38] img_p52_2.png -> Le graphique fournit une représentation de la distribution des différentes catégories de facies dans... (6.3s)
+    [15/38] img_p34_1.png -> L'image montre une couche d'armature, une technique de construction utilisée pour renforcer les fond... (8.1s)
+    [16/38] img_p19_1.png -> La graphique présente une comparaison des températures instantanées et moyennes journalières à Breis... (8.9s)
+    [17/38] img_p43_2.png -> L'image présente un graphique en barres avec trois barres colorées. La barre orange représente la pr... (3.2s)
+    [18/38] img_p50_3.png -> L'image montre un cours d'eau paisible, probablement un fleuve ou une rivière, coulant à travers une... (7.5s)
+    [19/38] img_p25_1.png -> Le graphique présente une barre de couleur pour chaque année de 2007 à 2017, avec des barres de diff... (47.1s)
+    [20/38] img_p50_5.png -> L'image montre un paysage naturel avec un lac ou une rivière en arrière-plan, entouré de forêts et d... (9.8s)
+    [21/38] img_p51_1.png -> La figure présente un graphique de température et d'humidité relative pour le mois de mars. Le graph... (7.6s)
+    [22/38] img_p51_2.png -> L'image présente un graphique de données météorologiques pour la ville de Toulouse, en France. Il mo... (45.3s)
+    [23/38] img_p47_1.png -> L'image présente un graphique de données thermiques journalières pour deux villes : Fessenheim (VR) ... (18.6s)
+    [24/38] img_p11_1.png -> L'image montre un passage à poissons de Gambesheim, un site de migration de poissons situé en France... (45.3s)
+    [25/38] img_p9_1.png -> Cette image est une illustration détaillée du cycle de vie du saumon, créée par J.O. Penanen pour la... (14.1s)
+    [26/38] img_p49_1.png -> L'image présente une carte géologique d'une rivière, avec une légende en français expliquant les dif... (9.4s)
+    [27/38] img_p23_3.png -> L'image montre un paysage naturel pittoresque avec un fleuve en cours de dégel. Le Rhin, un fleuve i... (10.6s)
+    [28/38] img_p13_2.png -> L'image montre une vue aérienne d'un fleuve en France. Le fleuve Rhin coule à travers un paysage ver... (8.7s)
+    [29/38] img_p45_1.png -> L'image présente un graphique à double axe montrant les températures et les écarts thermiques sur un... (14.8s)
+    [30/38] img_p23_1.png -> L'image montre une scène de rivière avec une rive en pente. Le rivage est composé de roches et de gr... (11.3s)
+    [31/38] img_p43_1.png -> L'image présente une carte détaillée de la région du Rhin, située en France et en Allemagne. Elle mo... (17.5s)
+    [32/38] img_p52_1.png -> L'image présente deux vues aériennes d'une zone forestière, montrant une rivière coulant à travers u... (48.2s)
+    [33/38] img_p19_2.png -> L'image présente un graphique complexe qui compare les températures journalières à Vogelgrun (GCA) e... (15.9s)
+    [34/38] img_p8_1.png -> L'image présente deux cartes du Rhin, une ancienne et une moderne, juxtaposées pour montrer les modi... (17.4s)
+    [35/38] img_p48_1.png -> L'image présente un graphique de données météorologiques pour trois localités différentes : Fessenhe... (16.0s)
+    [36/38] img_p50_1.png -> L'image montre un cours d'eau en pleine eau, probablement un fleuve ou une rivière. L'eau est claire... (6.8s)
+    [37/38] img_p34_2.png -> L'image montre un substrat recouvert d'algues, probablement une surface sous-marine. Les algues sont... (7.8s)
+    [38/38] img_p44_1.png -> L'image présente une carte réalisée en 2018 par Kuntzler, montrant la région du Rhin en France. Elle... (18.9s)
+========== COMPLETED [Rapport-stage-M2-Floriane] in 00h 10m 18s ==========
+
+========== PROCESSING [fichier] ==========
+    Images to caption: 25
+    [1/25] img_p13_2.png -> L'image montre deux paysages différents. À gauche, il y a une vue de la rivière au droit des premièr... (5.4s)
+    [2/25] img_p20_2.png -> L'image montre deux paysages de berges de rivières avant et après une restauration. À gauche, on peu... (6.2s)
+    [3/25] img_p14_1.png -> L'image présente deux vues de la même zone naturelle, montrant un important développement végétal su... (14.5s)
+    [4/25] img_p11_1.png -> L'image montre deux paysages de cours d'eau dans une forêt. Sur la gauche, un cours d'eau coule au m... (6.2s)
+    [5/25] img_p23_1.png -> This image depicts a detailed cross-sectional diagram of a river embankment that has been retrofitte... (15.6s)
+    [6/25] img_p14_2.png -> L'image présente deux vues de la même zone naturelle, montrant un cours d'eau et une prairie. La vue... (7.3s)
+    [7/25] img_p15_1.png -> L'image montre deux paysages différents sur le tronçon 6. À gauche, on voit une rive boisée avec des... (5.3s)
+    [8/25] img_p8_1.png -> L'image présente deux paysages naturels distincts. À gauche, on voit un champ ouvert avec une herbe ... (9.5s)
+    [9/25] img_p19_1.png -> L'image présente deux vues de la même zone, montrant des étangs et des digues sur un tronçon 8. La v... (6.4s)
+    [10/25] img_p10_1.png -> L'image présente deux scènes distinctes. À gauche, on observe un secteur aval d'une rivière, avec un... (7.5s)
+    [11/25] img_p17_1.png -> L'image montre deux vues de la même zone, montrant des ouvrages hydrauliques et des déversoirs. La v... (5.2s)
+    [12/25] img_p21_1.png -> L'image montre deux vues de la même zone, avant et après une intervention de gestion de l'eau. À gau... (6.8s)
+    [13/25] img_p12_1.png -> L'image présente une série de trois photographies montrant l'aspect du cours d'eau sur le tronçon 3.... (12.8s)
+    [14/25] img_p7_1.png -> L'image présente une carte géographique détaillée de la région de Norroy, en France. Elle montre un ... (15.2s)
+    [15/25] img_p17_2.png -> L'image présente deux paysages distincts, chacun représentant une vue différente du même tronçon de ... (11.0s)
+    [16/25] img_p20_1.png -> L'image présente deux scènes distinctes de la vie naturelle et de l'urbanisation. À gauche, on obser... (15.7s)
+    [17/25] img_p1_1.png -> L'image présente une étude hydro-morphologique du ruisseau de Norroy, réalisée par SAFEGE, une entre... (13.2s)
+    [18/25] img_p10_2.png -> L'image montre deux vues de la même rivière, prise à des moments différents. La rivière est étroite ... (5.7s)
+    [19/25] img_p16_1.png -> L'image montre deux vues de la même section de rivière, prise à des moments différents. La vue de ga... (6.2s)
+    [20/25] img_p13_1.png -> L'image présente deux paysages de cours d'eau différents. À gauche, on voit un cours d'eau étroit et... (8.4s)
+    [21/25] img_p18_1.png -> L'image montre deux vues de la même zone naturelle, montrant un cours d'eau et une zone de prairie. ... (6.2s)
+    [22/25] img_p19_2.png -> L'image présente deux types différents d'ouvrages sur le tronçon 8. À gauche, il y a un tunnel en bé... (9.2s)
+    [23/25] img_p22_1.png -> L'image montre deux paysages de cours d'eau différents. À gauche, on voit un cours d'eau naturel ave... (8.1s)
+    [24/25] img_p1_2.png -> L'image présente un logo pour la communauté de communes de Maizières-les-Metz. Le logo est composé d... (6.8s)
+    [25/25] img_p9_1.png -> L'image montre deux vues de la rivière à l'aval du tronçon 1. La vue de gauche présente une vue géné... (4.2s)
+========== COMPLETED [fichier] in 00h 03m 42s ==========
+
+========== PROCESSING [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] ==========
+    Images to caption: 18
+    [1/18] img_p16_1.png -> L'image présente une série de quatre photographies aériennes montrant l'évolution de la zone de sour... (14.1s)
+    [2/18] img_p1_1.png -> L'image montre une forêt dense et verdoyante. Des arbres hauts et minces avec des troncs courbés ver... (7.7s)
+    [3/18] img_p21_1.png -> L'image présente une illustration de la forme d'une vallée de rang zéro, accompagnée d'une photograp... (6.8s)
+    [4/18] img_p4_2.png -> L'image présente une carte hydrographique de la classification de Strahler, utilisée par l'Agence de... (11.8s)
+    [5/18] img_p12_1.png -> L'image présente une carte de France avec une représentation de la densité de rangs zéro manuels de ... (17.6s)
+    [6/18] img_p22_1.png -> L'image présente une représentation graphique de la rupture de pente classiquement observable en tra... (13.8s)
+    [7/18] img_p15_1.png -> L'image présente une série de quatre cartes et photographies aériennes montrant un secteur de la com... (15.3s)
+    [8/18] img_p28_1.png -> L'image présente trois graphiques représentant des profils en travers de vallées réalisés sur les ra... (13.3s)
+    [9/18] img_p10_1.png -> This image is a diagram illustrating various forest management practices that promote aquatic and te... (14.4s)
+    [10/18] img_p9_1.png -> L'image présente une série de quatre photographies montrant des fonds de vallées de différentes form... (13.3s)
+    [11/18] img_p12_2.png -> L'image présente une carte de France avec une représentation de la densité de population. Elle est d... (46.2s)
+    [12/18] img_p40_1.png -> Cette image est une carte géologique détaillée qui montre les différentes couches de roches et les s... (12.5s)
+    [13/18] img_p6_1.png -> Cette image est une illustration de la figure 3, qui montre l'évolution du point d'émergence d'une s... (13.6s)
+    [14/18] img_p17_1.png -> L'image présente une collection de huit cartes topographiques françaises, organisées en deux colonne... (17.1s)
+    [15/18] img_p23_1.png -> L'image présente une série de quatre photographies montrant des profils de sol sur des stations en r... (13.6s)
+    [16/18] img_p31_1.png -> L'image présente deux exemples de marais, des zones humides naturelles. Le marais à gauche est situé... (7.2s)
+    [17/18] img_p4_1.png -> This image is a schematic diagram of a drainage basin of rank 0, illustrating the various components... (17.5s)
+    [18/18] img_p21_2.png -> La figure 12 présente une représentation schématique de la coupe transversale d'une vallée de rang z... (3.6s)
+========== COMPLETED [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] in 00h 04m 21s ==========
+
+============================================================
+  PIPELINE COMPLETE
+  Generator model  : nvila-lite-8b
+  Retrieval model  : baseline_noprompt
+  Total runtime    : 00h 25m 39s
+============================================================

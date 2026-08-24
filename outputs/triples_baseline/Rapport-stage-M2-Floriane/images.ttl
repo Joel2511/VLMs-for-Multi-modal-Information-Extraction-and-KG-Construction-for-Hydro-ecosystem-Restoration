@@ -1,0 +1,1729 @@
+@prefix : <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Algues a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 34 ;
+    skos:note "affectedBy: environmental factors"@fr,
+        "affectedBy: temperature changes"@fr,
+        "hasColor: brunes"@fr,
+        "hasColor: vertes"@fr,
+        "hasImpact: creating habitats for fish"@fr,
+        "hasImpact: modifying substrate structure"@fr,
+        "indicatorOf: quality of water"@fr ;
+    skos:prefLabel "algues"@fr .
+
+:Arbres a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 50 ;
+    skos:note "isContainedIn: rives"@fr ;
+    skos:prefLabel "arbres"@fr .
+
+:Arbres_Et_Arbustes a :habitatRestoration,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasFunction "habitats pour les poissons et les autres organismes aquatiques"^^xsd:string ;
+    :hasPageNumber 50 ;
+    :isLocatedIn :Bassin_Du_Rhin ;
+    skos:prefLabel "arbres et arbustes"@fr .
+
+:Barrage_Rouleuse a :structure,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 50 ;
+    :isLocatedOn :Vk ;
+    skos:note "isLocatedAval: VK"@fr,
+        "isLocatedDownstream: VK"@fr ;
+    skos:prefLabel "barrage rouleuse"@fr .
+
+:Barre_Rocheuse a :naturalObstacle,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 50 ;
+    :isLocatedOn :Amont,
+        :Vr ;
+    skos:prefLabel "barre rocheuse"@fr .
+
+:Bergere a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 23 ;
+    :isLocatedOn :Gambesheim ;
+    :isSubjectTo :Habitatrestoration,
+        :Lateralcontinuityrestoration,
+        :Longitudinalcontinuityrestoration,
+        :Profilediversification,
+        :Restoration,
+        :Restoringspawninggrounds,
+        :Riverbankexcavation,
+        :Riverbankrestoration,
+        :Sedimenttransport ;
+    skos:prefLabel "bergère"@fr .
+
+:Construction_De_Passe_A_Poissons_En_Cours a :restorationOperation,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 43 ;
+    :hasPurpose :Conservation_Des_Poissons,
+        :Important_Pour_Les_Poissons_Migrateurs,
+        :Redynamization,
+        :Site_F3_De_Blodelsheim ;
+    :isLocatedIn :Bassin_Du_Rhin ;
+    skos:prefLabel "Construction de passe à poissons en cours"@fr .
+
+:Couche_Darmurage a :technicalElement,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 34 ;
+    :hasPurpose :Protection_Des_Berges,
+        "maintien de la stabilité du lit du fleuve"^^xsd:string ;
+    :isLocatedOn :Vieux_Rhin ;
+    skos:prefLabel "couche d’armurage"@fr .
+
+:Debits a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 46 ;
+    skos:note "variesWithSeason: automne"@fr,
+        "variesWithSeason: hiver"@fr,
+        "variesWithSeason: printemps"@fr,
+        "variesWithSeason: été"@fr ;
+    skos:prefLabel "débits"@fr .
+
+:Degradations a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 50 ;
+    :isLocatedOn :Absence ;
+    skos:note "isContainedIn: cours d’eau"@fr ;
+    skos:prefLabel "dégradations"@fr .
+
+:Ecarts_De_Temperature a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 19,
+        34,
+        45,
+        48,
+        52 ;
+    :isLocatedIn :Bassin_Du_Rhin ;
+    skos:note "affecter: migration des poissons"@fr,
+        "canAffect: migration des poissons"@fr,
+        "varierEntre: 0 et 20 degrés Celsius"@fr,
+        "étudier: facteurs environnementaux"@fr,
+        "étudier: impact des espèces invasives"@fr,
+        "étudier: modifications de l’hydrologie"@fr,
+        "étudier: réchauffement climatique"@fr ;
+    skos:prefLabel "écarts de température"@fr .
+
+:Ecarts_De_Temperature_Journalieres a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 47 ;
+    :hasPurpose :Comprendre_Les_Conditions_Environnementales ;
+    :isLocatedOn :Fessenheim,
+        :Vogelgrun ;
+    :isSubjectTo :Biologicalmonitoring,
+        :Hydromorphologicalmonitoring,
+        :Scientificmonitoring ;
+    skos:note "affecter: abondances relativement faibles"@fr,
+        "affecter: abondances relativement élevées"@fr,
+        "affecter: développement et survie des poissons migrateurs"@fr,
+        "affecter: facteurs environnementaux"@fr,
+        "affecter: migration des poissons"@fr,
+        "affecter: températures maximales"@fr,
+        "affecter: températures minimales"@fr ;
+    skos:prefLabel "écarts de température journalières"@fr .
+
+:Floriane_Kuntzler a :otherActor,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 44 ;
+    :hasPurpose :Collecter_Des_Donnees_Piscicoles ;
+    :isLocatedOn "2018"^^xsd:string ;
+    skos:prefLabel "Floriane Kuntzler"@fr .
+
+:Formation_De_Gravier a :gravelInsertion,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasFunction "permet aux poissons de se déplacer et de se nourrir"^^xsd:string ;
+    :hasPageNumber 50 ;
+    :hasPurpose :Conservation_Des_Poissons ;
+    :isLocatedIn :Bassin_Du_Rhin ;
+    :isLocatedOn :Vk ;
+    :isSubjectTo :Redynamization ;
+    skos:prefLabel "formation de gravier"@fr .
+
+:Galets_Et_Graviers a :technicalElement,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 34 ;
+    skos:note "canAffect: morphologie du cours d’eau"@fr,
+        "canBeRemobilizedBy: crues"@fr ;
+    skos:prefLabel "galets et graviers"@fr .
+
+:Geiswasser a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 44 ;
+    :isLocatedOn :Rhin ;
+    skos:prefLabel "Geiswasser"@fr .
+
+:Grand_Canal_Dalsace a :artificialRiver,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 8 ;
+    :isLocatedOn :Breisach,
+        :Kembs ;
+    skos:prefLabel "Grand Canal d’Alsace"@fr .
+
+:Humidite_Relative a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 51 ;
+    skos:note "variesFrom: 0 à 100 pour cent"@fr ;
+    skos:prefLabel "humidité relative"@fr .
+
+:Ilot_Du_Vieux_Rhin a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 23 ;
+    :isLocatedIn :Rhin ;
+    skos:prefLabel "îlot du Vieux Rhin"@fr .
+
+:Ilots a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 34 ;
+    skos:note "areLocatedOn: bords du Vieux Rhin"@fr ;
+    skos:prefLabel "îlots"@fr .
+
+:Kems a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 44 ;
+    :isLocatedOn :Rhin ;
+    skos:prefLabel "Kems"@fr .
+
+:Modification_Du_Rhin a :restorationOperation,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 8 ;
+    :hasPurpose :Produire_De_Lenergie,
+        :Proteger_Des_Crues,
+        :Rendre_Le_Cours_Deau_Navigable ;
+    :isLocatedOn :Xixeme_Siecle,
+        :Xxieme_Siecle ;
+    skos:prefLabel "modification du Rhin"@fr .
+
+:Niffer a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 44 ;
+    :isLocatedOn :Rhin ;
+    skos:prefLabel "Niffer"@fr .
+
+:Ottmarsheim a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasNumberOfInstallations "2"^^xsd:string ;
+    :hasPageNumber 44 ;
+    :isLocatedOn :Rhin ;
+    skos:prefLabel "Ottmarsheim"@fr .
+
+:Petitlandau a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 44 ;
+    :isLocatedOn :Rhin ;
+    skos:prefLabel "Petit-Landau"@fr .
+
+:Pierres_Et_Roches_De_Differentes_Tailles a :structure,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasFunction "maintien de la vitesse de l’eau et prévention des écoulements rapides"^^xsd:string ;
+    :hasPageNumber 50 ;
+    :isLocatedIn :Bassin_Du_Rhin ;
+    skos:prefLabel "pierres et roches de différentes tailles"@fr .
+
+:Plantes_Aquatiques a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 50 ;
+    skos:note "isContainedIn: cours d’eau"@fr ;
+    skos:prefLabel "plantes aquatiques"@fr .
+
+:Poissons a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 48 ;
+    skos:note "affecter: écarts de température"@fr,
+        "étudier: abondance"@fr ;
+    skos:prefLabel "poissons"@fr .
+
+:Presence_Dalgues a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 34 ;
+    skos:note "canInfluence: qualité des habitats pour les poissons"@fr ;
+    skos:prefLabel "présence d’algues"@fr .
+
+:Remobilisation_De_La_Charge a :sedimentTransport,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 34 ;
+    skos:note "canAffect: activités et abondance d’autres espèces"@fr ;
+    skos:prefLabel "remobilisation de la charge"@fr .
+
+:Restauration_Des_Habitats a :restoration,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 23 ;
+    :hasPurpose :Amelioration_De_Lhabitat,
+        :Developpement_Et_Survie_Des_Poissons_Migrateurs,
+        :Protection_Des_Berges ;
+    skos:prefLabel "restauration des habitats"@fr .
+
+:Rives a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 50 ;
+    :isLocatedOn :Cours_Deau ;
+    skos:note "hasRiverbankRestoration: true"@fr ;
+    skos:prefLabel "rives"@fr .
+
+:Saumons a :migratorySpecie,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 34 ;
+    skos:note "needs: nourriture pour la reproduction"@fr,
+        "needs: substrats appropriés"@fr,
+        "needs: températures appropriées"@fr ;
+    skos:prefLabel "saumons"@fr .
+
+:Sol a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 50 ;
+    skos:note "isContainedIn: rives"@fr ;
+    skos:prefLabel "sol"@fr .
+
+:Sol_Vente_De_La_Formation_De_Gravier a :riverbankRestoration,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasFunction "stabilité du cours d’eau et prévention des érosions"^^xsd:string ;
+    :hasPageNumber 50 ;
+    :isLocatedIn :Bassin_Du_Rhin ;
+    skos:prefLabel "sol venté de la formation de gravier"@fr .
+
+:Sonde_Thermique a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasHydromorphologicalMonitoring :Varient_En_Fonction_Des_Saisons ;
+    :hasMonitoringCost :Important_Pour_Les_Poissons_Migrateurs ;
+    :hasMonitoringDescription :Amplitudes_Thermiques_Journalieres ;
+    :hasMonitoringEndDate :Automne ;
+    :hasMonitoringStartDate :Printemps ;
+    :hasPageNumber 15 ;
+    :hasPurpose :Conservation_Des_Poissons ;
+    :isLocatedIn :Bassin_Du_Rhin ;
+    :isLocatedOn :Site_F3_De_Blodelsheim ;
+    skos:note "isPartOf: programme Interreg IV Rhin Supérieur"@fr ;
+    skos:prefLabel "sonde thermique"@fr .
+
+:Structures_Humaines a :structure,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 50 ;
+    :isImpassable :False ;
+    skos:note "isContainedIn: cours d’eau"@fr ;
+    skos:prefLabel "structures humaines"@fr .
+
+:Substrat a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 34 ;
+    skos:note "canInfluence: qualité des habitats pour les poissons"@fr ;
+    skos:prefLabel "substrat"@fr .
+
+:Support_Metallique a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasMonitoringDescription :Amplitudes_Thermiques_Journalieres ;
+    :hasMonitoringEndDate :Automne ;
+    :hasMonitoringStartDate :Printemps ;
+    :hasPageNumber 15 ;
+    :hasPurpose :Conservation_Des_Poissons ;
+    :isLocatedIn :Bassin_Du_Rhin ;
+    :isLocatedOn :Site_F3_De_Blodelsheim ;
+    skos:note "isPartOf: programme Interreg IV Rhin Supérieur"@fr ;
+    skos:prefLabel "support métallique"@fr .
+
+:Surface_De_Substrat a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 34 ;
+    skos:note "contains: algues"@fr ;
+    skos:prefLabel "surface de substrat"@fr .
+
+:Temperature a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasMonitoringDescription :Ecarts_Instantanes_De_Temperature,
+        :Moyennes_Journalieres_De_Temperature ;
+    :hasPageNumber 19,
+        34 ;
+    skos:note "canInfluence: qualité des habitats pour les poissons"@fr ;
+    skos:prefLabel "température"@fr .
+
+:Temperatures_Maximales a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 51 ;
+    :hasPurpose :Developpement_Et_Survie_Des_Poissons_Migrateurs ;
+    skos:note "variesFrom: 0 à 30 degrés Celsius"@fr ;
+    skos:prefLabel "températures maximales"@fr .
+
+:Temperatures_Minimales a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 51 ;
+    :hasPurpose :Developpement_Et_Survie_Des_Poissons_Migrateurs ;
+    skos:note "variesFrom: -10 à 20 degrés Celsius"@fr ;
+    skos:prefLabel "températures minimales"@fr .
+
+:Terre_Et_Foret a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 49 ;
+    :isLocatedOn :Riviere ;
+    skos:prefLabel "terre et forêt"@fr .
+
+:Villageneuf a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 44 ;
+    :isLocatedOn :Rhin ;
+    skos:prefLabel "Village-Neuf"@fr .
+
+:Zones_De_Vegetation a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 49 ;
+    :isLocatedOn :Riviere ;
+    skos:prefLabel "zones de végétation"@fr .
+
+:Zones_Derosion a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 34 ;
+    skos:note "areLocatedOn: bords du Vieux Rhin"@fr ;
+    skos:prefLabel "zones d’érosion"@fr .
+
+:hasDescription a owl:DatatypeProperty .
+
+:hasFunction a owl:DatatypeProperty .
+
+:hasHydromorphologicalMonitoring a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:hasMonitoringCost a owl:ObjectProperty .
+
+:hasMonitoringDescription a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:hasMonitoringEndDate a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:hasMonitoringStartDate a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:hasNumberOfInstallations a owl:DatatypeProperty .
+
+:hasNumberOfPools a owl:DatatypeProperty .
+
+:hasPurpose a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:includes a owl:ObjectProperty .
+
+:isImpassable a owl:ObjectProperty .
+
+:isLocatedIn a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:isLocatedOn a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:isSubjectTo a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl/instance_graph> a owl:Ontology .
+
+:Abondances_Relativement_Elevees a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 25 ;
+    skos:prefLabel "abondances relativement élevées"@fr .
+
+:Abondances_Relativement_Faibles a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 25 ;
+    skos:prefLabel "abondances relativement faibles"@fr .
+
+:Absence a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 50 ;
+    skos:prefLabel "absence"@fr .
+
+:Absence_De_Representation_Visuelle a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 52 ;
+    skos:prefLabel "absence de représentation visuelle"@fr .
+
+:Affecter_La_Migration_Des_Poissons a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 51 ;
+    skos:prefLabel "affecter la migration des poissons"@fr .
+
+:Amont a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 50 ;
+    skos:prefLabel "amont"@fr .
+
+:Collecter_Des_Donnees_Piscicoles a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 44 ;
+    skos:prefLabel "collecter des données piscicoles"@fr .
+
+:Comprendre_Les_Conditions_Environnementales a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 47 ;
+    skos:prefLabel "comprendre les conditions environnementales"@fr .
+
+:Couleurs_Correspondant_Aux_Annees_De_Letude a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 25 ;
+    skos:prefLabel "couleurs correspondant aux années de l’étude"@fr .
+
+:Cours_Deau a :river,
+        :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasHydromorphologicalMonitoring :True ;
+    :hasPageNumber 50 ;
+    :isLocatedIn :Bassin_Du_Rhin,
+        :Rhin ;
+    :isLocatedOn :Bassin_Du_Rhin,
+        :Nature ;
+    :isSubjectTo :Distributionbasin,
+        :Habitatrestoration,
+        :Hydromorphologicalmonitoring,
+        :Lateralcontinuityrestoration,
+        :Longitudinalcontinuityrestoration,
+        :Profilediversification,
+        :Reconnection,
+        :Redynamization,
+        :Regularflooding,
+        :Restoration,
+        :Restoringspawninggrounds,
+        :Riverbankrestoration,
+        :Sedimenttransport ;
+    skos:note "hasRiverbank: rives boisées"@fr ;
+    skos:prefLabel "cours d’eau"@fr .
+
+:Differenttemperatures a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 21 ;
+    skos:prefLabel "differentTemperatures"@fr .
+
+:Especes_Invasives a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 51,
+        52 ;
+    skos:note "étudiées: impact sur la biodiversité"@fr ;
+    skos:prefLabel "espèces invasives"@fr .
+
+:Facteurs_Environnementaux a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 51,
+        52 ;
+    skos:note "étudier: développement et survie des poissons migrateurs"@fr,
+        "étudiés: impact sur la biodiversité"@fr ;
+    skos:prefLabel "facteurs environnementaux"@fr .
+
+:False a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 50 ;
+    skos:prefLabel "false"@fr .
+
+:Geographiczone a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 53 ;
+    skos:prefLabel "geographicZone"@fr .
+
+:Gestion_De_La_Qualite_De_Leau a :restorationMeasure,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 52 ;
+    :hasPurpose :Developpement_Et_Survie_Des_Poissons_Migrateurs ;
+    skos:prefLabel "gestion de la qualité de l’eau"@fr .
+
+:Hashydromorphologicalmonitoring a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 23 ;
+    skos:prefLabel "hasHydromorphologicalMonitoring"@fr .
+
+:Hightemperatures a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 21 ;
+    skos:prefLabel "highTemperatures"@fr .
+
+:Ill a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 21 ;
+    skos:prefLabel "Ill"@fr .
+
+:Impact_Des_Especes_Invasives a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 51,
+        52 ;
+    skos:note "étudier: développement et survie des poissons migrateurs"@fr ;
+    skos:prefLabel "impact des espèces invasives"@fr .
+
+:Importante_Pour_Les_Poissons_Migrateurs a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 47 ;
+    skos:prefLabel "importante pour les poissons migrateurs"@fr .
+
+:Lac a :Lake,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 13 ;
+    :isLocatedOn :Kembs,
+        :Petit_Rhin ;
+    skos:prefLabel "lac"@fr .
+
+:Modifications_De_Lhydrologie a :restorationOperation,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 19,
+        51,
+        52 ;
+    :hasPurpose :Developpement_Et_Survie_Des_Poissons_Migrateurs ;
+    skos:note "étudiées: impact des espèces invasives et des variations de température"@fr,
+        "étudiées: impact sur la biodiversité"@fr ;
+    skos:prefLabel "modifications de l’hydrologie"@fr .
+
+:Nature a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 50 ;
+    skos:prefLabel "nature"@fr .
+
+:Non_Specifie a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 52 ;
+    skos:prefLabel "non spécifié"@fr .
+
+:Old_Rhine a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 21 ;
+    skos:prefLabel "Old Rhine"@fr .
+
+:Passe_A_Poisson_De_Gambesheim a :fishway,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasDescription "passage à poissons dans un cours d’eau"^^xsd:string ;
+    :hasPageNumber 11,
+        23,
+        52 ;
+    :hasPurpose "amélioration de l’habitat pour les poissons migrateurs"^^xsd:string ;
+    :isLocatedIn :Gambesheim ;
+    :isLocatedOn :Bassin_Du_Rhin ;
+    :isSubjectTo :Absence_De_Passes_A_Poissons,
+        :Amelioration_De_Lhabitat,
+        :Barres_Colorees_Pour_Chaque_Annee,
+        :Creation_De_Passes_A_Poissons,
+        :Distributionbasin,
+        :Organisees_Par_Espece_De_Poisson,
+        :Presence_De_Passes_A_Poissons,
+        :Surveillance_Des_Poissons,
+        "construction de passe à poissons en cours"^^xsd:string ;
+    skos:note "containsTechnicalElement: marches en eau claire"@fr,
+        "containsTechnicalElement: murs en béton blanc"@fr ;
+    skos:prefLabel "Passe à poisson de Gambesheim"@fr .
+
+:Peches_Afb a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 25 ;
+    skos:prefLabel "pêches AFB"@fr .
+
+:Petit_Rhin a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 13 ;
+    :isLocatedOn :Kembs,
+        :Lac ;
+    skos:note "hasAffluent: Rhin"@fr,
+        "hasAssociatedVegetation: ambiance naturelle"@fr,
+        "hasAssociatedVegetation: arbres et buissons"@fr,
+        "hasAssociatedVegetation: nuages"@fr,
+        "hasAssociatedVegetation: paysage"@fr,
+        "hasAssociatedVegetation: terre et forêt"@fr,
+        "hasAssociatedVegetation: végétation dense"@fr,
+        "hasAssociatedVegetation: zones de marais"@fr,
+        "hasAssociatedVegetation: zones de végétation"@fr,
+        "hasFlowRate: 7 mètres cubes par seconde"@fr ;
+    skos:prefLabel "Petit Rhin"@fr .
+
+:Produire_De_Lenergie a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 8 ;
+    skos:prefLabel "produire de l’énergie"@fr .
+
+:Proteger_Des_Crues a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 8 ;
+    skos:prefLabel "protéger des crues"@fr .
+
+:Qualite_De_Leau a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 52 ;
+    skos:prefLabel "qualité de l’eau"@fr .
+
+:Reconnection a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 50 ;
+    skos:prefLabel "reconnection"@fr .
+
+:Regularflooding a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 50 ;
+    skos:prefLabel "regularFlooding"@fr .
+
+:Rendre_Le_Cours_Deau_Navigable a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 8 ;
+    skos:prefLabel "rendre le cours d’eau navigable"@fr .
+
+:Restorationmeasure a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13 ;
+    skos:prefLabel "restorationMeasure"@fr .
+
+:Restorationmonitoring a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 22 ;
+    skos:prefLabel "restorationMonitoring"@fr .
+
+:Restorationoperation a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13 ;
+    skos:prefLabel "restorationOperation"@fr .
+
+:Riverbankexcavation a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 23 ;
+    skos:prefLabel "riverbankExcavation"@fr .
+
+:Saumon a :migratorySpecie,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 25,
+        52 ;
+    :hasPurpose :Conservation_Des_Poissons ;
+    skos:prefLabel "saumon"@fr .
+
+:Sedimentrecharging a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13 ;
+    skos:prefLabel "sedimentRecharging"@fr .
+
+:Temperatures a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasHydromorphologicalMonitoring :Amplitudes_Thermiques_Journalieres,
+        :Differenttemperatures,
+        :Hightemperatures ;
+    :hasPageNumber 21,
+        45,
+        46 ;
+    skos:note "variesWithSeason: automne"@fr,
+        "variesWithSeason: hiver"@fr,
+        "variesWithSeason: printemps"@fr,
+        "variesWithSeason: été"@fr ;
+    skos:prefLabel "températures"@fr .
+
+:Variations_De_Labondance_Des_Poissons a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 25 ;
+    skos:prefLabel "variations de l’abondance des poissons"@fr .
+
+:Vieux_Rhin a :river,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 8,
+        34 ;
+    :isLocatedOn :Breisach,
+        :Kembs ;
+    skos:note "hasRestorationOperation: modification"@fr ;
+    skos:prefLabel "Vieux Rhin"@fr .
+
+:Vieuxrhin a :river,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasHydromorphologicalMonitoring :Ecarts_Thermiques,
+        :Hashydromorphologicalmonitoring,
+        :Hasmonitoringcost,
+        :Hasmonitoringdescription,
+        :Hasmonitoringenddate,
+        :Hasmonitoringstartdate,
+        :True,
+        :Variations_Saisonnieres,
+        "températures entre 0 et 25 degrés Celsius"^^xsd:string ;
+    :hasPageNumber 21,
+        22,
+        23 ;
+    :isLocatedIn :Bassin_Du_Rhin,
+        :Bassin_Francais_Du_Rhin ;
+    :isSubjectTo :Biologicalmonitoring,
+        :Ecologicalmonitoring,
+        :Hydromorphologicalmonitoring,
+        :Restorationmonitoring,
+        :Scientificmonitoring ;
+    skos:note "hasProfileDiversification: profileDiversification"@fr,
+        "hasProfileDiversification: true"@fr,
+        "hasRestorationOperation: habitatRestoration"@fr,
+        "hasRestorationOperation: lateralContinuityRestoration"@fr,
+        "hasRestorationOperation: longitudinalContinuityRestoration"@fr,
+        "hasRestorationOperation: redynamization"@fr,
+        "hasRestorationOperation: restoringSpawningGrounds"@fr,
+        "hasRestorationOperation: riverbankRestoration"@fr,
+        "hasRestorationOperation: sedimentTransport"@fr ;
+    skos:prefLabel "Vieux-Rhin"@fr .
+
+:Vr a :river,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 50 ;
+    :isLocatedIn :Bassin_Du_Rhin ;
+    skos:prefLabel "VR"@fr .
+
+:Xixeme_Siecle a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 8 ;
+    skos:prefLabel "XIXème siècle"@fr .
+
+:Xxieme_Siecle a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 8 ;
+    skos:prefLabel "XXIème siècle"@fr .
+
+:Absence_De_Passes_A_Poissons a :restorationOperation,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 11,
+        21,
+        43 ;
+    :hasPurpose :Conservation_Des_Poissons,
+        :Important_Pour_Les_Poissons_Migrateurs,
+        :Redynamization,
+        :Site_F3_De_Blodelsheim ;
+    :isLocatedIn :Bassin_Du_Rhin ;
+    skos:prefLabel "Absence de passes à poissons"@fr,
+        "absence de passes à poissons"@fr .
+
+:Barres_Colorees_Pour_Chaque_Annee a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 11,
+        25 ;
+    skos:prefLabel "barres colorées pour chaque année"@fr .
+
+:Bassin_Francais_Du_Rhin a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 21,
+        23 ;
+    skos:prefLabel "Bassin français du Rhin"@fr .
+
+:Creation_De_Passes_A_Poissons a :restorationOperation,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 11,
+        23,
+        52 ;
+    :hasPurpose :Developpement_Et_Survie_Des_Poissons_Migrateurs,
+        :Migration_Des_Poissons ;
+    :includes :Distributionbasin,
+        :Passe_A_Poisson_De_Gambesheim ;
+    :isLocatedOn :Gambesheim ;
+    skos:prefLabel "creation de passes à poissons"@fr,
+        "création de passes à poissons"@fr .
+
+:Debit_Du_Rhin a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasHydromorphologicalMonitoring :Debit_Du_Rhin ;
+    :hasMonitoringDescription :Varie_En_Fonction_Des_Saisons ;
+    :hasPageNumber 20,
+        21,
+        45,
+        47 ;
+    :hasPurpose :Crucial_Pour_Les_Poissons ;
+    :isLocatedOn :Bale ;
+    :isSubjectTo :Hydromorphologicalmonitoring ;
+    skos:prefLabel "débit du Rhin"@fr .
+
+:Ecologicalmonitoring a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13,
+        22 ;
+    skos:prefLabel "ecologicalMonitoring"@fr .
+
+:Ete a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 20,
+        47 ;
+    skos:prefLabel "été"@fr .
+
+:Fessenheim a :country,
+        :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasHydromorphologicalMonitoring :Ecarts_Thermiques,
+        :Graphique ;
+    :hasMonitoringDescription :Ecarts_Instantanes_De_Temperature,
+        :Moyennes_Journalieres_De_Temperature ;
+    :hasNumberOfInstallations "2"^^xsd:string ;
+    :hasPageNumber 19,
+        44,
+        47 ;
+    :isLocatedIn :Bale ;
+    :isLocatedOn :Rhin ;
+    skos:prefLabel "Fessenheim"@fr .
+
+:France a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 43,
+        44 ;
+    skos:prefLabel "France"@fr .
+
+:Hasmonitoringcost a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 23,
+        46 ;
+    skos:prefLabel "hasMonitoringCost"@fr .
+
+:Hasmonitoringdescription a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 23,
+        46 ;
+    skos:prefLabel "hasMonitoringDescription"@fr .
+
+:Hasmonitoringenddate a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 23,
+        46 ;
+    skos:prefLabel "hasMonitoringEndDate"@fr .
+
+:Hasmonitoringstartdate a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 23,
+        46 ;
+    skos:prefLabel "hasMonitoringStartDate"@fr .
+
+:Hiver a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 20,
+        47 ;
+    skos:prefLabel "hiver"@fr .
+
+:Image a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 50,
+        52 ;
+    skos:prefLabel "image"@fr .
+
+:Lateralcontinuityrestoration a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 23,
+        50 ;
+    skos:prefLabel "lateralContinuityRestoration"@fr .
+
+:Longitudinalcontinuityrestoration a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 23,
+        50 ;
+    skos:prefLabel "longitudinalContinuityRestoration"@fr .
+
+:Migration_Des_Poissons a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 23,
+        52 ;
+    skos:prefLabel "migration des poissons"@fr .
+
+:Organisees_Par_Espece_De_Poisson a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 11,
+        25 ;
+    skos:prefLabel "organisées par espèce de poisson"@fr .
+
+:Presence_De_Passes_A_Poissons a :restorationOperation,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 11,
+        21,
+        43 ;
+    :hasPurpose :Conservation_Des_Poissons,
+        :Important_Pour_Les_Poissons_Migrateurs,
+        :Redynamization,
+        :Site_F3_De_Blodelsheim ;
+    :isLocatedIn :Bassin_Du_Rhin ;
+    skos:prefLabel "Présence de passes à poissons"@fr,
+        "présence de passes à poissons"@fr .
+
+:Programme_Interreg_Iv_Rhin_Superieur a :restorationMeasure,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasHydromorphologicalMonitoring :Crucial_Pour_Les_Poissons,
+        :Important_Pour_Les_Poissons_Migrateurs ;
+    :hasMonitoringDescription :Absence_De_Passes_A_Poissons,
+        :Construction_De_Passe_A_Poissons,
+        :Presence_De_Passes_A_Poissons,
+        "construction de passe à poissons en cours"^^xsd:string ;
+    :hasPageNumber 13,
+        21,
+        24 ;
+    :isLocatedIn :Bale,
+        :Bassin_Francais_Du_Rhin,
+        :Ill,
+        :Old_Rhine,
+        :Vieuxrhin ;
+    skos:prefLabel "Programme Interreg IV Rhin Supérieur"@fr,
+        "programme Interreg IV Rhin Supérieur"@fr .
+
+:Protection_Des_Berges a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 23,
+        34 ;
+    skos:prefLabel "protection des berges"@fr .
+
+:Rechauffement_Climatique a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 51,
+        52 ;
+    skos:note "perturbe: activités et abondance d’autres espèces"@fr,
+        "perturber: activités et abondance d’autres espèces"@fr ;
+    skos:prefLabel "réchauffement climatique"@fr .
+
+:Riverbankrestoration a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 23,
+        50 ;
+    skos:prefLabel "riverbankRestoration"@fr .
+
+:Riviere a :river,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 23,
+        49 ;
+    :isLocatedOn :Gambesheim ;
+    skos:prefLabel "rivière"@fr .
+
+:Scientificmonitoring a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 22,
+        47 ;
+    skos:prefLabel "scientificMonitoring"@fr .
+
+:Sedimenttransport a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 23,
+        50 ;
+    skos:prefLabel "sedimentTransport"@fr .
+
+:Surveillance_Des_Poissons a :restorationMonitoring,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 11,
+        52 ;
+    :hasPurpose :Developpement_Et_Survie_Des_Poissons_Migrateurs ;
+    skos:prefLabel "surveillance des poissons"@fr .
+
+:Variations_De_Temperature a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 51,
+        52 ;
+    skos:note "affecte: migration des poissons"@fr,
+        "étudier: développement et survie des poissons migrateurs"@fr,
+        "étudiées: impact sur la biodiversité"@fr ;
+    skos:prefLabel "variations de température"@fr .
+
+:Variations_Saisonnieres a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 22,
+        24 ;
+    skos:prefLabel "variations saisonnières"@fr .
+
+:Varie_En_Fonction_Des_Saisons a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 20,
+        47 ;
+    skos:prefLabel "varie en fonction des saisons"@fr .
+
+:Amelioration_De_Lhabitat a :restorationMeasure,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 11,
+        23,
+        52 ;
+    :hasPurpose :Developpement_Et_Survie_Des_Poissons_Migrateurs ;
+    skos:prefLabel "amélioration de l’habitat"@fr .
+
+:Biologicalmonitoring a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13,
+        22,
+        47 ;
+    skos:prefLabel "biologicalMonitoring"@fr .
+
+:Construction_De_Passe_A_Poissons a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13,
+        21,
+        24 ;
+    skos:prefLabel "construction de passe à poissons"@fr .
+
+:Distributionbasin a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 11,
+        23,
+        50,
+        52 ;
+    skos:prefLabel "distributionBasin"@fr .
+
+:Ecarts_Instantanes_De_Temperature a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 19 ;
+    skos:prefLabel "écarts instantanés de température"@fr .
+
+:Habitatrestoration a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13,
+        23,
+        50 ;
+    skos:prefLabel "habitatRestoration"@fr .
+
+:Moyennes_Journalieres_De_Temperature a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 19 ;
+    skos:prefLabel "moyennes journalières de température"@fr .
+
+:Profilediversification a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13,
+        23,
+        50 ;
+    skos:prefLabel "profileDiversification"@fr .
+
+:Restoringspawninggrounds a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13,
+        23,
+        50 ;
+    skos:prefLabel "restoringSpawningGrounds"@fr .
+
+:True a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 23,
+        46,
+        50 ;
+    skos:prefLabel "true"@fr .
+
+:Varient_En_Fonction_Des_Saisons a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        20,
+        47 ;
+    skos:prefLabel "varient en fonction des saisons"@fr .
+
+:Vk a :river,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 45,
+        50 ;
+    :isLocatedOn :Bale ;
+    skos:note "hasElement: arbres sur les berges"@fr,
+        "hasElement: ciel avec des nuages"@fr,
+        "hasElement: eau en mouvement"@fr,
+        "hasElement: rochers"@fr,
+        "hasStructure: barrage rouleuse"@fr ;
+    skos:prefLabel "VK"@fr .
+
+:Vogelgrun a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 46,
+        47 ;
+    skos:prefLabel "Vogelgrun"@fr .
+
+:Amplitudes_Thermiques_Journalieres a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasMonitoringDescription :Varient_En_Fonction_Des_Saisons ;
+    :hasMonitoringStartDate :Automne,
+        :Ete,
+        :Hiver,
+        :Printemps ;
+    :hasPageNumber 15,
+        20,
+        21,
+        45,
+        47 ;
+    :hasPurpose :Importante_Pour_Les_Poissons_Migrateurs ;
+    :isLocatedOn :Fessenheim,
+        :Vogelgrun ;
+    :isSubjectTo :Hydromorphologicalmonitoring ;
+    skos:prefLabel "amplitudes thermiques journalières"@fr .
+
+:Automne a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        20,
+        47 ;
+    skos:prefLabel "automne"@fr .
+
+:Breisach a :country,
+        :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasHydromorphologicalMonitoring :Ecarts_Thermiques,
+        :Graphique ;
+    :hasMonitoringDescription :Ecarts_Instantanes_De_Temperature,
+        :Moyennes_Journalieres_De_Temperature ;
+    :hasNumberOfInstallations "1"^^xsd:string ;
+    :hasNumberOfPools "1"^^xsd:string ;
+    :hasPageNumber 8,
+        19,
+        44,
+        46 ;
+    :isLocatedIn :Bale ;
+    :isLocatedOn :Rhin ;
+    skos:prefLabel "Breisach"@fr .
+
+:Crucial_Pour_Les_Poissons a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 20,
+        21,
+        45,
+        47 ;
+    skos:prefLabel "crucial pour les poissons"@fr .
+
+:Ecarts_Thermiques a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasHydromorphologicalMonitoring :Graphique ;
+    :hasPageNumber 19,
+        22,
+        45 ;
+    :isImpassable :Crucial_Pour_Les_Poissons,
+        :Important_Pour_Les_Poissons_Migrateurs ;
+    :isLocatedIn :Bassin_Du_Rhin ;
+    skos:note "varierEntre: 0 et 5 degrés Celsius"@fr,
+        "variesInSeason: automne"@fr,
+        "variesInSeason: hiver"@fr,
+        "variesInSeason: printemps"@fr,
+        "variesInSeason: été"@fr ;
+    skos:prefLabel "écarts thermiques"@fr .
+
+:Graphique a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasHydromorphologicalMonitoring :Automne,
+        :Bassin_Du_Rhin,
+        :Conservation_Des_Poissons,
+        :Crucial_Pour_Les_Poissons,
+        :Ecarts_Thermiques,
+        :Ete,
+        :Hiver,
+        :Important_Pour_Les_Poissons_Migrateurs,
+        :Printemps,
+        :Varie_En_Fonction_Des_Saisons,
+        :Varient_En_Fonction_Des_Saisons ;
+    :hasMonitoringDescription :Amplitudes_Thermiques_Journalieres,
+        :Conservation_Des_Poissons,
+        :Construction_De_Passe_A_Poissons,
+        :Debit_Du_Rhin,
+        :Graphique,
+        :Important_Pour_Les_Poissons_Migrateurs,
+        :Programme_Interreg_Iv_Rhin_Superieur,
+        :Redynamization,
+        :Site_F3_De_Blodelsheim,
+        :Temperatures,
+        :Variations_Saisonnieres,
+        "variations de température dans les différentes stations le long du VVR"^^xsd:string ;
+    :hasMonitoringEndDate "06/04/18"^^xsd:string,
+        "06/06/18"^^xsd:string,
+        "06/06/2018"^^xsd:string,
+        "22 mai 2018"^^xsd:string ;
+    :hasMonitoringStartDate "19/08/17"^^xsd:string,
+        "21/07/17"^^xsd:string,
+        "21/07/2017"^^xsd:string,
+        "30 mars 2018"^^xsd:string ;
+    :hasPageNumber 19,
+        20,
+        21,
+        22,
+        24,
+        45,
+        46,
+        47,
+        48,
+        51 ;
+    :hasPurpose :Affecter_La_Migration_Des_Poissons ;
+    :isLocatedIn :Bale,
+        :Bassin_Du_Rhin,
+        "contexte de la biodiversité et de la conservation des poissons dans le bassin du Rhin"^^xsd:string,
+        "contexte environnemental et à la restauration des cours d’eau du Rhin"^^xsd:string ;
+    :isSubjectTo :Facteurs_Environnementaux,
+        :Impact_Des_Especes_Invasives,
+        :Modifications_De_Lhydrologie,
+        :Rechauffement_Climatique,
+        :Variations_De_Temperature ;
+    skos:note "axeX: 21/07/17 au 06/06/18"@fr,
+        "axeX: dates"@fr,
+        "axeY: degrés Celsius"@fr,
+        "axeY: écarts de température et écarts thermiques"@fr,
+        "contenir: courbe bleue"@fr,
+        "contenir: courbe rouge"@fr,
+        "contenir: courbe verte"@fr,
+        "courbebleue: différences sondes de Breisach"@fr,
+        "courberouge: données de l’usine"@fr,
+        "courbeverte: écarts thermiques"@fr,
+        "montrer: variations saisonnières de la température et du débit du Rhin"@fr,
+        "page: 48"@fr,
+        "representer: écarts de température et écarts thermiques"@fr,
+        "représenter: Fessenheim-Village-Neuf"@fr,
+        "représenter: Geisweiler-Village-Neuf"@fr,
+        "représenter: Village-Neuf"@fr,
+        "représenter: dates"@fr,
+        "représenter: localités"@fr,
+        "représenter: écarts de température"@fr,
+        "utilisépour: étudier l’impact des changements climatiques sur les poissons migrateurs et la biodiversité du bassin du Rhin"@fr ;
+    skos:prefLabel "graphique"@fr .
+
+:Printemps a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        20,
+        47 ;
+    skos:prefLabel "printemps"@fr .
+
+:Restoration a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13,
+        23,
+        50,
+        53 ;
+    skos:prefLabel "restoration"@fr .
+
+:Gambesheim a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 11,
+        23,
+        49,
+        52 ;
+    :isLocatedIn :Rhin ;
+    skos:prefLabel "Gambesheim"@fr,
+        "gambesheim"@fr .
+
+:Kembs a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 8,
+        13 ;
+    skos:prefLabel "Kembs"@fr .
+
+:Hydromorphologicalmonitoring a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13,
+        22,
+        47,
+        50 ;
+    skos:prefLabel "hydromorphologicalMonitoring"@fr .
+
+:Site_F3_De_Blodelsheim a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 13,
+        15,
+        24,
+        43,
+        45 ;
+    :isLocatedIn :Bale ;
+    :isSubjectTo :Biologicalmonitoring,
+        :Construction_De_Passe_A_Poissons,
+        :Ecologicalmonitoring,
+        :Habitatrestoration,
+        :Hydromorphologicalmonitoring,
+        :Profilediversification,
+        :Programme_Interreg_Iv_Rhin_Superieur,
+        :Redynamization,
+        :Restoration,
+        :Restorationmeasure,
+        :Restorationoperation,
+        :Restoringspawninggrounds,
+        :Sedimentrecharging ;
+    skos:prefLabel "site F3 de Blodelsheim"@fr .
+
+:Redynamization a :redynamization,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 13,
+        24,
+        43,
+        45,
+        50 ;
+    :isLocatedIn :Vk ;
+    skos:prefLabel "redynamization"@fr .
+
+:Developpement_Et_Survie_Des_Poissons_Migrateurs a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 23,
+        51,
+        52 ;
+    skos:prefLabel "développement et survie des poissons migrateurs"@fr .
+
+:Bale a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 13,
+        19,
+        20,
+        21,
+        45,
+        46,
+        47,
+        50,
+        52 ;
+    skos:prefLabel "Bâle"@fr .
+
+:Important_Pour_Les_Poissons_Migrateurs a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 15,
+        20,
+        21,
+        24,
+        43,
+        45 ;
+    skos:prefLabel "important pour les poissons migrateurs"@fr .
+
+:Conservation_Des_Poissons a owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 15,
+        20,
+        24,
+        43,
+        45,
+        50,
+        52,
+        53 ;
+    :isImpassable :Important_Pour_Les_Poissons_Migrateurs ;
+    skos:prefLabel "conservation des poissons"@fr .
+
+:Rhin a :river,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasHydromorphologicalMonitoring :Hasmonitoringcost,
+        :Hasmonitoringdescription,
+        :Hasmonitoringenddate,
+        :Hasmonitoringstartdate,
+        :True ;
+    :hasPageNumber 8,
+        23,
+        43,
+        44,
+        46,
+        50,
+        52 ;
+    :isLocatedIn :Bale,
+        :Breisach,
+        :France,
+        :Gambesheim,
+        :Vogelgrun ;
+    :isLocatedOn :Breisach,
+        :France,
+        :Kembs ;
+    skos:note "hasFishSpecies: saumon"@fr,
+        "hasHydrologyStudy: modifications de l’hydrologie"@fr,
+        "hasMonitoring: biodiversité et conservation des poissons"@fr,
+        "hasMonitoring: développement et survie des poissons migrateurs"@fr,
+        "hasMonitoring: facteurs environnementaux"@fr,
+        "hasMonitoring: formation de gravier"@fr,
+        "hasMonitoring: humidité relative"@fr,
+        "hasMonitoring: impact des espèces invasives"@fr,
+        "hasMonitoring: moyennes journalières de température"@fr,
+        "hasMonitoring: présence d’algues"@fr,
+        "hasMonitoring: températures maximales"@fr,
+        "hasMonitoring: températures minimales"@fr,
+        "hasMonitoring: zones d’érosion"@fr,
+        "hasMonitoring: écarts de température journalières"@fr,
+        "hasRestorationOperation: Grand Canal d’Alsace"@fr,
+        "hasRestorationOperation: Tulla"@fr,
+        "hasRestorationOperation: restauration des cours d’eau"@fr,
+        "hasRestorationOperation: régularisation"@fr ;
+    skos:prefLabel "Rhin"@fr .
+
+:Bassin_Du_Rhin a :distributionBasin,
+        owl:NamedIndividual ;
+    :dataSource "Master 2 Génie des Environnements Naturels Faune sauvage et Environnement Contribution à la caractérisation du potentiel du Vieux Rhin pour les grands salmonidés migrateurs : métabolisme thermique, cartographie des habitats et données piscicoles disponibles Rapport de stage réalisé par KUNTZLER Floriane Structure d’accueil Agence Française pour la Biodiversité 57155 MARLY Dates du stage : du 1er mars au 31 août 2018 Maîtres de stage M. MONNIER David & M. LACERENZA Jean-Franck ANNÉE UNIVERSITAIRE 2017-2018 [HEADER] Remerciements Je remercie Monsieur Patrick Weingertner, Directeur Régional de l’Agence Française pour la Biodiversité, pour m’avoir accueilli au sein de son établissement."^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasDescription "contexte de la biodiversité et de la conservation des poissons"^^xsd:string ;
+    :hasHydromorphologicalMonitoring :Absence_De_Representation_Visuelle,
+        :Amelioration_De_Lhabitat,
+        :Creation_De_Passes_A_Poissons,
+        :Especes_Invasives,
+        :Gestion_De_La_Qualite_De_Leau,
+        :Migration_Des_Poissons,
+        :Qualite_De_Leau,
+        :Rechauffement_Climatique,
+        :Surveillance_Des_Poissons,
+        :Variations_De_Temperature,
+        "mise en place de passes à poissons mobiles et fixes"^^xsd:string ;
+    :hasMonitoringCost :Non_Specifie ;
+    :hasMonitoringDescription :Abondances_Relativement_Elevees,
+        :Abondances_Relativement_Faibles,
+        :Barres_Colorees_Pour_Chaque_Annee,
+        :Couleurs_Correspondant_Aux_Annees_De_Letude,
+        :Organisees_Par_Espece_De_Poisson,
+        :Peches_Afb,
+        :Saumon,
+        :Variations_De_Labondance_Des_Poissons,
+        "abondances relatives des poissons retrouvés en faible effectif"^^xsd:string,
+        "abréviations telles que \"ANG\", \"ASP\", \"BLN\", \"BOU\", \"BRO\", \"CHA\", \"GRE\", \"LOR\", \"LPP\", \"OCL\", \"PER\", \"PES\", \"PSR\", \"SAT\", \"SIL\", \"SPI\", \"TAN\", \"TRF\""^^xsd:string,
+        "bleu, rouge, vert, violet, orange et jaune"^^xsd:string,
+        "facteurs qui peuvent affecter la biodiversité et la conservation des poissons"^^xsd:string ;
+    :hasMonitoringEndDate :Image,
+        "2017"^^xsd:string ;
+    :hasMonitoringStartDate :Image,
+        "2007"^^xsd:string ;
+    :hasPageNumber 11,
+        15,
+        20,
+        22,
+        24,
+        25,
+        43,
+        45,
+        50,
+        52,
+        53 ;
+    :hasPurpose :Conservation_Des_Poissons,
+        :Restoration ;
+    :isLocatedIn :Bale,
+        :Bassin_Du_Rhin,
+        :Geographiczone ;
+    skos:prefLabel "bassin du Rhin"@fr .
+

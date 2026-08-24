@@ -1,0 +1,150 @@
+{
+  "per_pdf": [
+    {
+      "pdf": "2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire",
+      "triple_counts": {
+        "text_only": 3248,
+        "image_only": 795,
+        "merged_total": 3798
+      },
+      "entity_counts": {
+        "text_individuals": 420,
+        "image_individuals": 89,
+        "merged_individuals": 455,
+        "new_from_images": 58,
+        "cross_modal_nodes": 31
+      },
+      "metrics": {
+        "SCR": 0.7937,
+        "SCR_pct": 79.37,
+        "demoted": 197,
+        "conformant": 758,
+        "delta_degree": 0.4421,
+        "avg_deg_text": 4.7031,
+        "avg_deg_merged": 5.1452,
+        "CMLD": 0.2467,
+        "CMLD_pct": 24.67,
+        "cm_edges": 187
+      }
+    },
+    {
+      "pdf": "Rapport-stage-M2-Floriane",
+      "triple_counts": {
+        "text_only": 4014,
+        "image_only": 1550,
+        "merged_total": 5143
+      },
+      "entity_counts": {
+        "text_individuals": 475,
+        "image_individuals": 158,
+        "merged_individuals": 536,
+        "new_from_images": 90,
+        "cross_modal_nodes": 68
+      },
+      "metrics": {
+        "SCR": 0.7256,
+        "SCR_pct": 72.56,
+        "demoted": 425,
+        "conformant": 1124,
+        "delta_degree": 0.6246,
+        "avg_deg_text": 5.2218,
+        "avg_deg_merged": 5.8464,
+        "CMLD": 0.5249,
+        "CMLD_pct": 52.49,
+        "cm_edges": 590
+      }
+    },
+    {
+      "pdf": "dossier_unio_crassus_zorn_v4_19_11_2024",
+      "triple_counts": {
+        "text_only": 1441,
+        "image_only": 632,
+        "merged_total": 1892
+      },
+      "entity_counts": {
+        "text_individuals": 162,
+        "image_individuals": 68,
+        "merged_individuals": 186,
+        "new_from_images": 32,
+        "cross_modal_nodes": 36
+      },
+      "metrics": {
+        "SCR": 0.7204,
+        "SCR_pct": 72.04,
+        "demoted": 158,
+        "conformant": 407,
+        "delta_degree": 0.6178,
+        "avg_deg_text": 4.9026,
+        "avg_deg_merged": 5.5204,
+        "CMLD": 0.5651,
+        "CMLD_pct": 56.51,
+        "cm_edges": 230
+      }
+    },
+    {
+      "pdf": "fichier",
+      "triple_counts": {
+        "text_only": 946,
+        "image_only": 694,
+        "merged_total": 1481
+      },
+      "entity_counts": {
+        "text_individuals": 73,
+        "image_individuals": 56,
+        "merged_individuals": 95,
+        "new_from_images": 26,
+        "cross_modal_nodes": 30
+      },
+      "metrics": {
+        "SCR": 0.5665,
+        "SCR_pct": 56.65,
+        "demoted": 277,
+        "conformant": 362,
+        "delta_degree": 1.6995,
+        "avg_deg_text": 5.7692,
+        "avg_deg_merged": 7.4688,
+        "CMLD": 0.5249,
+        "CMLD_pct": 52.49,
+        "cm_edges": 190
+      }
+    },
+    {
+      "pdf": "reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7",
+      "triple_counts": {
+        "text_only": 507,
+        "image_only": 334,
+        "merged_total": 744
+      },
+      "entity_counts": {
+        "text_individuals": 62,
+        "image_individuals": 43,
+        "merged_individuals": 82,
+        "new_from_images": 21,
+        "cross_modal_nodes": 22
+      },
+      "metrics": {
+        "SCR": 0.9441,
+        "SCR_pct": 94.41,
+        "demoted": 9,
+        "conformant": 152,
+        "delta_degree": 0.586,
+        "avg_deg_text": 4.1333,
+        "avg_deg_merged": 4.7193,
+        "CMLD": 0.6842,
+        "CMLD_pct": 68.42,
+        "cm_edges": 104
+      }
+    }
+  ],
+  "aggregate": {
+    "total_pdfs": 5,
+    "total_text_triples": 10156,
+    "total_image_triples": 4005,
+    "total_merged_triples": 13058,
+    "total_new_entities_from_images": 227,
+    "avg_SCR": 0.7501,
+    "avg_delta_degree": 0.794,
+    "avg_CMLD": 0.5092,
+    "avg_enrichment_ratio": 1.3593
+  }
+}

@@ -1,0 +1,350 @@
+--- Loading qwen3vl-30b with vidore retrieval context ---
+    Generator : qwen3vl-30b
+    Retriever : vidore
+    Max memory map : {0: '28.2GiB', 1: '28.2GiB', 2: '28.2GiB', 'cpu': '60GB'}
+Loading checkpoint shards:   0%|          | 0/13 [00:00<?, ?it/s]Loading checkpoint shards:   8%|▊         | 1/13 [00:05<01:06,  5.54s/it]Loading checkpoint shards:  15%|█▌        | 2/13 [00:11<01:00,  5.53s/it]Loading checkpoint shards:  23%|██▎       | 3/13 [00:16<00:55,  5.56s/it]Loading checkpoint shards:  31%|███       | 4/13 [00:22<00:50,  5.60s/it]Loading checkpoint shards:  38%|███▊      | 5/13 [00:27<00:44,  5.59s/it]Loading checkpoint shards:  46%|████▌     | 6/13 [00:33<00:39,  5.57s/it]Loading checkpoint shards:  54%|█████▍    | 7/13 [00:39<00:33,  5.59s/it]Loading checkpoint shards:  62%|██████▏   | 8/13 [00:44<00:28,  5.61s/it]Loading checkpoint shards:  69%|██████▉   | 9/13 [00:50<00:22,  5.61s/it]Loading checkpoint shards:  77%|███████▋  | 10/13 [00:55<00:16,  5.59s/it]Loading checkpoint shards:  85%|████████▍ | 11/13 [01:01<00:11,  5.58s/it]Loading checkpoint shards:  92%|█████████▏| 12/13 [01:07<00:05,  5.60s/it]Loading checkpoint shards: 100%|██████████| 13/13 [01:10<00:00,  5.06s/it]Loading checkpoint shards: 100%|██████████| 13/13 [01:10<00:00,  5.45s/it]
+    Model size   : 30.3B parameters
+    Loaded at    : 16:05:30
+
+========== PROCESSING [dossier_unio_crassus_zorn_v4_19_11_2024] ==========
+    Images to caption: 19
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+    [1/19] img_p14_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Une personne effectuant une ... (29.1s)
+    [2/19] img_p16_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Un individu de Mulette épais... (29.5s)
+    [3/19] img_p1_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Un cours d'eau dans une forê... (41.8s)
+    [4/19] img_p21_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : PHOTO
+
+Sujet principal : Une vue aérienne d'un cours d'e... (43.7s)
+    [5/19] img_p13_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Répartition géographique de la... (123.0s)
+    [6/19] img_p15_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Carte de localisation d'un tra... (36.9s)
+    [7/19] img_p18_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Répartition spatiale d'individ... (39.3s)
+    [8/19] img_p24_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Une carte d'impact environneme... (45.2s)
+    [9/19] img_p20_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Carte d'évolution des habitats... (54.5s)
+    [10/19] img_p26_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : PHOTO
+
+Sujet principal : Un cours d'eau, la Zorn, vu au ... (26.9s)
+    [11/19] img_p28_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Une coquille de mollusque (p... (43.1s)
+    [12/19] img_p25_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Carte de localisation de sites... (126.3s)
+    [13/19] img_p5_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Carte topographique et hydrogr... (41.7s)
+    [14/19] img_p10_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Une carte aérienne d'une zone ... (34.9s)
+    [15/19] img_p9_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Un projet de restauration d'un... (44.9s)
+    [16/19] img_p13_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Une carte géographique montran... (50.2s)
+    [17/19] img_p6_1.png -> PHASE 1 — DESCRIPTION LIBRE  
+TYPE VISUEL : PHOTO  
+Sujet principal : Un tronçon de la rivière Zorn,... (118.1s)
+    [18/19] img_p17_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : GRAPH
+- Sujet principal : Un histogramme montrant la r... (55.1s)
+    [19/19] img_p8_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Une carte aérienne d'un projet... (41.6s)
+========== COMPLETED [dossier_unio_crassus_zorn_v4_19_11_2024] in 00h 17m 10s ==========
+
+========== PROCESSING [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] ==========
+    Images to caption: 5
+    [1/5] img_p1_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : MAP / DIAGRAM
+Sujet principal : Une série de six cartes ... (38.8s)
+    [2/5] img_p5_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Deux vues panoramiques du Rh... (43.7s)
+    [3/5] img_p5_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- TYPE VISUEL : PHOTO
+- SUJET PRINCIPAL : Une embarcation en bois, cha... (38.5s)
+    [4/5] img_p3_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Une carte du Rhin Supérieur en... (28.9s)
+    [5/5] img_p4_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP / DIAGRAM
+- Sujet principal : Une carte historique... (35.6s)
+========== COMPLETED [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] in 00h 03m 06s ==========
+
+========== PROCESSING [Rapport-stage-M2-Floriane] ==========
+    Images to caption: 38
+    [1/38] img_p34_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- TYPE VISUEL : PHOTO
+- SUJET PRINCIPAL : Vue sous-marine d'un substra... (35.6s)
+    [2/38] img_p13_2.png -> PHASE 1 — DESCRIPTION LIBRE (obligatoire, sans référence à aucun texte externe) :
+- Type visuel : PH... (33.1s)
+    [3/38] img_p50_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+PHOTO
+Sujet principal : un cours d'eau en crue ou à débit élevé, avec ... (18.1s)
+    [4/38] img_p46_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : GRAPH
+- Sujet principal : Évolution des températures e... (52.8s)
+    [5/38] img_p11_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : PHOTO
+
+Sujet principal : Une passe à poissons en béton, ... (35.5s)
+    [6/38] img_p23_1.png -> PHASE 1 — DESCRIPTION LIBRE (obligatoire, sans référence à aucun texte externe) :
+- Type visuel : PH... (52.5s)
+    [7/38] img_p43_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Carte de l'aménagement du Rhin... (29.5s)
+    [8/38] img_p25_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : GRAPH
+- Sujet principal : Un diagramme à barres montra... (121.4s)
+    [9/38] img_p15_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Une sonde thermique usagée, ... (38.2s)
+    [10/38] img_p51_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : GRAPH
+- Sujet principal : Courbes de température minim... (48.4s)
+    [11/38] img_p50_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Un cours d'eau large et calm... (22.3s)
+    [12/38] img_p50_5.png -> PHASE 1 — DESCRIPTION LIBRE (obligatoire, sans référence à aucun texte externe) :
+- Type visuel : PH... (40.2s)
+    [13/38] img_p8_1.png -> PHASE 1 — DESCRIPTION LIBRE (obligatoire, sans référence à aucun texte externe) :
+- Type visuel : MA... (44.9s)
+    [14/38] img_p19_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : GRAPH
+- Sujet principal : Un graphique à lignes montra... (48.7s)
+    [15/38] img_p24_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : GRAPH
+- Sujet principal : Un diagramme à barres montra... (122.5s)
+    [16/38] img_p21_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : GRAPH
+- Sujet principal : Évolution des températures (... (123.9s)
+    [17/38] img_p52_2.png -> PHASE 1 — DESCRIPTION LIBRE (obligatoire, sans référence à aucun texte externe) :  
+- Type visuel : ... (28.7s)
+    [18/38] img_p53_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Une carte de localisation de p... (32.7s)
+    [19/38] img_p44_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : MAP
+Sujet principal visible : Une carte satellite du Vie... (123.1s)
+    [20/38] img_p47_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : GRAPH
+- Sujet principal : Un graphique à barres montra... (42.2s)
+    [21/38] img_p43_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : DIAGRAM
+Sujet principal visible : Une légende de symbole... (27.2s)
+    [22/38] img_p20_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : GRAPH
+- Sujet principal : Évolution des températures (... (123.4s)
+    [23/38] img_p51_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : GRAPH
+- Sujet principal : Courbes de température minim... (120.4s)
+    [24/38] img_p13_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Une berge de rivière en pent... (35.2s)
+    [25/38] img_p49_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Carte de la morphologie du cou... (36.1s)
+    [26/38] img_p45_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : GRAPH
+- Sujet principal : Graphique de température et ... (125.5s)
+    [27/38] img_p50_3.png -> PHASE 1 — DESCRIPTION LIBRE :
+PHOTO / RIVIÈRE
+Sujet principal : un cours d'eau large, en pleine eau,... (19.6s)
+    [28/38] img_p23_3.png -> PHASE 1 — DESCRIPTION LIBRE (obligatoire, sans référence à aucun texte externe) :
+- Type visuel : PH... (24.2s)
+    [29/38] img_p23_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal : Un diagramme circulaire (c... (38.0s)
+    [30/38] img_p19_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : GRAPH
+- Sujet principal : Évolution des températures d... (73.4s)
+    [31/38] img_p48_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : GRAPH
+- Sujet principal : Évolution des écarts thermiq... (49.0s)
+    [32/38] img_p47_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : GRAPH
+- Sujet principal : Évolution des amplitudes the... (79.1s)
+    [33/38] img_p34_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Une vue rapprochée du lit d'... (26.8s)
+    [34/38] img_p45_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : GRAPH
+- Sujet principal : Graphique de température et ... (45.1s)
+    [35/38] img_p22_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : GRAPH
+- Sujet principal : Un graphique de température ... (36.2s)
+    [36/38] img_p52_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : MAP
+
+Sujet principal : Deux cartes superposées d'une sec... (57.6s)
+    [37/38] img_p50_4.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Un cours d'eau rapide avec d... (37.2s)
+    [38/38] img_p9_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal : Cycle de vie du saumon atl... (36.6s)
+========== COMPLETED [Rapport-stage-M2-Floriane] in 00h 34m 53s ==========
+
+========== PROCESSING [fichier] ==========
+    Images to caption: 25
+    [1/25] img_p13_2.png -> PHASE 1 — DESCRIPTION LIBRE (PHOTO) :
+- Sujet principal : Vue d'un cours d'eau et de ses berges, ave... (45.1s)
+    [2/25] img_p20_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : PHOTO
+
+Sujet principal : Deux photographies juxtaposées ... (52.0s)
+    [3/25] img_p14_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Un tronçon de cours d'eau av... (44.4s)
+    [4/25] img_p11_1.png -> PHASE 1 — DESCRIPTION LIBRE (obligatoire, sans référence à aucun texte externe) :
+- Type visuel : PH... (55.4s)
+    [5/25] img_p23_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal : Un profil en travers d'un ... (46.4s)
+    [6/25] img_p14_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : PHOTO
+
+Sujet principal : Aspect du cours d'eau sur le tr... (32.4s)
+    [7/25] img_p15_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Deux photographies juxtaposé... (53.8s)
+    [8/25] img_p8_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Deux photographies juxtaposé... (45.6s)
+    [9/25] img_p19_1.png -> PHASE 1 — DESCRIPTION LIBRE  
+- Type visuel : PHOTO  
+- Sujet principal : Deux photographies de pays... (53.2s)
+    [10/25] img_p10_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : PHOTO
+
+Sujet principal : Une vue du secteur aval d'un co... (47.8s)
+    [11/25] img_p17_1.png -> PHASE 1 — DESCRIPTION LIBRE (obligatoire, sans référence à aucun texte externe) :
+- Type visuel : PH... (50.8s)
+    [12/25] img_p21_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : PHOTO
+
+Sujet principal : Une section d'un cours d'eau ar... (57.4s)
+    [13/25] img_p12_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : PHOTO
+
+Sujet principal : Aspect du cours d'eau sur le tr... (52.9s)
+    [14/25] img_p7_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Carte topographique d'un ruiss... (41.2s)
+    [15/25] img_p17_2.png -> PHASE 1 — DESCRIPTION LIBRE (PHOTO) :
+- Sujet principal : Vue de deux sections d'un tronçon de ruiss... (36.4s)
+    [16/25] img_p20_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+PHOTO
+Sujet principal : Un ruisseau sur le tronçon 8, montrant une sec... (49.1s)
+    [17/25] img_p1_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Une page de couverture d'un ... (37.6s)
+    [18/25] img_p10_2.png -> PHASE 1 — DESCRIPTION LIBRE (obligatoire, sans référence à aucun texte externe) :
+- TYPE VISUEL : PH... (52.9s)
+    [19/25] img_p16_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Un cours d'eau en état natur... (37.1s)
+    [20/25] img_p13_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : PHOTO
+
+Sujet principal : Un cours d'eau en amont du tron... (41.2s)
+    [21/25] img_p18_1.png -> PHASE 1 — DESCRIPTION LIBRE (obligatoire, sans référence à aucun texte externe) :
+- Type visuel : PH... (49.7s)
+    [22/25] img_p19_2.png -> PHASE 1 — DESCRIPTION LIBRE (obligatoire, sans référence à aucun texte externe) :
+- Type visuel : PH... (36.3s)
+    [23/25] img_p22_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : PHOTO
+
+Sujet principal : Vue d'un tronçon de cours d'eau... (47.3s)
+    [24/25] img_p1_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : LOGO
+- Sujet principal visible : Logo de l'entité admi... (29.5s)
+    [25/25] img_p9_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : PHOTO
+
+Sujet principal : Aspect du cours d'eau à l'aval ... (50.9s)
+========== COMPLETED [fichier] in 00h 19m 11s ==========
+
+========== PROCESSING [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] ==========
+    Images to caption: 18
+    [1/18] img_p16_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : PHOTO / MAP / GRAPH / DIAGRAM / TABLE
+- Le sujet princip... (54.1s)
+    [2/18] img_p1_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Un cours d'eau de faible déb... (43.9s)
+    [3/18] img_p21_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : PHOTO / DIAGRAM
+
+Sujet principal : L'image est une compo... (118.6s)
+    [4/18] img_p4_2.png -> PHASE 1 — DESCRIPTION LIBRE (obligatoire, sans référence à aucun texte externe) :
+- Type visuel : DI... (30.0s)
+    [5/18] img_p12_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Carte de la densité de rangs z... (44.7s)
+    [6/18] img_p22_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal : Représentation schématique... (39.0s)
+    [7/18] img_p15_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+Type visuel : MAP / PHOTO
+Sujet principal : Comparaison de quatre repr... (60.1s)
+    [8/18] img_p28_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal : Trois profils en travers d... (33.9s)
+    [9/18] img_p10_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal : Un diagramme schématique m... (44.2s)
+    [10/18] img_p9_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+TYPE VISUEL : PHOTO
+
+Sujet principal : Quatre photographies de fonds d... (43.5s)
+    [11/18] img_p12_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Carte de densité de rangs zéro... (40.2s)
+    [12/18] img_p40_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal : Schéma d'une zone de trans... (46.9s)
+    [13/18] img_p6_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal : Schéma illustrant l'évolut... (39.9s)
+    [14/18] img_p17_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Six cartes topographiques du t... (53.9s)
+    [15/18] img_p23_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Quatre profils de sol (pédol... (32.6s)
+    [16/18] img_p31_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Deux exemples de mares dues ... (52.0s)
+    [17/18] img_p4_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal : Schéma d'un bassin versant... (70.8s)
+    [18/18] img_p21_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal : Représentation schématique... (43.4s)
+========== COMPLETED [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] in 00h 14m 56s ==========
+
+============================================================
+  PIPELINE COMPLETE
+  Generator model  : qwen3vl-30b
+  Retrieval model  : vidore
+  Total runtime    : 01h 30m 35s
+============================================================

@@ -1,0 +1,770 @@
+@prefix : <http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Troncon_1 a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 7 ;
+    :isLocatedIn :Riviere ;
+    skos:note "hasProfile: lit mineur"@fr,
+        "hasRegime: régime d’écoulement cassé"@fr ;
+    skos:prefLabel "tronçon 1"@fr .
+
+:Troncon_7 a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 13 ;
+    :isLocatedIn :Norroy ;
+    skos:note "hasMonitoring: biologicalMonitoring"@fr,
+        "hasMonitoring: ecologicalMonitoring"@fr,
+        "hasMonitoring: hydromorphologicalMonitoring"@fr,
+        "hasMonitoring: scientificMonitoring"@fr,
+        "hasRestorationMeasure: de-silting"@fr,
+        "hasRestorationMeasure: distributionBasin"@fr,
+        "hasRestorationMeasure: forestRestoration"@fr,
+        "hasRestorationMeasure: profileDiversification"@fr,
+        "hasRestorationMeasure: reconnection"@fr,
+        "hasRestorationMeasure: redynamization"@fr,
+        "hasRestorationMeasure: regularFlooding"@fr,
+        "hasRestorationMeasure: restoration"@fr,
+        "hasRestorationMeasure: restorationOperation"@fr,
+        "hasRestorationMeasure: restoringSpawningGrounds"@fr,
+        "hasRestorationMeasure: riverbankRestoration"@fr ;
+    skos:prefLabel "tronçon 7"@fr .
+
+:hasAverageSlope a owl:ObjectProperty .
+
+:hasDescription a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:hasHydromorphologicalMonitoring a owl:ObjectProperty .
+
+:hasMaxLowWaterFlow a owl:ObjectProperty .
+
+:hasMonitoringCost a owl:ObjectProperty .
+
+:hasMonitoringDescription a owl:ObjectProperty .
+
+:hasMonitoringEndDate a owl:ObjectProperty .
+
+:hasMonitoringStartDate a owl:ObjectProperty .
+
+:hasPurpose a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:hasWidth a owl:ObjectProperty .
+
+:isLocatedIn a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:isLocatedOn a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+:isManagedBy a owl:ObjectProperty .
+
+:isSubjectTo a owl:DatatypeProperty,
+        owl:ObjectProperty .
+
+<http://www.semanticweb.org/fethi/ontologies/2024/1/TetraOnto.owl/instance_graph> a owl:Ontology .
+
+:Algues a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 9,
+        20 ;
+    :isLocatedOn :Berges ;
+    skos:prefLabel "algues"@fr .
+
+:Amenagements_Hydrauliques a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 14 ;
+    skos:prefLabel "aménagements hydrauliques"@fr .
+
+:Constante a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 17 ;
+    skos:prefLabel "constante"@fr .
+
+:Depot_Localise_Colmatant_Sur_Ce_Troncon a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 14 ;
+    skos:prefLabel "dépôt localisé colmatant sur ce tronçon"@fr .
+
+:Etroit_Et_Profond a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 10 ;
+    skos:prefLabel "étroit et profond"@fr .
+
+:Etude_Hydromorphologique_Du_Ruisseau_De_Norroy a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 1,
+        9 ;
+    :isLocatedOn :Norroy ;
+    skos:prefLabel "Étude hydromorphologique du ruisseau de Norroy"@fr .
+
+:Fin_Du_Troncon a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 17 ;
+    skos:prefLabel "fin du tronçon"@fr .
+
+:Fond_De_Vallee_Plat a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 14 ;
+    skos:prefLabel "fond de vallée plat"@fr .
+
+:Forte_Pente a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 21 ;
+    skos:prefLabel "forte pente"@fr .
+
+:Large_Et_Moins_Profond a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 10 ;
+    skos:prefLabel "large et moins profond"@fr .
+
+:Largeur_Constante a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 14 ;
+    skos:prefLabel "largeur constante"@fr .
+
+:Les_Berges a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 8,
+        14,
+        19 ;
+    skos:note "contains: vegetation"@fr,
+        "hasDensity: forte densité d’herbes hautes"@fr ;
+    skos:prefLabel "Les berges"@fr .
+
+:Pas_De_Proliferation_Vegetale_Caracterisee a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 14 ;
+    skos:prefLabel "pas de prolifération végétale caractérisée"@fr .
+
+:Pas_Ou_Peu_De_Vegetation_Aquatique a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 14 ;
+    skos:prefLabel "pas ou peu de végétation aquatique"@fr .
+
+:Plantes a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 9,
+        20 ;
+    :isLocatedOn :Cotes ;
+    skos:prefLabel "plantes"@fr .
+
+:Pont a :structure,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 9,
+        19 ;
+    :isLocatedOn :Troncon_121 ;
+    skos:prefLabel "pont"@fr .
+
+:Ruisseau a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasDescription "ruisseau avec de l’eau claire et des algues vertes sur les berges"^^xsd:string ;
+    :hasPageNumber 9,
+        20 ;
+    :isLocatedIn :Norroy ;
+    skos:note "hasQuality: qualité de l’eau"@fr ;
+    skos:prefLabel "ruisseau"@fr .
+
+:Ruisseau_De_Norroy a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 1,
+        9 ;
+    :isLocatedOn :Norroy ;
+    skos:prefLabel "Ruisseau de Norroy"@fr .
+
+:Safege_Ingenieurs_Conseils a :otherActor,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 1,
+        9 ;
+    :isLocatedOn :Norroy ;
+    skos:prefLabel "SAFEGE Ingénieurs Conseils"@fr .
+
+:Stabilite a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 9,
+        20 ;
+    skos:note "isAssociatedWith: berges"@fr ;
+    skos:prefLabel "stabilité"@fr .
+
+:Structure a :structure,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 9,
+        18,
+        20 ;
+    :isLocatedIn :Le_Lit_Majeur,
+        :Les_Bergues,
+        :Urban_Area ;
+    skos:note "isLocatedAbove: tunnel"@fr ;
+    skos:prefLabel "structure"@fr .
+
+:Troncon_2 a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasAverageSlope :Faible_Debit ;
+    :hasPageNumber 7,
+        10 ;
+    :hasWidth :Largeur_Etroite ;
+    :isLocatedIn :Ameliorer_La_Qualite_Norroy,
+        :Eviter_Toute_Artificialisation_Du_Cours_Deau,
+        :Future_Activity_Zone,
+        :High_Human_Pressure,
+        :Le_Cours_Deau,
+        :Les_Bergues,
+        :Mission,
+        :Norroy,
+        :Profilediversification,
+        :Recreer_De_La_Ripisylve,
+        :Recreer_Une_Dynamique_Decoulement,
+        :Riviere,
+        :Scientificmonitoring,
+        :Urban_Area,
+        :Zone_Forestee,
+        "connecter le avec le ruisseau de Plesnois"^^xsd:string ;
+    skos:note "hasQuality: qualité moyenne à médiocre"@fr ;
+    skos:prefLabel "tronçon 2"@fr .
+
+:Tunnel a :structure,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasDescription "tunnel en béton avec des berges en terre et des plantes vertes sur les côtés"^^xsd:string ;
+    :hasPageNumber 9,
+        19,
+        20 ;
+    :isLocatedIn :Norroy ;
+    :isLocatedOn :Troncon,
+        :Troncon_121 ;
+    skos:prefLabel "tunnel"@fr .
+
+:Vegetation a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 9,
+        10,
+        20 ;
+    :isLocatedOn :Berges,
+        :Le_Cours_Deau ;
+    skos:note "hasDensity: dense"@fr,
+        "hasDensity: plus maigre"@fr ;
+    skos:prefLabel "végétation"@fr .
+
+:Berges a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 20 ;
+    skos:prefLabel "berges"@fr .
+
+:Cotes a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 9,
+        20 ;
+    skos:prefLabel "côtés"@fr .
+
+:Debit_Moyen a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 17,
+        21 ;
+    skos:prefLabel "débit moyen"@fr .
+
+:Largeur_Constante_Fond_De_Vallee_Plat a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 11 ;
+    skos:prefLabel "largeur constante, fond de vallée plat"@fr .
+
+:Le_Lit_Majeur a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 8,
+        17,
+        18 ;
+    skos:note "hasComposition: graviers et petits galets"@fr ;
+    skos:prefLabel "Le lit majeur"@fr .
+
+:Pente_Moins_Abrupte a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 17,
+        21 ;
+    skos:prefLabel "pente moins abrupte"@fr .
+
+:Riviere a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 7,
+        15 ;
+    skos:note "contains: arbres"@fr,
+        "contains: plantes vertes"@fr,
+        "contains: structure circulaire"@fr,
+        "contains: terre nue"@fr ;
+    skos:prefLabel "rivière"@fr .
+
+:Troncon a :geographicZone,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 17,
+        20 ;
+    skos:note "hasStability: stabilité des berges"@fr,
+        "hasVegetation: végétation sur l’état des tronçons"@fr ;
+    skos:prefLabel "tronçon"@fr .
+
+:Faible_Debit a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 7,
+        17,
+        21 ;
+    skos:prefLabel "faible débit"@fr .
+
+:Largeur_Etroite a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 7,
+        17 ;
+    skos:prefLabel "largeur étroite"@fr .
+
+:Le_Lit_Mineur a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 14,
+        17 ;
+    skos:prefLabel "Le lit mineur"@fr .
+
+:Profilediversification a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 7,
+        10,
+        20 ;
+    skos:prefLabel "profileDiversification"@fr .
+
+:Projectowner a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 23 ;
+    skos:prefLabel "projectOwner"@fr .
+
+:Troncon_8 a :geographicZone,
+        :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasAverageSlope :Forte_Pente ;
+    :hasDescription :Largeur_Constante_Fond_De_Vallee_Plat ;
+    :hasHydromorphologicalMonitoring :Mission ;
+    :hasMaxLowWaterFlow :Faible_Debit ;
+    :hasMonitoringCost :Date_Inconnue,
+        :Scientificmonitoring ;
+    :hasMonitoringDescription :Ameliorer_La_Qualite_Norroy,
+        :Mission ;
+    :hasMonitoringEndDate :Date_Inconnue ;
+    :hasMonitoringStartDate :Date_Inconnue ;
+    :hasPageNumber 11,
+        12,
+        14,
+        17,
+        19,
+        21,
+        23 ;
+    :hasPurpose :Ameliorer_La_Qualite_Norroy,
+        :Eviter_Toute_Artificialisation_Du_Cours_Deau ;
+    :isLocatedIn :Amenagements_Hydrauliques,
+        :Depot_Localise_Colmatant_Sur_Ce_Troncon,
+        :Fond_De_Vallee_Plat,
+        :Future_Activity_Zone,
+        :High_Human_Pressure,
+        :Largeur_Constante,
+        :Le_Lit_Mineur,
+        :Les_Berges,
+        :Les_Bergues,
+        :Norroy,
+        :Pas_De_Proliferation_Vegetale_Caracterisee,
+        :Pas_Ou_Peu_De_Vegetation_Aquatique ;
+    :isManagedBy :Projectowner ;
+    :isSubjectTo :Scientificmonitoring ;
+    skos:note "contains: earth"@fr,
+        "contains: grass"@fr,
+        "contains: pond"@fr,
+        "contains: pondDyke"@fr,
+        "contains: trees"@fr,
+        "contains: vegetation"@fr ;
+    skos:prefLabel "tronçon 8"@fr .
+
+:Troncon_9 a :geographicZone,
+        :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasAverageSlope :Pente_Moins_Abrupte ;
+    :hasDescription :Largeur_Constante_Fond_De_Vallee_Plat ;
+    :hasHydromorphologicalMonitoring :Mission ;
+    :hasMaxLowWaterFlow :Debit_Moyen ;
+    :hasMonitoringCost :Date_Inconnue,
+        :Scientificmonitoring ;
+    :hasMonitoringDescription :Ameliorer_La_Qualite_Norroy,
+        :Mission ;
+    :hasMonitoringEndDate :Date_Inconnue ;
+    :hasMonitoringStartDate :Date_Inconnue ;
+    :hasPageNumber 11,
+        12,
+        14,
+        17,
+        19,
+        21,
+        23 ;
+    :hasPurpose :Ameliorer_La_Qualite_Norroy,
+        :Eviter_Toute_Artificialisation_Du_Cours_Deau ;
+    :isLocatedIn :Le_Lit_Mineur,
+        :Les_Bergues,
+        :Norroy ;
+    :isManagedBy :Projectowner ;
+    :isSubjectTo :Scientificmonitoring ;
+    skos:note "contains: earth"@fr,
+        "contains: grass"@fr,
+        "contains: pond"@fr,
+        "contains: pondDyke"@fr,
+        "contains: trees"@fr,
+        "contains: vegetation"@fr ;
+    skos:prefLabel "tronçon 9"@fr .
+
+:Le_Cours_Deau a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasDescription :Etroit_Et_Profond,
+        :Large_Et_Moins_Profond ;
+    :hasPageNumber 8,
+        9,
+        10,
+        12,
+        13,
+        16,
+        17,
+        22 ;
+    :isLocatedIn :Algues,
+        :Cotes,
+        :Etude_Hydromorphologique_Du_Ruisseau_De_Norroy,
+        :Les_Bergues,
+        :Plantes,
+        :Pont,
+        :Ruisseau,
+        :Ruisseau_De_Norroy,
+        :Safege_Ingenieurs_Conseils,
+        :Stabilite,
+        :Structure,
+        :Troncon_121,
+        :Tunnel,
+        :Urban_Area,
+        :Vegetation,
+        :Zone_Forestee ;
+    :isLocatedOn :Troncon_2,
+        :Troncon_8,
+        :Troncon_9 ;
+    skos:note "contains: arbres"@fr,
+        "contains: berges naturellement stables"@fr,
+        "contains: berges perturbées par les aménagements hydrauliques"@fr,
+        "contains: embâcles"@fr,
+        "contains: embâcles naturels dans le lit mineur"@fr,
+        "contains: faits nouveaux détectés"@fr,
+        "contains: matériaux colmatant le lit majeur"@fr,
+        "contains: plantes vertes"@fr,
+        "contains: remblais en situation dominante"@fr,
+        "contains: tronçon de droite"@fr,
+        "contains: tronçon de gauche"@fr,
+        "contains: voies sur berge"@fr,
+        "contains: zone inondable"@fr,
+        "contains: éléments hydro-morphologiques absents"@fr,
+        "contains: éléments visuels en accord avec le contexte"@fr,
+        "hasAquaticPlants: plantes aquatiques"@fr,
+        "hasAquaticVegetation: pas ou peu de végétation aquatique"@fr,
+        "hasAssociatedVegetation: arbres"@fr,
+        "hasAssociatedVegetation: arbres et arbustes"@fr,
+        "hasAssociatedVegetation: arbres et herbes hautes"@fr,
+        "hasAssociatedVegetation: arbustes"@fr,
+        "hasAssociatedVegetation: certaines espèces végétales"@fr,
+        "hasAssociatedVegetation: herbes"@fr,
+        "hasAssociatedVegetation: plantes à fleurs violettes"@fr,
+        "hasAssociatedVegetation: végétation dense"@fr,
+        "hasAssociatedVegetation: zone de végétation plus dense"@fr,
+        "hasBankStability: stabilité"@fr,
+        "hasBranches: présents sur certains secteurs"@fr,
+        "hasComposition: graviers et petits galets"@fr,
+        "hasOrganicDebris: présence de débris organiques"@fr,
+        "hasPlantProliferation: pas de prolifération végétale caractérisée"@fr,
+        "hasQuality: qualité correcte à excellente"@fr,
+        "hasShrubs: arbustes"@fr,
+        "hasSinuosityCoefficient: 1,3"@fr,
+        "hasSubstrate: sables, argiles, limons"@fr,
+        "hasTrees: arbres"@fr,
+        "hasVegetation: hélophytes"@fr,
+        "hasVegitationCover: végétation dense"@fr,
+        "hasWaterQuality: claire"@fr ;
+    skos:prefLabel "Le cours d’eau"@fr .
+
+:Recreer_Une_Dynamique_Decoulement a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 7,
+        10,
+        17,
+        20 ;
+    skos:prefLabel "recréer une dynamique d’écoulement"@fr .
+
+:Troncon_121 a :geographicZone,
+        :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 7,
+        13,
+        17,
+        19 ;
+    :hasWidth :Largeur_Etroite ;
+    :isLocatedIn :Urban_Area ;
+    skos:note "hasAssociatedVegitation: végétation dense"@fr,
+        "hasOccupation: naturelle"@fr,
+        "hasWaterState: calme"@fr ;
+    skos:prefLabel "tronçon 1.2.1"@fr .
+
+:Zone_Forestee a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 8,
+        9,
+        10,
+        17 ;
+    skos:prefLabel "zone forestée"@fr .
+
+:Future_Activity_Zone a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 10,
+        14,
+        17,
+        20 ;
+    skos:prefLabel "future activity zone"@fr .
+
+:High_Human_Pressure a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 10,
+        14,
+        17,
+        20 ;
+    skos:prefLabel "high human pressure"@fr .
+
+:Les_Bergues a :waterBody,
+        owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasDescription "berges inclinées avec des plantes aquatiques et des branchages, bergues plus plates avec des plantes plus développées"^^xsd:string ;
+    :hasPageNumber 9,
+        10,
+        14,
+        17,
+        18,
+        19,
+        20,
+        23 ;
+    :hasPurpose :Ameliorer_La_Qualite_Norroy,
+        :Recreer_De_La_Ripisylve,
+        "composition et état de la végétation des bergues"^^xsd:string ;
+    :isLocatedIn :Constante,
+        :Debit_Moyen,
+        :Faible_Debit,
+        :Fin_Du_Troncon,
+        :Future_Activity_Zone,
+        :High_Human_Pressure,
+        :Largeur_Etroite,
+        :Le_Cours_Deau,
+        :Norroy,
+        :Pente_Moins_Abrupte,
+        :Troncon,
+        :Troncon_121,
+        :Troncon_8,
+        :Troncon_9,
+        :Urban_Area,
+        :Zone_Forestee,
+        "contexte de la restauration de cours d’eau"^^xsd:string ;
+    :isLocatedOn :Ameliorer_La_Qualite_Norroy,
+        :Eviter_Toute_Artificialisation_Du_Cours_Deau,
+        :Future_Activity_Zone,
+        :High_Human_Pressure,
+        :Le_Cours_Deau,
+        :Le_Lit_Majeur,
+        :Le_Lit_Mineur,
+        :Norroy,
+        :Recreer_De_La_Ripisylve,
+        :Recreer_Une_Dynamique_Decoulement,
+        :Troncon_8,
+        :Troncon_9,
+        :Urban_Area,
+        :Zone_Forestee,
+        "connecter le avec le ruisseau de Plesnois"^^xsd:string ;
+    :isManagedBy :Projectowner ;
+    :isSubjectTo :Ameliorer_La_Qualite_Norroy,
+        :Date_Inconnue,
+        :Eviter_Toute_Artificialisation_Du_Cours_Deau,
+        :Future_Activity_Zone,
+        :High_Human_Pressure,
+        :Mission,
+        :Profilediversification,
+        :Recreer_De_La_Ripisylve,
+        :Recreer_Une_Dynamique_Decoulement,
+        :Scientificmonitoring,
+        "connecter le avec le ruisseau de Plesnois"^^xsd:string ;
+    skos:note "contains: cultures agricoles et arbres"@fr,
+        "contains: trees"@fr,
+        "contains: vegetation"@fr ;
+    skos:prefLabel "Les bergues"@fr .
+
+:Recreer_De_La_Ripisylve a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 7,
+        10,
+        17,
+        20,
+        23 ;
+    skos:prefLabel "recréer de la ripisylve"@fr .
+
+:Eviter_Toute_Artificialisation_Du_Cours_Deau a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 7,
+        10,
+        11,
+        17,
+        20 ;
+    skos:prefLabel "eviter toute artificialisation du cours d’eau"@fr,
+        "éviter toute artificialisation du cours d’eau"@fr .
+
+:Mission a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string,
+        "VQA-verified caption"^^xsd:string ;
+    :hasPageNumber 7,
+        10,
+        14,
+        20 ;
+    :hasPurpose :Ameliorer_La_Qualite_Norroy,
+        :Eviter_Toute_Artificialisation_Du_Cours_Deau,
+        :Profilediversification,
+        :Recreer_De_La_Ripisylve,
+        :Recreer_Une_Dynamique_Decoulement,
+        "connecter le avec le ruisseau de Plesnois"^^xsd:string ;
+    skos:prefLabel "mission"@fr .
+
+:Scientificmonitoring a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 10,
+        11,
+        14,
+        20,
+        23 ;
+    skos:prefLabel "scientificMonitoring"@fr .
+
+:Urban_Area a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 9,
+        10,
+        17,
+        18,
+        19 ;
+    skos:prefLabel "urban area"@fr .
+
+:Date_Inconnue a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 11,
+        14,
+        20 ;
+    skos:prefLabel "date_inconnue"@fr .
+
+:Ameliorer_La_Qualite_Norroy a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 7,
+        10,
+        11,
+        14,
+        17,
+        20,
+        23 ;
+    skos:prefLabel "ameliorer la qualite Norroy"@fr,
+        "améliorer la qualité Norroy"@fr .
+
+:Norroy a owl:NamedIndividual ;
+    :dataSource "Rapport etude hydromorphologique ruisseau Norroy"^^xsd:string ;
+    :extractedFrom "Image"^^xsd:string ;
+    :hasPageNumber 1,
+        10,
+        11,
+        13,
+        14,
+        17,
+        20,
+        21,
+        23 ;
+    skos:prefLabel "Norroy"@fr .
+

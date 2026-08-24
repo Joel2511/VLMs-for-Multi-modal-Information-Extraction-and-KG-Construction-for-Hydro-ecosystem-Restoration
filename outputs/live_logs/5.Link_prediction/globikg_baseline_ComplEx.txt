@@ -1,0 +1,56 @@
+2026-06-28 03:55:43 INFO: - Loading ent2ids...
+2026-06-28 03:55:44 INFO: - Loading ComplEx embeddings...
+2026-06-28 03:55:45 INFO: - Entity embed: (672377, 400), Relation embed: (80, 400)
+2026-06-28 03:55:46 INFO: - Loaded 40 relations from /home2020/home/icube/janil/Rhine_proj/embeddings/ComplEx/globikg/test_tasks.json
+Evaluating [test]:   0%|          | 0/40 [00:00<?, ?it/s]2026-06-28 03:55:58 CRITICAL: - - eats  MRR:0.068  H@10:0.149  H@5:0.096  H@1:0.021
+Evaluating [test]:   2%|▎         | 1/40 [00:12<08:11, 12.60s/it]2026-06-28 03:56:06 CRITICAL: - - adjacentTo  MRR:0.037  H@10:0.065  H@5:0.044  H@1:0.015
+Evaluating [test]:   5%|▌         | 2/40 [00:20<06:13,  9.83s/it]2026-06-28 03:56:27 CRITICAL: - - hasHost  MRR:0.012  H@10:0.017  H@5:0.010  H@1:0.004
+Evaluating [test]:   8%|▊         | 3/40 [00:40<09:02, 14.66s/it]2026-06-28 03:56:39 CRITICAL: - - interactsWith  MRR:0.208  H@10:0.377  H@5:0.277  H@1:0.125
+Evaluating [test]:  10%|█         | 4/40 [00:53<08:15, 13.76s/it]2026-06-28 03:56:42 CRITICAL: - - visitsFlowersOf  MRR:0.034  H@10:0.058  H@5:0.026  H@1:0.007
+Evaluating [test]:  12%|█▎        | 5/40 [00:56<05:50, 10.02s/it]2026-06-28 03:56:44 CRITICAL: - - hemiparasiteOf  MRR:0.004  H@10:0.002  H@5:0.001  H@1:0.000
+Evaluating [test]:  15%|█▌        | 6/40 [00:58<04:07,  7.28s/it]2026-06-28 03:56:47 CRITICAL: - - pathogenOf  MRR:0.008  H@10:0.009  H@5:0.005  H@1:0.001
+Evaluating [test]:  18%|█▊        | 7/40 [01:00<03:05,  5.62s/it]2026-06-28 03:56:47 CRITICAL: - - endoparasiteOf  MRR:0.015  H@10:0.020  H@5:0.011  H@1:0.004
+Evaluating [test]:  20%|██        | 8/40 [01:01<02:05,  3.92s/it]2026-06-28 03:56:51 CRITICAL: - - preysOn  MRR:0.138  H@10:0.322  H@5:0.207  H@1:0.054
+Evaluating [test]:  22%|██▎       | 9/40 [01:04<01:59,  3.84s/it]2026-06-28 03:56:53 CRITICAL: - - parasiteOf  MRR:0.077  H@10:0.142  H@5:0.095  H@1:0.036
+Evaluating [test]:  25%|██▌       | 10/40 [01:07<01:45,  3.51s/it]2026-06-28 03:56:53 CRITICAL: - - hasVector  MRR:0.017  H@10:0.024  H@5:0.009  H@1:0.004
+Evaluating [test]:  28%|██▊       | 11/40 [01:07<01:11,  2.47s/it]2026-06-28 03:56:56 CRITICAL: - - pollinates  MRR:0.009  H@10:0.017  H@5:0.006  H@1:0.001
+Evaluating [test]:  30%|███       | 12/40 [01:09<01:06,  2.37s/it]2026-06-28 03:56:56 CRITICAL: - - coOccursWith  MRR:0.056  H@10:0.109  H@5:0.071  H@1:0.011
+2026-06-28 03:56:56 CRITICAL: - - allelopathOf  MRR:0.021  H@10:0.036  H@5:0.022  H@1:0.006
+Evaluating [test]:  35%|███▌      | 14/40 [01:10<00:34,  1.33s/it]2026-06-28 03:56:56 CRITICAL: - - ecologicallyRelatedTo  MRR:0.053  H@10:0.077  H@5:0.054  H@1:0.028
+Evaluating [test]:  38%|███▊      | 15/40 [01:10<00:25,  1.02s/it]2026-06-28 03:56:57 CRITICAL: - - visits  MRR:0.041  H@10:0.085  H@5:0.053  H@1:0.010
+Evaluating [test]:  40%|████      | 16/40 [01:11<00:23,  1.00it/s]2026-06-28 03:56:57 CRITICAL: - - parasitoidOf  MRR:0.064  H@10:0.130  H@5:0.078  H@1:0.028
+Evaluating [test]:  42%|████▎     | 17/40 [01:11<00:17,  1.33it/s]2026-06-28 03:56:57 CRITICAL: - - ectoparasiteOf  MRR:0.014  H@10:0.017  H@5:0.010  H@1:0.000
+Evaluating [test]:  45%|████▌     | 18/40 [01:11<00:12,  1.71it/s]2026-06-28 03:56:57 CRITICAL: - - kills  MRR:0.339  H@10:0.433  H@5:0.400  H@1:0.267
+2026-06-28 03:56:57 CRITICAL: - - hasDispersalVector  MRR:0.013  H@10:0.017  H@5:0.010  H@1:0.002
+Evaluating [test]:  50%|█████     | 20/40 [01:11<00:07,  2.83it/s]2026-06-28 03:56:58 CRITICAL: - - mutualistOf  MRR:0.016  H@10:0.030  H@5:0.014  H@1:0.003
+Evaluating [test]:  52%|█████▎    | 21/40 [01:11<00:06,  2.75it/s]2026-06-28 03:56:58 CRITICAL: - - symbiontOf  MRR:0.209  H@10:0.404  H@5:0.281  H@1:0.123
+2026-06-28 03:56:58 CRITICAL: - - livesInsideOf  MRR:0.367  H@10:0.526  H@5:0.526  H@1:0.211
+2026-06-28 03:56:58 CRITICAL: - - epiphyteOf  MRR:0.312  H@10:0.889  H@5:0.537  H@1:0.136
+2026-06-28 03:56:58 CRITICAL: - - endoparasitoidOf  MRR:0.217  H@10:0.367  H@5:0.289  H@1:0.122
+Evaluating [test]:  62%|██████▎   | 25/40 [01:11<00:02,  5.98it/s]2026-06-28 03:56:58 CRITICAL: - - coRoostsWith  MRR:0.165  H@10:0.472  H@5:0.296  H@1:0.014
+2026-06-28 03:56:58 CRITICAL: - - commensalistOf  MRR:0.121  H@10:0.321  H@5:0.214  H@1:0.036
+/home2020/home/icube/janil/miniforge3/envs/qwen3vl_env/lib/python3.10/site-packages/numpy/_core/fromnumeric.py:3860: RuntimeWarning: Mean of empty slice.
+  return _methods._mean(a, axis=axis, dtype=dtype,
+/home2020/home/icube/janil/miniforge3/envs/qwen3vl_env/lib/python3.10/site-packages/numpy/_core/_methods.py:145: RuntimeWarning: invalid value encountered in scalar divide
+  ret = ret.dtype.type(ret / rcount)
+2026-06-28 03:56:58 CRITICAL: - - livesNear  MRR:nan  H@10:nan  H@5:nan  H@1:nan
+2026-06-28 03:56:58 CRITICAL: - - createsHabitatFor  MRR:0.153  H@10:0.353  H@5:0.235  H@1:0.059
+2026-06-28 03:56:58 CRITICAL: - - livesOn  MRR:0.265  H@10:0.438  H@5:0.281  H@1:0.188
+2026-06-28 03:56:58 CRITICAL: - - hasRoost  MRR:0.033  H@10:0.048  H@5:0.032  H@1:0.016
+2026-06-28 03:56:58 CRITICAL: - - hasHabitat  MRR:0.681  H@10:0.980  H@5:0.902  H@1:0.529
+2026-06-28 03:56:58 CRITICAL: - - kleptoparasiteOf  MRR:nan  H@10:nan  H@5:nan  H@1:nan
+2026-06-28 03:56:58 CRITICAL: - - laysEggsOn  MRR:nan  H@10:nan  H@5:nan  H@1:nan
+2026-06-28 03:56:58 CRITICAL: - - providesNutrientsFor  MRR:0.035  H@10:0.143  H@5:0.000  H@1:0.000
+2026-06-28 03:56:58 CRITICAL: - - hyperparasiteOf  MRR:0.374  H@10:0.667  H@5:0.333  H@1:0.333
+2026-06-28 03:56:58 CRITICAL: - - guestOf  MRR:0.667  H@10:1.000  H@5:1.000  H@1:0.500
+2026-06-28 03:56:58 CRITICAL: - - livesUnder  MRR:0.333  H@10:1.000  H@5:1.000  H@1:0.000
+2026-06-28 03:56:58 CRITICAL: - - ectoParasitoid  MRR:0.250  H@10:1.000  H@5:1.000  H@1:0.000
+2026-06-28 03:56:58 CRITICAL: - - inhabits  MRR:nan  H@10:nan  H@5:nan  H@1:nan
+Evaluating [test]: 100%|██████████| 40/40 [01:12<00:00,  1.80s/it]
+2026-06-28 03:56:58 CRITICAL: - ============================================================
+2026-06-28 03:56:58 CRITICAL: - [ComplEx Baseline — TEST]
+2026-06-28 03:56:58 CRITICAL: -   HITS@10: 0.132
+2026-06-28 03:56:58 CRITICAL: -   HITS@5:  0.090
+2026-06-28 03:56:58 CRITICAL: -   HITS@1:  0.033
+2026-06-28 03:56:58 CRITICAL: -   MRR:     0.069
+2026-06-28 03:56:58 CRITICAL: - ============================================================

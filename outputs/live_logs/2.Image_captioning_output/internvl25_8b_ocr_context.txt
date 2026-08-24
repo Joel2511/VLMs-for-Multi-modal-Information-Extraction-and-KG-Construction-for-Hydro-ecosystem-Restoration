@@ -1,0 +1,267 @@
+--- Loading internvl25-8b with vidore retrieval context ---
+    Generator : internvl25-8b
+    Retriever : vidore
+/home2020/home/icube/janil/miniforge3/envs/colqwen_char/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+FlashAttention2 is not installed.
+The `load_in_4bit` and `load_in_8bit` arguments are deprecated and will be removed in the future versions. Please, pass a `BitsAndBytesConfig` object in `quantization_config` argument instead.
+InternLM2ForCausalLM has generative capabilities, as `prepare_inputs_for_generation` is explicitly overwritten. However, it doesn't directly inherit from `GenerationMixin`. From 👉v4.50👈 onwards, `PreTrainedModel` will NOT inherit from `GenerationMixin`, and this model will lose the ability to call `generate` and other related functions.
+  - If you're using `trust_remote_code=True`, you can get rid of this warning by loading the model with an auto class. See https://huggingface.co/docs/transformers/en/model_doc/auto#auto-classes
+  - If you are the owner of the model architecture code, please modify your model class such that it inherits from `GenerationMixin` (after `PreTrainedModel`, otherwise you'll get an exception).
+  - If you are not the owner of the model architecture class, please contact the model code owner to update it.
+Warning: Flash attention is not available, using eager attention instead.
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:06<00:18,  6.15s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:11<00:11,  5.88s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:17<00:05,  5.76s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.15s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:19<00:00,  4.79s/it]
+    Model size   : 8.1B parameters
+    Loaded at    : 16:35:23
+    Load time    : 00h 00m 41s
+
+========== PROCESSING [dossier_unio_crassus_zorn_v4_19_11_2024] ==========
+    Images to caption: 19
+    [1/19] img_p14_1.png -> Aucun enrichissement détecté.... (14.4s)
+    [2/19] img_p16_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Un individu de Mulet... (18.0s)
+    [3/19] img_p1_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Une rivière ou un co... (30.6s)
+    [4/19] img_p21_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal visible : Une carte montrant le ... (32.0s)
+    [5/19] img_p13_1.png -> Aucun enrichissement détecté.... (3.0s)
+    [6/19] img_p15_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal visible : Transect de prospectio... (20.5s)
+    [7/19] img_p18_1.png -> Aucun enrichissement détecté.... (4.2s)
+    [8/19] img_p24_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal : Impact du projet sur Unio ... (21.6s)
+    [9/19] img_p20_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal visible : Une carte montrant l'é... (30.4s)
+    [10/19] img_p26_1.png -> Aucun enrichissement détecté.... (3.8s)
+    [11/19] img_p28_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal : Une corbicule (Corbicula flu... (17.9s)
+    [12/19] img_p25_1.png -> Aucun enrichissement détecté.... (3.3s)
+    [13/19] img_p5_1.png -> Aucun enrichissement détecté.... (3.8s)
+    [14/19] img_p10_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal visible : Localisation des accès... (19.7s)
+    [15/19] img_p9_1.png -> DECORATIVE (5.0s)
+    [16/19] img_p13_2.png -> Aucun enrichissement détecté.... (4.6s)
+    [17/19] img_p6_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Une vue sur un cours... (16.3s)
+    [18/19] img_p17_1.png -> Aucun enrichissement détecté.... (2.9s)
+    [19/19] img_p8_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal visible : Une image aérienne mon... (33.7s)
+========== COMPLETED [dossier_unio_crassus_zorn_v4_19_11_2024] in 00h 04m 51s ==========
+
+========== PROCESSING [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] ==========
+    Images to caption: 5
+    [1/5] img_p1_1.png -> Aucun enrichissement détecté.... (4.1s)
+    [2/5] img_p5_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+
+- Type visuel : PHOTO
+- Sujet principal visible : Panoramas du Rhin d... (16.3s)
+    [3/5] img_p5_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Une carte postale mo... (25.2s)
+    [4/5] img_p3_1.png -> Aucun enrichissement détecté.... (3.3s)
+    [5/5] img_p4_1.png -> Aucun enrichissement détecté.... (5.2s)
+========== COMPLETED [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] in 00h 00m 55s ==========
+
+========== PROCESSING [Rapport-stage-M2-Floriane] ==========
+    Images to caption: 38
+    [1/38] img_p34_2.png -> Aucun enrichissement détecté.... (4.8s)
+    [2/38] img_p13_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+
+- Type visuel : PHOTO
+- Sujet principal visible : Petit Rhin près de ... (20.9s)
+    [3/38] img_p50_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Une rivière avec des... (20.4s)
+    [4/38] img_p46_1.png -> DECORATIVE (5.1s)
+    [5/38] img_p11_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Passage à poisson de... (16.4s)
+    [6/38] img_p23_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Erosion de berge à l... (16.1s)
+    [7/38] img_p43_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal visible : Carte du Rhin avec plu... (29.3s)
+    [8/38] img_p25_1.png -> Aucun enrichissement détecté.... (2.9s)
+    [9/38] img_p15_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Sonde thermique
+- Él... (15.7s)
+    [10/38] img_p51_1.png -> DECORATIVE (3.9s)
+    [11/38] img_p50_2.png -> Aucun enrichissement détecté.... (3.1s)
+    [12/38] img_p50_5.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Une rivière avec un ... (19.0s)
+    [13/38] img_p8_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal visible : Modifications du cours... (23.0s)
+    [14/38] img_p19_1.png -> Aucun enrichissement détecté.... (2.9s)
+    [15/38] img_p24_1.png -> Aucun enrichissement détecté.... (2.9s)
+    [16/38] img_p21_1.png -> Aucun enrichissement détecté.... (4.0s)
+    [17/38] img_p52_2.png -> Aucun enrichissement détecté.... (2.2s)
+    [18/38] img_p53_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal visible : Carte de l'échelle 1 :... (26.1s)
+    [19/38] img_p44_1.png -> DECORATIVE (4.0s)
+    [20/38] img_p47_1.png -> Aucun enrichissement détecté.... (4.1s)
+    [21/38] img_p43_2.png -> Aucun enrichissement détecté.... (3.4s)
+    [22/38] img_p20_1.png -> Aucun enrichissement détecté.... (2.9s)
+    [23/38] img_p51_2.png -> DECORATIVE (3.8s)
+    [24/38] img_p13_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Une rivière avec une... (18.4s)
+    [25/38] img_p49_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Une carte cartographique du co... (20.1s)
+    [26/38] img_p45_1.png -> Aucun enrichissement détecté.... (4.1s)
+    [27/38] img_p50_3.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Une rivière courante... (19.5s)
+    [28/38] img_p23_3.png -> Phase 1 :
+- Type visuel : PHOTO
+- Sujet principal : Îlot d'eau dans le Vieux Rhin
+- Éléments visible... (14.0s)
+    [29/38] img_p23_2.png -> Aucun enrichissement détecté.... (3.6s)
+    [30/38] img_p19_2.png -> Aucun enrichissement détecté.... (4.2s)
+    [31/38] img_p48_1.png -> DECORATIVE (5.0s)
+    [32/38] img_p47_2.png -> Aucun enrichissement détecté.... (3.2s)
+    [33/38] img_p34_1.png -> Aucun enrichissement détecté.... (3.7s)
+    [34/38] img_p45_2.png -> Aucun enrichissement détecté.... (3.0s)
+    [35/38] img_p22_1.png -> Aucun enrichissement détecté.... (3.4s)
+    [36/38] img_p52_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Une carte de restauration de c... (20.3s)
+    [37/38] img_p50_4.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Une rivière en cours... (18.3s)
+    [38/38] img_p9_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal : Cycle de vie du saumon
+- É... (17.8s)
+========== COMPLETED [Rapport-stage-M2-Floriane] in 00h 06m 46s ==========
+
+========== PROCESSING [fichier] ==========
+    Images to caption: 25
+    [1/25] img_p13_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Une cours d'eau avec... (19.4s)
+    [2/25] img_p20_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Berges d'une rivière... (17.9s)
+    [3/25] img_p14_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Végétation herbacée ... (20.9s)
+    [4/25] img_p11_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Cours d'eau et végét... (18.2s)
+    [5/25] img_p23_1.png -> Aucun enrichissement détecté.... (4.1s)
+    [6/25] img_p14_2.png -> Aucun enrichissement détecté.... (3.0s)
+    [7/25] img_p15_1.png -> Aucun enrichissement détecté.... (2.9s)
+    [8/25] img_p8_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Une vallée forestièr... (23.9s)
+    [9/25] img_p19_1.png -> Aucun enrichissement détecté.... (2.7s)
+    [10/25] img_p10_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Végétation et struct... (20.4s)
+    [11/25] img_p17_1.png -> Aucun enrichissement détecté.... (2.9s)
+    [12/25] img_p21_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Une perte de cours d... (36.6s)
+    [13/25] img_p12_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Cours d'eau et envir... (18.1s)
+    [14/25] img_p7_1.png -> Aucun enrichissement détecté.... (3.1s)
+    [15/25] img_p17_2.png -> Aucun enrichissement détecté.... (2.9s)
+    [16/25] img_p20_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Une rivière avec des... (28.9s)
+    [17/25] img_p1_1.png -> Aucun enrichissement détecté.... (3.4s)
+    [18/25] img_p10_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Cours d'eau avec vég... (20.6s)
+    [19/25] img_p16_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Une rivière avec des... (24.3s)
+    [20/25] img_p13_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Cours d'eau et envir... (15.1s)
+    [21/25] img_p18_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Cours d'eau et envir... (26.2s)
+    [22/25] img_p19_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Une image montre deu... (28.2s)
+    [23/25] img_p22_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Cours d'eau avec vég... (29.8s)
+    [24/25] img_p1_2.png -> DECORATIVE (3.8s)
+    [25/25] img_p9_1.png -> Aucun enrichissement détecté.... (3.7s)
+========== COMPLETED [fichier] in 00h 06m 27s ==========
+
+========== PROCESSING [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] ==========
+    Images to caption: 18
+    [1/18] img_p16_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Évolution de l'état d'une zone... (34.8s)
+    [2/18] img_p1_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Forêt, végétation, t... (19.4s)
+    [3/18] img_p21_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Une vallée forestièr... (20.3s)
+    [4/18] img_p4_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal visible : Classification du ... (22.7s)
+    [5/18] img_p12_1.png -> DECORATIVE (3.8s)
+    [6/18] img_p22_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal visible : Rupture de pente e... (22.4s)
+    [7/18] img_p15_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Carte topographique et cartes ... (31.6s)
+    [8/18] img_p28_1.png -> Aucun enrichissement détecté.... (2.9s)
+    [9/18] img_p10_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal : Exemples de pratiques de g... (21.5s)
+    [10/18] img_p9_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Vallées et fonds de ... (19.7s)
+    [11/18] img_p12_2.png -> DECORATIVE (4.7s)
+    [12/18] img_p40_1.png -> Aucun enrichissement détecté.... (3.1s)
+    [13/18] img_p6_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal : Évolution du point d'émerg... (19.0s)
+    [14/18] img_p17_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : MAP
+- Sujet principal : Carte topographique du territo... (678.3s)
+    [15/18] img_p23_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Profils pédologiques... (15.8s)
+    [16/18] img_p31_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : PHOTO
+- Sujet principal visible : Une image montre deu... (15.3s)
+    [17/18] img_p4_1.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal : Schéma d'un bassin versant... (24.4s)
+    [18/18] img_p21_2.png -> PHASE 1 — DESCRIPTION LIBRE :
+- Type visuel : DIAGRAM
+- Sujet principal visible : Coupe transversale... (17.2s)
+========== COMPLETED [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] in 00h 16m 21s ==========
+
+============================================================
+  PIPELINE COMPLETE
+  Generator model  : internvl25-8b
+  Retrieval model  : vidore
+  Total runtime    : 00h 36m 04s
+============================================================

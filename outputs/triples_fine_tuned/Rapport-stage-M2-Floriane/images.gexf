@@ -1,0 +1,2062 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-08-18">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="9" title="networkx_key" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="datasource" type="string" />
+      <attribute id="1" title="extractedFrom" type="string" />
+      <attribute id="2" title="hasFunction" type="string" />
+      <attribute id="3" title="hasMonitoringDescription" type="string" />
+      <attribute id="4" title="hasMonitoringStartDate" type="string" />
+      <attribute id="5" title="hasMonitoringEndDate" type="string" />
+      <attribute id="6" title="hasPurpose" type="string" />
+      <attribute id="7" title="note" type="string" />
+      <attribute id="8" title="hasDescription" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Gestion_De_La_Qualite_De_Leau" label="Gestion_De_La_Qualite_De_Leau">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="NamedIndividual" label="NamedIndividual">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Arbres_Et_Arbustes" label="Arbres_Et_Arbustes">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+          <attvalue for="2" value="habitats pour les poissons et les autres organismes aquatiques" />
+        </attvalues>
+      </node>
+      <node id="Rhin" label="Rhin">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="3" value="étude de la biodiversité et de la conservation des poissons; impact du changement climatique sur les poissons migrateurs et la biodiversité; amplitudes et moyennes journalières de la température et du débit; réchauffement climatique perturbant les activités et l’abondance d’autres espèces; variations de température affectant la migration des poissons" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+          <attvalue for="4" value="21/07/2017" />
+          <attvalue for="5" value="06/06/2018" />
+        </attvalues>
+      </node>
+      <node id="Conservation_Des_Poissons" label="Conservation_Des_Poissons">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Ecoulement" label="Ecoulement">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="6" value="construction de passe à poissons en cours" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Developpement_Et_Survie_Des_Poissons_Migrateurs" label="Developpement_Et_Survie_Des_Poissons_Migrateurs">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Site_F3_De_Blodelsheim" label="Site_F3_De_Blodelsheim">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+          <attvalue for="4" value="17/04/18" />
+        </attvalues>
+      </node>
+      <node id="Augmenter_La_Biodiversite" label="Augmenter_La_Biodiversite">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Fessenheim_Vr" label="Fessenheim_Vr">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+          <attvalue for="4" value="21/07/17" />
+          <attvalue for="5" value="06/06/18" />
+        </attvalues>
+      </node>
+      <node id="Debit" label="Debit">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Fessenheim" label="Fessenheim">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="7" value="hasSensor: 2" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Protection_Des_Berges" label="Protection_Des_Berges">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Travaux_De_Tulla" label="Travaux_De_Tulla">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Phase_2" label="Phase_2">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Phase_1" label="Phase_1">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Bassin_Du_Rhin" label="Bassin_Du_Rhin">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="7" value="hasScientificMonitoring: non spécifié; hasEcologicalMonitoring: non spécifié" />
+          <attvalue for="3" value="facteurs qui peuvent affecter la biodiversité et la conservation des poissons" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Non_Specifie" label="Non_Specifie">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Plantes_Vertes" label="Plantes_Vertes">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Sol_Rocheux" label="Sol_Rocheux">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Poissons" label="Poissons">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="7" value="need: températures appropriées; need: nourriture pour la reproduction; need: substrats appropriés" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Absence_De_Passes_A_Poissons" label="Absence_De_Passes_A_Poissons">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Cours_Deau" label="Cours_Deau">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Rhine" label="Rhine">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Kems" label="Kems">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Etudes_Des_Variations_De_Temperature" label="Etudes_Des_Variations_De_Temperature">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="geographicZone" label="geographicZone">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Petitlandau" label="Petitlandau">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Etudes_De_Lhydrologie" label="Etudes_De_Lhydrologie">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="waterBody" label="waterBody">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Old_Rhin" label="Old_Rhin">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+          <attvalue for="6" value="restauration des habitats pour les poissons migrateurs" />
+        </attvalues>
+      </node>
+      <node id="Etude_Des_Facteurs_Environnementaux" label="Etude_Des_Facteurs_Environnementaux">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Algues" label="Algues">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Vvr" label="Vvr">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+          <attvalue for="5" value="06/04/18" />
+          <attvalue for="4" value="19/08/17" />
+        </attvalues>
+      </node>
+      <node id="Passage_A_Poissons" label="Passage_A_Poissons">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="8" value="constitué de plusieurs étapes en béton, avec des marches en eau claire" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+          <attvalue for="3" value="en bon état, avec des marches nettes et une eau claire qui coule doucement" />
+        </attvalues>
+      </node>
+      <node id="Old_Rhine" label="Old_Rhine">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Riviere" label="Riviere">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Graphique" label="Graphique">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Barrage_Rouleuse_A_Laval_Du_Vk" label="Barrage_Rouleuse_A_Laval_Du_Vk">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="restorationOperation" label="restorationOperation">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Etudes_De_Limpact_Des_Especes_Invasives" label="Etudes_De_Limpact_Des_Especes_Invasives">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Vieux_Rhin" label="Vieux_Rhin">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Zones_Derosion" label="Zones_Derosion">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="7" value="areHighlighted: changements et déplacements observés entre 2015 et 2017" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Restauration" label="Restauration">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Ecarts_De_Temperature" label="Ecarts_De_Temperature">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="7" value="canAffect: migration des poissons" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Migration_Des_Poissons" label="Migration_Des_Poissons">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Proportion_Des_Differentes_Facies_Recensees" label="Proportion_Des_Differentes_Facies_Recensees">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Restauration_Hydromorphologique" label="Restauration_Hydromorphologique">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Etude_De_Limpact_Des_Especes_Invasives" label="Etude_De_Limpact_Des_Especes_Invasives">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="river" label="river">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Restauration_Des_Habitats" label="Restauration_Des_Habitats">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Temperatures_Maximales" label="Temperatures_Maximales">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="eelLadder" label="eelLadder">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Vogelgrun" label="Vogelgrun">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Presence_De_Passes_A_Poissons" label="Presence_De_Passes_A_Poissons">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Construction_Du_Grand_Canal_Dalsace" label="Construction_Du_Grand_Canal_Dalsace">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Saumon" label="Saumon">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="migratorySpecie" label="migratorySpecie">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Barre_Rocheuse_A_Lamont_Du_Vr" label="Barre_Rocheuse_A_Lamont_Du_Vr">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Temperature" label="Temperature">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+          <attvalue for="7" value="canInfluence: qualité des habitats pour les poissons" />
+        </attvalues>
+      </node>
+      <node id="Construction_De_Passe_A_Poissons_En_Cours" label="Construction_De_Passe_A_Poissons_En_Cours">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+      <node id="Villageneuf" label="Villageneuf">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Sonde_Thermique" label="Sonde_Thermique">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="8" value="fixée à un support métallique et entourée d’une courroie verte" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+      <node id="Favoriser_Le_Retour_Des_Saumons" label="Favoriser_Le_Retour_Des_Saumons">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Etude_De_Lhydrologie" label="Etude_De_Lhydrologie">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Impact_Des_Especes_Invasives" label="Impact_Des_Especes_Invasives">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Variations_De_Temperature" label="Variations_De_Temperature">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Presence_Dalgues" label="Presence_Dalgues">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+          <attvalue for="7" value="canInfluence: qualité des habitats pour les poissons" />
+        </attvalues>
+      </node>
+      <node id="France" label="France">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Bords_De_La_Riviere" label="Bords_De_La_Riviere">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Couche_Darmurage" label="Couche_Darmurage">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+          <attvalue for="6" value="maintien de la stabilité du lit du fleuve" />
+        </attvalues>
+      </node>
+      <node id="Niffer" label="Niffer">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Profil_Thermique" label="Profil_Thermique">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Graphique_En_Pie_Chart" label="Graphique_En_Pie_Chart">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+          <attvalue for="4" value="2007" />
+          <attvalue for="8" value="représente les abondances relatives des poissons retrouvés en faible effectif sur la période 2007-2017 dans les pêches AFB" />
+          <attvalue for="3" value="représente les abondances relatives des poissons retrouvés en faible effectif sur la période 2007-2017 dans les pêches AFB" />
+          <attvalue for="5" value="2017" />
+        </attvalues>
+      </node>
+      <node id="Etudes_Des_Facteurs_Environnementaux" label="Etudes_Des_Facteurs_Environnementaux">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Modifications_De_Lhydrologie" label="Modifications_De_Lhydrologie">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+      <node id="Surveillance_Des_Poissons" label="Surveillance_Des_Poissons">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Galets_Et_Graviers" label="Galets_Et_Graviers">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="7" value="canAffect: morphologie du cours d’eau; canBeRemobilizedBy: crues" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Geiswasser" label="Geiswasser">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Etude_Des_Variations_De_Temperature" label="Etude_Des_Variations_De_Temperature">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Blodelsheim" label="Blodelsheim">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Creation_De_Passes_A_Poissons" label="Creation_De_Passes_A_Poissons">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Remobilisation_De_La_Charge" label="Remobilisation_De_La_Charge">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+          <attvalue for="7" value="canPerturb: activités et abondance d’autres espèces" />
+        </attvalues>
+      </node>
+      <node id="Breisach" label="Breisach">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="7" value="hasFactory: 1; hasPhysicalAnalysisPoint: 1" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Modification_Du_Cours_Deau" label="Modification_Du_Cours_Deau">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="structure" label="structure">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Amelioration_De_Lhabitat" label="Amelioration_De_Lhabitat">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Formation_De_Gravier" label="Formation_De_Gravier">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+          <attvalue for="2" value="permettre aux poissons de se déplacer et de se nourrir" />
+        </attvalues>
+      </node>
+      <node id="Support_Metallique" label="Support_Metallique">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Ottmarsheim" label="Ottmarsheim">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+          <attvalue for="7" value="hasSensor: 2" />
+        </attvalues>
+      </node>
+      <node id="True" label="True">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Produire_De_Lenergie" label="Produire_De_Lenergie">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Sol_Vente" label="Sol_Vente">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+          <attvalue for="2" value="stabilité du cours d’eau et prévention des érosions" />
+        </attvalues>
+      </node>
+      <node id="Substrat" label="Substrat">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+          <attvalue for="7" value="canInfluence: qualité des habitats pour les poissons" />
+        </attvalues>
+      </node>
+      <node id="Rendre_Le_Cours_Deau_Navigable" label="Rendre_Le_Cours_Deau_Navigable">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="naturalObstacle" label="naturalObstacle">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Temperatures_Minimales" label="Temperatures_Minimales">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+      <node id="Nature" label="Nature">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="distributionBasin" label="distributionBasin">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="wetland" label="wetland">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="country" label="country">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Regularisation_Du_Fleuve" label="Regularisation_Du_Fleuve">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Pierres_Et_Roches" label="Pierres_Et_Roches">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+          <attvalue for="2" value="maintien de la vitesse de l’eau et prévention des écoulements rapides" />
+        </attvalues>
+      </node>
+      <node id="instance_graph" label="instance_graph">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Ontology" label="Ontology">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="gravelInsertion" label="gravelInsertion">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Gestion_De_La_Qualite_De_Leau" target="NamedIndividual" id="0" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Arbres_Et_Arbustes" target="NamedIndividual" id="1" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Arbres_Et_Arbustes" target="Old_Rhine" id="2" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Arbres_Et_Arbustes" target="wetland" id="3" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Conservation_Des_Poissons" id="4" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Protection_Des_Berges" id="5" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Travaux_De_Tulla" id="6" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Phase_2" id="7" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Phase_2" id="8" label="hasMonitoringEndDate">
+        <attvalues>
+          <attvalue for="9" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Absence_De_Passes_A_Poissons" id="9" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Etude_De_Limpact_Des_Especes_Invasives" id="10" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Vogelgrun" id="11" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Presence_De_Passes_A_Poissons" id="12" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Developpement_Et_Survie_Des_Poissons_Migrateurs" id="13" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Variations_De_Temperature" id="14" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Impact_Des_Especes_Invasives" id="15" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="NamedIndividual" id="16" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Gestion_De_La_Qualite_De_Leau" id="17" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Construction_Du_Grand_Canal_Dalsace" id="18" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Surveillance_Des_Poissons" id="19" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Etude_Des_Variations_De_Temperature" id="20" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Bassin_Du_Rhin" id="21" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="France" id="22" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="river" id="23" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Etude_Des_Facteurs_Environnementaux" id="24" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Rendre_Le_Cours_Deau_Navigable" id="25" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Migration_Des_Poissons" id="26" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Modifications_De_Lhydrologie" id="27" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Produire_De_Lenergie" id="28" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Etude_De_Lhydrologie" id="29" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Regularisation_Du_Fleuve" id="30" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Restauration_Des_Habitats" id="31" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Creation_De_Passes_A_Poissons" id="32" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhin" target="Amelioration_De_Lhabitat" id="33" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Conservation_Des_Poissons" target="NamedIndividual" id="34" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecoulement" target="Developpement_Et_Survie_Des_Poissons_Migrateurs" id="35" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecoulement" target="Conservation_Des_Poissons" id="36" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecoulement" target="Bassin_Du_Rhin" id="37" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecoulement" target="Presence_De_Passes_A_Poissons" id="38" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecoulement" target="Modifications_De_Lhydrologie" id="39" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecoulement" target="Zones_Derosion" id="40" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecoulement" target="Formation_De_Gravier" id="41" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecoulement" target="Augmenter_La_Biodiversite" id="42" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecoulement" target="Remobilisation_De_La_Charge" id="43" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecoulement" target="Presence_Dalgues" id="44" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecoulement" target="Protection_Des_Berges" id="45" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecoulement" target="Absence_De_Passes_A_Poissons" id="46" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecoulement" target="Impact_Des_Especes_Invasives" id="47" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecoulement" target="NamedIndividual" id="48" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Developpement_Et_Survie_Des_Poissons_Migrateurs" target="NamedIndividual" id="49" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Site_F3_De_Blodelsheim" target="Augmenter_La_Biodiversite" id="50" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Site_F3_De_Blodelsheim" target="Restauration_Hydromorphologique" id="51" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Site_F3_De_Blodelsheim" target="Favoriser_Le_Retour_Des_Saumons" id="52" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Site_F3_De_Blodelsheim" target="Rhin" id="53" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Site_F3_De_Blodelsheim" target="NamedIndividual" id="54" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Site_F3_De_Blodelsheim" target="geographicZone" id="55" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Augmenter_La_Biodiversite" target="NamedIndividual" id="56" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fessenheim_Vr" target="Debit" id="57" label="hasHydromorphologicalMonitoring">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fessenheim_Vr" target="waterBody" id="58" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fessenheim_Vr" target="Temperature" id="59" label="hasHydromorphologicalMonitoring">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fessenheim_Vr" target="Rhin" id="60" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fessenheim_Vr" target="NamedIndividual" id="61" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Debit" target="NamedIndividual" id="62" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fessenheim" target="Rhin" id="63" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fessenheim" target="geographicZone" id="64" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fessenheim" target="Vvr" id="65" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fessenheim" target="NamedIndividual" id="66" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Protection_Des_Berges" target="NamedIndividual" id="67" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Travaux_De_Tulla" target="NamedIndividual" id="68" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Phase_2" target="NamedIndividual" id="69" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Phase_1" target="NamedIndividual" id="70" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="Non_Specifie" id="71" label="hasHydromorphologicalMonitoring">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="Non_Specifie" id="72" label="hasMonitoringCost">
+        <attvalues>
+          <attvalue for="9" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="Non_Specifie" id="73" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="9" value="2" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="Non_Specifie" id="74" label="hasMonitoringEndDate">
+        <attvalues>
+          <attvalue for="9" value="3" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="Non_Specifie" id="75" label="hasBiologicalMonitoring">
+        <attvalues>
+          <attvalue for="9" value="4" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="Conservation_Des_Poissons" id="76" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="Restauration_Des_Habitats" id="77" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="Etudes_De_Limpact_Des_Especes_Invasives" id="78" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="NamedIndividual" id="79" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="Etudes_Des_Facteurs_Environnementaux" id="80" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="Developpement_Et_Survie_Des_Poissons_Migrateurs" id="81" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="Gestion_De_La_Qualite_De_Leau" id="82" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="Surveillance_Des_Poissons" id="83" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="France" id="84" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="distributionBasin" id="85" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="Etudes_De_Lhydrologie" id="86" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="Migration_Des_Poissons" id="87" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Du_Rhin" target="Etudes_Des_Variations_De_Temperature" id="88" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Non_Specifie" target="NamedIndividual" id="89" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Plantes_Vertes" target="Sol_Rocheux" id="90" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Plantes_Vertes" target="NamedIndividual" id="91" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sol_Rocheux" target="NamedIndividual" id="92" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Poissons" target="NamedIndividual" id="93" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Absence_De_Passes_A_Poissons" target="restorationOperation" id="94" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Absence_De_Passes_A_Poissons" target="Proportion_Des_Differentes_Facies_Recensees" id="95" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Absence_De_Passes_A_Poissons" target="NamedIndividual" id="96" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Absence_De_Passes_A_Poissons" target="Augmenter_La_Biodiversite" id="97" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Rhine" id="98" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="waterBody" id="99" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="NamedIndividual" id="100" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Restauration" id="101" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Nature" id="102" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rhine" target="NamedIndividual" id="103" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Kems" target="Rhin" id="104" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Kems" target="NamedIndividual" id="105" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Kems" target="geographicZone" id="106" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Etudes_Des_Variations_De_Temperature" target="NamedIndividual" id="107" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Petitlandau" target="NamedIndividual" id="108" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Petitlandau" target="Rhin" id="109" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Petitlandau" target="geographicZone" id="110" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Etudes_De_Lhydrologie" target="NamedIndividual" id="111" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhin" target="Etude_Des_Facteurs_Environnementaux" id="112" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhin" target="Etude_De_Lhydrologie" id="113" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhin" target="Creation_De_Passes_A_Poissons" id="114" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhin" target="Developpement_Et_Survie_Des_Poissons_Migrateurs" id="115" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhin" target="NamedIndividual" id="116" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhin" target="Amelioration_De_Lhabitat" id="117" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhin" target="Conservation_Des_Poissons" id="118" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhin" target="Gestion_De_La_Qualite_De_Leau" id="119" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhin" target="Surveillance_Des_Poissons" id="120" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhin" target="Etude_Des_Variations_De_Temperature" id="121" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhin" target="Etude_De_Limpact_Des_Especes_Invasives" id="122" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhin" target="river" id="123" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhin" target="Bassin_Du_Rhin" id="124" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Etude_Des_Facteurs_Environnementaux" target="NamedIndividual" id="125" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Algues" target="NamedIndividual" id="126" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Algues" target="Sol_Rocheux" id="127" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vvr" target="NamedIndividual" id="128" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vvr" target="Profil_Thermique" id="129" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vvr" target="waterBody" id="130" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vvr" target="Old_Rhin" id="131" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Passage_A_Poissons" target="Old_Rhine" id="132" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Passage_A_Poissons" target="NamedIndividual" id="133" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Passage_A_Poissons" target="eelLadder" id="134" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Passage_A_Poissons" target="Conservation_Des_Poissons" id="135" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Passage_A_Poissons" target="Non_Specifie" id="136" label="hasMonitoringEndDate">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Passage_A_Poissons" target="Non_Specifie" id="137" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="9" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Passage_A_Poissons" target="Blodelsheim" id="138" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhine" target="Restauration_Hydromorphologique" id="139" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhine" target="NamedIndividual" id="140" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhine" target="Conservation_Des_Poissons" id="141" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhine" target="river" id="142" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Old_Rhine" target="Bassin_Du_Rhin" id="143" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Riviere" target="Etude_Des_Facteurs_Environnementaux" id="144" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Riviere" target="Creation_De_Passes_A_Poissons" id="145" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Riviere" target="Amelioration_De_Lhabitat" id="146" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Riviere" target="Conservation_Des_Poissons" id="147" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Riviere" target="Etude_De_Lhydrologie" id="148" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Riviere" target="Etude_De_Limpact_Des_Especes_Invasives" id="149" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Riviere" target="Variations_De_Temperature" id="150" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Riviere" target="Restauration_Des_Habitats" id="151" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Riviere" target="NamedIndividual" id="152" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Riviere" target="Gestion_De_La_Qualite_De_Leau" id="153" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Riviere" target="Surveillance_Des_Poissons" id="154" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Riviere" target="Bassin_Du_Rhin" id="155" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Riviere" target="Bords_De_La_Riviere" id="156" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Riviere" target="river" id="157" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Graphique" target="NamedIndividual" id="158" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Graphique" target="Phase_1" id="159" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Barrage_Rouleuse_A_Laval_Du_Vk" target="Old_Rhine" id="160" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Barrage_Rouleuse_A_Laval_Du_Vk" target="structure" id="161" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Barrage_Rouleuse_A_Laval_Du_Vk" target="NamedIndividual" id="162" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Barrage_Rouleuse_A_Laval_Du_Vk" target="True" id="163" label="isImpassable">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Etudes_De_Limpact_Des_Especes_Invasives" target="NamedIndividual" id="164" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vieux_Rhin" target="Bassin_Du_Rhin" id="165" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vieux_Rhin" target="river" id="166" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vieux_Rhin" target="Modification_Du_Cours_Deau" id="167" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vieux_Rhin" target="Old_Rhine" id="168" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vieux_Rhin" target="NamedIndividual" id="169" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vieux_Rhin" target="Proportion_Des_Differentes_Facies_Recensees" id="170" label="hasDescription">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Derosion" target="NamedIndividual" id="171" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration" target="NamedIndividual" id="172" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecarts_De_Temperature" target="Migration_Des_Poissons" id="173" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecarts_De_Temperature" target="Variations_De_Temperature" id="174" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecarts_De_Temperature" target="Impact_Des_Especes_Invasives" id="175" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecarts_De_Temperature" target="NamedIndividual" id="176" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecarts_De_Temperature" target="Conservation_Des_Poissons" id="177" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecarts_De_Temperature" target="Bassin_Du_Rhin" id="178" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Migration_Des_Poissons" target="NamedIndividual" id="179" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Proportion_Des_Differentes_Facies_Recensees" target="NamedIndividual" id="180" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration_Hydromorphologique" target="NamedIndividual" id="181" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Etude_De_Limpact_Des_Especes_Invasives" target="NamedIndividual" id="182" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration_Des_Habitats" target="NamedIndividual" id="183" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Temperatures_Maximales" target="Bassin_Du_Rhin" id="184" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Temperatures_Maximales" target="NamedIndividual" id="185" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Temperatures_Maximales" target="Developpement_Et_Survie_Des_Poissons_Migrateurs" id="186" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vogelgrun" target="NamedIndividual" id="187" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Presence_De_Passes_A_Poissons" target="Proportion_Des_Differentes_Facies_Recensees" id="188" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Presence_De_Passes_A_Poissons" target="restorationOperation" id="189" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Presence_De_Passes_A_Poissons" target="NamedIndividual" id="190" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Presence_De_Passes_A_Poissons" target="Augmenter_La_Biodiversite" id="191" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Construction_Du_Grand_Canal_Dalsace" target="NamedIndividual" id="192" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Saumon" target="migratorySpecie" id="193" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Saumon" target="NamedIndividual" id="194" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Saumon" target="Developpement_Et_Survie_Des_Poissons_Migrateurs" id="195" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Saumon" target="Conservation_Des_Poissons" id="196" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Saumon" target="Presence_De_Passes_A_Poissons" id="197" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Barre_Rocheuse_A_Lamont_Du_Vr" target="NamedIndividual" id="198" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Barre_Rocheuse_A_Lamont_Du_Vr" target="Old_Rhin" id="199" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Barre_Rocheuse_A_Lamont_Du_Vr" target="naturalObstacle" id="200" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Temperature" target="NamedIndividual" id="201" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Construction_De_Passe_A_Poissons_En_Cours" target="Augmenter_La_Biodiversite" id="202" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Construction_De_Passe_A_Poissons_En_Cours" target="Proportion_Des_Differentes_Facies_Recensees" id="203" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Construction_De_Passe_A_Poissons_En_Cours" target="restorationOperation" id="204" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Construction_De_Passe_A_Poissons_En_Cours" target="NamedIndividual" id="205" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Villageneuf" target="NamedIndividual" id="206" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Villageneuf" target="geographicZone" id="207" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Villageneuf" target="Rhin" id="208" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Villageneuf" target="Vvr" id="209" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sonde_Thermique" target="Sol_Rocheux" id="210" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sonde_Thermique" target="NamedIndividual" id="211" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Favoriser_Le_Retour_Des_Saumons" target="NamedIndividual" id="212" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Etude_De_Lhydrologie" target="NamedIndividual" id="213" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Impact_Des_Especes_Invasives" target="Bassin_Du_Rhin" id="214" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Impact_Des_Especes_Invasives" target="NamedIndividual" id="215" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Variations_De_Temperature" target="Bassin_Du_Rhin" id="216" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Variations_De_Temperature" target="NamedIndividual" id="217" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Presence_Dalgues" target="NamedIndividual" id="218" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="France" target="NamedIndividual" id="219" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="France" target="Rhin" id="220" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="France" target="country" id="221" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bords_De_La_Riviere" target="NamedIndividual" id="222" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Couche_Darmurage" target="Vieux_Rhin" id="223" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Couche_Darmurage" target="Protection_Des_Berges" id="224" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Couche_Darmurage" target="NamedIndividual" id="225" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Niffer" target="NamedIndividual" id="226" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Niffer" target="Rhin" id="227" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Niffer" target="geographicZone" id="228" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Profil_Thermique" target="NamedIndividual" id="229" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Graphique_En_Pie_Chart" target="Bassin_Du_Rhin" id="230" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Graphique_En_Pie_Chart" target="Augmenter_La_Biodiversite" id="231" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Graphique_En_Pie_Chart" target="Site_F3_De_Blodelsheim" id="232" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Graphique_En_Pie_Chart" target="NamedIndividual" id="233" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Graphique_En_Pie_Chart" target="Proportion_Des_Differentes_Facies_Recensees" id="234" label="hasDescription">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Graphique_En_Pie_Chart" target="Proportion_Des_Differentes_Facies_Recensees" id="235" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Etudes_Des_Facteurs_Environnementaux" target="NamedIndividual" id="236" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Modifications_De_Lhydrologie" target="NamedIndividual" id="237" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Modifications_De_Lhydrologie" target="Bassin_Du_Rhin" id="238" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Surveillance_Des_Poissons" target="NamedIndividual" id="239" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Galets_Et_Graviers" target="NamedIndividual" id="240" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Geiswasser" target="Vvr" id="241" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Geiswasser" target="Rhin" id="242" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Geiswasser" target="NamedIndividual" id="243" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Geiswasser" target="geographicZone" id="244" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Etude_Des_Variations_De_Temperature" target="NamedIndividual" id="245" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Blodelsheim" target="NamedIndividual" id="246" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Creation_De_Passes_A_Poissons" target="NamedIndividual" id="247" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Remobilisation_De_La_Charge" target="NamedIndividual" id="248" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Breisach" target="NamedIndividual" id="249" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Breisach" target="geographicZone" id="250" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Breisach" target="Rhin" id="251" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Modification_Du_Cours_Deau" target="NamedIndividual" id="252" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Amelioration_De_Lhabitat" target="NamedIndividual" id="253" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Formation_De_Gravier" target="Augmenter_La_Biodiversite" id="254" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Formation_De_Gravier" target="NamedIndividual" id="255" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Formation_De_Gravier" target="Old_Rhine" id="256" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Formation_De_Gravier" target="gravelInsertion" id="257" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Support_Metallique" target="Sol_Rocheux" id="258" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Support_Metallique" target="NamedIndividual" id="259" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ottmarsheim" target="geographicZone" id="260" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ottmarsheim" target="NamedIndividual" id="261" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ottmarsheim" target="Rhin" id="262" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ottmarsheim" target="Vvr" id="263" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="True" target="NamedIndividual" id="264" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Produire_De_Lenergie" target="NamedIndividual" id="265" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sol_Vente" target="NamedIndividual" id="266" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Substrat" target="NamedIndividual" id="267" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rendre_Le_Cours_Deau_Navigable" target="NamedIndividual" id="268" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Temperatures_Minimales" target="Developpement_Et_Survie_Des_Poissons_Migrateurs" id="269" label="hasPurpose">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Temperatures_Minimales" target="NamedIndividual" id="270" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Temperatures_Minimales" target="Bassin_Du_Rhin" id="271" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Nature" target="NamedIndividual" id="272" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Regularisation_Du_Fleuve" target="NamedIndividual" id="273" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pierres_Et_Roches" target="NamedIndividual" id="274" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="instance_graph" target="Ontology" id="275" label="type">
+        <attvalues>
+          <attvalue for="9" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

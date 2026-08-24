@@ -1,0 +1,30 @@
+  [READ] internvl25-8b_captions_vidore → internvl25_8b_ocr_context.txt
+  [READ] llama32vision-11b_captions_vidore → llama32vision_11b_ocr_context.txt
+  [READ] mistral-small-31-24b_captions_vidore → mistral_small31_ablation_ocr_context.txt
+  [READ] nvila-lite-8b_captions_vidore → nvila_lite_8b_ablation_ocr_context.txt
+  [READ] pixtral-12b-hf_captions_vidore → pixtral12b_ablation_ocr_context.txt
+  [READ] qwen36-27b_captions_vidore → qwen36_27b_ocr_context.txt
+  [READ] qwen3vl-30b_captions_vidore → qwen3vl_30b_ocr_context.txt
+  Found 7 model(s): ['internvl25-8b_captions_vidore', 'llama32vision-11b_captions_vidore', 'mistral-small-31-24b_captions_vidore', 'nvila-lite-8b_captions_vidore', 'pixtral-12b-hf_captions_vidore', 'qwen36-27b_captions_vidore', 'qwen3vl-30b_captions_vidore']
+
+========================================================================================================================
+  PARETO RESULTS — Ablation 2 | Scenario B: Oracle
+  Weights: Quality=60%  Speed=25%  Size=15%
+Scenario A (Production): Quality = 0.33*VQA + 0.34*Enrichment + 0.33*NLI  | Weights: Q=40% S=35% Z=25%
+Scenario B (Oracle):     Quality = 0.50*VQA + 0.35*Enrichment + 0.15*NLI  | Weights: Q=60% S=25% Z=15%
+========================================================================================================================
+  Rank  Model                      Params   s/img  NLI Nov  Comb VQA   Enrich   Q_raw  Q_norm  S_norm  Z_norm   PARETO
+------------------------------------------------------------------------------------------------------------------------
+  1     mistral-small-31-24b_captions_vidore   12.7B    61.2    0.808     0.841    0.238   0.625   1.000   0.494   0.721   0.8316
+  2     nvila-lite-8b_captions_vidore    8.1B    14.3    0.846     0.795    0.095   0.558   0.672   1.000   0.910   0.7899
+  3     qwen3vl-30b_captions_vidore   30.3B    51.8    0.879     0.927    0.038   0.609   0.920   0.596   0.000   0.7012
+  4     pixtral-12b-hf_captions_vidore    7.0B    41.0    0.805     0.783    0.086   0.542   0.598   0.712   0.955   0.6800
+  5     llama32vision-11b_captions_vidore    5.9B    82.7    0.837     0.802    0.086   0.557   0.667   0.262   1.000   0.6156
+  6     qwen36-27b_captions_vidore   15.0B   107.0    0.925     0.854    0.000   0.566   0.712   0.000   0.627   0.5211
+  7     internvl25-8b_captions_vidore    8.1B    20.6    0.823     0.546    0.067   0.420   0.000   0.932   0.910   0.3695
+========================================================================================================================
+
+ Ablation_winner: mistral-small-31-24b_captions_vidore  |  Pareto Score: 0.8316
+     Quality: 0.625  |  s/img: 61.2  |  Params: 12.7B
+========================================================================================================================
+

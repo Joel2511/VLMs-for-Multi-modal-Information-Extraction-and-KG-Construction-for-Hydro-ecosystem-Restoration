@@ -1,0 +1,4511 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2026-08-18">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="directed" mode="static" name="">
+    <attributes mode="static" class="edge">
+      <attribute id="12" title="networkx_key" type="long" />
+    </attributes>
+    <attributes mode="static" class="node">
+      <attribute id="0" title="datasource" type="string" />
+      <attribute id="1" title="extractedFrom" type="string" />
+      <attribute id="2" title="hasMonitoringStartDate" type="string" />
+      <attribute id="3" title="note" type="string" />
+      <attribute id="4" title="hasMonitoringEndDate" type="string" />
+      <attribute id="5" title="hasPurpose" type="string" />
+      <attribute id="6" title="isLocatedIn" type="string" />
+      <attribute id="7" title="isSubjectTo" type="string" />
+      <attribute id="8" title="hasMonitoringDescription" type="string" />
+      <attribute id="9" title="hasAverageSlope" type="string" />
+      <attribute id="10" title="hasDescription" type="string" />
+      <attribute id="11" title="isLocatedOn" type="string" />
+    </attributes>
+    <nodes>
+      <node id="Prelevements_Deau" label="Prelevements_Deau">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="restorationMeasure" label="restorationMeasure">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Remblais" label="Remblais">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="2" value="2023" />
+          <attvalue for="3" value="hasCarottage: carottage; hasVolume: volume de remblai à extraire; hasGeophysicalRadar: radar géophysique; hasThickness: épaisseur du remblai; hasFoisonnement: phénomène de foisonnement" />
+          <attvalue for="4" value="2023" />
+        </attvalues>
+      </node>
+      <node id="NamedIndividual" label="NamedIndividual">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Radiers" label="Radiers">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Topographie" label="Topographie">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Zone_Apicale_Du_Rang_Zero" label="Zone_Apicale_Du_Rang_Zero">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Forets" label="Forets">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="France" label="France">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="country" label="country">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Police_De_Leau" label="Police_De_Leau">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Fonds_De_Vallees" label="Fonds_De_Vallees">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="3" value="hasComposition: colluvions et alluvions fines" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Reduire_Les_Vitesses_Decoulement" label="Reduire_Les_Vitesses_Decoulement">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Orthophotographies_Recentes_Ou_Anciennes" label="Orthophotographies_Recentes_Ou_Anciennes">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="3" value="providesInformation: mise en place du drainage; providesInformation: évolution des boisements" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Regulation_De_La_Temperature" label="Regulation_De_La_Temperature">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="instance_graph" label="instance_graph">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Ontology" label="Ontology">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Rang_Zero" label="Rang_Zero">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="5" value="retenir et pièger les excès de sédiments" />
+          <attvalue for="1" value="VQA-verified caption; Text; Image" />
+        </attvalues>
+      </node>
+      <node id="Transporter_Leau" label="Transporter_Leau">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Protection_Des_Cours_Deau" label="Protection_Des_Cours_Deau">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Reconstituer_La_Topographie_Alteree" label="Reconstituer_La_Topographie_Alteree">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="5" value="se rapprocher des caractéristiques naturelles de la vallée; caractériser avec précision la topographie des vallées impactées; redessiner les pentes longitudinales et latérales des versants et du fond de la vallée" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="restorationOperation" label="restorationOperation">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Toponymie" label="Toponymie">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="3" value="indicatesPresence: source ponctuelle ou diffuse" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="La_Rimbaudais" label="La_Rimbaudais">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Gestion_Des_Sediments" label="Gestion_Des_Sediments">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Talweg" label="Talweg">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Moins_De_Recharge_Des_Nappes_Sousjacentes" label="Moins_De_Recharge_Des_Nappes_Sousjacentes">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Expositions_Photo" label="Expositions_Photo">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Geologie" label="Geologie">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Pollutions_Diffuses" label="Pollutions_Diffuses">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Suppression_De_Remblais" label="Suppression_De_Remblais">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="3" value="hasAssociatedMeas: remblais" />
+        </attvalues>
+      </node>
+      <node id="Limiter_Les_Pics_De_Crue" label="Limiter_Les_Pics_De_Crue">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Reconstitution_De_La_Rugosite" label="Reconstitution_De_La_Rugosite">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="5" value="éléments participant à la rugosité naturelle du fond de vallée" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Prevenir_Lapparition_De_Ravines" label="Prevenir_Lapparition_De_Ravines">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Bassin_Versant_De_Rang_0" label="Bassin_Versant_De_Rang_0">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Identification_Rapide_Des_Pressions_Et_Perturbations" label="Identification_Rapide_Des_Pressions_Et_Perturbations">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Caracteriser_La_Topographie_Initiale" label="Caracteriser_La_Topographie_Initiale">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Rang_1" label="Rang_1">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Image; VQA-verified caption; Text" />
+        </attvalues>
+      </node>
+      <node id="Schema_De_Coherence_Territoriale_De_Cap_Atlantique" label="Schema_De_Coherence_Territoriale_De_Cap_Atlantique">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="3" value="prescribes: protection des zones de sources" />
+        </attvalues>
+      </node>
+      <node id="Reduction_De_Linfiltration" label="Reduction_De_Linfiltration">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Cours_Deau_Police_De_Leau" label="Cours_Deau_Police_De_Leau">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Maintenir_Une_Rugosite_Naturelle" label="Maintenir_Une_Rugosite_Naturelle">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Permeabilite_Du_Substrat" label="Permeabilite_Du_Substrat">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="3" value="hasImpact: apparition et maintien des écoulements au sein du rang 0" />
+        </attvalues>
+      </node>
+      <node id="Ruisseau_De_Norroy" label="Ruisseau_De_Norroy">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Preservation_De_La_Biodiversite" label="Preservation_De_La_Biodiversite">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Chenaux_De_Transition" label="Chenaux_De_Transition">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Risque_Datteinte_A_Des_Habitats_Dinteret" label="Risque_Datteinte_A_Des_Habitats_Dinteret">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Versant" label="Versant">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Preciser_Les_Caracteristiques_Lorganisation_Et_Letendue" label="Preciser_Les_Caracteristiques_Lorganisation_Et_Letendue">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Zones_De_Source" label="Zones_De_Source">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="3" value="allows: recolonisation biologique des milieux aquatiques et rivulaires en aval; include: sources naturelles et aménagées; hasCharacteristics: conditions d’hygrométrie élevées, températures stables, fraîches en été et positives en hiver; servesAs: refuge pour espèces exigeantes et mobiles" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Sensibilisation" label="Sensibilisation">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Pente_Longitudinale_De_Rang_1" label="Pente_Longitudinale_De_Rang_1">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Zones_Restaurees" label="Zones_Restaurees">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="6" value="Schéma de Cohérence Territoriale de Cap Atlantique; Plan d’Aménagement et de Gestion Durable de la ressource en eau PAGD" />
+        </attvalues>
+      </node>
+      <node id="Zones_Humides_De_Source" label="Zones_Humides_De_Source">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="3" value="areConcernedBy: interdiction de destruction" />
+        </attvalues>
+      </node>
+      <node id="Prevention_Des_Risques_Erosifs" label="Prevention_Des_Risques_Erosifs">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Tetes_De_Bassin_Versant" label="Tetes_De_Bassin_Versant">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="3" value="hasPrimaryEnergySource: apports de matière allochtone d’origine terrestre" />
+        </attvalues>
+      </node>
+      <node id="distributionBasin" label="distributionBasin">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Cours_Deau" label="Cours_Deau">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="7" value="modification/destruction des lits mineurs des cours d’eau" />
+          <attvalue for="1" value="VQA-verified caption; Text; Image" />
+          <attvalue for="8" value="Mesure de la pente latérale au niveau de l’exutoire; La répartition spatiale des mesures réalisées dans le cadre de cette étude est illustrée au sein de la figure ci- dessous; Mesure de la pente longitudinale sur 30 mètres; Pédologie un Epaisseur des horizons Terrain sondage en zone Profondeur de la matière organique Terrain humide et un sondage Texture Terrain hors zone humide; Eléments ponctuels et Localisation d’éléments ponctuels résurgence, puits, lavoir, SIG et terrain etc. et linéaires talus; Caractéristiques des lits présence de berges, géométrie du lit, granulométrie, vie aquatique, végétation aquatique, type d’écoulements, pente du lit; Mesure de la pente de l’amont du bassin à l’exutoire; Epaisseur de MO – Couleur Terrain Pierrosité Terrain; Mesures de la physico-chimie des eaux à l’exutoire" />
+          <attvalue for="3" value="hasMainSource: têtes de bassin versant" />
+          <attvalue for="5" value="correspondent aux cours d’eau de rang de Strahler 1 et 2" />
+        </attvalues>
+      </node>
+      <node id="Pas_De_Date_Specifiee" label="Pas_De_Date_Specifiee">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Sources" label="Sources">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="3" value="isHistoricallyEntombed: True; isHistoricallyBused: True; isHistoricallyFilled: True; isHistoricallyDrained: True" />
+        </attvalues>
+      </node>
+      <node id="Pays_De_La_Loire" label="Pays_De_La_Loire">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Image; Text" />
+        </attvalues>
+      </node>
+      <node id="Viser_Un_Gain_De_Biodiversite" label="Viser_Un_Gain_De_Biodiversite">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Polluants" label="Polluants">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Randonnees_Thematiques" label="Randonnees_Thematiques">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="wetland" label="wetland">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Photographies_Aeriennes_Anciennes" label="Photographies_Aeriennes_Anciennes">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Bretagne" label="Bretagne">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="1" value="Text; Image" />
+          <attvalue for="8" value="état des bassins versants en rangs 0" />
+          <attvalue for="4" value="2023" />
+          <attvalue for="2" value="2023" />
+        </attvalues>
+      </node>
+      <node id="Cartographies_Historiques_De_Lign" label="Cartographies_Historiques_De_Lign">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Infoterre" label="Infoterre">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Elements_Participant_A_La_Rugosite_Naturelle_Du_Fond_De_Vallee" label="Elements_Participant_A_La_Rugosite_Naturelle_Du_Fond_De_Vallee">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Limiter_Benefices_Ecologiques_De_La_Restauration" label="Limiter_Benefices_Ecologiques_De_La_Restauration">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Emmagasiner_De_Leau" label="Emmagasiner_De_Leau">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Irstea" label="Irstea">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Modification_Du_Regime_Hydrologique" label="Modification_Du_Regime_Hydrologique">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Pente_Moderee" label="Pente_Moderee">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="river" label="river">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Maintenir_Un_Regime_Hydrologique_Naturel" label="Maintenir_Un_Regime_Hydrologique_Naturel">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Travaux" label="Travaux">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Preserver_La_Biodiversite" label="Preserver_La_Biodiversite">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Profils_Pedologiques" label="Profils_Pedologiques">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="VQA-verified caption; Image" />
+        </attvalues>
+      </node>
+      <node id="Aout" label="Aout">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Zones_Humides" label="Zones_Humides">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="3" value="hasProtectionRule: déclaration si surface entre 1000 m² et 1 ha; areProtectedBeyond: réglementation nationale; hasProtectionRule: autorisation si surface supérieure à 1 ha; isProtected: oui; hasProtectionRule: protection dès 1 m² selon certains SAGE; hasArea: gain surfacique; hasType: zones humides riveraines des étendues d’eau; hasArea: inférieur à 1000 m²; areProtectedBy: SAGE Estuaire de la Loire; isFormedBy: toit de nappe et pente locale; isHistoricallyPresent: True; hasType: source et suintement" />
+        </attvalues>
+      </node>
+      <node id="Granulometrie_Dominante_Et_Accessoire" label="Granulometrie_Dominante_Et_Accessoire">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Mares" label="Mares">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Etude_Du_Reseau_De_Mares" label="Etude_Du_Reseau_De_Mares">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Gain_De_Biodiversite" label="Gain_De_Biodiversite">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Mesure_Naturelle_De_Retention_Des_Eaux" label="Mesure_Naturelle_De_Retention_Des_Eaux">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Prevenir_Les_Risques_Erosifs" label="Prevenir_Les_Risques_Erosifs">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Bandes_Enherbees" label="Bandes_Enherbees">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Mare" label="Mare">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+          <attvalue for="3" value="containsRoot: racines d’arbres; containsPlant: plantes aquatiques" />
+        </attvalues>
+      </node>
+      <node id="Cotesdarmor" label="Cotesdarmor">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Nicolas_V" label="Nicolas_V">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Troncon_1" label="Troncon_1">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Vallee" label="Vallee">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="geographicZone" label="geographicZone">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Relief" label="Relief">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Piezometres" label="Piezometres">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="3" value="hasDepth: relativement profond" />
+          <attvalue for="5" value="étudier la sensibilité du niveau de nappe dans la zone humide par rapport à la nappe du versant" />
+        </attvalues>
+      </node>
+      <node id="Proximite_Des_Zones_Boisees" label="Proximite_Des_Zones_Boisees">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Reconstitution_De_La_Topographie_Alteree" label="Reconstitution_De_La_Topographie_Alteree">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Retenir_Leau" label="Retenir_Leau">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Dialogue_Territorial" label="Dialogue_Territorial">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Octobre" label="Octobre">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Zone_Dintervention" label="Zone_Dintervention">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Etude_Des_Amphibiens" label="Etude_Des_Amphibiens">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Zones_Vulnerables" label="Zones_Vulnerables">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Attenuer_Les_Inondations" label="Attenuer_Les_Inondations">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Restoration" label="Restoration">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Suivis_Biologiques" label="Suivis_Biologiques">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Ecoulements_Au_Sein" label="Ecoulements_Au_Sein">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Rang_0" label="Rang_0">
+        <attvalues>
+          <attvalue for="0" value="Text+Image" />
+          <attvalue for="5" value="ne pas systématiser la création de mares" />
+          <attvalue for="1" value="VQA-verified caption; Text; Image" />
+        </attvalues>
+      </node>
+      <node id="Reseau_Pluvial" label="Reseau_Pluvial">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="waterBody" label="waterBody">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Preservation" label="Preservation">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Zones_Tampons_Humides_Artificielles" label="Zones_Tampons_Humides_Artificielles">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Cadastre_Napoleonien" label="Cadastre_Napoleonien">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="3" value="providesInformation: usage des zones" />
+        </attvalues>
+      </node>
+      <node id="Etude_De_La_Flore" label="Etude_De_La_Flore">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Les_Milieux_Aquatiques" label="Les_Milieux_Aquatiques">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Dispersion_Des_Ecoulements" label="Dispersion_Des_Ecoulements">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="5" value="améliorer la résistance du sol à l’érosion" />
+        </attvalues>
+      </node>
+      <node id="Favoriser_Linfiltration_De_Leau" label="Favoriser_Linfiltration_De_Leau">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Hauteur_De_La_Nappe" label="Hauteur_De_La_Nappe">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="8" value="caractéristiques d’une surface importante de sol de la zone humide" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Cartographier_Le_Reseau_Hydrographique" label="Cartographier_Le_Reseau_Hydrographique">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Bretagne_Et_Pays_De_La_Loire" label="Bretagne_Et_Pays_De_La_Loire">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Abc" label="Abc">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Neutralisation_Des_Drains_Enterres" label="Neutralisation_Des_Drains_Enterres">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Le_Fond_De_La_Vallee" label="Le_Fond_De_La_Vallee">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Zones_De_Sources" label="Zones_De_Sources">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Bassin_Versant_En_Rang_Zero" label="Bassin_Versant_En_Rang_Zero">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Description_Des_Habitats_Eunis_Niveau_3" label="Description_Des_Habitats_Eunis_Niveau_3">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Fma_2023" label="Fma_2023">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Alteration_De_La_Continuite_Ecologique_Amontaval" label="Alteration_De_La_Continuite_Ecologique_Amontaval">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Modalites_De_Suivis" label="Modalites_De_Suivis">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="8" value="proposer des modalités de suivis sur mesure en fonction des objectifs et des enjeux de la restauration, du temps disponible pour réaliser l’état initial et des particularités du rang 0 étudié; construire des suivis écologiques différents de ceux classiquement mis en œuvre pour les suivis de la restauration de cours d’eau" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Emplacement_Precis_Et_Nombre_De_Chenaux" label="Emplacement_Precis_Et_Nombre_De_Chenaux">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Direction_Regionale_De_Loffice_Francais_De_La_Biodiversite_Ofb" label="Direction_Regionale_De_Loffice_Francais_De_La_Biodiversite_Ofb">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="5" value="échanger avec des spécialistes de disciplines variées; visiter des sites restaurés en rangs zéro; travailler sur la thématique des rangs de Strahler 0; identifier les recommandations techniques pour les rangs zéro; caractériser les rangs zéro en état de référence hydromorphologique" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Proximite_Des_Haies" label="Proximite_Des_Haies">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Modificationdestruction_Des_Lits_Mineurs_Des_Cours_Deau" label="Modificationdestruction_Des_Lits_Mineurs_Des_Cours_Deau">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Favoriser_La_Denitrification" label="Favoriser_La_Denitrification">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Classes_Dhydromorphie_Geppa" label="Classes_Dhydromorphie_Geppa">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Complexite_De_Lhabitat" label="Complexite_De_Lhabitat">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="3" value="contributesTo: abondance, diversité et spécialisation des communautés d’invertébrés" />
+        </attvalues>
+      </node>
+      <node id="Rugosite_Au_Sol" label="Rugosite_Au_Sol">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="5" value="améliorer la résistance du sol à l’érosion" />
+        </attvalues>
+      </node>
+      <node id="Zone_Non_Traitees" label="Zone_Non_Traitees">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Augmentation_Des_Concentrations_En_Phosphore" label="Augmentation_Des_Concentrations_En_Phosphore">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Oraison_F" label="Oraison_F">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Travaux_Damenagement" label="Travaux_Damenagement">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="3" value="preserve: zones de sources" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Yvin_2023" label="Yvin_2023">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Page_32" label="Page_32">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Reguler_Les_Debits" label="Reguler_Les_Debits">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Identifier_Une_Eventuelle_Rupture_De_Pente" label="Identifier_Une_Eventuelle_Rupture_De_Pente">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Modification_Des_Bassins_Versants" label="Modification_Des_Bassins_Versants">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Destocker_Progressivement_Leau" label="Destocker_Progressivement_Leau">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Volume_A_Evacuer_Filiere" label="Volume_A_Evacuer_Filiere">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Periode_Hivernale" label="Periode_Hivernale">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Ofb" label="Ofb">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Geometrie_Du_Lit_Mineur_Hpb_Lpb" label="Geometrie_Du_Lit_Mineur_Hpb_Lpb">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="forestRestoration" label="forestRestoration">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Conservation_De_La_Biodiversite_Aquatique" label="Conservation_De_La_Biodiversite_Aquatique">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Favoriser_La_Recharge_De_La_Nappe" label="Favoriser_La_Recharge_De_La_Nappe">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Directive_Nitrates" label="Directive_Nitrates">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Cas_3" label="Cas_3">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Presence_De_Fosses_Drainants" label="Presence_De_Fosses_Drainants">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Populations_Despeces_Protegees" label="Populations_Despeces_Protegees">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Suivi_Particulier" label="Suivi_Particulier">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Sources_Perennes" label="Sources_Perennes">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="3" value="servesAs: refuge pour recolonisation biologique à l’échelle de la tête de bassin versant" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Creation_Et_Restauration" label="Creation_Et_Restauration">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Couverture_Vegetale" label="Couverture_Vegetale">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="5" value="améliorer la résistance du sol à l’érosion" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Perennite" label="Perennite">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Reconstitution" label="Reconstitution">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Puits_Ou_Forages" label="Puits_Ou_Forages">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="5" value="faciliter la mise en œuvre d’un suivi piézométrique" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Vi_Modalites_Techniques_De_La_Restauration" label="Vi_Modalites_Techniques_De_La_Restauration">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Hierarchisation" label="Hierarchisation">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Reseau_Hydrographique" label="Reseau_Hydrographique">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="8" value="visualiser les écoulements de surface et les éventuelles résurgences" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Etudier_Les_Compartiments_Biologiques" label="Etudier_Les_Compartiments_Biologiques">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Hauteur_Du_Remblai" label="Hauteur_Du_Remblai">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Milieux_Restaures" label="Milieux_Restaures">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Ralentir_Les_Ecoulements" label="Ralentir_Les_Ecoulements">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Rupture_De_Pente" label="Rupture_De_Pente">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="5" value="distinction entre zone préférentielle au stockage naturel des eaux et zone avec drainage naturel marqué" />
+        </attvalues>
+      </node>
+      <node id="Profil_En_Long_Du_Rang_0" label="Profil_En_Long_Du_Rang_0">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Etude_De_La_Matrice_Paysagere" label="Etude_De_La_Matrice_Paysagere">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Pollutions_Ponctuelles" label="Pollutions_Ponctuelles">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Animation" label="Animation">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Fma" label="Fma">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Lavoirs" label="Lavoirs">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="3" value="indicatesPresence: source ponctuelle ou diffuse" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Ereac" label="Ereac">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Drains_Enterres" label="Drains_Enterres">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Prevenir_Risque_Derosion_Regressive" label="Prevenir_Risque_Derosion_Regressive">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Plan_Damenagement_Et_De_Gestion_Durable_De_La_Ressource_En_Eau_Pagd" label="Plan_Damenagement_Et_De_Gestion_Durable_De_La_Ressource_En_Eau_Pagd">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="3" value="defines: zones humides; defines: zones humides de source des cours d’eau" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Projet_De_Cartographie_Nationale_Des_Milieux_Et_Des_Zones_Humides" label="Projet_De_Cartographie_Nationale_Des_Milieux_Et_Des_Zones_Humides">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="projectOwner" label="projectOwner">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Quantifier_Les_Differentes_Pressions_Presentes" label="Quantifier_Les_Differentes_Pressions_Presentes">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Pollutions_Diffuses_Et_Ponctuelles" label="Pollutions_Diffuses_Et_Ponctuelles">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Plusieurs_Periodes_De_Lannee" label="Plusieurs_Periodes_De_Lannee">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Piezometrie" label="Piezometrie">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Sources_Naturelles_Et_Amenagees" label="Sources_Naturelles_Et_Amenagees">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="3" value="integrate: trame bleue des documents d’urbanisme locaux" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Cartographie" label="Cartographie">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Suivi_Piezometrique" label="Suivi_Piezometrique">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="5" value="estimer la sensibilité de la zone vis-à-vis des conditions hydrologiques du bassin versant amont" />
+        </attvalues>
+      </node>
+      <node id="Reconstitution_Dhabitats" label="Reconstitution_Dhabitats">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Foret_Dense" label="Foret_Dense">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Interface_Rang_0_Rang_1" label="Interface_Rang_0_Rang_1">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Augmentation_Des_Concentrations_En_Nitrates" label="Augmentation_Des_Concentrations_En_Nitrates">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Adaptation_Aux_Especes_Presentes" label="Adaptation_Aux_Especes_Presentes">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Plan_Deau" label="Plan_Deau">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="3" value="hasHistoricalModifications: identification des éventuelles modifications historiques du fond de la vallée; hasTopography: topographie du plan d’eau; hasSedimentLevel: connaissance du niveau de remplissage en sédiments de la retenue" />
+        </attvalues>
+      </node>
+      <node id="pond" label="pond">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Fiche_Technique" label="Fiche_Technique">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Definir_Les_Modalites_De_Gestion" label="Definir_Les_Modalites_De_Gestion">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Surface_Moyenne_Des_Bassins_Versants_Des_Rangs_0" label="Surface_Moyenne_Des_Bassins_Versants_Des_Rangs_0">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="9" value="24,6 ha" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="pool" label="pool">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Stations_En_Rangs_Zero" label="Stations_En_Rangs_Zero">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Sorties_Nature" label="Sorties_Nature">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Souchon_Y" label="Souchon_Y">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Destruction_Des_Ecosystemes_Aquatiques" label="Destruction_Des_Ecosystemes_Aquatiques">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Neutralisation_Des_Fosses" label="Neutralisation_Des_Fosses">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="10" value="comblement total ou pose de bouchons étanches" />
+        </attvalues>
+      </node>
+      <node id="Restauration_Passive" label="Restauration_Passive">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Proximite_Des_Sites_Dhivernage" label="Proximite_Des_Sites_Dhivernage">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Durabilite_Des_Effets_Biologiques" label="Durabilite_Des_Effets_Biologiques">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Qualite_De_Leau" label="Qualite_De_Leau">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Reduire_Les_Flux_De_Polluants" label="Reduire_Les_Flux_De_Polluants">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Augmentation_Du_Ruissellement" label="Augmentation_Du_Ruissellement">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Dispersion_Des_Donnees" label="Dispersion_Des_Donnees">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="3" value="hasStandardDeviation: 40,9 ha" />
+        </attvalues>
+      </node>
+      <node id="En_Cas_De_Remblais_Ou_Impermeabilisation" label="En_Cas_De_Remblais_Ou_Impermeabilisation">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Nappe" label="Nappe">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="3" value="isSubAffluent: true" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Caracterisation_Des_Ecoulements_Superficiels" label="Caracterisation_Des_Ecoulements_Superficiels">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Succession_Et_Nombre_Des_Horizons" label="Succession_Et_Nombre_Des_Horizons">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Augmentation_Des_Concentrations_En_Produits_Phytosanitaires" label="Augmentation_Des_Concentrations_En_Produits_Phytosanitaires">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Etape_1" label="Etape_1">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="5" value="Planifier la mise en œuvre d’un suivi écologique adapté; Définition des objectifs précis du projet de préservation et/ou restauration; Définir si la restauration est souhaitable et possible; Préciser les modalités techniques du projet de restauration" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Absence_De_Pollutions_Visibles" label="Absence_De_Pollutions_Visibles">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Proche_Et_Comparable" label="Proche_Et_Comparable">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Reflexion_Sur_Letat_Des_Lieux" label="Reflexion_Sur_Letat_Des_Lieux">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Reseau_De_Drainage" label="Reseau_De_Drainage">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Terrain" label="Terrain">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Risques_De_Pollution_Accidentelle" label="Risques_De_Pollution_Accidentelle">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Qualite" label="Qualite">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Urbanisation" label="Urbanisation">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Pente_Longitudinale_De_Rang_0" label="Pente_Longitudinale_De_Rang_0">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="Diminution_De_La_Richesse_Specifique" label="Diminution_De_La_Richesse_Specifique">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Identification" label="Identification">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Zone_Humide" label="Zone_Humide">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Couts_Associes" label="Couts_Associes">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Connectivite_Aquatiqueterrestre" label="Connectivite_Aquatiqueterrestre">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="3" value="contributesTo: abondance, diversité et spécialisation des communautés d’invertébrés" />
+        </attvalues>
+      </node>
+      <node id="Avant_Ces_Alterations" label="Avant_Ces_Alterations">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Etat_Initial" label="Etat_Initial">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="3" value="hasDuration: trois années hydrologiques" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Restauration" label="Restauration">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="1" value="Image" />
+        </attvalues>
+      </node>
+      <node id="biologicalMonitoring" label="biologicalMonitoring">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Sciences_Participatives" label="Sciences_Participatives">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Caracteriser_Les_Ecoulements_Preferentiels" label="Caracteriser_Les_Ecoulements_Preferentiels">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Dispersion" label="Dispersion">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="3" value="playsRoleIn: structuration des communautés biologiques" />
+        </attvalues>
+      </node>
+      <node id="Conferences" label="Conferences">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="structure" label="structure">
+        <attvalues>
+          <attvalue for="0" value="unknown" />
+        </attvalues>
+      </node>
+      <node id="Conditions_De_Nappe_Haute" label="Conditions_De_Nappe_Haute">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Rang_0_A_Restaurer" label="Rang_0_A_Restaurer">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Sage_Estuaire_De_La_Loire" label="Sage_Estuaire_De_La_Loire">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="3" value="defines: règles et dispositions de protection" />
+        </attvalues>
+      </node>
+      <node id="Bouas_G" label="Bouas_G">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Prairies" label="Prairies">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="5" value="caractériser les zones de « tremblant » ou de « mouillère »; caractériser le niveau d’intermittence des sources et des écoulements; caractériser les zones instables et peu portantes; caractériser les zones instables où les animaux et les engins agricoles peuvent s’embourber facilement" />
+        </attvalues>
+      </node>
+      <node id="Dausse_A" label="Dausse_A">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Trois_Types" label="Trois_Types">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Indices" label="Indices">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="5" value="délimiter la limite entre le rang 0 et le rang 1" />
+        </attvalues>
+      </node>
+      <node id="Bossis_M" label="Bossis_M">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Micro_Depressions" label="Micro_Depressions">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Impermeabilisation" label="Impermeabilisation">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Programme_Dactions_Regional_Nitrates_Par_Nitrates" label="Programme_Dactions_Regional_Nitrates_Par_Nitrates">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="3" value="interdit: drainage; interdit: creusement de zones humides; interdit: remblaiement" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Risque_Datteinte_A_Des_Zones_Humides" label="Risque_Datteinte_A_Des_Zones_Humides">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Abi" label="Abi">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Fontaines" label="Fontaines">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="3" value="indicatesPresence: source ponctuelle ou diffuse" />
+        </attvalues>
+      </node>
+      <node id="Analyse_Des_Referentiels_Cartographiques_Anciens" label="Analyse_Des_Referentiels_Cartographiques_Anciens">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+          <attvalue for="5" value="localiser l’exutoire du bassin versant de rang 0" />
+        </attvalues>
+      </node>
+      <node id="Berceau" label="Berceau">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Regroupes" label="Regroupes">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Infrastructures_Lineaires" label="Infrastructures_Lineaires">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Van_Looy_K" label="Van_Looy_K">
+        <attvalues>
+          <attvalue for="0" value="Text" />
+          <attvalue for="1" value="Text" />
+        </attvalues>
+      </node>
+      <node id="Carte_Topographique_D" label="Carte_Topographique_D">
+        <attvalues>
+          <attvalue for="0" value="Image" />
+          <attvalue for="11" value="contexte de la restauration de cours d’eau et de l’hydromorphologie" />
+          <attvalue for="1" value="Image; VQA-verified caption" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="Prelevements_Deau" target="restorationMeasure" id="0" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Prelevements_Deau" target="NamedIndividual" id="1" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Prelevements_Deau" target="Bassin_Versant_De_Rang_0" id="2" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Remblais" target="NamedIndividual" id="3" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Remblais" target="Pente_Moderee" id="4" label="hasAverageSlope">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Remblais" target="Hauteur_Du_Remblai" id="5" label="hasHeight">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Remblais" target="restorationMeasure" id="6" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Remblais" target="Fma" id="7" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Remblais" target="Fiche_Technique" id="8" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Remblais" target="Couts_Associes" id="9" label="hasMonitoringCost">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Remblais" target="Vallee" id="10" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Remblais" target="structure" id="11" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Remblais" target="En_Cas_De_Remblais_Ou_Impermeabilisation" id="12" label="hasNumberOfEntries">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Remblais" target="En_Cas_De_Remblais_Ou_Impermeabilisation" id="13" label="hasDescription">
+        <attvalues>
+          <attvalue for="12" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Remblais" target="Trois_Types" id="14" label="hasNumberOfBasins">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Remblais" target="Bretagne" id="15" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Remblais" target="Zone_Humide" id="16" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Remblais" target="Regroupes" id="17" label="hasNumberOfInstallations">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Radiers" target="NamedIndividual" id="18" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Radiers" target="Prevenir_Risque_Derosion_Regressive" id="19" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Radiers" target="Interface_Rang_0_Rang_1" id="20" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Radiers" target="structure" id="21" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Radiers" target="Limiter_Benefices_Ecologiques_De_La_Restauration" id="22" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Topographie" target="Zone_Apicale_Du_Rang_Zero" id="23" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Topographie" target="Reconstituer_La_Topographie_Alteree" id="24" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Topographie" target="Vallee" id="25" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Topographie" target="Vallee" id="26" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Topographie" target="NamedIndividual" id="27" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Topographie" target="Talweg" id="28" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zone_Apicale_Du_Rang_Zero" target="NamedIndividual" id="29" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Forets" target="France" id="30" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Forets" target="Pays_De_La_Loire" id="31" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Forets" target="forestRestoration" id="32" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Forets" target="NamedIndividual" id="33" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Forets" target="Bretagne" id="34" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="France" target="country" id="35" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="France" target="Pays_De_La_Loire" id="36" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="France" target="Bretagne" id="37" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="France" target="NamedIndividual" id="38" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Police_De_Leau" target="NamedIndividual" id="39" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fonds_De_Vallees" target="Reduire_Les_Vitesses_Decoulement" id="40" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fonds_De_Vallees" target="Emmagasiner_De_Leau" id="41" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fonds_De_Vallees" target="Retenir_Leau" id="42" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fonds_De_Vallees" target="NamedIndividual" id="43" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fonds_De_Vallees" target="Maintenir_Un_Regime_Hydrologique_Naturel" id="44" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fonds_De_Vallees" target="Transporter_Leau" id="45" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fonds_De_Vallees" target="Attenuer_Les_Inondations" id="46" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fonds_De_Vallees" target="France" id="47" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fonds_De_Vallees" target="Favoriser_Linfiltration_De_Leau" id="48" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fonds_De_Vallees" target="Favoriser_La_Recharge_De_La_Nappe" id="49" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fonds_De_Vallees" target="Protection_Des_Cours_Deau" id="50" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fonds_De_Vallees" target="Ralentir_Les_Ecoulements" id="51" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fonds_De_Vallees" target="Limiter_Les_Pics_De_Crue" id="52" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fonds_De_Vallees" target="Favoriser_La_Denitrification" id="53" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fonds_De_Vallees" target="waterBody" id="54" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fonds_De_Vallees" target="Reguler_Les_Debits" id="55" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fonds_De_Vallees" target="Destocker_Progressivement_Leau" id="56" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reduire_Les_Vitesses_Decoulement" target="NamedIndividual" id="57" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Orthophotographies_Recentes_Ou_Anciennes" target="NamedIndividual" id="58" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Regulation_De_La_Temperature" target="NamedIndividual" id="59" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="instance_graph" target="Ontology" id="60" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Transporter_Leau" id="61" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Protection_Des_Cours_Deau" id="62" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="NamedIndividual" id="63" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Limiter_Les_Pics_De_Crue" id="64" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Cotesdarmor" id="65" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Bretagne" id="66" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="geographicZone" id="67" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Favoriser_Linfiltration_De_Leau" id="68" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Favoriser_La_Denitrification" id="69" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Reguler_Les_Debits" id="70" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Destocker_Progressivement_Leau" id="71" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Favoriser_La_Recharge_De_La_Nappe" id="72" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="France" id="73" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Ralentir_Les_Ecoulements" id="74" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Stations_En_Rangs_Zero" id="75" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Retenir_Leau" id="76" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="restorationOperation" id="77" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Profils_Pedologiques" id="78" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Bassin_Versant_De_Rang_0" id="79" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Pays_De_La_Loire" id="80" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="wetland" id="81" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Mare" id="82" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Maintenir_Un_Regime_Hydrologique_Naturel" id="83" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Reduire_Les_Vitesses_Decoulement" id="84" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Attenuer_Les_Inondations" id="85" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Restauration" id="86" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_Zero" target="Emmagasiner_De_Leau" id="87" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Transporter_Leau" target="NamedIndividual" id="88" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Protection_Des_Cours_Deau" target="NamedIndividual" id="89" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstituer_La_Topographie_Alteree" target="restorationOperation" id="90" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstituer_La_Topographie_Alteree" target="NamedIndividual" id="91" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Toponymie" target="NamedIndividual" id="92" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Toponymie" target="France" id="93" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Toponymie" target="geographicZone" id="94" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Gestion_Des_Sediments" id="95" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Preservation_De_La_Biodiversite" id="96" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="NamedIndividual" id="97" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Pays_De_La_Loire" id="98" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="geographicZone" id="99" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Bretagne" id="100" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Restauration" id="101" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Regulation_De_La_Temperature" id="102" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="river" id="103" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Bretagne_Et_Pays_De_La_Loire" id="104" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Cotesdarmor" id="105" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="La_Rimbaudais" target="Ereac" id="106" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Gestion_Des_Sediments" target="NamedIndividual" id="107" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Talweg" target="NamedIndividual" id="108" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Moins_De_Recharge_Des_Nappes_Sousjacentes" target="NamedIndividual" id="109" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Expositions_Photo" target="NamedIndividual" id="110" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Geologie" target="France" id="111" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Geologie" target="NamedIndividual" id="112" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Geologie" target="geographicZone" id="113" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pollutions_Diffuses" target="NamedIndividual" id="114" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Suppression_De_Remblais" target="NamedIndividual" id="115" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Suppression_De_Remblais" target="Fma_2023" id="116" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Suppression_De_Remblais" target="restorationOperation" id="117" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Suppression_De_Remblais" target="Volume_A_Evacuer_Filiere" id="118" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Suppression_De_Remblais" target="Couts_Associes" id="119" label="hasMonitoringCost">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Limiter_Les_Pics_De_Crue" target="NamedIndividual" id="120" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstitution_De_La_Rugosite" target="Prevenir_Lapparition_De_Ravines" id="121" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstitution_De_La_Rugosite" target="NamedIndividual" id="122" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstitution_De_La_Rugosite" target="Maintenir_Une_Rugosite_Naturelle" id="123" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstitution_De_La_Rugosite" target="restorationOperation" id="124" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Prevenir_Lapparition_De_Ravines" target="NamedIndividual" id="125" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Versant_De_Rang_0" target="Identification_Rapide_Des_Pressions_Et_Perturbations" id="126" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Versant_De_Rang_0" target="Rang_Zero" id="127" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Versant_De_Rang_0" target="Zone_Dintervention" id="128" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Versant_De_Rang_0" target="Quantifier_Les_Differentes_Pressions_Presentes" id="129" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Versant_De_Rang_0" target="Tetes_De_Bassin_Versant" id="130" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Versant_De_Rang_0" target="NamedIndividual" id="131" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Versant_De_Rang_0" target="France" id="132" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Versant_De_Rang_0" target="distributionBasin" id="133" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Identification_Rapide_Des_Pressions_Et_Perturbations" target="NamedIndividual" id="134" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Caracteriser_La_Topographie_Initiale" target="NamedIndividual" id="135" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_1" target="France" id="136" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_1" target="Cours_Deau" id="137" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_1" target="Pente_Longitudinale_De_Rang_1" id="138" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_1" target="Pays_De_La_Loire" id="139" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_1" target="Bretagne" id="140" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_1" target="NamedIndividual" id="141" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_1" target="distributionBasin" id="142" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Schema_De_Coherence_Territoriale_De_Cap_Atlantique" target="NamedIndividual" id="143" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reduction_De_Linfiltration" target="NamedIndividual" id="144" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau_Police_De_Leau" target="France" id="145" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau_Police_De_Leau" target="river" id="146" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau_Police_De_Leau" target="NamedIndividual" id="147" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Maintenir_Une_Rugosite_Naturelle" target="NamedIndividual" id="148" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Permeabilite_Du_Substrat" target="NamedIndividual" id="149" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="NamedIndividual" id="150" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="France" id="151" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Troncon_1" id="152" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Pays_De_La_Loire" id="153" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="Bretagne" id="154" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ruisseau_De_Norroy" target="waterBody" id="155" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Preservation_De_La_Biodiversite" target="NamedIndividual" id="156" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Chenaux_De_Transition" target="NamedIndividual" id="157" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Chenaux_De_Transition" target="Reconstitution" id="158" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Chenaux_De_Transition" target="Reconstitution_Dhabitats" id="159" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Chenaux_De_Transition" target="Restauration_Passive" id="160" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Chenaux_De_Transition" target="Durabilite_Des_Effets_Biologiques" id="161" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Chenaux_De_Transition" target="waterBody" id="162" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Chenaux_De_Transition" target="Prevention_Des_Risques_Erosifs" id="163" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Risque_Datteinte_A_Des_Habitats_Dinteret" target="NamedIndividual" id="164" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Versant" target="NamedIndividual" id="165" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Preciser_Les_Caracteristiques_Lorganisation_Et_Letendue" target="NamedIndividual" id="166" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="Sensibilisation" id="167" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="Randonnees_Thematiques" id="168" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="NamedIndividual" id="169" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="Restoration" id="170" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="Preservation" id="171" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="Le_Fond_De_La_Vallee" id="172" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="Conservation_De_La_Biodiversite_Aquatique" id="173" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="Hierarchisation" id="174" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="Animation" id="175" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="Dialogue_Territorial" id="176" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="Cartographie" id="177" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="Expositions_Photo" id="178" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="Sorties_Nature" id="179" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="Abc" id="180" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="Identification" id="181" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="Sciences_Participatives" id="182" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="wetland" id="183" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="Abi" id="184" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="Conferences" id="185" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Source" target="waterBody" id="186" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sensibilisation" target="NamedIndividual" id="187" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pente_Longitudinale_De_Rang_1" target="NamedIndividual" id="188" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Restaurees" target="Zones_Humides_De_Source" id="189" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Restaurees" target="Sources_Naturelles_Et_Amenagees" id="190" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Restaurees" target="Zone_Non_Traitees" id="191" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Restaurees" target="NamedIndividual" id="192" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Restaurees" target="Zones_De_Source" id="193" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Humides_De_Source" target="NamedIndividual" id="194" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Humides_De_Source" target="wetland" id="195" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Prevention_Des_Risques_Erosifs" target="NamedIndividual" id="196" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Tetes_De_Bassin_Versant" target="distributionBasin" id="197" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Tetes_De_Bassin_Versant" target="NamedIndividual" id="198" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Pas_De_Date_Specifiee" id="199" label="hasMonitoringEndDate">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Pas_De_Date_Specifiee" id="200" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="12" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Bretagne" id="201" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Modification_Du_Regime_Hydrologique" id="202" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Maintenir_Un_Regime_Hydrologique_Naturel" id="203" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Transporter_Leau" id="204" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Attenuer_Les_Inondations" id="205" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Ecoulements_Au_Sein" id="206" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Rang_0" id="207" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Rang_0" id="208" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Moins_De_Recharge_Des_Nappes_Sousjacentes" id="209" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Emmagasiner_De_Leau" id="210" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Regulation_De_La_Temperature" id="211" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Description_Des_Habitats_Eunis_Niveau_3" id="212" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="waterBody" id="213" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Classes_Dhydromorphie_Geppa" id="214" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="France" id="215" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="France" id="216" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Zone_Non_Traitees" id="217" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Augmentation_Des_Concentrations_En_Phosphore" id="218" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Modification_Des_Bassins_Versants" id="219" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Bretagne_Et_Pays_De_La_Loire" id="220" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Pollutions_Ponctuelles" id="221" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Police_De_Leau" id="222" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Favoriser_La_Recharge_De_La_Nappe" id="223" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Cours_Deau" id="224" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Protection_Des_Cours_Deau" id="225" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Ralentir_Les_Ecoulements" id="226" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Foret_Dense" id="227" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Pollutions_Diffuses" id="228" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Augmentation_Des_Concentrations_En_Nitrates" id="229" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Limiter_Les_Pics_De_Crue" id="230" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="NamedIndividual" id="231" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Augmentation_Du_Ruissellement" id="232" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Gestion_Des_Sediments" id="233" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Succession_Et_Nombre_Des_Horizons" id="234" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Augmentation_Des_Concentrations_En_Produits_Phytosanitaires" id="235" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Preservation_De_La_Biodiversite" id="236" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Risques_De_Pollution_Accidentelle" id="237" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Granulometrie_Dominante_Et_Accessoire" id="238" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Absence_De_Pollutions_Visibles" id="239" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Urbanisation" id="240" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Reduction_De_Linfiltration" id="241" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Alteration_De_La_Continuite_Ecologique_Amontaval" id="242" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Favoriser_Linfiltration_De_Leau" id="243" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Diminution_De_La_Richesse_Specifique" id="244" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Favoriser_La_Denitrification" id="245" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Rang_1" id="246" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Rang_1" id="247" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Reguler_Les_Debits" id="248" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Destocker_Progressivement_Leau" id="249" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Geometrie_Du_Lit_Mineur_Hpb_Lpb" id="250" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Reduire_Les_Vitesses_Decoulement" id="251" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Emplacement_Precis_Et_Nombre_De_Chenaux" id="252" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Zones_Vulnerables" id="253" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Pays_De_La_Loire" id="254" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Impermeabilisation" id="255" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Destruction_Des_Ecosystemes_Aquatiques" id="256" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Bandes_Enherbees" id="257" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Retenir_Leau" id="258" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cours_Deau" target="Infrastructures_Lineaires" id="259" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pas_De_Date_Specifiee" target="NamedIndividual" id="260" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sources" target="Pays_De_La_Loire" id="261" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sources" target="wetland" id="262" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sources" target="waterBody" id="263" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sources" target="NamedIndividual" id="264" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sources" target="Bretagne" id="265" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sources" target="France" id="266" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pays_De_La_Loire" target="NamedIndividual" id="267" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Viser_Un_Gain_De_Biodiversite" target="NamedIndividual" id="268" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Polluants" target="Zones_De_Source" id="269" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Polluants" target="NamedIndividual" id="270" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Randonnees_Thematiques" target="NamedIndividual" id="271" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Photographies_Aeriennes_Anciennes" target="NamedIndividual" id="272" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Photographies_Aeriennes_Anciennes" target="geographicZone" id="273" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Photographies_Aeriennes_Anciennes" target="France" id="274" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Photographies_Aeriennes_Anciennes" target="France" id="275" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Bretagne" target="France" id="276" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bretagne" target="NamedIndividual" id="277" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bretagne" target="geographicZone" id="278" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cartographies_Historiques_De_Lign" target="France" id="279" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cartographies_Historiques_De_Lign" target="NamedIndividual" id="280" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Infoterre" target="NamedIndividual" id="281" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Elements_Participant_A_La_Rugosite_Naturelle_Du_Fond_De_Vallee" target="Maintenir_Une_Rugosite_Naturelle" id="282" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Elements_Participant_A_La_Rugosite_Naturelle_Du_Fond_De_Vallee" target="NamedIndividual" id="283" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Limiter_Benefices_Ecologiques_De_La_Restauration" target="NamedIndividual" id="284" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Emmagasiner_De_Leau" target="NamedIndividual" id="285" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Irstea" target="NamedIndividual" id="286" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Modification_Du_Regime_Hydrologique" target="NamedIndividual" id="287" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pente_Moderee" target="NamedIndividual" id="288" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Maintenir_Un_Regime_Hydrologique_Naturel" target="NamedIndividual" id="289" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Travaux" target="Preserver_La_Biodiversite" id="290" label="hasMonitoringDescription">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Travaux" target="restorationMeasure" id="291" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Travaux" target="Adaptation_Aux_Especes_Presentes" id="292" label="hasMonitoringCost">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Travaux" target="NamedIndividual" id="293" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Travaux" target="Octobre" id="294" label="hasMonitoringEndDate">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Travaux" target="Aout" id="295" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Preserver_La_Biodiversite" target="NamedIndividual" id="296" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Profils_Pedologiques" target="NamedIndividual" id="297" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Profils_Pedologiques" target="Stations_En_Rangs_Zero" id="298" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Aout" target="NamedIndividual" id="299" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Humides" target="France" id="300" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Humides" target="France" id="301" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Humides" target="Zones_De_Sources" id="302" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Humides" target="Pays_De_La_Loire" id="303" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Humides" target="wetland" id="304" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Humides" target="Sources" id="305" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Humides" target="NamedIndividual" id="306" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Humides" target="Bretagne" id="307" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Granulometrie_Dominante_Et_Accessoire" target="NamedIndividual" id="308" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mares" target="Etude_Du_Reseau_De_Mares" id="309" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mares" target="NamedIndividual" id="310" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mares" target="Etude_De_La_Flore" id="311" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mares" target="Le_Fond_De_La_Vallee" id="312" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mares" target="Etude_Des_Amphibiens" id="313" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mares" target="Viser_Un_Gain_De_Biodiversite" id="314" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mares" target="waterBody" id="315" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mares" target="Creation_Et_Restauration" id="316" label="includes">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mares" target="Creation_Et_Restauration" id="317" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="1" />
+        </attvalues>
+      </edge>
+      <edge source="Mares" target="Gain_De_Biodiversite" id="318" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mares" target="Proximite_Des_Zones_Boisees" id="319" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mares" target="Proximite_Des_Sites_Dhivernage" id="320" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mares" target="Reflexion_Sur_Letat_Des_Lieux" id="321" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mares" target="Modalites_De_Suivis" id="322" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mares" target="Etude_De_La_Matrice_Paysagere" id="323" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mares" target="Proximite_Des_Haies" id="324" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Etude_Du_Reseau_De_Mares" target="NamedIndividual" id="325" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Gain_De_Biodiversite" target="NamedIndividual" id="326" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mesure_Naturelle_De_Retention_Des_Eaux" target="Prevenir_Les_Risques_Erosifs" id="327" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mesure_Naturelle_De_Retention_Des_Eaux" target="restorationMeasure" id="328" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mesure_Naturelle_De_Retention_Des_Eaux" target="NamedIndividual" id="329" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Prevenir_Les_Risques_Erosifs" target="NamedIndividual" id="330" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bandes_Enherbees" target="NamedIndividual" id="331" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mare" target="NamedIndividual" id="332" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Mare" target="pool" id="333" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cotesdarmor" target="NamedIndividual" id="334" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Nicolas_V" target="NamedIndividual" id="335" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Troncon_1" target="NamedIndividual" id="336" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vallee" target="geographicZone" id="337" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vallee" target="Zone_Dintervention" id="338" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vallee" target="NamedIndividual" id="339" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Relief" target="France" id="340" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Relief" target="NamedIndividual" id="341" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Relief" target="geographicZone" id="342" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Piezometres" target="Versant" id="343" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Piezometres" target="NamedIndividual" id="344" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Piezometres" target="Zone_Humide" id="345" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Piezometres" target="Zones_De_Sources" id="346" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Proximite_Des_Zones_Boisees" target="NamedIndividual" id="347" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstitution_De_La_Topographie_Alteree" target="NamedIndividual" id="348" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstitution_De_La_Topographie_Alteree" target="Vallee" id="349" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstitution_De_La_Topographie_Alteree" target="Caracteriser_La_Topographie_Initiale" id="350" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstitution_De_La_Topographie_Alteree" target="Avant_Ces_Alterations" id="351" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstitution_De_La_Topographie_Alteree" target="restorationOperation" id="352" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Retenir_Leau" target="NamedIndividual" id="353" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Dialogue_Territorial" target="NamedIndividual" id="354" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Octobre" target="NamedIndividual" id="355" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zone_Dintervention" target="NamedIndividual" id="356" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Etude_Des_Amphibiens" target="NamedIndividual" id="357" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Vulnerables" target="NamedIndividual" id="358" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Attenuer_Les_Inondations" target="NamedIndividual" id="359" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restoration" target="NamedIndividual" id="360" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Suivis_Biologiques" target="NamedIndividual" id="361" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Suivis_Biologiques" target="biologicalMonitoring" id="362" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Suivis_Biologiques" target="Etudier_Les_Compartiments_Biologiques" id="363" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ecoulements_Au_Sein" target="NamedIndividual" id="364" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_0" target="Cours_Deau" id="365" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_0" target="Risque_Datteinte_A_Des_Habitats_Dinteret" id="366" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_0" target="Pente_Longitudinale_De_Rang_0" id="367" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_0" target="NamedIndividual" id="368" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_0" target="Risque_Datteinte_A_Des_Zones_Humides" id="369" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reseau_Pluvial" target="waterBody" id="370" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reseau_Pluvial" target="NamedIndividual" id="371" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reseau_Pluvial" target="Cas_3" id="372" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Preservation" target="NamedIndividual" id="373" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Tampons_Humides_Artificielles" target="NamedIndividual" id="374" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Tampons_Humides_Artificielles" target="wetland" id="375" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Tampons_Humides_Artificielles" target="Directive_Nitrates" id="376" label="isSubjectTo">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_Tampons_Humides_Artificielles" target="Bretagne" id="377" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cadastre_Napoleonien" target="NamedIndividual" id="378" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cadastre_Napoleonien" target="France" id="379" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Etude_De_La_Flore" target="NamedIndividual" id="380" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Les_Milieux_Aquatiques" target="NamedIndividual" id="381" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Dispersion_Des_Ecoulements" target="restorationOperation" id="382" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Dispersion_Des_Ecoulements" target="NamedIndividual" id="383" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Favoriser_Linfiltration_De_Leau" target="NamedIndividual" id="384" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Hauteur_De_La_Nappe" target="NamedIndividual" id="385" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Hauteur_De_La_Nappe" target="restorationOperation" id="386" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cartographier_Le_Reseau_Hydrographique" target="NamedIndividual" id="387" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bretagne_Et_Pays_De_La_Loire" target="NamedIndividual" id="388" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Abc" target="NamedIndividual" id="389" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Neutralisation_Des_Drains_Enterres" target="NamedIndividual" id="390" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Le_Fond_De_La_Vallee" target="NamedIndividual" id="391" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zones_De_Sources" target="NamedIndividual" id="392" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Versant_En_Rang_Zero" target="NamedIndividual" id="393" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Versant_En_Rang_Zero" target="distributionBasin" id="394" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Versant_En_Rang_Zero" target="Zone_Dintervention" id="395" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bassin_Versant_En_Rang_Zero" target="Proche_Et_Comparable" id="396" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Description_Des_Habitats_Eunis_Niveau_3" target="NamedIndividual" id="397" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fma_2023" target="NamedIndividual" id="398" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Alteration_De_La_Continuite_Ecologique_Amontaval" target="NamedIndividual" id="399" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Modalites_De_Suivis" target="NamedIndividual" id="400" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Modalites_De_Suivis" target="Page_32" id="401" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Emplacement_Precis_Et_Nombre_De_Chenaux" target="NamedIndividual" id="402" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Direction_Regionale_De_Loffice_Francais_De_La_Biodiversite_Ofb" target="Pays_De_La_Loire" id="403" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Direction_Regionale_De_Loffice_Francais_De_La_Biodiversite_Ofb" target="projectOwner" id="404" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Direction_Regionale_De_Loffice_Francais_De_La_Biodiversite_Ofb" target="NamedIndividual" id="405" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Direction_Regionale_De_Loffice_Francais_De_La_Biodiversite_Ofb" target="Bretagne" id="406" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Proximite_Des_Haies" target="NamedIndividual" id="407" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Modificationdestruction_Des_Lits_Mineurs_Des_Cours_Deau" target="NamedIndividual" id="408" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Favoriser_La_Denitrification" target="NamedIndividual" id="409" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Classes_Dhydromorphie_Geppa" target="NamedIndividual" id="410" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Complexite_De_Lhabitat" target="NamedIndividual" id="411" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rugosite_Au_Sol" target="NamedIndividual" id="412" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rugosite_Au_Sol" target="restorationOperation" id="413" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zone_Non_Traitees" target="NamedIndividual" id="414" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Augmentation_Des_Concentrations_En_Phosphore" target="NamedIndividual" id="415" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Oraison_F" target="NamedIndividual" id="416" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Travaux_Damenagement" target="NamedIndividual" id="417" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Yvin_2023" target="NamedIndividual" id="418" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Page_32" target="NamedIndividual" id="419" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reguler_Les_Debits" target="NamedIndividual" id="420" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Identifier_Une_Eventuelle_Rupture_De_Pente" target="NamedIndividual" id="421" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Modification_Des_Bassins_Versants" target="NamedIndividual" id="422" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Destocker_Progressivement_Leau" target="NamedIndividual" id="423" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Volume_A_Evacuer_Filiere" target="NamedIndividual" id="424" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Periode_Hivernale" target="NamedIndividual" id="425" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ofb" target="NamedIndividual" id="426" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Geometrie_Du_Lit_Mineur_Hpb_Lpb" target="NamedIndividual" id="427" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Conservation_De_La_Biodiversite_Aquatique" target="NamedIndividual" id="428" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Favoriser_La_Recharge_De_La_Nappe" target="NamedIndividual" id="429" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Directive_Nitrates" target="NamedIndividual" id="430" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cas_3" target="Presence_De_Fosses_Drainants" id="431" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cas_3" target="NamedIndividual" id="432" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Presence_De_Fosses_Drainants" target="NamedIndividual" id="433" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Populations_Despeces_Protegees" target="Suivi_Particulier" id="434" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Populations_Despeces_Protegees" target="NamedIndividual" id="435" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Suivi_Particulier" target="NamedIndividual" id="436" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sources_Perennes" target="NamedIndividual" id="437" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sources_Perennes" target="wetland" id="438" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Creation_Et_Restauration" target="NamedIndividual" id="439" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Couverture_Vegetale" target="NamedIndividual" id="440" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Couverture_Vegetale" target="Prevenir_Lapparition_De_Ravines" id="441" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Couverture_Vegetale" target="restorationOperation" id="442" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Perennite" target="NamedIndividual" id="443" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstitution" target="NamedIndividual" id="444" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Puits_Ou_Forages" target="NamedIndividual" id="445" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Puits_Ou_Forages" target="Zones_De_Source" id="446" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Vi_Modalites_Techniques_De_La_Restauration" target="NamedIndividual" id="447" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Hierarchisation" target="NamedIndividual" id="448" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reseau_Hydrographique" target="Cartographier_Le_Reseau_Hydrographique" id="449" label="hasMonitoringCost">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reseau_Hydrographique" target="NamedIndividual" id="450" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reseau_Hydrographique" target="Plusieurs_Periodes_De_Lannee" id="451" label="hasMonitoringEndDate">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reseau_Hydrographique" target="Periode_Hivernale" id="452" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reseau_Hydrographique" target="Rang_Zero" id="453" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reseau_Hydrographique" target="Caracterisation_Des_Ecoulements_Superficiels" id="454" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reseau_Hydrographique" target="Conditions_De_Nappe_Haute" id="455" label="hasMonitoringStartDate">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Etudier_Les_Compartiments_Biologiques" target="NamedIndividual" id="456" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Hauteur_Du_Remblai" target="NamedIndividual" id="457" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Milieux_Restaures" target="Perennite" id="458" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Milieux_Restaures" target="Qualite" id="459" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Milieux_Restaures" target="NamedIndividual" id="460" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ralentir_Les_Ecoulements" target="NamedIndividual" id="461" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rupture_De_Pente" target="Profil_En_Long_Du_Rang_0" id="462" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rupture_De_Pente" target="Topographie" id="463" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rupture_De_Pente" target="NamedIndividual" id="464" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Profil_En_Long_Du_Rang_0" target="NamedIndividual" id="465" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Profil_En_Long_Du_Rang_0" target="Vallee" id="466" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Profil_En_Long_Du_Rang_0" target="Identifier_Une_Eventuelle_Rupture_De_Pente" id="467" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Etude_De_La_Matrice_Paysagere" target="NamedIndividual" id="468" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pollutions_Ponctuelles" target="NamedIndividual" id="469" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Animation" target="NamedIndividual" id="470" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fma" target="NamedIndividual" id="471" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Lavoirs" target="NamedIndividual" id="472" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Ereac" target="NamedIndividual" id="473" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Drains_Enterres" target="NamedIndividual" id="474" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Drains_Enterres" target="Rang_0_A_Restaurer" id="475" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Prevenir_Risque_Derosion_Regressive" target="NamedIndividual" id="476" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Plan_Damenagement_Et_De_Gestion_Durable_De_La_Ressource_En_Eau_Pagd" target="NamedIndividual" id="477" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_De_Cartographie_Nationale_Des_Milieux_Et_Des_Zones_Humides" target="NamedIndividual" id="478" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_De_Cartographie_Nationale_Des_Milieux_Et_Des_Zones_Humides" target="geographicZone" id="479" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Projet_De_Cartographie_Nationale_Des_Milieux_Et_Des_Zones_Humides" target="France" id="480" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Quantifier_Les_Differentes_Pressions_Presentes" target="NamedIndividual" id="481" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pollutions_Diffuses_Et_Ponctuelles" target="Les_Milieux_Aquatiques" id="482" label="isLocatedIn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pollutions_Diffuses_Et_Ponctuelles" target="NamedIndividual" id="483" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Plusieurs_Periodes_De_Lannee" target="NamedIndividual" id="484" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Piezometrie" target="NamedIndividual" id="485" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sources_Naturelles_Et_Amenagees" target="NamedIndividual" id="486" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Cartographie" target="NamedIndividual" id="487" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Suivi_Piezometrique" target="NamedIndividual" id="488" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reconstitution_Dhabitats" target="NamedIndividual" id="489" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Foret_Dense" target="NamedIndividual" id="490" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Interface_Rang_0_Rang_1" target="NamedIndividual" id="491" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Augmentation_Des_Concentrations_En_Nitrates" target="NamedIndividual" id="492" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Adaptation_Aux_Especes_Presentes" target="NamedIndividual" id="493" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Plan_Deau" target="pond" id="494" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Plan_Deau" target="NamedIndividual" id="495" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Plan_Deau" target="Vallee" id="496" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fiche_Technique" target="NamedIndividual" id="497" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Definir_Les_Modalites_De_Gestion" target="NamedIndividual" id="498" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Surface_Moyenne_Des_Bassins_Versants_Des_Rangs_0" target="NamedIndividual" id="499" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Stations_En_Rangs_Zero" target="NamedIndividual" id="500" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sorties_Nature" target="NamedIndividual" id="501" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Souchon_Y" target="NamedIndividual" id="502" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Destruction_Des_Ecosystemes_Aquatiques" target="NamedIndividual" id="503" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Neutralisation_Des_Fosses" target="Cas_3" id="504" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Neutralisation_Des_Fosses" target="NamedIndividual" id="505" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration_Passive" target="NamedIndividual" id="506" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Proximite_Des_Sites_Dhivernage" target="NamedIndividual" id="507" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Durabilite_Des_Effets_Biologiques" target="NamedIndividual" id="508" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Qualite_De_Leau" target="Reduire_Les_Flux_De_Polluants" id="509" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Qualite_De_Leau" target="NamedIndividual" id="510" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reduire_Les_Flux_De_Polluants" target="NamedIndividual" id="511" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Augmentation_Du_Ruissellement" target="NamedIndividual" id="512" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Dispersion_Des_Donnees" target="NamedIndividual" id="513" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="En_Cas_De_Remblais_Ou_Impermeabilisation" target="NamedIndividual" id="514" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Nappe" target="NamedIndividual" id="515" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Caracterisation_Des_Ecoulements_Superficiels" target="NamedIndividual" id="516" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Succession_Et_Nombre_Des_Horizons" target="NamedIndividual" id="517" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Augmentation_Des_Concentrations_En_Produits_Phytosanitaires" target="NamedIndividual" id="518" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Etape_1" target="Definir_Les_Modalites_De_Gestion" id="519" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Etape_1" target="NamedIndividual" id="520" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Absence_De_Pollutions_Visibles" target="NamedIndividual" id="521" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Proche_Et_Comparable" target="NamedIndividual" id="522" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reflexion_Sur_Letat_Des_Lieux" target="NamedIndividual" id="523" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reseau_De_Drainage" target="Preciser_Les_Caracteristiques_Lorganisation_Et_Letendue" id="524" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Reseau_De_Drainage" target="NamedIndividual" id="525" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Terrain" target="France" id="526" label="isLocatedOn">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Terrain" target="NamedIndividual" id="527" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Risques_De_Pollution_Accidentelle" target="NamedIndividual" id="528" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Qualite" target="NamedIndividual" id="529" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Urbanisation" target="NamedIndividual" id="530" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Pente_Longitudinale_De_Rang_0" target="NamedIndividual" id="531" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Diminution_De_La_Richesse_Specifique" target="NamedIndividual" id="532" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Identification" target="NamedIndividual" id="533" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Zone_Humide" target="NamedIndividual" id="534" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Couts_Associes" target="NamedIndividual" id="535" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Connectivite_Aquatiqueterrestre" target="NamedIndividual" id="536" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Avant_Ces_Alterations" target="NamedIndividual" id="537" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Etat_Initial" target="NamedIndividual" id="538" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Restauration" target="NamedIndividual" id="539" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sciences_Participatives" target="NamedIndividual" id="540" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Caracteriser_Les_Ecoulements_Preferentiels" target="NamedIndividual" id="541" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Dispersion" target="NamedIndividual" id="542" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Conferences" target="NamedIndividual" id="543" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Conditions_De_Nappe_Haute" target="NamedIndividual" id="544" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Rang_0_A_Restaurer" target="NamedIndividual" id="545" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Sage_Estuaire_De_La_Loire" target="NamedIndividual" id="546" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bouas_G" target="NamedIndividual" id="547" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Prairies" target="NamedIndividual" id="548" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Prairies" target="Caracteriser_Les_Ecoulements_Preferentiels" id="549" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Dausse_A" target="NamedIndividual" id="550" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Trois_Types" target="NamedIndividual" id="551" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Indices" target="NamedIndividual" id="552" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Bossis_M" target="NamedIndividual" id="553" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Micro_Depressions" target="NamedIndividual" id="554" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Micro_Depressions" target="Gain_De_Biodiversite" id="555" label="hasPurpose">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Impermeabilisation" target="NamedIndividual" id="556" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Programme_Dactions_Regional_Nitrates_Par_Nitrates" target="NamedIndividual" id="557" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Risque_Datteinte_A_Des_Zones_Humides" target="NamedIndividual" id="558" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Abi" target="NamedIndividual" id="559" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Fontaines" target="NamedIndividual" id="560" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Analyse_Des_Referentiels_Cartographiques_Anciens" target="NamedIndividual" id="561" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Berceau" target="NamedIndividual" id="562" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Regroupes" target="NamedIndividual" id="563" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Infrastructures_Lineaires" target="NamedIndividual" id="564" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Van_Looy_K" target="NamedIndividual" id="565" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+      <edge source="Carte_Topographique_D" target="NamedIndividual" id="566" label="type">
+        <attvalues>
+          <attvalue for="12" value="0" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

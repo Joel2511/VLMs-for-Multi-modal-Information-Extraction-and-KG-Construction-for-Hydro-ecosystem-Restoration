@@ -1,0 +1,394 @@
+--- CHECKING GPU ALLOCATION ---
+Wed Aug 19 13:11:01 2026       
++-----------------------------------------------------------------------------------------+
+| NVIDIA-SMI 580.105.08             Driver Version: 580.105.08     CUDA Version: 13.0     |
++-----------------------------------------+------------------------+----------------------+
+| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |
+|                                         |                        |               MIG M. |
+|=========================================+========================+======================|
+|   0  Tesla P100-PCIE-16GB           On  |   00000000:18:00.0 Off |                    0 |
+| N/A   36C    P0             25W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   1  Tesla P100-PCIE-16GB           On  |   00000000:3B:00.0 Off |                    0 |
+| N/A   37C    P0             26W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   2  Tesla P100-PCIE-16GB           On  |   00000000:86:00.0 Off |                    0 |
+| N/A   39C    P0             27W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+|   3  Tesla P100-PCIE-16GB           On  |   00000000:AF:00.0 Off |                    0 |
+| N/A   38C    P0             27W /  250W |       0MiB /  16384MiB |      0%      Default |
+|                                         |                        |                  N/A |
++-----------------------------------------+------------------------+----------------------+
+
++-----------------------------------------------------------------------------------------+
+| Processes:                                                                              |
+|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |
+|        ID   ID                                                               Usage      |
+|=========================================================================================|
+|  No running processes found                                                             |
++-----------------------------------------------------------------------------------------+
+Starting Nemotron extraction
+--- Loading Nemotron ColEmbed VL-4B-V2 [Mode: HYBRID] ---
+Running on device: CUDA
+[ERROR] `cache_position` is part of Qwen3VLNemotronEmbedTextModel.forward's signature, but not documented. Make sure to add it to the docstring of the function in /home2020/home/icube/janil/.cache/huggingface/modules/transformers_modules/nemotron_hyphen_colembed_hyphen_vl_hyphen_4b_hyphen_v2/ea2e8ecdd4508d08/modeling_qwen3_vl_nemotron_embed.py.
+Loading weights:   0%|          | 0/714 [00:00<?, ?it/s]Loading weights:   0%|          | 1/714 [00:02<25:35,  2.15s/it]Loading weights:   0%|          | 2/714 [00:02<11:40,  1.02it/s]Loading weights:   9%|▉         | 65/714 [00:02<00:12, 50.27it/s]Loading weights:  13%|█▎        | 93/714 [00:02<00:11, 53.15it/s]Loading weights:  16%|█▌        | 112/714 [00:03<00:10, 59.23it/s]Loading weights:  18%|█▊        | 128/714 [00:03<00:10, 54.97it/s]Loading weights:  20%|█▉        | 140/714 [00:03<00:09, 57.89it/s]Loading weights:  21%|██        | 151/714 [00:03<00:09, 57.44it/s]Loading weights:  22%|██▏       | 160/714 [00:04<00:09, 56.63it/s]Loading weights:  24%|██▎       | 169/714 [00:04<00:09, 56.61it/s]Loading weights:  25%|██▌       | 180/714 [00:04<00:09, 58.69it/s]Loading weights:  27%|██▋       | 191/714 [00:04<00:08, 58.71it/s]Loading weights:  28%|██▊       | 202/714 [00:04<00:08, 59.21it/s]Loading weights:  30%|██▉       | 213/714 [00:04<00:08, 59.83it/s]Loading weights:  31%|███▏      | 224/714 [00:05<00:08, 58.29it/s]Loading weights:  33%|███▎      | 235/714 [00:05<00:08, 59.81it/s]Loading weights:  34%|███▍      | 246/714 [00:05<00:08, 58.10it/s]Loading weights:  36%|███▌      | 257/714 [00:05<00:07, 59.80it/s]Loading weights:  38%|███▊      | 268/714 [00:05<00:07, 58.30it/s]Loading weights:  39%|███▉      | 279/714 [00:06<00:07, 59.72it/s]Loading weights:  41%|████      | 290/714 [00:06<00:07, 60.45it/s]Loading weights:  42%|████▏     | 301/714 [00:06<00:06, 59.22it/s]Loading weights:  44%|████▎     | 312/714 [00:06<00:06, 59.87it/s]Loading weights:  45%|████▌     | 323/714 [00:06<00:06, 61.55it/s]Loading weights:  47%|████▋     | 334/714 [00:06<00:06, 60.71it/s]Loading weights:  48%|████▊     | 345/714 [00:07<00:06, 58.25it/s]Loading weights:  50%|████▉     | 356/714 [00:07<00:05, 60.08it/s]Loading weights:  51%|█████▏    | 367/714 [00:07<00:05, 62.59it/s]Loading weights:  53%|█████▎    | 378/714 [00:07<00:05, 62.94it/s]Loading weights:  54%|█████▍    | 389/714 [00:07<00:05, 58.99it/s]Loading weights:  60%|██████    | 431/714 [00:07<00:02, 126.37it/s]Loading weights:  68%|██████▊   | 489/714 [00:08<00:01, 215.57it/s]Loading weights:  77%|███████▋  | 549/714 [00:08<00:00, 300.28it/s]Loading weights:  84%|████████▍ | 599/714 [00:08<00:00, 346.56it/s]Loading weights:  93%|█████████▎| 667/714 [00:08<00:00, 424.17it/s]Loading weights: 100%|██████████| 714/714 [00:08<00:00, 83.20it/s] 
+Found 5 PDFs to process: ['Rapport-stage-M2-Floriane.pdf', 'reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7.pdf', 'fichier.pdf', 'dossier_unio_crassus_zorn_v4_19_11_2024.pdf', '2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire.pdf']
+
+========== STARTING PROCESSING FOR: Rapport-stage-M2-Floriane ==========
+--- Loading Data for Rapport-stage-M2-Floriane ---
+Encoding 189 block texts with Nemotron...
+  [LENGTH-CHECK] block 176: ~441 words, may approach q_max_length=512 cap
+Extracting query embeddings...:   0%|          | 0/48 [00:00<?, ?it/s]/home2020/home/icube/janil/miniforge3/envs/barthez_env/lib/python3.10/site-packages/transformers/modeling_attn_mask_utils.py:202: FutureWarning: The attention mask API under `transformers.modeling_attn_mask_utils` (`AttentionMaskConverter`) is deprecated and will be removed in Transformers v5.10. Please use the new API in `transformers.masking_utils`.
+  warnings.warn(DEPRECATION_MESSAGE, FutureWarning)
+Extracting query embeddings...:   2%|▏         | 1/48 [00:02<02:04,  2.64s/it]Extracting query embeddings...:   4%|▍         | 2/48 [00:03<01:10,  1.53s/it]Extracting query embeddings...:   6%|▋         | 3/48 [00:03<00:48,  1.08s/it]Extracting query embeddings...:   8%|▊         | 4/48 [00:04<00:38,  1.14it/s]Extracting query embeddings...:  10%|█         | 5/48 [00:05<00:43,  1.01s/it]Extracting query embeddings...:  12%|█▎        | 6/48 [00:06<00:36,  1.16it/s]Extracting query embeddings...:  15%|█▍        | 7/48 [00:06<00:31,  1.31it/s]Extracting query embeddings...:  17%|█▋        | 8/48 [00:07<00:29,  1.34it/s]Extracting query embeddings...:  19%|█▉        | 9/48 [00:10<00:56,  1.44s/it]Extracting query embeddings...:  21%|██        | 10/48 [00:12<01:03,  1.66s/it]Extracting query embeddings...:  23%|██▎       | 11/48 [00:14<01:04,  1.76s/it]Extracting query embeddings...:  25%|██▌       | 12/48 [00:16<01:08,  1.91s/it]Extracting query embeddings...:  27%|██▋       | 13/48 [00:18<00:59,  1.71s/it]Extracting query embeddings...:  29%|██▉       | 14/48 [00:20<01:01,  1.80s/it]Extracting query embeddings...:  31%|███▏      | 15/48 [00:22<01:00,  1.85s/it]Extracting query embeddings...:  33%|███▎      | 16/48 [00:23<00:53,  1.66s/it]Extracting query embeddings...:  35%|███▌      | 17/48 [00:25<00:54,  1.75s/it]Extracting query embeddings...:  38%|███▊      | 18/48 [00:26<00:47,  1.60s/it]Extracting query embeddings...:  40%|███▉      | 19/48 [00:27<00:40,  1.41s/it]Extracting query embeddings...:  42%|████▏     | 20/48 [00:29<00:40,  1.43s/it]Extracting query embeddings...:  44%|████▍     | 21/48 [00:30<00:37,  1.41s/it]Extracting query embeddings...:  46%|████▌     | 22/48 [00:32<00:39,  1.52s/it]Extracting query embeddings...:  48%|████▊     | 23/48 [00:34<00:41,  1.65s/it]Extracting query embeddings...:  50%|█████     | 24/48 [00:36<00:41,  1.72s/it]Extracting query embeddings...:  52%|█████▏    | 25/48 [00:37<00:38,  1.65s/it]Extracting query embeddings...:  54%|█████▍    | 26/48 [00:40<00:45,  2.05s/it]Extracting query embeddings...:  56%|█████▋    | 27/48 [00:41<00:39,  1.87s/it]Extracting query embeddings...:  58%|█████▊    | 28/48 [00:44<00:39,  1.99s/it]Extracting query embeddings...:  60%|██████    | 29/48 [00:46<00:40,  2.15s/it]Extracting query embeddings...:  62%|██████▎   | 30/48 [00:48<00:34,  1.90s/it]Extracting query embeddings...:  65%|██████▍   | 31/48 [00:50<00:36,  2.18s/it]Extracting query embeddings...:  67%|██████▋   | 32/48 [00:53<00:38,  2.41s/it]Extracting query embeddings...:  69%|██████▉   | 33/48 [00:55<00:34,  2.28s/it]Extracting query embeddings...:  71%|███████   | 34/48 [00:57<00:30,  2.18s/it]Extracting query embeddings...:  73%|███████▎  | 35/48 [01:00<00:31,  2.42s/it]Extracting query embeddings...:  75%|███████▌  | 36/48 [01:02<00:27,  2.29s/it]Extracting query embeddings...:  77%|███████▋  | 37/48 [01:05<00:26,  2.43s/it]Extracting query embeddings...:  79%|███████▉  | 38/48 [01:07<00:24,  2.42s/it]Extracting query embeddings...:  81%|████████▏ | 39/48 [01:10<00:23,  2.59s/it]Extracting query embeddings...:  83%|████████▎ | 40/48 [01:13<00:21,  2.70s/it]Extracting query embeddings...:  85%|████████▌ | 41/48 [01:16<00:19,  2.78s/it]Extracting query embeddings...:  88%|████████▊ | 42/48 [01:19<00:15,  2.64s/it]Extracting query embeddings...:  90%|████████▉ | 43/48 [01:20<00:11,  2.35s/it]Extracting query embeddings...:  92%|█████████▏| 44/48 [01:23<00:10,  2.53s/it]Extracting query embeddings...:  94%|█████████▍| 45/48 [01:26<00:07,  2.66s/it]Extracting query embeddings...:  96%|█████████▌| 46/48 [01:29<00:05,  2.59s/it]Extracting query embeddings...:  98%|█████████▊| 47/48 [01:32<00:02,  2.68s/it]Extracting query embeddings...: 100%|██████████| 48/48 [01:32<00:00,  2.01s/it]Extracting query embeddings...: 100%|██████████| 48/48 [01:32<00:00,  1.93s/it]
+Found 38 images to match.
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:10<00:00, 10.97s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:10<00:00, 11.00s/it]
+  [PATCH-CHECK] image 0: 350 real visual tokens (raw padded shape: 350, cap=1024)
+Processed img_p34_2.png -> Best: page_34_block_2 (0.8219)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:11<00:00, 11.50s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:11<00:00, 11.53s/it]
+  [PATCH-CHECK] image 0: 422 real visual tokens (raw padded shape: 422, cap=1024)
+Processed img_p13_2.png -> Best: page_13_block_5 (0.8628)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:15<00:00, 15.57s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:15<00:00, 15.59s/it]
+  [PATCH-CHECK] image 0: 574 real visual tokens (raw padded shape: 574, cap=1024)
+Processed img_p50_1.png -> Best: page_51_block_1 (0.7886)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.12s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.15s/it]
+  [PATCH-CHECK] image 0: 770 real visual tokens (raw padded shape: 770, cap=1024)
+Processed img_p46_1.png -> Best: page_46_block_1 (0.9463)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:11<00:00, 11.69s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:11<00:00, 11.72s/it]
+  [PATCH-CHECK] image 0: 432 real visual tokens (raw padded shape: 432, cap=1024)
+Processed img_p11_1.png -> Best: page_11_block_2 (0.8572)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:11<00:00, 11.79s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:11<00:00, 11.82s/it]
+  [PATCH-CHECK] image 0: 434 real visual tokens (raw padded shape: 434, cap=1024)
+Processed img_p23_1.png -> Best: page_23_block_5 (0.8793)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.77s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.80s/it]
+  [PATCH-CHECK] image 0: 758 real visual tokens (raw padded shape: 758, cap=1024)
+Processed img_p43_1.png -> Best: page_43_block_1 (0.8675)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.72s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.76s/it]
+  [PATCH-CHECK] image 0: 752 real visual tokens (raw padded shape: 752, cap=1024)
+Processed img_p25_1.png -> Best: page_25_block_1 (1.0)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:10<00:00, 10.78s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:10<00:00, 10.81s/it]
+  [PATCH-CHECK] image 0: 394 real visual tokens (raw padded shape: 394, cap=1024)
+Processed img_p15_1.png -> Best: page_15_block_4 (0.8755)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.74s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.77s/it]
+  [PATCH-CHECK] image 0: 756 real visual tokens (raw padded shape: 756, cap=1024)
+Processed img_p51_1.png -> Best: page_51_block_1 (0.8456)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.16s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.19s/it]
+  [PATCH-CHECK] image 0: 734 real visual tokens (raw padded shape: 734, cap=1024)
+Processed img_p50_2.png -> Best: page_49_block_1 (0.7854)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:17<00:00, 17.18s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:17<00:00, 17.22s/it]
+  [PATCH-CHECK] image 0: 630 real visual tokens (raw padded shape: 630, cap=1024)
+Processed img_p50_5.png -> Best: page_51_block_1 (0.7837)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.28s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.31s/it]
+  [PATCH-CHECK] image 0: 773 real visual tokens (raw padded shape: 773, cap=1024)
+Processed img_p8_1.png -> Best: page_8_block_3 (1.0)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.61s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.64s/it]
+  [PATCH-CHECK] image 0: 754 real visual tokens (raw padded shape: 754, cap=1024)
+Processed img_p19_1.png -> Best: page_19_block_3 (0.9939)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.63s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.66s/it]
+  [PATCH-CHECK] image 0: 752 real visual tokens (raw padded shape: 752, cap=1024)
+Processed img_p24_1.png -> Best: page_24_block_4 (1.0)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.10s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.13s/it]
+  [PATCH-CHECK] image 0: 770 real visual tokens (raw padded shape: 770, cap=1024)
+Processed img_p21_1.png -> Best: page_20_block_4 (0.9462)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:06<00:00,  6.43s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:06<00:00,  6.46s/it]
+  [PATCH-CHECK] image 0: 239 real visual tokens (raw padded shape: 239, cap=1024)
+Processed img_p52_2.png -> Best: page_51_block_1 (0.7888)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.59s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.62s/it]
+  [PATCH-CHECK] image 0: 779 real visual tokens (raw padded shape: 779, cap=1024)
+Processed img_p53_1.png -> Best: page_52_block_1 (0.8587)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.63s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.66s/it]
+  [PATCH-CHECK] image 0: 750 real visual tokens (raw padded shape: 750, cap=1024)
+Processed img_p44_1.png -> Best: page_43_block_1 (0.8646)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.88s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.91s/it]
+  [PATCH-CHECK] image 0: 762 real visual tokens (raw padded shape: 762, cap=1024)
+Processed img_p47_1.png -> Best: page_46_block_1 (0.9179)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:11<00:00, 11.04s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:11<00:00, 11.07s/it]
+  [PATCH-CHECK] image 0: 404 real visual tokens (raw padded shape: 404, cap=1024)
+Processed img_p43_2.png -> Best: page_43_block_2 (0.9989)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.88s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.92s/it]
+  [PATCH-CHECK] image 0: 755 real visual tokens (raw padded shape: 755, cap=1024)
+Processed img_p20_1.png -> Best: page_20_block_2 (0.9815)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.70s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.73s/it]
+  [PATCH-CHECK] image 0: 756 real visual tokens (raw padded shape: 756, cap=1024)
+Processed img_p51_2.png -> Best: page_51_block_1 (0.8456)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:10<00:00, 10.03s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:10<00:00, 10.05s/it]
+  [PATCH-CHECK] image 0: 366 real visual tokens (raw padded shape: 366, cap=1024)
+Processed img_p13_1.png -> Best: page_13_block_3 (0.8721)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.79s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.82s/it]
+  [PATCH-CHECK] image 0: 752 real visual tokens (raw padded shape: 752, cap=1024)
+Processed img_p49_1.png -> Best: page_49_block_1 (0.7998)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.20s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.23s/it]
+  [PATCH-CHECK] image 0: 770 real visual tokens (raw padded shape: 770, cap=1024)
+Processed img_p45_1.png -> Best: page_44_block_1 (0.8749)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:15<00:00, 15.85s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:15<00:00, 15.88s/it]
+  [PATCH-CHECK] image 0: 574 real visual tokens (raw padded shape: 574, cap=1024)
+Processed img_p50_3.png -> Best: page_51_block_1 (0.7897)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:10<00:00, 10.18s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:10<00:00, 10.22s/it]
+  [PATCH-CHECK] image 0: 374 real visual tokens (raw padded shape: 374, cap=1024)
+Processed img_p23_3.png -> Best: page_23_block_5 (0.8843)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.12s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.15s/it]
+  [PATCH-CHECK] image 0: 762 real visual tokens (raw padded shape: 762, cap=1024)
+Processed img_p23_2.png -> Best: page_23_block_2 (0.9393)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.50s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.54s/it]
+  [PATCH-CHECK] image 0: 749 real visual tokens (raw padded shape: 749, cap=1024)
+Processed img_p19_2.png -> Best: page_19_block_1 (1.0)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.21s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.24s/it]
+  [PATCH-CHECK] image 0: 773 real visual tokens (raw padded shape: 773, cap=1024)
+Processed img_p48_1.png -> Best: page_48_block_1 (0.876)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.28s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.31s/it]
+  [PATCH-CHECK] image 0: 774 real visual tokens (raw padded shape: 774, cap=1024)
+Processed img_p47_2.png -> Best: page_46_block_1 (0.9215)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:10<00:00, 10.85s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:10<00:00, 10.88s/it]
+  [PATCH-CHECK] image 0: 398 real visual tokens (raw padded shape: 398, cap=1024)
+Processed img_p34_1.png -> Best: page_34_block_1 (0.8159)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.91s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.94s/it]
+  [PATCH-CHECK] image 0: 754 real visual tokens (raw padded shape: 754, cap=1024)
+Processed img_p45_2.png -> Best: page_44_block_1 (0.868)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.81s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.84s/it]
+  [PATCH-CHECK] image 0: 754 real visual tokens (raw padded shape: 754, cap=1024)
+Processed img_p22_1.png -> Best: page_21_block_3 (0.8776)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.74s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.77s/it]
+  [PATCH-CHECK] image 0: 788 real visual tokens (raw padded shape: 788, cap=1024)
+Processed img_p52_1.png -> Best: page_52_block_1 (0.8015)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.57s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.60s/it]
+  [PATCH-CHECK] image 0: 740 real visual tokens (raw padded shape: 740, cap=1024)
+Processed img_p50_4.png -> Best: page_51_block_1 (0.7813)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.00s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.03s/it]
+  [PATCH-CHECK] image 0: 764 real visual tokens (raw padded shape: 764, cap=1024)
+Processed img_p9_1.png -> Best: page_9_block_4 (0.9833)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/nemotron_results/Rapport-stage-M2-Floriane
+========== STARTING PROCESSING FOR: reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7 ==========
+--- Loading Data for reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7 ---
+Encoding 23 block texts with Nemotron...
+Extracting query embeddings...:   0%|          | 0/6 [00:00<?, ?it/s]Extracting query embeddings...:  17%|█▋        | 1/6 [00:01<00:07,  1.49s/it]Extracting query embeddings...:  33%|███▎      | 2/6 [00:04<00:09,  2.36s/it]Extracting query embeddings...:  50%|█████     | 3/6 [00:07<00:07,  2.61s/it]Extracting query embeddings...:  67%|██████▋   | 4/6 [00:08<00:03,  1.99s/it]Extracting query embeddings...:  83%|████████▎ | 5/6 [00:11<00:02,  2.34s/it]Extracting query embeddings...: 100%|██████████| 6/6 [00:11<00:00,  1.71s/it]Extracting query embeddings...: 100%|██████████| 6/6 [00:11<00:00,  1.98s/it]
+Found 5 images to match.
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.25s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.29s/it]
+  [PATCH-CHECK] image 0: 768 real visual tokens (raw padded shape: 768, cap=1024)
+Processed img_p1_1.png -> Best: page_1_block_2 (1.0)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.97s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.00s/it]
+  [PATCH-CHECK] image 0: 762 real visual tokens (raw padded shape: 762, cap=1024)
+Processed img_p5_2.png -> Best: page_6_block_5 (0.9795)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.03s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.06s/it]
+  [PATCH-CHECK] image 0: 762 real visual tokens (raw padded shape: 762, cap=1024)
+Processed img_p5_1.png -> Best: page_7_block_3 (0.96)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.43s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.46s/it]
+  [PATCH-CHECK] image 0: 770 real visual tokens (raw padded shape: 770, cap=1024)
+Processed img_p3_1.png -> Best: page_1_block_2 (0.96)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.87s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.90s/it]
+  [PATCH-CHECK] image 0: 758 real visual tokens (raw padded shape: 758, cap=1024)
+Processed img_p4_1.png -> Best: page_1_block_2 (0.94)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/nemotron_results/reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7
+========== STARTING PROCESSING FOR: fichier ==========
+--- Loading Data for fichier ---
+Encoding 60 block texts with Nemotron...
+Extracting query embeddings...:   0%|          | 0/15 [00:00<?, ?it/s]Extracting query embeddings...:   7%|▋         | 1/15 [00:02<00:30,  2.18s/it]Extracting query embeddings...:  13%|█▎        | 2/15 [00:03<00:20,  1.61s/it]Extracting query embeddings...:  20%|██        | 3/15 [00:04<00:15,  1.30s/it]Extracting query embeddings...:  27%|██▋       | 4/15 [00:05<00:14,  1.28s/it]Extracting query embeddings...:  33%|███▎      | 5/15 [00:07<00:13,  1.35s/it]Extracting query embeddings...:  40%|████      | 6/15 [00:08<00:11,  1.32s/it]Extracting query embeddings...:  47%|████▋     | 7/15 [00:09<00:09,  1.23s/it]Extracting query embeddings...:  53%|█████▎    | 8/15 [00:11<00:09,  1.37s/it]Extracting query embeddings...:  60%|██████    | 9/15 [00:12<00:08,  1.40s/it]Extracting query embeddings...:  67%|██████▋   | 10/15 [00:14<00:07,  1.55s/it]Extracting query embeddings...:  73%|███████▎  | 11/15 [00:15<00:06,  1.52s/it]Extracting query embeddings...:  80%|████████  | 12/15 [00:17<00:04,  1.44s/it]Extracting query embeddings...:  87%|████████▋ | 13/15 [00:18<00:02,  1.49s/it]Extracting query embeddings...:  93%|█████████▎| 14/15 [00:20<00:01,  1.72s/it]Extracting query embeddings...: 100%|██████████| 15/15 [00:22<00:00,  1.79s/it]Extracting query embeddings...: 100%|██████████| 15/15 [00:22<00:00,  1.53s/it]
+Found 25 images to match.
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.68s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.72s/it]
+  [PATCH-CHECK] image 0: 752 real visual tokens (raw padded shape: 752, cap=1024)
+Processed img_p13_2.png -> Best: page_13_block_2 (0.9674)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.80s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.84s/it]
+  [PATCH-CHECK] image 0: 752 real visual tokens (raw padded shape: 752, cap=1024)
+Processed img_p20_2.png -> Best: page_20_block_2 (0.9793)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.82s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.86s/it]
+  [PATCH-CHECK] image 0: 752 real visual tokens (raw padded shape: 752, cap=1024)
+Processed img_p14_1.png -> Best: page_13_block_4 (0.9796)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.27s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.30s/it]
+  [PATCH-CHECK] image 0: 773 real visual tokens (raw padded shape: 773, cap=1024)
+Processed img_p11_1.png -> Best: page_9_block_2 (0.96)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.21s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.25s/it]
+  [PATCH-CHECK] image 0: 770 real visual tokens (raw padded shape: 770, cap=1024)
+Processed img_p23_1.png -> Best: page_23_block_1 (0.8539)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.77s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.80s/it]
+  [PATCH-CHECK] image 0: 788 real visual tokens (raw padded shape: 788, cap=1024)
+Processed img_p14_2.png -> Best: page_13_block_4 (0.8885)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.76s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.80s/it]
+  [PATCH-CHECK] image 0: 752 real visual tokens (raw padded shape: 752, cap=1024)
+Processed img_p15_1.png -> Best: page_12_block_5 (0.94)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.16s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.20s/it]
+  [PATCH-CHECK] image 0: 770 real visual tokens (raw padded shape: 770, cap=1024)
+Processed img_p8_1.png -> Best: page_9_block_2 (0.98)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.71s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.74s/it]
+  [PATCH-CHECK] image 0: 752 real visual tokens (raw padded shape: 752, cap=1024)
+Processed img_p19_1.png -> Best: page_20_block_2 (0.98)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.62s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.66s/it]
+  [PATCH-CHECK] image 0: 750 real visual tokens (raw padded shape: 750, cap=1024)
+Processed img_p10_1.png -> Best: page_9_block_2 (0.9629)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.32s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.36s/it]
+  [PATCH-CHECK] image 0: 774 real visual tokens (raw padded shape: 774, cap=1024)
+Processed img_p17_1.png -> Best: page_17_block_3 (1.0)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:22<00:00, 22.02s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:22<00:00, 22.05s/it]
+  [PATCH-CHECK] image 0: 793 real visual tokens (raw padded shape: 793, cap=1024)
+Processed img_p21_1.png -> Best: page_20_block_2 (0.98)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.83s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.87s/it]
+  [PATCH-CHECK] image 0: 754 real visual tokens (raw padded shape: 754, cap=1024)
+Processed img_p12_1.png -> Best: page_9_block_2 (0.94)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.10s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.13s/it]
+  [PATCH-CHECK] image 0: 766 real visual tokens (raw padded shape: 766, cap=1024)
+Processed img_p7_1.png -> Best: page_3_block_1 (0.92)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.37s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.41s/it]
+  [PATCH-CHECK] image 0: 774 real visual tokens (raw padded shape: 774, cap=1024)
+Processed img_p17_2.png -> Best: page_20_block_2 (0.8565)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.17s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.20s/it]
+  [PATCH-CHECK] image 0: 770 real visual tokens (raw padded shape: 770, cap=1024)
+Processed img_p20_1.png -> Best: page_20_block_2 (1.0)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.16s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.20s/it]
+  [PATCH-CHECK] image 0: 764 real visual tokens (raw padded shape: 764, cap=1024)
+Processed img_p1_1.png -> Best: page_3_block_1 (0.96)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.00s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.04s/it]
+  [PATCH-CHECK] image 0: 762 real visual tokens (raw padded shape: 762, cap=1024)
+Processed img_p10_2.png -> Best: page_9_block_2 (0.98)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.53s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.56s/it]
+  [PATCH-CHECK] image 0: 773 real visual tokens (raw padded shape: 773, cap=1024)
+Processed img_p16_1.png -> Best: page_20_block_2 (0.92)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.76s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.79s/it]
+  [PATCH-CHECK] image 0: 752 real visual tokens (raw padded shape: 752, cap=1024)
+Processed img_p13_1.png -> Best: page_9_block_2 (0.8858)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.27s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.30s/it]
+  [PATCH-CHECK] image 0: 774 real visual tokens (raw padded shape: 774, cap=1024)
+Processed img_p18_1.png -> Best: page_20_block_2 (0.929)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.71s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.75s/it]
+  [PATCH-CHECK] image 0: 752 real visual tokens (raw padded shape: 752, cap=1024)
+Processed img_p19_2.png -> Best: page_20_block_2 (0.98)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.96s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.99s/it]
+  [PATCH-CHECK] image 0: 793 real visual tokens (raw padded shape: 793, cap=1024)
+Processed img_p22_1.png -> Best: page_22_block_2 (1.0)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.00s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.04s/it]
+  [PATCH-CHECK] image 0: 764 real visual tokens (raw padded shape: 764, cap=1024)
+Processed img_p1_2.png -> Best: page_3_block_1 (0.96)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.37s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.40s/it]
+  [PATCH-CHECK] image 0: 770 real visual tokens (raw padded shape: 770, cap=1024)
+Processed img_p9_1.png -> Best: page_9_block_2 (1.0)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/nemotron_results/fichier
+========== STARTING PROCESSING FOR: dossier_unio_crassus_zorn_v4_19_11_2024 ==========
+--- Loading Data for dossier_unio_crassus_zorn_v4_19_11_2024 ---
+Encoding 70 block texts with Nemotron...
+  [LENGTH-CHECK] block 69: ~403 words, may approach q_max_length=512 cap
+Extracting query embeddings...:   0%|          | 0/18 [00:00<?, ?it/s]Extracting query embeddings...:   6%|▌         | 1/18 [00:02<00:39,  2.32s/it]Extracting query embeddings...:  11%|█         | 2/18 [00:02<00:19,  1.21s/it]Extracting query embeddings...:  17%|█▋        | 3/18 [00:04<00:19,  1.32s/it]Extracting query embeddings...:  22%|██▏       | 4/18 [00:07<00:26,  1.91s/it]Extracting query embeddings...:  28%|██▊       | 5/18 [00:09<00:29,  2.29s/it]Extracting query embeddings...:  33%|███▎      | 6/18 [00:11<00:24,  2.01s/it]Extracting query embeddings...:  39%|███▉      | 7/18 [00:14<00:24,  2.25s/it]Extracting query embeddings...:  44%|████▍     | 8/18 [00:17<00:24,  2.46s/it]Extracting query embeddings...:  50%|█████     | 9/18 [00:19<00:20,  2.30s/it]Extracting query embeddings...:  56%|█████▌    | 10/18 [00:21<00:19,  2.44s/it]Extracting query embeddings...:  61%|██████    | 11/18 [00:23<00:15,  2.20s/it]Extracting query embeddings...:  67%|██████▋   | 12/18 [00:26<00:14,  2.43s/it]Extracting query embeddings...:  72%|███████▏  | 13/18 [00:27<00:10,  2.14s/it]Extracting query embeddings...:  78%|███████▊  | 14/18 [00:29<00:07,  1.95s/it]Extracting query embeddings...:  83%|████████▎ | 15/18 [00:32<00:06,  2.25s/it]Extracting query embeddings...:  89%|████████▉ | 16/18 [00:33<00:03,  1.87s/it]Extracting query embeddings...:  94%|█████████▍| 17/18 [00:35<00:01,  1.91s/it]Extracting query embeddings...: 100%|██████████| 18/18 [00:36<00:00,  1.80s/it]Extracting query embeddings...: 100%|██████████| 18/18 [00:36<00:00,  2.05s/it]
+Found 19 images to match.
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.68s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.72s/it]
+  [PATCH-CHECK] image 0: 750 real visual tokens (raw padded shape: 750, cap=1024)
+Processed img_p14_1.png -> Best: page_16_block_2 (0.9047)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.69s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.72s/it]
+  [PATCH-CHECK] image 0: 750 real visual tokens (raw padded shape: 750, cap=1024)
+Processed img_p16_1.png -> Best: page_16_block_2 (0.9026)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.36s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.40s/it]
+  [PATCH-CHECK] image 0: 773 real visual tokens (raw padded shape: 773, cap=1024)
+Processed img_p1_1.png -> Best: page_4_block_8 (0.94)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.74s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.78s/it]
+  [PATCH-CHECK] image 0: 791 real visual tokens (raw padded shape: 791, cap=1024)
+Processed img_p21_1.png -> Best: page_21_block_2 (0.9387)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.23s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.28s/it]
+  [PATCH-CHECK] image 0: 774 real visual tokens (raw padded shape: 774, cap=1024)
+Processed img_p13_1.png -> Best: page_12_block_4 (0.919)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.13s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.16s/it]
+  [PATCH-CHECK] image 0: 762 real visual tokens (raw padded shape: 762, cap=1024)
+Processed img_p15_1.png -> Best: page_12_block_4 (0.94)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.18s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.22s/it]
+  [PATCH-CHECK] image 0: 762 real visual tokens (raw padded shape: 762, cap=1024)
+Processed img_p18_1.png -> Best: page_20_block_1 (0.9184)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.42s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.46s/it]
+  [PATCH-CHECK] image 0: 773 real visual tokens (raw padded shape: 773, cap=1024)
+Processed img_p24_1.png -> Best: page_23_block_2 (0.98)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:22<00:00, 22.13s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:22<00:00, 22.17s/it]
+  [PATCH-CHECK] image 0: 796 real visual tokens (raw padded shape: 796, cap=1024)
+Processed img_p20_1.png -> Best: page_20_block_1 (1.0)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.98s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.02s/it]
+  [PATCH-CHECK] image 0: 762 real visual tokens (raw padded shape: 762, cap=1024)
+Processed img_p26_1.png -> Best: page_23_block_2 (0.8648)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.99s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.03s/it]
+  [PATCH-CHECK] image 0: 758 real visual tokens (raw padded shape: 758, cap=1024)
+Processed img_p28_1.png -> Best: page_28_block_1 (0.7313)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.28s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.33s/it]
+  [PATCH-CHECK] image 0: 774 real visual tokens (raw padded shape: 774, cap=1024)
+Processed img_p25_1.png -> Best: page_23_block_2 (0.7979)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.17s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.21s/it]
+  [PATCH-CHECK] image 0: 773 real visual tokens (raw padded shape: 773, cap=1024)
+Processed img_p5_1.png -> Best: page_5_block_3 (1.0)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.87s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.90s/it]
+  [PATCH-CHECK] image 0: 758 real visual tokens (raw padded shape: 758, cap=1024)
+Processed img_p10_1.png -> Best: page_11_block_2 (0.8844)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.50s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.54s/it]
+  [PATCH-CHECK] image 0: 773 real visual tokens (raw padded shape: 773, cap=1024)
+Processed img_p9_1.png -> Best: page_11_block_2 (0.96)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.67s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.71s/it]
+  [PATCH-CHECK] image 0: 749 real visual tokens (raw padded shape: 749, cap=1024)
+Processed img_p13_2.png -> Best: page_13_block_2 (0.8801)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.91s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.96s/it]
+  [PATCH-CHECK] image 0: 750 real visual tokens (raw padded shape: 750, cap=1024)
+Processed img_p6_1.png -> Best: page_6_block_1 (1.0)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.43s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.46s/it]
+  [PATCH-CHECK] image 0: 774 real visual tokens (raw padded shape: 774, cap=1024)
+Processed img_p17_1.png -> Best: page_17_block_1 (0.9618)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.49s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.53s/it]
+  [PATCH-CHECK] image 0: 773 real visual tokens (raw padded shape: 773, cap=1024)
+Processed img_p8_1.png -> Best: page_7_block_1 (0.9757)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/nemotron_results/dossier_unio_crassus_zorn_v4_19_11_2024
+========== STARTING PROCESSING FOR: 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire ==========
+--- Loading Data for 2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire ---
+Encoding 184 block texts with Nemotron...
+Extracting query embeddings...:   0%|          | 0/46 [00:00<?, ?it/s]Extracting query embeddings...:   2%|▏         | 1/46 [00:02<02:13,  2.97s/it]Extracting query embeddings...:   4%|▍         | 2/46 [00:04<01:38,  2.25s/it]Extracting query embeddings...:   7%|▋         | 3/46 [00:06<01:30,  2.12s/it]Extracting query embeddings...:   9%|▊         | 4/46 [00:08<01:21,  1.93s/it]Extracting query embeddings...:  11%|█         | 5/46 [00:09<01:05,  1.59s/it]Extracting query embeddings...:  13%|█▎        | 6/46 [00:12<01:21,  2.04s/it]Extracting query embeddings...:  15%|█▌        | 7/46 [00:14<01:17,  1.98s/it]Extracting query embeddings...:  17%|█▋        | 8/46 [00:15<01:13,  1.92s/it]Extracting query embeddings...:  20%|█▉        | 9/46 [00:17<01:10,  1.91s/it]Extracting query embeddings...:  22%|██▏       | 10/46 [00:19<01:09,  1.93s/it]Extracting query embeddings...:  24%|██▍       | 11/46 [00:22<01:17,  2.20s/it]Extracting query embeddings...:  26%|██▌       | 12/46 [00:25<01:22,  2.43s/it]Extracting query embeddings...:  28%|██▊       | 13/46 [00:27<01:14,  2.27s/it]Extracting query embeddings...:  30%|███       | 14/46 [00:28<01:00,  1.90s/it]Extracting query embeddings...:  33%|███▎      | 15/46 [00:30<01:04,  2.09s/it]Extracting query embeddings...:  35%|███▍      | 16/46 [00:32<00:59,  2.00s/it]Extracting query embeddings...:  37%|███▋      | 17/46 [00:35<01:06,  2.29s/it]Extracting query embeddings...:  39%|███▉      | 18/46 [00:37<00:59,  2.14s/it]Extracting query embeddings...:  41%|████▏     | 19/46 [00:38<00:48,  1.79s/it]Extracting query embeddings...:  43%|████▎     | 20/46 [00:40<00:45,  1.75s/it]Extracting query embeddings...:  46%|████▌     | 21/46 [00:41<00:37,  1.50s/it]Extracting query embeddings...:  48%|████▊     | 22/46 [00:42<00:35,  1.50s/it]Extracting query embeddings...:  50%|█████     | 23/46 [00:43<00:32,  1.43s/it]Extracting query embeddings...:  52%|█████▏    | 24/46 [00:45<00:30,  1.38s/it]Extracting query embeddings...:  54%|█████▍    | 25/46 [00:46<00:29,  1.40s/it]Extracting query embeddings...:  57%|█████▋    | 26/46 [00:48<00:28,  1.42s/it]Extracting query embeddings...:  59%|█████▊    | 27/46 [00:49<00:27,  1.44s/it]Extracting query embeddings...:  61%|██████    | 28/46 [00:51<00:30,  1.69s/it]Extracting query embeddings...:  63%|██████▎   | 29/46 [00:53<00:26,  1.56s/it]Extracting query embeddings...:  65%|██████▌   | 30/46 [00:54<00:26,  1.68s/it]Extracting query embeddings...:  67%|██████▋   | 31/46 [00:56<00:26,  1.76s/it]Extracting query embeddings...:  70%|██████▉   | 32/46 [00:57<00:21,  1.55s/it]Extracting query embeddings...:  72%|███████▏  | 33/46 [00:59<00:21,  1.69s/it]Extracting query embeddings...:  74%|███████▍  | 34/46 [01:00<00:17,  1.47s/it]Extracting query embeddings...:  76%|███████▌  | 35/46 [01:02<00:17,  1.63s/it]Extracting query embeddings...:  78%|███████▊  | 36/46 [01:04<00:15,  1.52s/it]Extracting query embeddings...:  80%|████████  | 37/46 [01:06<00:16,  1.81s/it]Extracting query embeddings...:  83%|████████▎ | 38/46 [01:08<00:14,  1.85s/it]Extracting query embeddings...:  85%|████████▍ | 39/46 [01:10<00:13,  1.86s/it]Extracting query embeddings...:  87%|████████▋ | 40/46 [01:13<00:12,  2.15s/it]Extracting query embeddings...:  89%|████████▉ | 41/46 [01:15<00:10,  2.10s/it]Extracting query embeddings...:  91%|█████████▏| 42/46 [01:17<00:08,  2.01s/it]Extracting query embeddings...:  93%|█████████▎| 43/46 [01:20<00:06,  2.30s/it]Extracting query embeddings...:  96%|█████████▌| 44/46 [01:21<00:04,  2.17s/it]Extracting query embeddings...:  98%|█████████▊| 45/46 [01:24<00:02,  2.41s/it]Extracting query embeddings...: 100%|██████████| 46/46 [01:27<00:00,  2.34s/it]Extracting query embeddings...: 100%|██████████| 46/46 [01:27<00:00,  1.89s/it]
+Found 18 images to match.
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.52s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.59s/it]
+  [PATCH-CHECK] image 0: 770 real visual tokens (raw padded shape: 770, cap=1024)
+Processed img_p16_1.png -> Best: page_16_block_1 (0.9977)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.15s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.21s/it]
+  [PATCH-CHECK] image 0: 758 real visual tokens (raw padded shape: 758, cap=1024)
+Processed img_p1_1.png -> Best: page_2_block_2 (0.9234)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.87s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.92s/it]
+  [PATCH-CHECK] image 0: 755 real visual tokens (raw padded shape: 755, cap=1024)
+Processed img_p21_1.png -> Best: page_21_block_1 (0.9508)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.88s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.92s/it]
+  [PATCH-CHECK] image 0: 755 real visual tokens (raw padded shape: 755, cap=1024)
+Processed img_p4_2.png -> Best: page_4_block_3 (0.9542)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.75s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.80s/it]
+  [PATCH-CHECK] image 0: 754 real visual tokens (raw padded shape: 754, cap=1024)
+Processed img_p12_1.png -> Best: page_12_block_1 (0.9779)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.63s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.66s/it]
+  [PATCH-CHECK] image 0: 788 real visual tokens (raw padded shape: 788, cap=1024)
+Processed img_p22_1.png -> Best: page_22_block_1 (1.0)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.81s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.85s/it]
+  [PATCH-CHECK] image 0: 750 real visual tokens (raw padded shape: 750, cap=1024)
+Processed img_p15_1.png -> Best: page_14_block_2 (0.9554)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.81s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.85s/it]
+  [PATCH-CHECK] image 0: 752 real visual tokens (raw padded shape: 752, cap=1024)
+Processed img_p28_1.png -> Best: page_28_block_1 (0.9872)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.18s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.22s/it]
+  [PATCH-CHECK] image 0: 766 real visual tokens (raw padded shape: 766, cap=1024)
+Processed img_p10_1.png -> Best: page_10_block_3 (0.9128)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.71s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.75s/it]
+  [PATCH-CHECK] image 0: 782 real visual tokens (raw padded shape: 782, cap=1024)
+Processed img_p9_1.png -> Best: page_6_block_4 (0.94)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.62s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.66s/it]
+  [PATCH-CHECK] image 0: 784 real visual tokens (raw padded shape: 784, cap=1024)
+Processed img_p12_2.png -> Best: page_12_block_1 (0.96)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.91s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.95s/it]
+  [PATCH-CHECK] image 0: 755 real visual tokens (raw padded shape: 755, cap=1024)
+Processed img_p40_1.png -> Best: page_39_block_2 (0.9283)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.89s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:20<00:00, 20.93s/it]
+  [PATCH-CHECK] image 0: 755 real visual tokens (raw padded shape: 755, cap=1024)
+Processed img_p6_1.png -> Best: page_6_block_1 (1.0)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.56s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.60s/it]
+  [PATCH-CHECK] image 0: 773 real visual tokens (raw padded shape: 773, cap=1024)
+Processed img_p17_1.png -> Best: page_16_block_1 (0.98)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.27s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.31s/it]
+  [PATCH-CHECK] image 0: 768 real visual tokens (raw padded shape: 768, cap=1024)
+Processed img_p23_1.png -> Best: page_23_block_2 (1.0)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.27s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.31s/it]
+  [PATCH-CHECK] image 0: 770 real visual tokens (raw padded shape: 770, cap=1024)
+Processed img_p31_1.png -> Best: page_32_block_1 (0.9223)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.62s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.66s/it]
+  [PATCH-CHECK] image 0: 782 real visual tokens (raw padded shape: 782, cap=1024)
+Processed img_p4_1.png -> Best: page_4_block_5 (1.0)
+Extracting document embeddings...:   0%|          | 0/1 [00:00<?, ?it/s]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.52s/it]Extracting document embeddings...: 100%|██████████| 1/1 [00:21<00:00, 21.56s/it]
+  [PATCH-CHECK] image 0: 779 real visual tokens (raw padded shape: 779, cap=1024)
+Processed img_p21_2.png -> Best: page_21_block_1 (1.0)
+--- Saving Output Data ---
+CSV and Histogram saved to /home2020/home/icube/janil/Rhine_proj/outputs/Image_text_matching/nemotron_results/2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire

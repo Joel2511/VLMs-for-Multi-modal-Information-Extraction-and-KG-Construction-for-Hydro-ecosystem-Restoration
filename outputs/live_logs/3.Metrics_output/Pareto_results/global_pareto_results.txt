@@ -1,0 +1,30 @@
+  [READ] 2nd_ablation_mistral24b → 2nd_ablation_mistral_ablation_ocr_context.txt
+  [READ] 2nd_ablation_nvila_lite_8b → 2nd_ablation_nvila_lite_8b_ablation_ocr_context.txt
+  [READ] 2nd_ablation_qwen3vl_30b → 2nd_ablation_qwen3vl_30b_ocr_context.txt
+  [READ] 3rd_ablation_qwen3vl_30b → 3rd_ablation_qwen3vl_with_summary.txt
+  [READ] 4th_ablation_nvila-lite-8b → 4th_ablation_nvila_with_weighted_summary.txt
+  [READ] 5th_ablation_nvila_lite_8b_p3 → 5th_ablation_nvila_P3.txt
+  [READ] 6th_ablation_nvila_lite-8b_vcd_alpha05 → 6th_ablation_nvila_vcd_mild.txt
+  Found 7 model(s): ['2nd_ablation_mistral24b', '2nd_ablation_nvila_lite_8b', '2nd_ablation_qwen3vl_30b', '3rd_ablation_qwen3vl_30b', '4th_ablation_nvila-lite-8b', '5th_ablation_nvila_lite_8b_p3', '6th_ablation_nvila_lite-8b_vcd_alpha05']
+
+========================================================================================================================
+  PARETO RESULTS — Grand Final — Global Pareto Comparison | Scenario B: Oracle
+  Weights: Quality=60%  Speed=25%  Size=15%
+Scenario A (Production): Quality = 0.33*VQA + 0.34*Enrichment + 0.33*NLI  | Weights: Q=40% S=35% Z=25%
+Scenario B (Oracle):     Quality = 0.50*VQA + 0.35*Enrichment + 0.15*NLI  | Weights: Q=60% S=25% Z=15%
+========================================================================================================================
+  Rank  Model                      Params   s/img  NLI Nov  Comb VQA   Enrich   Q_raw  Q_norm  S_norm  Z_norm   PARETO
+------------------------------------------------------------------------------------------------------------------------
+  1     5th_ablation_nvila_lite_8b_p3    8.1B    13.8    0.771     0.828    0.219   0.606   0.725   1.000   1.000   0.8352
+  2     4th_ablation_nvila-lite-8b    8.1B    16.7    0.783     0.840    0.181   0.601   0.638   0.939   1.000   0.7677
+  3     2nd_ablation_mistral24b     12.7B    61.2    0.808     0.841    0.238   0.625   1.000   0.000   0.793   0.7189
+  4     6th_ablation_nvila_lite-8b_vcd_alpha05    8.1B    29.3    0.805     0.835    0.171   0.598   0.602   0.673   1.000   0.6794
+  5     3rd_ablation_qwen3vl_30b    30.3B    26.4    0.854     0.920    0.057   0.608   0.753   0.734   0.000   0.6351
+  6     2nd_ablation_qwen3vl_30b    30.3B    51.8    0.879     0.927    0.038   0.609   0.757   0.200   0.000   0.5041
+  7     2nd_ablation_nvila_lite_8b    8.1B    14.3    0.846     0.795    0.095   0.558   0.000   0.989   1.000   0.3973
+========================================================================================================================
+
+ Global winner: 5th_ablation_nvila_lite_8b_p3  |  Pareto Score: 0.8352
+     Quality: 0.606  |  s/img: 13.8  |  Params: 8.1B
+========================================================================================================================
+

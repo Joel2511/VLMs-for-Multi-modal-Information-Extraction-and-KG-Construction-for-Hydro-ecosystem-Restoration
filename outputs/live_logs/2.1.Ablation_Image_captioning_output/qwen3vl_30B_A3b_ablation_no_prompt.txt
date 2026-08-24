@@ -1,0 +1,150 @@
+--- Loading qwen3vl-30b with baseline_noprompt retrieval context ---
+    Generator : qwen3vl-30b
+    Retriever : baseline_noprompt
+    Max memory map : {0: '28.2GiB', 1: '28.2GiB', 2: '28.2GiB', 'cpu': '60GB'}
+Loading checkpoint shards:   0%|          | 0/13 [00:00<?, ?it/s]Loading checkpoint shards:   8%|▊         | 1/13 [00:04<00:58,  4.89s/it]Loading checkpoint shards:  15%|█▌        | 2/13 [00:10<00:57,  5.18s/it]Loading checkpoint shards:  23%|██▎       | 3/13 [00:15<00:53,  5.36s/it]Loading checkpoint shards:  31%|███       | 4/13 [00:21<00:48,  5.41s/it]Loading checkpoint shards:  38%|███▊      | 5/13 [00:26<00:43,  5.38s/it]Loading checkpoint shards:  46%|████▌     | 6/13 [00:32<00:37,  5.37s/it]Loading checkpoint shards:  54%|█████▍    | 7/13 [00:37<00:32,  5.40s/it]Loading checkpoint shards:  62%|██████▏   | 8/13 [00:42<00:26,  5.39s/it]Loading checkpoint shards:  69%|██████▉   | 9/13 [00:48<00:21,  5.38s/it]Loading checkpoint shards:  77%|███████▋  | 10/13 [00:53<00:16,  5.42s/it]Loading checkpoint shards:  85%|████████▍ | 11/13 [00:59<00:10,  5.39s/it]Loading checkpoint shards:  92%|█████████▏| 12/13 [01:04<00:05,  5.40s/it]Loading checkpoint shards: 100%|██████████| 13/13 [01:08<00:00,  4.88s/it]Loading checkpoint shards: 100%|██████████| 13/13 [01:08<00:00,  5.24s/it]
+    Model size   : 30.3B parameters
+    Loaded at    : 16:16:37
+
+========== PROCESSING [dossier_unio_crassus_zorn_v4_19_11_2024] ==========
+    Images to caption: 19
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+    [1/19] img_p14_1.png -> Cette image, intitulée « Figure 8 : Prospection à l'aquascope », montre une scène de terrain dans un... (25.2s)
+    [2/19] img_p16_1.png -> Cette image est une photographie sous-marine, probablement prise dans un environnement de plongée en... (33.0s)
+    [3/19] img_p1_1.png -> Bien sûr, voici une description détaillée de l'image fournie.
+
+L'image présente une scène naturelle ... (56.8s)
+    [4/19] img_p21_1.png -> Cette image est une photographie aérienne, probablement une image satellite ou prise par drone, qui ... (92.4s)
+    [5/19] img_p13_1.png -> Cette image est une figure intitulée « Figure 6 : Répartition de la Mulette épaisse en France et en ... (46.4s)
+    [6/19] img_p15_1.png -> Cette image est une carte aérienne ou satellite qui illustre la localisation d'un transect de prospe... (69.6s)
+    [7/19] img_p18_1.png -> Cette image est une figure de type carte aérienne ou satellite, intitulée « Figure 11 : Répartition ... (45.0s)
+    [8/19] img_p24_1.png -> L'image est une carte d'impact du projet sur l'espèce *Unio crassus*, intitulée « Figure 13 : Impact... (106.1s)
+    [9/19] img_p20_1.png -> Cette image est une carte technique illustrant l'évolution des habitats favorables à la Mulette épai... (46.7s)
+    [10/19] img_p26_1.png -> L'image est une photographie d'une rivière, identifiée comme la Zorn, prise au niveau du site 1. La ... (25.4s)
+    [11/19] img_p28_1.png -> L'image montre une main tenant un objet de forme ovale et de couleur sombre, qui semble être une noi... (17.6s)
+    [12/19] img_p25_1.png -> L'image est une carte aérienne ou satellite qui illustre la localisation de plusieurs sites d'étude.... (67.5s)
+    [13/19] img_p5_1.png -> L'image est une carte topographique en relief, présentant une vue de la région de Strasbourg en Alsa... (40.5s)
+    [14/19] img_p10_1.png -> L'image est une photographie aérienne en couleur d'un paysage rural, présentée comme une figure (Fig... (40.3s)
+    [15/19] img_p9_1.png -> L'image est une carte aérienne détaillée d'un projet de réaménagement d'un secteur amont, intitulée ... (68.8s)
+    [16/19] img_p13_2.png -> Cette image est une carte géographique intitulée « Figure 7 : Répartition connue autour de la zone d... (65.1s)
+    [17/19] img_p6_1.png -> L'image est une photographie d'un paysage naturel, présentée comme la « Figure 2 » dans un document.... (30.3s)
+    [18/19] img_p17_1.png -> Cette image est un diagramme en barres, intitulé « Figure 10 : Répartition des effectifs par classe ... (74.7s)
+    [19/19] img_p8_1.png -> Cette image est une carte aérienne ou une photographie satellite annotée, intitulée « Figure 3 : Pro... (108.6s)
+========== COMPLETED [dossier_unio_crassus_zorn_v4_19_11_2024] in 00h 17m 43s ==========
+
+========== PROCESSING [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] ==========
+    Images to caption: 5
+    [1/5] img_p1_1.png -> Cette image est une figure intitulée « Figure 1 », qui présente une série de cartes historiques et d... (106.9s)
+    [2/5] img_p5_2.png -> L'image est une composition de deux panneaux juxtaposés, présentant une comparaison entre deux vues ... (55.7s)
+    [3/5] img_p5_1.png -> Il s'agit d'une carte postale en noir et blanc, datant d'environ 1935, qui montre l'installation d'é... (34.6s)
+    [4/5] img_p3_1.png -> L'image est une carte géographique intitulée « Figure 2. Le Rhin Supérieur entre Bâle et Breisach es... (44.2s)
+    [5/5] img_p4_1.png -> L'image est une composition de deux illustrations techniques liées à une infrastructure hydraulique,... (121.0s)
+========== COMPLETED [reconstituer-rhin-disparu-eca2fa4191154675939c8b4e07593bb7] in 00h 06m 03s ==========
+
+========== PROCESSING [Rapport-stage-M2-Floriane] ==========
+    Images to caption: 38
+    [1/38] img_p34_2.png -> L'image est une photographie sous-marine qui montre un substrat recouvert d'algues. Le fond est comp... (24.8s)
+    [2/38] img_p13_2.png -> L'image est une photographie aérienne d'un paysage naturel et urbain. Au premier plan et au centre, ... (33.5s)
+    [3/38] img_p50_1.png -> Bien sûr, voici une description détaillée de l'image fournie.
+
+L'image présente une scène naturelle ... (56.1s)
+    [4/38] img_p46_1.png -> Cette image est un graphique à double axe qui compare les températures et le débit du Rhin à Bâle su... (58.1s)
+    [5/38] img_p11_1.png -> L'image montre une passe à poisson, un dispositif conçu pour faciliter le passage des poissons dans ... (22.3s)
+    [6/38] img_p23_1.png -> L'image montre une scène naturelle le long d'un cours d'eau, probablement une rivière. Le point de v... (20.4s)
+    [7/38] img_p43_1.png -> Cette image est une carte détaillée de l'aménagement du Rhin, qui montre le cours du fleuve traversa... (85.6s)
+    [8/38] img_p25_1.png -> Cette image est un graphique à barres intitulé « Figure 16 : Abondances relatives des poissons retro... (76.6s)
+    [9/38] img_p15_1.png -> L'image montre une sonde thermique, un appareil utilisé pour mesurer la température du sol. Elle est... (16.7s)
+    [10/38] img_p51_1.png -> Cette image est un graphique à lignes qui illustre l'évolution de la température minimale et maximal... (55.6s)
+    [11/38] img_p50_2.png -> L'image montre une vue panoramique d'une rivière calme et large, bordée de forêts d'arbres aux feuil... (20.8s)
+    [12/38] img_p50_5.png -> L'image montre un banc de gravier situé au milieu d'une rivière. Ce banc est formé de pierres et de ... (10.2s)
+    [13/38] img_p8_1.png -> L'image est une comparaison de deux cartes du Rhin, présentées côte à côte. La carte de gauche, data... (17.9s)
+    [14/38] img_p19_1.png -> Cette image est un graphique à deux axes, intitulé « Figure 8 : Comparaison des températures instant... (50.9s)
+    [15/38] img_p24_1.png -> Cette image est un graphique à barres verticales intitulé « Figure 15 : Abondances relatives des poi... (95.1s)
+    [16/38] img_p21_1.png -> Cette image est un graphique à double axe, intitulé « Figure 10 : Amplitudes et moyennes journalière... (79.3s)
+    [17/38] img_p52_2.png -> L'image est un diagramme vertical intitulé « Faciès » en haut à gauche. Il s'agit d'une représentati... (23.5s)
+    [18/38] img_p53_1.png -> L'image est une carte satellite de la région de Kembs, en Allemagne. Elle montre une zone rurale ave... (20.9s)
+    [19/38] img_p44_1.png -> L'image est une carte satellite annotée qui montre une section du fleuve Rhin, spécifiquement le "Vi... (65.1s)
+    [20/38] img_p47_1.png -> Cette image est un graphique à barres qui illustre les amplitudes thermiques journalières à Fessenhe... (42.9s)
+    [21/38] img_p43_2.png -> L'image est une légende de carte ou d'infographie, présentée sur un fond blanc. Elle contient trois ... (24.5s)
+    [22/38] img_p20_1.png -> Cette image est un graphique à double axe, intitulé « Figure 9 : Amplitudes et moyennes journalières... (52.0s)
+    [23/38] img_p51_2.png -> Cette image est un graphique à double axe qui illustre l'évolution de la température minimale et max... (66.5s)
+    [24/38] img_p13_1.png -> L'image montre une scène de rivière avec une érosion marquée sur la rive. La rive est composée de sa... (17.6s)
+    [25/38] img_p49_1.png -> Cette image est une carte thématique de type carte d'occupation du sol, superposée à une image satel... (109.2s)
+    [26/38] img_p45_1.png -> Cette image est un graphique à lignes qui compare plusieurs séries de données sur une période allant... (62.1s)
+    [27/38] img_p50_3.png -> Bien sûr, voici une description détaillée de l'image fournie.
+
+L'image présente une scène naturelle ... (66.7s)
+    [28/38] img_p23_3.png -> L'image est une photographie de paysage naturel, classée comme une scène naturelle avec des objets. ... (25.3s)
+    [29/38] img_p23_2.png -> Cette image est un diagramme circulaire, ou camembert, intitulé « Figure 12 : Proportions des différ... (38.2s)
+    [30/38] img_p19_2.png -> Cette image est un graphique scientifique intitulé « Figure 7 », qui compare les données météorologi... (72.1s)
+    [31/38] img_p48_1.png -> Cette image est un graphique à double axe qui illustre l'évolution de la température et des écarts d... (112.3s)
+    [32/38] img_p47_2.png -> Cette image est un graphique à double axe qui illustre l'évolution de plusieurs paramètres hydrologi... (52.3s)
+    [33/38] img_p34_1.png -> L'image montre une couche d'armature, qui est une structure de renforcement utilisée dans les travau... (11.2s)
+    [34/38] img_p45_2.png -> Cette image est un graphique à double axe qui illustre l'évolution de la température et des écarts t... (63.7s)
+    [35/38] img_p22_1.png -> Cette image est un graphique à lignes intitulé « Figure 11 : Profil thermique du VR du 19/08/17 au 0... (63.4s)
+    [36/38] img_p52_1.png -> L'image est une composition de deux photographies aériennes superposées, présentant une vue en plong... (64.9s)
+    [37/38] img_p50_4.png -> L'image montre une scène naturelle animée par un cours d'eau rapide. L'eau, d'un bleu profond, est a... (21.5s)
+    [38/38] img_p9_1.png -> Cette image est une illustration du cycle de vie du saumon atlantique, présentée sous forme de diagr... (45.4s)
+========== COMPLETED [Rapport-stage-M2-Floriane] in 00h 30m 52s ==========
+
+========== PROCESSING [fichier] ==========
+    Images to caption: 25
+    [1/25] img_p13_2.png -> L'image est une figure numérotée 1-9, intitulée « Aspect du cours d'eau au droit des premières habit... (46.0s)
+    [2/25] img_p20_2.png -> L'image est une figure numérotée 1-19, intitulée « Composition et état de la végétation des berges s... (40.6s)
+    [3/25] img_p14_1.png -> L'image est une figure numérotée 1-11, intitulée « Important développement végétal sur le tronçon 5 ... (40.4s)
+    [4/25] img_p11_1.png -> L'image est une composition de deux photographies présentées côte à côte, illustrant l'aspect d'un c... (44.1s)
+    [5/25] img_p23_1.png -> L'image est une figure technique intitulée « Figure 1-23 : Exemple de profil en travers retravaillé ... (74.5s)
+    [6/25] img_p14_2.png -> L'image est une figure intitulée « Figure 1-10 : Aspect du cours d'eau sur le tronçon 5 ». Elle est ... (36.9s)
+    [7/25] img_p15_1.png -> L'image est une composition de deux photographies présentées côte à côte, illustrant l'aspect des be... (55.6s)
+    [8/25] img_p8_1.png -> L'image est une composition de deux photographies présentées côte à côte, sous le titre « Figure 1-2... (45.8s)
+    [9/25] img_p19_1.png -> L'image est une composition de deux photographies présentées côte à côte, illustrant des paysages na... (56.0s)
+    [10/25] img_p10_1.png -> L'image est une composition de deux photographies présentées côte à côte, sous le titre « Figure 1-5... (51.4s)
+    [11/25] img_p17_1.png -> L'image est une composition de deux photographies présentées côte à côte, illustrant des ouvrages hy... (41.9s)
+    [12/25] img_p21_1.png -> L'image est une figure numérotée 1-21, intitulée « Perte du cours d'eau sur le tronçon 8 ». Elle est... (35.9s)
+    [13/25] img_p12_1.png -> L'image est une composition de deux photographies présentées côte à côte, sous le titre « Figure 1-7... (43.9s)
+    [14/25] img_p7_1.png -> Cette image est une carte topographique intitulée « Figure 1-1 : Carte générale des tronçons définis... (69.2s)
+    [15/25] img_p17_2.png -> L'image est une figure numérotée 1-14, intitulée « Étangs et digues présents sur le tronçon 7 ». Ell... (34.5s)
+    [16/25] img_p20_1.png -> L'image est une figure numérotée 1-20, intitulée « Présence d'algues et infiltration du ruisseau dan... (31.0s)
+    [17/25] img_p1_1.png -> Cette image est la couverture d'un document technique. Voici une description détaillée :
+
+- **Titre ... (35.8s)
+    [18/25] img_p10_2.png -> L'image est une composition de deux photographies présentées côte à côte, illustrant l'aspect d'un c... (54.9s)
+    [19/25] img_p16_1.png -> L'image est une figure numérotée 1-13, intitulée « Présence d'embâcles et de matériaux colmatant sur... (45.4s)
+    [20/25] img_p13_1.png -> L'image est une composition de deux photographies présentées côte à côte, sous le titre « Figure 1-8... (46.3s)
+    [21/25] img_p18_1.png -> L'image est une composition de deux photographies présentées côte à côte, illustrant l'aspect d'un c... (32.2s)
+    [22/25] img_p19_2.png -> L'image est une composition de deux photographies présentées côte à côte, illustrant des ouvrages d'... (35.8s)
+    [23/25] img_p22_1.png -> L'image est une composition de deux photographies prises en extérieur, présentées côte à côte, qui i... (44.6s)
+    [24/25] img_p1_2.png -> L'image présente le logo de la Communauté de communes de Maizières-lès-Metz. Le logo est composé d'u... (21.4s)
+    [25/25] img_p9_1.png -> L'image est une figure intitulée « Figure 1-3 : Aspect du cours d'eau à l'aval du tronçon 1 ». Elle ... (42.4s)
+========== COMPLETED [fichier] in 00h 18m 31s ==========
+
+========== PROCESSING [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] ==========
+    Images to caption: 18
+    [1/18] img_p16_1.png -> Cette image est une figure intitulée « Figure 9 : Évolution de l'état d'une zone de source du 19ème ... (47.5s)
+    [2/18] img_p1_1.png -> Cette image présente une scène naturelle en pleine forêt, caractérisée par une végétation luxuriante... (38.3s)
+    [3/18] img_p21_1.png -> L'image est une composition à deux parties, illustrant la forme d'une vallée de rang zéro.
+
+- **À ga... (36.0s)
+    [4/18] img_p4_2.png -> L'image est une figure intitulée « Figure 1 : Classification du réseau hydrographique selon l'ordre ... (54.8s)
+    [5/18] img_p12_1.png -> Cette image est une carte géographique intitulée « Figure 7 : Densité de rangs zéro maille de 10 km²... (53.5s)
+    [6/18] img_p22_1.png -> L'image est une figure schématique intitulée « Figure 13 : Représentation de la rupture de pente cla... (49.7s)
+    [7/18] img_p15_1.png -> Cette image est une illustration scientifique, identifiée comme la Figure 8, qui présente une compar... (81.6s)
+    [8/18] img_p28_1.png -> Cette image est une figure scientifique intitulée « Figure 15 », qui présente des exemples de profil... (43.0s)
+    [9/18] img_p10_1.png -> L'image est une figure schématique intitulée « Figure 5 : Exemples de pratiques de gestion forestièr... (37.5s)
+    [10/18] img_p9_1.png -> L'image est une composition de quatre photographies, numérotées de a à d, présentant des paysages na... (52.1s)
+    [11/18] img_p12_2.png -> Cette image est une carte thématique de la région Bretagne-Pays de la Loire, publiée par l'Office fr... (48.1s)
+    [12/18] img_p40_1.png -> Cette image est un schéma technique qui illustre les éléments et les données géométriques nécessaire... (71.9s)
+    [13/18] img_p6_1.png -> Cette image est une figure schématique intitulée « Figure 3 : Evolution du point d'émergence de la s... (62.3s)
+    [14/18] img_p17_1.png -> Cette image est une figure intitulée « Figure 10 : Exemples de toponymes évocateurs d'une source dif... (74.7s)
+    [15/18] img_p23_1.png -> L'image est une illustration scientifique intitulée « Figure 14 », qui montre la variabilité des pro... (62.2s)
+    [16/18] img_p31_1.png -> L'image est une figure intitulée « Figure 16 », qui présente deux exemples de mares dites « dures »,... (39.1s)
+    [17/18] img_p4_1.png -> Cette image est une figure schématique intitulée « Figure 2 : Schéma type d'un bassin versant de ran... (72.0s)
+    [18/18] img_p21_2.png -> L'image est une figure schématique intitulée « Figure 12 : Représentation schématique de la coupe tr... (42.3s)
+========== COMPLETED [2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire] in 00h 16m 09s ==========
+
+============================================================
+  PIPELINE COMPLETE
+  Generator model  : qwen3vl-30b
+  Retrieval model  : baseline_noprompt
+  Total runtime    : 01h 30m 33s
+============================================================

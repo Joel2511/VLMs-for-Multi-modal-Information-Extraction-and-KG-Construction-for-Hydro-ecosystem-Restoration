@@ -1,0 +1,7 @@
+{
+    "pdf_name": "2025 12 OFB - FICHE TECHNIQUE Définition, identification, préservation et restauration des zones de sources des cours d’eau en Bretagne et Pays de la Loire",
+    "model": "qwen2vl-7b-sum",
+    "summary": "Le document explore les zones de sources des cours d'eau en Bretagne et Pays de la Loire, appelées \"rang 0\", et leur rôle dans la régulation de la température des cours d'eau, la gestion des sédiments et la préservation de la biodiversité. Les études montrent que les sources les plus courantes sont des sources diffuses, et les écoulements superficiels se forment lorsque les écoulements souterrains sont suffisamment concentrés. Les zones de sources sont vulnérables aux pressions anthropiques et à l'urbanisation, ce qui menace leur biodiversité. La méthode de pré-diagnostic des zones de sources avant une restauration est décrite, ainsi que les étapes techniques pour la restauration d'un bassin versant de rang 0 impacté par les activités humaines. Les mesures pour limiter les pollutions dans les milieux aquatiques, en particulier en utilisant des zones tampons, sont également présentées.",
+    "word_count": 137,
+    "input_word_count": 15958
+}
