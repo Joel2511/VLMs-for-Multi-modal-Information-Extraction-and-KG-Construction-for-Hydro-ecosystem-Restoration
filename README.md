@@ -11,7 +11,7 @@ This repository supports a master thesis conducted at ICube Laboratory as part o
 
 The objective is to extract, structure, and organize restoration knowledge from heterogeneous documentary sources on Rhine River interventions — technical reports, maps, photographs, diagrams, and project plans, often unstructured, multilingual, and scattered across institutions. The project extends prior work on textual knowledge extraction into the visual domain, building a unified multimodal framework that integrates images and text through Vision-Language Models (VLMs).
 
-The end goal is to populate a structured knowledge model (ontology) describing restoration cases — intervention types, environmental context, methods, outcomes, constraints, and costs — and to construct knowledge graphs enabling querying, comparison, and visualization by researchers and practitioners.
+The end goal is to populate a structured knowledge model (ontology) describing restoration cases such as intervention types, environmental context, methods, outcomes, constraints, and costs. And it also involves constructing knowledge graphs enabling querying, comparison, and visualization by researchers and practitioners.
 
 ---
 
