@@ -59,26 +59,21 @@ Cross-modal entity resolution then merges the text-derived and image-derived gra
 | `scripts/code/` | Pipeline source code, organized by stage |
 | `scripts/batch_jobs/` | HPC batch submission scripts per stage |
 | `environments/` | Exported conda environment specs (`.yml`) for each pipeline stage |
-| `model_patches/` | Source patches required for models with compatibility issues (e.g. NVILA) |
-| `hf_models/` | Local model weights, downloaded per `MODEL_SETUP.md` |
-| `data/`, `embeddings/` | Input corpora and generated embeddings |
+| `model_patches/` | Exceptions requiring extra setup: NVILA compatibility patch, ColPali merge, and the fine-tuned Qwen2.5 checkpoint build (see `MODEL_SETUP.md`) |
+| `data/` | Input document corpus |
 | `outputs/` | Pipeline results (retrieval matrices, similarity plots, captions, knowledge graph files) |
-| `logs/` | Run logs per pipeline stage |
-| `MODEL_SETUP.md` | Model download and setup instructions (see below) |
+| `MODEL_SETUP.md` | Model download and setup instructions |
 
 ---
 
 ## Setup
 
-Each pipeline stage runs in its own conda environment, exported under `environments/`. Recreate an environment with:
-conda env create -f environments/<stage>_env.yml
+Each pipeline stage runs in its own conda environment, exported under `environments/`. Recreate an environment with: `conda env create -f environments/<stage>_env.yml`
 
 
-Model weights are not tracked in this repository. Follow `MODEL_SETUP.md` to download all required models via the Hugging Face CLI and apply the one required source patch:
 
-- Fourteen open-weight VLM, embedding, and reranking models used across Pipelines 2 through 4.
-- **ColPali**: requires downloading two separate checkpoints (`colpali-v1.2`, a LoRA adapter, and `colpaligemma-3b-pt-448-base`, its backbone) and merging them locally with PEFT. Both directories must be retained after merging, since the processor configuration is loaded from the base checkpoint at inference time.
-- **NVILA**: requires applying a patched `processing_nvila_lite.py` (in `model_patches/`) to handle an `ImportError` raised by an unavailable `transformers.video_utils` module in the environment's pinned `transformers` version. The patch disables only video input handling, which this project never uses.
+
+Model weights are not tracked in this repository. All download commands, and the three exceptions requiring extra setup, NVILA, ColPali, and the fine-tuned Qwen2.5, are documented in `MODEL_SETUP.md`.
 
 ---
 
@@ -88,23 +83,13 @@ This research is part of TETRA, which develops an AI-based toolbox and methodolo
 
 ---
 
-## Repository Status
-
-| Stage | Status |
-|---|---|
-| Pipeline 1: Document Layout Parsing and Extraction | Complete |
-| Pipeline 2: Image-Text Matching | Complete |
-| Pipeline 3: Grounded Visual Captioning | In progress |
-| Pipeline 4: Cross-Modal Semantic Integration (Knowledge Graph) | In progress |
-| Model setup and environment documentation | Complete |
-
----
-
 ## Supervisors
 
 Dr. Franco Giustozzi, INSA Strasbourg
 Dr. Florence Le Ber, ENGEES Universite de Strasbourg
 
 ---
+
+*Full methodology, experimental results, and analysis are documented in the thesis report.*
 
 *Full methodology, experimental results, and analysis are documented in the thesis report.*
