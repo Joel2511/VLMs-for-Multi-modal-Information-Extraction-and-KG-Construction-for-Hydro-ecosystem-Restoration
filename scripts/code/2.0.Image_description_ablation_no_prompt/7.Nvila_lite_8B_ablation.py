@@ -27,7 +27,7 @@ BASE_OUTPUT_FOLDER = os.path.join(PROJECT_ROOT, "outputs", "1st_ablation_image_c
 JUNK_FOLDER = os.path.join(PROJECT_ROOT, "data", "junk_images")
 
 
-HF_TOKEN = "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"
+HF_TOKEN = os.environ.get("HF_TOKEN")
 if HF_TOKEN is None:
     raise EnvironmentError("HF_TOKEN environment variable not set. Run 'export HF_TOKEN=...' before executing this script.")
 

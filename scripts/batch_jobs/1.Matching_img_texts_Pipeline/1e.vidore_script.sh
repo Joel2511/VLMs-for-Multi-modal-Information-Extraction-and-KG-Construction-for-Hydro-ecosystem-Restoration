@@ -13,7 +13,6 @@ export RHINE_PROJECT_ROOT="${RHINE_PROJECT_ROOT:-/home2020/home/icube/janil/Rhin
 
 
 
-# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'llamaindex/vdr-2b-multi-v1', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/vdr-2b-multi-v1', '--token', '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'], env=env)"
 
 {
     echo "--- CHECKING GPU ALLOCATION ---"

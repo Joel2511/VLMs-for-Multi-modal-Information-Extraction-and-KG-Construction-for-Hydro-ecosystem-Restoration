@@ -20,7 +20,6 @@ unset CUDA_VISIBLE_DEVICES
 export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
 export HF_HUB_ENABLE_HF_TRANSFER=1
 
-# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'Qwen/Qwen3.6-27B', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/Qwen3.6-27B', '--token', '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'], env=env)"
 
 # Run Inference
 export TRANSFORMERS_OFFLINE=1

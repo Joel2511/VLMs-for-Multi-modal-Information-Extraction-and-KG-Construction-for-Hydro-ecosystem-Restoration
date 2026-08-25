@@ -24,7 +24,7 @@ BASE_RETRIEVAL_FOLDER = os.path.join(PROJECT_ROOT, "outputs","Image_text_matchin
 BASE_OUTPUT_FOLDER = os.path.join(PROJECT_ROOT, "outputs", "3rd_ablation_Image_captioning_w_summary", f"{GENERATOR_MODEL_NAME}_captions_{RETRIEVAL_MODEL_NAME}")
 JUNK_FOLDER         = os.path.join(PROJECT_ROOT, "data", "junk_images")
 
-HF_TOKEN = "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"
+HF_TOKEN = os.environ.get("HF_TOKEN")
 MODEL_ID = os.path.join(PROJECT_ROOT, "hf_models/Qwen3.6-27B")
 
 class ContextMissingError(Exception):

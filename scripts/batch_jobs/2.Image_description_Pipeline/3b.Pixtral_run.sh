@@ -20,7 +20,6 @@ export CUDA_LAUNCH_BLOCKING=1
 export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True,max_split_size_mb:128"
 export CUDA_VISIBLE_DEVICES=0,1
 
-#python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'mistral-community/pixtral-12b', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/pixtral-12b-hf', '--token', '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'], env=env)"
 
 # 3. Run Inference
 export TRANSFORMERS_OFFLINE=1

@@ -20,7 +20,6 @@ conda activate qwen3vl_env
 export PYTORCH_CUDA_ALLOC_CONF="expandable_segments:True"
 export HF_HUB_ENABLE_HF_TRANSFER=1
 
-# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'Qwen/Qwen3-VL-30B-A3B-Instruct', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/Qwen3-VL-30B-A3B-Instruct', '--token', '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'], env=env)"
 
 # Run Inference
 export TRANSFORMERS_OFFLINE=1

@@ -24,7 +24,6 @@ export TRANSFORMERS_OFFLINE=0
 export HF_DATASETS_OFFLINE=0
 
 # Optional first-time download
-# python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'unsloth/Llama-3.2-11B-Vision-Instruct-bnb-4bit', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/Llama-3.2-11B-Vision-Instruct', '--token', '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'], env=env)"
 
 export TRANSFORMERS_OFFLINE=1
 export HF_DATASETS_OFFLINE=1

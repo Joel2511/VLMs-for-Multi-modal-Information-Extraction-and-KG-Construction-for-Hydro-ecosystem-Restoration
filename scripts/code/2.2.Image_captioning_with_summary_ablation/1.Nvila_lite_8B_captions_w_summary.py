@@ -27,7 +27,7 @@ BASE_OUTPUT_FOLDER = os.path.join(PROJECT_ROOT, "outputs", "3rd_ablation_Image_c
 JUNK_FOLDER = os.path.join(PROJECT_ROOT, "data", "junk_images")
 
 
-HF_TOKEN = "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"
+HF_TOKEN = os.environ.get("HF_TOKEN")
 MODEL_ID = os.path.join(PROJECT_ROOT, "hf_models/NVILA-Lite-8B-hf")
 
 

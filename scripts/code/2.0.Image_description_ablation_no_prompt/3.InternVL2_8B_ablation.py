@@ -32,7 +32,7 @@ RETRIEVAL_RESULTS_DIR     = os.path.join(PROJECT_ROOT, "outputs", "Image_text_ma
 RETRIEVAL_MATRIX_FILENAME = f"{RETRIEVAL_MODEL_NAME}_raw_matrix.csv"
 CAPTION_OUTPUT_DIR        = os.path.join(PROJECT_ROOT, "outputs", "1st_ablation_image_captions_no_prompt", GENERATOR_MODEL_NAME)
 
-HF_TOKEN = "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"
+HF_TOKEN = os.environ.get("HF_TOKEN")
 if HF_TOKEN is None:
     raise EnvironmentError("HF_TOKEN environment variable not set. Run 'export HF_TOKEN=...' before executing this script.")
 

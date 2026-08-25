@@ -27,7 +27,7 @@ JUNK_FOLDER         = os.path.join(PROJECT_ROOT, "data", "junk_images")
 HF_TOKEN = os.environ.get("HF_TOKEN")
 if HF_TOKEN is None:
     raise EnvironmentError("HF_TOKEN environment variable not set. Run 'export HF_TOKEN=...' before executing this script.")
-MODEL_ID = fos.path.join(PROJECT_ROOT, "hf_models/{GENERATOR_MODEL_NAME}")
+MODEL_ID = os.path.join(PROJECT_ROOT, f"hf_models/{GENERATOR_MODEL_NAME}")
 
 
 # --- CUSTOM EXCEPTIONS ---

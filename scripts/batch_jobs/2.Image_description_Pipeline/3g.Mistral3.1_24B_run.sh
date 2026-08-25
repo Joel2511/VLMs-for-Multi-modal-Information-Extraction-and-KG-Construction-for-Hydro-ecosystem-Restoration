@@ -22,7 +22,6 @@ export CUDA_VISIBLE_DEVICES=0,1
 # Download Mistral-Small-3.1-24B (Just-In-Time)
 export TRANSFORMERS_OFFLINE=1
 export HF_DATASETS_OFFLINE=1
-#python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'mistralai/Mistral-Small-3.1-24B-Instruct-2503', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/Mistral-Small-3.1-24B-Instruct-2503', '--exclude', 'consolidated.safetensors', '--token', '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'], env=env)"
 # Run Inference
 export TRANSFORMERS_OFFLINE=1
 export HF_DATASETS_OFFLINE=1
