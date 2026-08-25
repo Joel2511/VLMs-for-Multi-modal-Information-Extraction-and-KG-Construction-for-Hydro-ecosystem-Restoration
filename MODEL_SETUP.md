@@ -87,14 +87,58 @@ hf download MoritzLaurer/mDeBERTa-v3-base-mnli-xnli --local-dir hf_models/mDeBER
 | Model | Purpose | Hugging Face Repo | Local Directory |
 |---|---|---|---|
 | Qwen2.5 14B (baseline) | RDF triple extraction, zero-shot | `Qwen/Qwen2.5-14B-Instruct` | `hf_models/Qwen2.5-14B-Instruct` |
-| **Qwen2.5 14B (fine-tuned)** | **LoRA fine-tuned for predicate conformance** | `[PLACEHOLDER — checkpoint path/repo to be added once fine-tuning packaging is decided]` | `[PLACEHOLDER]` |
+| **Qwen2.5 14B (fine-tuned)** | **LoRA fine-tuned for predicate conformance, produced locally, see below** | n/a, built from the baseline checkpoint above | `scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/5.merge/Qwen2.5-14B-populate-ontology-merged` |
 
 ```bash
 hf download Qwen/Qwen2.5-14B-Instruct --local-dir hf_models/Qwen2.5-14B-Instruct --token $HF_TOKEN
 ```
 
-Fine-tuned checkpoint download/setup command to be added here once we decide how to present and package it.
+The fine-tuned checkpoint is not downloaded, it is built locally by running the five-step pipeline below. This was a small-scale ablation (150 synthetic triples) to demonstrate that fine-tuning improves ontology-predicate conformance over the zero-shot baseline, so the checkpoint is reproduced from scratch rather than distributed as a separate artifact. All five steps run in the `qwen3vl_env` conda environment and depend on the baseline `Qwen2.5-14B-Instruct` checkpoint above already being downloaded.
 
+**Step 1: generate the synthetic training dataset (~45 minutes)**
+
+```bash
+cd scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/1.dataset_generation/
+bash run_data_generation.sh
+```
+
+Produces `synthetic_dataset.jsonl`.
+
+**Step 2: validate and clean the generated triples (CPU-only, fast)**
+
+```bash
+cd ../2.validation/
+python3 validate_triples.py
+```
+
+Produces `synthetic_dataset_clean.jsonl` and `validation_report.txt`.
+
+**Step 3: build the fine-tuning dataset (CPU-only, fast)**
+
+```bash
+cd ../3.dataset_prep/
+python3 build_hf_dataset.py
+```
+
+Produces the `hf_dataset/` directory in chat-template format.
+
+**Step 4: run LoRA fine-tuning (~30 minutes)**
+
+```bash
+cd ../4.training/
+bash run_fine_tune.sh
+```
+
+Produces the LoRA adapter in `Qwen2.5-14B-populate-ontology`.
+
+**Step 5: merge the adapter into the base model (1 to 2 minutes)**
+
+```bash
+cd ../5.merge/
+bash run_merge.sh
+```
+
+Produces the final deployable checkpoint in `Qwen2.5-14B-populate-ontology-merged`, which is the path referenced directly in the extraction code.
 ---
 
 ## Exceptions
