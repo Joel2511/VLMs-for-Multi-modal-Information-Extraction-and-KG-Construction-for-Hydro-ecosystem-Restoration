@@ -240,7 +240,7 @@ def format_report(all_results: list, aggregate: dict) -> str:
         lines.append(f"  Triple Counts:")
         lines.append(f"    Text-only triples    : {t['text_only']}")
         lines.append(f"    Image-only triples   : {t['image_only']}")
-        lines.append(f"    Merged total triples : {t['merged_total']}")
+        lines.append(f"    Total merged RDF triples : {t['merged_total']}")
         lines.append(f"")
         lines.append(f"  Entity Counts:")
         lines.append(f"    Text individuals     : {e['text_individuals']}")
