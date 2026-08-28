@@ -1,57 +1,258 @@
 # Model Setup
 
-Download instructions for every model used in this project, organized by pipeline. Run once per session:
+This document describes the model download and local setup procedures used in the project.
+
+The recommended end-to-end demonstration requires only the selected models:
+
+- **Pipeline 1:** DocLayout-YOLO
+- **Pipeline 2:** VDR 2B Multi
+- **Pipeline 3:** NVILA-Lite-8B
+- **Pipeline 3 support:** Qwen2-VL-7B-Instruct and mDeBERTa-v3-base-mnli-xnli
+- **Pipeline 4:** Qwen2.5-14B-Instruct baseline and the separately hosted fine-tuned merged checkpoint
+
+The remaining models are retained for re-executing the retrieval and captioning ablations reported in the thesis. They are not required for the recommended demonstration workflow.
+
+Model weights are not tracked in this repository. Do not commit Hugging Face tokens, downloaded model files, Hugging Face caches, or locally generated checkpoints.
+
+---
+
+## Prerequisites
+
+Run the following commands from the repository root after cloning the repository:
 
 ```bash
+export RHINE_PROJECT_ROOT="$(pwd)"
 export HF_TOKEN="your_token_here"
 ```
 
+`HF_TOKEN` is required for authenticated or gated Hugging Face downloads. Set it in each new terminal session when needed. Do not add the token to source code, batch scripts, configuration files committed to Git, or shell history.
+
+All model checkpoints are downloaded into the local `hf_models/` directory, which should remain excluded from Git version control.
+
 ---
 
-## Pipeline 1: Document Layout Parsing
+## Recommended Demonstration Models
 
-| Model | Purpose | Source |
-|---|---|---|
-| DocLayout-YOLO | Figure, caption, and text region detection | Auto-downloads on first `pdf_extraction.py` run |
+The following models implement the selected end-to-end configuration described in the thesis.
+
+| Thesis stage | Model | Purpose | Hugging Face repository | Local directory |
+|---|---|---|---|---|
+| Pipeline 1 | DocLayout-YOLO | Figure, caption, text-region, and structural-margin detection | `juliozhao/DocLayout-YOLO-DocStructBench` | Automatically downloaded or stored by the extraction implementation |
+| Pipeline 2 | **VDR 2B Multi** | **Selected image-text retrieval configuration** | `llamaindex/vdr-2b-multi-v1` | `hf_models/vdr-2b-multi-v1` |
+| Pipeline 3 | **NVILA-Lite-8B** | **Selected VLM for the A5-P3 Counterfactual Contrast captioning configuration** | `Efficient-Large-Model/NVILA-Lite-8B-hf` | `hf_models/NVILA-Lite-8B-hf` |
+| Pipeline 3 support | Qwen2-VL-7B-Instruct | MapReduce document summarization, weighted context fusion, and caption metric scoring | `Qwen/Qwen2-VL-7B-Instruct` | `hf_models/Qwen2-VL-7B-Instruct` |
+| Pipeline 3 support | mDeBERTa-v3-base-mnli-xnli | NLI-based caption novelty and grounding evaluation | `MoritzLaurer/mDeBERTa-v3-base-mnli-xnli` | `hf_models/mDeBERTa-v3-mnli-xnli` |
+| Pipeline 4 | Qwen2.5-14B-Instruct | Zero-shot baseline for ontology-conditioned triple extraction | `Qwen/Qwen2.5-14B-Instruct` | `hf_models/Qwen2.5-14B-Instruct` |
+| Pipeline 4 | Qwen2.5-14B fine-tuned merged checkpoint | Fine-tuned Pipeline 4 configuration for ontology-predicate conformance | Separately hosted; see below | `hf_models/Qwen2.5-14B-populate-ontology-merged` |
+
+### Download the recommended Hugging Face models
+
+```bash
+hf download llamaindex/vdr-2b-multi-v1 \
+  --local-dir hf_models/vdr-2b-multi-v1 \
+  --token $HF_TOKEN
+
+hf download Efficient-Large-Model/NVILA-Lite-8B-hf \
+  --local-dir hf_models/NVILA-Lite-8B-hf \
+  --token $HF_TOKEN
+
+hf download Qwen/Qwen2-VL-7B-Instruct \
+  --local-dir hf_models/Qwen2-VL-7B-Instruct \
+  --token $HF_TOKEN
+
+hf download MoritzLaurer/mDeBERTa-v3-base-mnli-xnli \
+  --local-dir hf_models/mDeBERTa-v3-mnli-xnli \
+  --token $HF_TOKEN
+
+hf download Qwen/Qwen2.5-14B-Instruct \
+  --local-dir hf_models/Qwen2.5-14B-Instruct \
+  --token $HF_TOKEN
+```
+
+### Pipeline 1: DocLayout-YOLO
+
+The Pipeline 1 extraction implementation downloads or loads the following checkpoint when `pdf_extraction.py` is run:
 
 | Field | Value |
 |---|---|
-| Repo ID | `juliozhao/DocLayout-YOLO-DocStructBench` |
-| Filename | `doclayout_yolo_docstructbench_imgsz1024.pt` |
+| Hugging Face repository | `juliozhao/DocLayout-YOLO-DocStructBench` |
+| Checkpoint filename | `doclayout_yolo_docstructbench_imgsz1024.pt` |
+| Purpose | Layout detection of figures, captions, text regions, and structural margins |
 
-No manual download needed for this stage.
+No separate manual model-download command is required for this stage if the extraction script can access its configured model source.
+
+### NVILA compatibility patch
+
+NVILA-Lite-8B requires the included local processing-file patch. Apply it after downloading the checkpoint:
+
+```bash
+cp model_patches/NVILA-Lite-8B-hf/processing_nvila_lite.py \
+  hf_models/NVILA-Lite-8B-hf/processing_nvila_lite.py
+```
+
+Do not skip this step: the NVILA model does not load correctly in the project environment without the patch.
 
 ---
 
-## Pipeline 2: Image-Text Retrieval
+## Fine-Tuned Pipeline 4 Model
 
-| Model | Purpose | Hugging Face Repo | Local Directory |
+Pipeline 4 compares the zero-shot `Qwen/Qwen2.5-14B-Instruct` baseline with a LoRA fine-tuned configuration designed to improve ontology-predicate conformance.
+
+The merged fine-tuned checkpoint used for the reported Pipeline 4 results is hosted separately because model artifacts are not tracked in GitHub.
+
+### Download the merged checkpoint
+
+1. Download the merged fine-tuned checkpoint from Google Drive:
+
+   ```text
+   GOOGLE_DRIVE_LINK_TO_BE_ADDED
+   ```
+
+2. Extract or copy the downloaded model folder into:
+
+   ```text
+   hf_models/Qwen2.5-14B-populate-ontology-merged/
+   ```
+
+3. Confirm that the directory contains the model files required by the extraction script, including model configuration, tokenizer files, and model weights.
+
+The final triple-extraction implementation should reference this directory when the fine-tuned configuration is selected.
+
+### Local fine-tuning reproduction workflow
+
+The repository also retains the full fine-tuning workflow for methodological transparency and advanced HPC re-execution. It is not required when the merged checkpoint above is downloaded.
+
+The workflow uses the baseline `Qwen/Qwen2.5-14B-Instruct` checkpoint and the `qwen3vl_env` Conda environment.
+
+Activate the environment:
+
+```bash
+conda activate qwen3vl_env
+```
+
+Then execute the following steps from the repository root.
+
+#### Step 1: Generate the synthetic training dataset
+
+```bash
+cd scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/1.dataset_generation/
+bash run_data_generation.sh
+```
+
+Expected output:
+
+```text
+synthetic_dataset.jsonl
+```
+
+Approximate runtime reported during the original experiments: 45 minutes.
+
+#### Step 2: Validate and clean generated triples
+
+```bash
+cd ../2.validation/
+python3 validate_triples.py
+```
+
+Expected outputs:
+
+```text
+synthetic_dataset_clean.jsonl
+validation_report.txt
+```
+
+This step is CPU-only and comparatively fast.
+
+#### Step 3: Build the Hugging Face training dataset
+
+```bash
+cd ../3.dataset_prep/
+python3 build_hf_dataset.py
+```
+
+Expected output:
+
+```text
+hf_dataset/
+```
+
+The resulting dataset uses the required chat-template format.
+
+#### Step 4: Run LoRA fine-tuning
+
+```bash
+cd ../4.training/
+bash run_fine_tune.sh
+```
+
+Expected output:
+
+```text
+Qwen2.5-14B-populate-ontology/
+```
+
+Approximate runtime reported during the original experiments: 30 minutes on the tested HPC environment.
+
+#### Step 5: Merge the LoRA adapter into the base model
+
+```bash
+cd ../5.merge/
+bash run_merge.sh
+```
+
+Expected output:
+
+```text
+Qwen2.5-14B-populate-ontology-merged/
+```
+
+Approximate runtime reported during the original experiments: 1--2 minutes.
+
+> **Reproducibility note:** the fine-tuning workflow is re-runnable using the included code and synthetic training data. Exact bitwise reproduction cannot be guaranteed across systems because generated data, package versions, model revisions, GPU hardware, random seeds, and training conditions can affect the resulting checkpoint.
+
+---
+
+## Archived Retrieval Ablation Models
+
+The following models were evaluated in the Pipeline 2 retrieval benchmark. Only VDR 2B Multi is required for the selected end-to-end workflow.
+
+| Model | Purpose | Hugging Face repository | Local directory |
 |---|---|---|---|
-| CLIP ViT-B/32 | Baseline single-vector retrieval | `openai/clip-vit-base-patch32` | `hf_models/clip-vit-base-patch32` |
-| ColPali v1.2 | Multi-vector late-interaction retrieval (requires merge, see Exceptions) | `vidore/colpali-v1.2` | `hf_models/colpali-v1.2-merged` |
-| **ColQwen2 v1.0** | **Winner — best retrieval performance in evaluation** | `vidore/colqwen2-v1.0-hf` | `hf_models/colqwen2-v1.0-hf` |
-| DSE-Qwen2 2B | Multi-vector retrieval candidate | `MrLight/dse-qwen2-2b-mrl-v1` | `hf_models/dse-qwen2-2b` |
-| VDR 2B Multi | Multi-vector retrieval candidate | `llamaindex/vdr-2b-multi-v1` | `hf_models/vdr-2b-multi-v1` |
+| CLIP ViT-B/32 | Single-vector retrieval baseline | `openai/clip-vit-base-patch32` | `hf_models/clip-vit-base-patch32` |
+| ColPali v1.2 | Multi-vector late-interaction retrieval; requires local merge | `vidore/colpali-v1.2` | `hf_models/colpali-v1.2-merged` |
+| ColQwen2 v1.0 | Multi-vector retrieval candidate | `vidore/colqwen2-v1.0-hf` | `hf_models/colqwen2-v1.0-hf` |
+| DSE-Qwen2 2B | Dense single-vector retrieval candidate | `MrLight/dse-qwen2-2b-mrl-v1` | `hf_models/dse-qwen2-2b` |
 | Nemotron ColEmbed 4B | Multi-vector retrieval candidate | `nvidia/nemotron-colembed-vl-4b-v2` | `hf_models/nemotron-colembed-vl-4b-v2` |
 
 ```bash
-hf download openai/clip-vit-base-patch32 --local-dir hf_models/clip-vit-base-patch32 --token $HF_TOKEN
-hf download vidore/colqwen2-v1.0-hf --local-dir hf_models/colqwen2-v1.0-hf --token $HF_TOKEN
-hf download MrLight/dse-qwen2-2b-mrl-v1 --local-dir hf_models/dse-qwen2-2b --token $HF_TOKEN
-hf download llamaindex/vdr-2b-multi-v1 --local-dir hf_models/vdr-2b-multi-v1 --token $HF_TOKEN
-hf download nvidia/nemotron-colembed-vl-4b-v2 --local-dir hf_models/nemotron-colembed-vl-4b-v2 --token $HF_TOKEN
+hf download openai/clip-vit-base-patch32 \
+  --local-dir hf_models/clip-vit-base-patch32 \
+  --token $HF_TOKEN
+
+hf download vidore/colqwen2-v1.0-hf \
+  --local-dir hf_models/colqwen2-v1.0-hf \
+  --token $HF_TOKEN
+
+hf download MrLight/dse-qwen2-2b-mrl-v1 \
+  --local-dir hf_models/dse-qwen2-2b \
+  --token $HF_TOKEN
+
+hf download nvidia/nemotron-colembed-vl-4b-v2 \
+  --local-dir hf_models/nemotron-colembed-vl-4b-v2 \
+  --token $HF_TOKEN
 ```
 
-ColPali download and merge steps are in the Exceptions section below.
+ColPali uses a separate base backbone and LoRA adapter. Its download and merge procedure is documented in the [ColPali setup](#colpali-two-downloads-plus-local-merge) section below.
 
 ---
 
-## Pipeline 3: Image Captioning
+## Archived Captioning Ablation Models
 
-| Model | Purpose | Hugging Face Repo | Local Directory |
+The following models were evaluated in Pipeline 3 captioning ablations. NVILA-Lite-8B is the selected model for the recommended workflow.
+
+| Model | Purpose | Hugging Face repository | Local directory |
 |---|---|---|---|
-| **NVILA-Lite 8B** | **Winner — best production-scenario captioning config** | `Efficient-Large-Model/NVILA-Lite-8B-hf` | `hf_models/NVILA-Lite-8B-hf` |
-| Qwen3-VL 30B | Top unconstrained-compute captioning config | `Qwen/Qwen3-VL-30B-A3B-Instruct` | `hf_models/Qwen3-VL-30B-A3B-Instruct` |
+| Qwen3-VL 30B | High-quality captioning candidate under unconstrained compute | `Qwen/Qwen3-VL-30B-A3B-Instruct` | `hf_models/Qwen3-VL-30B-A3B-Instruct` |
 | Mistral-Small 3.1 24B | Captioning ablation candidate | `mistralai/Mistral-Small-3.1-24B-Instruct-2503` | `hf_models/Mistral-Small-3.1-24B-Instruct-2503` |
 | Pixtral 12B | Captioning ablation candidate | `mistral-community/pixtral-12b` | `hf_models/pixtral-12b-hf` |
 | Qwen3.6 27B | Captioning ablation candidate | `Qwen/Qwen3.6-27B` | `hf_models/Qwen3.6-27B` |
@@ -59,116 +260,91 @@ ColPali download and merge steps are in the Exceptions section below.
 | InternVL2.5 8B | Captioning ablation candidate | `OpenGVLab/InternVL2_5-8B` | `hf_models/InternVL2_5-8B` |
 
 ```bash
-hf download Efficient-Large-Model/NVILA-Lite-8B-hf --local-dir hf_models/NVILA-Lite-8B-hf --token $HF_TOKEN
-hf download Qwen/Qwen3-VL-30B-A3B-Instruct --local-dir hf_models/Qwen3-VL-30B-A3B-Instruct --token $HF_TOKEN
-hf download mistralai/Mistral-Small-3.1-24B-Instruct-2503 --local-dir hf_models/Mistral-Small-3.1-24B-Instruct-2503 --exclude "consolidated.safetensors" --token $HF_TOKEN
-hf download mistral-community/pixtral-12b --local-dir hf_models/pixtral-12b-hf --token $HF_TOKEN
-hf download Qwen/Qwen3.6-27B --local-dir hf_models/Qwen3.6-27B --token $HF_TOKEN
-hf download unsloth/Llama-3.2-11B-Vision-Instruct-bnb-4bit --local-dir hf_models/Llama-3.2-11B-Vision-Instruct --token $HF_TOKEN
-hf download OpenGVLab/InternVL2_5-8B --local-dir hf_models/InternVL2_5-8B --token $HF_TOKEN
-```
+hf download Qwen/Qwen3-VL-30B-A3B-Instruct \
+  --local-dir hf_models/Qwen3-VL-30B-A3B-Instruct \
+  --token $HF_TOKEN
 
-**Pipeline 3 support models** (not part of the captioning ablation itself):
+hf download mistralai/Mistral-Small-3.1-24B-Instruct-2503 \
+  --local-dir hf_models/Mistral-Small-3.1-24B-Instruct-2503 \
+  --exclude "consolidated.safetensors" \
+  --token $HF_TOKEN
 
-| Model | Purpose | Hugging Face Repo | Local Directory |
-|---|---|---|---|
-| Qwen2-VL 7B | MapReduce document summarization, weighted context fusion, caption metric scoring | `Qwen/Qwen2-VL-7B-Instruct` | `hf_models/Qwen2-VL-7B-Instruct` |
-| mDeBERTa v3 (mnli-xnli) | NLI-based caption novelty metric | `MoritzLaurer/mDeBERTa-v3-base-mnli-xnli` | `hf_models/mDeBERTa-v3-mnli-xnli` |
+hf download mistral-community/pixtral-12b \
+  --local-dir hf_models/pixtral-12b-hf \
+  --token $HF_TOKEN
 
-```bash
-hf download Qwen/Qwen2-VL-7B-Instruct --local-dir hf_models/Qwen2-VL-7B-Instruct --token $HF_TOKEN
-hf download MoritzLaurer/mDeBERTa-v3-base-mnli-xnli --local-dir hf_models/mDeBERTa-v3-mnli-xnli --token $HF_TOKEN
+hf download Qwen/Qwen3.6-27B \
+  --local-dir hf_models/Qwen3.6-27B \
+  --token $HF_TOKEN
+
+hf download unsloth/Llama-3.2-11B-Vision-Instruct-bnb-4bit \
+  --local-dir hf_models/Llama-3.2-11B-Vision-Instruct \
+  --token $HF_TOKEN
+
+hf download OpenGVLab/InternVL2_5-8B \
+  --local-dir hf_models/InternVL2_5-8B \
+  --token $HF_TOKEN
 ```
 
 ---
 
-## Pipeline 4: Knowledge Graph Construction
+## ColPali: Two Downloads Plus Local Merge
 
-| Model | Purpose | Hugging Face Repo | Local Directory |
-|---|---|---|---|
-| Qwen2.5 14B (baseline) | RDF triple extraction, zero-shot | `Qwen/Qwen2.5-14B-Instruct` | `hf_models/Qwen2.5-14B-Instruct` |
-| **Qwen2.5 14B (fine-tuned)** | **LoRA fine-tuned for predicate conformance, produced locally, see below** | n/a, built from the baseline checkpoint above | `scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/5.merge/Qwen2.5-14B-populate-ontology-merged` |
+ColPali v1.2 was evaluated as a Pipeline 2 retrieval candidate. The local setup used in this project downloads the LoRA adapter and base backbone separately, then merges them locally.
 
-```bash
-hf download Qwen/Qwen2.5-14B-Instruct --local-dir hf_models/Qwen2.5-14B-Instruct --token $HF_TOKEN
-```
+The following instructions assume that `RHINE_PROJECT_ROOT` has been set as described in [Prerequisites](#prerequisites).
 
-The fine-tuned checkpoint is not downloaded, it is built locally by running the five-step pipeline below. This was a small-scale ablation (150 synthetic triples) to demonstrate that fine-tuning improves ontology-predicate conformance over the zero-shot baseline, so the checkpoint is reproduced from scratch rather than distributed as a separate artifact. All five steps run in the `qwen3vl_env` conda environment and depend on the baseline `Qwen2.5-14B-Instruct` checkpoint above already being downloaded.
-
-**Step 1: generate the synthetic training dataset (~45 minutes)**
+### Step 1: Download the ColPali adapter
 
 ```bash
-cd scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/1.dataset_generation/
-bash run_data_generation.sh
+python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'vidore/colpali-v1.2', '--local-dir', os.path.join(os.environ['RHINE_PROJECT_ROOT'], 'hf_models/colpali-v1.2'), '--token', os.environ['HF_TOKEN']], env=env, check=True)"
 ```
 
-Produces `synthetic_dataset.jsonl`.
-
-**Step 2: validate and clean the generated triples (CPU-only, fast)**
+### Step 2: Download the base backbone
 
 ```bash
-cd ../2.validation/
-python3 validate_triples.py
+python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'vidore/colpaligemma-3b-pt-448-base', '--local-dir', os.path.join(os.environ['RHINE_PROJECT_ROOT'], 'hf_models/colpaligemma-3b-pt-448-base'), '--token', os.environ['HF_TOKEN']], env=env, check=True)"
 ```
 
-Produces `synthetic_dataset_clean.jsonl` and `validation_report.txt`.
+### Step 3: Merge the adapter into the base model
 
-**Step 3: build the fine-tuning dataset (CPU-only, fast)**
+Run this command in the Conda environment that provides `torch`, `transformers`, `peft`, and `colpali_engine`:
 
 ```bash
-cd ../3.dataset_prep/
-python3 build_hf_dataset.py
+python3 -c 'import os; import torch; from colpali_engine.models import ColPali; from peft import PeftModel; from transformers import AutoTokenizer; root=os.environ["RHINE_PROJECT_ROOT"]; base_dir=os.path.join(root, "hf_models/colpaligemma-3b-pt-448-base"); adapter_dir=os.path.join(root, "hf_models/colpali-v1.2"); output_dir=os.path.join(root, "hf_models/colpali-v1.2-merged"); base_model=ColPali.from_pretrained(base_dir, torch_dtype=torch.float32, local_files_only=True); model=PeftModel.from_pretrained(base_model, adapter_dir, local_files_only=True); model=model.merge_and_unload(); model.save_pretrained(output_dir, safe_serialization=True); tokenizer=AutoTokenizer.from_pretrained(base_dir, local_files_only=True); tokenizer.save_pretrained(output_dir)'
 ```
 
-Produces the `hf_dataset/` directory in chat-template format.
+> **Important:** do not delete `hf_models/colpaligemma-3b-pt-448-base/` after merging. The merged model stores the merged weights, but `ColPaliProcessor.from_pretrained()` loads image-preprocessing configuration from the base backbone directory during inference. Removing the base backbone therefore breaks the project retrieval implementation.
 
-**Step 4: run LoRA fine-tuning (~30 minutes)**
-
-```bash
-cd ../4.training/
-bash run_fine_tune.sh
-```
-
-Produces the LoRA adapter in `Qwen2.5-14B-populate-ontology`.
-
-**Step 5: merge the adapter into the base model (1 to 2 minutes)**
-
-```bash
-cd ../5.merge/
-bash run_merge.sh
-```
-
-Produces the final deployable checkpoint in `Qwen2.5-14B-populate-ontology-merged`, which is the path referenced directly in the extraction code.
 ---
 
-## Exceptions
+## Environment Mapping
 
-### ColPali (two downloads plus local merge)
+The repository uses separate Conda environments because several evaluated model families require incompatible versions of PyTorch, Transformers, CUDA-related libraries, or model-specific packages.
 
-The official pre-merged checkpoint did not work for this setup, so ColPali is downloaded in two parts and merged locally.
+| Environment file | Primary use |
+|---|---|
+| `environments/vlm_env.yml` | General vision-language model workflows |
+| `environments/nvila_env.yml` | NVILA-Lite-8B captioning |
+| `environments/colpali_env.yml` | ColPali retrieval and merging |
+| `environments/colqwen_char.yml` | ColQwen2 retrieval |
+| `environments/barthez_env.yml` | BARThez summarization experiments |
+| `environments/qwen3vl_env.yml` | Qwen-based VLM workflows and Pipeline 4 fine-tuning |
+| `environments/qwen36_env.yml` | Qwen3.6 captioning experiments |
+| `environments/kg_env.yml` | Knowledge-graph construction and visualization |
+| `environments/triple_env.yml` | Triple extraction and related utilities |
 
-**Step 1: download the LoRA adapter and the base backbone**
-
-```bash
-python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'vidore/colpali-v1.2', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/colpali-v1.2', '--token', os.environ['HF_TOKEN']], env=env)"
-```
-
-```bash
-python3 -c "import os, subprocess; env = os.environ.copy(); env.update({'HF_HUB_DISABLE_SYMLINKS': '1', 'HF_HOME': '/tmp/hf_temp'}); subprocess.run(['hf', 'download', 'vidore/colpaligemma-3b-pt-448-base', '--local-dir', '$RHINE_PROJECT_ROOT/hf_models/colpaligemma-3b-pt-448-base', '--token', os.environ['HF_TOKEN']], env=env)"
-```
-
-**Step 2: merge the adapter into the base model**
-
-```bash
-python3 -c 'import torch; from colpali_engine.models import ColPali; from peft import PeftModel; from transformers import AutoTokenizer; import os; BASE_MODEL_DIR=os.environ["RHINE_PROJECT_ROOT"]+"/hf_models/colpaligemma-3b-pt-448-base"; ADAPTER_DIR=os.environ["RHINE_PROJECT_ROOT"]+"/hf_models/colpali-v1.2"; MERGED_OUTPUT_DIR=os.environ["RHINE_PROJECT_ROOT"]+"/hf_models/colpali-v1.2-merged"; base_model=ColPali.from_pretrained(BASE_MODEL_DIR,torch_dtype=torch.float32,local_files_only=True); model=PeftModel.from_pretrained(base_model,ADAPTER_DIR,local_files_only=True); model=model.merge_and_unload(); model.save_pretrained(MERGED_OUTPUT_DIR,safe_serialization=True); tokenizer=AutoTokenizer.from_pretrained(BASE_MODEL_DIR,local_files_only=True); tokenizer.save_pretrained(MERGED_OUTPUT_DIR)'
-```
-
-> **Do not delete `colpaligemma-3b-pt-448-base` after merging.** The merged model only holds weights. `ColPaliProcessor.from_pretrained()` loads image preprocessing config from `colpaligemma-3b-pt-448-base` directly at inference time, so deleting it breaks the pipeline even though the model itself loads from `colpali-v1.2-merged`.
-
-### NVILA (required source patch)
-
-The model will not load without this patch applied.
+Create an environment with:
 
 ```bash
-cp model_patches/NVILA-Lite-8B-hf/processing_nvila_lite.py hf_models/NVILA-Lite-8B-hf/processing_nvila_lite.py
+conda env create -f environments/<environment-file>.yml
 ```
+
+For example:
+
+```bash
+conda env create -f environments/nvila_env.yml
+conda activate nvila_env
+```
+
+The final demonstration instructions in `README.md` will state the environment required for each command.
