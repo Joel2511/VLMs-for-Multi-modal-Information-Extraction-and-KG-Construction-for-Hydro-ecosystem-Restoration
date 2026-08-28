@@ -1,6 +1,6 @@
 # Rhine River Restoration: Multimodal Knowledge Extraction and Knowledge-Graph Construction
 
-**Master Thesis Research | ICube Laboratory, Université de Strasbourg**  
+**Master Thesis Research | ICube Laboratory, Université de Strasbourg, Big Data Management and Analytics**  
 **TETRA Project | Franco-German AI Toolbox for the Water Domain**
 
 ---
