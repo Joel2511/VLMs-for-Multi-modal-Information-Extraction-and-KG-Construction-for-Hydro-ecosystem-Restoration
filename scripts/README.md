@@ -50,7 +50,6 @@ It does not overwrite the historical thesis outputs stored elsewhere under
 | `pipeline_03_captioning/` | Captioning workflow, context construction, and captioning ablations |
 | `pipeline_04_knowledge_graph/` | Baseline/fine-tuned triple extraction, RDF graphs, and fine-tuning workflow |
 | `evaluation/` | Evaluation and configuration-ranking utilities |
-| `archive/` | Historical exploratory code retained for methodological context |
 
 ## Important
 
