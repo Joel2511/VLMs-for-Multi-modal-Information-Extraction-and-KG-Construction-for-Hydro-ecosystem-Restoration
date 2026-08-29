@@ -1,52 +1,46 @@
 #!/usr/bin/env python3
 
-
 import math
-
 import os
-PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+import json
+import re
+from pathlib import Path
 
+
+PROJECT_ROOT = Path(
+    os.environ.get("RHINE_PROJECT_ROOT", Path(__file__).resolve().parents[2])
+).expanduser().resolve()
 
 # ══════════════════════════════════════════════════════════════
-# CONFIGURATION — Edit this block for each ablation
+# CONFIGURATION — Update these prepared-input locations before use
 # ══════════════════════════════════════════════════════════════
 
+ABLATION_NAME = "Model Selection — Global Weighted Comparison"
 
-SCENARIOS = {
-    "A": {
-        "name":        "Grand Final — Global Pareto Comparison | Scenario A: Production",
-        "weights":     {"quality": 0.40, "speed": 0.35, "size": 0.25},
-        "sub_weights": {"vqa": 0.33, "enrichment": 0.34, "novelty": 0.33}
-    },
-    "B": {
-        "name":        "Grand Final — Global Pareto Comparison | Scenario B: Oracle",
-        "weights":     {"quality": 0.60, "speed": 0.25, "size": 0.15},
-        "sub_weights": {"vqa": 0.50, "enrichment": 0.35, "novelty": 0.15}
-    }
+# Global weighted metric used for the final comparison.
+WEIGHTS = {
+    "quality": 0.60,
+    "speed": 0.25,
+    "size": 0.15,
 }
 
+SUB_WEIGHTS = {
+    "vqa": 0.50,
+    "enrichment": 0.35,
+    "novelty": 0.15,
+}
 
-ACTIVE_MODE  = "B"   # ← choose scenario
+# Prepared input directories. Caption folders and their corresponding captioning
+# logs must be consolidated manually before running this post-hoc utility.
+CAPTIONING_ROOT = "/path/to/consolidated_caption_folders"
+LOG_ROOT = "/path/to/consolidated_captioning_logs"
 
+# Filename expected inside every model folder under CAPTIONING_ROOT.
+METRICS_JSON = "REPLACE_WITH_VQA_METRICS_FILENAME.json"
 
-CONFIG        = SCENARIOS[ACTIVE_MODE]
-ABLATION_NAME = CONFIG["name"]
-WEIGHTS       = CONFIG["weights"]
-SUB_WEIGHTS   = CONFIG["sub_weights"]
-CAPTIONING_ROOT = os.path.join(PROJECT_ROOT, "outputs/Global_pareto_comparison_captions")
-METRICS_JSON    = "vqa_results.json"
-LOG_ROOT        = os.path.join(PROJECT_ROOT, "outputs/live_logs/2.Global_output")
-
-# grep -E "Model size|Total runtime" /home2020/home/icube/janil/Rhine_proj/outputs/live_logs/2.0.Global_output/*.txt
-OVERRIDES       = {
-    # "1st_ablation_pixtral-12b-hf":            {"params_b": 7.0,  "total_sec": 7893},   # 02h11m33s
-    # "2nd_ablation_mistral24b":                {"params_b": 12.7, "total_sec": 5360},   # 01h29m20s
-    # "2nd_ablation_nvila_lite_8b":             {"params_b": 8.1,  "total_sec": 1501},   # 00h25m01s
-    # "2nd_ablation_qwen3vl_30b":               {"params_b": 30.3, "total_sec": 3119},   # 00h51m59s
-    # "3rd_ablation_qwen3vl_30b":               {"params_b": 30.3, "total_sec": 2775},   # 00h46m15s
-    # "4th_ablation_nvila-lite-8b":             {"params_b": 8.1,  "total_sec": 1753},   # 00h29m13s
-    # "5th_ablation_nvila_lite_8b_p3":          {"params_b": 8.1,  "total_sec": 1448},   # 00h24m08s
-    # "6th_ablation_nvila_lite-8b_vcd_alpha05": {"params_b": 8.1,  "total_sec": 3078},   # 00h51m18s
+# Optional manual metadata corrections for models whose log cannot be matched.
+OVERRIDES = {
+    # "model_folder_name": {"params_b": 8.1, "total_sec": 1448},
 }
 
 
@@ -262,8 +256,10 @@ def print_table(models, ablation_name, weights):
     print(f"\n{sep}")
     print(f"  PARETO RESULTS — {ablation_name}")
     print(f"  Weights: Quality={weights['quality']:.0%}  Speed={weights['speed']:.0%}  Size={weights['size']:.0%}")
-    print(f"Scenario A (Production): Quality = 0.33*VQA + 0.34*Enrichment + 0.33*NLI  | Weights: Q=40% S=35% Z=25%")
-    print(f"Scenario B (Oracle):     Quality = 0.50*VQA + 0.35*Enrichment + 0.15*NLI  | Weights: Q=60% S=25% Z=15%")
+    print(
+        "Quality = 0.50*VQA + 0.35*Enrichment + 0.15*NLI "
+        "| Weights: Q=60% S=25% Z=15%"
+    )
     print(sep)
 
     header = (
