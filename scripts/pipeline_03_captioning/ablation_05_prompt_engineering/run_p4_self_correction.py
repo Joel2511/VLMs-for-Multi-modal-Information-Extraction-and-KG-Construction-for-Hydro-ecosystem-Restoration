@@ -1,10 +1,10 @@
 """
-Pipeline 3, Ablation 5 P1: Visual Primitive Guardrail caption generation.
+Pipeline 3, Ablation 5 P4: Internal Self-Correction caption generation.
 
-This script runs NVILA-Lite-8B with the visual-primitives prompt used in the
-prompt-engineering ablation. It supports processing one document or every
-available document while preserving the original captioning, retrieval-context,
-weighted-context, and JSON-output logic.
+This script runs NVILA-Lite-8B with the Internal Self-Correction prompt used
+in the prompt-engineering ablation. It supports processing one document or
+every available document while preserving the original captioning,
+retrieval-context, weighted-context, and JSON-output logic.
 """
 
 import argparse
