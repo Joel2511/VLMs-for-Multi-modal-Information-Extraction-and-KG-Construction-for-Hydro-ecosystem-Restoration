@@ -157,7 +157,7 @@ directory when the fine-tuned Pipeline 4 configuration is selected.
 
 ### Local fine-tuning reproduction workflow
 
-The repository also retains the full fine-tuning workflow and advanced HPC re-execution. It is not required when the merged checkpoint above is downloaded but you can choose to run this workflow incase the downloading doesnt work
+The repository also retains the complete fine-tuning workflow and HPC launchers for reproducing the merged checkpoint locally. This workflow is optional when the pre-trained merged checkpoint above can be downloaded and verified successfully; use it only when local retraining is required or the checkpoint is unavailable.
 
 The workflow uses the baseline `Qwen/Qwen2.5-14B-Instruct` checkpoint and the `qwen3vl_env` Conda environment.
 
