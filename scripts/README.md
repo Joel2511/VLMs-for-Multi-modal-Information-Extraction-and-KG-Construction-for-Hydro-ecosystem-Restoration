@@ -1,12 +1,11 @@
 # Scripts
 
 This directory contains the implementation of the thesis workflow, organised by
-pipeline stage rather than by the original HPC working-directory layout.
+pipeline.
 
 ## Start here
 
-Read the repository-level `README.md` first. It explains the research workflow,
-required data, model setup, and the recommended reading order.
+`README.md` explains the research workflow, required data, model setup, and the recommended reading order.
 
 For local model placement, model download instructions, checksum verification,
 and the NVILA patch, see `MODEL_SETUP.md`.
