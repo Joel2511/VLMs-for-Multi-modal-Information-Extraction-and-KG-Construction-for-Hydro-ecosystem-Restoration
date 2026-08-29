@@ -95,4 +95,3 @@ dependencies:
       - typing-extensions==4.15.0
       - tzdata==2026.1
       - urllib3==2.6.3
-prefix: /home2020/home/icube/janil/miniforge3/envs/qwen36_env

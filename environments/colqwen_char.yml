@@ -99,4 +99,3 @@ dependencies:
       - tzdata==2026.2
       - unidecode==1.4.0
       - urllib3==2.6.3
-prefix: /home2020/home/icube/janil/miniforge3/envs/colqwen_char

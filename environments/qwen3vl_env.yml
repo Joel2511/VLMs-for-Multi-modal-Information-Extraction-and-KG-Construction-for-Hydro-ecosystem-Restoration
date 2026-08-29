@@ -160,4 +160,3 @@ dependencies:
       - wcwidth==0.8.2
       - xxhash==3.8.1
       - yarl==1.24.2
-prefix: /home2020/home/icube/janil/miniforge3/envs/qwen3vl_env

@@ -235,8 +235,8 @@ def run_internvl_captioning():
 
     model = AutoModel.from_pretrained(
         GENERATOR_MODEL_PATH,
-        torch_dtype=torch.float16,   
-        load_in_8bit=True,           
+        torch_dtype=torch.float16,
+        load_in_8bit=True,
         low_cpu_mem_usage=True,
         use_flash_attn=False,
         trust_remote_code=True,
@@ -320,7 +320,7 @@ def run_internvl_captioning():
 
                 generation_config = dict(
                     do_sample=False,
-                    max_length=8192       
+                    max_length=8192
                 )
                 generated_text = model.chat(
                     tokenizer, pixel_values, question, generation_config

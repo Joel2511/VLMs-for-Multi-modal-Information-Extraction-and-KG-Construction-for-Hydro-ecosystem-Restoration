@@ -153,4 +153,3 @@ dependencies:
       - urllib3==2.6.3
       - xxhash==3.7.0
       - yarl==1.23.0
-prefix: /home2020/home/icube/janil/miniforge3/envs/barthez_env

@@ -24,12 +24,12 @@ BASE_OUTPUT_FOLDER = os.path.join(PROJECT_ROOT, "outputs","Image_text_matching",
 # 'local': Only searches +/- 1 page (baseline)
 # 'global': Search the whole PDF with no distance bias
 # 'hybrid': Weighted distance search
-SEARCH_MODE = 'hybrid' 
+SEARCH_MODE = 'hybrid'
 
 #  Distance Penalty
-# When scores are normalized to 0-1, a BETA of 0.02 means 
+# When scores are normalized to 0-1, a BETA of 0.02 means
 # a block 5 pages away loses 10% of its semantic score.
-BETA = 0.02 
+BETA = 0.02
 
 # --- UTILS ---
 def get_page_num_from_img(img_name):
@@ -111,12 +111,12 @@ def run_colpali_matching():
             img_path = os.path.join(IMAGE_FOLDER, img_name)
             img_page = get_page_num_from_img(img_name)
             if img_page is None: continue
-            
+
             try:
                 image = Image.open(img_path).convert("RGB")
                 with torch.no_grad():
                     img_batch = processor.process_images([image]).to(device)
-                    img_emb = model(**img_batch)[0] 
+                    img_emb = model(**img_batch)[0]
 
                 embeddings_dict[img_name] = img_emb.cpu().float().numpy()
 
@@ -126,24 +126,24 @@ def run_colpali_matching():
                     if SEARCH_MODE == 'local' and abs(img_page - block_pages[idx]) > 1:
                         raw_maxsims.append(-100.0)
                         continue
-                    
+
                     text_emb = all_text_embeddings[idx]
                     sim_matrix = torch.matmul(text_emb.float(), img_emb.float().T)
                     raw_maxsims.append(sim_matrix.max(dim=-1).values.mean().item()) #With mean(), the score is normalized by query length, so a long generic block doesn't automatically beat a short specific one. For your use case — long scientific text blocks as queries — mean() is actually the right choice
 
                 raw_maxsims = np.array(raw_maxsims)
                 valid_mask = raw_maxsims > -50.0
-                
+
                 if SEARCH_MODE == 'hybrid' and np.any(valid_mask):
                     norm_sims = normalize_scores(raw_maxsims[valid_mask])
                     distances = np.abs(img_page - np.array(block_pages)[valid_mask])
-                    
+
                     # Soft penalty: nearby pages get a boost, far pages lose very little
                     # log1p makes the penalty grow slowly — page 1 away: 0.69, page 10 away: 2.4, page 20 away: 3.04
                     # Dividing by 15 keeps the max penalty under ~0.20 even for 20+ pages away
                     distance_penalty = np.log1p(distances) / 15.0
                     hybrid_scores = norm_sims - (BETA * distances)
-                    
+
                     final_ranking_scores = np.full_like(raw_maxsims, -100.0)
                     final_ranking_scores[valid_mask] = hybrid_scores
                 else:

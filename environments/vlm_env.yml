@@ -178,4 +178,3 @@ dependencies:
       - xformers==0.0.35
       - xxhash==3.6.0
       - yarl==1.23.0
-prefix: /home2020/home/icube/janil/miniforge3/envs/vlm_env
