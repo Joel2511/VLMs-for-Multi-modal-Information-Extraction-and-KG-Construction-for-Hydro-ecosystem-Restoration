@@ -1,11 +1,15 @@
 #!/usr/bin/env python3
 
-
 import math
-
 import os
-PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+import json
+import re
+from pathlib import Path
 
+
+PROJECT_ROOT = Path(
+    os.environ.get("RHINE_PROJECT_ROOT", Path(__file__).resolve().parents[2])
+).expanduser().resolve()
 
 # ══════════════════════════════════════════════════════════════
 # CONFIGURATION — Update these prepared-input locations before use
