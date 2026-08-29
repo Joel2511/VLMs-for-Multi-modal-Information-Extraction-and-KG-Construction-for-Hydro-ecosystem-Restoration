@@ -26,17 +26,17 @@ The full methodology, experimental design, results, and limitations are document
 
 The framework consists of four dependent pipelines.
 
-### Pipeline 1 : Layout Parsing and Cross-Modal Extraction
+### Pipeline 1: Layout Parsing and Extraction
 
-Source PDFs are rasterized at 300 DPI and processed with DocLayout-YOLOv10 to detect figures, captions, text regions, and structural margins. Geometric block merging reconstructs multi-panel figures, and detected captions are associated with their figures. A layout-aware text parser, cross-page boilerplate filtering, and OCR-based cross-modal deduplication produce structured figure crops and cleaned text blocks for each document.
+Extracts figures, captions, and cleaned text blocks from source PDFs. It uses layout detection, figure–caption association, text parsing, and OCR-based deduplication to produce structured inputs for the downstream retrieval and captioning stages.
 
 ### Pipeline 2 : Cross-Modal Image-Text Retrieval
 
 For each extracted figure, the retrieval stage identifies the most relevant text blocks from the same source document. The repository contains six evaluated retrieval configurations spanning single-vector dense retrieval and multi-vector late interaction:
 
-The selected retrieval configuration for the downstream pipeline is **VDR 2B Multi** (`llamaindex/vdr-2b-multi-v1`). Retrieval evaluation uses Recall@5, Precision@1, MRR@5, and nDCG@5 against manually annotated image-text associations.
+Retrieval evaluation uses Recall@5, Precision@1, MRR@5, and nDCG@5 against manually annotated image-text associations.
 
-### Pipeline 3 — Grounded Visual Captioning
+### Pipeline 3 : Grounded Visual Captioning
 
 A generative VLM describes each extracted image through a two-phase, pixel-first prompting procedure:
 
@@ -45,11 +45,11 @@ A generative VLM describes each extracted image through a two-phase, pixel-first
 
 Seven candidate VLMs and several context, prompt-engineering, and contrastive-decoding ablations are included. Caption evaluation includes CLIPScore, PAC-S, NLI-based novelty/grounding, VQA-Consistency, and a weighted multi-criteria selection score.
 
-### Pipeline 4 — Cross-Modal Knowledge-Graph Construction
+### Pipeline 4 : Cross-Modal Knowledge-Graph Construction
 
-Textual content and image captions are converted into structured JSON triples and deterministically serialized as RDF using the `TetraOnto.ttl` OWL ontology. The extraction prompt receives a compact bilingual schema representation to encourage use of authorized ontology classes and predicates.
+Textual content and image captions are converted into triples and deterministically serialized as RDF using the `TetraOnto.ttl` OWL ontology. Text and images are processed separately before cross-modal entity resolution merges aliases and duplicates into canonical entities. 
 
-Text and images are processed separately before cross-modal entity resolution merges aliases and duplicates into canonical entities. The repository includes both a zero-shot Qwen2.5-14B-Instruct baseline and a LoRA fine-tuned variant evaluated for ontology-predicate conformance. Pipeline 4 evaluation includes Schema Conformance Rate (SCR), Average Node Degree Shift, Cross-Modal Link Density (CMLD), and a prepared manual intrinsic triple-precision audit protocol.
+The repository includes both a zero-shot Qwen2.5-14B-Instruct baseline and a LoRA fine-tuned variant evaluated for ontology-predicate conformance. Pipeline 4 evaluation includes Schema Conformance Rate (SCR), Average Node Degree Shift and Cross-Modal Link Density (CMLD).
 
 ---
 
