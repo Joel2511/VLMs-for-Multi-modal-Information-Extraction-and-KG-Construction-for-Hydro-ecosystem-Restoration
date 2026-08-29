@@ -1,7 +1,12 @@
 # Rhine River Restoration: Multimodal Knowledge Extraction and Knowledge-Graph Construction
 
-**Master Thesis Research | ICube Laboratory, Université de Strasbourg, Big Data Management and Analytics**  
+**Master Thesis Research | ICube Laboratory, Université de Strasbourg, Big Data Management and Analytics(BDMA)**  
 **TETRA Project | Franco-German AI Toolbox for the Water Domain**
+
+## Supervisors
+
+- Dr. Franco Giustozzi — INSA Strasbourg
+- Dr. Florence Le Ber — ENGEES, Université de Strasbourg
 
 ---
 
@@ -21,20 +26,13 @@ The full methodology, experimental design, results, and limitations are document
 
 The framework consists of four dependent pipelines.
 
-### Pipeline 1 — Layout Parsing and Cross-Modal Extraction
+### Pipeline 1 : Layout Parsing and Cross-Modal Extraction
 
 Source PDFs are rasterized at 300 DPI and processed with DocLayout-YOLOv10 to detect figures, captions, text regions, and structural margins. Geometric block merging reconstructs multi-panel figures, and detected captions are associated with their figures. A layout-aware text parser, cross-page boilerplate filtering, and OCR-based cross-modal deduplication produce structured figure crops and cleaned text blocks for each document.
 
-### Pipeline 2 — Cross-Modal Image-Text Retrieval
+### Pipeline 2 : Cross-Modal Image-Text Retrieval
 
 For each extracted figure, the retrieval stage identifies the most relevant text blocks from the same source document. The repository contains six evaluated retrieval configurations spanning single-vector dense retrieval and multi-vector late interaction:
-
-- CLIP ViT-B/32
-- DSE-Qwen2 2B
-- VDR 2B Multi
-- ColPali v1.2
-- ColQwen2 v1.0
-- Nemotron ColEmbed 4B
 
 The selected retrieval configuration for the downstream pipeline is **VDR 2B Multi** (`llamaindex/vdr-2b-multi-v1`). Retrieval evaluation uses Recall@5, Precision@1, MRR@5, and nDCG@5 against manually annotated image-text associations.
 
@@ -45,7 +43,7 @@ A generative VLM describes each extracted image through a two-phase, pixel-first
 - **Phase 1:** image-only visual observation, including visible components and legible text.
 - **Phase 2:** controlled contextual enrichment using retrieved local context and document-level summary information; it retains only image-visible information that is absent from the retrieved text.
 
-Seven candidate VLMs and several context, prompt-engineering, and contrastive-decoding ablations are included. The selected captioning configuration is **NVILA-Lite-8B** with the **A5-P3 Counterfactual Contrast** prompt strategy. Caption evaluation includes CLIPScore, PAC-S, NLI-based novelty/grounding, VQA-Consistency, and a weighted multi-criteria selection score.
+Seven candidate VLMs and several context, prompt-engineering, and contrastive-decoding ablations are included. Caption evaluation includes CLIPScore, PAC-S, NLI-based novelty/grounding, VQA-Consistency, and a weighted multi-criteria selection score.
 
 ### Pipeline 4 — Cross-Modal Knowledge-Graph Construction
 
@@ -74,7 +72,7 @@ The repository retains all evaluated candidate models and ablation implementatio
 
 This repository supports three levels of reproducibility:
 
-1. **Archived thesis artifacts.** The repository includes the structured outputs underlying the thesis experiments: extracted content, OCR results, retrieval matrices, captions, evaluation results, execution logs, RDF/Turtle graphs, GEXF graphs, and HTML visualizations.
+1. **Archived thesis artifacts.** includes the structured outputs underlying the thesis experiments
 
 2. **Representative end-to-end demonstration.** A documented one-document execution path will run the selected extraction, retrieval, captioning, and knowledge-graph construction configuration. This demonstration is intended to verify the workflow without requiring every model or ablation to be re-executed.
 
@@ -86,7 +84,7 @@ Exact numerical replication is not guaranteed across environments because genera
 
 ## Repository Structure
 
-The repository will be organized around the following logical structure. Some implementation directories retain their original experiment-oriented names while the repository is being polished.
+The repository will be organized around the following logical structure.
 
 | Path | Contents |
 |---|---|
@@ -117,7 +115,7 @@ This mapping will be updated when the codebase is reorganized into stable pipeli
 
 ## Data
 
-The `data/raw_pdfs/` directory contains the five French technical and institutional documents used in the experimental corpus. They are referred to in the thesis and repository as `PDF-1` through `PDF-5`.
+The `data/raw_pdfs/` directory contains the five French technical and institutional documents used in the experimental corpus.
 
 PDFs 1, 3, 4, and 5 concern the Rhine basin or associated restoration contexts. PDF-2 is included for its structurally diverse French hydro-ecological content rather than for direct geographical relevance to the Rhine basin.
 
@@ -150,9 +148,9 @@ A representative end-to-end demo command sequence will be added after the pipeli
 
 ## Hardware Requirements
 
-The complete experimental suite was executed in a Linux HPC environment using NVIDIA GPUs and CUDA. Re-running the full experiment set is resource-intensive and may require substantial GPU memory, disk space for multiple model checkpoints, and access to gated Hugging Face repositories.
+The experiments were run on a Linux HPC cluster managed with Slurm. At the time of verification, available GPU partitions provided nodes with 1–8 GPUs and approximately 128 GB to 2.3 TB of RAM; GPU model and CUDA-toolkit availability depend on the allocated node and local module environment.
 
-GPU inference is required for the VLM, retrieval, summarization, and fine-tuning stages. Some data processing, conversion, and metric utilities can run on CPU. Exact hardware requirements and tested batch configurations will be documented with the final standardized batch scripts.
+GPU resources are required for the retrieval, VLM captioning, document summarization, knowledge-graph extraction, and fine-tuning stages. CPU execution is sufficient for data preparation, graph conversion, visualisation, and metric utilities. The tested end-to-end demonstration requests 1 GPU, 8 CPU cores, 80 GB RAM, and a 12-hour wall-time limit; individual pipeline scripts specify their own tested Slurm resource requests.
 
 ---
 
@@ -165,28 +163,9 @@ The `outputs/` directory contains the machine-readable artifacts supporting the 
 - retrieval similarity matrices and similarity histograms;
 - caption JSON files and evaluation results for the captioning ablations;
 - document summaries and weighted context files;
-- Pareto and global model-selection outputs;
+- Weighted model-selection outputs;
 - baseline and fine-tuned RDF/Turtle knowledge graphs;
 - GEXF and interactive HTML knowledge-graph visualizations;
 - metric summaries, execution logs, and selected manual-audit materials.
 
 These outputs allow inspection of the reported results without re-running the resource-intensive models.
-
----
-
-## Project Context
-
-This work was conducted within TETRA, a Franco-German project developing an AI-based toolbox and methodology for the water domain. The thesis contributes a multimodal extension to prior text-based knowledge extraction, supporting the long-term objective of making river-restoration experience more accessible and reusable for research, restoration design, policy, and monitoring.
-
----
-
-## Supervisors
-
-- Dr. Franco Giustozzi — INSA Strasbourg
-- Dr. Florence Le Ber — ENGEES, Université de Strasbourg
-
----
-
-## Code and Data Use
-
-This repository is provided for academic inspection in connection with the associated master thesis. Reuse of the code, source documents, ontology, model patches, and derived artifacts may be subject to institutional, project, third-party, and model-specific terms. No separate open-source licence is granted unless a `LICENSE` file is added.
