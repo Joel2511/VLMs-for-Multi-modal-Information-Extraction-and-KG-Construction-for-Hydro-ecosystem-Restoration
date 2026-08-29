@@ -27,7 +27,16 @@ export HF_TOKEN="your_token_here"
 
 `HF_TOKEN` is required for authenticated or gated Hugging Face downloads. Set it in each new terminal session when needed. Do not add the token to source code, batch scripts, configuration files committed to Git, or shell history.
 
-All model checkpoints are downloaded into the local `hf_models/` directory, which should remain excluded from Git version control.
+All model checkpoints are downloaded into the local `hf_models/` directory.
+
+Before downloading models, create a local directory outside the repository and set `HF_MODELS_DIR` to it:
+
+```bash
+export HF_MODELS_DIR="$HOME/hf_models"
+mkdir -p "$HF_MODELS_DIR"
+```
+
+The download commands then place each model inside this directory. `HF_MODELS_DIR` is intentionally excluded from Git.
 
 ---
 
@@ -148,7 +157,7 @@ directory when the fine-tuned Pipeline 4 configuration is selected.
 
 ### Local fine-tuning reproduction workflow
 
-The repository also retains the full fine-tuning workflow for methodological transparency and advanced HPC re-execution. It is not required when the merged checkpoint above is downloaded.
+The repository also retains the full fine-tuning workflow and advanced HPC re-execution. It is not required when the merged checkpoint above is downloaded but you can choose to run this workflow incase the downloading doesnt work
 
 The workflow uses the baseline `Qwen/Qwen2.5-14B-Instruct` checkpoint and the `qwen3vl_env` Conda environment.
 
