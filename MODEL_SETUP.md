@@ -163,7 +163,7 @@ Then execute the following steps from the repository root.
 #### Step 1: Generate the synthetic training dataset
 
 ```bash
-cd scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/1.dataset_generation/
+cd scripts/pipeline_04_knowledge_graph/fine_tuning/
 bash run_data_generation.sh
 ```
 

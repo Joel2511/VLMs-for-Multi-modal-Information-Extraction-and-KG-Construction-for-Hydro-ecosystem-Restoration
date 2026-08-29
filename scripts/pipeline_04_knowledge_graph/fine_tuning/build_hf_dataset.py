@@ -2,13 +2,33 @@ import json
 from datasets import Dataset
 
 import os
-PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+from pathlib import Path
 
-INPUT_JSONL = os.path.join(PROJECT_ROOT, "scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/2.validation/synthetic_dataset_clean.jsonl")
-OUTPUT_DATASET_DIR = os.path.join(PROJECT_ROOT, "scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/3.dataset_prep/hf_dataset")
+PROJECT_ROOT = Path(
+    os.environ.get(
+        "RHINE_PROJECT_ROOT",
+        str(Path(__file__).resolve().parents[3]),
+    )
+).expanduser().resolve()
+
+HF_MODELS_DIR = Path(
+    os.environ.get("HF_MODELS_DIR", str(PROJECT_ROOT / "hf_models"))
+).expanduser().resolve()
+
+FINE_TUNING_OUTPUT_ROOT = Path(
+    os.environ.get(
+        "FINE_TUNING_OUTPUT_ROOT",
+        str(PROJECT_ROOT / "outputs" / "runs" / "fine_tuning"),
+    )
+).expanduser().resolve()
+
+
+INPUT_JSONL = FINE_TUNING_OUTPUT_ROOT / "synthetic_dataset_clean.jsonl"
+OUTPUT_DATASET_DIR = FINE_TUNING_OUTPUT_ROOT / "hf_dataset"
 
 
 def main():
+    OUTPUT_DATASET_DIR.parent.mkdir(parents=True, exist_ok=True)
     records = []
     with open(INPUT_JSONL, "r", encoding="utf-8") as f:
         for line in f:

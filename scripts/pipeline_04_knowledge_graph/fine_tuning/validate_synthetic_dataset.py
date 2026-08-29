@@ -2,12 +2,30 @@ import json
 import re
 
 import os
-PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+from pathlib import Path
 
-ONTOLOGY_COMPACT_PATH = os.path.join(PROJECT_ROOT, "data/ontology/TetraOnto_compact.txt")
-INPUT_JSONL = os.path.join(PROJECT_ROOT, "scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/1.dataset_generation/synthetic_dataset.jsonl")
-OUTPUT_CLEAN_JSONL = os.path.join(PROJECT_ROOT, "scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/2.validation/synthetic_dataset_clean.jsonl")
-OUTPUT_REPORT = os.path.join(PROJECT_ROOT, "scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/2.validation/validation_report.txt")
+PROJECT_ROOT = Path(
+    os.environ.get(
+        "RHINE_PROJECT_ROOT",
+        str(Path(__file__).resolve().parents[3]),
+    )
+).expanduser().resolve()
+
+HF_MODELS_DIR = Path(
+    os.environ.get("HF_MODELS_DIR", str(PROJECT_ROOT / "hf_models"))
+).expanduser().resolve()
+
+FINE_TUNING_OUTPUT_ROOT = Path(
+    os.environ.get(
+        "FINE_TUNING_OUTPUT_ROOT",
+        str(PROJECT_ROOT / "outputs" / "runs" / "fine_tuning"),
+    )
+).expanduser().resolve()
+
+ONTOLOGY_COMPACT_PATH = PROJECT_ROOT / "data" / "ontology" / "TetraOnto_compact.txt"
+INPUT_JSONL = FINE_TUNING_OUTPUT_ROOT / "synthetic_dataset.jsonl"
+OUTPUT_CLEAN_JSONL = FINE_TUNING_OUTPUT_ROOT / "synthetic_dataset_clean.jsonl"
+OUTPUT_REPORT = FINE_TUNING_OUTPUT_ROOT / "validation_report.txt"
 
 MIN_VALID_RATIO = 0.5
 
@@ -77,6 +95,7 @@ def validate_example(example_messages, classes, predicates):
 
 
 def main():
+    FINE_TUNING_OUTPUT_ROOT.mkdir(parents=True, exist_ok=True)
     classes, predicates = parse_ontology(ONTOLOGY_COMPACT_PATH)
     print(f"[ONTOLOGY] {len(classes)} classes, {len(predicates)} predicates loaded")
 

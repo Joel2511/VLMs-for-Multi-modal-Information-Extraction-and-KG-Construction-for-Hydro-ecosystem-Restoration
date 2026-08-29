@@ -103,13 +103,13 @@ The relationship between the thesis pipelines and source code is:
 
 | Thesis component | Current source-code location |
 |---|---|
-| Pipeline 1: layout parsing and extraction | `scripts/code/0.PDF_Extraction_Pipeline/` |
-| Supporting document summarization | `scripts/code/0.1.Pdf_summary/` |
-| Pipeline 2: image-text retrieval | `scripts/code/1.Matching_img_texts_Pipeline/` |
-| Pipeline 3: captioning and ablations | `scripts/code/2.*` |
-| Evaluation and selection metrics | `scripts/code/3.Metrics_Calculation/` |
-| Pipeline 4: triples and KG construction | `scripts/code/4.Triples_creation_pipeline/` |
-| HPC job submission scripts | `scripts/batch_jobs/` |
+| Pipeline 1: layout parsing and extraction | `scripts/pipeline_01_extraction/` |
+| Supporting document summarization | `scripts/pipeline_03_captioning/context_preparation/` |
+| Pipeline 2: image-text retrieval | `scripts/pipeline_02_retrieval/` |
+| Pipeline 3: captioning and ablations | `scripts/pipeline_03_captioning/` |
+| Evaluation and selection metrics | `scripts/evaluation/` |
+| Pipeline 4: triples and KG construction | `scripts/pipeline_04_knowledge_graph/` |
+| HPC job submission scripts | `scripts/**/hpc/` |
 
 This mapping will be updated when the codebase is reorganized into stable pipeline-oriented directories.
 

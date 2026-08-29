@@ -6,12 +6,30 @@ import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
 import os
-PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+from pathlib import Path
 
-ONTOLOGY_TTL_PATH = os.path.join(PROJECT_ROOT, "data/ontology/TetraOnto_compact.txt")
-SEED_TEXT_PATH = os.path.join(PROJECT_ROOT, "outputs/json_results/fichier/extracted_content.json")
-OUTPUT_JSONL = os.path.join(PROJECT_ROOT, "scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/1.dataset_generation/synthetic_dataset.jsonl")
-MODEL_ID = os.path.join(PROJECT_ROOT, "hf_models/Qwen2.5-14B-Instruct")
+PROJECT_ROOT = Path(
+    os.environ.get(
+        "RHINE_PROJECT_ROOT",
+        str(Path(__file__).resolve().parents[3]),
+    )
+).expanduser().resolve()
+
+HF_MODELS_DIR = Path(
+    os.environ.get("HF_MODELS_DIR", str(PROJECT_ROOT / "hf_models"))
+).expanduser().resolve()
+
+FINE_TUNING_OUTPUT_ROOT = Path(
+    os.environ.get(
+        "FINE_TUNING_OUTPUT_ROOT",
+        str(PROJECT_ROOT / "outputs" / "runs" / "fine_tuning"),
+    )
+).expanduser().resolve()
+
+ONTOLOGY_TTL_PATH = PROJECT_ROOT / "data" / "ontology" / "TetraOnto_compact.txt"
+SEED_TEXT_PATH = PROJECT_ROOT / "outputs" / "json_results" / "fichier" / "extracted_content.json"
+OUTPUT_JSONL = FINE_TUNING_OUTPUT_ROOT / "synthetic_dataset.jsonl"
+MODEL_ID = HF_MODELS_DIR / "Qwen2.5-14B-Instruct"
 
 N_GENERAL_EXAMPLES = 130
 N_CONSISTENCY_PAIRS = 25  # -> 50 examples total (2 per pair)
@@ -275,6 +293,7 @@ def count_existing_examples(path, prefix_tag):
     return count
 
 def main():
+    OUTPUT_JSONL.parent.mkdir(parents=True, exist_ok=True)
     ontology = load_ontology(ONTOLOGY_TTL_PATH)
     tokenizer, model = load_model()
 

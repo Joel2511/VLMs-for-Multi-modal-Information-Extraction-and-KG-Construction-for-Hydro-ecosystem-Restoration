@@ -1,5 +1,0 @@
-Total examples processed lines: 180
-Examples kept: 137
-Examples dropped (bad JSON or below 50% valid): 43
-Total triples seen: 2420
-Total triples dropped (bad predicate/placeholder): 753

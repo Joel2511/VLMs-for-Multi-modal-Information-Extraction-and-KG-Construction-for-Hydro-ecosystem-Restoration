@@ -7,7 +7,26 @@ from trl import SFTTrainer, SFTConfig
 from datasets import load_from_disk
 
 import os
-PROJECT_ROOT = os.environ.get("RHINE_PROJECT_ROOT", "/home2020/home/icube/janil/Rhine_proj")
+from pathlib import Path
+
+PROJECT_ROOT = Path(
+    os.environ.get(
+        "RHINE_PROJECT_ROOT",
+        str(Path(__file__).resolve().parents[3]),
+    )
+).expanduser().resolve()
+
+HF_MODELS_DIR = Path(
+    os.environ.get("HF_MODELS_DIR", str(PROJECT_ROOT / "hf_models"))
+).expanduser().resolve()
+
+FINE_TUNING_OUTPUT_ROOT = Path(
+    os.environ.get(
+        "FINE_TUNING_OUTPUT_ROOT",
+        str(PROJECT_ROOT / "outputs" / "runs" / "fine_tuning"),
+    )
+).expanduser().resolve()
+
 
 
 def format_chat_template(dataset, tokenizer):
@@ -25,11 +44,10 @@ def format_chat_template(dataset, tokenizer):
 
 
 MODEL_NAME = "Qwen2.5-14B-Instruct"
-BASE_DIRECTORY = os.path.join(PROJECT_ROOT, "hf_models")
-model_directory = f"{BASE_DIRECTORY}/{MODEL_NAME}"
+model_directory = HF_MODELS_DIR / MODEL_NAME
 
-DATASET_PATH = os.path.join(PROJECT_ROOT, "scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/3.dataset_prep/hf_dataset")
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, "scripts/code/4.Triples_creation_pipeline/fine_tuning_kg/4.training/Qwen2.5-14B-populate-ontology")
+DATASET_PATH = FINE_TUNING_OUTPUT_ROOT / "hf_dataset"
+OUTPUT_DIR = FINE_TUNING_OUTPUT_ROOT / "adapters" / "Qwen2.5-14B-populate-ontology"
 
 torch_dtype = torch.float16
 attn_implementation = "eager"
@@ -40,6 +58,8 @@ bnb_config = BitsAndBytesConfig(
     bnb_4bit_compute_dtype=torch_dtype,
     bnb_4bit_use_double_quant=True,
 )
+
+OUTPUT_DIR.parent.mkdir(parents=True, exist_ok=True)
 
 model = AutoModelForCausalLM.from_pretrained(
     model_directory,
