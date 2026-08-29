@@ -116,7 +116,7 @@ hosted separately because model artifacts are not tracked in GitHub.
 
 1. Download the merged fine-tuned checkpoint archive from Google Drive:
 
-   [Download the merged fine-tuned checkpoint archive from Google Drive](PASTE_GOOGLE_DRIVE_LINK_HERE)
+   [Download the merged fine-tuned checkpoint archive from Google Drive](https://drive.google.com/drive/folders/16nRYdLA0_OSq84LxdGYbj6rFB1oIRMqk?usp=sharing)
 
 2. Verify the archive integrity before extraction.
 
