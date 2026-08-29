@@ -96,27 +96,55 @@ Do not skip this step: the NVILA model does not load correctly in the project en
 
 ## Fine-Tuned Pipeline 4 Model
 
-Pipeline 4 compares the zero-shot `Qwen/Qwen2.5-14B-Instruct` baseline with a LoRA fine-tuned configuration designed to improve ontology-predicate conformance.
+Pipeline 4 compares the zero-shot `Qwen/Qwen2.5-14B-Instruct` baseline with a
+LoRA fine-tuned configuration designed to improve ontology-predicate
+conformance.
 
-The merged fine-tuned checkpoint used for the reported Pipeline 4 results is hosted separately because model artifacts are not tracked in GitHub.
+The merged fine-tuned checkpoint used for the reported Pipeline 4 results is
+hosted separately because model artifacts are not tracked in GitHub.
 
 ### Download the merged checkpoint
 
-1. Download the merged fine-tuned checkpoint from Google Drive:
+1. Download the merged fine-tuned checkpoint archive from Google Drive:
+
+   [Download the merged fine-tuned checkpoint archive from Google Drive](PASTE_GOOGLE_DRIVE_LINK_HERE)
+
+2. Verify the archive integrity before extraction.
+
+   SHA-256 of `Qwen2.5-14B-populate-ontology-merged.tar.gz`:
 
    ```text
-   GOOGLE_DRIVE_LINK_TO_BE_ADDED
+   cdcee16032d66ffab02451fa743a84773f18d6ae712c6b3fd7e5dddeeb50babd
    ```
 
-2. Extract or copy the downloaded model folder into:
+   The checksum is also provided in the accompanying
+   `Qwen2.5-14B-populate-ontology-merged.tar.gz.sha256` file. Place both files
+   in the same directory and run:
+
+   ```bash
+   sha256sum -c Qwen2.5-14B-populate-ontology-merged.tar.gz.sha256
+   ```
+
+3. From the repository root, create the local model directory and extract the
+   archive:
+
+   ```bash
+   mkdir -p hf_models
+   tar -xzf Qwen2.5-14B-populate-ontology-merged.tar.gz -C hf_models/
+   ```
+
+   The expected model path after extraction is:
 
    ```text
    hf_models/Qwen2.5-14B-populate-ontology-merged/
    ```
 
-3. Confirm that the directory contains the model files required by the extraction script, including model configuration, tokenizer files, and model weights.
+4. Confirm that the extracted directory contains the model configuration,
+   tokenizer files, and model-weight files. Do not create an additional nested
+   directory inside `hf_models/Qwen2.5-14B-populate-ontology-merged/`.
 
-The final triple-extraction implementation should reference this directory when the fine-tuned configuration is selected.
+The fine-tuned triple-extraction implementation automatically uses this
+directory when the fine-tuned Pipeline 4 configuration is selected.
 
 ### Local fine-tuning reproduction workflow
 
