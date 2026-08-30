@@ -41,6 +41,63 @@ outputs/runs/demo/<document-name>/
 It does not overwrite the historical thesis outputs stored elsewhere under
 `outputs/`.
 
+## Running the demonstration
+
+After completing the environment and model setup described in
+`MODEL_SETUP.md` and `environments/README.md`, run the tested Slurm
+demonstration from the repository root:
+
+```bash
+sbatch scripts/submit_demo_fichier.sh
+```
+
+This submits one GPU job for the included example document, `fichier`. The
+batch script allocates the tested resources and then invokes:
+
+```bash
+bash scripts/run_demo.sh fichier
+```
+
+Do not run the Slurm wrapper with `bash`; submit it with `sbatch`.
+
+To monitor the submitted job:
+
+```bash
+squeue -u "$USER"
+```
+
+The Slurm standard output and error logs are written to:
+
+```text
+outputs/slurm_logs/demo_fichier_<job-id>.out
+outputs/slurm_logs/demo_fichier_<job-id>.err
+```
+
+The demonstration creates a new isolated run directory:
+
+```text
+outputs/runs/demo/fichier/
+```
+
+When the job completes successfully, open the resulting interactive
+knowledge graph at:
+
+```text
+outputs/runs/demo/fichier/knowledge_graph/html/fichier/interactive_graph.html
+```
+
+To run the same selected workflow for another PDF already placed in
+`data/raw_pdfs/`, use `scripts/run_demo.sh` with that PDF filename or stem
+inside a suitable GPU allocation. For example:
+
+```bash
+bash scripts/run_demo.sh example_document.pdf
+```
+
+For the tested HPC configuration, use `scripts/submit_demo_fichier.sh` as the
+reference when creating a corresponding Slurm submission script for another
+document. The wrapper requests one GPU, 8 CPU cores, 80 GB RAM, and a 12-hour
+wall-time limit.
 ## Directory map
 
 | Directory | Purpose |
