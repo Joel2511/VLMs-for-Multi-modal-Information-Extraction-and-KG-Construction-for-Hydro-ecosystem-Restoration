@@ -43,7 +43,7 @@ A generative VLM describes each extracted image through a two-phase, pixel-first
 - **Phase 1:** image-only visual observation, including visible components and legible text.
 - **Phase 2:** controlled contextual enrichment using retrieved local context and document-level summary information; it retains only image-visible information that is absent from the retrieved text.
 
-Seven candidate VLMs and several context, prompt-engineering, and contrastive-decoding ablations are included. Caption evaluation includes CLIPScore, PAC-S, NLI-based novelty/grounding, VQA-Consistency, and a weighted multi-criteria selection score.
+Seven candidate VLMs and several context, prompt-engineering, and contrastive-decoding ablations are included. Caption evaluation includes NLI-based novelty/grounding, VQA-Consistency, and a weighted multi-criteria selection score.
 
 ### Pipeline 4 : Cross-Modal Knowledge-Graph Construction
 
